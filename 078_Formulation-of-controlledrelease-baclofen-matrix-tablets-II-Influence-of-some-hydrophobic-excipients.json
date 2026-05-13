@@ -1,0 +1,1433 @@
+{
+    "materials_origin": {
+        "baclofen": "Gift from Pharo Pharmaceutical Company, Alexandria, Egypt",
+        "eudragit_rs100": "Rohm GmbH & Co. KG, Darmstadt, Germany",
+        "eudragit_l100": "Rohm GmbH & Co. KG, Darmstadt, Germany",
+        "hydrogenated_castor_oil": "Kawaken Fine Chemical Co., Japan",
+        "dibasic_calcium_phosphate_dihydrate_emcompress": "E.Mendell Co., Inc., Carmel, New York, USA",
+        "dibasic_calcium_phosphate_anhydrous": "Edward Mendell Co., Inc., New York, USA",
+        "magnesium_stearate": "Witco Chemical Co., Chicago, USA"
+    },
+    "experimental_design": {
+        "objective": "Investigate influence of polymer level (20%, 30%, 40%) and type (HCO, E-078_RS100, E-078_L100) and filler type (mannitol, Emcompress, dibasic calcium phosphate anhydrous) on release rate and mechanism of baclofen from matrix tablets.",
+        "formulation_groups": {
+            "rs_series": "E-078_RS100 (pH‑independent), wet granulation, fillers: mannitol (RS‑1 to RS‑3) or Emcompress (RS‑4 to RS‑6)",
+            "l_series": "E-078_L100 (pH‑dependent), wet granulation, fillers: mannitol (L‑1 to L‑3) or Emcompress (L‑4 to L‑6)",
+            "h_series": "HCO (wax), hot‑melt granulation, fillers: mannitol (H‑1 to H‑3) or anhydrous dibasic calcium phosphate (H‑4 to H‑6)"
+        }
+    },
+    "ingredients_identification": {
+        "preparation_method": "Wet granulation: stock ethanolic solutions (50% w/v) of E-078_RS100 or E-078_L100 used as granulating fluid. Hot‑melt granulation: HCO and filler heated to 80‑90°C, drug dispersed, cooled, pulverized.",
+        "drug_content_analysis": "First‑derivative spectrophotometry at 226.5 nm (peak height method).",
+        "equation": "First‑derivative absorbance measured at 226.5 nm; calibration curve used for quantification.",
+        "absorbance": "Not explicitly given; method validated with CV < 1.5%."
+    },
+    "formulation_details": {
+        "RS-1": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_rs100_mg": 20,
+            "e_rs100_percent": 20,
+            "mannitol_mg": 54,
+            "mannitol_percent": 54,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "RS-2": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_rs100_mg": 30,
+            "e_rs100_percent": 30,
+            "mannitol_mg": 44,
+            "mannitol_percent": 44,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "RS-3": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_rs100_mg": 40,
+            "e_rs100_percent": 40,
+            "mannitol_mg": 34,
+            "mannitol_percent": 34,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "RS-4": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_rs100_mg": 20,
+            "e_rs100_percent": 20,
+            "emcompress_mg": 54,
+            "emcompress_percent": 54,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "RS-5": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_rs100_mg": 30,
+            "e_rs100_percent": 30,
+            "emcompress_mg": 44,
+            "emcompress_percent": 44,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "RS-6": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_rs100_mg": 40,
+            "e_rs100_percent": 40,
+            "emcompress_mg": 34,
+            "emcompress_percent": 34,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "L-1": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_l100_mg": 20,
+            "e_l100_percent": 20,
+            "mannitol_mg": 54,
+            "mannitol_percent": 54,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "L-2": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_l100_mg": 30,
+            "e_l100_percent": 30,
+            "mannitol_mg": 44,
+            "mannitol_percent": 44,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "L-3": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_l100_mg": 40,
+            "e_l100_percent": 40,
+            "mannitol_mg": 34,
+            "mannitol_percent": 34,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "L-4": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_l100_mg": 20,
+            "e_l100_percent": 20,
+            "emcompress_mg": 54,
+            "emcompress_percent": 54,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "L-5": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_l100_mg": 30,
+            "e_l100_percent": 30,
+            "emcompress_mg": 44,
+            "emcompress_percent": 44,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "L-6": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "e_l100_mg": 40,
+            "e_l100_percent": 40,
+            "emcompress_mg": 34,
+            "emcompress_percent": 34,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "H-1": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "hco_mg": 20,
+            "hco_percent": 20,
+            "mannitol_mg": 54,
+            "mannitol_percent": 54,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "H-2": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "hco_mg": 30,
+            "hco_percent": 30,
+            "mannitol_mg": 44,
+            "mannitol_percent": 44,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "H-3": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "hco_mg": 40,
+            "hco_percent": 40,
+            "mannitol_mg": 34,
+            "mannitol_percent": 34,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "H-4": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "hco_mg": 20,
+            "hco_percent": 20,
+            "dibasic_calcium_phosphate_anhydrous_mg": 54,
+            "dibasic_calcium_phosphate_anhydrous_percent": 54,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "H-5": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "hco_mg": 30,
+            "hco_percent": 30,
+            "dibasic_calcium_phosphate_anhydrous_mg": 44,
+            "dibasic_calcium_phosphate_anhydrous_percent": 44,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        },
+        "H-6": {
+            "baclofen_mg": 25,
+            "baclofen_percent": 25,
+            "hco_mg": 40,
+            "hco_percent": 40,
+            "dibasic_calcium_phosphate_anhydrous_mg": 34,
+            "dibasic_calcium_phosphate_anhydrous_percent": 34,
+            "magnesium_stearate_mg": 1,
+            "magnesium_stearate_percent": 1,
+            "total_mg": 100
+        }
+    },
+    "pre_compression_parameters": {
+        "RS-1": {
+            "angle_of_repose_deg": 19,
+            "poured_density_g_per_cm3": 0.46,
+            "tapped_density_g_per_cm3": 0.511,
+            "hausner_factor": 1.11,
+            "compressibility_percent": 9.98
+        },
+        "RS-2": {
+            "angle_of_repose_deg": 21,
+            "poured_density_g_per_cm3": 0.461,
+            "tapped_density_g_per_cm3": 0.512,
+            "hausner_factor": 1.11,
+            "compressibility_percent": 11.06
+        },
+        "RS-3": {
+            "angle_of_repose_deg": 18,
+            "poured_density_g_per_cm3": 0.425,
+            "tapped_density_g_per_cm3": 0.495,
+            "hausner_factor": 1.164,
+            "compressibility_percent": 7.0
+        },
+        "RS-4": {
+            "angle_of_repose_deg": 18,
+            "poured_density_g_per_cm3": 0.561,
+            "tapped_density_g_per_cm3": 0.6,
+            "hausner_factor": 1.069,
+            "compressibility_percent": 6.5
+        },
+        "RS-5": {
+            "angle_of_repose_deg": 22,
+            "poured_density_g_per_cm3": 0.501,
+            "tapped_density_g_per_cm3": 0.55,
+            "hausner_factor": 1.097,
+            "compressibility_percent": 8.9
+        },
+        "RS-6": {
+            "angle_of_repose_deg": 20,
+            "poured_density_g_per_cm3": 0.51,
+            "tapped_density_g_per_cm3": 0.545,
+            "hausner_factor": 1.068,
+            "compressibility_percent": 6.42
+        },
+        "L-1": {
+            "angle_of_repose_deg": 14,
+            "poured_density_g_per_cm3": 0.51,
+            "tapped_density_g_per_cm3": 0.544,
+            "hausner_factor": 1.066,
+            "compressibility_percent": 6.25
+        },
+        "L-2": {
+            "angle_of_repose_deg": 16,
+            "poured_density_g_per_cm3": 0.49,
+            "tapped_density_g_per_cm3": 0.523,
+            "hausner_factor": 1.067,
+            "compressibility_percent": 6.3
+        },
+        "L-3": {
+            "angle_of_repose_deg": 12,
+            "poured_density_g_per_cm3": 0.427,
+            "tapped_density_g_per_cm3": 0.448,
+            "hausner_factor": 1.049,
+            "compressibility_percent": 4.68
+        },
+        "L-4": {
+            "angle_of_repose_deg": 15,
+            "poured_density_g_per_cm3": 0.55,
+            "tapped_density_g_per_cm3": 0.594,
+            "hausner_factor": 1.08,
+            "compressibility_percent": 7.4
+        },
+        "L-5": {
+            "angle_of_repose_deg": 18,
+            "poured_density_g_per_cm3": 0.551,
+            "tapped_density_g_per_cm3": 0.601,
+            "hausner_factor": 1.091,
+            "compressibility_percent": 8.31
+        },
+        "L-6": {
+            "angle_of_repose_deg": 17,
+            "poured_density_g_per_cm3": 0.59,
+            "tapped_density_g_per_cm3": 0.631,
+            "hausner_factor": 1.069,
+            "compressibility_percent": 6.49
+        },
+        "H-1": {
+            "angle_of_repose_deg": 14.5,
+            "poured_density_g_per_cm3": 0.627,
+            "tapped_density_g_per_cm3": 0.752,
+            "hausner_factor": 1.199,
+            "compressibility_percent": 12.5
+        },
+        "H-2": {
+            "angle_of_repose_deg": 14,
+            "poured_density_g_per_cm3": 0.601,
+            "tapped_density_g_per_cm3": 0.68,
+            "hausner_factor": 1.131,
+            "compressibility_percent": 11.61
+        },
+        "H-3": {
+            "angle_of_repose_deg": 10,
+            "poured_density_g_per_cm3": 0.521,
+            "tapped_density_g_per_cm3": 0.592,
+            "hausner_factor": 1.136,
+            "compressibility_percent": 11.99
+        },
+        "H-4": {
+            "angle_of_repose_deg": 15,
+            "poured_density_g_per_cm3": 0.702,
+            "tapped_density_g_per_cm3": 0.8,
+            "hausner_factor": 1.139,
+            "compressibility_percent": 12.25
+        },
+        "H-5": {
+            "angle_of_repose_deg": 12,
+            "poured_density_g_per_cm3": 0.703,
+            "tapped_density_g_per_cm3": 0.771,
+            "hausner_factor": 1.096,
+            "compressibility_percent": 8.81
+        },
+        "H-6": {
+            "angle_of_repose_deg": 12,
+            "poured_density_g_per_cm3": 0.66,
+            "tapped_density_g_per_cm3": 0.77,
+            "hausner_factor": 1.166,
+            "compressibility_percent": 14.28
+        }
+    },
+    "independent_variables": {
+        "polymer_type": [
+            "HCO",
+            "E-078_RS100",
+            "E-078_L100"
+        ],
+        "polymer_levels_percent": [
+            20,
+            30,
+            40
+        ],
+        "filler_type": [
+            "mannitol (soluble)",
+            "Emcompress (insoluble, dihydrate)",
+            "dibasic calcium phosphate anhydrous (insoluble, thermostable)"
+        ]
+    },
+    "ftir_spectral_measurements": "FTIR was not performed. Differential scanning calorimetry (DSC) was used to investigate physicochemical compatibility; no solid interactions were detected between baclofen and any excipient.",
+    "tablet_fabrications": {
+        "RS-1": {
+            "thickness_mm": 2.11,
+            "thickness_sd": 0.02,
+            "weight_mg": 100.05,
+            "weight_sd": 0.98,
+            "drug_content_percent": 99.55,
+            "drug_content_sd": 0.45,
+            "hardness_kg": 7.55,
+            "hardness_sd": 0.45,
+            "friability_percent": 0.25
+        },
+        "RS-2": {
+            "thickness_mm": 2.24,
+            "thickness_sd": 0.01,
+            "weight_mg": 102.45,
+            "weight_sd": 0.88,
+            "drug_content_percent": 101.11,
+            "drug_content_sd": 0.48,
+            "hardness_kg": 8.22,
+            "hardness_sd": 0.82,
+            "friability_percent": 0.24
+        },
+        "RS-3": {
+            "thickness_mm": 2.42,
+            "thickness_sd": 0.02,
+            "weight_mg": 99.88,
+            "weight_sd": 1.0,
+            "drug_content_percent": 100.05,
+            "drug_content_sd": 0.8,
+            "hardness_kg": 9.0,
+            "hardness_sd": 0.77,
+            "friability_percent": 0.22
+        },
+        "RS-4": {
+            "thickness_mm": 2.5,
+            "thickness_sd": 0.01,
+            "weight_mg": 100.43,
+            "weight_sd": 1.06,
+            "drug_content_percent": 102.25,
+            "drug_content_sd": 0.45,
+            "hardness_kg": 10.25,
+            "hardness_sd": 0.16,
+            "friability_percent": 0.18
+        },
+        "RS-5": {
+            "thickness_mm": 1.79,
+            "thickness_sd": 0.05,
+            "weight_mg": 100.23,
+            "weight_sd": 1.23,
+            "drug_content_percent": 100.52,
+            "drug_content_sd": 0.79,
+            "hardness_kg": 10.45,
+            "hardness_sd": 0.81,
+            "friability_percent": 0.28
+        },
+        "RS-6": {
+            "thickness_mm": 1.9,
+            "thickness_sd": 0.08,
+            "weight_mg": 101.03,
+            "weight_sd": 1.8,
+            "drug_content_percent": 100.0,
+            "drug_content_sd": 0.65,
+            "hardness_kg": 12.0,
+            "hardness_sd": 1.05,
+            "friability_percent": 0.25
+        },
+        "L-1": {
+            "thickness_mm": 2.08,
+            "thickness_sd": 0.04,
+            "weight_mg": 98.34,
+            "weight_sd": 0.53,
+            "drug_content_percent": 100.44,
+            "drug_content_sd": 0.97,
+            "hardness_kg": 8.25,
+            "hardness_sd": 0.85,
+            "friability_percent": 0.5
+        },
+        "L-2": {
+            "thickness_mm": 2.21,
+            "thickness_sd": 0.15,
+            "weight_mg": 99.52,
+            "weight_sd": 0.98,
+            "drug_content_percent": 100.55,
+            "drug_content_sd": 1.05,
+            "hardness_kg": 8.4,
+            "hardness_sd": 0.66,
+            "friability_percent": 0.5
+        },
+        "L-3": {
+            "thickness_mm": 2.31,
+            "thickness_sd": 0.02,
+            "weight_mg": 100.54,
+            "weight_sd": 1.52,
+            "drug_content_percent": 101.22,
+            "drug_content_sd": 1.05,
+            "hardness_kg": 11.0,
+            "hardness_sd": 0.88,
+            "friability_percent": 0.2
+        },
+        "L-4": {
+            "thickness_mm": 2.38,
+            "thickness_sd": 0.01,
+            "weight_mg": 99.37,
+            "weight_sd": 1.58,
+            "drug_content_percent": 100.82,
+            "drug_content_sd": 0.88,
+            "hardness_kg": 15.55,
+            "hardness_sd": 0.85,
+            "friability_percent": 0.15
+        },
+        "L-5": {
+            "thickness_mm": 1.8,
+            "thickness_sd": 0.02,
+            "weight_mg": 101.03,
+            "weight_sd": 1.87,
+            "drug_content_percent": 99.88,
+            "drug_content_sd": 0.97,
+            "hardness_kg": 5.25,
+            "hardness_sd": 0.66,
+            "friability_percent": 0.5
+        },
+        "L-6": {
+            "thickness_mm": 1.85,
+            "thickness_sd": 0.01,
+            "weight_mg": 99.45,
+            "weight_sd": 1.31,
+            "drug_content_percent": 99.44,
+            "drug_content_sd": 0.52,
+            "hardness_kg": 5.0,
+            "hardness_sd": 0.75,
+            "friability_percent": 0.5
+        },
+        "H-1": {
+            "thickness_mm": 2.3,
+            "thickness_sd": 0.05,
+            "weight_mg": 97.52,
+            "weight_sd": 0.98,
+            "drug_content_percent": 100.0,
+            "drug_content_sd": 1.0,
+            "hardness_kg": 3.97,
+            "hardness_sd": 0.33,
+            "friability_percent": 0.85
+        },
+        "H-2": {
+            "thickness_mm": 2.4,
+            "thickness_sd": 0.07,
+            "weight_mg": 100.54,
+            "weight_sd": 1.02,
+            "drug_content_percent": 99.44,
+            "drug_content_sd": 0.45,
+            "hardness_kg": 4.21,
+            "hardness_sd": 1.0,
+            "friability_percent": 1.0
+        },
+        "H-3": {
+            "thickness_mm": 2.45,
+            "thickness_sd": 0.05,
+            "weight_mg": 100.54,
+            "weight_sd": 0.52,
+            "drug_content_percent": 98.86,
+            "drug_content_sd": 0.55,
+            "hardness_kg": 3.45,
+            "hardness_sd": 0.45,
+            "friability_percent": 1.5
+        },
+        "H-4": {
+            "thickness_mm": 2.52,
+            "thickness_sd": 0.02,
+            "weight_mg": 99.37,
+            "weight_sd": 0.58,
+            "drug_content_percent": 100.54,
+            "drug_content_sd": 1.0,
+            "hardness_kg": 3.22,
+            "hardness_sd": 0.44,
+            "friability_percent": 1.65
+        },
+        "H-5": {
+            "thickness_mm": 1.66,
+            "thickness_sd": 0.01,
+            "weight_mg": 102.45,
+            "weight_sd": 1.08,
+            "drug_content_percent": 99.0,
+            "drug_content_sd": 0.22,
+            "hardness_kg": 4.11,
+            "hardness_sd": 0.32,
+            "friability_percent": 1.0
+        },
+        "H-6": {
+            "thickness_mm": 1.81,
+            "thickness_sd": 0.07,
+            "weight_mg": 99.88,
+            "weight_sd": 0.75,
+            "drug_content_percent": 99.05,
+            "drug_content_sd": 0.55,
+            "hardness_kg": 4.0,
+            "hardness_sd": 0.67,
+            "friability_percent": 1.25
+        }
+    },
+    "process_parameters": {
+        "wet_granulation_RS_L": {
+            "granulation": "Stock ethanolic solutions (50% w/v) of E-078_RS100 or E-078_L100 used; mass screened through 2 mm sieve, dried at 50 °C for 2 h, rescreened through 1 mm sieve.",
+            "compression_device": "Hydraulic press (Shimadzu laboratory, Japan)",
+            "compression_force": "2 tons",
+            "tooling": "6 mm flat‑faced punch and die set",
+            "lubricant": "Magnesium stearate, mixed for 1 min"
+        },
+        "hot_melt_granulation_H": {
+            "granulation": "HCO and filler mixed, heated to 80‑90 °C, drug dispersed, cooled, congealed mass pulverized and screened through 425 µm sieve.",
+            "compression_device": "Hydraulic press (Shimadzu laboratory, Japan)",
+            "compression_force": "0.5 tons (higher forces caused sticking/deformation)",
+            "tooling": "6 mm flat‑faced punch and die set",
+            "lubricant": "Magnesium stearate"
+        }
+    },
+    "release_properties": {
+        "RS-1": {
+            "n": 0.49,
+            "k": 0.63,
+            "mdt_h": 0.84,
+            "r_squared": 0.996,
+            "mechanism": "Fickian diffusion"
+        },
+        "RS-2": {
+            "n": 0.51,
+            "k": 0.52,
+            "mdt_h": 1.2,
+            "r_squared": 0.99,
+            "mechanism": "Anomalous (non‑Fickian)"
+        },
+        "RS-3": {
+            "n": 0.5,
+            "k": 0.41,
+            "mdt_h": 2.0,
+            "r_squared": 0.997,
+            "mechanism": "Fickian diffusion"
+        },
+        "RS-4": {
+            "n": 0.5,
+            "k": 0.43,
+            "mdt_h": 1.75,
+            "r_squared": 0.99,
+            "mechanism": "Fickian diffusion"
+        },
+        "RS-5": {
+            "n": 0.55,
+            "k": 0.4,
+            "mdt_h": 1.86,
+            "r_squared": 0.99,
+            "mechanism": "Anomalous (non‑Fickian)"
+        },
+        "RS-6": {
+            "n": 0.55,
+            "k": 0.35,
+            "mdt_h": 2.35,
+            "r_squared": 0.997,
+            "mechanism": "Anomalous (non‑Fickian)"
+        },
+        "L-1": {
+            "n": 0.58,
+            "k": 0.55,
+            "mdt_h": 1.0,
+            "r_squared": 0.999,
+            "mechanism": "Anomalous (non‑Fickian)"
+        },
+        "L-2": {
+            "n": 0.55,
+            "k": 0.51,
+            "mdt_h": 1.2,
+            "r_squared": 0.9999,
+            "mechanism": "Anomalous (non‑Fickian)"
+        },
+        "L-3": {
+            "n": 0.5,
+            "k": 0.4,
+            "mdt_h": 2.0,
+            "r_squared": 0.999,
+            "mechanism": "Fickian diffusion"
+        },
+        "L-4": {
+            "n": 0.5,
+            "k": 0.46,
+            "mdt_h": 1.57,
+            "r_squared": 0.997,
+            "mechanism": "Fickian diffusion"
+        },
+        "L-5": {
+            "n": 0.47,
+            "k": 0.409,
+            "mdt_h": 2.0,
+            "r_squared": 0.995,
+            "mechanism": "Fickian diffusion"
+        },
+        "L-6": {
+            "n": 0.57,
+            "k": 0.35,
+            "mdt_h": 2.3,
+            "r_squared": 0.999,
+            "mechanism": "Anomalous (non‑Fickian)"
+        },
+        "H-1": {
+            "n": 0.52,
+            "k": 0.52,
+            "mdt_h": 1.17,
+            "r_squared": 0.999,
+            "mechanism": "Anomalous (non‑Fickian)"
+        },
+        "H-2": {
+            "n": 0.5,
+            "k": 0.45,
+            "mdt_h": 1.6,
+            "r_squared": 0.99,
+            "mechanism": "Fickian diffusion"
+        },
+        "H-3": {
+            "n": 0.47,
+            "k": 0.297,
+            "mdt_h": 4.2,
+            "r_squared": 0.97,
+            "mechanism": "Fickian diffusion"
+        },
+        "H-4": {
+            "n": 0.5,
+            "k": 0.356,
+            "mdt_h": 2.63,
+            "r_squared": 0.998,
+            "mechanism": "Fickian diffusion"
+        },
+        "H-5": {
+            "n": 0.47,
+            "k": 0.33,
+            "mdt_h": 3.3,
+            "r_squared": 0.998,
+            "mechanism": "Fickian diffusion"
+        },
+        "H-6": {
+            "n": 0.5,
+            "k": 0.2026,
+            "mdt_h": 6.0,
+            "r_squared": 0.99,
+            "mechanism": "Fickian diffusion"
+        }
+    },
+    "tablet_properties": {
+        "hardness_kg_range": "3.22–15.55",
+        "friability_percent_range": "0.15–1.65 (HCO‑based tablets higher, up to 1.65)",
+        "disintegration_time": "Not measured (matrix tablets designed for sustained release)",
+        "dissolution_profile_summary": "Release profiles showed pH‑dependency (slower in pH 6.8 due to lower baclofen solubility). Higher polymer content decreased release rate; soluble filler (mannitol) increased release; HCO provided strongest retardation. Release kinetics followed Higuchi model and Korsmeyer‑Peppas equation.",
+        "stability": "No significant change in release rate after 6 months storage at ambient room conditions.",
+        "thickness_mm_range": "1.66–2.52",
+        "weight_variation_percent": "Mean weight within ±5% of label claim"
+    },
+    "experimental_data": {
+        "key_results": "Release rate decreased with increasing polymer content; HCO matrices showed strongest retardation; Emcompress (alkaline filler) enhanced release from E‑078_L100 tablets due to pH‑dependent solubility; mannitol increased release by creating pores; wax matrices (HCO) exhibited Fickian diffusion; some E‑078_RS100 and E‑078_L100 tablets showed anomalous transport.",
+        "performance_metrics": "MDT values increased with polymer loading; HCO matrices had significantly higher MDT (p < 0.0001) than E‑078_RS100/E‑078_L100 tablets.",
+        "statistical_analysis": "One‑way ANOVA and unpaired t‑test at 5% significance level used; significant differences (p < 0.001) in release rates among polymer levels and types.",
+        "release_kinetics_modeling": "Higuchi equation best fit (r² > 0.98); Korsmeyer‑Peppas used to determine release exponent n.",
+        "zero_first_order": "Not reported; Higuchi and Korsmeyer‑Peppas were the primary models.",
+        "swelling_water_uptake": "Not studied."
+    },
+    "release_data_figures": {
+        "figure_4_hco_based": {
+            "description": "Percent baclofen released from HCO‑based matrix tablets (H‑1 to H‑6) in pH 1.2 (0‑2 h) and pH 6.8 (2‑8 h).",
+            "formulations": {
+                "H-1": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 45
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 65
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 72
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 75
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 79
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 82
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 85
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 87
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 90
+                    }
+                ],
+                "H-2": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 20
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 35
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 48
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 58
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 67
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 72
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 76
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 80
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 85
+                    }
+                ],
+                "H-3": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 8
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 15
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 22
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 28
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 38
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 47
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 55
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 62
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 72
+                    }
+                ],
+                "H-4": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 35
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 52
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 63
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 68
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 74
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 78
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 81
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 84
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 87
+                    }
+                ],
+                "H-5": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 15
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 27
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 38
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 46
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 56
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 64
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 70
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 75
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 82
+                    }
+                ],
+                "H-6": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 6
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 12
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 17
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 22
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 30
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 38
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 45
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 52
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 62
+                    }
+                ]
+            }
+        },
+        "figure_5_rs100_based": {
+            "description": "Percent baclofen released from E‑078_RS100‑based matrix tablets (RS‑1 to RS‑6) in pH 1.2 (0‑2 h) and pH 6.8 (2‑8 h).",
+            "formulations": {
+                "RS-1": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 60
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 85
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 94
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 96
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 97
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 98
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 99
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 99
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 99
+                    }
+                ],
+                "RS-2": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 45
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 68
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 80
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 85
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 89
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 92
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 94
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 96
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 97
+                    }
+                ],
+                "RS-3": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 28
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 45
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 58
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 65
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 73
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 79
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 84
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 88
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 92
+                    }
+                ],
+                "RS-4": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 45
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 70
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 82
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 88
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 92
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 95
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 96
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 97
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 98
+                    }
+                ],
+                "RS-5": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 32
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 52
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 66
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 74
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 82
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 87
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 91
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 93
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 96
+                    }
+                ],
+                "RS-6": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 20
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 35
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 47
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 55
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 65
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 73
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 79
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 84
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 89
+                    }
+                ]
+            }
+        },
+        "figure_6_l100_based": {
+            "description": "Percent baclofen released from E‑078_L100‑based matrix tablets (L‑1 to L‑6) in pH 1.2 (0‑2 h) and pH 6.8 (2‑8 h).",
+            "formulations": {
+                "L-1": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 50
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 75
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 88
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 94
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 96
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 97
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 98
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 98
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 99
+                    }
+                ],
+                "L-2": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 38
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 60
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 74
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 82
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 87
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 90
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 92
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 94
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 96
+                    }
+                ],
+                "L-3": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 24
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 40
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 52
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 60
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 68
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 74
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 79
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 83
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 88
+                    }
+                ],
+                "L-4": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 40
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 62
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 75
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 82
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 88
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 91
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 93
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 95
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 96
+                    }
+                ],
+                "L-5": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 30
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 48
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 60
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 68
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 76
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 81
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 85
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 88
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 92
+                    }
+                ],
+                "L-6": [
+                    {
+                        "time_h": 0.5,
+                        "percent_released": 20
+                    },
+                    {
+                        "time_h": 1,
+                        "percent_released": 35
+                    },
+                    {
+                        "time_h": 1.5,
+                        "percent_released": 46
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_released": 54
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_released": 64
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_released": 72
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_released": 78
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_released": 83
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_released": 88
+                    }
+                ]
+            }
+        }
+    }
+}

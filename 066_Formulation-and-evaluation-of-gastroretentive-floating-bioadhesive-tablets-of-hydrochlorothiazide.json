@@ -1,0 +1,1168 @@
+{
+    "materials_origin": [
+        {
+            "material": "Hydrochlorothiazide (HCTZ)",
+            "source": "Hetero Laboratories, Hyderabad (gift sample)"
+        },
+        {
+            "material": "HPMC K15M, HPMC K100M, Carbopol 974 P",
+            "source": "Signet Chemical Corporation, Mumbai"
+        },
+        {
+            "material": "Avicel PH 102 (microcrystalline cellulose), Talc, Conc. Hydrochloric acid, Aerosil, Sodium Bicarbonate, Magnesium stearate",
+            "source": "S.D. Fine Chemicals, Mumbai"
+        }
+    ],
+    "experimental_design_optimization": "Twelve formulations were prepared by direct compression using varying concentrations of polymers: HPMC K15M, Carbopol 974P, Xanthan gum, and HPMC K100M. Sodium bicarbonate (50 mg) was used as gas-generating agent. The total tablet weight was kept constant at 300 mg.",
+    "ingredients_identification": {
+        "method": "Calibration curve in 0.1 N HCl",
+        "preparation": "Primary stock 1000 µg/mL in methanol, secondary 100 µg/mL, dilutions 1–10 µg/mL",
+        "equation": "y = 0.03x + 0.024",
+        "R_squared": 0.999,
+        "wavelength_nm": 272,
+        "absorbance_range_µg/mL": "1–10"
+    },
+    "formulation_details": [
+        {
+            "batch": "066_F1",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 90
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 129
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F2",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 120
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 99
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F3",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 150
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 69
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F4",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "Carbopol 974P",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 129
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F5",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 60
+                },
+                {
+                    "name": "Carbopol 974P",
+                    "mass_mg": 60
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 99
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F6",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 75
+                },
+                {
+                    "name": "Carbopol 974P",
+                    "mass_mg": 75
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 69
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F7",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 129
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F8",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 60
+                },
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 60
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 99
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F9",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 75
+                },
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 75
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 69
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F10",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 129
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F11",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 60
+                },
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 60
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 99
+                }
+            ],
+            "total_weight_mg": 300
+        },
+        {
+            "batch": "066_F12",
+            "ingredients": [
+                {
+                    "name": "HCTZ",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 75
+                },
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 75
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 3
+                },
+                {
+                    "name": "Microcrystalline cellulose",
+                    "mass_mg": 69
+                }
+            ],
+            "total_weight_mg": 300
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "066_F1",
+            "bulk_density_g/mL": 0.489,
+            "tapped_density_g/mL": 0.604,
+            "porosity_%": 0.2,
+            "carr_index_%": 20.11,
+            "hausner_ratio": 1.229,
+            "angle_repose_°": 35.55
+        },
+        {
+            "batch": "066_F2",
+            "bulk_density_g/mL": 0.488,
+            "tapped_density_g/mL": 0.6,
+            "porosity_%": 0.201,
+            "carr_index_%": 19.19,
+            "hausner_ratio": 1.222,
+            "angle_repose_°": 33.43
+        },
+        {
+            "batch": "066_F3",
+            "bulk_density_g/mL": 0.479,
+            "tapped_density_g/mL": 0.61,
+            "porosity_%": 0.199,
+            "carr_index_%": 19.99,
+            "hausner_ratio": 1.221,
+            "angle_repose_°": 33.33
+        },
+        {
+            "batch": "066_F4",
+            "bulk_density_g/mL": 0.482,
+            "tapped_density_g/mL": 0.607,
+            "porosity_%": 0.207,
+            "carr_index_%": 20.12,
+            "hausner_ratio": 1.122,
+            "angle_repose_°": 39.61
+        },
+        {
+            "batch": "066_F5",
+            "bulk_density_g/mL": 0.488,
+            "tapped_density_g/mL": 0.603,
+            "porosity_%": 0.19,
+            "carr_index_%": 19.07,
+            "hausner_ratio": 1.233,
+            "angle_repose_°": 37.13
+        },
+        {
+            "batch": "066_F6",
+            "bulk_density_g/mL": 0.481,
+            "tapped_density_g/mL": 0.604,
+            "porosity_%": 0.204,
+            "carr_index_%": 20.36,
+            "hausner_ratio": 1.253,
+            "angle_repose_°": 32.16
+        },
+        {
+            "batch": "066_F7",
+            "bulk_density_g/mL": 0.488,
+            "tapped_density_g/mL": 0.606,
+            "porosity_%": 0.222,
+            "carr_index_%": 19.99,
+            "hausner_ratio": 1.299,
+            "angle_repose_°": 33.66
+        },
+        {
+            "batch": "066_F8",
+            "bulk_density_g/mL": 0.545,
+            "tapped_density_g/mL": 0.704,
+            "porosity_%": 0.225,
+            "carr_index_%": 16.25,
+            "hausner_ratio": 1.194,
+            "angle_repose_°": 29.14
+        },
+        {
+            "batch": "066_F9",
+            "bulk_density_g/mL": 0.504,
+            "tapped_density_g/mL": 0.601,
+            "porosity_%": 0.199,
+            "carr_index_%": 22.64,
+            "hausner_ratio": 1.293,
+            "angle_repose_°": 30.15
+        },
+        {
+            "batch": "066_F10",
+            "bulk_density_g/mL": 0.5,
+            "tapped_density_g/mL": 0.606,
+            "porosity_%": 0.19,
+            "carr_index_%": 21.2,
+            "hausner_ratio": 1.999,
+            "angle_repose_°": 28.99
+        },
+        {
+            "batch": "066_F11",
+            "bulk_density_g/mL": 0.501,
+            "tapped_density_g/mL": 0.605,
+            "porosity_%": 0.195,
+            "carr_index_%": 20.65,
+            "hausner_ratio": 1.385,
+            "angle_repose_°": 35.54
+        },
+        {
+            "batch": "066_F12",
+            "bulk_density_g/mL": 0.535,
+            "tapped_density_g/mL": 0.607,
+            "porosity_%": 0.204,
+            "carr_index_%": 19.91,
+            "hausner_ratio": 1.229,
+            "angle_repose_°": 32.89
+        }
+    ],
+    "independent_variables": "Polymer type (HPMC K15M alone or in combination with Carbopol 974P, Xanthan gum, or HPMC K100M) and concentration (45, 60, 75 mg for secondary polymers; HPMC K15M varied as 90,120,150 mg in alone formulations and 45,60,75 mg in combinations). Sodium bicarbonate fixed at 50 mg.",
+    "ftir_info": "FTIR spectra of pure drug and optimized formulation 066_F4 showed no significant shifts in characteristic peaks, indicating no drug-excipient interaction.",
+    "tablet_fabrications": [
+        {
+            "batch": "066_F1",
+            "hardness_kg/cm2": "5.51±0.01",
+            "friability_%": "0.23±0.05",
+            "weight_variation_raw": "300±25.12±0.02",
+            "drug_content_%": 96.28,
+            "diameter_mm": 9,
+            "consolidation_index_%": 20.11
+        },
+        {
+            "batch": "066_F2",
+            "hardness_kg/cm2": "4.54±0.06",
+            "friability_%": "0.21±0.06",
+            "weight_variation_raw": "300±24.52±0.05",
+            "drug_content_%": 97.23,
+            "diameter_mm": 9,
+            "consolidation_index_%": 19.19
+        },
+        {
+            "batch": "066_F3",
+            "hardness_kg/cm2": "4.12±0.03",
+            "friability_%": "0.20±0.05",
+            "weight_variation_raw": "300±24.23±0.01",
+            "drug_content_%": 99.12,
+            "diameter_mm": 9,
+            "consolidation_index_%": 19.99
+        },
+        {
+            "batch": "066_F4",
+            "hardness_kg/cm2": "4.35±0.09",
+            "friability_%": "0.17±0.04",
+            "weight_variation_raw": "300±26.13±0.03",
+            "drug_content_%": 98.85,
+            "diameter_mm": 9,
+            "consolidation_index_%": 20.12
+        },
+        {
+            "batch": "066_F5",
+            "hardness_kg/cm2": "5.42±0.02",
+            "friability_%": "0.19±0.03",
+            "weight_variation_raw": "300±24.0±0.06",
+            "drug_content_%": 99.54,
+            "diameter_mm": 9,
+            "consolidation_index_%": 19.07
+        },
+        {
+            "batch": "066_F6",
+            "hardness_kg/cm2": "4.58±0.08",
+            "friability_%": "0.20±0.08",
+            "weight_variation_raw": "300±24.4±0.08",
+            "drug_content_%": 99.43,
+            "diameter_mm": 9,
+            "consolidation_index_%": 20.36
+        },
+        {
+            "batch": "066_F7",
+            "hardness_kg/cm2": "4.31±0.19",
+            "friability_%": "0.23±0.05",
+            "weight_variation_raw": "300±24.2±0.01",
+            "drug_content_%": 98.67,
+            "diameter_mm": 9,
+            "consolidation_index_%": 19.99
+        },
+        {
+            "batch": "066_F8",
+            "hardness_kg/cm2": "4.47±0.11",
+            "friability_%": "0.21±0.06",
+            "weight_variation_raw": "300±25.5±0.02",
+            "drug_content_%": 98.97,
+            "diameter_mm": 9,
+            "consolidation_index_%": 16.25
+        },
+        {
+            "batch": "066_F9",
+            "hardness_kg/cm2": "4.49±0.14",
+            "friability_%": "0.20±0.05",
+            "weight_variation_raw": "300±25.3±0.04",
+            "drug_content_%": 98.28,
+            "diameter_mm": 9,
+            "consolidation_index_%": 22.64
+        },
+        {
+            "batch": "066_F10",
+            "hardness_kg/cm2": "5.4±0.12",
+            "friability_%": "0.20±0.05",
+            "weight_variation_raw": "300±25.2±0.03",
+            "drug_content_%": 99.43,
+            "diameter_mm": 9,
+            "consolidation_index_%": 21.2
+        },
+        {
+            "batch": "066_F11",
+            "hardness_kg/cm2": "4.33±0.21",
+            "friability_%": "0.22±0.07",
+            "weight_variation_raw": "300±24.35±0.06",
+            "drug_content_%": 98.12,
+            "diameter_mm": 9,
+            "consolidation_index_%": 20.65
+        },
+        {
+            "batch": "066_F12",
+            "hardness_kg/cm2": "4.30±0.04",
+            "friability_%": "0.21±0.03",
+            "weight_variation_raw": "300±25.7±0.05",
+            "drug_content_%": 99.48,
+            "diameter_mm": 9,
+            "consolidation_index_%": 19.91
+        }
+    ],
+    "process_parameters": {
+        "method": "Direct compression",
+        "equipment": "Compression machine with 9 mm 'B' tooling round punch",
+        "pressure": "Specified pressure (not detailed)",
+        "coating": "None",
+        "conditions": "Room temperature"
+    },
+    "release_properties": [
+        {
+            "batch": "066_F1",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                3.6,
+                20.6,
+                26.9,
+                37.4,
+                42.1,
+                54.3,
+                67.5,
+                73.7,
+                79.2,
+                82.5,
+                87.8,
+                90.1
+            ]
+        },
+        {
+            "batch": "066_F2",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                11.2,
+                16.4,
+                22.9,
+                34.3,
+                39.1,
+                44.3,
+                51.6,
+                59.9,
+                67.7,
+                74.2,
+                78.5,
+                81.3
+            ]
+        },
+        {
+            "batch": "066_F3",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                9.7,
+                12.9,
+                17.3,
+                23.5,
+                32.6,
+                38.4,
+                43.7,
+                57.3,
+                62.9,
+                69.3,
+                73.1,
+                78.1
+            ]
+        },
+        {
+            "batch": "066_F4",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                12.8,
+                31.3,
+                40.8,
+                47.3,
+                55.1,
+                62.7,
+                70.4,
+                76.3,
+                81.9,
+                86.5,
+                90.9,
+                98.8
+            ],
+            "kinetics": {
+                "zero_order_R2": 0.9366,
+                "first_order_R2": 0.9364,
+                "higuchi_R2": 0.9974,
+                "korsmeyer_peppas_R2": 0.968,
+                "korsmeyer_peppas_n": 0.7212,
+                "hixon_crowell_R2": 0.9283
+            }
+        },
+        {
+            "batch": "066_F5",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                11.3,
+                21.9,
+                31.9,
+                39.1,
+                46.9,
+                51.9,
+                57.6,
+                64.4,
+                70.6,
+                77.5,
+                81.6,
+                87.6
+            ]
+        },
+        {
+            "batch": "066_F6",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                0.5,
+                18.6,
+                22.7,
+                29.3,
+                34.4,
+                41.8,
+                54.4,
+                58.5,
+                63.4,
+                69.2,
+                74.3,
+                80.8
+            ]
+        },
+        {
+            "batch": "066_F7",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                13.2,
+                28.3,
+                34.5,
+                40.7,
+                51.6,
+                58.6,
+                64.4,
+                69.4,
+                76.2,
+                81.7,
+                87.2,
+                94.8
+            ]
+        },
+        {
+            "batch": "066_F8",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                10.6,
+                14.7,
+                20.9,
+                26.8,
+                32.8,
+                37.5,
+                44.6,
+                51.8,
+                59.8,
+                67.8,
+                76.5,
+                83.2
+            ]
+        },
+        {
+            "batch": "066_F9",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                9.6,
+                12.9,
+                15.7,
+                21.6,
+                29.1,
+                36.5,
+                41.6,
+                54.6,
+                60.4,
+                67.2,
+                70.6,
+                78.9
+            ]
+        },
+        {
+            "batch": "066_F10",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                15.8,
+                19.2,
+                24.9,
+                35.8,
+                40.7,
+                52.8,
+                65.2,
+                72.6,
+                78.4,
+                81.6,
+                86.5,
+                90.8
+            ]
+        },
+        {
+            "batch": "066_F11",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                12.8,
+                17.8,
+                20.8,
+                31.9,
+                36.3,
+                41.4,
+                48.8,
+                57.3,
+                64.7,
+                70.8,
+                76.3,
+                84.7
+            ]
+        },
+        {
+            "batch": "066_F12",
+            "time_h": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "release_%": [
+                0,
+                11.7,
+                14.8,
+                18.7,
+                28.4,
+                31.8,
+                38.9,
+                47.6,
+                53.7,
+                60.8,
+                69.7,
+                72.3,
+                73.7
+            ]
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "066_F1",
+            "floating_lag_time_s": 75,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "9.4±0.28",
+            "force_of_adhesion_N": 0.92,
+            "similarity_factor_f2": 73.8,
+            "difference_factor_f1": 26.6
+        },
+        {
+            "batch": "066_F2",
+            "floating_lag_time_s": 82,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "10.1±0.52",
+            "force_of_adhesion_N": 0.99,
+            "similarity_factor_f2": 73.9,
+            "difference_factor_f1": 26.1
+        },
+        {
+            "batch": "066_F3",
+            "floating_lag_time_s": 76,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "15.6±0.39",
+            "force_of_adhesion_N": 1.53,
+            "similarity_factor_f2": 73.9,
+            "difference_factor_f1": 26.1
+        },
+        {
+            "batch": "066_F4",
+            "floating_lag_time_s": 70,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "43.6±0.21",
+            "force_of_adhesion_N": 4.27,
+            "similarity_factor_f2": 73.71,
+            "difference_factor_f1": 25.3
+        },
+        {
+            "batch": "066_F5",
+            "floating_lag_time_s": 89,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "44.2±0.36",
+            "force_of_adhesion_N": 4.33,
+            "similarity_factor_f2": 73.73,
+            "difference_factor_f1": 25.5
+        },
+        {
+            "batch": "066_F6",
+            "floating_lag_time_s": 84,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "45.4±0.27",
+            "force_of_adhesion_N": 4.45,
+            "similarity_factor_f2": 78.64,
+            "difference_factor_f1": 24.5
+        },
+        {
+            "batch": "066_F7",
+            "floating_lag_time_s": 90,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "22.5±0.15",
+            "force_of_adhesion_N": 2.2,
+            "similarity_factor_f2": 79.66,
+            "difference_factor_f1": 24.6
+        },
+        {
+            "batch": "066_F8",
+            "floating_lag_time_s": 75,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "21.4±0.37",
+            "force_of_adhesion_N": 2.09,
+            "similarity_factor_f2": 84.29,
+            "difference_factor_f1": 16.81
+        },
+        {
+            "batch": "066_F9",
+            "floating_lag_time_s": 84,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "24.2±0.46",
+            "force_of_adhesion_N": 2.37,
+            "similarity_factor_f2": 76.22,
+            "difference_factor_f1": 24.7
+        },
+        {
+            "batch": "066_F10",
+            "floating_lag_time_s": 79,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "26.6±0.31",
+            "force_of_adhesion_N": 2.6,
+            "similarity_factor_f2": 75.6,
+            "difference_factor_f1": 25.1
+        },
+        {
+            "batch": "066_F11",
+            "floating_lag_time_s": 87,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "28.2±0.42",
+            "force_of_adhesion_N": 2.76,
+            "similarity_factor_f2": null,
+            "difference_factor_f1": null
+        },
+        {
+            "batch": "066_F12",
+            "floating_lag_time_s": 86,
+            "total_floating_time_h": ">12",
+            "bioadhesion_strength_g": "29.6±0.25",
+            "force_of_adhesion_N": 2.9,
+            "similarity_factor_f2": null,
+            "difference_factor_f1": null
+        }
+    ]
+}

@@ -1,0 +1,515 @@
+{
+  "abstract": {
+    "summary": "The study investigated the effect of different polymers (Eudragit RS PO and Kollidon SR) on the release profile and bio-adhesive strength of ciprofloxacin HCl from co-matrix tablets. Tablets were prepared by direct compression. Bio-adhesion was measured using an in vitro wash-off method. Results showed Eudragit RS PO tablets released a greater percentage of drug, while Kollidon SR and xanthan gum provided better bio-adhesive strength. Xanthan gum was identified as a suitable synergist for controlled release, meeting USP specifications."
+  },
+  "introduction": {
+    "background": "Orally administered controlled release dosage forms face challenges like short gastric retention time (GRT) and unpredictable gastric emptying. Bio-adhesive systems are explored to prolong GI residence time and improve site-specific drug absorption. Matrix systems using polymers are common for sustained release. Polymers can be insoluble/skeleton matrices or hydrophobic/erodible materials. Drug release mechanisms include diffusion, degradation, and swelling. Hydrophobic polymers can control release and enhance mucosal retention."
+  },
+  "materials_and_methods": {
+    "materials_origin": {
+      "ciprofloxacin_HCl_monohydrate": "Beximco Pharmaceuticals Limited",
+      "povidone_K-30": "Loba Chem Pvt. Ltd, India",
+      "sodium_bicarbonate": "Loba Chem Pvt. Ltd, India",
+      "citric_acid": "Loba Chem Pvt. Ltd, India",
+      "microcrystalline_cellulose_Avicel_PH_102": "Loba Chem Pvt. Ltd, India",
+      "xanthan_gum": "Loba Chem Pvt. Ltd, India",
+      "magnesium_stearate": "Hanau Chemicals Ltd. (Japan)",
+      "aerosil": "Hanau Chemicals Ltd. (Japan)",
+      "gastric_mucosa": "Local slaughter-house, Dhaka, Bangladesh"
+    },
+    "experimental_design_for_optimization": {
+      "preparation_method": "Direct compression technique. Active ingredients, polymers, filler, lubricant, and flow promoter were blended and compressed.",
+      "results": "Drug release and bio-adhesion were evaluated. Higher polymer content increased MDT and generally decreased drug release. Bio-adhesion strength decreased as xanthan gum content decreased.",
+      "equation_used": [
+        "Zero-order: M_t = M_0 + k_0 t",
+        "Higuchi: M_t = M_0 - k_H t^(1/2)",
+        "Korsmeyer-Peppas: log(M/M_s) = log k + n log t"
+      ],
+      "absorbance_wavelength": "276 nm for ciprofloxacin HCl analysis via UV spectrophotometer."
+    },
+    "formulation_details": [
+      {
+        "batch": "F-1",
+        "ingredients": {
+          "Ciprofloxacin HCl": "582 mg",
+          "Eudragit RS PO": "50 mg",
+          "Kollidon SR": "-",
+          "Povidone K 30": "50 mg",
+          "Xanthan gum": "100 mg",
+          "Citric acid": "20 mg",
+          "Sodium bicarbonate": "50 mg",
+          "Avicel PH 102": "130 mg",
+          "Aerosil": "10 mg",
+          "Magnesium stearate": "8 mg"
+        },
+        "percent_of_polymers": "5% Eudragit RS PO, 10% Xanthan gum",
+        "total_weight_mg": 1000
+      },
+      {
+        "batch": "F-2",
+        "ingredients": {
+          "Ciprofloxacin HCl": "582 mg",
+          "Eudragit RS PO": "80 mg",
+          "Kollidon SR": "-",
+          "Povidone K 30": "50 mg",
+          "Xanthan gum": "70 mg",
+          "Citric acid": "25 mg",
+          "Sodium bicarbonate": "45 mg",
+          "Avicel PH 102": "130 mg",
+          "Aerosil": "10 mg",
+          "Magnesium stearate": "8 mg"
+        },
+        "percent_of_polymers": "8.7% Eudragit RS PO, 7% Xanthan gum",
+        "total_weight_mg": 1000
+      },
+      {
+        "batch": "F-3",
+        "ingredients": {
+          "Ciprofloxacin HCl": "582 mg",
+          "Eudragit RS PO": "110 mg",
+          "Kollidon SR": "-",
+          "Povidone K 30": "50 mg",
+          "Xanthan gum": "40 mg",
+          "Citric acid": "30 mg",
+          "Sodium bicarbonate": "40 mg",
+          "Avicel PH 102": "130 mg",
+          "Aerosil": "10 mg",
+          "Magnesium stearate": "8 mg"
+        },
+        "percent_of_polymers": "11.4% Eudragit RS PO, 4% Xanthan gum",
+        "total_weight_mg": 1000
+      },
+      {
+        "batch": "F-4",
+        "ingredients": {
+          "Ciprofloxacin HCl": "582 mg",
+          "Eudragit RS PO": "140 mg",
+          "Kollidon SR": "-",
+          "Povidone K 30": "50 mg",
+          "Xanthan gum": "10 mg",
+          "Citric acid": "35 mg",
+          "Sodium bicarbonate": "35 mg",
+          "Avicel PH 102": "130 mg",
+          "Aerosil": "10 mg",
+          "Magnesium stearate": "8 mg"
+        },
+        "percent_of_polymers": "14% Eudragit RS PO, 1% Xanthan gum",
+        "total_weight_mg": 1000
+      },
+      {
+        "batch": "F-5",
+        "ingredients": {
+          "Ciprofloxacin HCl": "582 mg",
+          "Eudragit RS PO": "-",
+          "Kollidon SR": "50 mg",
+          "Povidone K 30": "50 mg",
+          "Xanthan gum": "100 mg",
+          "Citric acid": "20 mg",
+          "Sodium bicarbonate": "50 mg",
+          "Avicel PH 102": "130 mg",
+          "Aerosil": "10 mg",
+          "Magnesium stearate": "8 mg"
+        },
+        "percent_of_polymers": "5% Kollidon SR, 10% Xanthan gum",
+        "total_weight_mg": 1000
+      },
+      {
+        "batch": "F-6",
+        "ingredients": {
+          "Ciprofloxacin HCl": "582 mg",
+          "Eudragit RS PO": "-",
+          "Kollidon SR": "80 mg",
+          "Povidone K 30": "50 mg",
+          "Xanthan gum": "70 mg",
+          "Citric acid": "25 mg",
+          "Sodium bicarbonate": "45 mg",
+          "Avicel PH 102": "130 mg",
+          "Aerosil": "10 mg",
+          "Magnesium stearate": "8 mg"
+        },
+        "percent_of_polymers": "8.7% Kollidon SR, 7% Xanthan gum",
+        "total_weight_mg": 1000
+      },
+      {
+        "batch": "F-7",
+        "ingredients": {
+          "Ciprofloxacin HCl": "582 mg",
+          "Eudragit RS PO": "-",
+          "Kollidon SR": "110 mg",
+          "Povidone K 30": "50 mg",
+          "Xanthan gum": "40 mg",
+          "Citric acid": "30 mg",
+          "Sodium bicarbonate": "40 mg",
+          "Avicel PH 102": "130 mg",
+          "Aerosil": "10 mg",
+          "Magnesium stearate": "8 mg"
+        },
+        "percent_of_polymers": "11.4% Kollidon SR, 4% Xanthan gum",
+        "total_weight_mg": 1000
+      },
+      {
+        "batch": "F-8",
+        "ingredients": {
+          "Ciprofloxacin HCl": "582 mg",
+          "Eudragit RS PO": "-",
+          "Kollidon SR": "140 mg",
+          "Povidone K 30": "50 mg",
+          "Xanthan gum": "10 mg",
+          "Citric acid": "35 mg",
+          "Sodium bicarbonate": "35 mg",
+          "Avicel PH 102": "130 mg",
+          "Aerosil": "10 mg",
+          "Magnesium stearate": "8 mg"
+        },
+        "percent_of_polymers": "14% Kollidon SR, 1% Xanthan gum",
+        "total_weight_mg": 1000
+      }
+    ],
+    "pre_compression_parameters": "Not specified in the provided text.",
+    "composition_of_independent_variables": {
+      "variables": [
+        "Type of rate-retarding polymer (Eudragit RS PO or Kollidon SR)",
+        "Concentration of rate-retarding polymer (50, 80, 110, 140 mg)",
+        "Concentration of Xanthan gum (100, 70, 40, 10 mg)"
+      ],
+      "levels": "Four levels for each polymer type, based on mass."
+    },
+    "ftir_spectral_measurements": "Not specified in the provided text.",
+    "tablet_fabrications": {
+      "method": "Direct compression using a 16-station Manesty compression machine.",
+      "determinations": {
+        "hardness": "Reported in Table 3 (Average hardness in Kg).",
+        "friability": "Reported in Table 3 (Friability %).",
+        "weight_variation": "Reported in Table 3 (Weight variation %).",
+        "thickness": "Reported in Table 3 (Average thickness in mm).",
+        "diameter": "Reported in Table 3 (Average length and width in mm, used as diameter for these capsule-shaped tablets?).",
+        "density_of_formulation": "Not specified.",
+        "drug_content_in_tablet": "Not directly reported, but amount of API used is constant (582 mg).",
+        "consolidation_index": "Not specified."
+      }
+    },
+    "process_parameters": {
+      "compression_device": "16-station Manesty compression machine",
+      "pressure": "Constant compression pressure (value not specified)",
+      "coating": "None (matrix tablets)",
+      "equipment_used": "Drum blender, 16-station Manesty compression machine, USP XXII dissolution apparatus II (paddle), UV-XXII spectrophotometer (Shimadzu, Japan), USP tablet disintegrating test machine.",
+      "process_conditions": {
+        "temperature": "37 ± 0.5°C (dissolution study, bio-adhesion study)",
+        "pressure": "Constant but unspecified compression pressure."
+      }
+    }
+  },
+  "results_and_discussion": {
+    "release_properties": [
+      {
+        "batch": "F-1",
+        "release_percent_8h": 98.204,
+        "release_mechanism": "Anomalous transport (coupling of diffusion and erosion)",
+        "release_kinetics": "Korsmeyer-Peppas (R² = 0.9980)",
+        "korsmeyer_n": 0.7112,
+        "mdt_hrs": 2.947,
+        "release_profile": [
+          {"time_h": 1, "release_percent": 11.9},
+          {"time_h": 2, "release_percent": 23.8},
+          {"time_h": 3, "release_percent": 35.7},
+          {"time_h": 4, "release_percent": 47.6},
+          {"time_h": 5, "release_percent": 59.5},
+          {"time_h": 6, "release_percent": 71.3},
+          {"time_h": 7, "release_percent": 83.2},
+          {"time_h": 8, "release_percent": 95.1}
+        ]
+      },
+      {
+        "batch": "F-2",
+        "release_percent_8h": 87.43,
+        "release_mechanism": "Anomalous transport (coupling of diffusion and erosion)",
+        "release_kinetics": "Korsmeyer-Peppas (R² = 0.9955)",
+        "korsmeyer_n": 0.725,
+        "mdt_hrs": 3.46,
+        "release_profile": [
+          {"time_h": 1, "release_percent": 10.8},
+          {"time_h": 2, "release_percent": 21.7},
+          {"time_h": 3, "release_percent": 32.5},
+          {"time_h": 4, "release_percent": 43.3},
+          {"time_h": 5, "release_percent": 54.2},
+          {"time_h": 6, "release_percent": 65.0},
+          {"time_h": 7, "release_percent": 75.8},
+          {"time_h": 8, "release_percent": 86.6}
+        ]
+      },
+      {
+        "batch": "F-3",
+        "release_percent_8h": 81.228,
+        "release_mechanism": "Anomalous transport (coupling of diffusion and erosion)",
+        "release_kinetics": "Korsmeyer-Peppas (R² = 0.9918)",
+        "korsmeyer_n": 0.728,
+        "mdt_hrs": 3.912,
+        "release_profile": [
+          {"time_h": 1, "release_percent": 10.1},
+          {"time_h": 2, "release_percent": 20.1},
+          {"time_h": 3, "release_percent": 30.2},
+          {"time_h": 4, "release_percent": 40.2},
+          {"time_h": 5, "release_percent": 50.3},
+          {"time_h": 6, "release_percent": 60.4},
+          {"time_h": 7, "release_percent": 70.4},
+          {"time_h": 8, "release_percent": 80.5}
+        ]
+      },
+      {
+        "batch": "F-4",
+        "release_percent_8h": 73.327,
+        "release_mechanism": "Anomalous transport (coupling of diffusion and erosion)",
+        "release_kinetics": "Korsmeyer-Peppas (R² = 0.9848)",
+        "korsmeyer_n": 0.7563,
+        "mdt_hrs": 4.593,
+        "release_profile": [
+          {"time_h": 1, "release_percent": 9.3},
+          {"time_h": 2, "release_percent": 18.5},
+          {"time_h": 3, "release_percent": 27.8},
+          {"time_h": 4, "release_percent": 37.0},
+          {"time_h": 5, "release_percent": 46.3},
+          {"time_h": 6, "release_percent": 55.6},
+          {"time_h": 7, "release_percent": 64.8},
+          {"time_h": 8, "release_percent": 74.1}
+        ]
+      },
+      {
+        "batch": "F-5",
+        "release_percent_8h": 79.468,
+        "release_mechanism": "Anomalous transport (coupling of diffusion and erosion)",
+        "release_kinetics": "Korsmeyer-Peppas (R² = 0.9916)",
+        "korsmeyer_n": 0.733,
+        "mdt_hrs": 4.435,
+        "release_profile": [
+          {"time_h": 1, "release_percent": 9.4},
+          {"time_h": 2, "release_percent": 18.7},
+          {"time_h": 3, "release_percent": 28.1},
+          {"time_h": 4, "release_percent": 37.5},
+          {"time_h": 5, "release_percent": 46.9},
+          {"time_h": 6, "release_percent": 56.2},
+          {"time_h": 7, "release_percent": 65.6},
+          {"time_h": 8, "release_percent": 75.0}
+        ]
+      },
+      {
+        "batch": "F-6",
+        "release_percent_8h": 68.692,
+        "release_mechanism": "Anomalous transport (coupling of diffusion and erosion)",
+        "release_kinetics": "Korsmeyer-Peppas (R² = 0.9900)",
+        "korsmeyer_n": 0.722,
+        "mdt_hrs": 5.426,
+        "release_profile": [
+          {"time_h": 1, "release_percent": 7.9},
+          {"time_h": 2, "release_percent": 15.9},
+          {"time_h": 3, "release_percent": 23.8},
+          {"time_h": 4, "release_percent": 31.7},
+          {"time_h": 5, "release_percent": 39.7},
+          {"time_h": 6, "release_percent": 47.6},
+          {"time_h": 7, "release_percent": 55.5},
+          {"time_h": 8, "release_percent": 63.4}
+        ]
+      },
+      {
+        "batch": "F-7",
+        "release_percent_8h": 56.108,
+        "release_mechanism": "Anomalous transport (coupling of diffusion and erosion)",
+        "release_kinetics": "Korsmeyer-Peppas (R² = 0.9977)",
+        "korsmeyer_n": 0.7374,
+        "mdt_hrs": 6.646,
+        "release_profile": [
+          {"time_h": 1, "release_percent": 6.9},
+          {"time_h": 2, "release_percent": 13.9},
+          {"time_h": 3, "release_percent": 20.8},
+          {"time_h": 4, "release_percent": 27.8},
+          {"time_h": 5, "release_percent": 34.7},
+          {"time_h": 6, "release_percent": 41.6},
+          {"time_h": 7, "release_percent": 48.6},
+          {"time_h": 8, "release_percent": 55.5}
+        ]
+      },
+      {
+        "batch": "F-8",
+        "release_percent_8h": 49.835,
+        "release_mechanism": "Anomalous transport (coupling of diffusion and erosion)",
+        "release_kinetics": "Korsmeyer-Peppas (R² = 0.9966)",
+        "korsmeyer_n": 0.7929,
+        "mdt_hrs": 8.11,
+        "release_profile": [
+          {"time_h": 1, "release_percent": 6.0},
+          {"time_h": 2, "release_percent": 11.9},
+          {"time_h": 3, "release_percent": 17.9},
+          {"time_h": 4, "release_percent": 23.9},
+          {"time_h": 5, "release_percent": 29.9},
+          {"time_h": 6, "release_percent": 35.8},
+          {"time_h": 7, "release_percent": 41.8},
+          {"time_h": 8, "release_percent": 47.8}
+        ]
+      }
+    ],
+    "factors_influencing_release": [
+      "Polymer type (Eudragit RS PO vs. Kollidon SR)",
+      "Polymer concentration",
+      "Xanthan gum concentration",
+      "pH (0.1 N HCl, pH 1.2 was used in the study)"
+    ],
+    "tablet_properties": [
+      {
+        "batch": "F-1",
+        "hardness_kg": 13.14,
+        "friability_percent": 0.21,
+        "length_mm": 9.21,
+        "width_mm": 9.00,
+        "thickness_mm": 7.50,
+        "weight_variation_percent": 0.08,
+        "gastro_retention_time_hrs": 2.900,
+        "disintegration_time": "Not specified",
+        "dissolution_profile": "98.2% in 8 hours",
+        "stability": "Not specified",
+        "lag_time": "Not specified",
+        "total_floating_time": "Not specified",
+        "swelling_index": "Not specified"
+      },
+      {
+        "batch": "F-2",
+        "hardness_kg": 14.20,
+        "friability_percent": 0.11,
+        "length_mm": 9.25,
+        "width_mm": 8.99,
+        "thickness_mm": 7.25,
+        "weight_variation_percent": 0.08,
+        "gastro_retention_time_hrs": 2.725,
+        "disintegration_time": "Not specified",
+        "dissolution_profile": "87.4% in 8 hours",
+        "stability": "Not specified",
+        "lag_time": "Not specified",
+        "total_floating_time": "Not specified",
+        "swelling_index": "Not specified"
+      },
+      {
+        "batch": "F-3",
+        "hardness_kg": 14.38,
+        "friability_percent": 0.31,
+        "length_mm": 9.26,
+        "width_mm": 8.89,
+        "thickness_mm": 7.56,
+        "weight_variation_percent": 0.04,
+        "gastro_retention_time_hrs": 2.375,
+        "disintegration_time": "Not specified",
+        "dissolution_profile": "81.2% in 8 hours",
+        "stability": "Not specified",
+        "lag_time": "Not specified",
+        "total_floating_time": "Not specified",
+        "swelling_index": "Not specified"
+      },
+      {
+        "batch": "F-4",
+        "hardness_kg": 15.76,
+        "friability_percent": 0.21,
+        "length_mm": 9.25,
+        "width_mm": 8.57,
+        "thickness_mm": 7.70,
+        "weight_variation_percent": 0.09,
+        "gastro_retention_time_hrs": 2.050,
+        "disintegration_time": "Not specified",
+        "dissolution_profile": "73.3% in 8 hours",
+        "stability": "Not specified",
+        "lag_time": "Not specified",
+        "total_floating_time": "Not specified",
+        "swelling_index": "Not specified"
+      },
+      {
+        "batch": "F-5",
+        "hardness_kg": 14.84,
+        "friability_percent": 0.31,
+        "length_mm": 9.12,
+        "width_mm": 8.89,
+        "thickness_mm": 7.97,
+        "weight_variation_percent": 0.07,
+        "gastro_retention_time_hrs": 3.500,
+        "disintegration_time": "Not specified",
+        "dissolution_profile": "79.5% in 8 hours",
+        "stability": "Not specified",
+        "lag_time": "Not specified",
+        "total_floating_time": "Not specified",
+        "swelling_index": "Not specified"
+      },
+      {
+        "batch": "F-6",
+        "hardness_kg": 15.45,
+        "friability_percent": 0.11,
+        "length_mm": 9.12,
+        "width_mm": 8.90,
+        "thickness_mm": 7.26,
+        "weight_variation_percent": 0.00,
+        "gastro_retention_time_hrs": 2.775,
+        "disintegration_time": "Not specified",
+        "dissolution_profile": "68.7% in 8 hours",
+        "stability": "Not specified",
+        "lag_time": "Not specified",
+        "total_floating_time": "Not specified",
+        "swelling_index": "Not specified"
+      },
+      {
+        "batch": "F-7",
+        "hardness_kg": 16.40,
+        "friability_percent": 0.21,
+        "length_mm": 9.13,
+        "width_mm": 8.65,
+        "thickness_mm": 7.57,
+        "weight_variation_percent": 0.06,
+        "gastro_retention_time_hrs": 2.550,
+        "disintegration_time": "Not specified",
+        "dissolution_profile": "56.1% in 8 hours",
+        "stability": "Not specified",
+        "lag_time": "Not specified",
+        "total_floating_time": "Not specified",
+        "swelling_index": "Not specified"
+      },
+      {
+        "batch": "F-8",
+        "hardness_kg": 16.51,
+        "friability_percent": 0.31,
+        "length_mm": 9.35,
+        "width_mm": 8.27,
+        "thickness_mm": 7.68,
+        "weight_variation_percent": 0.02,
+        "gastro_retention_time_hrs": 2.375,
+        "disintegration_time": "Not specified",
+        "dissolution_profile": "49.8% in 8 hours",
+        "stability": "Not specified",
+        "lag_time": "Not specified",
+        "total_floating_time": "Not specified",
+        "swelling_index": "Not specified"
+      }
+    ],
+    "experimental_data": {
+      "key_results": "Kollidon SR provided better drug retarding ability and bio-adhesion compared to Eudragit RS PO. Xanthan gum acted as a bio-adhesion synergist. Higher polymer concentrations led to lower drug release and higher MDT. Bio-adhesion strength decreased with decreasing xanthan gum content.",
+      "performance_metrics": {
+        "release_percent_8h": "Ranged from 49.8% (F-8) to 98.2% (F-1)",
+        "mdt_hrs": "Ranged from 2.947 (F-1) to 8.11 (F-8)",
+        "gastro_retention_time_hrs": "Ranged from 2.050 (F-4) to 3.500 (F-5)"
+      },
+      "statistical_analysis": "R² values for kinetic modeling are provided. Korsmeyer-Peppas model showed high fit (R² > 0.98) for all formulations."
+    }
+  },
+  "conclusion": {
+    "summary": "Eudragit RS PO with xanthan gum is suitable for bio-adhesive sustained release dosage forms. Kollidon SR offers good sustaining properties with moderate bio-adhesion. The choice of polymer and concentration is critical for optimizing release and bio-adhesion. Further in vivo studies are recommended to confirm these findings."
+  },
+  "references": {
+    "citations": [
+      "Vyas, S.P. and Khar, R.K. 2002. Controlled Drug Delivery, 1st ed. Jain, M.K., Published by CBS publishers, Delhi, p. 199.",
+      "Wilson, C.G. and Washington, N. 1989. Biological barriers to drug absorption. In: Physiological Pharmaceutics. Ellis Harwood, Chickestar, 47.",
+      "Cardinal, J.R., Langer R.S. and Wise D.L. 1984. Medical Applications of Controlled Release, Volume 1, Classes of Systems, CRC Press, Boca Raton, FL, USA, pp. 41-67.",
+      "Reza, S.M., Quadir, M.A. and Haider, S.S. 2003. Comparative evaluation of plastic, hydrophobic and hydrophilic polymers as matrices for controlled-release drug delivery, J. Pharm Sci, 6, 282-291.",
+      "Bidah D. and Vernaud J.M. 1991. Dosage forms with a polymer matrix and swelling polymer. Intl. J. Pharmaceutics 77, 81-87.",
+      "Lachman, L., Lieberman, H.A. and Kanig, J.L. 1990. Sustained Release Dosage Forms. In: The Theory and Practice of Industrial Pharmacy, 3rd edition, Varghese Publishing House, Bombay, pp. 453-454.",
+      "The United States Pharmacopoeia. 2006. 29th eds. pp. 520.",
+      "Chowdary, K.P.R. and Rao, Y.S. 2003. Design and In Vitro and In Vivo Evaluation of Muco-adhesive Microcapsules of Glipizide for Oral Controlled Release: A Technical Note. APPS Pharm. Sci. Tech. 39.",
+      "Mockel, J.E. and Lippold, B.C. 1993. Zero order release from hydrocolloid matrices. Pharm. Res. 10, 1066-1070.",
+      "Higuchi, T. 1961. Rate of release of medicaments from ointment bases containing drugs in suspension. J. Pharm. Sci. 50, 874-875.",
+      "Korsmeyer, R.W., Gurny, R., Doelker, E., Buri, P. and Peppas, N.A. 1983. Mechanisms of solute release from porous hydrophilic polymers. Int. J. Pharm. 15, 25-35.",
+      "Chueh, H.R., Zia, H. and Rhodes, C.T. 1995. Optimization of sotalol floating and bioadhesive extended release tablet formulations. Drug Dev. Ind. Pharm. 21, 1725-1747.",
+      "Lee, B.J., Ryu, S.G., and Cui, J.H. 1999. Formulation and release characteristics of Hydroxypropylmethylcellulose matrix tablet containing meletonin. Drug Dev. Ind. Pharm. 25, 493-501."
+    ]
+  }
+}

@@ -1,0 +1,1526 @@
+{
+    "materials_origin": {
+        "felodipine": "Gift sample from Cipla, Mumbai, India",
+        "atorvastatin_calcium": "Gift sample from Taj Pharmaceuticals, Mumbai, India",
+        "lactose_anhydrous": "Purchased locally from Loba Chemie, Mumbai, India",
+        "sodium_starch_glycolate": "Purchased locally from Loba Chemie, Mumbai, India",
+        "hydroxypropyl_methyl_cellulose_50cps": "Purchased locally from Loba Chemie, Mumbai, India",
+        "microcrystalline_cellulose": "Purchased locally from Loba Chemie, Mumbai, India",
+        "polyvinylpyrrolidone_K30": "Purchased locally from Loba Chemie, Mumbai, India",
+        "talc": "Purchased locally from Loba Chemie, Mumbai, India",
+        "magnesium_stearate": "Purchased locally from Loba Chemie, Mumbai, India",
+        "aerosil": "Purchased locally from Loba Chemie, Mumbai, India"
+    },
+    "experimental_design_for_optimization": {
+        "model": "3^2 factorial design",
+        "independent_variables_for_ATR": {
+            "X1": "sodium_starch_glycollate",
+            "X2": "lactose"
+        },
+        "independent_variables_for_FEL": {
+            "X1": "hydroxypropyl_methyl_cellulose_50cps",
+            "X2": "talc"
+        },
+        "response_equation": "Y = β0 + β1X1 + β2X2 + β3X1^2 + β4X2^2 + β5X1X2",
+        "absorbance_wavelength": {
+            "atorvastatin_calcium": "247 nm",
+            "felodipine": "268 nm"
+        }
+    },
+    "formulation_details": {
+        "FEL_batches": [
+            {
+                "batch_code": "028_F1",
+                "api": "felodipine",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "talc_X1_mg": 40,
+                    "HPMC_50cps_X2_mg": 30,
+                    "MCC_mg": 63,
+                    "aerosil_mg": 2.5,
+                    "Mg_stearate_mg": 2.5
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_F2",
+                "api": "felodipine",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "talc_X1_mg": 40,
+                    "HPMC_50cps_X2_mg": 40,
+                    "MCC_mg": 63,
+                    "aerosil_mg": 2.5,
+                    "Mg_stearate_mg": 2.5
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_F3",
+                "api": "felodipine",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "talc_X1_mg": 40,
+                    "HPMC_50cps_X2_mg": 50,
+                    "MCC_mg": 63,
+                    "aerosil_mg": 2.5,
+                    "Mg_stearate_mg": 2.5
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_F4",
+                "api": "felodipine",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "talc_X1_mg": 60,
+                    "HPMC_50cps_X2_mg": 30,
+                    "MCC_mg": 63,
+                    "aerosil_mg": 2.5,
+                    "Mg_stearate_mg": 2.5
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_F5",
+                "api": "felodipine",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "talc_X1_mg": 60,
+                    "HPMC_50cps_X2_mg": 40,
+                    "MCC_mg": 63,
+                    "aerosil_mg": 2.5,
+                    "Mg_stearate_mg": 2.5
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_F6",
+                "api": "felodipine",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "talc_X1_mg": 60,
+                    "HPMC_50cps_X2_mg": 50,
+                    "MCC_mg": 63,
+                    "aerosil_mg": 2.5,
+                    "Mg_stearate_mg": 2.5
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_F7",
+                "api": "felodipine",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "talc_X1_mg": 80,
+                    "HPMC_50cps_X2_mg": 30,
+                    "MCC_mg": 63,
+                    "aerosil_mg": 2.5,
+                    "Mg_stearate_mg": 2.5
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_F8",
+                "api": "felodipine",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "talc_X1_mg": 80,
+                    "HPMC_50cps_X2_mg": 40,
+                    "MCC_mg": 63,
+                    "aerosil_mg": 2.5,
+                    "Mg_stearate_mg": 2.5
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_F9",
+                "api": "felodipine",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "talc_X1_mg": 80,
+                    "HPMC_50cps_X2_mg": 50,
+                    "MCC_mg": 63,
+                    "aerosil_mg": 2.5,
+                    "Mg_stearate_mg": 2.5
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            }
+        ],
+        "ATR_batches": [
+            {
+                "batch_code": "028_A1",
+                "api": "atorvastatin_calcium",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "lactose_X2_mg": 169.2,
+                    "SSG_X1_mg": 4,
+                    "PVP_K30_mg": 6.15,
+                    "talc_mg": 0.615,
+                    "Mg_stearate_mg": 3.07
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_A2",
+                "api": "atorvastatin_calcium",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "lactose_X2_mg": 169.2,
+                    "SSG_X1_mg": 6,
+                    "PVP_K30_mg": 6.15,
+                    "talc_mg": 0.615,
+                    "Mg_stearate_mg": 3.07
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_A3",
+                "api": "atorvastatin_calcium",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "lactose_X2_mg": 169.2,
+                    "SSG_X1_mg": 8,
+                    "PVP_K30_mg": 6.15,
+                    "talc_mg": 0.615,
+                    "Mg_stearate_mg": 3.07
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_A4",
+                "api": "atorvastatin_calcium",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "lactose_X2_mg": 171.2,
+                    "SSG_X1_mg": 4,
+                    "PVP_K30_mg": 6.15,
+                    "talc_mg": 0.615,
+                    "Mg_stearate_mg": 3.07
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_A5",
+                "api": "atorvastatin_calcium",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "lactose_X2_mg": 171.2,
+                    "SSG_X1_mg": 6,
+                    "PVP_K30_mg": 6.15,
+                    "talc_mg": 0.615,
+                    "Mg_stearate_mg": 3.07
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_A6",
+                "api": "atorvastatin_calcium",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "lactose_X2_mg": 171.2,
+                    "SSG_X1_mg": 8,
+                    "PVP_K30_mg": 6.15,
+                    "talc_mg": 0.615,
+                    "Mg_stearate_mg": 3.07
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_A7",
+                "api": "atorvastatin_calcium",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "lactose_X2_mg": 173.2,
+                    "SSG_X1_mg": 4,
+                    "PVP_K30_mg": 6.15,
+                    "talc_mg": 0.615,
+                    "Mg_stearate_mg": 3.07
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_A8",
+                "api": "atorvastatin_calcium",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "lactose_X2_mg": 173.2,
+                    "SSG_X1_mg": 6,
+                    "PVP_K30_mg": 6.15,
+                    "talc_mg": 0.615,
+                    "Mg_stearate_mg": 3.07
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            },
+            {
+                "batch_code": "028_A9",
+                "api": "atorvastatin_calcium",
+                "api_mass_mg": 10,
+                "excipients": {
+                    "lactose_X2_mg": 173.2,
+                    "SSG_X1_mg": 8,
+                    "PVP_K30_mg": 6.15,
+                    "talc_mg": 0.615,
+                    "Mg_stearate_mg": 3.07
+                },
+                "total_weight_mg": null,
+                "percent_pellets": null
+            }
+        ],
+        "bilayered_batches_B": [
+            {
+                "batch_code": "028_B1",
+                "total_weight_mg": 298,
+                "api": {
+                    "atorvastatin_calcium": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "lactose_mg": 130.15,
+                            "PVP_K30_mg": 6.15,
+                            "talc_mg": 0.615,
+                            "SSG_mg": 6.15,
+                            "Mg_stearate_mg": 3.07
+                        }
+                    },
+                    "felodipine": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "HPMC_50cps_mg": 25,
+                            "talc_mg": 50.5,
+                            "MCC_mg": 63,
+                            "aerosil_mg": 2.5,
+                            "Mg_stearate_mg": 2.5
+                        }
+                    }
+                }
+            },
+            {
+                "batch_code": "028_B2",
+                "total_weight_mg": 309,
+                "api": {
+                    "atorvastatin_calcium": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "lactose_mg": 130.15,
+                            "PVP_K30_mg": 6.15,
+                            "talc_mg": 0.615,
+                            "SSG_mg": 6.15,
+                            "Mg_stearate_mg": 3.07
+                        }
+                    },
+                    "felodipine": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "HPMC_50cps_mg": 25,
+                            "talc_mg": 50.5,
+                            "MCC_mg": 63,
+                            "aerosil_mg": 2.5,
+                            "Mg_stearate_mg": 2.5
+                        }
+                    }
+                }
+            },
+            {
+                "batch_code": "028_B3",
+                "total_weight_mg": 312,
+                "api": {
+                    "atorvastatin_calcium": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "lactose_mg": 130.15,
+                            "PVP_K30_mg": 6.15,
+                            "talc_mg": 0.615,
+                            "SSG_mg": 6.15,
+                            "Mg_stearate_mg": 3.07
+                        }
+                    },
+                    "felodipine": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "HPMC_50cps_mg": 25,
+                            "talc_mg": 50.5,
+                            "MCC_mg": 63,
+                            "aerosil_mg": 2.5,
+                            "Mg_stearate_mg": 2.5
+                        }
+                    }
+                }
+            },
+            {
+                "batch_code": "028_B4",
+                "total_weight_mg": 297,
+                "api": {
+                    "atorvastatin_calcium": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "lactose_mg": 130.15,
+                            "PVP_K30_mg": 6.15,
+                            "talc_mg": 0.615,
+                            "SSG_mg": 6.15,
+                            "Mg_stearate_mg": 3.07
+                        }
+                    },
+                    "felodipine": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "HPMC_50cps_mg": 25,
+                            "talc_mg": 50.5,
+                            "MCC_mg": 63,
+                            "aerosil_mg": 2.5,
+                            "Mg_stearate_mg": 2.5
+                        }
+                    }
+                }
+            },
+            {
+                "batch_code": "028_B5",
+                "total_weight_mg": 306,
+                "api": {
+                    "atorvastatin_calcium": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "lactose_mg": 130.15,
+                            "PVP_K30_mg": 6.15,
+                            "talc_mg": 0.615,
+                            "SSG_mg": 6.15,
+                            "Mg_stearate_mg": 3.07
+                        }
+                    },
+                    "felodipine": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "HPMC_50cps_mg": 25,
+                            "talc_mg": 50.5,
+                            "MCC_mg": 63,
+                            "aerosil_mg": 2.5,
+                            "Mg_stearate_mg": 2.5
+                        }
+                    }
+                }
+            },
+            {
+                "batch_code": "028_B6",
+                "total_weight_mg": 304,
+                "api": {
+                    "atorvastatin_calcium": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "lactose_mg": 130.15,
+                            "PVP_K30_mg": 6.15,
+                            "talc_mg": 0.615,
+                            "SSG_mg": 6.15,
+                            "Mg_stearate_mg": 3.07
+                        }
+                    },
+                    "felodipine": {
+                        "mass_mg": 10,
+                        "layer_composition": {
+                            "HPMC_50cps_mg": 25,
+                            "talc_mg": 50.5,
+                            "MCC_mg": 63,
+                            "aerosil_mg": 2.5,
+                            "Mg_stearate_mg": 2.5
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    "pre_compression_parameters": {
+        "FEL_granules": [
+            {
+                "batch": "028_F1",
+                "angle_of_repose_deg": "20.71 ± 0.28",
+                "Carr_compressibility_index": "15.45 ± 0.32",
+                "Hausner_ratio": "1.17 ± 0.23",
+                "Kawakita_a": "0.689",
+                "Kawakita_b": "0.11",
+                "granule_crushing_strength_g_per_cm2": "51 ± 1.13"
+            },
+            {
+                "batch": "028_F2",
+                "angle_of_repose_deg": "24.94 ± 0.56",
+                "Carr_compressibility_index": "20.18 ± 0.19",
+                "Hausner_ratio": "1.34 ± 0.49",
+                "Kawakita_a": "0.662",
+                "Kawakita_b": "0.091",
+                "granule_crushing_strength_g_per_cm2": "53 ± 0.45"
+            },
+            {
+                "batch": "028_F3",
+                "angle_of_repose_deg": "24.74 ± 0.27",
+                "Carr_compressibility_index": "22.24 ± 0.55",
+                "Hausner_ratio": "1.19 ± 0.28",
+                "Kawakita_a": "0.69",
+                "Kawakita_b": "0.069",
+                "granule_crushing_strength_g_per_cm2": "52 ± 0.87"
+            },
+            {
+                "batch": "028_F4",
+                "angle_of_repose_deg": "23.86 ± 0.49",
+                "Carr_compressibility_index": "15.84 ± 0.37",
+                "Hausner_ratio": "1.17 ± 0.27",
+                "Kawakita_a": "0.674",
+                "Kawakita_b": "0.112",
+                "granule_crushing_strength_g_per_cm2": "48 ± 0.99"
+            },
+            {
+                "batch": "028_F5",
+                "angle_of_repose_deg": "17.85 ± 0.24",
+                "Carr_compressibility_index": "13.46 ± 0.47",
+                "Hausner_ratio": "1.12 ± 0.59",
+                "Kawakita_a": "0.634",
+                "Kawakita_b": "0.061",
+                "granule_crushing_strength_g_per_cm2": "52 ± 1.03"
+            },
+            {
+                "batch": "028_F6",
+                "angle_of_repose_deg": "22.59 ± 0.30",
+                "Carr_compressibility_index": "16.33 ± 0.33",
+                "Hausner_ratio": "1.19 ± 0.48",
+                "Kawakita_a": "0.627",
+                "Kawakita_b": "0.086",
+                "granule_crushing_strength_g_per_cm2": "51 ± 0.75"
+            },
+            {
+                "batch": "028_F7",
+                "angle_of_repose_deg": "27.42 ± 0.40",
+                "Carr_compressibility_index": "17.66 ± 0.40",
+                "Hausner_ratio": "1.21 ± 0.11",
+                "Kawakita_a": "0.643",
+                "Kawakita_b": "0.122",
+                "granule_crushing_strength_g_per_cm2": "51 ± 0.51"
+            },
+            {
+                "batch": "028_F8",
+                "angle_of_repose_deg": "25.11 ± 0.33",
+                "Carr_compressibility_index": "18.00 ± 0.35",
+                "Hausner_ratio": "1.22 ± 0.18",
+                "Kawakita_a": "0.654",
+                "Kawakita_b": "0.086",
+                "granule_crushing_strength_g_per_cm2": "49 ± 0.57"
+            },
+            {
+                "batch": "028_F9",
+                "angle_of_repose_deg": "26.21 ± 0.24",
+                "Carr_compressibility_index": "17.88 ± 0.18",
+                "Hausner_ratio": "1.19 ± 0.37",
+                "Kawakita_a": "0.677",
+                "Kawakita_b": "0.079",
+                "granule_crushing_strength_g_per_cm2": "48 ± 0.82"
+            }
+        ],
+        "ATR_blend": [
+            {
+                "batch": "028_A1",
+                "angle_of_repose_deg": "30.43 ± 0.25",
+                "Carr_compressibility_index": "29 ± 0.35",
+                "Hausner_ratio": "1.40 ± 0.67",
+                "Kawakita_a": "0.369",
+                "Kawakita_b": "0.144"
+            },
+            {
+                "batch": "028_A2",
+                "angle_of_repose_deg": "27.22 ± 0.35",
+                "Carr_compressibility_index": "17 ± 0.55",
+                "Hausner_ratio": "1.20 ± 0.58",
+                "Kawakita_a": "0.456",
+                "Kawakita_b": "0.111"
+            },
+            {
+                "batch": "028_A3",
+                "angle_of_repose_deg": "24.85 ± 0.57",
+                "Carr_compressibility_index": "14 ± 0.54",
+                "Hausner_ratio": "1.16 ± 0.22",
+                "Kawakita_a": "0.426",
+                "Kawakita_b": "0.131"
+            },
+            {
+                "batch": "028_A4",
+                "angle_of_repose_deg": "31.23 ± 0.67",
+                "Carr_compressibility_index": "22 ± 0.54",
+                "Hausner_ratio": "1.28 ± 0.98",
+                "Kawakita_a": "0.259",
+                "Kawakita_b": "0.104"
+            },
+            {
+                "batch": "028_A5",
+                "angle_of_repose_deg": "32.11 ± 0.34",
+                "Carr_compressibility_index": "19 ± 0.38",
+                "Hausner_ratio": "1.23 ± 0.77",
+                "Kawakita_a": "0.312",
+                "Kawakita_b": "0.106"
+            },
+            {
+                "batch": "028_A6",
+                "angle_of_repose_deg": "30.45 ± 0.68",
+                "Carr_compressibility_index": "17 ± 0.38",
+                "Hausner_ratio": "1.20 ± 0.54",
+                "Kawakita_a": "0.392",
+                "Kawakita_b": "0.157"
+            },
+            {
+                "batch": "028_A7",
+                "angle_of_repose_deg": "26.53 ± 0.45",
+                "Carr_compressibility_index": "19 ± 0.32",
+                "Hausner_ratio": "1.24 ± 0.26",
+                "Kawakita_a": "0.443",
+                "Kawakita_b": "0.149"
+            },
+            {
+                "batch": "028_A8",
+                "angle_of_repose_deg": "29.65 ± 0.46",
+                "Carr_compressibility_index": "18 ± 0.38",
+                "Hausner_ratio": "1.14 ± 0.87",
+                "Kawakita_a": "0.488",
+                "Kawakita_b": "0.095"
+            },
+            {
+                "batch": "028_A9",
+                "angle_of_repose_deg": "26.93 ± 0.54",
+                "Carr_compressibility_index": "21 ± 0.44",
+                "Hausner_ratio": "1.26 ± 0.66",
+                "Kawakita_a": "0.447",
+                "Kawakita_b": "0.141"
+            }
+        ]
+    },
+    "tablet_properties": {
+        "FEL_tablets": [
+            {
+                "batch": "028_F1",
+                "hardness_kg_per_cm2": "4.8 ± 0.25",
+                "friability_percent": "0.56 ± 0.45",
+                "weight_variation_mg": "207 ± 0.34",
+                "content_uniformity_percent": "96.45 ± 0.34",
+                "disintegration_time_min": "15.2 ± 0.35",
+                "tensile_strength_kg_per_cm2": "2.09 ± 0.09",
+                "mean_yield_pressure_MPa": "136.04 ± 0.30",
+                "leuenberger_compactibility_sigma_max": "2.969",
+                "leuenberger_compression_susceptibility_gamma": "0.0461",
+                "release_at_10h_percent": "100.12 ± 0.89",
+                "release_kinetics": "Hixson Crowell",
+                "release_profile": [
+                    {
+                        "time_h": 10,
+                        "release_percent": 100.12
+                    }
+                ]
+            },
+            {
+                "batch": "028_F2",
+                "hardness_kg_per_cm2": "4.0 ± 0.53",
+                "friability_percent": "0.54 ± 0.54",
+                "weight_variation_mg": "196 ± 0.45",
+                "content_uniformity_percent": "97.75 ± 0.56",
+                "disintegration_time_min": "9.3 ± 0.21",
+                "tensile_strength_kg_per_cm2": "1.876 ± 0.12",
+                "mean_yield_pressure_MPa": "120.61 ± 0.28",
+                "leuenberger_compactibility_sigma_max": "2.569",
+                "leuenberger_compression_susceptibility_gamma": "0.0093",
+                "release_at_10h_percent": "99.20 ± 1.1",
+                "release_kinetics": "Korsmeyer-Peppas",
+                "release_profile": [
+                    {
+                        "time_h": 10,
+                        "release_percent": 99.2
+                    }
+                ]
+            },
+            {
+                "batch": "028_F3",
+                "hardness_kg_per_cm2": "5.4 ± 0.35",
+                "friability_percent": "0.46 ± 0.65",
+                "weight_variation_mg": "186 ± 0.92",
+                "content_uniformity_percent": "95.66 ± 0.65",
+                "disintegration_time_min": "16.5 ± 0.33",
+                "tensile_strength_kg_per_cm2": "2.11 ± 0.18",
+                "mean_yield_pressure_MPa": "155.39 ± 0.17",
+                "leuenberger_compactibility_sigma_max": "3.851",
+                "leuenberger_compression_susceptibility_gamma": "0.0032",
+                "release_at_10h_percent": "96.38 ± 0.5",
+                "release_kinetics": "Hixson Crowell",
+                "release_profile": [
+                    {
+                        "time_h": 10,
+                        "release_percent": 96.38
+                    }
+                ]
+            },
+            {
+                "batch": "028_F4",
+                "hardness_kg_per_cm2": "5.0 ± 0.21",
+                "friability_percent": "0.44 ± 0.23",
+                "weight_variation_mg": "246 ± 8",
+                "content_uniformity_percent": "99.94 ± 0.68",
+                "disintegration_time_min": "13.6 ± 0.28",
+                "tensile_strength_kg_per_cm2": "2.28 ± 0.15",
+                "mean_yield_pressure_MPa": "147.79 ± 0.23",
+                "leuenberger_compactibility_sigma_max": "3.704",
+                "leuenberger_compression_susceptibility_gamma": "0.0687",
+                "release_at_10h_percent": "97.45 ± 0.5",
+                "release_kinetics": "Hixson Crowell",
+                "release_profile": [
+                    {
+                        "time_h": 10,
+                        "release_percent": 97.45
+                    }
+                ]
+            },
+            {
+                "batch": "028_F5",
+                "hardness_kg_per_cm2": "4.5 ± 0.42",
+                "friability_percent": "0.43 ± 0.45",
+                "weight_variation_mg": "192 ± 0.47",
+                "content_uniformity_percent": "96.72 ± 0.23",
+                "disintegration_time_min": "12.5 ± 0.24",
+                "tensile_strength_kg_per_cm2": "1.98 ± 0.17",
+                "mean_yield_pressure_MPa": "145.25 ± 0.41",
+                "leuenberger_compactibility_sigma_max": "3.623",
+                "leuenberger_compression_susceptibility_gamma": "0.0047",
+                "release_at_10h_percent": "98.27 ± 0.2",
+                "release_kinetics": "Hixson Crowell",
+                "release_profile": [
+                    {
+                        "time_h": 10,
+                        "release_percent": 98.27
+                    }
+                ]
+            },
+            {
+                "batch": "028_F6",
+                "hardness_kg_per_cm2": "6.1 ± 0.26",
+                "friability_percent": "0.37 ± 0.32",
+                "weight_variation_mg": "204 ± 0.45",
+                "content_uniformity_percent": "102.5 ± 0.48",
+                "disintegration_time_min": "12.8 ± 0.18",
+                "tensile_strength_kg_per_cm2": "2.43 ± 0.22",
+                "mean_yield_pressure_MPa": "156.98 ± 0.28",
+                "leuenberger_compactibility_sigma_max": "3.013",
+                "leuenberger_compression_susceptibility_gamma": "0.0241",
+                "release_at_10h_percent": "99.45 ± 0.2",
+                "release_kinetics": "Korsmeyer-Peppas",
+                "release_profile": [
+                    {
+                        "time_h": 10,
+                        "release_percent": 99.45
+                    }
+                ]
+            },
+            {
+                "batch": "028_F7",
+                "hardness_kg_per_cm2": "6.5 ± 0.21",
+                "friability_percent": "0.25 ± 0.25",
+                "weight_variation_mg": "210 ± 0.43",
+                "content_uniformity_percent": "100.10 ± 0.14",
+                "disintegration_time_min": "13.5 ± 0.31",
+                "tensile_strength_kg_per_cm2": "2.71 ± 0.21",
+                "mean_yield_pressure_MPa": "164.47 ± 0.32",
+                "leuenberger_compactibility_sigma_max": "3.444",
+                "leuenberger_compression_susceptibility_gamma": "0.0196",
+                "release_at_10h_percent": "100.36 ± 1.4",
+                "release_kinetics": "Hixson Crowell",
+                "release_profile": [
+                    {
+                        "time_h": 10,
+                        "release_percent": 100.36
+                    }
+                ]
+            },
+            {
+                "batch": "028_F8",
+                "hardness_kg_per_cm2": "5.8 ± 0.36",
+                "friability_percent": "0.33 ± 0.46",
+                "weight_variation_mg": "204 ± 0.57",
+                "content_uniformity_percent": "99.45 ± 0.29",
+                "disintegration_time_min": "12.6 ± 0.28",
+                "tensile_strength_kg_per_cm2": "2.36 ± 0.11",
+                "mean_yield_pressure_MPa": "152.38 ± 0.34",
+                "leuenberger_compactibility_sigma_max": "2.847",
+                "leuenberger_compression_susceptibility_gamma": "0.0371",
+                "release_at_10h_percent": "96.34 ± 0.1",
+                "release_kinetics": "Korsmeyer-Peppas",
+                "release_profile": [
+                    {
+                        "time_h": 2,
+                        "release_percent": 18
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 59
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 96
+                    }
+                ]
+            },
+            {
+                "batch": "028_F9",
+                "hardness_kg_per_cm2": "6.3 ± 0.36",
+                "friability_percent": "0.34 ± 0.43",
+                "weight_variation_mg": "210 ± 0.56",
+                "content_uniformity_percent": "98.96 ± 0.52",
+                "disintegration_time_min": "14.6 ± 0.26",
+                "tensile_strength_kg_per_cm2": "2.81 ± 0.19",
+                "mean_yield_pressure_MPa": "171.41 ± 0.24",
+                "leuenberger_compactibility_sigma_max": "2.392",
+                "leuenberger_compression_susceptibility_gamma": "0.0424",
+                "release_at_10h_percent": "99.23 ± 0.2",
+                "release_kinetics": "Korsmeyer-Peppas",
+                "release_profile": [
+                    {
+                        "time_h": 10,
+                        "release_percent": 99.23
+                    }
+                ]
+            }
+        ],
+        "ATR_tablets": [
+            {
+                "batch": "028_A1",
+                "hardness_kg_per_cm2": "5.6 ± 0.36",
+                "friability_percent": "0.8 ± 0.35",
+                "weight_variation_mg": "195 ± 0.54",
+                "content_uniformity_percent": "94.31 ± 0.65",
+                "disintegration_time_sec": "14 ± 0.39",
+                "tensile_strength_kg_per_cm2": "1.1951 ± 0.003",
+                "mean_yield_pressure_MPa": "157.51 ± 0.07",
+                "leuenberger_compactibility_sigma_max": "2.774",
+                "leuenberger_compression_susceptibility_gamma": "0.016",
+                "release_at_30min_percent": "96.24 ± 0.02",
+                "release_profile": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 96.24
+                    }
+                ]
+            },
+            {
+                "batch": "028_A2",
+                "hardness_kg_per_cm2": "5.1 ± 0.26",
+                "friability_percent": "0.5 ± 0.65",
+                "weight_variation_mg": "203.8 ± 0.46",
+                "content_uniformity_percent": "96.31 ± 0.62",
+                "disintegration_time_sec": "10 ± 0.40",
+                "tensile_strength_kg_per_cm2": "0.9293 ± 0.003",
+                "mean_yield_pressure_MPa": "158.10 ± 0.05",
+                "leuenberger_compactibility_sigma_max": "2.967",
+                "leuenberger_compression_susceptibility_gamma": "0.011",
+                "release_at_30min_percent": "98.57 ± 0.05",
+                "release_profile": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 98.57
+                    }
+                ]
+            },
+            {
+                "batch": "028_A3",
+                "hardness_kg_per_cm2": "5.3 ± 0.25",
+                "friability_percent": "0.3 ± 0.34",
+                "weight_variation_mg": "199.8 ± 0.32",
+                "content_uniformity_percent": "99.38 ± 0.54",
+                "disintegration_time_sec": "12 ± 0.35",
+                "tensile_strength_kg_per_cm2": "0.8981 ± 0.04",
+                "mean_yield_pressure_MPa": "158.74 ± 0.09",
+                "leuenberger_compactibility_sigma_max": "2.966",
+                "leuenberger_compression_susceptibility_gamma": "0.018",
+                "release_at_30min_percent": "76.0",
+                "release_profile": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 76.0
+                    }
+                ]
+            },
+            {
+                "batch": "028_A4",
+                "hardness_kg_per_cm2": "4.8 ± 0.35",
+                "friability_percent": "0.6 ± 0.54",
+                "weight_variation_mg": "194.4 ± 0.34",
+                "content_uniformity_percent": "100.01 ± 0.36",
+                "disintegration_time_sec": "16 ± 0.30",
+                "tensile_strength_kg_per_cm2": "1.180 ± 0.004",
+                "mean_yield_pressure_MPa": "165.27 ± 0.07",
+                "leuenberger_compactibility_sigma_max": "2.958",
+                "leuenberger_compression_susceptibility_gamma": "0.015",
+                "release_at_30min_percent": "99.26 ± 0.03",
+                "release_profile": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 99.26
+                    }
+                ]
+            },
+            {
+                "batch": "028_A5",
+                "hardness_kg_per_cm2": "5.5 ± 0.26",
+                "friability_percent": "0.5 ± 0.49",
+                "weight_variation_mg": "196.6 ± 0.46",
+                "content_uniformity_percent": "101.6 ± 0.79",
+                "disintegration_time_sec": "11 ± 0.18",
+                "tensile_strength_kg_per_cm2": "1.030 ± 0.003",
+                "mean_yield_pressure_MPa": "166.51 ± 0.06",
+                "leuenberger_compactibility_sigma_max": "2.738",
+                "leuenberger_compression_susceptibility_gamma": "0.016",
+                "release_at_30min_percent": "99.46 ± 0.08",
+                "release_profile": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 99.46
+                    }
+                ]
+            },
+            {
+                "batch": "028_A6",
+                "hardness_kg_per_cm2": "6.8 ± 0.18",
+                "friability_percent": "0.4 ± 0.34",
+                "weight_variation_mg": "201.2 ± 0.43",
+                "content_uniformity_percent": "97.87 ± 0.18",
+                "disintegration_time_sec": "10 ± 0.12",
+                "tensile_strength_kg_per_cm2": "1.101 ± 0.02",
+                "mean_yield_pressure_MPa": "165.34 ± 0.07",
+                "leuenberger_compactibility_sigma_max": "2.757",
+                "leuenberger_compression_susceptibility_gamma": "0.018",
+                "release_at_30min_percent": "100.53 ± 0.08",
+                "release_profile": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 100.53
+                    }
+                ]
+            },
+            {
+                "batch": "028_A7",
+                "hardness_kg_per_cm2": "6.3 ± 0.56",
+                "friability_percent": "0.2 ± 0.32",
+                "weight_variation_mg": "198.7 ± 0.45",
+                "content_uniformity_percent": "97.56 ± 0.81",
+                "disintegration_time_sec": "15 ± 0.51",
+                "tensile_strength_kg_per_cm2": "1.098 ± 0.05",
+                "mean_yield_pressure_MPa": "168.23 ± 0.08",
+                "leuenberger_compactibility_sigma_max": "3.040",
+                "leuenberger_compression_susceptibility_gamma": "0.025",
+                "release_at_30min_percent": "102.14 ± 0.05",
+                "release_profile": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 102.14
+                    }
+                ]
+            },
+            {
+                "batch": "028_A8",
+                "hardness_kg_per_cm2": "6.0 ± 0.53",
+                "friability_percent": "0.3 ± 0.45",
+                "weight_variation_mg": "200.4 ± 0.24",
+                "content_uniformity_percent": "97.90 ± 0.61",
+                "disintegration_time_sec": "12 ± 0.31",
+                "tensile_strength_kg_per_cm2": "1.060 ± 0.005",
+                "mean_yield_pressure_MPa": "167.01 ± 0.09",
+                "leuenberger_compactibility_sigma_max": "2.744",
+                "leuenberger_compression_susceptibility_gamma": "0.018",
+                "release_at_30min_percent": "98.77 ± 0.05",
+                "release_profile": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 98.77
+                    }
+                ]
+            },
+            {
+                "batch": "028_A9",
+                "hardness_kg_per_cm2": "5.8 ± 0.33",
+                "friability_percent": "0.4 ± 0.57",
+                "weight_variation_mg": "201.2 ± 0.67",
+                "content_uniformity_percent": "99.13 ± 0.72",
+                "disintegration_time_sec": "14 ± 0.32",
+                "tensile_strength_kg_per_cm2": "1.051 ± 0.04",
+                "mean_yield_pressure_MPa": "171.85 ± 0.09",
+                "leuenberger_compactibility_sigma_max": "2.680",
+                "leuenberger_compression_susceptibility_gamma": "0.019",
+                "release_at_30min_percent": "98.64 ± 0.08",
+                "release_profile": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 98.64
+                    }
+                ]
+            }
+        ],
+        "bilayered_tablets_B": [
+            {
+                "batch": "028_B1",
+                "weight_variation_mg": "298 ± 0.13",
+                "content_uniformity_ATR_percent": "98.36 ± 0.34",
+                "content_uniformity_FEL_percent": "101.23 ± 0.41",
+                "friability_percent": "0.52 ± 0.13",
+                "hardness_kg_per_cm2": "5.5 ± 0.38",
+                "disintegration_time_ATR_sec": "11",
+                "disintegration_time_FEL_min": "12.9 ± 0.12",
+                "cumulative_release_ATR_percent": "99.84 ± 0.04",
+                "cumulative_release_FEL_percent": "99.11 ± 0.16",
+                "release_profile_ATR": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 99.84
+                    }
+                ],
+                "release_profile_FEL": [
+                    {
+                        "time_h": 12,
+                        "release_percent": 99.11
+                    }
+                ]
+            },
+            {
+                "batch": "028_B2",
+                "weight_variation_mg": "309 ± 0.39",
+                "content_uniformity_ATR_percent": "97.66 ± 0.29",
+                "content_uniformity_FEL_percent": "96.54 ± 0.42",
+                "friability_percent": "0.47 ± 0.43",
+                "hardness_kg_per_cm2": "5.3 ± 0.49",
+                "disintegration_time_ATR_sec": "12",
+                "disintegration_time_FEL_min": "12.7 ± 0.36",
+                "cumulative_release_ATR_percent": "99.14 ± 0.18",
+                "cumulative_release_FEL_percent": "99.08 ± 0.24",
+                "release_profile_ATR": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 99.14
+                    }
+                ],
+                "release_profile_FEL": [
+                    {
+                        "time_h": 12,
+                        "release_percent": 99.08
+                    }
+                ]
+            },
+            {
+                "batch": "028_B3",
+                "weight_variation_mg": "312 ± 0.33",
+                "content_uniformity_ATR_percent": "99.32 ± 0.31",
+                "content_uniformity_FEL_percent": "98.89 ± 0.45",
+                "friability_percent": "0.40 ± 0.09",
+                "hardness_kg_per_cm2": "5.3 ± 0.57",
+                "disintegration_time_ATR_sec": "12",
+                "disintegration_time_FEL_min": "13.1 ± 0.24",
+                "cumulative_release_ATR_percent": "98.32 ± 0.12",
+                "cumulative_release_FEL_percent": "98.92 ± 0.89",
+                "release_profile_ATR": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 98.32
+                    }
+                ],
+                "release_profile_FEL": [
+                    {
+                        "time_h": 12,
+                        "release_percent": 98.92
+                    }
+                ]
+            },
+            {
+                "batch": "028_B4",
+                "weight_variation_mg": "297 ± 0.14",
+                "content_uniformity_ATR_percent": "98.43 ± 0.41",
+                "content_uniformity_FEL_percent": "96.98 ± 0.21",
+                "friability_percent": "0.68 ± 0.67",
+                "hardness_kg_per_cm2": "5.4 ± 0.27",
+                "disintegration_time_ATR_sec": "12",
+                "disintegration_time_FEL_min": "13.3 ± 0.36",
+                "cumulative_release_ATR_percent": "99.98 ± 0.64",
+                "cumulative_release_FEL_percent": "98.74 ± 0.94",
+                "release_profile_ATR": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 99.98
+                    }
+                ],
+                "release_profile_FEL": [
+                    {
+                        "time_h": 12,
+                        "release_percent": 98.74
+                    }
+                ]
+            },
+            {
+                "batch": "028_B5",
+                "weight_variation_mg": "306 ± 0.20",
+                "content_uniformity_ATR_percent": "97.62 ± 0.29",
+                "content_uniformity_FEL_percent": "97.92 ± 0.18",
+                "friability_percent": "0.57 ± 0.56",
+                "hardness_kg_per_cm2": "5.6 ± 0.32",
+                "disintegration_time_ATR_sec": "13",
+                "disintegration_time_FEL_min": "13.7 ± 0.42",
+                "cumulative_release_ATR_percent": "101.06 ± 0.83",
+                "cumulative_release_FEL_percent": "99.26 ± 0.22",
+                "release_profile_ATR": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 101.06
+                    }
+                ],
+                "release_profile_FEL": [
+                    {
+                        "time_h": 12,
+                        "release_percent": 99.26
+                    }
+                ]
+            },
+            {
+                "batch": "028_B6",
+                "weight_variation_mg": "304 ± 0.25",
+                "content_uniformity_ATR_percent": "102.38 ± 0.33",
+                "content_uniformity_FEL_percent": "98.78 ± 0.19",
+                "friability_percent": "0.49 ± 0.24",
+                "hardness_kg_per_cm2": "5.8 ± 0.12",
+                "disintegration_time_ATR_sec": "11",
+                "disintegration_time_FEL_min": "12.9 ± 0.24",
+                "cumulative_release_ATR_percent": "101.12 ± 0.09",
+                "cumulative_release_FEL_percent": "101.24 ± 0.56",
+                "release_profile_ATR": [
+                    {
+                        "time_min": 30,
+                        "release_percent": 101.12
+                    }
+                ],
+                "release_profile_FEL": [
+                    {
+                        "time_h": 12,
+                        "release_percent": 101.24
+                    }
+                ]
+            }
+        ]
+    },
+    "independent_variables_composition": {
+        "FEL_tablets": [
+            {
+                "batch": "028_F1",
+                "coded_level_talc_X1": -1,
+                "coded_level_HPMC_X2": -1,
+                "talc_mg": 40,
+                "HPMC_mg": 30
+            },
+            {
+                "batch": "028_F2",
+                "coded_level_talc_X1": -1,
+                "coded_level_HPMC_X2": 0,
+                "talc_mg": 40,
+                "HPMC_mg": 40
+            },
+            {
+                "batch": "028_F3",
+                "coded_level_talc_X1": -1,
+                "coded_level_HPMC_X2": 1,
+                "talc_mg": 40,
+                "HPMC_mg": 50
+            },
+            {
+                "batch": "028_F4",
+                "coded_level_talc_X1": 0,
+                "coded_level_HPMC_X2": -1,
+                "talc_mg": 60,
+                "HPMC_mg": 30
+            },
+            {
+                "batch": "028_F5",
+                "coded_level_talc_X1": 0,
+                "coded_level_HPMC_X2": 0,
+                "talc_mg": 60,
+                "HPMC_mg": 40
+            },
+            {
+                "batch": "028_F6",
+                "coded_level_talc_X1": 0,
+                "coded_level_HPMC_X2": 1,
+                "talc_mg": 60,
+                "HPMC_mg": 50
+            },
+            {
+                "batch": "028_F7",
+                "coded_level_talc_X1": 1,
+                "coded_level_HPMC_X2": -1,
+                "talc_mg": 80,
+                "HPMC_mg": 30
+            },
+            {
+                "batch": "028_F8",
+                "coded_level_talc_X1": 1,
+                "coded_level_HPMC_X2": 0,
+                "talc_mg": 80,
+                "HPMC_mg": 40
+            },
+            {
+                "batch": "028_F9",
+                "coded_level_talc_X1": 1,
+                "coded_level_HPMC_X2": 1,
+                "talc_mg": 80,
+                "HPMC_mg": 50
+            }
+        ],
+        "ATR_tablets": [
+            {
+                "batch": "028_A1",
+                "coded_level_SSG_X1": -1,
+                "coded_level_lactose_X2": -1,
+                "SSG_mg": 4,
+                "lactose_mg": 169.2
+            },
+            {
+                "batch": "028_A2",
+                "coded_level_SSG_X1": -1,
+                "coded_level_lactose_X2": 0,
+                "SSG_mg": 6,
+                "lactose_mg": 169.2
+            },
+            {
+                "batch": "028_A3",
+                "coded_level_SSG_X1": -1,
+                "coded_level_lactose_X2": 1,
+                "SSG_mg": 8,
+                "lactose_mg": 169.2
+            },
+            {
+                "batch": "028_A4",
+                "coded_level_SSG_X1": 0,
+                "coded_level_lactose_X2": -1,
+                "SSG_mg": 4,
+                "lactose_mg": 171.2
+            },
+            {
+                "batch": "028_A5",
+                "coded_level_SSG_X1": 0,
+                "coded_level_lactose_X2": 0,
+                "SSG_mg": 6,
+                "lactose_mg": 171.2
+            },
+            {
+                "batch": "028_A6",
+                "coded_level_SSG_X1": 0,
+                "coded_level_lactose_X2": 1,
+                "SSG_mg": 8,
+                "lactose_mg": 171.2
+            },
+            {
+                "batch": "028_A7",
+                "coded_level_SSG_X1": 1,
+                "coded_level_lactose_X2": -1,
+                "SSG_mg": 4,
+                "lactose_mg": 173.2
+            },
+            {
+                "batch": "028_A8",
+                "coded_level_SSG_X1": 1,
+                "coded_level_lactose_X2": 0,
+                "SSG_mg": 6,
+                "lactose_mg": 173.2
+            },
+            {
+                "batch": "028_A9",
+                "coded_level_SSG_X1": 1,
+                "coded_level_lactose_X2": 1,
+                "SSG_mg": 8,
+                "lactose_mg": 173.2
+            }
+        ]
+    },
+    "ftir_spectral_measurements": {
+        "felodipine": {
+            "peaks_cm-1": [
+                3069.21,
+                3362.59,
+                1224.14,
+                755.42,
+                1732.36
+            ],
+            "functional_groups": [
+                "C-H stretch (aromatic)",
+                "N-H stretch (secondary)",
+                "C-N stretch",
+                "C-Cl stretch",
+                "C=O (aromatic)"
+            ],
+            "observation": "Peaks retained in physical mixture and optimized batch 028_F8, indicating no interaction."
+        },
+        "atorvastatin_calcium": {
+            "peaks_cm-1": [
+                2962.13,
+                1315.21,
+                1558.2,
+                1650.77,
+                701.96
+            ],
+            "functional_groups": [
+                "C-H stretching",
+                "C-N stretching",
+                "C=O stretching",
+                "C=C bending",
+                "C-F stretching"
+            ],
+            "observation": "Peaks retained in physical mixture and optimized batch 028_A3, indicating no interaction."
+        }
+    },
+    "process_parameters": {
+        "ATR_tablets_compression": {
+            "method": "Direct compression",
+            "device": "RIMEK minipress (Karnavati engineering, Gujarat, India)",
+            "punch_size": "8 mm flat faced",
+            "compression_pressure": "2 tons (for dissolution study compacts)",
+            "coating": "None"
+        },
+        "FEL_tablets_compression": {
+            "method": "Wet granulation",
+            "granulation_binder": "1% w/v aqueous dispersion of PVP K30",
+            "drying_conditions": "Hot air oven at 50°C for 10 min",
+            "device": "RIMEK minipress",
+            "punch_size": "8 mm flat faced",
+            "compression_pressure": "2 tons (for dissolution study compacts)",
+            "coating": "None"
+        },
+        "bilayered_tablets_compression": {
+            "method": "Sequential compression of optimized ATR blend and FEL granules",
+            "device": "Not specified, likely RIMEK minipress",
+            "punch_size": "Not specified",
+            "total_tablet_weight": "~300 mg",
+            "coating": "None"
+        }
+    },
+    "release_properties": {
+        "FEL_tablets": [
+            {
+                "batch": "028_F1",
+                "release_mechanism": "Diffusion/Erosion",
+                "release_kinetics": "Hixson-Crowell",
+                "factors_influencing": "HPMC swelling, talc hydrophobicity"
+            },
+            {
+                "batch": "028_F2",
+                "release_mechanism": "Diffusion",
+                "release_kinetics": "Korsmeyer-Peppas",
+                "factors_influencing": "HPMC swelling, talc hydrophobicity"
+            },
+            {
+                "batch": "028_F3",
+                "release_mechanism": "Diffusion/Erosion",
+                "release_kinetics": "Hixson-Crowell",
+                "factors_influencing": "HPMC swelling, talc hydrophobicity"
+            },
+            {
+                "batch": "028_F4",
+                "release_mechanism": "Diffusion/Erosion",
+                "release_kinetics": "Hixson-Crowell",
+                "factors_influencing": "HPMC swelling, talc hydrophobicity"
+            },
+            {
+                "batch": "028_F5",
+                "release_mechanism": "Diffusion/Erosion",
+                "release_kinetics": "Hixson-Crowell",
+                "factors_influencing": "HPMC swelling, talc hydrophobicity"
+            },
+            {
+                "batch": "028_F6",
+                "release_mechanism": "Diffusion",
+                "release_kinetics": "Korsmeyer-Peppas",
+                "factors_influencing": "HPMC swelling, talc hydrophobicity"
+            },
+            {
+                "batch": "028_F7",
+                "release_mechanism": "Diffusion/Erosion",
+                "release_kinetics": "Hixson-Crowell",
+                "factors_influencing": "HPMC swelling, talc hydrophobicity"
+            },
+            {
+                "batch": "028_F8",
+                "release_mechanism": "Diffusion (Fickian)",
+                "release_kinetics": "Korsmeyer-Peppas (n=0.45)",
+                "release_profile": "79% after 10h",
+                "factors_influencing": "HPMC swelling, talc hydrophobicity"
+            },
+            {
+                "batch": "028_F9",
+                "release_mechanism": "Diffusion",
+                "release_kinetics": "Korsmeyer-Peppas",
+                "factors_influencing": "HPMC swelling, talc hydrophobicity"
+            }
+        ],
+        "ATR_tablets": [
+            {
+                "batch": "028_A1",
+                "release_kinetics": "Not specified",
+                "release_profile": "96.24% at 30 min",
+                "factors_influencing": "SSG superdisintegrant"
+            },
+            {
+                "batch": "028_A2",
+                "release_kinetics": "Not specified",
+                "release_profile": "98.57% at 30 min",
+                "factors_influencing": "SSG superdisintegrant"
+            },
+            {
+                "batch": "028_A3",
+                "release_kinetics": "Not specified",
+                "release_profile": "76% at 30 min (optimized IR)",
+                "factors_influencing": "SSG superdisintegrant"
+            },
+            {
+                "batch": "028_A4",
+                "release_kinetics": "Not specified",
+                "release_profile": "99.26% at 30 min",
+                "factors_influencing": "SSG superdisintegrant"
+            },
+            {
+                "batch": "028_A5",
+                "release_kinetics": "Not specified",
+                "release_profile": "99.46% at 30 min",
+                "factors_influencing": "SSG superdisintegrant"
+            },
+            {
+                "batch": "028_A6",
+                "release_kinetics": "Not specified",
+                "release_profile": "100.53% at 30 min",
+                "factors_influencing": "SSG superdisintegrant"
+            },
+            {
+                "batch": "028_A7",
+                "release_kinetics": "Not specified",
+                "release_profile": "102.14% at 30 min",
+                "factors_influencing": "SSG superdisintegrant"
+            },
+            {
+                "batch": "028_A8",
+                "release_kinetics": "Not specified",
+                "release_profile": "98.77% at 30 min",
+                "factors_influencing": "SSG superdisintegrant"
+            },
+            {
+                "batch": "028_A9",
+                "release_kinetics": "Not specified",
+                "release_profile": "98.64% at 30 min",
+                "factors_influencing": "SSG superdisintegrant"
+            }
+        ],
+        "bilayered_tablets_B": [
+            {
+                "batch": "028_B1",
+                "release_kinetics_FEL": "Korsmeyer-Peppas",
+                "release_profile_FEL": "Extended to 12h",
+                "release_profile_ATR": "Immediate"
+            },
+            {
+                "batch": "028_B2",
+                "release_kinetics_FEL": "Korsmeyer-Peppas",
+                "release_profile_FEL": "Extended to 12h",
+                "release_profile_ATR": "Immediate"
+            },
+            {
+                "batch": "028_B3",
+                "release_kinetics_FEL": "Korsmeyer-Peppas",
+                "release_profile_FEL": "Extended to 12h",
+                "release_profile_ATR": "Immediate"
+            },
+            {
+                "batch": "028_B4",
+                "release_kinetics_FEL": "Korsmeyer-Peppas",
+                "release_profile_FEL": "Extended to 12h",
+                "release_profile_ATR": "Immediate"
+            },
+            {
+                "batch": "028_B5",
+                "release_kinetics_FEL": "Korsmeyer-Peppas",
+                "release_profile_FEL": "Extended to 12h",
+                "release_profile_ATR": "Immediate"
+            },
+            {
+                "batch": "028_B6",
+                "release_kinetics_FEL": "Korsmeyer-Peppas",
+                "release_profile_FEL": "Extended to 12h",
+                "release_profile_ATR": "Immediate"
+            }
+        ]
+    },
+    "experimental_data_in_vivo": {
+        "animal_model": "Albino rabbits (either sex, 2-2.7 kg)",
+        "groups": [
+            "Control (placebo)",
+            "Test (bilayered tablet)",
+            "Standard (pure drugs)"
+        ],
+        "sampling_times_h": [
+            3,
+            6,
+            9,
+            12
+        ],
+        "plasma_concentration_FEL_ng_per_ml": {
+            "standard_pure": {
+                "3h": 1.83,
+                "6h": 3.68,
+                "9h": 2.67,
+                "12h": 0.66
+            },
+            "test_tablet": {
+                "3h": 0.94,
+                "6h": 1.34,
+                "9h": 4.38,
+                "12h": 3.19
+            }
+        },
+        "plasma_concentration_ATR_ng_per_ml": {
+            "standard_pure": {
+                "3h": 0.68,
+                "6h": 2.78,
+                "9h": null,
+                "12h": 0
+            },
+            "test_tablet": {
+                "3h": 0.52,
+                "6h": 2.46,
+                "9h": null,
+                "12h": 0
+            }
+        },
+        "pharmacokinetic_parameters_FEL": {
+            "standard": {
+                "Cmax_ng_per_ml": 3.68,
+                "Tmax_h": 6
+            },
+            "test_tablet": {
+                "Cmax_ng_per_ml": 4.38,
+                "Tmax_h": 9,
+                "AUC_microg_per_ml_h": 18325.11
+            }
+        },
+        "pharmacokinetic_parameters_ATR": {
+            "standard": {
+                "Cmax_ng_per_ml": 2.78,
+                "Tmax_h": 6
+            },
+            "test_tablet": {
+                "Cmax_ng_per_ml": 2.46,
+                "Tmax_h": 6,
+                "AUC_microg_per_ml_h": 3218.29
+            }
+        }
+    }
+}

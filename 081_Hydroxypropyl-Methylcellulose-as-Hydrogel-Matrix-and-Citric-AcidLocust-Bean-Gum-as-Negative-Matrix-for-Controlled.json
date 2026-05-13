@@ -1,0 +1,1152 @@
+{
+    "article_overview": {
+        "title": "Hydroxypropyl Methylcellulose as Hydrogel Matrix and Citric Acid-Locust Bean Gum as Negative Matrix for Controlled Release Tablet",
+        "journal": "ACS Omega",
+        "year": 2023,
+        "objective": "To determine the optimum concentration of HPMC and CA-LBG for controlled release tablets and to study their effects on tablet properties and drug release kinetics."
+    },
+    "sections_data": {
+        "abstract": {
+            "purpose": "To determine the optimum concentration of HPMC as hydrogel matrix and CA-LBG as negative matrix for controlled release tablet formulation and to determine the effect of CA-LBG and HPMC.",
+            "methods": "Simplex lattice design for optimization; wet granulation; ketoprofen as model drug.",
+            "results": "HPMC and CA-LBG increased angle of repose, tap index, hardness, friability, and ketoprofen release. Their interaction increased angle of repose, tap index, hardness but decreased friability and release. Optimum concentrations: HPMC 32.97%, CA-LBG 17.03%. Release kinetics for optimum tablets followed zero order.",
+            "conclusions": "CA-LBG acts as a negative matrix causing tablet disintegration into granules; HPMC gel from granules controls release; no ghost matrix formed."
+        },
+        "introduction": {
+            "background": "Controlled release tablets prolong therapeutic effect. HPMC is a common hydrogel matrix. CA-LBG is a new ester polymer with lower solubility and viscosity, synthesized from locust bean gum and citric acid using HCl catalyst and UV light.",
+            "novelty": "CA-LBG as a negative matrix causes tablet disintegration into granules; HPMC matrix gel from granules controls release; avoids formation of large HPMC gel lumps (ghost matrix)."
+        },
+        "materials_and_methods": {
+            "materials_origin": {
+                "locust_bean_gum": "Viscogum, Cargill, France",
+                "citric_acid_monohydrate": "Brand KgaA, Darmstadt, Germany",
+                "hydrochloric_acid": "Sigma-Aldrich Chemie, GmbH",
+                "distilled_water": "Sterilized water for injection, PT. Otsuka Indonesia",
+                "acetone": "Cawan Anugerah Chemika, Indonesia",
+                "hydroxypropyl_methylcellulose": "Methocel K4M CR Premium USP/EP, Colorcon, Singapore",
+                "lactose_monohydrate": "Leprino Foods, UDM",
+                "ketoprofen": "PT Kalbe Farma Tbk, Indonesia",
+                "potassium_dihydrogen_phosphate": "KGaA Darmstadt Germany Brand",
+                "sodium_hydroxide": "KGaA Darmstadt Germany Brand"
+            },
+            "experimental_design": {
+                "design_type": "Simplex lattice design",
+                "factors": "HPMC concentration, CA-LBG concentration",
+                "responses": "Angle of repose, tap index, hardness, friability, ketoprofen release (10 h)",
+                "formula_proportions": "0:1, 0.25:0.75, 0.5:0.5, 0.75:0.25, 1:0",
+                "concentration_range": "HPMC: 30-40%, CA-LBG: 10-20%"
+            },
+            "ingredients_identification": {
+                "CA_LBG_preparation": {
+                    "method": "LBG (3.55e-6 mol) swelled in 50 mL warm distilled water (55-60°C), CA (21.00e-3 mol) and HCl (57.40e-3 mol) added, homogenized 10 min, irradiated with 254 nm UV for 100 min, precipitated with acetone, washed with distilled water-acetone, dried at room temperature.",
+                    "characterization": {
+                        "FTIR": "Peak at 1736.02 cm⁻¹ indicating ester carbonyl group (C=O).",
+                        "NMR": {
+                            "1H_NMR": "Paired twin peaks at δ 2.926/2.894 ppm and δ 2.746/2.714 ppm (CH₂ of CA); sharp peaks at δ 3.996-3.309 ppm (H atoms of mannose and galactose).",
+                            "13C_NMR": "Peaks at δ 176.905 and 173.507 ppm (C=O); δ 73.354 ppm (central C of CA); δ 43.349 ppm (CH₂ of CA); peaks at δ 100.182-60.540 ppm (C atoms of mannose and galactose)."
+                        },
+                        "esterified_CA": "29.30-29.55%",
+                        "solubility": "29.51-29.81%",
+                        "viscosity": "9.43-9.48 cPs"
+                    },
+                    "equation": "Solubility S[%] = (W_d / W_d) * 100% (eq 1)",
+                    "absorbance": "Not applicable; FTIR used for structural confirmation."
+                }
+            },
+            "formulation_details": {
+                "batch_data": [
+                    {
+                        "batch": "081_G1",
+                        "HPMC_%": 40.0,
+                        "CA_LBG_%": 10.0,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "081_G2",
+                        "HPMC_%": 32.5,
+                        "CA_LBG_%": 17.5,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "081_G3",
+                        "HPMC_%": 35.0,
+                        "CA_LBG_%": 15.0,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "081_G4",
+                        "HPMC_%": 40.0,
+                        "CA_LBG_%": 10.0,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "081_G5",
+                        "HPMC_%": 30.0,
+                        "CA_LBG_%": 20.0,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "081_G6",
+                        "HPMC_%": 37.5,
+                        "CA_LBG_%": 12.5,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "081_G7",
+                        "HPMC_%": 35.0,
+                        "CA_LBG_%": 15.0,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "081_G8",
+                        "HPMC_%": 30.0,
+                        "CA_LBG_%": 20.0,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "Ga",
+                        "HPMC_%": 32.97,
+                        "CA_LBG_%": 17.03,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "Gb",
+                        "HPMC_%": 32.97,
+                        "CA_LBG_%": 17.03,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "Gc",
+                        "HPMC_%": 32.97,
+                        "CA_LBG_%": 17.03,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    },
+                    {
+                        "batch": "Go",
+                        "HPMC_%": 32.97,
+                        "CA_LBG_%": 17.03,
+                        "lactose_monohydrate": "50% of granule mass (implied)",
+                        "ketoprofen": "100 mg per tablet",
+                        "tablet_weight_mg": 400,
+                        "excipients": "Lactose monohydrate"
+                    }
+                ]
+            },
+            "pre_compression_parameters": {
+                "batch_data": [
+                    {
+                        "batch": "081_G1",
+                        "flow_time_s": "4.80 ± 0.06",
+                        "angle_of_repose_deg": "29.92 ± 0.10",
+                        "tap_index_%": "19.00",
+                        "hardness_kp": "13.61 ± 0.70",
+                        "friability_%": "0.39",
+                        "weight_mg": "401.34 ± 1.69"
+                    },
+                    {
+                        "batch": "081_G2",
+                        "flow_time_s": "4.60 ± 0.10",
+                        "angle_of_repose_deg": "28.98 ± 0.08",
+                        "tap_index_%": "20.00",
+                        "hardness_kp": "13.84 ± 1.05",
+                        "friability_%": "0.45",
+                        "weight_mg": "400.87 ± 1.25"
+                    },
+                    {
+                        "batch": "081_G3",
+                        "flow_time_s": "5.00 ± 0.06",
+                        "angle_of_repose_deg": "29.47 ± 0.18",
+                        "tap_index_%": "20.00",
+                        "hardness_kp": "14.08 ± 0.84",
+                        "friability_%": "0.28",
+                        "weight_mg": "402.08 ± 1.50"
+                    },
+                    {
+                        "batch": "081_G4",
+                        "flow_time_s": "4.60 ± 0.10",
+                        "angle_of_repose_deg": "29.86 ± 0.53",
+                        "tap_index_%": "18.50",
+                        "hardness_kp": "13.60 ± 0.61",
+                        "friability_%": "0.43",
+                        "weight_mg": "400.07 ± 1.16"
+                    },
+                    {
+                        "batch": "081_G5",
+                        "flow_time_s": "4.80 ± 0.06",
+                        "angle_of_repose_deg": "27.86 ± 0.18",
+                        "tap_index_%": "19.00",
+                        "hardness_kp": "13.33 ± 0.46",
+                        "friability_%": "0.74",
+                        "weight_mg": "399.69 ± 1.45"
+                    },
+                    {
+                        "batch": "081_G6",
+                        "flow_time_s": "4.80 ± 0.15",
+                        "angle_of_repose_deg": "30.04 ± 0.06",
+                        "tap_index_%": "20.00",
+                        "hardness_kp": "14.01 ± 0.83",
+                        "friability_%": "0.34",
+                        "weight_mg": "400.12 ± 1.65"
+                    },
+                    {
+                        "batch": "081_G7",
+                        "flow_time_s": "5.00 ± 0.15",
+                        "angle_of_repose_deg": "29.93 ± 0.94",
+                        "tap_index_%": "20.00",
+                        "hardness_kp": "14.06 ± 0.87",
+                        "friability_%": "0.28",
+                        "weight_mg": "400.36 ± 0.89"
+                    },
+                    {
+                        "batch": "081_G8",
+                        "flow_time_s": "5.00 ± 0.10",
+                        "angle_of_repose_deg": "27.89 ± 0.54",
+                        "tap_index_%": "19.00",
+                        "hardness_kp": "13.32 ± 0.84",
+                        "friability_%": "0.73",
+                        "weight_mg": "399.67 ± 1.21"
+                    },
+                    {
+                        "batch": "Ga",
+                        "flow_time_s": "4.80 ± 0.06",
+                        "angle_of_repose_deg": "29.17 ± 0.12",
+                        "tap_index_%": "20.00",
+                        "hardness_kp": "13.97 ± 0.64",
+                        "friability_%": "0.40",
+                        "weight_mg": "401.27 ± 1.15"
+                    },
+                    {
+                        "batch": "Gb",
+                        "flow_time_s": "4.60 ± 0.15",
+                        "angle_of_repose_deg": "29.08 ± 0.23",
+                        "tap_index_%": "20.00",
+                        "hardness_kp": "14.01 ± 0.58",
+                        "friability_%": "0.41",
+                        "weight_mg": "399.00 ± 1.20"
+                    },
+                    {
+                        "batch": "Gc",
+                        "flow_time_s": "5.00 ± 0.10",
+                        "angle_of_repose_deg": "29.22 ± 0.99",
+                        "tap_index_%": "19.50",
+                        "hardness_kp": "13.86 ± 0.85",
+                        "friability_%": "0.39",
+                        "weight_mg": "400.67 ± 0.79"
+                    },
+                    {
+                        "batch": "Go",
+                        "flow_time_s": null,
+                        "angle_of_repose_deg": "29.16",
+                        "tap_index_%": "20.01",
+                        "hardness_kp": "13.91",
+                        "friability_%": "0.41",
+                        "weight_mg": null
+                    }
+                ]
+            },
+            "independent_variables": {
+                "HPMC_concentration_%": [
+                    40,
+                    32.5,
+                    35,
+                    40,
+                    30,
+                    37.5,
+                    35,
+                    30,
+                    32.97,
+                    32.97,
+                    32.97,
+                    32.97
+                ],
+                "CA_LBG_concentration_%": [
+                    10,
+                    17.5,
+                    15,
+                    10,
+                    20,
+                    12.5,
+                    15,
+                    20,
+                    17.03,
+                    17.03,
+                    17.03,
+                    17.03
+                ]
+            },
+            "FTIR_spectral_measurements": {
+                "instrument": "UATR Perkin Elmer Spectrum Version 10.4.3.",
+                "wavelength_range": "4000-450 cm⁻¹",
+                "key_peaks": {
+                    "CA_LBG": [
+                        {
+                            "wavenumber_cm-1": "3318.20",
+                            "assignment": "OH (mannose and galactose)"
+                        },
+                        {
+                            "wavenumber_cm-1": "3285.80",
+                            "assignment": "OH (mannose and galactose)"
+                        },
+                        {
+                            "wavenumber_cm-1": "2923.66",
+                            "assignment": "C-H (sharper than LBG)"
+                        },
+                        {
+                            "wavenumber_cm-1": "2936.00",
+                            "assignment": "C-H"
+                        },
+                        {
+                            "wavenumber_cm-1": "1736.02",
+                            "assignment": "Ester carbonyl (C=O)"
+                        }
+                    ],
+                    "LBG": [
+                        {
+                            "wavenumber_cm-1": "3318.20",
+                            "assignment": "OH"
+                        },
+                        {
+                            "wavenumber_cm-1": "3285.80",
+                            "assignment": "OH"
+                        },
+                        {
+                            "wavenumber_cm-1": "2923.66",
+                            "assignment": "C-H"
+                        }
+                    ]
+                }
+            },
+            "tablet_fabrication": {
+                "method": "Wet granulation",
+                "process": "Granules prepared by mixing HPMC and lactose monohydrate (50%) in cubic mixer; moistened with CA-LBG dispersed in distilled water (±5 mL); sieved (mesh No. 18); dried at 50°C for 15 min (RH 2-5%); re-sieved (mesh No. 20); mixed with ketoprofen (100 mg) (3:1); compressed into 400 mg tablets with hardness ≥13 kp using single punch machine (Korch, Germany).",
+                "hardness_determination": "Schleuniger hardness tester, n=6",
+                "friability_determination": "Erweka drum friability tester, 4 min at 25 rpm, n=6500 mg",
+                "weight_variation": "Analytical balance (Mettler Toledo), n=20",
+                "thickness_and_diameter": "Not reported",
+                "density": "Not reported",
+                "drug_content": "Not reported",
+                "consolidation_index": "Tap index calculated as TI[%] = (V0 - V1)/V0 × 100% (eq 2)"
+            },
+            "process_parameters": {
+                "compression_device": "Single punch machine (Korch, Germany)",
+                "pressure": "Not specified (target hardness ≥13 kp)",
+                "coating": "None",
+                "equipment": {
+                    "mixing": "Cubic mixer (Erweka)",
+                    "granulation": "Mesh No. 18 and 20 sieves",
+                    "drying": "Oven (50°C, 15 min, RH 2-5%) and moisture analyzer (OHAUS)",
+                    "compression": "Single punch tablet press (Korch, Germany)",
+                    "dissolution": "USP II paddle apparatus (Electrolab TDT-08L, India)"
+                },
+                "process_conditions": {
+                    "granulation": "Room temperature, manual compression",
+                    "drying": "50°C, 15 min",
+                    "compression": "Ambient conditions"
+                }
+            },
+            "release_properties": {
+                "batch_data": [
+                    {
+                        "batch": "081_G1",
+                        "release_mechanism": "Non-Fickian diffusion (anomalous)",
+                        "release_kinetics_model": "Korsmeyer-Peppas",
+                        "n_exponent": 0.62,
+                        "release_at_10h_%": "53.75 ± 0.89",
+                        "factors_influencing": "HPMC concentration (40%) slows release; CA-LBG (10%) causes some disintegration.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 8
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 14
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 20
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 26
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 31
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 36
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 42
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 47
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 50
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 53
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 54
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "081_G2",
+                        "release_mechanism": "Non-Fickian diffusion (anomalous)",
+                        "release_kinetics_model": "Korsmeyer-Peppas",
+                        "n_exponent": 0.6,
+                        "release_at_10h_%": "83.34 ± 0.70",
+                        "factors_influencing": "Higher CA-LBG increases release.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 12
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 22
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 32
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 41
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 50
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 58
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 67
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 74
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 78
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 82
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 83
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "081_G3",
+                        "release_mechanism": "Erosion-controlled",
+                        "release_kinetics_model": "Hixson-Crowell",
+                        "n_exponent": null,
+                        "release_at_10h_%": "69.33 ± 0.93",
+                        "factors_influencing": "Balanced HPMC and CA-LBG.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 10
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 19
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 28
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 36
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 44
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 51
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 58
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 63
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 67
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 69
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 69
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "081_G4",
+                        "release_mechanism": "Non-Fickian diffusion (anomalous)",
+                        "release_kinetics_model": "Korsmeyer-Peppas",
+                        "n_exponent": 0.58,
+                        "release_at_10h_%": "51.71 ± 0.71",
+                        "factors_influencing": "High HPMC (40%) slows release.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 7
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 13
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 19
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 25
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 30
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 35
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 41
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 45
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 48
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 51
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 52
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "081_G5",
+                        "release_mechanism": "Erosion-controlled",
+                        "release_kinetics_model": "Hixson-Crowell",
+                        "n_exponent": null,
+                        "release_at_10h_%": "99.21 ± 1.04",
+                        "factors_influencing": "High CA-LBG (20%) accelerates disintegration and release.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 24
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 45
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 63
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 77
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 86
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 92
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 96
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 98
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 99
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 99
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 99
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "081_G6",
+                        "release_mechanism": "Diffusion-controlled",
+                        "release_kinetics_model": "Higuchi",
+                        "n_exponent": null,
+                        "release_at_10h_%": "58.16 ± 0.89",
+                        "factors_influencing": "High HPMC (37.5%) forms viscous gel; CA-LBG (12.5%) moderates release.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 9
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 17
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 24
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 31
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 37
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 42
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 48
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 52
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 55
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 57
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 58
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "081_G7",
+                        "release_mechanism": "Erosion-controlled",
+                        "release_kinetics_model": "Hixson-Crowell",
+                        "n_exponent": null,
+                        "release_at_10h_%": "69.82 ± 0.33",
+                        "factors_influencing": "Similar to G3.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 10
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 19
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 28
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 36
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 44
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 51
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 58
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 63
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 67
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 69
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 70
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "081_G8",
+                        "release_mechanism": "Erosion-controlled",
+                        "release_kinetics_model": "Hixson-Crowell",
+                        "n_exponent": null,
+                        "release_at_10h_%": "99.32 ± 0.46",
+                        "factors_influencing": "High CA-LBG (20%) accelerates release.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 25
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 46
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 64
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 78
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 87
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 93
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 96
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 98
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 99
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 99
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 99
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "Ga",
+                        "release_mechanism": "Zero-order (constant release)",
+                        "release_kinetics_model": "Zero order",
+                        "n_exponent": null,
+                        "release_at_10h_%": "80.08 ± 0.60",
+                        "factors_influencing": "Optimum HPMC:CA-LBG ratio (32.97:17.03) forms constant thickness gel.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 4
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 8
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 12
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 16
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 20
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 24
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 32
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 40
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 48
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 64
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 80
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "Gb",
+                        "release_mechanism": "Zero-order (constant release)",
+                        "release_kinetics_model": "Zero order",
+                        "n_exponent": null,
+                        "release_at_10h_%": "80.44 ± 1.17",
+                        "factors_influencing": "Optimum ratio.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 4
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 8
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 12
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 16
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 20
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 24
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 32
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 40
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 48
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 64
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 80
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "Gc",
+                        "release_mechanism": "Zero-order (constant release)",
+                        "release_kinetics_model": "Zero order",
+                        "n_exponent": null,
+                        "release_at_10h_%": "80.45 ± 0.55",
+                        "factors_influencing": "Optimum ratio.",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 4
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 8
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 12
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 16
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 20
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 24
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 32
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 40
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 48
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 64
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 80
+                            }
+                        ]
+                    },
+                    {
+                        "batch": "Go",
+                        "release_mechanism": "Zero-order (predicted)",
+                        "release_kinetics_model": "Zero order",
+                        "n_exponent": null,
+                        "release_at_10h_%": 80.0,
+                        "factors_influencing": "Optimum ratio (predicted).",
+                        "dissolution_profile": [
+                            {
+                                "time_h": 0.5,
+                                "release_%": 4
+                            },
+                            {
+                                "time_h": 1,
+                                "release_%": 8
+                            },
+                            {
+                                "time_h": 1.5,
+                                "release_%": 12
+                            },
+                            {
+                                "time_h": 2,
+                                "release_%": 16
+                            },
+                            {
+                                "time_h": 2.5,
+                                "release_%": 20
+                            },
+                            {
+                                "time_h": 3,
+                                "release_%": 24
+                            },
+                            {
+                                "time_h": 4,
+                                "release_%": 32
+                            },
+                            {
+                                "time_h": 5,
+                                "release_%": 40
+                            },
+                            {
+                                "time_h": 6,
+                                "release_%": 48
+                            },
+                            {
+                                "time_h": 8,
+                                "release_%": 64
+                            },
+                            {
+                                "time_h": 10,
+                                "release_%": 80
+                            }
+                        ]
+                    }
+                ]
+            },
+            "tablet_properties": {
+                "batch_data": [
+                    {
+                        "batch": "081_G1",
+                        "hardness_kp": "13.61 ± 0.70",
+                        "friability_%": 0.39,
+                        "disintegration_time": "Not applicable (controlled release)",
+                        "dissolution_profile_10h_%": "53.75 ± 0.89",
+                        "stability": "Not reported",
+                        "thickness": "Not reported",
+                        "weight_variation_%": "Not calculated, weight shown as mean ± SD (401.34 ± 1.69 mg)"
+                    },
+                    {
+                        "batch": "081_G2",
+                        "hardness_kp": "13.84 ± 1.05",
+                        "friability_%": 0.45,
+                        "dissolution_profile_10h_%": "83.34 ± 0.70",
+                        "weight_variation_%": null,
+                        "weight_mg": "400.87 ± 1.25"
+                    },
+                    {
+                        "batch": "081_G3",
+                        "hardness_kp": "14.08 ± 0.84",
+                        "friability_%": 0.28,
+                        "dissolution_profile_10h_%": "69.33 ± 0.93",
+                        "weight_mg": "402.08 ± 1.50"
+                    },
+                    {
+                        "batch": "081_G4",
+                        "hardness_kp": "13.60 ± 0.61",
+                        "friability_%": 0.43,
+                        "dissolution_profile_10h_%": "51.71 ± 0.71",
+                        "weight_mg": "400.07 ± 1.16"
+                    },
+                    {
+                        "batch": "081_G5",
+                        "hardness_kp": "13.33 ± 0.46",
+                        "friability_%": 0.74,
+                        "dissolution_profile_10h_%": "99.21 ± 1.04",
+                        "weight_mg": "399.69 ± 1.45"
+                    },
+                    {
+                        "batch": "081_G6",
+                        "hardness_kp": "14.01 ± 0.83",
+                        "friability_%": 0.34,
+                        "dissolution_profile_10h_%": "58.16 ± 0.89",
+                        "weight_mg": "400.12 ± 1.65"
+                    },
+                    {
+                        "batch": "081_G7",
+                        "hardness_kp": "14.06 ± 0.87",
+                        "friability_%": 0.28,
+                        "dissolution_profile_10h_%": "69.82 ± 0.33",
+                        "weight_mg": "400.36 ± 0.89"
+                    },
+                    {
+                        "batch": "081_G8",
+                        "hardness_kp": "13.32 ± 0.84",
+                        "friability_%": 0.73,
+                        "dissolution_profile_10h_%": "99.32 ± 0.46",
+                        "weight_mg": "399.67 ± 1.21"
+                    },
+                    {
+                        "batch": "Ga",
+                        "hardness_kp": "13.97 ± 0.64",
+                        "friability_%": 0.4,
+                        "dissolution_profile_10h_%": "80.08 ± 0.60",
+                        "weight_mg": "401.27 ± 1.15"
+                    },
+                    {
+                        "batch": "Gb",
+                        "hardness_kp": "14.01 ± 0.58",
+                        "friability_%": 0.41,
+                        "dissolution_profile_10h_%": "80.44 ± 1.17",
+                        "weight_mg": "399.00 ± 1.20"
+                    },
+                    {
+                        "batch": "Gc",
+                        "hardness_kp": "13.86 ± 0.85",
+                        "friability_%": 0.39,
+                        "dissolution_profile_10h_%": "80.45 ± 0.55",
+                        "weight_mg": "400.67 ± 0.79"
+                    },
+                    {
+                        "batch": "Go",
+                        "hardness_kp": 13.91,
+                        "friability_%": 0.41,
+                        "dissolution_profile_10h_%": 80.0,
+                        "weight_mg": null
+                    }
+                ]
+            },
+            "experimental_data": {
+                "key_results": "Optimum HPMC and CA-LBG concentrations: 32.97% and 17.03%, respectively. Optimum tablets showed zero-order release kinetics with 80% drug release at 10 h.",
+                "performance_metrics": {
+                    "angle_of_repose_deg": "29.16 (Go)",
+                    "tap_index_%": "20.01 (Go)",
+                    "hardness_kp": "13.91 (Go)",
+                    "friability_%": "0.41 (Go)",
+                    "drug_release_10h_%": "80.00 (Go)"
+                },
+                "statistical_analysis": {
+                    "ANOVA": "Pred R-Squared and Adj R-Squared for all responses had differences <0.2; Adeq Precision >4 for all models, indicating acceptability.",
+                    "polynomial_equations": {
+                        "angle_of_repose": "Y = 29.91A + 27.87B + 3.25AB",
+                        "tap_index": "Y = 18.99A + 18.77B + 5.64AB",
+                        "hardness": "Y = 13.60A + 13.32B + 2.42AB",
+                        "friability": "Y = 0.41A + 0.73B - 1.10AB",
+                        "ketoprofen_release": "Y = 52.48A + 99.44B - 26.36AB"
+                    },
+                    "t_test_verification": "No significant difference between predicted (Go) and experimental (Ga, Gb, Gc) for all parameters (T values: angle of repose 0.008, tap index 1.096, hardness 0.728, friability 1.559, release 2.657)."
+                },
+                "zero_and_first_order_release": {
+                    "zero_order": "Optimum tablets (Ga, Gb, Gc) followed zero-order kinetics.",
+                    "first_order": "Not observed as the primary model for any batch."
+                },
+                "tablet_swelling_water_uptake": "Not studied."
+            }
+        }
+    }
+}

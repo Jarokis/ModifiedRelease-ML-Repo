@@ -1,0 +1,275 @@
+{
+    "Materials_origin": {
+        "acarbose": "Ranbaxy Research Laboratories Ltd., Gurgaon, India [file:1]",
+        "fenugreek_gum": "Emerald Seed Products Ltd., Saskatchewan, Canada [file:1]",
+        "locust_bean_gum": "Himedia, Mumbai, India [file:1]",
+        "boswellia_gum": "Local retail shop, Dehradun, India [file:1]",
+        "microcrystalline_cellulose": "Ranbaxy Laboratories Ltd., Gurgoan, India [file:1]",
+        "talc": "S.D. Fine Chemicals Ltd., Mumbai, India [file:1]",
+        "magnesium_stearate": "S.D. Fine Chemicals Ltd., Mumbai, India [file:1]"
+    },
+    "Experimental_design_for_optimization": {
+        "approach": "Matrix tablets with different ratios of gums; direct compression for tablet formation; factorial design for evaluating release control [file:1]",
+        "animal_model": "Male Wistar rats, high-fructose diet induced Type II diabetes; 5 groups: control, diabetic, IR treated, CR treated, placebo [file:1]"
+    },
+    "ingredients_identification_characterization": {
+        "preparation": "Direct compression of physical mixtures, geometric addition, blending, and compression into tablets using single-punch tableting machine [file:1]",
+        "results": "Tablets meet IP requirements. Drug content: 99.01-100.70%. Validation RP-HPLC (λ=210 nm); FTIR: no interaction between drug and polymers (bands: 3371, 1652, 1418, 1152 cm⁻¹) [file:1]",
+        "equations": {
+            "swelling": "Weight change (%) = ((w1 - w0) / w0) * 100 [file:1]",
+            "MDT": "MDT = ∫t·Wdtdt / ∫Wdtdt [file:1]"
+        },
+        "absorbance": "UV spectrophotometer used at λmax 210 nm for drug determination [file:1]"
+    },
+    "Formulation_details": {
+        "004_AF0": {
+            "acarbose": 100,
+            "fenugreek_gum": 191,
+            "MCC_PH101": 0,
+            "LBG": 0,
+            "BG": 0,
+            "talc": 6,
+            "Mg_stearate": 3,
+            "total_weight": 299.32
+        },
+        "004_AF40": {
+            "acarbose": 100,
+            "fenugreek_gum": 120,
+            "MCC_PH101": 71,
+            "LBG": 0,
+            "BG": 0,
+            "talc": 6,
+            "Mg_stearate": 3,
+            "total_weight": 301.11
+        },
+        "004_AF50": {
+            "acarbose": 100,
+            "fenugreek_gum": 150,
+            "MCC_PH101": 41,
+            "LBG": 0,
+            "BG": 0,
+            "talc": 6,
+            "Mg_stearate": 3,
+            "total_weight": 300.28
+        },
+        "004_AF60": {
+            "acarbose": 100,
+            "fenugreek_gum": 180,
+            "MCC_PH101": 11,
+            "LBG": 0,
+            "BG": 0,
+            "talc": 6,
+            "Mg_stearate": 3,
+            "total_weight": 299.78
+        },
+        "ALBG30": {
+            "acarbose": 100,
+            "LBG": 90,
+            "MCC_PH101": 101,
+            "fenugreek_gum": 0,
+            "BG": 0,
+            "talc": 6,
+            "Mg_stearate": 3,
+            "total_weight": 301.2
+        },
+        "ALBG50": {
+            "acarbose": 100,
+            "LBG": 150,
+            "MCC_PH101": 41,
+            "fenugreek_gum": 0,
+            "BG": 0,
+            "talc": 6,
+            "Mg_stearate": 3,
+            "total_weight": 299.69
+        },
+        "004_AB40": {
+            "acarbose": 100,
+            "BG": 120,
+            "MCC_PH101": 71,
+            "fenugreek_gum": 0,
+            "LBG": 0,
+            "talc": 6,
+            "Mg_stearate": 3,
+            "total_weight": 298.78
+        },
+        "004_AB50": {
+            "acarbose": 100,
+            "BG": 150,
+            "MCC_PH101": 41,
+            "fenugreek_gum": 0,
+            "LBG": 0,
+            "talc": 6,
+            "Mg_stearate": 3,
+            "total_weight": 299.04
+        }
+    },
+    "Pre_compression_parameters": {
+        "004_AF0": {
+            "weight_mean_SD": "299.32±1.14 mg",
+            "thickness": "3.98 mm",
+            "hardness_mean_SD": "4.87±0.09 kg/cm²",
+            "friability": "0.55%",
+            "diameter": "9.7 mm"
+        },
+        "004_AF40": {
+            "weight_mean_SD": "301.11±0.98 mg",
+            "thickness": "4.20 mm",
+            "hardness_mean_SD": "4.10±0.11 kg/cm²",
+            "friability": "0.80%",
+            "diameter": "9.7 mm"
+        },
+        "004_AF50": {
+            "weight_mean_SD": "300.28±0.17 mg",
+            "thickness": "4.12 mm",
+            "hardness_mean_SD": "4.39±0.21 kg/cm²",
+            "friability": "0.75%",
+            "diameter": "9.7 mm"
+        },
+        "004_AF60": {
+            "weight_mean_SD": "299.78±0.04 mg",
+            "thickness": "4.00 mm",
+            "hardness_mean_SD": "4.59±0.11 kg/cm²",
+            "friability": "0.63%",
+            "diameter": "9.7 mm"
+        },
+        "ALBG30": {
+            "weight_mean_SD": "301.2±0.48 mg",
+            "thickness": "4.76 mm",
+            "hardness_mean_SD": "3.22±0.79 kg/cm²",
+            "friability": "0.84%",
+            "diameter": "9.7 mm"
+        },
+        "ALBG50": {
+            "weight_mean_SD": "299.69±0.44 mg",
+            "thickness": "4.62 mm",
+            "hardness_mean_SD": "3.39±0.16 kg/cm²",
+            "friability": "0.72%",
+            "diameter": "9.7 mm"
+        },
+        "004_AB40": {
+            "weight_mean_SD": "298.78±1.12 mg",
+            "thickness": "4.12 mm",
+            "hardness_mean_SD": "3.23±0.32 kg/cm²",
+            "friability": "0.71%",
+            "diameter": "9.7 mm"
+        },
+        "004_AB50": {
+            "weight_mean_SD": "299.04±0.99 mg",
+            "thickness": "4.12 mm",
+            "hardness_mean_SD": "3.45±0.20 kg/cm²",
+            "friability": "0.72%",
+            "diameter": "9.7 mm"
+        }
+    },
+    "Composition_independent_variables_and_levels": {
+        "variables": "Polymer (gum) type and concentration",
+        "levels": {
+            "fenugreek_gum": [
+                "40%",
+                "50%",
+                "60%"
+            ],
+            "locust_bean_gum": [
+                "30%",
+                "50%"
+            ],
+            "boswellia_gum": [
+                "40%",
+                "50%"
+            ]
+        }
+    },
+    "Fourier_transform_infrared_spectral_measurements": {
+        "instrument": "Perkin Elmer FTIR",
+        "method": "KBr pellet method, scanned 4000-400 cm⁻¹ [file:1]",
+        "findings": "No significant interaction between acarbose and gums; major peaks for OH, CC, CO and water stretching confirmed [file:1]"
+    },
+    "Tablet_fabrications_and_evaluation": {
+        "equipment": "Single-station tablet machine (Modern Engineering, New Delhi), biconcave die punch 9.7 mm diameter [file:1]",
+        "process_parameters": {
+            "compression": "Manual feed, direct compression",
+            "pressure": "Not specified, but using biconcave punch set [file:1]",
+            "coating": "No coating applied [file:1]",
+            "temperature": "Room temperature (35±2°C for HPLC analysis) [file:1]"
+        },
+        "batch_evaluations": "Physical parameters (weight variation, thickness, hardness, friability, drug content) as per pharmacopoeial standards [file:1]"
+    },
+    "Release_properties": {
+        "004_AF0": {
+            "profile": "Immediate release; 99.67% in 1 h",
+            "kinetics": "First order",
+            "MDT": "-"
+        },
+        "004_AF40": {
+            "profile": "50.15% in 2h; 87.66% in 8h; sustained up to 24h",
+            "kinetics": "First order; r2=0.902-0.997",
+            "MDT": "highest; 3.88-7.50h",
+            "t50": "2h",
+            "t80": "6h"
+        },
+        "004_AF50": {
+            "profile": "48.08% in 2h; 84.36% in 8h",
+            "kinetics": "First order",
+            "t50": "2.12h",
+            "t80": "6h"
+        },
+        "004_AF60": {
+            "profile": "40.73% in 2h; 90% in 12h",
+            "kinetics": "First order",
+            "t50": "3.2h",
+            "t80": "12h"
+        },
+        "ALBG30": {
+            "profile": "~100% in 3h",
+            "kinetics": "First order",
+            "MDT": "3.02h",
+            "t50": "0.8h",
+            "t80": "1.6h"
+        },
+        "ALBG50": {
+            "profile": "100.69% in 10h",
+            "kinetics": "First order",
+            "MDT": "2.20h",
+            "t50": "2.24h",
+            "t80": "4h"
+        },
+        "004_AB40": {
+            "profile": "100% in 6h",
+            "kinetics": "First order",
+            "MDT": "2.02h"
+        },
+        "004_AB50": {
+            "profile": "100% in 8h",
+            "kinetics": "First order",
+            "MDT": "2.22h",
+            "t50": "1.25h",
+            "t80": "3.2h"
+        }
+    },
+    "Tablet_properties": {
+        "hardness": "3.23–4.87 kg/cm² (batch dependent), SD as above",
+        "friability": "0.55–0.84%",
+        "disintegration_time": "Not specified",
+        "dissolution_profile": "See release properties",
+        "stability": {
+            "004_AF40": "No significant change after 6 months; f2=83 (>50); shelf life 1.47 years [file:1]"
+        },
+        "thickness": "3.98–4.76 mm",
+        "weight_variation": "<1.14 mg SD",
+        "swelling_index": {
+            "004_AF40–004_AF60": "Swelling proportional to fenugreek gum concentration, max at 12h, with gel formation; ALBG/AB: initial swelling, then erosion or fragmentation [file:1]"
+        }
+    },
+    "Experimental_data": {
+        "in_vitro": {
+            "release": "See release profiles; kinetic models applied (first order, Higuchi, Korsmeyer-Peppas, Hixson Crowell)",
+            "swelling_water_uptake": "004_AF40–004_AF60: lag ~30min, max swelling at 12h; others erode quicker [file:1]"
+        },
+        "in_vivo": {
+            "animal_model": "Wistar rats; 004_AF40 selected; significant decrease in postprandial blood glucose and triglycerides; placebo (fenugreek gum) effective alone [file:1]",
+            "body_weight": "Reduction in weight gain in sustained release group; 004_AF40 body weight decreased from 84.33±3.35 to 66.78±5.78 g in 5 days [file:1]",
+            "side_effects": "Occurrence of diarrhea lowered with sustained release formulation; food intake increased (004_AF40 group ate 80–95g in 72h) [file:1]"
+        },
+        "statistics": "Significance stated as p<0.001 for glucose, triglycerides, body weight [file:1]"
+    }
+}

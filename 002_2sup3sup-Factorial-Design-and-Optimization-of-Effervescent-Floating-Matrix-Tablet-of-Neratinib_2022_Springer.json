@@ -1,0 +1,553 @@
+{
+    "Materials_origin": {
+        "Neratinib": "Mesochem Technology Co., Ltd. Beijing, China",
+        "Carbopol_940": "Acros Organics, Belgium",
+        "Hydroxypropyl_Methylcellulose": "Acros Organics, Belgium",
+        "Microcrystalline_Cellulose": "Fluka Biochem, US",
+        "Talc": "Sigma-Aldrich Chemie GmbH, Germany",
+        "Lactose": "Sigma-Aldrich Chemie GmbH, Germany",
+        "Sodium_Bicarbonate": "Sigma-Aldrich Chemie GmbH, Germany",
+        "Other_chemicals": "Analytical grade reagents"
+    },
+    "Experimental_Design_for_Optimization": {
+        "Design_Type": "23 full factorial design",
+        "Independent_Variables": {
+            "HPMC": {
+                "Low": 25,
+                "High": 50
+            },
+            "Carbopol_940": {
+                "Low": 25,
+                "High": 50
+            },
+            "MCC": {
+                "Low": 15,
+                "High": 25
+            }
+        },
+        "Dependent_Variables": [
+            "Hardness",
+            "Percentage Swelling",
+            "Floating",
+            "Percentage Drug Release"
+        ],
+        "Optimization_Software": "DESIGN EXPERT (version 12.0.2.0)"
+    },
+    "Pre_compression_Parameters": {
+        "002_F1": {
+            "Tapped_Density": 0.459,
+            "Bulk_Density": 0.384,
+            "Carr_Index": 12.71,
+            "Hausner_Ratio": 1.196,
+            "Angle_of_Repose": 21.8
+        },
+        "002_F2": {
+            "Tapped_Density": 0.483,
+            "Bulk_Density": 0.416,
+            "Carr_Index": 13.87,
+            "Hausner_Ratio": 1.163,
+            "Angle_of_Repose": 26.6
+        },
+        "002_F3": {
+            "Tapped_Density": 0.501,
+            "Bulk_Density": 0.428,
+            "Carr_Index": 14.2,
+            "Hausner_Ratio": 1.168,
+            "Angle_of_Repose": 20.8
+        },
+        "002_F4": {
+            "Tapped_Density": 0.416,
+            "Bulk_Density": 0.394,
+            "Carr_Index": 5.28,
+            "Hausner_Ratio": 1.057,
+            "Angle_of_Repose": 22.4
+        },
+        "002_F5": {
+            "Tapped_Density": 0.454,
+            "Bulk_Density": 0.405,
+            "Carr_Index": 10.79,
+            "Hausner_Ratio": 1.122,
+            "Angle_of_Repose": 28.9
+        },
+        "002_F6": {
+            "Tapped_Density": 0.428,
+            "Bulk_Density": 0.394,
+            "Carr_Index": 8.0,
+            "Hausner_Ratio": 1.087,
+            "Angle_of_Repose": 21.2
+        },
+        "002_F7": {
+            "Tapped_Density": 0.441,
+            "Bulk_Density": 0.416,
+            "Carr_Index": 6.0,
+            "Hausner_Ratio": 1.06,
+            "Angle_of_Repose": 27.5
+        },
+        "002_F8": {
+            "Tapped_Density": 0.428,
+            "Bulk_Density": 0.384,
+            "Carr_Index": 10.2,
+            "Hausner_Ratio": 1.116,
+            "Angle_of_Repose": 29.7
+        },
+        "002_F9": {
+            "Tapped_Density": 0.416,
+            "Bulk_Density": 0.405,
+            "Carr_Index": 3.0,
+            "Hausner_Ratio": 1.028,
+            "Angle_of_Repose": 27.0
+        }
+    },
+    "Formulation_Details": {
+        "002_F1": {
+            "Neratinib": 40,
+            "HPMC": 50,
+            "Carbopol_940": 50,
+            "MCC": 25,
+            "Sodium_Bicarbonate": 40,
+            "Talc": 3,
+            "Lactose": 92
+        },
+        "002_F2": {
+            "Neratinib": 40,
+            "HPMC": 25,
+            "Carbopol_940": 25,
+            "MCC": 25,
+            "Sodium_Bicarbonate": 40,
+            "Talc": 3,
+            "Lactose": 142
+        },
+        "002_F3": {
+            "Neratinib": 40,
+            "HPMC": 25,
+            "Carbopol_940": 25,
+            "MCC": 15,
+            "Sodium_Bicarbonate": 40,
+            "Talc": 3,
+            "Lactose": 152
+        },
+        "002_F4": {
+            "Neratinib": 40,
+            "HPMC": 50,
+            "Carbopol_940": 50,
+            "MCC": 15,
+            "Sodium_Bicarbonate": 40,
+            "Talc": 3,
+            "Lactose": 102
+        },
+        "002_F5": {
+            "Neratinib": 40,
+            "HPMC": 50,
+            "Carbopol_940": 25,
+            "MCC": 15,
+            "Sodium_Bicarbonate": 40,
+            "Talc": 3,
+            "Lactose": 127
+        },
+        "002_F6": {
+            "Neratinib": 40,
+            "HPMC": 25,
+            "Carbopol_940": 50,
+            "MCC": 15,
+            "Sodium_Bicarbonate": 40,
+            "Talc": 3,
+            "Lactose": 127
+        },
+        "002_F7": {
+            "Neratinib": 40,
+            "HPMC": 37.5,
+            "Carbopol_940": 37.5,
+            "MCC": 20,
+            "Sodium_Bicarbonate": 40,
+            "Talc": 3,
+            "Lactose": 142
+        },
+        "002_F8": {
+            "Neratinib": 40,
+            "HPMC": 25,
+            "Carbopol_940": 50,
+            "MCC": 25,
+            "Sodium_Bicarbonate": 40,
+            "Talc": 3,
+            "Lactose": 117
+        },
+        "002_F9": {
+            "Neratinib": 40,
+            "HPMC": 50,
+            "Carbopol_940": 25,
+            "MCC": 25,
+            "Sodium_Bicarbonate": 40,
+            "Talc": 3,
+            "Lactose": 117
+        }
+    },
+    "Tablet_Properties": {
+        "002_F1": {
+            "Hardness": 5.14,
+            "Friability": 0.71,
+            "Thickness": 3.06,
+            "Weight_Variation": "Within USP limits",
+            "Lag_Time": 64,
+            "Total_Floating_Time": ">12 hours",
+            "Swelling_Index": 263,
+            "Dissolution_Profile": "81% at 8h"
+        },
+        "002_F2": {
+            "Hardness": 4.82,
+            "Friability": 0.69,
+            "Thickness": 2.88,
+            "Weight_Variation": "Within USP limits",
+            "Lag_Time": 69,
+            "Total_Floating_Time": ">12 hours",
+            "Swelling_Index": 126,
+            "Dissolution_Profile": "100% at 7h"
+        },
+        "002_F3": {
+            "Hardness": 4.91,
+            "Friability": 0.72,
+            "Thickness": 2.94,
+            "Weight_Variation": "Within USP limits",
+            "Lag_Time": 72,
+            "Total_Floating_Time": ">12 hours",
+            "Swelling_Index": 110,
+            "Dissolution_Profile": "100% at 6h"
+        },
+        "002_F4": {
+            "Hardness": 4.73,
+            "Friability": 0.72,
+            "Thickness": 2.99,
+            "Weight_Variation": "Within USP limits",
+            "Lag_Time": 87,
+            "Total_Floating_Time": ">12 hours",
+            "Swelling_Index": 145,
+            "Dissolution_Profile": "72.1% at 8h"
+        },
+        "002_F5": {
+            "Hardness": 4.85,
+            "Friability": 0.79,
+            "Thickness": 2.89,
+            "Weight_Variation": "Within USP limits",
+            "Lag_Time": 62,
+            "Total_Floating_Time": ">12 hours",
+            "Swelling_Index": 192,
+            "Dissolution_Profile": "Fast initial release, sustained for 8h"
+        },
+        "002_F6": {
+            "Hardness": 4.89,
+            "Friability": 0.73,
+            "Thickness": 3.03,
+            "Weight_Variation": "Within USP limits",
+            "Lag_Time": 94,
+            "Total_Floating_Time": ">12 hours",
+            "Swelling_Index": 136,
+            "Dissolution_Profile": "93.8% at 8h"
+        },
+        "002_F7": {
+            "Hardness": 5.03,
+            "Friability": 0.8,
+            "Thickness": 2.96,
+            "Weight_Variation": "Within USP limits",
+            "Lag_Time": 73,
+            "Total_Floating_Time": ">12 hours",
+            "Swelling_Index": 119,
+            "Dissolution_Profile": "91.9% at 8h"
+        },
+        "002_F8": {
+            "Hardness": 5.01,
+            "Friability": 0.74,
+            "Thickness": 2.87,
+            "Weight_Variation": "Within USP limits",
+            "Lag_Time": 78,
+            "Total_Floating_Time": ">12 hours",
+            "Swelling_Index": 132,
+            "Dissolution_Profile": "86.4% at 8h"
+        },
+        "002_F9": {
+            "Hardness": 4.99,
+            "Friability": 0.76,
+            "Thickness": 2.99,
+            "Weight_Variation": "Within USP limits",
+            "Lag_Time": 47,
+            "Total_Floating_Time": ">12 hours",
+            "Swelling_Index": 150,
+            "Dissolution_Profile": "100% at 8h"
+        }
+    },
+    "Drug_Release_Data": {
+        "time_hours": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "002_F1": [
+            0,
+            30,
+            50,
+            60,
+            65,
+            70,
+            75,
+            78,
+            80
+        ],
+        "002_F2": [
+            0,
+            35,
+            55,
+            63,
+            67,
+            72,
+            78,
+            82,
+            85
+        ],
+        "002_F3": [
+            0,
+            40,
+            60,
+            70,
+            75,
+            80,
+            85,
+            88,
+            90
+        ],
+        "002_F4": [
+            0,
+            20,
+            30,
+            40,
+            45,
+            50,
+            55,
+            58,
+            60
+        ],
+        "002_F5": [
+            0,
+            32,
+            52,
+            61,
+            66,
+            71,
+            74,
+            76,
+            78
+        ],
+        "002_F6": [
+            0,
+            34,
+            53,
+            62,
+            68,
+            72,
+            76,
+            79,
+            81
+        ],
+        "002_F7": [
+            0,
+            28,
+            48,
+            58,
+            63,
+            68,
+            72,
+            74,
+            76
+        ],
+        "002_F8": [
+            0,
+            31,
+            49,
+            59,
+            64,
+            69,
+            73,
+            76,
+            78
+        ],
+        "002_F9": [
+            0,
+            38,
+            58,
+            68,
+            73,
+            78,
+            83,
+            86,
+            88
+        ]
+    },
+    "FTIR_Data": {
+        "pure_neratinib": [
+            {
+                "wavenumber_cm-1": 3430.54,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 3401.39,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 2930.38,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 2860.12,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 2701.08,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 2544.9,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 2206.18,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 1987.67,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 1900.11,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 1637.9,
+                "transmittance_%": null
+            }
+        ],
+        "optimized_F9": [
+            {
+                "wavenumber_cm-1": 3401.39,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 3002.78,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 2930.38,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 2650.12,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 2701.08,
+                "transmittance_%": null
+            },
+            {
+                "wavenumber_cm-1": 2206.18,
+                "transmittance_%": null
+            }
+        ]
+    },
+    "UV_Data": [
+        {
+            "wavelength_nm": 218.77,
+            "absorption": 0.098
+        },
+        {
+            "wavelength_nm": 249.27,
+            "absorption": 2.698
+        },
+        {
+            "wavelength_nm": 270.77,
+            "absorption": 0.098
+        },
+        {
+            "wavelength_nm": 294.23,
+            "absorption": 0.156
+        },
+        {
+            "wavelength_nm": 333.33,
+            "absorption": 0.203
+        },
+        {
+            "wavelength_nm": 357.58,
+            "absorption": 0.041
+        },
+        {
+            "wavelength_nm": 379.08,
+            "absorption": 0.052
+        },
+        {
+            "wavelength_nm": 417.4,
+            "absorption": 0.139
+        },
+        {
+            "wavelength_nm": 447.9,
+            "absorption": 0.069
+        },
+        {
+            "wavelength_nm": 502.64,
+            "absorption": 0.104
+        },
+        {
+            "wavelength_nm": 528.05,
+            "absorption": 0.041
+        },
+        {
+            "wavelength_nm": 558.16,
+            "absorption": 0.035
+        },
+        {
+            "wavelength_nm": 585.53,
+            "absorption": 1.32
+        }
+    ],
+    "Desirability_Plot": {
+        "X-axis": "HPMC",
+        "Y-axis": "Carbopol 934P",
+        "Contour_Levels": [
+            {
+                "HPMC": 25,
+                "Carbopol_934P": 25,
+                "Desirability": 0.4
+            },
+            {
+                "HPMC": 35,
+                "Carbopol_934P": 30,
+                "Desirability": 0.6
+            },
+            {
+                "HPMC": 45,
+                "Carbopol_934P": 35,
+                "Desirability": 0.6
+            },
+            {
+                "HPMC": 50,
+                "Carbopol_934P": 45,
+                "Desirability": 0.4
+            },
+            {
+                "HPMC": 50,
+                "Carbopol_934P": 50,
+                "Desirability": 0.2
+            },
+            {
+                "HPMC": 45,
+                "Carbopol_934P": 40,
+                "Desirability": 0.8
+            },
+            {
+                "HPMC": 45,
+                "Carbopol_934P": 45,
+                "Desirability": 0.869
+            }
+        ]
+    }
+}

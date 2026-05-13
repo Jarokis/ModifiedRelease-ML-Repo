@@ -1,0 +1,497 @@
+{
+  "Materials_origin": {
+    "Pectin": "Sigma-Aldrich (St. Louis, MO, USA), from apple, high methoxyl (79.91±1.66%), Lot: BCBK7271V",
+    "Chitosan": "Guinama S.L.U. (La Pobla de Vallbona, Valencia, Spain), viscosity 37 mPa·S, N-deacetylation 54.73±4.26%, Lot: 0055790",
+    "HPMC (Hypromellose)": "Colorcon Limited (Dartford, UK), Methocel K100M Premium CR, Lot: SB13012N31",
+    "Sesame oil": "Sigma-Aldrich, from Sesamum indicum, Lot: BCBN4676V",
+    "Sorbitan monostearate (Span 60)": "Sigma-Aldrich, Lot: MKBS8956V",
+    "Polysorbate 60 (Tween 60)": "Sigma-Aldrich, Lot: MKBT3178V",
+    "Tenofovir (TFV)": "Carbosynth Limited (Compton, UK), Lot: FT104801501",
+    "Glacial acetic acid": "PanReac (Castellar del Valles, Barcelona, Spain)",
+    "Demineralized water": "Milli-Q system"
+  },
+  "Experimental_Design_for_Optimization": {
+    "Objective": "Obtain freeze-dried bigels containing pectin, chitosan, or HPMC for controlled vaginal release of Tenofovir, accelerated in presence of semen.",
+    "Independent_variables": ["Polymer type (pectin, chitosan, HPMC)", "Polymer concentration in hydrogel (1%, 2%, 3% w/w)"],
+    "Dependent_variables": ["Hardness", "Deformability", "Mucoadhesion", "Swelling ratio", "Drug release profile", "Release kinetics"],
+    "Batches_formulated": ["1P", "2P", "3P", "1C", "2C", "3C", "1H", "2H", "3H"],
+    "Excluded_batches": ["3H (no homogeneous bigel)", "fd1P and fd1C (too fragile after freeze-drying)"],
+    "Selected_freeze_dried_batches": ["fd2P", "fd3P", "fd2C", "fd3C", "fd1H", "fd2H"]
+  },
+  "ingredients_identification": {
+    "Preparation_method": "Organogel (sesame oil + Span60 at 70°C) and hydrogel (TFV in water + polymer + Tween60) heated separately, mixed manually until homogeneous. Freeze-dried in PVC blisters (8x23x9 mm, 1 g per blister).",
+    "Freeze_drying_conditions": "Freezing -45°C, sublimation -45 to 25°C, pressure 4.54e-4 atm (Lio-Labor freeze dryer, Telstar, Spain).",
+    "UV_absorbance_wavelength": "261 nm (for Tenofovir quantification)"
+  },
+  "Formulation_Details": {
+    "Fresh_bigel_composition_common": {
+      "Organogel": "Sesame oil 75.8% w/w, Span60 5.5% w/w",
+      "Tween60": "1.7% w/w",
+      "Tenofovir": "3% w/w (added to hydrogel)"
+    },
+    "Batches": {
+      "1P": {"Polymer": "Pectin 1% w/w in hydrogel", "Status": "Excluded after freeze-drying (fragile)"},
+      "2P": {"Polymer": "Pectin 2% w/w in hydrogel", "Freeze_dried": "fd2P", "Mass_per_blister": "1 g fresh -> freeze-dried weight not specified"},
+      "3P": {"Polymer": "Pectin 3% w/w in hydrogel", "Freeze_dried": "fd3P"},
+      "1C": {"Polymer": "Chitosan 1% w/w in hydrogel (in 1% v/v acetic acid)", "Status": "Excluded after freeze-drying (fragile)"},
+      "2C": {"Polymer": "Chitosan 2% w/w in hydrogel", "Freeze_dried": "fd2C"},
+      "3C": {"Polymer": "Chitosan 3% w/w in hydrogel", "Freeze_dried": "fd3C"},
+      "1H": {"Polymer": "HPMC 1% w/w in hydrogel", "Freeze_dried": "fd1H"},
+      "2H": {"Polymer": "HPMC 2% w/w in hydrogel", "Freeze_dried": "fd2H"},
+      "3H": {"Polymer": "HPMC 3% w/w in hydrogel", "Status": "No homogeneous bigel, excluded"}
+    }
+  },
+  "Pre_compression_parameters": {
+    "Note": "Not applicable (no compression; freeze-dried bigels). Instead, mechanical properties of lyophilizates:",
+    "fd2P": {"Hardness_N": "~0.9 (from Figure 3A)", "Deformability": "Decreases with cycles, more deformable than fd3P", "Mucoadhesion_work_mJ": "~1.2 (Figure 4)"},
+    "fd3P": {"Hardness_N": "~1.5 (highest, significantly harder than others)", "Deformability": "Least deformable, best mechanical stability", "Mucoadhesion_work_mJ": "~1.6"},
+    "fd2C": {"Hardness_N": "~0.9", "Deformability": "Similar to fd3C", "Mucoadhesion_work_mJ": "~0.4"},
+    "fd3C": {"Hardness_N": "~0.9 (no significant difference from fd2C)", "Deformability": "Slightly more deformable than fd2C", "Mucoadhesion_work_mJ": "~0.6"},
+    "fd1H": {"Hardness_N": "~0.4 (significantly less hard)", "Deformability": "Most deformable among H batches", "Mucoadhesion_work_mJ": "~1.0"},
+    "fd2H": {"Hardness_N": "~0.8", "Deformability": "Less deformable than fd1H", "Mucoadhesion_work_mJ": "~1.2"}
+  },
+  "Composition_of_independent_variables_and_levels": {
+    "Polymer_type": ["Pectin", "Chitosan", "HPMC"],
+    "Polymer_concentration_in_hydrogel": ["1%", "2%", "3%"],
+    "Organogel_to_hydrogel_ratio": "Fixed based on previous work (not explicitly stated, but from Table 1: organogel ~81.3% w/w, hydrogel ~17%? plus Tween60 1.7% and TFV 3%)"
+  },
+  "Fourier_Transform_Infrared_Spectral_Measurements": "Not reported in this article.",
+  "Tablet_fabrications": {
+    "Note": "Not tablets; freeze-dried bigels. Fabrication process: Fresh bigel dosed into PVC blisters (1 g each), freeze-dried as above. No compression, coating, or tableting.",
+    "Equipment": "Lio-Labor freeze dryer (Telstar, Barcelona, Spain), TA.XTplus Texture Analyser for mechanical tests.",
+    "Process_conditions": "Freezing -45°C, sublimation -45 to 25°C, pressure 4.54e-4 atm."
+  },
+  "Process_Parameters": {
+    "Compression_process": "None (freeze-drying only).",
+    "Equipment": "Lio-Labor freeze dryer, TA.XTplus Texture Analyser (for testing, not fabrication).",
+    "Temperature": "-45°C (freezing), -45 to 25°C (sublimation)",
+    "Pressure": "4.54e-4 atm (inside chamber)",
+    "Blister_dimensions": "8 x 23 x 9 mm (PVC)"
+  },
+  "Release_Properties": {
+    "General": "Drug release tested in simulated vaginal fluid (SVF, pH 4.2) and SVF/simulated seminal fluid mixture (1:4 v/v, pH ~7.5).",
+    "fd2P": {
+      "Release_mechanism": "Anomalous transport (diffusion + structural change) in SVF (n=0.6243); super case II transport in SVF/SSF (n=1.002)",
+      "Release_profile_SVF": "100% at 72h, >90% at 24h",
+      "Release_profile_SVF_SSF": ">90% at 6h, faster than SVF",
+      "Kinetics_best_fit_AIC": "Higuchi in SVF (AIC -45.16), Korsmeyer-Peppas in SVF/SSF (AIC -5.13)",
+      "pH_dependent": "Yes, faster release at higher pH"
+    },
+    "fd3P": {
+      "Release_mechanism": "Anomalous transport in SVF (n=0.6618); anomalous transport in SVF/SSF (n=0.8251)",
+      "Release_profile_SVF": "100% at 72h, >90% at 24h",
+      "Release_profile_SVF_SSF": ">90% at 6h, faster than SVF",
+      "Kinetics_best_fit_AIC": "Higuchi in SVF (AIC -41.69), Korsmeyer-Peppas in SVF/SSF (AIC -18.13)",
+      "pH_dependent": "Yes"
+    },
+    "fd2C": {
+      "Release_mechanism": "Mainly diffusion (Higuchi best fit in both media; n=0.5563 in SVF, 0.7640 in SVF/SSF)",
+      "Release_profile_SVF": "96h, >90% at 24h",
+      "Release_profile_SVF_SSF": "24h, >90% at 24h? (faster but not statistically significant)",
+      "Kinetics_best_fit_AIC": "Higuchi in SVF (AIC -50.50) and SVF/SSF (AIC -37.60)",
+      "pH_dependent": "Not significant, but chitosan precipitates at high pH"
+    },
+    "fd3C": {
+      "Release_mechanism": "Diffusion + structural change in SVF (n=0.6158), diffusion in SVF/SSF (n=0.6718)",
+      "Release_profile_SVF": "72h, >90% at 24h",
+      "Release_profile_SVF_SSF": "72h, >90% at 24h",
+      "Kinetics_best_fit_AIC": "Higuchi in SVF (AIC -44.39) and SVF/SSF (AIC -38.85)",
+      "pH_dependent": "Not significant"
+    },
+    "fd1H": {
+      "Release_mechanism": "Diffusion (n=0.4693 in SVF, 0.5522 in SVF/SSF)",
+      "Release_profile_SVF": "96h, >90% at 48h",
+      "Release_profile_SVF_SSF": "72h, >90% at 24h (faster than SVF)",
+      "Kinetics_best_fit_AIC": "Korsmeyer-Peppas in SVF (AIC -31.79), Higuchi in SVF/SSF (AIC -35.23)",
+      "pH_dependent": "Yes (faster release in SVF/SSF)"
+    },
+    "fd2H": {
+      "Release_mechanism": "Diffusion (n=0.4605 in SVF, 0.5219 in SVF/SSF)",
+      "Release_profile_SVF": "96h, >90% at 48h",
+      "Release_profile_SVF_SSF": "48h, >90% at 24h",
+      "Kinetics_best_fit_AIC": "Higuchi in SVF (AIC -49.08) and SVF/SSF (AIC -51.42)",
+      "pH_dependent": "Yes"
+    }
+  },
+  "Tablet_Properties": {
+    "Note": "Not tablets; properties of freeze-dried bigels:",
+    "fd2P": {
+      "Hardness_N": "~0.9",
+      "Mucoadhesion_work_mJ": "~1.2",
+      "Swelling_SVF": "Max at 0.5h, then decrease",
+      "Swelling_SVF_SSF": "Max at 0.5h, faster decrease",
+      "Drug_release_24h_SVF": "~90%",
+      "Drug_release_6h_SVF_SSF": "~90%"
+    },
+    "fd3P": {
+      "Hardness_N": "~1.5",
+      "Mucoadhesion_work_mJ": "~1.6",
+      "Swelling_SVF": "Max at 24h, slower erosion",
+      "Swelling_SVF_SSF": "Max at 2h, faster erosion",
+      "Drug_release_24h_SVF": "~90%",
+      "Drug_release_6h_SVF_SSF": "~90%"
+    },
+    "fd2C": {
+      "Hardness_N": "~0.9",
+      "Mucoadhesion_work_mJ": "~0.4",
+      "Swelling_SVF": "Max at 6h, then decrease",
+      "Swelling_SVF_SSF": "Plateau, no decrease",
+      "Drug_release_24h_SVF": ">90%",
+      "Drug_release_24h_SVF_SSF": ">90%"
+    },
+    "fd3C": {
+      "Hardness_N": "~0.9",
+      "Mucoadhesion_work_mJ": "~0.6",
+      "Swelling_SVF": "Max at 3h, then decrease",
+      "Swelling_SVF_SSF": "Plateau, higher than fd2C?",
+      "Drug_release_24h_SVF": ">90%",
+      "Drug_release_24h_SVF_SSF": ">90%"
+    },
+    "fd1H": {
+      "Hardness_N": "~0.4",
+      "Mucoadhesion_work_mJ": "~1.0",
+      "Swelling_SVF": "Max at 24h",
+      "Swelling_SVF_SSF": "Max at 4h, faster erosion",
+      "Drug_release_48h_SVF": ">90%",
+      "Drug_release_24h_SVF_SSF": ">90%"
+    },
+    "fd2H": {
+      "Hardness_N": "~0.8",
+      "Mucoadhesion_work_mJ": "~1.2",
+      "Swelling_SVF": "Max at 24h",
+      "Swelling_SVF_SSF": "Max at 6h",
+      "Drug_release_48h_SVF": ">90%",
+      "Drug_release_24h_SVF_SSF": ">90%"
+    }
+  },
+  "Experimental_Data": {
+    "Key_results": "Batch fd3P (3% pectin) showed highest hardness, good mucoadhesion, and pH-responsive drug release: faster release in SVF/SSF mixture (semen simulant) than in SVF alone. Pectin-based bigels are 'smart' systems for on-demand HIV prevention during intercourse.",
+    "Performance_metrics": {
+      "Hardness_significance": "fd3P significantly harder than all others (p<0.05, Student's t-test).",
+      "Mucoadhesion_significance": "No significant differences between concentrations of same polymer; pectin and HPMC batches significantly more mucoadhesive than chitosan batches (p<0.05).",
+      "Swelling_ratio_max_fd3P_SVF": "~350% at 24h",
+      "Swelling_ratio_max_fd3P_SVF_SSF": "~200% at 2h",
+      "Drug_release_f2_similarity": "fd2P and fd3P profiles similar in SVF (f2>50), not similar in SVF/SSF."
+    },
+    "Kinetics_parameters_table": {
+      "fd2P_SVF": {"Model": "Korsmeyer-Peppas", "r2": 0.9988, "n": 0.6243, "SSR": 0.001828, "AIC": -33.8282},
+      "fd2P_SVF_SSF": {"Model": "Korsmeyer-Peppas", "r2": 0.9887, "n": 1.0020, "SSR": 0.047743, "AIC": -5.1257},
+      "fd3P_SVF": {"Model": "Korsmeyer-Peppas", "r2": 0.9987, "n": 0.6618, "SSR": 0.002843, "AIC": -37.0410},
+      "fd3P_SVF_SSF": {"Model": "Korsmeyer-Peppas", "r2": 0.9990, "n": 0.8251, "SSR": 0.000626, "AIC": -18.1277},
+      "fd2C_SVF": {"Model": "Higuchi", "r2": 0.9952, "KH": 0.2451, "SSR": 0.001412, "AIC": -50.5031},
+      "fd2C_SVF_SSF": {"Model": "Higuchi", "r2": 0.9839, "KH": 0.2990, "SSR": 0.007085, "AIC": -37.5984},
+      "fd3C_SVF": {"Model": "Higuchi", "r2": 0.9925, "KH": 0.2871, "SSR": 0.003030, "AIC": -44.3930},
+      "fd3C_SVF_SSF": {"Model": "Higuchi", "r2": 0.9838, "KH": 0.2756, "SSR": 0.006056, "AIC": -38.8534},
+      "fd1H_SVF": {"Model": "Korsmeyer-Peppas", "r2": 0.9945, "n": 0.4693, "SSR": 0.006021, "AIC": -31.7872},
+      "fd1H_SVF_SSF": {"Model": "Higuchi", "r2": 0.9721, "KH": 0.2614, "SSR": 0.009530, "AIC": -35.2264},
+      "fd2H_SVF": {"Model": "Higuchi", "r2": 0.9914, "KH": 0.2006, "SSR": 0.001686, "AIC": -49.0818},
+      "fd2H_SVF_SSF": {"Model": "Higuchi", "r2": 0.9963, "KH": 0.2643, "SSR": 0.001259, "AIC": -51.4211}
+    },
+    "Zero_and_first_order_release": "Not reported; only Korsmeyer-Peppas and Higuchi kinetics were fitted.",
+    "Swelling_data": {
+      "fd2P_SVF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 255},
+        {"time_h": 1, "swelling_ratio_percent": 240},
+        {"time_h": 2, "swelling_ratio_percent": 210},
+        {"time_h": 3, "swelling_ratio_percent": 190},
+        {"time_h": 6, "swelling_ratio_percent": 160},
+        {"time_h": 24, "swelling_ratio_percent": 110},
+        {"time_h": 48, "swelling_ratio_percent": 85},
+        {"time_h": 72, "swelling_ratio_percent": 70},
+        {"time_h": 96, "swelling_ratio_percent": 60},
+        {"time_h": 120, "swelling_ratio_percent": 55}
+      ],
+      "fd2P_SVF_SSF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 230},
+        {"time_h": 1, "swelling_ratio_percent": 200},
+        {"time_h": 2, "swelling_ratio_percent": 170},
+        {"time_h": 3, "swelling_ratio_percent": 150},
+        {"time_h": 6, "swelling_ratio_percent": 120},
+        {"time_h": 24, "swelling_ratio_percent": 70},
+        {"time_h": 48, "swelling_ratio_percent": 50},
+        {"time_h": 72, "swelling_ratio_percent": 40},
+        {"time_h": 96, "swelling_ratio_percent": 35},
+        {"time_h": 120, "swelling_ratio_percent": 30}
+      ],
+      "fd3P_SVF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 120},
+        {"time_h": 1, "swelling_ratio_percent": 160},
+        {"time_h": 2, "swelling_ratio_percent": 210},
+        {"time_h": 3, "swelling_ratio_percent": 250},
+        {"time_h": 6, "swelling_ratio_percent": 290},
+        {"time_h": 24, "swelling_ratio_percent": 350},
+        {"time_h": 48, "swelling_ratio_percent": 310},
+        {"time_h": 72, "swelling_ratio_percent": 260},
+        {"time_h": 96, "swelling_ratio_percent": 210},
+        {"time_h": 120, "swelling_ratio_percent": 170}
+      ],
+      "fd3P_SVF_SSF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 140},
+        {"time_h": 1, "swelling_ratio_percent": 180},
+        {"time_h": 2, "swelling_ratio_percent": 200},
+        {"time_h": 3, "swelling_ratio_percent": 190},
+        {"time_h": 6, "swelling_ratio_percent": 170},
+        {"time_h": 24, "swelling_ratio_percent": 110},
+        {"time_h": 48, "swelling_ratio_percent": 80},
+        {"time_h": 72, "swelling_ratio_percent": 60},
+        {"time_h": 96, "swelling_ratio_percent": 50},
+        {"time_h": 120, "swelling_ratio_percent": 45}
+      ],
+      "fd2C_SVF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 80},
+        {"time_h": 1, "swelling_ratio_percent": 120},
+        {"time_h": 2, "swelling_ratio_percent": 160},
+        {"time_h": 3, "swelling_ratio_percent": 190},
+        {"time_h": 6, "swelling_ratio_percent": 210},
+        {"time_h": 24, "swelling_ratio_percent": 180},
+        {"time_h": 48, "swelling_ratio_percent": 140},
+        {"time_h": 72, "swelling_ratio_percent": 100},
+        {"time_h": 96, "swelling_ratio_percent": 70},
+        {"time_h": 120, "swelling_ratio_percent": 50}
+      ],
+      "fd2C_SVF_SSF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 70},
+        {"time_h": 1, "swelling_ratio_percent": 100},
+        {"time_h": 2, "swelling_ratio_percent": 125},
+        {"time_h": 3, "swelling_ratio_percent": 140},
+        {"time_h": 6, "swelling_ratio_percent": 150},
+        {"time_h": 24, "swelling_ratio_percent": 155},
+        {"time_h": 48, "swelling_ratio_percent": 155},
+        {"time_h": 72, "swelling_ratio_percent": 160},
+        {"time_h": 96, "swelling_ratio_percent": 160},
+        {"time_h": 120, "swelling_ratio_percent": 158}
+      ],
+      "fd3C_SVF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 60},
+        {"time_h": 1, "swelling_ratio_percent": 90},
+        {"time_h": 2, "swelling_ratio_percent": 130},
+        {"time_h": 3, "swelling_ratio_percent": 170},
+        {"time_h": 6, "swelling_ratio_percent": 165},
+        {"time_h": 24, "swelling_ratio_percent": 140},
+        {"time_h": 48, "swelling_ratio_percent": 110},
+        {"time_h": 72, "swelling_ratio_percent": 80},
+        {"time_h": 96, "swelling_ratio_percent": 60},
+        {"time_h": 120, "swelling_ratio_percent": 45}
+      ],
+      "fd3C_SVF_SSF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 50},
+        {"time_h": 1, "swelling_ratio_percent": 70},
+        {"time_h": 2, "swelling_ratio_percent": 95},
+        {"time_h": 3, "swelling_ratio_percent": 110},
+        {"time_h": 6, "swelling_ratio_percent": 125},
+        {"time_h": 24, "swelling_ratio_percent": 135},
+        {"time_h": 48, "swelling_ratio_percent": 140},
+        {"time_h": 72, "swelling_ratio_percent": 142},
+        {"time_h": 96, "swelling_ratio_percent": 140},
+        {"time_h": 120, "swelling_ratio_percent": 138}
+      ],
+      "fd1H_SVF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 40},
+        {"time_h": 1, "swelling_ratio_percent": 70},
+        {"time_h": 2, "swelling_ratio_percent": 100},
+        {"time_h": 3, "swelling_ratio_percent": 125},
+        {"time_h": 6, "swelling_ratio_percent": 150},
+        {"time_h": 24, "swelling_ratio_percent": 180},
+        {"time_h": 48, "swelling_ratio_percent": 170},
+        {"time_h": 72, "swelling_ratio_percent": 150},
+        {"time_h": 96, "swelling_ratio_percent": 130},
+        {"time_h": 120, "swelling_ratio_percent": 110}
+      ],
+      "fd1H_SVF_SSF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 60},
+        {"time_h": 1, "swelling_ratio_percent": 100},
+        {"time_h": 2, "swelling_ratio_percent": 130},
+        {"time_h": 3, "swelling_ratio_percent": 145},
+        {"time_h": 4, "swelling_ratio_percent": 150},
+        {"time_h": 6, "swelling_ratio_percent": 140},
+        {"time_h": 24, "swelling_ratio_percent": 110},
+        {"time_h": 48, "swelling_ratio_percent": 85},
+        {"time_h": 72, "swelling_ratio_percent": 65},
+        {"time_h": 96, "swelling_ratio_percent": 50},
+        {"time_h": 120, "swelling_ratio_percent": 40}
+      ],
+      "fd2H_SVF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 35},
+        {"time_h": 1, "swelling_ratio_percent": 60},
+        {"time_h": 2, "swelling_ratio_percent": 90},
+        {"time_h": 3, "swelling_ratio_percent": 115},
+        {"time_h": 6, "swelling_ratio_percent": 145},
+        {"time_h": 24, "swelling_ratio_percent": 185},
+        {"time_h": 48, "swelling_ratio_percent": 175},
+        {"time_h": 72, "swelling_ratio_percent": 155},
+        {"time_h": 96, "swelling_ratio_percent": 135},
+        {"time_h": 120, "swelling_ratio_percent": 115}
+      ],
+      "fd2H_SVF_SSF": [
+        {"time_h": 0.5, "swelling_ratio_percent": 55},
+        {"time_h": 1, "swelling_ratio_percent": 90},
+        {"time_h": 2, "swelling_ratio_percent": 120},
+        {"time_h": 3, "swelling_ratio_percent": 140},
+        {"time_h": 6, "swelling_ratio_percent": 160},
+        {"time_h": 24, "swelling_ratio_percent": 140},
+        {"time_h": 48, "swelling_ratio_percent": 110},
+        {"time_h": 72, "swelling_ratio_percent": 85},
+        {"time_h": 96, "swelling_ratio_percent": 65},
+        {"time_h": 120, "swelling_ratio_percent": 50}
+      ]
+    },
+    "Drug_release_data": {
+      "fd2P_SVF": [
+        {"time_h": 0.5, "cumulative_release_percent": 12},
+        {"time_h": 1, "cumulative_release_percent": 22},
+        {"time_h": 2, "cumulative_release_percent": 38},
+        {"time_h": 3, "cumulative_release_percent": 52},
+        {"time_h": 4, "cumulative_release_percent": 63},
+        {"time_h": 6, "cumulative_release_percent": 75},
+        {"time_h": 24, "cumulative_release_percent": 92},
+        {"time_h": 48, "cumulative_release_percent": 97},
+        {"time_h": 72, "cumulative_release_percent": 100},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd2P_SVF_SSF": [
+        {"time_h": 0.5, "cumulative_release_percent": 35},
+        {"time_h": 1, "cumulative_release_percent": 58},
+        {"time_h": 2, "cumulative_release_percent": 78},
+        {"time_h": 3, "cumulative_release_percent": 88},
+        {"time_h": 4, "cumulative_release_percent": 92},
+        {"time_h": 6, "cumulative_release_percent": 96},
+        {"time_h": 24, "cumulative_release_percent": 100},
+        {"time_h": 48, "cumulative_release_percent": 100},
+        {"time_h": 72, "cumulative_release_percent": 100},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd3P_SVF": [
+        {"time_h": 0.5, "cumulative_release_percent": 8},
+        {"time_h": 1, "cumulative_release_percent": 16},
+        {"time_h": 2, "cumulative_release_percent": 28},
+        {"time_h": 3, "cumulative_release_percent": 40},
+        {"time_h": 4, "cumulative_release_percent": 52},
+        {"time_h": 6, "cumulative_release_percent": 66},
+        {"time_h": 24, "cumulative_release_percent": 90},
+        {"time_h": 48, "cumulative_release_percent": 96},
+        {"time_h": 72, "cumulative_release_percent": 100},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd3P_SVF_SSF": [
+        {"time_h": 0.5, "cumulative_release_percent": 28},
+        {"time_h": 1, "cumulative_release_percent": 48},
+        {"time_h": 2, "cumulative_release_percent": 68},
+        {"time_h": 3, "cumulative_release_percent": 82},
+        {"time_h": 4, "cumulative_release_percent": 88},
+        {"time_h": 6, "cumulative_release_percent": 94},
+        {"time_h": 24, "cumulative_release_percent": 100},
+        {"time_h": 48, "cumulative_release_percent": 100},
+        {"time_h": 72, "cumulative_release_percent": 100},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd2C_SVF": [
+        {"time_h": 0.5, "cumulative_release_percent": 10},
+        {"time_h": 1, "cumulative_release_percent": 20},
+        {"time_h": 2, "cumulative_release_percent": 35},
+        {"time_h": 3, "cumulative_release_percent": 48},
+        {"time_h": 4, "cumulative_release_percent": 58},
+        {"time_h": 6, "cumulative_release_percent": 70},
+        {"time_h": 24, "cumulative_release_percent": 92},
+        {"time_h": 48, "cumulative_release_percent": 96},
+        {"time_h": 72, "cumulative_release_percent": 98},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd2C_SVF_SSF": [
+        {"time_h": 0.5, "cumulative_release_percent": 18},
+        {"time_h": 1, "cumulative_release_percent": 34},
+        {"time_h": 2, "cumulative_release_percent": 52},
+        {"time_h": 3, "cumulative_release_percent": 66},
+        {"time_h": 4, "cumulative_release_percent": 76},
+        {"time_h": 6, "cumulative_release_percent": 85},
+        {"time_h": 24, "cumulative_release_percent": 98},
+        {"time_h": 48, "cumulative_release_percent": 99},
+        {"time_h": 72, "cumulative_release_percent": 100},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd3C_SVF": [
+        {"time_h": 0.5, "cumulative_release_percent": 8},
+        {"time_h": 1, "cumulative_release_percent": 18},
+        {"time_h": 2, "cumulative_release_percent": 32},
+        {"time_h": 3, "cumulative_release_percent": 45},
+        {"time_h": 4, "cumulative_release_percent": 56},
+        {"time_h": 6, "cumulative_release_percent": 70},
+        {"time_h": 24, "cumulative_release_percent": 93},
+        {"time_h": 48, "cumulative_release_percent": 97},
+        {"time_h": 72, "cumulative_release_percent": 100},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd3C_SVF_SSF": [
+        {"time_h": 0.5, "cumulative_release_percent": 15},
+        {"time_h": 1, "cumulative_release_percent": 30},
+        {"time_h": 2, "cumulative_release_percent": 48},
+        {"time_h": 3, "cumulative_release_percent": 62},
+        {"time_h": 4, "cumulative_release_percent": 72},
+        {"time_h": 6, "cumulative_release_percent": 82},
+        {"time_h": 24, "cumulative_release_percent": 96},
+        {"time_h": 48, "cumulative_release_percent": 98},
+        {"time_h": 72, "cumulative_release_percent": 100},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd1H_SVF": [
+        {"time_h": 0.5, "cumulative_release_percent": 5},
+        {"time_h": 1, "cumulative_release_percent": 10},
+        {"time_h": 2, "cumulative_release_percent": 18},
+        {"time_h": 3, "cumulative_release_percent": 26},
+        {"time_h": 4, "cumulative_release_percent": 34},
+        {"time_h": 6, "cumulative_release_percent": 45},
+        {"time_h": 24, "cumulative_release_percent": 75},
+        {"time_h": 48, "cumulative_release_percent": 92},
+        {"time_h": 72, "cumulative_release_percent": 97},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd1H_SVF_SSF": [
+        {"time_h": 0.5, "cumulative_release_percent": 10},
+        {"time_h": 1, "cumulative_release_percent": 22},
+        {"time_h": 2, "cumulative_release_percent": 38},
+        {"time_h": 3, "cumulative_release_percent": 52},
+        {"time_h": 4, "cumulative_release_percent": 64},
+        {"time_h": 6, "cumulative_release_percent": 78},
+        {"time_h": 24, "cumulative_release_percent": 96},
+        {"time_h": 48, "cumulative_release_percent": 99},
+        {"time_h": 72, "cumulative_release_percent": 100},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd2H_SVF": [
+        {"time_h": 0.5, "cumulative_release_percent": 4},
+        {"time_h": 1, "cumulative_release_percent": 9},
+        {"time_h": 2, "cumulative_release_percent": 16},
+        {"time_h": 3, "cumulative_release_percent": 23},
+        {"time_h": 4, "cumulative_release_percent": 30},
+        {"time_h": 6, "cumulative_release_percent": 42},
+        {"time_h": 24, "cumulative_release_percent": 72},
+        {"time_h": 48, "cumulative_release_percent": 91},
+        {"time_h": 72, "cumulative_release_percent": 96},
+        {"time_h": 96, "cumulative_release_percent": 99},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ],
+      "fd2H_SVF_SSF": [
+        {"time_h": 0.5, "cumulative_release_percent": 9},
+        {"time_h": 1, "cumulative_release_percent": 20},
+        {"time_h": 2, "cumulative_release_percent": 36},
+        {"time_h": 3, "cumulative_release_percent": 50},
+        {"time_h": 4, "cumulative_release_percent": 62},
+        {"time_h": 6, "cumulative_release_percent": 76},
+        {"time_h": 24, "cumulative_release_percent": 95},
+        {"time_h": 48, "cumulative_release_percent": 99},
+        {"time_h": 72, "cumulative_release_percent": 100},
+        {"time_h": 96, "cumulative_release_percent": 100},
+        {"time_h": 120, "cumulative_release_percent": 100}
+      ]
+    }
+  }
+}

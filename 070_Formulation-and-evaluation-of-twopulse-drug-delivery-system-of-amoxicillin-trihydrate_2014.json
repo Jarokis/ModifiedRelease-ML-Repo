@@ -1,0 +1,1180 @@
+{
+    "general": {
+        "materials_origin": {
+            "amoxicillin_trihydrate": "Zest Pharma, India",
+            "HPMC_100_400_4000_cps": "Signet",
+            "croscarmellose_sodium_Ac_di_sol": "Micro labs, Kudlu, Bangalore",
+            "sodium_starch_glycolate": "Micro labs, Kudlu, Bangalore, India",
+            "povidone_K30": "Micro labs, Kudlu, Bangalore, India",
+            "spray_dried_lactose_SDL": "Central Drug House, India",
+            "magnesium_stearate": "Central Drug House, India",
+            "other_reagents": "Analytical grade"
+        },
+        "experimental_design": "pH-controlled two-pulse delivery system. Core tablets (216 mg, 200 mg amoxicillin) were compression-coated with barrier layers containing HPMC (100, 400, 4000 cps) and spray-dried lactose (SDL) as pore former in varying ratios. Final two-pulse inlay tablets combined an immediate-release outer layer (300 mg amoxicillin) and the barrier-coated core (200 mg amoxicillin). Batches 070_C1–070_C12 represent the compression-coated tablets (core + barrier layer).",
+        "ftir_dsc_summary": {
+            "ftir": "Drug-excipient compatibility confirmed. Characteristic peaks: broad OH peak ~3300 cm⁻¹, C=O (lactam) ~1770 cm⁻¹, aromatic C-H ~1500 cm⁻1.",
+            "dsc": "Endothermic peaks: pure amoxicillin 298.9 °C, formulation (070_C4) 294.4 °C; negligible shift, no interaction."
+        },
+        "common_process_parameters": {
+            "core_tablet_compression": {
+                "equipment": "10-station rotary tablet machine (Rimek mini press, Mumbai)",
+                "punch_size": "9 mm standard concave",
+                "hardness": "42 ± 0.50 N"
+            },
+            "compression_coating": {
+                "method": "Compression coating using die cavity",
+                "punch_size": "11 mm",
+                "compression_force": "145 ± 0.5 N",
+                "core_to_coat_ratio": "1:2 (core 216 mg, coat 432 mg)"
+            },
+            "final_two_pulse_tablet": {
+                "method": "Inlay tablet by compression coating",
+                "die_size": "12.7 mm standard concave",
+                "hardness": "190 ± 0.5 N"
+            }
+        },
+        "stability_study": {
+            "conditions": "40 ± 2 °C, 75 ± 5% RH for 3 months",
+            "results": "No significant difference in drug release (95% CI). Drug content 48.14 ± 0.35% (likely for barrier-coated core). Hardness within limits (6.4 ± 0.23 kg/cm²)."
+        },
+        "statistical_analysis": "One-way ANOVA with Tukey's post hoc test, confidence limit 95%."
+    },
+    "batches": [
+        {
+            "batch_code": "070_C1",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "100 cps",
+                "hpmc_amount_mg": 108,
+                "hpmc_percent": 25,
+                "sdl_amount_mg": 324,
+                "sdl_percent": 75,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": {
+                "amoxicillin_trihydrate_mg": 200,
+                "ac_di_sol_mg": 10,
+                "povidone_K30_mg": 4,
+                "magnesium_stearate_mg": 1,
+                "aerosil_mg": 1,
+                "total_weight_mg": 216
+            },
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "28.04 ± 0.28",
+                "carrs_index_mean_sd": "13.07 ± 0.38",
+                "hausner_ratio_mean_sd": "1.137 ± 0.28"
+            },
+            "tablet_properties": {
+                "hardness_n": "140–150 (coated tablets, common range)",
+                "friability_percent": null,
+                "disintegration_time": "core: 30–40 s",
+                "thickness_mm": "core 9, coated 11",
+                "weight_variation_percent": null,
+                "density_g_cm3": null,
+                "drug_content_percent": "97.85–98.23 (cores)",
+                "consolidation_index": null
+            },
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Lag time 2–4 h, complete release by 8–10 h (based on 25% HPMC with 75% SDL). See Figure 3 for exact profile.",
+                "factors_influencing": "HPMC viscosity, HPMC:SDL ratio, swelling, fluid penetration",
+                "release_kinetics": null,
+                "lag_time_h": "2–4",
+                "total_release_time_h": "8–10",
+                "swelling_index_percent": null,
+                "total_floating_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 5
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 15
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 35
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 60
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 89
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 95
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 98
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": true,
+                "outer_layer_composition": {
+                    "amoxicillin_trihydrate_mg": 300,
+                    "sodium_starch_glycolate_mg": 10,
+                    "povidone_K30_mg": 6,
+                    "magnesium_stearate_mg": 1,
+                    "aerosil_mg": 1,
+                    "amaranth_mg": 0.5,
+                    "total_weight_mg": 318.5
+                },
+                "properties": {
+                    "hardness_n": "185 ± 0.23",
+                    "friability_percent": "0.42 ± 0.115",
+                    "weight_variation": "Pass",
+                    "thickness_mm": null,
+                    "diameter_mm": "12.7"
+                },
+                "release_profile": "Immediate release of 300 mg within 1 h; lag time 2–4 h; second pulse (200 mg) released by 7 h (Figure 4).",
+                "stability": "Stable after 3 months (no significant change).",
+                "dissolution_data_figure4": [
+                    {
+                        "time_h": 0.5,
+                        "release_percent": 45
+                    },
+                    {
+                        "time_h": 1,
+                        "release_percent": 68
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 70
+                    },
+                    {
+                        "time_h": 3,
+                        "release_percent": 72
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 78
+                    },
+                    {
+                        "time_h": 5,
+                        "release_percent": 88
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 96
+                    },
+                    {
+                        "time_h": 7,
+                        "release_percent": 99
+                    }
+                ]
+            }
+        },
+        {
+            "batch_code": "070_C2",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "100 cps",
+                "hpmc_amount_mg": 216,
+                "hpmc_percent": 50,
+                "sdl_amount_mg": 216,
+                "sdl_percent": 50,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "29.17 ± 0.18",
+                "carrs_index_mean_sd": "14.01 ± 0.22",
+                "hausner_ratio_mean_sd": "1.161 ± 0.32"
+            },
+            "tablet_properties": "same as 070_C1 (common coated tablet range)",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Lag time increased compared to 070_C1 due to higher HPMC concentration. See Figure 3.",
+                "factors_influencing": "HPMC viscosity, HPMC:SDL ratio, swelling",
+                "release_kinetics": null,
+                "lag_time_h": ">4 (estimated)",
+                "total_release_time_h": null,
+                "swelling_index_percent": null,
+                "total_floating_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 2
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 6
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 22
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 35
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 65
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 88
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 95
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 99
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": false
+            }
+        },
+        {
+            "batch_code": "070_C3",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "100 cps",
+                "hpmc_amount_mg": 324,
+                "hpmc_percent": 75,
+                "sdl_amount_mg": 108,
+                "sdl_percent": 25,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "30.25 ± 0.21",
+                "carrs_index_mean_sd": "16.34 ± 0.16",
+                "hausner_ratio_mean_sd": "1.195 ± 0.21"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Further increased lag time. See Figure 3.",
+                "factors_influencing": "HPMC concentration, viscosity, swelling",
+                "release_kinetics": null,
+                "lag_time_h": ">4",
+                "total_release_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 1
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 3
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 5
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 9
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 15
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 24
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 35
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 48
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 62
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 75
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 86
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 94
+                },
+                {
+                    "time_h": 14,
+                    "release_percent": 98
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": false
+            }
+        },
+        {
+            "batch_code": "070_C4",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "100 cps",
+                "hpmc_amount_mg": 432,
+                "hpmc_percent": 100,
+                "sdl_amount_mg": 0,
+                "sdl_percent": 0,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "31.01 ± 0.23",
+                "carrs_index_mean_sd": "17.69 ± 0.38",
+                "hausner_ratio_mean_sd": "1.200 ± 0.28"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Longest lag time among 100 cps series. See Figure 3.",
+                "factors_influencing": "HPMC concentration, no pore former",
+                "release_kinetics": null,
+                "lag_time_h": ">4",
+                "total_release_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 0.5
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 1
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 2
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 3
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 5
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 8
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 18
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 25
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 33
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 42
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 14,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 16,
+                    "release_percent": 85
+                },
+                {
+                    "time_h": 18,
+                    "release_percent": 94
+                },
+                {
+                    "time_h": 20,
+                    "release_percent": 98
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": false
+            }
+        },
+        {
+            "batch_code": "070_C5",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "400 cps",
+                "hpmc_amount_mg": 108,
+                "hpmc_percent": 25,
+                "sdl_amount_mg": 324,
+                "sdl_percent": 75,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "25.25 ± 0.19",
+                "carrs_index_mean_sd": "12.20 ± 0.29",
+                "hausner_ratio_mean_sd": "1.13 ± 0.18"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Lag time 2–4 h, complete release by 9 h (as per text).",
+                "factors_influencing": "HPMC viscosity, HPMC:SDL ratio",
+                "release_kinetics": null,
+                "lag_time_h": "2–4",
+                "total_release_time_h": "9"
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 4
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 28
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 48
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 66
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 80
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 89
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 95
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 98
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": true,
+                "outer_layer_composition": "same as 070_C1 final layer",
+                "properties": {
+                    "hardness_n": "187 ± 0.32",
+                    "friability_percent": "0.44 ± 0.15",
+                    "weight_variation": "Pass",
+                    "thickness_mm": null,
+                    "diameter_mm": "12.7"
+                },
+                "release_profile": "Immediate release of 300 mg within 1 h; lag time 2–4 h; second pulse released by 7 h (Figure 4).",
+                "stability": "Stable after 3 months.",
+                "dissolution_data_figure4": [
+                    {
+                        "time_h": 0.5,
+                        "release_percent": 44
+                    },
+                    {
+                        "time_h": 1,
+                        "release_percent": 67
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 69
+                    },
+                    {
+                        "time_h": 3,
+                        "release_percent": 71
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 76
+                    },
+                    {
+                        "time_h": 5,
+                        "release_percent": 86
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 94
+                    },
+                    {
+                        "time_h": 7,
+                        "release_percent": 99
+                    }
+                ]
+            }
+        },
+        {
+            "batch_code": "070_C6",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "400 cps",
+                "hpmc_amount_mg": 216,
+                "hpmc_percent": 50,
+                "sdl_amount_mg": 216,
+                "sdl_percent": 50,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "26.23 ± 0.18",
+                "carrs_index_mean_sd": "14.0 ± 0.25",
+                "hausner_ratio_mean_sd": "1.15 ± 0.24"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Increased lag time compared to C5. See Figure 3.",
+                "factors_influencing": "HPMC concentration, viscosity",
+                "release_kinetics": null,
+                "lag_time_h": ">4",
+                "total_release_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 1.5
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 5
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 10
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 18
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 29
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 42
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 56
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 82
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 91
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 98
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": false
+            }
+        },
+        {
+            "batch_code": "070_C7",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "400 cps",
+                "hpmc_amount_mg": 324,
+                "hpmc_percent": 75,
+                "sdl_amount_mg": 108,
+                "sdl_percent": 25,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "30.15 ± 0.11",
+                "carrs_index_mean_sd": "15.88 ± 0.35",
+                "hausner_ratio_mean_sd": "1.19 ± 0.23"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Further increased lag time. See Figure 3.",
+                "factors_influencing": "HPMC concentration, viscosity",
+                "release_kinetics": null,
+                "lag_time_h": ">4",
+                "total_release_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 1
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 2.5
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 4
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 7
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 19
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 28
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 40
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 53
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 66
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 87
+                },
+                {
+                    "time_h": 14,
+                    "release_percent": 96
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": false
+            }
+        },
+        {
+            "batch_code": "070_C8",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "400 cps",
+                "hpmc_amount_mg": 432,
+                "hpmc_percent": 100,
+                "sdl_amount_mg": 0,
+                "sdl_percent": 0,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "31.45 ± 0.32",
+                "carrs_index_mean_sd": "16.0 ± 0.32",
+                "hausner_ratio_mean_sd": "1.21 ± 0.25"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Longest lag time among 400 cps series. See Figure 3.",
+                "factors_influencing": "HPMC concentration, no pore former",
+                "release_kinetics": null,
+                "lag_time_h": ">4",
+                "total_release_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 0.3
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 0.8
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 1.5
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 2.5
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 4
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 6.5
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 10
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 15
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 21
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 28
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 36
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 45
+                },
+                {
+                    "time_h": 14,
+                    "release_percent": 62
+                },
+                {
+                    "time_h": 16,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 18,
+                    "release_percent": 89
+                },
+                {
+                    "time_h": 20,
+                    "release_percent": 96
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": false
+            }
+        },
+        {
+            "batch_code": "070_C9",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "4000 cps (K4M)",
+                "hpmc_amount_mg": 108,
+                "hpmc_percent": 25,
+                "sdl_amount_mg": 324,
+                "sdl_percent": 75,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "25.6 ± 0.28",
+                "carrs_index_mean_sd": "13.91 ± 0.13",
+                "hausner_ratio_mean_sd": "1.135 ± 0.16"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Lag time 2–4 h, complete release by 10 h (as per text).",
+                "factors_influencing": "HPMC viscosity, HPMC:SDL ratio",
+                "release_kinetics": null,
+                "lag_time_h": "2–4",
+                "total_release_time_h": "10"
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 3
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 9
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 22
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 39
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 56
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 71
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 83
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 91
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 96
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 98
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": true,
+                "outer_layer_composition": "same as 070_C1 final layer",
+                "properties": {
+                    "hardness_n": "186 ± 0.27",
+                    "friability_percent": "0.46 ± 0.2",
+                    "weight_variation": "Pass",
+                    "thickness_mm": null,
+                    "diameter_mm": "12.7"
+                },
+                "release_profile": "Immediate release of 300 mg within 1 h; lag time 2–4 h; second pulse released by 7 h (Figure 4).",
+                "stability": "Stable after 3 months.",
+                "dissolution_data_figure4": [
+                    {
+                        "time_h": 0.5,
+                        "release_percent": 43
+                    },
+                    {
+                        "time_h": 1,
+                        "release_percent": 66
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 68
+                    },
+                    {
+                        "time_h": 3,
+                        "release_percent": 70
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 74
+                    },
+                    {
+                        "time_h": 5,
+                        "release_percent": 83
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 92
+                    },
+                    {
+                        "time_h": 7,
+                        "release_percent": 98
+                    }
+                ]
+            }
+        },
+        {
+            "batch_code": "070_C10",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "4000 cps (K4M)",
+                "hpmc_amount_mg": 216,
+                "hpmc_percent": 50,
+                "sdl_amount_mg": 216,
+                "sdl_percent": 50,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "27.1 ± 0.25",
+                "carrs_index_mean_sd": "14.05 ± 0.17",
+                "hausner_ratio_mean_sd": "1.157 ± 0.17"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Increased lag time compared to C9. See Figure 3.",
+                "factors_influencing": "HPMC concentration, high viscosity",
+                "release_kinetics": null,
+                "lag_time_h": ">4",
+                "total_release_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 1.2
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 4
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 8
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 14
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 23
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 35
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 48
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 62
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 75
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 85
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 96
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": false
+            }
+        },
+        {
+            "batch_code": "070_C11",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "4000 cps (K4M)",
+                "hpmc_amount_mg": 324,
+                "hpmc_percent": 75,
+                "sdl_amount_mg": 108,
+                "sdl_percent": 25,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "30.7 ± 0.23",
+                "carrs_index_mean_sd": "15.91 ± 0.23",
+                "hausner_ratio_mean_sd": "1.189 ± 0.14"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Further increased lag time. See Figure 3.",
+                "factors_influencing": "HPMC concentration, high viscosity",
+                "release_kinetics": null,
+                "lag_time_h": ">4",
+                "total_release_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 0.8
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 2
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 3.5
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 6
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 10
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 16
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 24
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 34
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 46
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 58
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 80
+                },
+                {
+                    "time_h": 14,
+                    "release_percent": 93
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": false
+            }
+        },
+        {
+            "batch_code": "070_C12",
+            "type": "compression_coated_tablet",
+            "barrier_layer_composition": {
+                "hpmc_viscosity": "4000 cps (K4M)",
+                "hpmc_amount_mg": 432,
+                "hpmc_percent": 100,
+                "sdl_amount_mg": 0,
+                "sdl_percent": 0,
+                "total_weight_mg": 432
+            },
+            "core_tablet_composition": "same as 070_C1",
+            "pre_compression_parameters": {
+                "angle_of_repose_mean_sd": "32.4 ± 0.26",
+                "carrs_index_mean_sd": "16.6 ± 0.18",
+                "hausner_ratio_mean_sd": "1.20 ± 0.19"
+            },
+            "tablet_properties": "same as 070_C1",
+            "release_properties": {
+                "release_mechanism": "Diffusion through hydrated/swollen HPMC gel, followed by erosion",
+                "release_profile_summary": "Longest lag time among all batches. See Figure 3.",
+                "factors_influencing": "HPMC concentration, highest viscosity, no pore former",
+                "release_kinetics": null,
+                "lag_time_h": ">4",
+                "total_release_time_h": null
+            },
+            "dissolution_data_figure3": [
+                {
+                    "time_h": 1,
+                    "release_percent": 0.2
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 0.5
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 1
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 1.8
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 3
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 5
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 8
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 17
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 23
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 38
+                },
+                {
+                    "time_h": 14,
+                    "release_percent": 54
+                },
+                {
+                    "time_h": 16,
+                    "release_percent": 69
+                },
+                {
+                    "time_h": 18,
+                    "release_percent": 82
+                },
+                {
+                    "time_h": 20,
+                    "release_percent": 92
+                },
+                {
+                    "time_h": 22,
+                    "release_percent": 97
+                }
+            ],
+            "final_two_pulse_tablet": {
+                "exists": false
+            }
+        }
+    ]
+}

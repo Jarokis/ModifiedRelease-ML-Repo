@@ -1,0 +1,487 @@
+{
+  "materials_origin": {
+    "enalapril_maleate": "Nabiqasim Industries Pvt. Ltd. Karachi, Pakistan",
+    "starch": "Merck Darmstadt, Germany",
+    "magnesium_stearate": "Merck Darmstadt, Germany",
+    "lactose_monohydrate": "Duksan pure chemicals, Korea",
+    "fructose": "Fisher scientific, UK",
+    "cellulose_acetate": "SigmaAldrich, USA",
+    "peg_400": "Applichem GmbH Darmstadt, Germany",
+    "dichloromethane": "Merck Darmstadt, Germany",
+    "methanol": "Merck Darmstadt, Germany"
+  },
+  "experimental_design_for_optimization": {
+    "software": "Design-Expert software (version 7.1 State- Ease Inc., Minneapolis USA)",
+    "design_type": "D-optimal factorial design",
+    "variables": [
+      {
+        "name": "Concentration of osmotic agents (lactose and fructose)",
+        "code": "X1"
+      },
+      {
+        "name": "Concentration of cellulose acetate",
+        "code": "X2"
+      }
+    ],
+    "responses": [
+      "Weight variation",
+      "Hardness"
+    ],
+    "equation": "Yi = β0 + B1X1 + B2X2 + B1B2X1X2"
+  },
+  "ingredients_identification": {
+    "method": "UV/Visible spectrophotometer at 215 nm using a standard curve.",
+    "absorbance_wavelength": "215 nm"
+  },
+  "formulation_details": [
+    {
+      "batch": "CPOP1",
+      "core_tablet": {
+        "ENP": "20 mg (5.33%)",
+        "starch": "43.6%",
+        "lactose": "25%",
+        "fructose": "25%",
+        "magnesium_stearate": "1%",
+        "osmotic_agent_total": "50%"
+      },
+      "coating_solution": {
+        "cellulose_acetate": "3.5%",
+        "peg_400": "15% of CA",
+        "solvent": "DCM/methanol (1:1)"
+      }
+    },
+    {
+      "batch": "CPOP2",
+      "core_tablet": {
+        "ENP": "20 mg (5.33%)",
+        "starch": "33.6%",
+        "lactose": "30%",
+        "fructose": "30%",
+        "magnesium_stearate": "1%",
+        "osmotic_agent_total": "60%"
+      },
+      "coating_solution": {
+        "cellulose_acetate": "3.5%",
+        "peg_400": "15% of CA",
+        "solvent": "DCM/methanol (1:1)"
+      }
+    },
+    {
+      "batch": "CPOP3",
+      "core_tablet": {
+        "ENP": "20 mg (5.33%)",
+        "starch": "43.6%",
+        "lactose": "25%",
+        "fructose": "25%",
+        "magnesium_stearate": "1%",
+        "osmotic_agent_total": "50%"
+      },
+      "coating_solution": {
+        "cellulose_acetate": "4%",
+        "peg_400": "15% of CA",
+        "solvent": "DCM/methanol (1:1)"
+      }
+    },
+    {
+      "batch": "CPOP4",
+      "core_tablet": {
+        "ENP": "20 mg (5.33%)",
+        "starch": "33.6%",
+        "lactose": "30%",
+        "fructose": "30%",
+        "magnesium_stearate": "1%",
+        "osmotic_agent_total": "60%"
+      },
+      "coating_solution": {
+        "cellulose_acetate": "4%",
+        "peg_400": "15% of CA",
+        "solvent": "DCM/methanol (1:1)"
+      }
+    },
+    {
+      "batch": "CPOP5",
+      "core_tablet": {
+        "ENP": "20 mg (5.33%)",
+        "starch": "43.6%",
+        "lactose": "25%",
+        "fructose": "25%",
+        "magnesium_stearate": "1%",
+        "osmotic_agent_total": "50%"
+      },
+      "coating_solution": {
+        "cellulose_acetate": "4.4%",
+        "peg_400": "15% of CA",
+        "solvent": "DCM/methanol (1:1)"
+      }
+    },
+    {
+      "batch": "CPOP6",
+      "core_tablet": {
+        "ENP": "20 mg (5.33%)",
+        "starch": "33.0%",
+        "lactose": "30%",
+        "fructose": "30%",
+        "magnesium_stearate": "1%",
+        "osmotic_agent_total": "60%"
+      },
+      "coating_solution": {
+        "cellulose_acetate": "4.4%",
+        "peg_400": "15% of CA",
+        "solvent": "DCM/methanol (1:1)"
+      }
+    }
+  ],
+  "pre_compression_parameters": {
+    "core_a": {
+      "bulk_density_g_per_cm3": "0.37 ± 0.006",
+      "tapped_density_g_per_cm3": "0.42 ± 0.006",
+      "angle_of_repose_degrees": "25.92 ± 0.069",
+      "hausners_ratio": "1.13 ± 0.04",
+      "compressibility_index_percent": "11.9 ± 0.87"
+    },
+    "core_b": {
+      "bulk_density_g_per_cm3": "0.34 ± 0.006",
+      "tapped_density_g_per_cm3": "0.39 ± 0.005",
+      "angle_of_repose_degrees": "25.45 ± 0.102",
+      "hausners_ratio": "1.14 ± 0.05",
+      "compressibility_index_percent": "12.8 ± 0.76"
+    }
+  },
+  "composition_of_independent_variables": {
+    "levels": [
+      {
+        "level": "-1",
+        "osmotic_agent_percent": "50",
+        "cellulose_acetate_percent": "3.5"
+      },
+      {
+        "level": "0",
+        "osmotic_agent_percent": "55",
+        "cellulose_acetate_percent": "4"
+      },
+      {
+        "level": "+1",
+        "osmotic_agent_percent": "60",
+        "cellulose_acetate_percent": "4.4"
+      }
+    ],
+    "note": "Osmotic agent contains equal amount of lactose and fructose. α was 1.41421."
+  },
+  "ftir_spectral_measurements": {
+    "equipment": "FTIR spectrophotometer (Platinum- ATR, ALPHA, Bruker)",
+    "sample_preparation": "Core and CPOP tablets were crushed into fine powder forms by mortar and pestle.",
+    "scans": "Average of twenty-five scans",
+    "findings": "No interaction between the ingredients was found. Characteristic absorption peaks of pure ENP appeared in the formulated tablets without significant change.",
+    "peaks": {
+      "enalapril_maleate": [
+        "666.55 cm⁻¹ (C=C bending)",
+        "872.87 cm⁻¹ (C-H bending)",
+        "1644.36 cm⁻¹ (C=O in amides)"
+      ],
+      "core_tablet": [
+        "778.31, 899.91, 988.41, 1092.49 cm⁻¹ (lactose)",
+        "977.34, 1052.60, 1142.55, 1336.88 cm⁻¹ (fructose)",
+        "667.58, 701.22, 874.30, 3329.84 cm⁻¹ (ENP)",
+        "751.69, 1072.06 cm⁻¹ (starch)"
+      ],
+      "cpop_tablet": [
+        "1230.61, 1072.48, 776.97, 668.10 cm⁻¹"
+      ]
+    }
+  },
+  "tablet_fabrications": {
+    "core_tablet_method": "Starch paste-based wet granulation method",
+    "compression_equipment": "Single punch tablet machine (Minipress MII, Pharma Test, GMBH Hainburg/Germany)",
+    "coating_equipment": "Conventional coating pan",
+    "coating_process": {
+      "homogenizer": "HG- 15D homogenizer (Daihan Scientific, USA) at 3000 rpm for 30 min",
+      "spray_rate": "2-4 mL/min",
+      "atomizing_air_pressure": "1 Kg/cm²",
+      "pan_speed": "18 rpm",
+      "inlet_outlet_temp_difference": "100°C",
+      "drying_temp": "50°C",
+      "weight_gain": "3 ± 0.5% w/w"
+    }
+  },
+  "physicochemical_properties_of_core_tablets": {
+    "core_a": {
+      "average_weight_mg": "378.4 ± 0.004",
+      "thickness_mm": "5.00 ± 0.021",
+      "hardness_kg_per_cm2": "6.25 ± 0.59",
+      "friability_percent": "0.05 ± 0.02",
+      "dissolution_percent_30min": "88.65 ± 1.85"
+    },
+    "core_b": {
+      "average_weight_mg": "365.4 ± 0.006",
+      "thickness_mm": "5.00 ± 0.015",
+      "hardness_kg_per_cm2": "6.3 ± 0.40",
+      "friability_percent": "0.06 ± 0.03",
+      "dissolution_percent_30min": "94.07 ± 1.36"
+    }
+  },
+  "physical_properties_of_cpop_tablets": [
+    {
+      "batch": "CPOP1",
+      "average_weight_mg": "386.2 ± 0.006",
+      "thickness_mm": "5.4 ± 0.002",
+      "diameter_mm": "10 ± 0.003",
+      "hardness_kg_per_cm2": "6.2 ± 0.40",
+      "friability_percent": "0.13 ± 0.02"
+    },
+    {
+      "batch": "CPOP2",
+      "average_weight_mg": "376.7 ± 0.04",
+      "thickness_mm": "5.35 ± 0.007",
+      "diameter_mm": "10 ± 0.06",
+      "hardness_kg_per_cm2": "6.3 ± 0.005",
+      "friability_percent": "0.11 ± 0.04"
+    },
+    {
+      "batch": "CPOP3",
+      "average_weight_mg": "389.1 ± 0.003",
+      "thickness_mm": "5.4 ± 0.012",
+      "diameter_mm": "10 ± 0.016",
+      "hardness_kg_per_cm2": "6.2 ± 0.002",
+      "friability_percent": "0.12 ± 0.03"
+    },
+    {
+      "batch": "CPOP4",
+      "average_weight_mg": "377.8 ± 0.120",
+      "thickness_mm": "5.35 ± 0.421",
+      "diameter_mm": "10 ± 0.140",
+      "hardness_kg_per_cm2": "6.32 ± 0.006",
+      "friability_percent": "0.15 ± 0.04"
+    },
+    {
+      "batch": "CPOP5",
+      "average_weight_mg": "387.7 ± 0.009",
+      "thickness_mm": "5.4 ± 0.170",
+      "diameter_mm": "10 ± 0.004",
+      "hardness_kg_per_cm2": "6.25 ± 0.001",
+      "friability_percent": "0.14 ± 0.02"
+    },
+    {
+      "batch": "CPOP6",
+      "average_weight_mg": "379.6 ± 0.001",
+      "thickness_mm": "5.35 ± 0.031",
+      "diameter_mm": "10 ± 0.006",
+      "hardness_kg_per_cm2": "6.3 ± 0.019",
+      "friability_percent": "0.12 ± 0.03"
+    }
+  ],
+  "release_properties": [
+    {
+      "batch": "CPOP1",
+      "release_profile_percent": {
+        "1h": "8",
+        "2h": "18",
+        "4h": "38",
+        "6h": "55",
+        "8h": "68",
+        "10h": "78",
+        "12h": "84"
+      },
+      "release_at_12h_percent": "84",
+      "zero_order_r2": "0.993",
+      "zero_order_k": "6.978",
+      "zero_order_aic": "49.18",
+      "first_order_r2": "0.967",
+      "first_order_k": "0.107",
+      "first_order_aic": "65.67",
+      "higuchi_r2": "0.862",
+      "higuchi_k": "19.905",
+      "higuchi_aic": "82.88",
+      "korsmeyer_peppas_r2": "0.984",
+      "korsmeyer_peppas_k": "9.074",
+      "korsmeyer_peppas_n": "0.880",
+      "korsmeyer_peppas_aic": "57.21",
+      "hixson_crowell_r2": "0.987",
+      "hixson_crowell_k": "0.031",
+      "hixson_crowell_aic": "54.49",
+      "release_mechanism": "Non-Fickian diffusion",
+      "release_kinetics": "Zero order"
+    },
+    {
+      "batch": "CPOP2",
+      "release_profile_percent": {
+        "1h": "9",
+        "2h": "20",
+        "4h": "42",
+        "6h": "60",
+        "8h": "74",
+        "10h": "84",
+        "12h": "90"
+      },
+      "release_at_12h_percent": "89.53 ± 1.05",
+      "zero_order_r2": "0.993",
+      "zero_order_k": "7.026",
+      "zero_order_aic": "48.57",
+      "first_order_r2": "0.965",
+      "first_order_k": "0.109",
+      "first_order_aic": "66.32",
+      "higuchi_r2": "0.865",
+      "higuchi_k": "20.056",
+      "higuchi_aic": "82.49",
+      "korsmeyer_peppas_r2": "0.983",
+      "korsmeyer_peppas_k": "9.260",
+      "korsmeyer_peppas_n": "0.874",
+      "korsmeyer_peppas_aic": "57.66",
+      "hixson_crowell_r2": "0.986",
+      "hixson_crowell_k": "0.032",
+      "hixson_crowell_aic": "55.73",
+      "release_mechanism": "Non-Fickian diffusion",
+      "release_kinetics": "Zero order"
+    },
+    {
+      "batch": "CPOP3",
+      "release_profile_percent": {
+        "1h": "7",
+        "2h": "16",
+        "4h": "35",
+        "6h": "52",
+        "8h": "65",
+        "10h": "75",
+        "12h": "82"
+      },
+      "release_at_12h_percent": "82",
+      "zero_order_r2": "0.996",
+      "zero_order_k": "7.160",
+      "zero_order_aic": "43.43",
+      "first_order_r2": "0.959",
+      "first_order_k": "0.111",
+      "first_order_aic": "68.77",
+      "higuchi_r2": "0.863",
+      "higuchi_k": "20.424",
+      "higuchi_aic": "83.10",
+      "korsmeyer_peppas_r2": "0.988",
+      "korsmeyer_peppas_k": "9.204",
+      "korsmeyer_peppas_n": "0.885",
+      "korsmeyer_peppas_aic": "54.40",
+      "hixson_crowell_r2": "0.982",
+      "hixson_crowell_k": "0.032",
+      "hixson_crowell_aic": "58.77",
+      "release_mechanism": "Non-Fickian diffusion",
+      "release_kinetics": "Zero order"
+    },
+    {
+      "batch": "CPOP4",
+      "release_profile_percent": {
+        "1h": "9",
+        "2h": "20",
+        "4h": "40",
+        "6h": "58",
+        "8h": "72",
+        "10h": "82",
+        "12h": "88"
+      },
+      "release_at_12h_percent": "88",
+      "zero_order_r2": "0.998",
+      "zero_order_k": "7.629",
+      "zero_order_aic": "36.77",
+      "first_order_r2": "0.962",
+      "first_order_k": "0.125",
+      "first_order_aic": "68.14",
+      "higuchi_r2": "0.891",
+      "higuchi_k": "21.864",
+      "higuchi_aic": "80.75",
+      "korsmeyer_peppas_r2": "0.975",
+      "korsmeyer_peppas_k": "11.231",
+      "korsmeyer_peppas_n": "0.823",
+      "korsmeyer_peppas_aic": "62.93",
+      "hixson_crowell_r2": "0.985",
+      "hixson_crowell_k": "0.036",
+      "hixson_crowell_aic": "57.20",
+      "release_mechanism": "Non-Fickian diffusion",
+      "release_kinetics": "Zero order"
+    },
+    {
+      "batch": "CPOP5",
+      "release_profile_percent": {
+        "1h": "6",
+        "2h": "14",
+        "4h": "32",
+        "6h": "48",
+        "8h": "61",
+        "10h": "70",
+        "12h": "77"
+      },
+      "release_at_12h_percent": "76.68 ± 1.22",
+      "zero_order_r2": "0.996",
+      "zero_order_k": "7.634",
+      "zero_order_aic": "42.91",
+      "first_order_r2": "0.965",
+      "first_order_k": "0.125",
+      "first_order_aic": "67.16",
+      "higuchi_r2": "0.893",
+      "higuchi_k": "21.889",
+      "higuchi_aic": "80.49",
+      "korsmeyer_peppas_r2": "0.971",
+      "korsmeyer_peppas_k": "11.461",
+      "korsmeyer_peppas_n": "0.814",
+      "korsmeyer_peppas_aic": "64.90",
+      "hixson_crowell_r2": "0.986",
+      "hixson_crowell_k": "0.036",
+      "hixson_crowell_aic": "55.82",
+      "release_mechanism": "Non-Fickian diffusion",
+      "release_kinetics": "Zero order"
+    },
+    {
+      "batch": "CPOP6",
+      "release_profile_percent": {
+        "1h": "9",
+        "2h": "19",
+        "4h": "39",
+        "6h": "57",
+        "8h": "70",
+        "10h": "80",
+        "12h": "86"
+      },
+      "release_at_12h_percent": "86",
+      "zero_order_r2": "0.998",
+      "zero_order_k": "7.770",
+      "zero_order_aic": "36.61",
+      "first_order_r2": "0.953",
+      "first_order_k": "0.128",
+      "first_order_aic": "71.30",
+      "higuchi_r2": "0.884",
+      "higuchi_k": "22.239",
+      "higuchi_aic": "82.18",
+      "korsmeyer_peppas_r2": "0.980",
+      "korsmeyer_peppas_k": "11.007",
+      "korsmeyer_peppas_n": "0.840",
+      "korsmeyer_peppas_aic": "60.83",
+      "hixson_crowell_r2": "0.980",
+      "hixson_crowell_k": "0.036",
+      "hixson_crowell_aic": "61.33",
+      "release_mechanism": "Non-Fickian diffusion",
+      "release_kinetics": "Zero order"
+    }
+  ],
+  "additional_parameters": {
+    "fit_factors": {
+      "f1_range_percent": "1.28 ± 0.06 to 12.64 ± 0.41",
+      "f2_range_percent": "59.75 ± 0.24 to 94.03 ± 1.36"
+    },
+    "dissolution_efficiency_percent": "51.49 ± 0.23 to 53.52 ± 0.52",
+    "mean_dissolution_time_h": "5.27 ± 0.05 to 5.59 ± 0.23",
+    "factors_influencing_release": {
+      "ph": "pH-independent behavior",
+      "agitational_intensity": "No noticeable effect",
+      "osmotic_agent_concentration": "Directly proportional to drug release",
+      "cellulose_acetate_concentration": "Inversely proportional to drug release"
+    }
+  },
+  "experimental_data": {
+    "optimized_formulation": "CPOP2",
+    "stability_study": {
+      "conditions": "40 ± 2°C / 75 ± 5% RH for six months",
+      "parameters": {
+        "initial_release_percent": "89.53 ± 1.05",
+        "2_month_release_percent": "89.01 ± 0.49",
+        "4_month_release_percent": "88.48 ± 0.76",
+        "6_month_release_percent": "86.56 ± 1.28"
+      },
+      "conclusion": "Found stable"
+    }
+  }
+}

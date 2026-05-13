@@ -1,0 +1,871 @@
+{
+  "abstract": "The abstract is on Page 1 of the document. It states the purpose of the study was to formulate double-layer tablets of lornoxicam (LRX) by direct compression and evaluate their physical and drug release characteristics. The outer layer contained an immediate-release dose (4 mg) with MCC, starch, and lactose. The cores for sustained release used HPMC, PVP K90, and carbomer. The analytical method (UV spectroscopy) was validated for linearity, precision, accuracy, recovery, and specificity. Results showed HPMC-based cores had better flow properties. Drug release followed the Higuchi kinetic model via diffusion/polymer relaxation or diffusion/erosion. The conclusion was that these tablets are suitable for treating inflammatory conditions.",
+  "introduction": "The introduction is on Pages 1 and 2. It discusses the advantages of controlled drug delivery systems and the need for an initial fast release followed by a sustained release for drugs like NSAIDs. It introduces double-layer tablets as a solution for biphasic release. It describes lornoxicam (LRX) as an NSAID from the oxicam family with a half-life of 3-4 hours, used for postoperative pain. The aim was to design a double-layer tablet with a 4 mg immediate-release outer layer and a 12 mg sustained-release core to improve bioavailability and patient compliance.",
+  "materials_and_methods": {
+    "materials_origin": {
+      "Lornoxicam (LRX)": "Abdi Ibrahim Ilac A.S. (Turkey)",
+      "Carbomer (Carbopol 971P NF)": "Lubrizol (U.S.A.)",
+      "HPMC (Methocel K15 Premium EP)": "Colorcon (England)",
+      "Starch 1500": "Colorcon (England)",
+      "PVP K90 (Povidone K90)": "Sigma-Aldrich (Germany)",
+      "Lactose anhydrous": "DMV (The Netherlands)",
+      "Avicel Type PH-102": "Selectchemie AG (Switzerland)",
+      "Magnesium stearate": "Prever (Italy)"
+    },
+    "experimental_design_for_optimization": "The experimental design involved preparing 8 different core formulations and 8 corresponding double-layer tablet formulations by varying the type and concentration of polymers (HPMC, PVP K90, Carbomer) in the core. The outer layer composition was kept constant. The goal was to optimize the formulation for biphasic release (immediate from outer layer, sustained from core).",
+    "ingredients_identification": {
+      "preparation": "Tablet cores (100 mg) containing 12 mg LRX were compressed using a hydraulic press under 13790 kPa force with a 7.9 mm flat punch. They were then coated with a 150 mg outer layer containing 4 mg LRX and compressed again using a 10 mm flat punch under 13790 kPa force to form the final 250 mg double-layer tablet.",
+      "results": "The method produced tablets with good physical characteristics and biphasic drug release.",
+      "equation": "A = 22.894C - 0.078",
+      "absorbance": "376 nm"
+    },
+    "formulation_details": [
+      {
+        "batch_name": "Outer Layer",
+        "type": "Outer Layer",
+        "ingredients": [
+          {"name": "LRX", "mass_mg": 4.0, "percent": 2.67},
+          {"name": "Avicel", "mass_mg": 61.005, "percent": 40.67},
+          {"name": "Starch", "mass_mg": 15.0, "percent": 10.0},
+          {"name": "Lactose", "mass_mg": 70.005, "percent": 46.67},
+          {"name": "Magnesium stearate", "mass_mg": 0.15, "percent": 0.1}
+        ]
+      },
+      {
+        "batch_name": "core HPMC-1",
+        "type": "Core",
+        "ingredients": [
+          {"name": "LRX", "mass_mg": 12.0, "percent": 12.0},
+          {"name": "HPMC", "mass_mg": 5.0, "percent": 5.0},
+          {"name": "Avicel", "mass_mg": 73.0, "percent": 73.0},
+          {"name": "Magnesium stearate", "mass_mg": 0.1, "percent": 0.1}
+        ]
+      },
+      {
+        "batch_name": "core HPMC-2",
+        "type": "Core",
+        "ingredients": [
+          {"name": "LRX", "mass_mg": 12.0, "percent": 12.0},
+          {"name": "HPMC", "mass_mg": 20.0, "percent": 20.0},
+          {"name": "Avicel", "mass_mg": 68.0, "percent": 68.0},
+          {"name": "Magnesium stearate", "mass_mg": 0.1, "percent": 0.1}
+        ]
+      },
+      {
+        "batch_name": "core PVP-1",
+        "type": "Core",
+        "ingredients": [
+          {"name": "LRX", "mass_mg": 12.0, "percent": 12.0},
+          {"name": "PVP K90", "mass_mg": 5.0, "percent": 5.0},
+          {"name": "Avicel", "mass_mg": 83.0, "percent": 83.0},
+          {"name": "Magnesium stearate", "mass_mg": 0.1, "percent": 0.1}
+        ]
+      },
+      {
+        "batch_name": "core PVP-2",
+        "type": "Core",
+        "ingredients": [
+          {"name": "LRX", "mass_mg": 12.0, "percent": 12.0},
+          {"name": "PVP K90", "mass_mg": 10.0, "percent": 10.0},
+          {"name": "Avicel", "mass_mg": 78.0, "percent": 78.0},
+          {"name": "Magnesium stearate", "mass_mg": 0.1, "percent": 0.1}
+        ]
+      },
+      {
+        "batch_name": "core Ca-1",
+        "type": "Core",
+        "ingredients": [
+          {"name": "LRX", "mass_mg": 12.0, "percent": 12.0},
+          {"name": "Carbomer", "mass_mg": 15.0, "percent": 15.0},
+          {"name": "Avicel", "mass_mg": 73.0, "percent": 73.0},
+          {"name": "Magnesium stearate", "mass_mg": 0.1, "percent": 0.1}
+        ]
+      },
+      {
+        "batch_name": "core Ca-2",
+        "type": "Core",
+        "ingredients": [
+          {"name": "LRX", "mass_mg": 12.0, "percent": 12.0},
+          {"name": "Carbomer", "mass_mg": 20.0, "percent": 20.0},
+          {"name": "Avicel", "mass_mg": 68.0, "percent": 68.0},
+          {"name": "Magnesium stearate", "mass_mg": 0.1, "percent": 0.1}
+        ]
+      },
+      {
+        "batch_name": "core HPMC-PVP-1",
+        "type": "Core",
+        "ingredients": [
+          {"name": "LRX", "mass_mg": 12.0, "percent": 12.0},
+          {"name": "HPMC", "mass_mg": 10.0, "percent": 10.0},
+          {"name": "PVP K90", "mass_mg": 5.0, "percent": 5.0},
+          {"name": "Avicel", "mass_mg": 73.0, "percent": 73.0},
+          {"name": "Magnesium stearate", "mass_mg": 0.1, "percent": 0.1}
+        ]
+      },
+      {
+        "batch_name": "core HPMC-PVP-2",
+        "type": "Core",
+        "ingredients": [
+          {"name": "LRX", "mass_mg": 12.0, "percent": 12.0},
+          {"name": "HPMC", "mass_mg": 15.0, "percent": 15.0},
+          {"name": "PVP K90", "mass_mg": 5.0, "percent": 5.0},
+          {"name": "Avicel", "mass_mg": 68.0, "percent": 68.0},
+          {"name": "Magnesium stearate", "mass_mg": 0.1, "percent": 0.1}
+        ]
+      }
+    ],
+    "pre_compression_parameters": [
+      {
+        "batch_name": "Outer Layer",
+        "carrs_index": 16.22,
+        "flow_quality": "Good",
+        "hausner_ratio": 1.19
+      },
+      {
+        "batch_name": "core HPMC-1",
+        "carrs_index": 20.09,
+        "flow_quality": "Fair to passable",
+        "hausner_ratio": 1.25
+      },
+      {
+        "batch_name": "core HPMC-2",
+        "carrs_index": 16.75,
+        "flow_quality": "Good",
+        "hausner_ratio": 1.20
+      },
+      {
+        "batch_name": "core PVP-1",
+        "carrs_index": 33.34,
+        "flow_quality": "Poor",
+        "hausner_ratio": 1.50
+      },
+      {
+        "batch_name": "core PVP-2",
+        "carrs_index": 31.58,
+        "flow_quality": "Poor",
+        "hausner_ratio": 1.46
+      },
+      {
+        "batch_name": "core Ca-1",
+        "carrs_index": 34.99,
+        "flow_quality": "Poor",
+        "hausner_ratio": 1.54
+      },
+      {
+        "batch_name": "core Ca-2",
+        "carrs_index": 34.88,
+        "flow_quality": "Poor",
+        "hausner_ratio": 1.54
+      },
+      {
+        "batch_name": "core HPMC-PVP-1",
+        "carrs_index": 21.28,
+        "flow_quality": "Fair to passable",
+        "hausner_ratio": 1.27
+      },
+      {
+        "batch_name": "core HPMC-PVP-2",
+        "carrs_index": 17.45,
+        "flow_quality": "Good",
+        "hausner_ratio": 1.21
+      }
+    ],
+    "composition_of_independent_variables": "The independent variables were the type of polymer (HPMC, PVP K90, Carbomer) and their concentration in the core (low and high levels: 5% & 20% for HPMC; 5% & 10% for PVP K90; 15% & 20% for Carbomer; and mixtures of HPMC and PVP K90).",
+    "ftir_spectral_measurements": "Not mentioned in the provided text.",
+    "tablet_fabrications": [
+      {
+        "batch_name": "core HPMC-1",
+        "determination": "Tablet cores were prepared by direct compression. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 102.0,
+        "weight_mg_sd": 0.2,
+        "hardness_N_mean_sd": 106.0,
+        "hardness_N_sd": 3.9,
+        "friability_percent": "Passed (< 0.5%)",
+        "tensile_strength_Mpa_mean_sd": 5.22,
+        "tensile_strength_Mpa_sd": 0.10
+      },
+      {
+        "batch_name": "core HPMC-2",
+        "determination": "Tablet cores were prepared by direct compression. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 101.0,
+        "weight_mg_sd": 0.2,
+        "hardness_N_mean_sd": 106.0,
+        "hardness_N_sd": 2.94,
+        "friability_percent": "Passed (< 0.5%)",
+        "tensile_strength_Mpa_mean_sd": 5.13,
+        "tensile_strength_Mpa_sd": 0.07
+      },
+      {
+        "batch_name": "core PVP-1",
+        "determination": "Tablet cores were prepared by direct compression. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 102.0,
+        "weight_mg_sd": 0.2,
+        "hardness_N_mean_sd": 111.0,
+        "hardness_N_sd": 3.9,
+        "friability_percent": "Passed (< 0.5%)",
+        "tensile_strength_Mpa_mean_sd": 5.53,
+        "tensile_strength_Mpa_sd": 0.10
+      },
+      {
+        "batch_name": "core PVP-2",
+        "determination": "Tablet cores were prepared by direct compression. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 103.0,
+        "weight_mg_sd": 0.2,
+        "hardness_N_mean_sd": 111.0,
+        "hardness_N_sd": 3.92,
+        "friability_percent": "Passed (< 0.5%)",
+        "tensile_strength_Mpa_mean_sd": 5.31,
+        "tensile_strength_Mpa_sd": 0.11
+      },
+      {
+        "batch_name": "core Ca-1",
+        "determination": "Tablet cores were prepared by direct compression. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 102.0,
+        "weight_mg_sd": 0.2,
+        "hardness_N_mean_sd": 200.0,
+        "hardness_N_sd": 8.88,
+        "friability_percent": "Passed (< 0.5%)",
+        "tensile_strength_Mpa_mean_sd": 9.79,
+        "tensile_strength_Mpa_sd": 0.43
+      },
+      {
+        "batch_name": "core Ca-2",
+        "determination": "Tablet cores were prepared by direct compression. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 102.0,
+        "weight_mg_sd": 0.2,
+        "hardness_N_mean_sd": 178.0,
+        "hardness_N_sd": 5.88,
+        "friability_percent": "Passed (< 0.5%)",
+        "tensile_strength_Mpa_mean_sd": 8.84,
+        "tensile_strength_Mpa_sd": 0.29
+      },
+      {
+        "batch_name": "core HPMC-PVP-1",
+        "determination": "Tablet cores were prepared by direct compression. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 101.0,
+        "weight_mg_sd": 0.2,
+        "hardness_N_mean_sd": 123.0,
+        "hardness_N_sd": 2.94,
+        "friability_percent": "Passed (< 0.5%)",
+        "tensile_strength_Mpa_mean_sd": 5.99,
+        "tensile_strength_Mpa_sd": 0.14
+      },
+      {
+        "batch_name": "core HPMC-PVP-2",
+        "determination": "Tablet cores were prepared by direct compression. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 101.0,
+        "weight_mg_sd": 0.3,
+        "hardness_N_mean_sd": 125.0,
+        "hardness_N_sd": 2.82,
+        "friability_percent": "Passed (< 0.5%)",
+        "tensile_strength_Mpa_mean_sd": 6.05,
+        "tensile_strength_Mpa_sd": 0.14
+      },
+      {
+        "batch_name": "HPMC-1",
+        "type": "Double-layer Tablet",
+        "determination": "Double-layer tablets were prepared by compressing the core with the outer layer. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 249.0,
+        "weight_mg_sd": 1.2,
+        "hardness_N_mean_sd": 78.0,
+        "hardness_N_sd": 3.91,
+        "friability_percent": "1.0% (max, acceptable)",
+        "tensile_strength_Mpa_mean_sd": 2.01,
+        "tensile_strength_Mpa_sd": 0.10
+      },
+      {
+        "batch_name": "HPMC-2",
+        "type": "Double-layer Tablet",
+        "determination": "Double-layer tablets were prepared by compressing the core with the outer layer. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 248.0,
+        "weight_mg_sd": 0.5,
+        "hardness_N_mean_sd": 93.0,
+        "hardness_N_sd": 3.92,
+        "friability_percent": "Likely similar (<1.0%)",
+        "tensile_strength_Mpa_mean_sd": 2.41,
+        "tensile_strength_Mpa_sd": 0.10
+      },
+      {
+        "batch_name": "PVP-1",
+        "type": "Double-layer Tablet",
+        "determination": "Double-layer tablets were prepared by compressing the core with the outer layer. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 249.0,
+        "weight_mg_sd": 0.6,
+        "hardness_N_mean_sd": 86.0,
+        "hardness_N_sd": 5.89,
+        "friability_percent": "Likely similar (<1.0%)",
+        "tensile_strength_Mpa_mean_sd": 2.22,
+        "tensile_strength_Mpa_sd": 0.12
+      },
+      {
+        "batch_name": "PVP-2",
+        "type": "Double-layer Tablet",
+        "determination": "Double-layer tablets were prepared by compressing the core with the outer layer. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 250.0,
+        "weight_mg_sd": 0.9,
+        "hardness_N_mean_sd": 90.0,
+        "hardness_N_sd": 4.91,
+        "friability_percent": "Likely similar (<1.0%)",
+        "tensile_strength_Mpa_mean_sd": 2.33,
+        "tensile_strength_Mpa_sd": 0.10
+      },
+      {
+        "batch_name": "Ca-1",
+        "type": "Double-layer Tablet",
+        "determination": "Double-layer tablets were prepared by compressing the core with the outer layer. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 249.0,
+        "weight_mg_sd": 0.6,
+        "hardness_N_mean_sd": 147.0,
+        "hardness_N_sd": 7.85,
+        "friability_percent": "Likely similar (<1.0%)",
+        "tensile_strength_Mpa_mean_sd": 3.82,
+        "tensile_strength_Mpa_sd": 0.20
+      },
+      {
+        "batch_name": "Ca-2",
+        "type": "Double-layer Tablet",
+        "determination": "Double-layer tablets were prepared by compressing the core with the outer layer. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 248.0,
+        "weight_mg_sd": 0.5,
+        "hardness_N_mean_sd": 140.0,
+        "hardness_N_sd": 4.91,
+        "friability_percent": "Likely similar (<1.0%)",
+        "tensile_strength_Mpa_mean_sd": 3.61,
+        "tensile_strength_Mpa_sd": 0.13
+      },
+      {
+        "batch_name": "HPMC-PVP-1",
+        "type": "Double-layer Tablet",
+        "determination": "Double-layer tablets were prepared by compressing the core with the outer layer. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 248.0,
+        "weight_mg_sd": 0.5,
+        "hardness_N_mean_sd": 99.0,
+        "hardness_N_sd": 5.88,
+        "friability_percent": "Likely similar (<1.0%)",
+        "tensile_strength_Mpa_mean_sd": 2.55,
+        "tensile_strength_Mpa_sd": 0.15
+      },
+      {
+        "batch_name": "HPMC-PVP-2",
+        "type": "Double-layer Tablet",
+        "determination": "Double-layer tablets were prepared by compressing the core with the outer layer. Physical parameters were determined as per the methods described.",
+        "weight_mg_mean_sd": 249.0,
+        "weight_mg_sd": 0.8,
+        "hardness_N_mean_sd": 91.0,
+        "hardness_N_sd": 2.93,
+        "friability_percent": "Likely similar (<1.0%)",
+        "tensile_strength_Mpa_mean_sd": 2.33,
+        "tensile_strength_Mpa_sd": 0.08
+      }
+    ],
+    "process_parameters": {
+      "compression_process": "Direct compression using a hydraulic press (Yeniyurt, Turkey). Tablet cores were compressed first, then coated with the outer layer and compressed again.",
+      "pressure": "13790 kPa",
+      "coating": "Compression coating",
+      "equipment_used": "Hydraulic press (Yeniyurt, Turkey) with 7.9 mm and 10 mm flat punches.",
+      "process_conditions": "Ambient temperature."
+    }
+  },
+  "results_and_discussion": {
+    "validation_results": {
+      "linearity": "A = 22.894C - 0.078; r = 0.9999",
+      "range": "2-12 μg/mL",
+      "intra_day_precision_RSD": "0.40 - 1.90%",
+      "inter_day_precision_RSD": "0.40 - 1.90%",
+      "accuracy_RME": "0.08% - 1.67%",
+      "recovery": "99.77% ± 0.002 to 100.45% ± 0.002",
+      "specificity": "Specific; excipients did not interfere at 376 nm."
+    },
+    "in_vitro_drug_release": {
+      "general": "The outer layer of all double-layer tablets disintegrated and released its LRX content within 45 seconds. Drug release from cores followed the Higuchi kinetic model.",
+      "release_profiles": [
+        {
+          "batch_name": "core HPMC-1",
+          "type": "Core",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 1, "cumulative_release_percent": 28},
+            {"time_h": 2, "cumulative_release_percent": 42},
+            {"time_h": 4, "cumulative_release_percent": 62},
+            {"time_h": 6, "cumulative_release_percent": 76},
+            {"time_h": 8, "cumulative_release_percent": 86},
+            {"time_h": 10, "cumulative_release_percent": 93},
+            {"time_h": 12, "cumulative_release_percent": 98}
+          ]
+        },
+        {
+          "batch_name": "core HPMC-2",
+          "type": "Core",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 1, "cumulative_release_percent": 22},
+            {"time_h": 2, "cumulative_release_percent": 35},
+            {"time_h": 4, "cumulative_release_percent": 52},
+            {"time_h": 6, "cumulative_release_percent": 66},
+            {"time_h": 8, "cumulative_release_percent": 77},
+            {"time_h": 10, "cumulative_release_percent": 86},
+            {"time_h": 12, "cumulative_release_percent": 93}
+          ]
+        },
+        {
+          "batch_name": "core PVP-1",
+          "type": "Core",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 1, "cumulative_release_percent": 15},
+            {"time_h": 2, "cumulative_release_percent": 24},
+            {"time_h": 4, "cumulative_release_percent": 38},
+            {"time_h": 6, "cumulative_release_percent": 48},
+            {"time_h": 8, "cumulative_release_percent": 57},
+            {"time_h": 10, "cumulative_release_percent": 64},
+            {"time_h": 12, "cumulative_release_percent": 70}
+          ]
+        },
+        {
+          "batch_name": "core PVP-2",
+          "type": "Core",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 1, "cumulative_release_percent": 12},
+            {"time_h": 2, "cumulative_release_percent": 19},
+            {"time_h": 4, "cumulative_release_percent": 30},
+            {"time_h": 6, "cumulative_release_percent": 39},
+            {"time_h": 8, "cumulative_release_percent": 46},
+            {"time_h": 10, "cumulative_release_percent": 52},
+            {"time_h": 12, "cumulative_release_percent": 58}
+          ]
+        },
+        {
+          "batch_name": "core Ca-1",
+          "type": "Core",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 1, "cumulative_release_percent": 25},
+            {"time_h": 2, "cumulative_release_percent": 38},
+            {"time_h": 4, "cumulative_release_percent": 55},
+            {"time_h": 6, "cumulative_release_percent": 67},
+            {"time_h": 8, "cumulative_release_percent": 76},
+            {"time_h": 10, "cumulative_release_percent": 83},
+            {"time_h": 12, "cumulative_release_percent": 88}
+          ]
+        },
+        {
+          "batch_name": "core Ca-2",
+          "type": "Core",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 1, "cumulative_release_percent": 22},
+            {"time_h": 2, "cumulative_release_percent": 34},
+            {"time_h": 4, "cumulative_release_percent": 50},
+            {"time_h": 6, "cumulative_release_percent": 62},
+            {"time_h": 8, "cumulative_release_percent": 71},
+            {"time_h": 10, "cumulative_release_percent": 79},
+            {"time_h": 12, "cumulative_release_percent": 85}
+          ]
+        },
+        {
+          "batch_name": "core HPMC-PVP-1",
+          "type": "Core",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 1, "cumulative_release_percent": 20},
+            {"time_h": 2, "cumulative_release_percent": 32},
+            {"time_h": 4, "cumulative_release_percent": 48},
+            {"time_h": 6, "cumulative_release_percent": 60},
+            {"time_h": 8, "cumulative_release_percent": 70},
+            {"time_h": 10, "cumulative_release_percent": 78},
+            {"time_h": 12, "cumulative_release_percent": 85}
+          ]
+        },
+        {
+          "batch_name": "core HPMC-PVP-2",
+          "type": "Core",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 1, "cumulative_release_percent": 18},
+            {"time_h": 2, "cumulative_release_percent": 30},
+            {"time_h": 4, "cumulative_release_percent": 46},
+            {"time_h": 6, "cumulative_release_percent": 58},
+            {"time_h": 8, "cumulative_release_percent": 68},
+            {"time_h": 10, "cumulative_release_percent": 76},
+            {"time_h": 12, "cumulative_release_percent": 83}
+          ]
+        },
+        {
+          "batch_name": "HPMC-1",
+          "type": "Double-layer Tablet",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 0.75, "cumulative_release_percent": 25},
+            {"time_h": 1, "cumulative_release_percent": 28},
+            {"time_h": 2, "cumulative_release_percent": 38},
+            {"time_h": 4, "cumulative_release_percent": 52},
+            {"time_h": 6, "cumulative_release_percent": 64},
+            {"time_h": 8, "cumulative_release_percent": 73},
+            {"time_h": 10, "cumulative_release_percent": 81},
+            {"time_h": 12, "cumulative_release_percent": 88}
+          ]
+        },
+        {
+          "batch_name": "HPMC-2",
+          "type": "Double-layer Tablet",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 0.75, "cumulative_release_percent": 25},
+            {"time_h": 1, "cumulative_release_percent": 27},
+            {"time_h": 2, "cumulative_release_percent": 35},
+            {"time_h": 4, "cumulative_release_percent": 47},
+            {"time_h": 6, "cumulative_release_percent": 57},
+            {"time_h": 8, "cumulative_release_percent": 66},
+            {"time_h": 10, "cumulative_release_percent": 74},
+            {"time_h": 12, "cumulative_release_percent": 81}
+          ]
+        },
+        {
+          "batch_name": "PVP-1",
+          "type": "Double-layer Tablet",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 0.75, "cumulative_release_percent": 25},
+            {"time_h": 1, "cumulative_release_percent": 26},
+            {"time_h": 2, "cumulative_release_percent": 31},
+            {"time_h": 4, "cumulative_release_percent": 40},
+            {"time_h": 6, "cumulative_release_percent": 46},
+            {"time_h": 8, "cumulative_release_percent": 52},
+            {"time_h": 10, "cumulative_release_percent": 57},
+            {"time_h": 12, "cumulative_release_percent": 62}
+          ]
+        },
+        {
+          "batch_name": "PVP-2",
+          "type": "Double-layer Tablet",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 0.75, "cumulative_release_percent": 25},
+            {"time_h": 1, "cumulative_release_percent": 26},
+            {"time_h": 2, "cumulative_release_percent": 30},
+            {"time_h": 4, "cumulative_release_percent": 38},
+            {"time_h": 6, "cumulative_release_percent": 44},
+            {"time_h": 8, "cumulative_release_percent": 49},
+            {"time_h": 10, "cumulative_release_percent": 53},
+            {"time_h": 12, "cumulative_release_percent": 58}
+          ]
+        },
+        {
+          "batch_name": "Ca-1",
+          "type": "Double-layer Tablet",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 0.75, "cumulative_release_percent": 25},
+            {"time_h": 1, "cumulative_release_percent": 29},
+            {"time_h": 2, "cumulative_release_percent": 40},
+            {"time_h": 4, "cumulative_release_percent": 55},
+            {"time_h": 6, "cumulative_release_percent": 66},
+            {"time_h": 8, "cumulative_release_percent": 74},
+            {"time_h": 10, "cumulative_release_percent": 81},
+            {"time_h": 12, "cumulative_release_percent": 86}
+          ]
+        },
+        {
+          "batch_name": "Ca-2",
+          "type": "Double-layer Tablet",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 0.75, "cumulative_release_percent": 25},
+            {"time_h": 1, "cumulative_release_percent": 28},
+            {"time_h": 2, "cumulative_release_percent": 38},
+            {"time_h": 4, "cumulative_release_percent": 53},
+            {"time_h": 6, "cumulative_release_percent": 64},
+            {"time_h": 8, "cumulative_release_percent": 72},
+            {"time_h": 10, "cumulative_release_percent": 79},
+            {"time_h": 12, "cumulative_release_percent": 84}
+          ]
+        },
+        {
+          "batch_name": "HPMC-PVP-1",
+          "type": "Double-layer Tablet",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 0.75, "cumulative_release_percent": 25},
+            {"time_h": 1, "cumulative_release_percent": 27},
+            {"time_h": 2, "cumulative_release_percent": 36},
+            {"time_h": 4, "cumulative_release_percent": 49},
+            {"time_h": 6, "cumulative_release_percent": 60},
+            {"time_h": 8, "cumulative_release_percent": 69},
+            {"time_h": 10, "cumulative_release_percent": 76},
+            {"time_h": 12, "cumulative_release_percent": 82}
+          ]
+        },
+        {
+          "batch_name": "HPMC-PVP-2",
+          "type": "Double-layer Tablet",
+          "release_data_points": [
+            {"time_h": 0, "cumulative_release_percent": 0},
+            {"time_h": 0.75, "cumulative_release_percent": 25},
+            {"time_h": 1, "cumulative_release_percent": 26},
+            {"time_h": 2, "cumulative_release_percent": 34},
+            {"time_h": 4, "cumulative_release_percent": 46},
+            {"time_h": 6, "cumulative_release_percent": 56},
+            {"time_h": 8, "cumulative_release_percent": 65},
+            {"time_h": 10, "cumulative_release_percent": 72},
+            {"time_h": 12, "cumulative_release_percent": 79}
+          ]
+        }
+      ],
+      "kinetic_modeling": [
+        {
+          "batch_name": "core HPMC-1",
+          "zero_order_r": 0.936,
+          "zero_order_K0": 3.14,
+          "first_order_r": 0.763,
+          "first_order_K1": 0.09,
+          "higuchi_r": 0.997,
+          "higuchi_D": 17.84,
+          "korsmeyer_peppas_r": 0.997,
+          "korsmeyer_peppas_n": 0.59,
+          "release_mechanism": "Non-Fickian",
+          "diffusion_rate_x10-3_g_per_h": 3.425
+        },
+        {
+          "batch_name": "core HPMC-2",
+          "zero_order_r": 0.989,
+          "zero_order_K0": 3.03,
+          "first_order_r": 0.796,
+          "first_order_K1": 0.14,
+          "higuchi_r": 0.986,
+          "higuchi_D": 16.14,
+          "korsmeyer_peppas_r": 0.998,
+          "korsmeyer_peppas_n": 0.83,
+          "release_mechanism": "Non-Fickian",
+          "diffusion_rate_x10-3_g_per_h": 3.057
+        },
+        {
+          "batch_name": "core PVP-1",
+          "zero_order_r": 0.857,
+          "zero_order_K0": 1.90,
+          "first_order_r": 0.698,
+          "first_order_K1": 0.09,
+          "higuchi_r": 0.968,
+          "higuchi_D": 11.45,
+          "korsmeyer_peppas_r": 0.986,
+          "korsmeyer_peppas_n": 0.61,
+          "release_mechanism": "Non-Fickian",
+          "diffusion_rate_x10-3_g_per_h": 2.065
+        },
+        {
+          "batch_name": "core PVP-2",
+          "zero_order_r": 0.859,
+          "zero_order_K0": 1.48,
+          "first_order_r": 0.718,
+          "first_order_K1": 0.08,
+          "higuchi_r": 0.968,
+          "higuchi_D": 8.91,
+          "korsmeyer_peppas_r": 0.989,
+          "korsmeyer_peppas_n": 0.57,
+          "release_mechanism": "Non-Fickian",
+          "diffusion_rate_x10-3_g_per_h": 1.624
+        },
+        {
+          "batch_name": "core Ca-1",
+          "zero_order_r": 0.895,
+          "zero_order_K0": 3.92,
+          "first_order_r": 0.691,
+          "first_order_K1": 0.17,
+          "higuchi_r": 0.970,
+          "higuchi_D": 22.70,
+          "korsmeyer_peppas_r": 0.976,
+          "korsmeyer_peppas_n": 1.20,
+          "release_mechanism": "Supercase II",
+          "diffusion_rate_x10-3_g_per_h": 3.631
+        },
+        {
+          "batch_name": "core Ca-2",
+          "zero_order_r": 0.904,
+          "zero_order_K0": 3.61,
+          "first_order_r": 0.695,
+          "first_order_K1": 0.18,
+          "higuchi_r": 0.970,
+          "higuchi_D": 20.62,
+          "korsmeyer_peppas_r": 0.980,
+          "korsmeyer_peppas_n": 1.27,
+          "release_mechanism": "Supercase II",
+          "diffusion_rate_x10-3_g_per_h": 3.314
+        },
+        {
+          "batch_name": "core HPMC-PVP-1",
+          "zero_order_r": 0.904,
+          "zero_order_K0": 2.62,
+          "first_order_r": 0.752,
+          "first_order_K1": 0.09,
+          "higuchi_r": 0.986,
+          "higuchi_D": 15.21,
+          "korsmeyer_peppas_r": 0.992,
+          "korsmeyer_peppas_n": 0.60,
+          "release_mechanism": "Non-Fickian",
+          "diffusion_rate_x10-3_g_per_h": 2.790
+        },
+        {
+          "batch_name": "core HPMC-PVP-2",
+          "zero_order_r": 0.996,
+          "zero_order_K0": 3.99,
+          "first_order_r": 0.842,
+          "first_order_K1": 0.13,
+          "higuchi_r": 0.972,
+          "higuchi_D": 20.79,
+          "korsmeyer_peppas_r": 0.983,
+          "korsmeyer_peppas_n": 0.77,
+          "release_mechanism": "Non-Fickian",
+          "diffusion_rate_x10-3_g_per_h": 4.014
+        },
+        {
+          "batch_name": "HPMC-1",
+          "type": "Double-layer Tablet",
+          "zero_order_r": 0.996,
+          "zero_order_K0": 2.80,
+          "first_order_r": 0.951,
+          "first_order_K1": 0.05,
+          "higuchi_r": 0.976,
+          "higuchi_D": 14.65,
+          "korsmeyer_peppas_r": 0.947,
+          "diffusion_rate_x10-3_g_per_h": 3.905
+        },
+        {
+          "batch_name": "HPMC-2",
+          "type": "Double-layer Tablet",
+          "zero_order_r": 0.985,
+          "zero_order_K0": 2.31,
+          "first_order_r": 0.931,
+          "first_order_K1": 0.05,
+          "higuchi_r": 0.991,
+          "higuchi_D": 12.42,
+          "korsmeyer_peppas_r": 0.957,
+          "diffusion_rate_x10-3_g_per_h": 3.363
+        },
+        {
+          "batch_name": "PVP-1",
+          "type": "Double-layer Tablet",
+          "zero_order_r": 0.950,
+          "zero_order_K0": 1.21,
+          "first_order_r": 0.903,
+          "first_order_K1": 0.03,
+          "higuchi_r": 0.999,
+          "higuchi_D": 6.77,
+          "korsmeyer_peppas_r": 0.975,
+          "diffusion_rate_x10-3_g_per_h": 2.280
+        },
+        {
+          "batch_name": "PVP-2",
+          "type": "Double-layer Tablet",
+          "zero_order_r": 0.934,
+          "zero_order_K0": 1.21,
+          "first_order_r": 0.883,
+          "first_order_K1": 0.03,
+          "higuchi_r": 0.996,
+          "higuchi_D": 6.90,
+          "korsmeyer_peppas_r": 0.980,
+          "diffusion_rate_x10-3_g_per_h": 2.220
+        },
+        {
+          "batch_name": "Ca-1",
+          "type": "Double-layer Tablet",
+          "zero_order_r": 0.944,
+          "zero_order_K0": 3.26,
+          "first_order_r": 0.849,
+          "first_order_K1": 0.06,
+          "higuchi_r": 0.994,
+          "higuchi_D": 18.33,
+          "korsmeyer_peppas_r": 0.974,
+          "diffusion_rate_x10-3_g_per_h": 4.085
+        },
+        {
+          "batch_name": "Ca-2",
+          "type": "Double-layer Tablet",
+          "zero_order_r": 0.966,
+          "zero_order_K0": 3.21,
+          "first_order_r": 0.891,
+          "first_order_K1": 0.06,
+          "higuchi_r": 0.987,
+          "higuchi_D": 17.51,
+          "korsmeyer_peppas_r": 0.952,
+          "diffusion_rate_x10-3_g_per_h": 4.020
+        },
+        {
+          "batch_name": "HPMC-PVP-1",
+          "type": "Double-layer Tablet",
+          "zero_order_r": 0.984,
+          "zero_order_K0": 2.89,
+          "first_order_r": 0.922,
+          "first_order_K1": 0.05,
+          "higuchi_r": 0.991,
+          "higuchi_D": 15.56,
+          "korsmeyer_peppas_r": 0.969,
+          "diffusion_rate_x10-3_g_per_h": 4.167
+        },
+        {
+          "batch_name": "HPMC-PVP-2",
+          "type": "Double-layer Tablet",
+          "zero_order_r": 0.976,
+          "zero_order_K0": 2.38,
+          "first_order_r": 0.914,
+          "first_order_K1": 0.05,
+          "higuchi_r": 0.995,
+          "higuchi_D": 12.93,
+          "korsmeyer_peppas_r": 0.967,
+          "diffusion_rate_x10-3_g_per_h": 3.405
+        }
+      ]
+    },
+    "tablet_properties": [
+      {
+        "batch_name": "Outer Layer",
+        "disintegration_time_sec": 45,
+        "disintegration_time_sd": 0.016
+      },
+      {
+        "batch_name": "core HPMC-1",
+        "swelling_behavior": "Moderate swelling, erosion > 84% at 24h",
+        "percent_remained_at_24h": "< 16%"
+      },
+      {
+        "batch_name": "core HPMC-2",
+        "swelling_behavior": "Moderate swelling, erosion > 84% at 24h",
+        "percent_remained_at_24h": "< 16%"
+      },
+      {
+        "batch_name": "core PVP-1",
+        "swelling_behavior": "Lowest swelling, erosion > 84% at 24h",
+        "percent_remained_at_24h": "< 16%"
+      },
+      {
+        "batch_name": "core PVP-2",
+        "swelling_behavior": "Lowest swelling, erosion > 84% at 24h",
+        "percent_remained_at_24h": "< 16%"
+      },
+      {
+        "batch_name": "core Ca-1",
+        "swelling_behavior": "Highest swelling, peak at 8h, 52.75% remained at 24h",
+        "percent_remained_at_24h": 52.75
+      },
+      {
+        "batch_name": "core Ca-2",
+        "swelling_behavior": "Highest swelling, peak at 8h, 52.01% remained at 24h",
+        "percent_remained_at_24h": 52.01
+      },
+      {
+        "batch_name": "core HPMC-PVP-1",
+        "swelling_behavior": "High swelling, erosion > 84% at 24h",
+        "percent_remained_at_24h": "< 16%"
+      },
+      {
+        "batch_name": "core HPMC-PVP-2",
+        "swelling_behavior": "High swelling, erosion > 84% at 24h",
+        "percent_remained_at_24h": "< 16%"
+      }
+    ],
+    "experimental_data": {
+      "key_results": "All formulations met compendial requirements. Double-layer tablets provided immediate release from the outer layer (within 45 seconds) and sustained release from the core. The slowest release was from PVP K90-based cores. Release was governed by the Higuchi model. Carbomer-based cores showed Supercase II transport due to high swelling, while others showed non-Fickian diffusion/erosion.",
+      "statistical_analysis": "One-way ANOVA was used to determine differences in release profiles, swelling, and erosion data (p < 0.05). Significant differences were found among release profiles of all core formulations."
+    }
+  },
+  "conclusion": "The conclusion is on Pages 7 and 8. It states that double-layer tablets with cores based on HPMC and HPMC-PVP mixtures displayed better flow and compression properties. Although PVP K90 and carbomer cores had poor flow, the final double-layer tablets had desired physical characteristics. The study concluded that these double-layer tablets could reduce dosing frequency and improve patient compliance in treating inflammatory conditions."
+}

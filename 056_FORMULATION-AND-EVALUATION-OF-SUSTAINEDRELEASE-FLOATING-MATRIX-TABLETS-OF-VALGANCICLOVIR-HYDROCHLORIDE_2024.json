@@ -1,0 +1,585 @@
+{
+    "article_sections": {
+        "abstract": "The present study aimed to formulate and evaluate the formulated sustained-release floating matrix tablets of valganciclovir hydrochloride to produce a stable and bioavailable dosage form. The tablets were prepared using hydrophilic and hydrophobic polymers such as ethyl cellulose, Hydroxypropyl methylcellulose (HPMC), and Povidone. The formulations were subjected to evaluation characteristics such as drug content, hardness, friability, floating lag time, total floating time, and In vitro drug dissolution studies. The formulation composition and method of manufacturing are novel for this particular active moiety and robustness was assessed using a central composite design. All the formulation trials exhibited more than 90% of drug release in 12 h duration, with a floating lag time of more than 11 h, and drug content was found more than 90% across the batches. The formulated valganciclovir hydrochloride sustained release floating matrix tablets showed an increased GRT with a sustained release for 12 h, thereby allowing a better window for absorption and consequently improving the drug's therapeutic effect.",
+        "introduction": "Provides background on cytomegalovirus, valganciclovir hydrochloride, and gastroretentive drug delivery systems. Highlights the aim to formulate sustained-release floating matrix tablets.",
+        "materials_and_methods": "Lists materials, methodology including melting point, solubility, calibration curve, drug-excipient compatibility, drug content, wet granulation formulation, compression, in vitro dissolution, floating lag time determination.",
+        "results_and_discussion": "Presents melting point, solubility, λmax, FTIR compatibility, formulation development using central composite design, hardness/friability/assay results, dissolution profiles, floating lag time and total floating time.",
+        "conclusion": "Confirms purity, compatibility, ideal in-process parameters, robustness, and reproducibility of the optimized formulation.",
+        "references": "Listed from 1 to 20."
+    },
+    "materials_origin": {
+        "valganciclovir_hcl": {
+            "source": "Strides pharma., Bangalore, India",
+            "purity": "99.98%"
+        },
+        "magnesium_stearate": {
+            "source": "Strides pharma., Bangalore, India"
+        },
+        "talc": {
+            "source": "Strides pharma., Bangalore, India"
+        },
+        "microcrystalline_cellulose": {
+            "source": "Sabicon Life Sciences, Bangalore India"
+        },
+        "ethyl_cellulose": {
+            "source": "Sabicon Life Sciences, Bangalore India"
+        },
+        "povidone_k30": {
+            "source": "Sabicon Life Sciences, Bangalore India"
+        },
+        "sodium_bicarbonate": {
+            "source": "Shilpa Medicare, Dabaspete, India"
+        },
+        "colloidal_silicon_dioxide": {
+            "source": "Shilpa Medicare, Dabaspete, India"
+        }
+    },
+    "experimental_design": {
+        "type": "Central composite design (DOE)",
+        "batches": 12,
+        "independent_variables": [
+            "povidone K30",
+            "HPMC K15",
+            "ethyl cellulose",
+            "magnesium stearate"
+        ],
+        "variation_range": "±2% from target concentration"
+    },
+    "calibration_curve": {
+        "solvent": "0.1N HCl",
+        "lambda_max": "254 nm",
+        "concentration_range": "5–25 μg/ml",
+        "detection_method": "UV spectrophotometer",
+        "regression": "least-square linear regression, R² determined"
+    },
+    "formulation_batches": [
+        {
+            "batch": "056_F1",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 88.0,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        },
+        {
+            "batch": "056_F2",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 87.68,
+            "povidone_k30_mg": 16.32,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        },
+        {
+            "batch": "056_F3",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 88.32,
+            "povidone_k30_mg": 15.68,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        },
+        {
+            "batch": "056_F4",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 87.36,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 32.64,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        },
+        {
+            "batch": "056_F5",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 88.64,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 31.34,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        },
+        {
+            "batch": "056_F6",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 86.0,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 102.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        },
+        {
+            "batch": "056_F7",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 90.0,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 98.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        },
+        {
+            "batch": "056_F8",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 86.08,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 97.92,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        },
+        {
+            "batch": "056_F9",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 89.92,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 94.08,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        },
+        {
+            "batch": "056_F10",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 87.84,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.16
+        },
+        {
+            "batch": "056_F11",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 88.16,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 7.84
+        },
+        {
+            "batch": "056_F12",
+            "total_weight_mg": 800,
+            "valganciclovir_hcl_mg": 450,
+            "microcrystalline_cellulose_mg": 88.0,
+            "povidone_k30_mg": 16.0,
+            "ethyl_cellulose_mg": 32.0,
+            "hpmc_k15_mg": 100.0,
+            "sodium_bicarbonate_mg": 96.0,
+            "colloidal_silicon_dioxide_mg": 4.0,
+            "talc_mg": 6.0,
+            "magnesium_stearate_mg": 8.0
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "056_F1",
+            "hardness_newton": "201.04 ± 3.92",
+            "friability_percent": 0.0,
+            "assay_percent": "97.00–103.00",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F2",
+            "hardness_newton": "204.71 ± 5.18",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F3",
+            "hardness_newton": "197.39 ± 3.91",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F4",
+            "hardness_newton": "203.16 ± 6.67",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F5",
+            "hardness_newton": "200.98 ± 6.39",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F6",
+            "hardness_newton": "207.44 ± 5.36",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F7",
+            "hardness_newton": "196.38 ± 3.71",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F8",
+            "hardness_newton": "201.25 ± 3.84",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F9",
+            "hardness_newton": "202.68 ± 7.80",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F10",
+            "hardness_newton": "210.37 ± 4.75",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F11",
+            "hardness_newton": "206.43 ± 6.63",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        },
+        {
+            "batch": "056_F12",
+            "hardness_newton": "204.27 ± 3.44",
+            "friability_percent": 0.0,
+            "assay_percent": "uniform (within 97–103)",
+            "diameter_mm": 15,
+            "thickness_mm": null
+        }
+    ],
+    "independent_variables_levels": {
+        "povidone_k30": {
+            "target_mg": 16.0,
+            "variation": "±2%",
+            "actual_values_mg": [
+                16.0,
+                16.32,
+                15.68,
+                16.0,
+                16.0,
+                16.0,
+                16.0,
+                16.0,
+                16.0,
+                16.0,
+                16.0,
+                16.0
+            ]
+        },
+        "hpmc_k15": {
+            "target_mg": 100.0,
+            "variation": "±2%",
+            "actual_values_mg": [
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                102.0,
+                98.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0,
+                100.0
+            ]
+        },
+        "ethyl_cellulose": {
+            "target_mg": 32.0,
+            "variation": "±2%",
+            "actual_values_mg": [
+                32.0,
+                32.0,
+                32.0,
+                32.64,
+                31.34,
+                32.0,
+                32.0,
+                32.0,
+                32.0,
+                32.0,
+                32.0,
+                32.0
+            ]
+        },
+        "magnesium_stearate": {
+            "target_mg": 8.0,
+            "variation": "±2%",
+            "actual_values_mg": [
+                8.0,
+                8.0,
+                8.0,
+                8.0,
+                8.0,
+                8.0,
+                8.0,
+                8.0,
+                8.0,
+                8.16,
+                7.84,
+                8.0
+            ]
+        }
+    },
+    "ftir_info": {
+        "purpose": "Check drug-excipient compatibility",
+        "samples": "Pure drug, drug + HPMC, drug + all inactive ingredients",
+        "figures": [
+            "Fig. 1",
+            "Fig. 2",
+            "Fig. 3"
+        ],
+        "conclusion": "No major interaction between drug and excipients"
+    },
+    "process_parameters": {
+        "granulation_method": "Wet granulation",
+        "equipment": {
+            "granulator": "Rapid mixer granulator (RMG)",
+            "drier": "Fluid bed dryer (parameters in Table 2)",
+            "mill": "Co-mill with 1.0 mm grated screen at 900 rpm",
+            "compression_machine": "Tablet press with 15 mm plain concave punch"
+        },
+        "mixing_parameters": {
+            "dry_mixing": "impeller 150 rpm, chopper off, 5 min",
+            "binder_addition": "impeller 150 rpm, chopper 750 rpm, 30 min",
+            "kneading": "impeller 150 rpm, chopper 750 rpm, 2 min",
+            "binder_solution": "povidone K30 in purified water, 12.5% w/w of granulation mass"
+        },
+        "drying_parameters": {
+            "inlet_temperature_range": "50–65 °C",
+            "airflow": "50–75 cfm",
+            "final_product_temperature": "~31 °C",
+            "final_lod": "4.00%"
+        },
+        "compression_parameters": {
+            "tablet_diameter": "15 mm",
+            "punch_type": "plain concave",
+            "hardness_range": "196–210 N"
+        }
+    },
+    "release_properties": [
+        {
+            "batch": "056_F1",
+            "dissolution_data": {
+                "60_min": "12.04 ± 1.58",
+                "120_min": "22.26 ± 3.06",
+                "240_min": "37.22 ± 2.85",
+                "480_min": "78.95 ± 4.55",
+                "720_min": "97.21 ± 4.02"
+            },
+            "floating_lag_time_s": 38,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F2",
+            "dissolution_data": {
+                "60_min": "11.87 ± 2.42",
+                "120_min": "22.01 ± 3.63",
+                "240_min": "35.52 ± 3.52",
+                "480_min": "76.25 ± 3.25",
+                "720_min": "96.20 ± 3.29"
+            },
+            "floating_lag_time_s": 57,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F3",
+            "dissolution_data": {
+                "60_min": "12.82 ± 2.85",
+                "120_min": "23.45 ± 2.89",
+                "240_min": "38.23 ± 2.25",
+                "480_min": "78.88 ± 4.02",
+                "720_min": "96.11 ± 2.98"
+            },
+            "floating_lag_time_s": 102,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F4",
+            "dissolution_data": {
+                "60_min": "12.11 ± 1.62",
+                "120_min": "23.20 ± 4.15",
+                "240_min": "37.55 ± 3.65",
+                "480_min": "76.23 ± 3.85",
+                "720_min": "94.21 ± 3.55"
+            },
+            "floating_lag_time_s": 86,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F5",
+            "dissolution_data": {
+                "60_min": "13.62 ± 4.21",
+                "120_min": "25.16 ± 3.55",
+                "240_min": "39.50 ± 4.22",
+                "480_min": "79.21 ± 2.62",
+                "720_min": "98.44 ± 4.14"
+            },
+            "floating_lag_time_s": 45,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F6",
+            "dissolution_data": {
+                "60_min": "11.20 ± 3.24",
+                "120_min": "21.04 ± 4.06",
+                "240_min": "36.22 ± 5.03",
+                "480_min": "77.89 ± 3.07",
+                "720_min": "95.01 ± 3.78"
+            },
+            "floating_lag_time_s": 64,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F7",
+            "dissolution_data": {
+                "60_min": "13.22 ± 2.02",
+                "120_min": "24.70 ± 4.25",
+                "240_min": "35.34 ± 3.45",
+                "480_min": "75.09 ± 4.01",
+                "720_min": "96.23 ± 3.33"
+            },
+            "floating_lag_time_s": 147,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F8",
+            "dissolution_data": {
+                "60_min": "12.52 ± 2.63",
+                "120_min": "23.07 ± 2.41",
+                "240_min": "36.89 ± 3.61",
+                "480_min": "77.22 ± 3.96",
+                "720_min": "96.23 ± 5.06"
+            },
+            "floating_lag_time_s": 123,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F9",
+            "dissolution_data": {
+                "60_min": "13.21 ± 2.86",
+                "120_min": "26.21 ± 3.33",
+                "240_min": "37.86 ± 2.88",
+                "480_min": "77.95 ± 3.77",
+                "720_min": "96.74 ± 3.87"
+            },
+            "floating_lag_time_s": 41,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F10",
+            "dissolution_data": {
+                "60_min": "12.50 ± 3.01",
+                "120_min": "21.08 ± 3.97",
+                "240_min": "36.45 ± 3.24",
+                "480_min": "77.04 ± 4.54",
+                "720_min": "95.26 ± 3.64"
+            },
+            "floating_lag_time_s": 109,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F11",
+            "dissolution_data": {
+                "60_min": "13.12 ± 2.41",
+                "120_min": "23.56 ± 3.45",
+                "240_min": "37.89 ± 3.85",
+                "480_min": "78.62 ± 4.14",
+                "720_min": "98.63 ± 2.73"
+            },
+            "floating_lag_time_s": 89,
+            "total_floating_time_h": ">11.00"
+        },
+        {
+            "batch": "056_F12",
+            "dissolution_data": {
+                "60_min": "13.02 ± 1.21",
+                "120_min": "22.79 ± 2.33",
+                "240_min": "36.87 ± 3.71",
+                "480_min": "77.50 ± 2.10",
+                "720_min": "96.55 ± 3.98"
+            },
+            "floating_lag_time_s": 65,
+            "total_floating_time_h": ">11.00"
+        }
+    ],
+    "tablet_properties": {
+        "hardness": "196–210 N (all batches)",
+        "friability": "0.00% (all batches)",
+        "disintegration_time": "Not applicable (floating tablets)",
+        "dissolution_profile": ">90% release at 12 h for all batches",
+        "stability": "Not reported",
+        "thickness": "Not reported",
+        "weight_variation": "All tablets 800 mg, uniform",
+        "floating_lag_time_range_s": "38–147 s",
+        "total_floating_time": ">11 h for all batches"
+    },
+    "experimental_data_summary": {
+        "in_vitro_dissolution": "All batches showed >90% drug release within 12 h, with sustained release pattern. Mean release at 12 h: 96.40 ± 1.28% (n=12).",
+        "floating_performance": "All tablets exhibited floating lag time <150 s and total floating time >11 h, ensuring prolonged gastric retention.",
+        "hardness_friability": "Hardness consistent (196–210 N), friability 0% across all batches, indicating good mechanical strength.",
+        "drug_content": "Assay within 97–103% for all formulations.",
+        "statistical_analysis": "Data presented as mean ± SD; n=3 for hardness and friability, n=6 for dissolution and floating parameters."
+    }
+}

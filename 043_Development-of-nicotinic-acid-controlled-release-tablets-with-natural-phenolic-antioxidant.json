@@ -1,0 +1,1154 @@
+{
+    "materials_origin": {
+        "nicotinic_acid": "SD Fine Chemicals Ltd, Bangalore",
+        "proanthocyanidine": "MMC health care, Chennai",
+        "sls": "KAPL, Bangalore",
+        "pvp_k30": "KAPL, Bangalore",
+        "starch": "KAPL, Bangalore",
+        "magnesium_stearate": "KAPL, Bangalore",
+        "talc": "KAPL, Bangalore"
+    },
+    "experimental_design_for_optimization": {
+        "preparation_method": "Encapsulation of NA with PC by solvent evaporation method, followed by wet granulation to form granules, which were then compressed into tablets.",
+        "encapsulation_process": "PC (2% w/v) dissolved in methanol. NA (250 mg) dispersed into polymer solution. Mixture added dropwise (1 ml/min) into 3% w/v SLS with agitation (100 rpm) at 100°C. Stirring continued for 2 hours. Encapsulated NA collected and dried at 40°C for 30 minutes.",
+        "absorbance_wavelength": {
+            "pH_1.2": "260.5 nm",
+            "pH_6.8": "262.4 nm"
+        }
+    },
+    "formulation_details": [
+        {
+            "batch": "043_F1",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 250,
+                "sls_mg": 82,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        },
+        {
+            "batch": "043_F2",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 250.5,
+                "sls_mg": 77,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        },
+        {
+            "batch": "043_F3",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 260,
+                "sls_mg": 72,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        },
+        {
+            "batch": "043_F4",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 260.5,
+                "sls_mg": 67,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        },
+        {
+            "batch": "043_F5",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 270,
+                "sls_mg": 62,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        },
+        {
+            "batch": "043_F6",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 270.5,
+                "sls_mg": 57,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        },
+        {
+            "batch": "043_F7",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 280,
+                "sls_mg": 52,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        },
+        {
+            "batch": "043_F8",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 280.5,
+                "sls_mg": 47,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        },
+        {
+            "batch": "043_F9",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 290,
+                "sls_mg": 42,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        },
+        {
+            "batch": "043_F10",
+            "ingredients": {
+                "nicotinic_acid_mg": 250,
+                "proanthocyanidine_mg": 290.5,
+                "sls_mg": 37,
+                "pvp_k30": "sufficient quantity",
+                "starch_mg": 40,
+                "magnesium_stearate_mg": 30,
+                "talc_mg": 70,
+                "total_mg": 600
+            }
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "043_F1",
+            "angle_of_repose_degrees": "23.92 ± 1.24",
+            "bulk_density_g_ml": "0.247 ± 0.007",
+            "true_density_g_ml": "0.259 ± 0.010",
+            "carrs_index": "9.60 ± 0.69",
+            "hausners_ratio": "1.31 ± 0.02"
+        },
+        {
+            "batch": "043_F2",
+            "angle_of_repose_degrees": "24.16 ± 1.21",
+            "bulk_density_g_ml": "0.243 ± 0.009",
+            "true_density_g_ml": "0.281 ± 0.018",
+            "carrs_index": "12.59 ± 1.80",
+            "hausners_ratio": "1.18 ± 0.02"
+        },
+        {
+            "batch": "043_F3",
+            "angle_of_repose_degrees": "26.34 ± 1.49",
+            "bulk_density_g_ml": "0.029 ± 0.008",
+            "true_density_g_ml": "0.260 ± 0.013",
+            "carrs_index": "11.69 ± 1.49",
+            "hausners_ratio": "1.24 ± 0.01"
+        },
+        {
+            "batch": "043_F4",
+            "angle_of_repose_degrees": "27.23 ± 1.22",
+            "bulk_density_g_ml": "0.245 ± 0.007",
+            "true_density_g_ml": "0.259 ± 0.011",
+            "carrs_index": "11.20 ± 1.19",
+            "hausners_ratio": "1.23 ± 0.02"
+        },
+        {
+            "batch": "043_F5",
+            "angle_of_repose_degrees": "28.64 ± 1.64",
+            "bulk_density_g_ml": "0.240 ± 0.007",
+            "true_density_g_ml": "0.270 ± 0.012",
+            "carrs_index": "10.60 ± 0.76",
+            "hausners_ratio": "1.19 ± 0.01"
+        },
+        {
+            "batch": "043_F6",
+            "angle_of_repose_degrees": "27.46 ± 0.488",
+            "bulk_density_g_ml": "0.34 ± 0.01",
+            "true_density_g_ml": "0.41 ± 0.01",
+            "carrs_index": "16.73 ± 0.54",
+            "hausners_ratio": "1.21 ± 0.01"
+        },
+        {
+            "batch": "043_F7",
+            "angle_of_repose_degrees": "24.90 ± 0.258",
+            "bulk_density_g_ml": "0.35 ± 0.02",
+            "true_density_g_ml": "0.42 ± 0.02",
+            "carrs_index": "17.04 ± 0.79",
+            "hausners_ratio": "1.24 ± 0.02"
+        },
+        {
+            "batch": "043_F8",
+            "angle_of_repose_degrees": "24.33 ± 0.370",
+            "bulk_density_g_ml": "0.36 ± 0.02",
+            "true_density_g_ml": "0.40 ± 0.04",
+            "carrs_index": "14.00 ± 0.70",
+            "hausners_ratio": "1.23 ± 0.01"
+        },
+        {
+            "batch": "043_F9",
+            "angle_of_repose_degrees": "26.92 ± 0.322",
+            "bulk_density_g_ml": "0.38 ± 0.01",
+            "true_density_g_ml": "0.48 ± 0.01",
+            "carrs_index": "14.29 ± 1.25",
+            "hausners_ratio": "1.19 ± 0.01"
+        },
+        {
+            "batch": "043_F10",
+            "angle_of_repose_degrees": "26.39 ± 0.139",
+            "bulk_density_g_ml": "0.35 ± 0.01",
+            "true_density_g_ml": "0.42 ± 0.01",
+            "carrs_index": "16.79 ± 0.66",
+            "hausners_ratio": "1.22 ± 0.01"
+        }
+    ],
+    "composition_of_independent_variables": "The independent variable was the concentration of Proanthocyanidin (PC) polymer, which varied across formulations 043_F1 to F10. The levels are detailed in the 'formulation_details' section.",
+    "ftir_information": {
+        "instrument": "Fourier transform infrared spectrophotometer",
+        "sample_preparation": "Drug and potassium bromide compressed at 50 psi on KBr-press to form pellets.",
+        "scan_range": "4000 - 600 cm^{-1}",
+        "samples_analyzed": "Pure NA, physical mixture of NA and PC, encapsulated NA, mixture of NA, PC and SLS.",
+        "observation": "No chemical interaction between drug and polymers. Main peaks were unchanged, indicating compatibility.",
+        "pure_na_peaks": [
+            {
+                "functional_group": "-OH",
+                "peak_cm": "3400"
+            },
+            {
+                "functional_group": "C=O",
+                "peak_cm": "1662"
+            },
+            {
+                "functional_group": "C-H aromatic stretch",
+                "peak_cm": "2845"
+            },
+            {
+                "functional_group": "C=C stretch",
+                "peak_cm": "1596"
+            }
+        ]
+    },
+    "tablet_fabrication": {
+        "process": "Granules mixed with lubricants (magnesium stearate, talc) and compressed.",
+        "equipment": "16 stations automatic tablet punching machine (MK1) with 11 mm concave punches.",
+        "post_compression_parameters": [
+            {
+                "batch": "043_F1",
+                "average_weight_mg": "600.7 ± 0.500",
+                "thickness_mm": "4.14 ± 0.015",
+                "hardness_kg_cm2": "6.7 ± 0.105",
+                "friability_percent": "0.123",
+                "drug_content_percent": "99.52"
+            },
+            {
+                "batch": "043_F2",
+                "average_weight_mg": "599.8 ± 0.527",
+                "thickness_mm": "4.28 ± 0.009",
+                "hardness_kg_cm2": "6.8 ± 0.138",
+                "friability_percent": "0.092",
+                "drug_content_percent": "99.13"
+            },
+            {
+                "batch": "043_F3",
+                "average_weight_mg": "605.4 ± 0.707",
+                "thickness_mm": "4.28 ± 0.010",
+                "hardness_kg_cm2": "6.7 ± 0.115",
+                "friability_percent": "0.114",
+                "drug_content_percent": "98.04"
+            },
+            {
+                "batch": "043_F4",
+                "average_weight_mg": "600.3 ± 0.881",
+                "thickness_mm": "4.29 ± 0.010",
+                "hardness_kg_cm2": "6.8 ± 0.091",
+                "friability_percent": "0.125",
+                "drug_content_percent": "98.08"
+            },
+            {
+                "batch": "043_F5",
+                "average_weight_mg": "600.0 ± 0.500",
+                "thickness_mm": "4.25 ± 0.014",
+                "hardness_kg_cm2": "6.8 ± 0.121",
+                "friability_percent": "0.111",
+                "drug_content_percent": "98.06"
+            },
+            {
+                "batch": "043_F6",
+                "average_weight_mg": "598.9 ± 0.527",
+                "thickness_mm": "4.29 ± 0.007",
+                "hardness_kg_cm2": "6.7 ± 0.147",
+                "friability_percent": "0.127",
+                "drug_content_percent": "98.36"
+            },
+            {
+                "batch": "043_F7",
+                "average_weight_mg": "603.2 ± 0.707",
+                "thickness_mm": "4.28 ± 0.019",
+                "hardness_kg_cm2": "6.8 ± 0.150",
+                "friability_percent": "0.105",
+                "drug_content_percent": "97.64"
+            },
+            {
+                "batch": "043_F8",
+                "average_weight_mg": "606.8 ± 0.527",
+                "thickness_mm": "4.28 ± 0.011",
+                "hardness_kg_cm2": "6.8 ± 0.076",
+                "friability_percent": "0.113",
+                "drug_content_percent": "96.72"
+            },
+            {
+                "batch": "043_F9",
+                "average_weight_mg": "600.4 ± 0.667",
+                "thickness_mm": "4.27 ± 0.030",
+                "hardness_kg_cm2": "6.8 ± 0.089",
+                "friability_percent": "0.105",
+                "drug_content_percent": "98.20"
+            },
+            {
+                "batch": "043_F10",
+                "average_weight_mg": "600.8 ± 0.632",
+                "thickness_mm": "4.64 ± 0.036",
+                "hardness_kg_cm2": "6.6 ± 0.179",
+                "friability_percent": "0.126",
+                "drug_content_percent": "96.07"
+            }
+        ]
+    },
+    "process_parameters": {
+        "compression_device": "16 stations automatic tablet punching machine (MK1 - 16 stations punching machine)",
+        "punch_size": "11 mm concave punches",
+        "coating": "No coating mentioned. Tablets were uncoated."
+    },
+    "release_properties": [
+        {
+            "batch": "043_F1",
+            "cumulative_release_12h_percent": 86.66,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 11.11
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 17.37
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 23.75
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 28.58
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 38.73
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 50.01
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 60.23
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 73.56
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 85.95
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 97.39
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 94.11
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 86.66
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.958,
+                "first_order_r2": 0.583,
+                "higuchis_r2": 0.887,
+                "korsmeyer_peppas_r2": 0.973,
+                "korsmeyer_peppas_n": 0.943
+            }
+        },
+        {
+            "batch": "043_F2",
+            "cumulative_release_12h_percent": 75.0,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 9.02
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 14.11
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 21.47
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 30.03
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 36.33
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 41.09
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 56.32
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 69.95
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 80.05
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 94.38
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 86.13
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 75.0
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.935,
+                "first_order_r2": 0.716,
+                "higuchis_r2": 0.866,
+                "korsmeyer_peppas_r2": 0.977,
+                "korsmeyer_peppas_n": 0.991
+            }
+        },
+        {
+            "batch": "043_F3",
+            "cumulative_release_12h_percent": 72.04,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 7.11
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 9.81
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 20.86
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 25.11
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 31.03
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 38.15
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 47.01
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 60.08
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 71.12
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 88.03
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 81.0
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 72.04
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.946,
+                "first_order_r2": 0.795,
+                "higuchis_r2": 0.867,
+                "korsmeyer_peppas_r2": 0.976,
+                "korsmeyer_peppas_n": 0.969
+            }
+        },
+        {
+            "batch": "043_F4",
+            "cumulative_release_12h_percent": 91.0,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 7.89
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 10.65
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 21.33
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 24.89
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 31.63
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 40.14
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 49.23
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 61.73
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 72.01
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 82.12
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 97.74
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 91.0
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.979,
+                "first_order_r2": 0.686,
+                "higuchis_r2": 0.865,
+                "korsmeyer_peppas_r2": 0.974,
+                "korsmeyer_peppas_n": 0.984
+            }
+        },
+        {
+            "batch": "043_F5",
+            "cumulative_release_12h_percent": 97.23,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 7.78
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 9.89
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 23.56
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 28.31
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 31.88
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 35.04
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 40.05
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 46.89
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 52.05
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 65.03
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 77.0
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 97.23
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.947,
+                "first_order_r2": 0.596,
+                "higuchis_r2": 0.834,
+                "korsmeyer_peppas_r2": 0.946,
+                "korsmeyer_peppas_n": 0.988,
+                "mechanism": "Non-Fickian diffusion (from conclusion), zero-order (from results)"
+            }
+        },
+        {
+            "batch": "043_F6",
+            "cumulative_release_12h_percent": 79.88,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 7.49
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 10.1
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 17.11
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 22.13
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 28.34
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 34.78
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 40.94
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 46.15
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 52.47
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 57.23
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 66.05
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 79.88
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.982,
+                "first_order_r2": 0.893,
+                "higuchis_r2": 0.881,
+                "korsmeyer_peppas_r2": 0.986,
+                "korsmeyer_peppas_n": 0.974
+            }
+        },
+        {
+            "batch": "043_F7",
+            "cumulative_release_12h_percent": 85.11,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 7.56
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 10.87
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 28.81
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 35.33
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 41.78
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 51.44
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 63.17
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 78.18
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 97.73
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 91.11
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 84.89
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 85.11
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.681,
+                "first_order_r2": 0.287,
+                "higuchis_r2": 0.76,
+                "korsmeyer_peppas_r2": 0.861,
+                "korsmeyer_peppas_n": 0.963
+            }
+        },
+        {
+            "batch": "043_F8",
+            "cumulative_release_12h_percent": 83.57,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 8.77
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 11.19
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 21.55
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 27.52
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 33.63
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 42.12
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 54.27
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 69.55
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 82.92
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 87.11
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 86.76
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 83.57
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.72,
+                "first_order_r2": 0.491,
+                "higuchis_r2": 0.789,
+                "korsmeyer_peppas_r2": 0.871,
+                "korsmeyer_peppas_n": 0.993
+            }
+        },
+        {
+            "batch": "043_F9",
+            "cumulative_release_12h_percent": 79.03,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 8.63
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 10.6
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 19.02
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 25.66
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 29.57
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 35.87
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 41.31
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 52.11
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 57.89
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 67.04
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 75.0
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 79.03
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.807,
+                "first_order_r2": 0.469,
+                "higuchis_r2": 0.813,
+                "korsmeyer_peppas_r2": 0.917,
+                "korsmeyer_peppas_n": 0.951
+            }
+        },
+        {
+            "batch": "043_F10",
+            "cumulative_release_12h_percent": 79.03,
+            "hourly_release_data": [
+                {
+                    "hour": 1,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 8.63
+                },
+                {
+                    "hour": 2,
+                    "medium": "pH 1.2",
+                    "cumulative_release_percent": 9.97
+                },
+                {
+                    "hour": 3,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 16.78
+                },
+                {
+                    "hour": 4,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 18.33
+                },
+                {
+                    "hour": 5,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 25.67
+                },
+                {
+                    "hour": 6,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 29.91
+                },
+                {
+                    "hour": 7,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 35.84
+                },
+                {
+                    "hour": 8,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 42.33
+                },
+                {
+                    "hour": 9,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 49.24
+                },
+                {
+                    "hour": 10,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 65.41
+                },
+                {
+                    "hour": 11,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 71.02
+                },
+                {
+                    "hour": 12,
+                    "medium": "Phosphate buffer 6.8",
+                    "cumulative_release_percent": 79.03
+                }
+            ],
+            "release_kinetics": {
+                "zero_order_r2": 0.892,
+                "first_order_r2": 0.543,
+                "higuchis_r2": 0.867,
+                "korsmeyer_peppas_r2": null,
+                "korsmeyer_peppas_n": null
+            }
+        }
+    ],
+    "experimental_data": {
+        "melting_point_na": "236.4 - 236.6°C",
+        "solubility_na": {
+            "pH_1.2": "2.56 ± 0.01 mg/ml",
+            "pH_6.8": "4.67 ± 0.03 mg/ml",
+            "pH_7.4": "3.28 ± 0.01 mg/ml"
+        },
+        "encapsulation_efficiency": [
+            {
+                "batch": "043_F1",
+                "percent": 99.73
+            },
+            {
+                "batch": "043_F2",
+                "percent": 98.3
+            },
+            {
+                "batch": "043_F3",
+                "percent": 98.8
+            },
+            {
+                "batch": "043_F4",
+                "percent": 98.5
+            },
+            {
+                "batch": "043_F5",
+                "percent": 99.58
+            },
+            {
+                "batch": "043_F6",
+                "percent": 97.65
+            },
+            {
+                "batch": "043_F7",
+                "percent": 98.7
+            },
+            {
+                "batch": "043_F8",
+                "percent": 97.9
+            },
+            {
+                "batch": "043_F9",
+                "percent": 98.21
+            },
+            {
+                "batch": "043_F10",
+                "percent": 98.5
+            }
+        ],
+        "optimized_formulation": "043_F5",
+        "stability_studies_f5_90_days": {
+            "25C_60%RH": {
+                "hardness_kg_cm2": "6.7 ± 0.120",
+                "friability_percent": "0.089",
+                "drug_content_percent": "99.10",
+                "cumulative_release_12h_percent": 97.23
+            },
+            "30C_65%RH": {
+                "hardness_kg_cm2": "7.05 ± 0.101",
+                "friability_percent": "0.089",
+                "drug_content_percent": "99.04",
+                "cumulative_release_12h_percent": 97.28
+            },
+            "40C_75%RH": {
+                "hardness_kg_cm2": "7.10 ± 0.121",
+                "friability_percent": "0.081",
+                "drug_content_percent": "99.12",
+                "cumulative_release_12h_percent": 98.56
+            }
+        }
+    }
+}

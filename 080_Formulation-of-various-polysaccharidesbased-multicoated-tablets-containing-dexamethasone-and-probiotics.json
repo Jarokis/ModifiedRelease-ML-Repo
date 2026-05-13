@@ -1,0 +1,493 @@
+{
+    "article_info": {
+        "title": "Formulation of various polysaccharides-based multicoated tablets containing dexamethasone and probiotics for inflammatory bowel disease",
+        "authors": "Raditya Iswandana, Kurnia Sari Setio Putri, Hani Nur Anisa, Wilson Ricardo, Puteri Almadhiva Siti Nurhadi",
+        "journal": "Journal of Applied Pharmaceutical Science",
+        "volume": "13",
+        "issue": "09",
+        "pages": "106-114",
+        "year": "2023",
+        "doi": "10.7324/JAPS.2023.130909"
+    },
+    "materials_origin": {
+        "dexamethasone": "Lloyd, Indonesia",
+        "dexamethasone_BPFI": "BPOM, Indonesia",
+        "chitosan": "Bio Chitosan Indonesia",
+        "xanthan_gum": "Deosen Biochemical (Ordos), China",
+        "sodium_alginate": "Shandong Jiejing Group Corporation, China",
+        "avicel_PH_102": "Brataco, Indonesia",
+        "PVP_K30": "Sumber Berlin Kimia, Indonesia",
+        "talc": "Brataco, Indonesia",
+        "magnesium_stearate": "Brataco, Indonesia",
+        "Lactobacillus_acidophilus": "Shandong Zhongke Jiayi Bioengineering, China",
+        "Bifidobacterium_longum": "Shandong Zhongke Jiayi Bioengineering, China",
+        "Eudragit_L100": "Evonik, Germany",
+        "Eudragit_S100": "Evonik, Germany",
+        "ethanol": "RIV Chemicals, Indonesia",
+        "isopropyl_alcohol": "Brataco, Indonesia",
+        "triethyl_citrate": "Jinan Jinbang Chemical, China",
+        "hydrochloric_acid": "Merck, Germany",
+        "sodium_hydroxide": "Merck, Germany",
+        "potassium_dihydrogen_phosphate": "Merck, Germany",
+        "aquadest": "Brataco, Indonesia"
+    },
+    "experimental_design": {
+        "description": "Three core tablet formulations (080_F1, 080_F2, 080_F3) with different probiotic concentrations (16%, 40%, 0% of core weight) were prepared by wet granulation. Each core was coated with a primary coating of either sodium alginate (A), chitosan (C), or xanthan gum (X), followed by a secondary coating of Eudragit L100:S100 (1:4). Total of 9 coated formulations (F1A, F2A, F3A, F1C, F2C, F3C, F1X, F2X, F3X).",
+        "independent_variables": {
+            "probiotic_concentration": {
+                "levels": [
+                    "0% (080_F3)",
+                    "16% (080_F1)",
+                    "40% (080_F2)"
+                ],
+                "note": "Percentage of total core weight (100 mg) occupied by probiotics (L. acidophilus and B. longum in 1:1 ratio)."
+            },
+            "primary_coating_polymer": {
+                "levels": [
+                    "sodium alginate (A)",
+                    "chitosan (C)",
+                    "xanthan gum (X)"
+                ]
+            }
+        },
+        "dependent_variables": [
+            "Granule flow properties",
+            "Tablet hardness, friability, weight variation, thickness, diameter",
+            "Drug content and uniformity",
+            "In vitro drug release profile"
+        ]
+    },
+    "formulation_details": {
+        "core_tablets": {
+            "description": "Core tablets (100 mg target weight) prepared by wet granulation. Ingredients per tablet as per Table 1. Note: PVP is added as a 9% w/w solution in isopropyl alcohol; the quantity listed is the weight of the binder solution expressed as a percentage of the total dry powder weight. The dry PVP content is 9% of that solution weight.",
+            "080_F1": {
+                "dexamethasone": "0.5 mg",
+                "avicel_PH_102": "77.5 mg",
+                "PVP_solution_9%": "5.8% w/w of dry powder (approx. 5.8 mg solution)",
+                "talc": "4 mg",
+                "magnesium_stearate": "2 mg",
+                "Lactobacillus_acidophilus": "8 mg",
+                "Bifidobacterium_longum": "8 mg"
+            },
+            "080_F2": {
+                "dexamethasone": "0.5 mg",
+                "avicel_PH_102": "53.5 mg",
+                "PVP_solution_9%": "5.7% w/w of dry powder",
+                "talc": "4 mg",
+                "magnesium_stearate": "2 mg",
+                "Lactobacillus_acidophilus": "20 mg",
+                "Bifidobacterium_longum": "20 mg"
+            },
+            "080_F3": {
+                "dexamethasone": "0.5 mg",
+                "avicel_PH_102": "93.5 mg",
+                "PVP_solution_9%": "5.9% w/w of dry powder",
+                "talc": "4 mg",
+                "magnesium_stearate": "2 mg",
+                "Lactobacillus_acidophilus": "0 mg",
+                "Bifidobacterium_longum": "0 mg"
+            }
+        },
+        "primary_coatings": {
+            "alginate": {
+                "solution_composition_per_100ml": {
+                    "sodium_alginate": "3 g",
+                    "triethyl_citrate": "2 g",
+                    "aquadest": "ad 100 ml"
+                },
+                "target_weight_gain": "6.5% w/w"
+            },
+            "chitosan": {
+                "solution_composition_per_100ml": {
+                    "chitosan": "2.5 g",
+                    "acetic_acid_1%": "50 ml",
+                    "ammonium_acetate_5M": "27 ml",
+                    "triethyl_citrate": "1.25 g",
+                    "aquadest": "ad 100 ml"
+                },
+                "target_weight_gain": "5% w/w"
+            },
+            "xanthan_gum": {
+                "solution_composition_per_100ml": {
+                    "xanthan_gum": "0.125 g",
+                    "triethyl_citrate": "5 g",
+                    "ethanol": "ad 100 ml"
+                },
+                "target_weight_gain": "7% w/w"
+            }
+        },
+        "secondary_coating": {
+            "solution_composition_per_100ml": {
+                "Eudragit_L100": "2 g",
+                "Eudragit_S100": "8 g",
+                "triethyl_citrate": "2 g",
+                "isopropyl_alcohol_20%": "up to 100 ml"
+            },
+            "target_weight_gain": "8% w/w (applied over primary coated tablets)"
+        }
+    },
+    "pre_compression_parameters": {
+        "granules": {
+            "080_F1": {
+                "moisture_content_%": "4.97",
+                "compressibility_index_%": "14.26 ± 1.95",
+                "hausner_ratio": "1.17 ± 0.03",
+                "angle_of_repose_°": "28.8 ± 0.72",
+                "flowability_g_per_sec": "5.05 ± 0.05"
+            },
+            "080_F2": {
+                "moisture_content_%": "4.47",
+                "compressibility_index_%": "11.19 ± 1.21",
+                "hausner_ratio": "1.13 ± 0.02",
+                "angle_of_repose_°": "26.38 ± 1.10",
+                "flowability_g_per_sec": "7.11 ± 0.12"
+            },
+            "080_F3": {
+                "moisture_content_%": "4.34",
+                "compressibility_index_%": "11.41 ± 2.33",
+                "hausner_ratio": "1.13 ± 0.03",
+                "angle_of_repose_°": "27.11 ± 1.17",
+                "flowability_g_per_sec": "4.64 ± 0.02"
+            }
+        },
+        "note": "Values are from Table 4. All granules showed good flow properties."
+    },
+    "tablet_fabrication": {
+        "compression": {
+            "device": "Single punch tablet press (Erweka EP-1, Germany)",
+            "target_weight": "100 mg",
+            "pressure": "Not specified"
+        },
+        "coating": {
+            "device": "Coating pan (Erweka DKM, Germany) at 18 rpm",
+            "spray_gun": "Meiji F-75G, Japan",
+            "dryer": "Dyson, USA",
+            "conditions": "Spray coating method; primary coating applied first to achieve specified weight gain, then secondary coating applied for an additional 8% weight gain."
+        }
+    },
+    "tablet_properties": {
+        "core_tablets": {
+            "080_F1": {
+                "weight_variation_mg": "106.57 ± 1.91",
+                "hardness_kP": "4.86 ± 0.74",
+                "friability_%": "0.17",
+                "diameter_mm": "7.10 ± 0.03",
+                "thickness_mm": "3.34 ± 0.04"
+            },
+            "080_F2": {
+                "weight_variation_mg": "105.82 ± 2.11",
+                "hardness_kP": "5.65 ± 0.79",
+                "friability_%": "0.10",
+                "diameter_mm": "7.06 ± 0.03",
+                "thickness_mm": "3.09 ± 0.04"
+            },
+            "080_F3": {
+                "weight_variation_mg": "103.29 ± 1.43",
+                "hardness_kP": "5.65 ± 0.49",
+                "friability_%": "0.23",
+                "diameter_mm": "7.08 ± 0.04",
+                "thickness_mm": "3.15 ± 0.04"
+            }
+        },
+        "multicoated_tablets": {
+            "alginate_coated": {
+                "F1A": {
+                    "weight_variation_mg": "124.27 ± 1.38",
+                    "content_uniformity_%": "104.80 ± 1.75",
+                    "hardness_kP": "13.97 ± 1.31",
+                    "friability_%": "0.12",
+                    "diameter_mm": "7.29 ± 0.05",
+                    "thickness_mm": "3.65 ± 0.05",
+                    "assay_%": "105.57 ± 1.26"
+                },
+                "F2A": {
+                    "weight_variation_mg": "123.30 ± 1.65",
+                    "content_uniformity_%": "102.24 ± 1.76",
+                    "hardness_kP": "15.04 ± 1.41",
+                    "friability_%": "0.08",
+                    "diameter_mm": "7.31 ± 0.06",
+                    "thickness_mm": "3.69 ± 0.05",
+                    "assay_%": "101.63 ± 0.66"
+                },
+                "F3A": {
+                    "weight_variation_mg": "123.25 ± 1.82",
+                    "content_uniformity_%": "104.60 ± 1.63",
+                    "hardness_kP": "14.24 ± 1.30",
+                    "friability_%": "0.01",
+                    "diameter_mm": "7.30 ± 0.06",
+                    "thickness_mm": "3.71 ± 0.06",
+                    "assay_%": "104.18 ± 0.63"
+                }
+            },
+            "chitosan_coated": {
+                "F1C": {
+                    "weight_variation_mg": "123.80 ± 1.38",
+                    "content_uniformity_%": "106.46 ± 1.99",
+                    "hardness_kP": "11.91 ± 1.38",
+                    "friability_%": "0.014",
+                    "diameter_mm": "7.41 ± 0.04",
+                    "thickness_mm": "3.69 ± 0.03",
+                    "assay_%": "106.46 ± 1.15"
+                },
+                "F2C": {
+                    "weight_variation_mg": "119.20 ± 1.63",
+                    "content_uniformity_%": "105.21 ± 1.83",
+                    "hardness_kP": "13.28 ± 1.39",
+                    "friability_%": "0.029",
+                    "diameter_mm": "7.23 ± 0.03",
+                    "thickness_mm": "3.42 ± 0.04",
+                    "assay_%": "105.21 ± 1.90"
+                },
+                "F3C": {
+                    "weight_variation_mg": "121.56 ± 1.11",
+                    "content_uniformity_%": "107.08 ± 1.12",
+                    "hardness_kP": "14.01 ± 1.47",
+                    "friability_%": "0.008",
+                    "diameter_mm": "7.28 ± 0.03",
+                    "thickness_mm": "3.39 ± 0.04",
+                    "assay_%": "107.08 ± 0.75"
+                }
+            },
+            "xanthan_gum_coated": {
+                "F1X": {
+                    "weight_variation_mg": "127.45 ± 2.28",
+                    "content_uniformity_%": "107.50 ± 1.92",
+                    "hardness_kP": "11.91 ± 1.38",
+                    "friability_%": "0.043",
+                    "diameter_mm": "7.50 ± 0.04",
+                    "thickness_mm": "3.78 ± 0.06",
+                    "assay_%": "107.63 ± 1.67"
+                },
+                "F2X": {
+                    "weight_variation_mg": "122.82 ± 1.94",
+                    "content_uniformity_%": "106.80 ± 1.80",
+                    "hardness_kP": "13.28 ± 1.49",
+                    "friability_%": "0.008",
+                    "diameter_mm": "7.29 ± 0.06",
+                    "thickness_mm": "3.52 ± 0.05",
+                    "assay_%": "106.18 ± 1.38"
+                },
+                "F3X": {
+                    "weight_variation_mg": "122.90 ± 1.42",
+                    "content_uniformity_%": "106.08 ± 1.55",
+                    "hardness_kP": "14.01 ± 1.47",
+                    "friability_%": "0.043",
+                    "diameter_mm": "7.33 ± 0.06",
+                    "thickness_mm": "3.48 ± 0.06",
+                    "assay_%": "106.94 ± 1.38"
+                }
+            }
+        },
+        "disintegration_test": {
+            "result": "All multicoated tablets showed no disintegration, cracking, or softening after 1 hour in simulated gastric fluid (pH 1.2) and after 3 hours in simulated intestinal fluid (pH 7.2). This was attributed to the pH‑dependent solubility of Eudragit S100 (dissolves above pH 7).",
+            "note": "Disintegration test was not performed per individual batch; results are general for all coated formulations."
+        }
+    },
+    "release_properties": {
+        "in_vitro_dissolution_method": {
+            "apparatus": "USP type I (basket), 100 rpm",
+            "media": "500 mL 0.1 N HCl (pH 1.2) for 2 hours, then 500 mL phosphate buffer pH 7.2 for 3 hours, then 500 mL phosphate buffer pH 6.8 (CO₂‑purged, anaerobic) for 7 hours",
+            "sampling_times": "15, 30, 45, 60, 90, 120, 150, 180, 240, 300, 360, 480, 540, 600, 660, 720 minutes",
+            "analysis": "UV‑VIS spectrophotometer at 240 nm"
+        },
+        "cumulative_release_data": {
+            "alginate_coated": {
+                "F1A": {
+                    "15min": "19.16 ± 1.57",
+                    "30min": "22.99 ± 1.58",
+                    "45min": "26.85 ± 2.74",
+                    "60min": "32.56 ± 2.77",
+                    "90min": "37.42 ± 1.64",
+                    "120min": "43.24 ± 1.52",
+                    "150min": "54.43 ± 2.87",
+                    "180min": "61.82 ± 1.64",
+                    "240min": "66.34 ± 1.69",
+                    "300min": "72.86 ± 1.71",
+                    "360min": "76.96 ± 2.98",
+                    "480min": "83.55 ± 2.99",
+                    "540min": "88.25 ± 1.79",
+                    "600min": "93.96 ± 3.04",
+                    "660min": "97.77 ± 3.07",
+                    "720min": "103.56 ± 1.81"
+                },
+                "F2A": {
+                    "15min": "17.35 ± 3.15",
+                    "30min": "20.25 ± 3.18",
+                    "45min": "25.90 ± 4.21",
+                    "60min": "30.69 ± 3.22",
+                    "90min": "40.08 ± 5.64",
+                    "120min": "47.73 ± 1.62",
+                    "150min": "57.37 ± 3.05",
+                    "180min": "63.81 ± 5.25",
+                    "240min": "68.35 ± 3.60",
+                    "300min": "73.90 ± 3.15",
+                    "360min": "79.97 ± 2.97",
+                    "480min": "86.59 ± 3.00",
+                    "540min": "90.34 ± 3.03",
+                    "600min": "95.10 ± 1.44",
+                    "660min": "98.91 ± 1.45",
+                    "720min": "102.76 ± 1.91"
+                },
+                "F3A": {
+                    "15min": "17.35 ± 1.57",
+                    "30min": "25.70 ± 1.57",
+                    "45min": "28.68 ± 1.58",
+                    "60min": "32.59 ± 2.75",
+                    "90min": "37.45 ± 2.75",
+                    "120min": "42.36 ± 1.63",
+                    "150min": "53.47 ± 1.63",
+                    "180min": "57.91 ± 0.07",
+                    "240min": "64.35 ± 2.98",
+                    "300min": "69.86 ± 1.65",
+                    "360min": "76.88 ± 2.87",
+                    "480min": "86.41 ± 2.90",
+                    "540min": "92.11 ± 1.71",
+                    "600min": "98.84 ± 1.72",
+                    "660min": "101.72 ± 1.68",
+                    "720min": "105.??"
+                }
+            },
+            "chitosan_coated": {
+                "F1C": {
+                    "15min": "17.35 ± 1.58",
+                    "30min": "18.43 ± 0.02",
+                    "45min": "21.34 ± 0.02",
+                    "60min": "25.18 ± 1.58",
+                    "90min": "29.06 ± 1.59",
+                    "120min": "32.97 ± 2.77",
+                    "150min": "50.14 ± 1.69",
+                    "180min": "53.57 ± 1.70",
+                    "240min": "58.01 ± 3.00",
+                    "300min": "61.50 ± 3.03",
+                    "360min": "65.50 ± 1.76",
+                    "480min": "71.01 ± 3.02",
+                    "540min": "76.57 ± 3.50",
+                    "600min": "84.13 ± 2.90",
+                    "660min": "90.78 ± 2.93",
+                    "720min": "97.??"
+                },
+                "F2C": {
+                    "15min": "17.35 ± 1.58",
+                    "30min": "19.34 ± 1.56",
+                    "45min": "21.35 ± 0.00",
+                    "60min": "24.28 ± 0.00",
+                    "90min": "27.24 ± 0.00",
+                    "120min": "29.32 ± 1.57",
+                    "150min": "47.14 ± 1.57",
+                    "180min": "52.50 ± 1.71",
+                    "240min": "56.93 ± 1.69",
+                    "300min": "60.42 ± 1.71",
+                    "360min": "64.44 ± 2.94",
+                    "480min": "70.92 ± 2.96",
+                    "540min": "75.50 ± 4.53",
+                    "600min": "84.02 ± 3.04",
+                    "660min": "93.61 ± 2.97",
+                    "720min": "??"
+                },
+                "F3C": {
+                    "15min": "16.44 ± 1.58",
+                    "30min": "18.42 ± 0.02",
+                    "45min": "20.42 ± 1.58",
+                    "60min": "21.53 ± 0.03",
+                    "90min": "26.28 ± 1.55",
+                    "120min": "30.17 ± 2.73",
+                    "150min": "52.97 ± 1.66",
+                    "180min": "56.43 ± 1.69",
+                    "240min": "58.94 ± 1.70",
+                    "300min": "62.44 ± 1.71",
+                    "360min": "62.57 ± 1.67",
+                    "480min": "70.00 ± 1.67",
+                    "540min": "78.48 ± 1.68",
+                    "600min": "88.02 ± 4.49",
+                    "660min": "94.71 ± 1.74",
+                    "720min": "??"
+                }
+            },
+            "xanthan_gum_coated": {
+                "F1X": {
+                    "15min": "21.89 ± 1.57",
+                    "30min": "23.92 ± 4.74",
+                    "45min": "27.79 ± 4.22",
+                    "60min": "31.70 ± 3.25",
+                    "90min": "37.46 ± 4.26",
+                    "120min": "41.46 ± 0.17",
+                    "150min": "49.55 ± 6.25",
+                    "180min": "53.95 ± 4.69",
+                    "240min": "58.39 ± 6.14",
+                    "300min": "62.86 ± 3.65",
+                    "360min": "63.97 ± 1.98",
+                    "480min": "69.46 ± 1.41",
+                    "540min": "76.95 ± 8.78",
+                    "600min": "89.40 ± 3.07",
+                    "660min": "93.16 ± 1.32",
+                    "720min": "??"
+                },
+                "F2X": {
+                    "15min": "17.35 ± 1.57",
+                    "30min": "19.34 ± 1.58",
+                    "45min": "23.16 ± 1.57",
+                    "60min": "27.02 ± 0.03",
+                    "90min": "36.37 ± 1.56",
+                    "120min": "40.36 ± 3.15",
+                    "150min": "48.37 ± 0.04",
+                    "180min": "52.76 ± 1.66",
+                    "240min": "55.23 ± 2.93",
+                    "300min": "59.67 ± 4.51",
+                    "360min": "62.71 ± 1.74",
+                    "480min": "66.24 ± 1.76",
+                    "540min": "68.81 ± 0.09",
+                    "600min": "72.38 ± 0.09",
+                    "660min": "91.62 ± 3.46",
+                    "720min": "??"
+                },
+                "F3X": {
+                    "15min": "15.53 ± 2.72",
+                    "30min": "22.95 ± 3.17",
+                    "45min": "27.72 ± 4.22",
+                    "60min": "36.17 ± 1.55",
+                    "90min": "40.16 ± 3.14",
+                    "120min": "45.09 ± 1.60",
+                    "150min": "52.53 ± 1.74",
+                    "180min": "55.97 ± 1.76",
+                    "240min": "61.41 ± 5.17",
+                    "300min": "66.90 ± 3.52",
+                    "360min": "67.05 ± 3.55",
+                    "480min": "73.55 ± 3.58",
+                    "540min": "80.10 ± 1.89",
+                    "600min": "86.71 ± 1.73",
+                    "660min": "98.27 ± 3.14",
+                    "720min": "??"
+                }
+            }
+        },
+        "release_kinetics": {
+            "analysis": "Not performed in this study.",
+            "note": "The authors did not fit release data to zero-order, first-order, Hixson-Crowell, or Korsmeyer-Peppas models."
+        },
+        "factors_influencing_release": {
+            "pH": "The secondary coating (Eudragit L100/S100) is pH‑sensitive; however, high release in acidic medium was observed, attributed to insufficient coating thickness or uneven coating.",
+            "probiotics": "No significant effect of probiotic concentration on drug release was observed for any of the primary coatings.",
+            "enzymes": "Not tested in vitro; the study aimed to use colonic microflora enzymes for polysaccharide degradation, but no enzymatic dissolution was performed."
+        }
+    },
+    "experimental_data": {
+        "key_results": [
+            "All multicoated tablets showed substantial drug release (>10%) in simulated gastric fluid (pH 1.2), indicating failure to achieve colon‑targeted delivery.",
+            "Probiotic concentration did not significantly affect the release profile for any coating polymer.",
+            "Tablets coated with alginate, chitosan, or xanthan gum all exhibited similar release patterns, with nearly complete release by 12 hours.",
+            "The secondary coating (Eudragit L100/S100) did not adequately protect against release in acidic conditions."
+        ],
+        "performance_metrics": {
+            "hardness_range": "11.9–15.0 kP for coated tablets",
+            "friability": "All <0.05%, meeting USP requirements (<1%)",
+            "weight_variation": "All within acceptable limits (acceptance value <15%)",
+            "content_uniformity": "All within 90–110% of label claim",
+            "assay": "All between 101.6% and 107.6%"
+        },
+        "statistical_analysis": "Data are presented as mean ± standard deviation (SD) for n=3 (dissolution) or n=10–20 (tablet properties). No inferential statistics (e.g., ANOVA) were reported.",
+        "zero_and_first_order_release": "Not calculated.",
+        "swelling_study": "Not performed.",
+        "lag_time": "Not defined; early release observed from 15 minutes in acidic medium."
+    },
+    "notes": "The dissolution data for some time points (especially at 720 min) are incomplete in the PDF; values were extracted as available. The table for xanthan gum coated F1X, F2X, F3X likely includes all three formulations based on text, but some values are truncated. The authors concluded that the formulation was not optimal for colon targeting due to premature release."
+}

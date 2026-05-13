@@ -1,0 +1,786 @@
+{
+    "article_title": "Sustained release matrix tablet of 100 mg losartan potassium: Formulation development and in vitro characterization",
+    "materials_origin": {
+        "losartan_potassium": "Alkem Pharmaceutical Pvt. Limited, India (gift sample)",
+        "hpmc_k100m": "Colorcon Asia Pvt Limited, India (gift sample)",
+        "affinisol_hpmc_as126g": "Colorcon Asia Pvt Limited, India (gift sample)",
+        "talc": "Loba Chemie Pvt. Ltd., India",
+        "magnesium_stearate": "Loba Chemie Pvt. Ltd., India",
+        "lactose": "Loba Chemie Pvt. Ltd., India",
+        "other_chemicals": "Analytical grade"
+    },
+    "experimental_design_optimization": {
+        "objective": "To develop sustained release matrix tablet of losartan potassium using HPMC K100M and Affinisol as release retarding polymers.",
+        "design": "Nine trial formulations (114_F1-114_F9) prepared by varying polymer content from 50 mg to 100 mg each, total tablet weight 310 mg.",
+        "selection_criteria": "In vitro drug release profile for 12 hours using USP Type II dissolution apparatus at 50 rpm in distilled water.",
+        "best_formulation": "114_F4 with 75 mg HPMC K100M and 100 mg Affinisol, extending drug release up to 12 hours."
+    },
+    "uv_method": {
+        "wavelength_max": 234,
+        "solvent": "distilled water",
+        "standard_curve_range": "1-20 µg/mL",
+        "equation": "y = 0.042x + 0.068",
+        "r_squared": 0.998,
+        "preparation": "Standard stock 1000 µg/mL, secondary stock 100 µg/mL, diluted to concentrations 1,2,4,6,8,10,15,20 µg/mL"
+    },
+    "formulation_details": [
+        {
+            "batch": "114_F1",
+            "ingredients_mg": {
+                "hpmc_k100m": 100,
+                "affinisol": 100,
+                "losartan_potassium": 100,
+                "talc": 3,
+                "magnesium_stearate": 3,
+                "lactose": 4
+            },
+            "total_weight_mg": 310,
+            "percent_w_w": {
+                "hpmc_k100m": 32.26,
+                "affinisol": 32.26,
+                "losartan_potassium": 32.26,
+                "talc": 0.97,
+                "magnesium_stearate": 0.97,
+                "lactose": 1.29
+            }
+        },
+        {
+            "batch": "114_F2",
+            "ingredients_mg": {
+                "hpmc_k100m": 100,
+                "affinisol": 75,
+                "losartan_potassium": 100,
+                "talc": 3,
+                "magnesium_stearate": 3,
+                "lactose": 29
+            },
+            "total_weight_mg": 310,
+            "percent_w_w": {
+                "hpmc_k100m": 32.26,
+                "affinisol": 24.19,
+                "losartan_potassium": 32.26,
+                "talc": 0.97,
+                "magnesium_stearate": 0.97,
+                "lactose": 9.35
+            }
+        },
+        {
+            "batch": "114_F3",
+            "ingredients_mg": {
+                "hpmc_k100m": 100,
+                "affinisol": 50,
+                "losartan_potassium": 100,
+                "talc": 3,
+                "magnesium_stearate": 3,
+                "lactose": 54
+            },
+            "total_weight_mg": 310,
+            "percent_w_w": {
+                "hpmc_k100m": 32.26,
+                "affinisol": 16.13,
+                "losartan_potassium": 32.26,
+                "talc": 0.97,
+                "magnesium_stearate": 0.97,
+                "lactose": 17.42
+            }
+        },
+        {
+            "batch": "114_F4",
+            "ingredients_mg": {
+                "hpmc_k100m": 75,
+                "affinisol": 100,
+                "losartan_potassium": 100,
+                "talc": 3,
+                "magnesium_stearate": 3,
+                "lactose": 29
+            },
+            "total_weight_mg": 310,
+            "percent_w_w": {
+                "hpmc_k100m": 24.19,
+                "affinisol": 32.26,
+                "losartan_potassium": 32.26,
+                "talc": 0.97,
+                "magnesium_stearate": 0.97,
+                "lactose": 9.35
+            }
+        },
+        {
+            "batch": "114_F5",
+            "ingredients_mg": {
+                "hpmc_k100m": 75,
+                "affinisol": 75,
+                "losartan_potassium": 100,
+                "talc": 3,
+                "magnesium_stearate": 3,
+                "lactose": 54
+            },
+            "total_weight_mg": 310,
+            "percent_w_w": {
+                "hpmc_k100m": 24.19,
+                "affinisol": 24.19,
+                "losartan_potassium": 32.26,
+                "talc": 0.97,
+                "magnesium_stearate": 0.97,
+                "lactose": 17.42
+            }
+        },
+        {
+            "batch": "114_F6",
+            "ingredients_mg": {
+                "hpmc_k100m": 75,
+                "affinisol": 50,
+                "losartan_potassium": 100,
+                "talc": 3,
+                "magnesium_stearate": 3,
+                "lactose": 79
+            },
+            "total_weight_mg": 310,
+            "percent_w_w": {
+                "hpmc_k100m": 24.19,
+                "affinisol": 16.13,
+                "losartan_potassium": 32.26,
+                "talc": 0.97,
+                "magnesium_stearate": 0.97,
+                "lactose": 25.48
+            }
+        },
+        {
+            "batch": "114_F7",
+            "ingredients_mg": {
+                "hpmc_k100m": 50,
+                "affinisol": 100,
+                "losartan_potassium": 100,
+                "talc": 3,
+                "magnesium_stearate": 3,
+                "lactose": 54
+            },
+            "total_weight_mg": 310,
+            "percent_w_w": {
+                "hpmc_k100m": 16.13,
+                "affinisol": 32.26,
+                "losartan_potassium": 32.26,
+                "talc": 0.97,
+                "magnesium_stearate": 0.97,
+                "lactose": 17.42
+            }
+        },
+        {
+            "batch": "114_F8",
+            "ingredients_mg": {
+                "hpmc_k100m": 50,
+                "affinisol": 75,
+                "losartan_potassium": 100,
+                "talc": 3,
+                "magnesium_stearate": 3,
+                "lactose": 79
+            },
+            "total_weight_mg": 310,
+            "percent_w_w": {
+                "hpmc_k100m": 16.13,
+                "affinisol": 24.19,
+                "losartan_potassium": 32.26,
+                "talc": 0.97,
+                "magnesium_stearate": 0.97,
+                "lactose": 25.48
+            }
+        },
+        {
+            "batch": "114_F9",
+            "ingredients_mg": {
+                "hpmc_k100m": 50,
+                "affinisol": 50,
+                "losartan_potassium": 100,
+                "talc": 3,
+                "magnesium_stearate": 3,
+                "lactose": 104
+            },
+            "total_weight_mg": 310,
+            "percent_w_w": {
+                "hpmc_k100m": 16.13,
+                "affinisol": 16.13,
+                "losartan_potassium": 32.26,
+                "talc": 0.97,
+                "magnesium_stearate": 0.97,
+                "lactose": 33.55
+            }
+        }
+    ],
+    "pre_compression_parameters": {
+        "114_F4": {
+            "bulk_density_g_cc": 0.414,
+            "tapped_density_g_cc": 0.469,
+            "hausners_ratio": 1.13,
+            "carrs_index_percent": 11.72,
+            "angle_of_repose_degrees": 26.5
+        },
+        "others": "Not reported"
+    },
+    "independent_variables_levels": {
+        "hpmc_k100m_mg": [
+            50,
+            75,
+            100
+        ],
+        "affinisol_mg": [
+            50,
+            75,
+            100
+        ],
+        "total_weight_mg": 310,
+        "drug_content_mg": 100
+    },
+    "ftir_measurements": {
+        "instrument": "FTIR-8400S, Shimadzu, Japan",
+        "method": "KBr disk, 1000 psig, scan at 4 mm/s, resolution 2 cm⁻¹, range 400-4000 cm⁻¹",
+        "characteristic_peaks_cm": {
+            "3624": "N-H stretching",
+            "3180.4": "O-H stretching",
+            "3035.75": "C-H aromatic stretching",
+            "2953.78": "C-H aliphatic stretching",
+            "1577.66": "C=C stretching",
+            "1462.91": "C=C stretching",
+            "791.72": "C-Cl stretching"
+        },
+        "drug_excipient_compatibility": "No change or shift of peaks observed after mixing with excipients and storing at 40°C for two weeks."
+    },
+    "tablet_fabrications": {
+        "114_F4": {
+            "weight_variation_percent": 0.37,
+            "weight_variation_sd": 0.04,
+            "thickness_mm": 4.45,
+            "thickness_sd": 0.02,
+            "diameter_mm": 9.93,
+            "diameter_sd": 0.01,
+            "friability_percent": 0.48,
+            "hardness_kg_cm2": 8.87,
+            "hardness_sd": 0.95,
+            "drug_content_percent": 97.8,
+            "drug_content_sd": 0.57
+        },
+        "others": "Not reported"
+    },
+    "process_parameters": {
+        "compression_method": "Direct compression",
+        "equipment": "Single punch compression machine (Amar Enterprises, Ambala Cantt, India; Model No.: AE-347-IV)",
+        "tooling": "9.5 mm round concave punches",
+        "compression_pressure": "Not specified",
+        "coating": "None",
+        "temperature": "Room temperature (not specified)"
+    },
+    "release_properties": [
+        {
+            "batch": "114_F1",
+            "release_profile": {
+                "0.5h": {
+                    "mean": 16.98,
+                    "sd": 2.21
+                },
+                "1h": {
+                    "mean": 19.85,
+                    "sd": 2.02
+                },
+                "1.5h": {
+                    "mean": 24.08,
+                    "sd": 2.45
+                },
+                "2h": {
+                    "mean": 29.22,
+                    "sd": 3.74
+                },
+                "3h": {
+                    "mean": 37.3,
+                    "sd": 3.91
+                },
+                "4h": {
+                    "mean": 44.15,
+                    "sd": 2.46
+                },
+                "5h": {
+                    "mean": 52.61,
+                    "sd": 1.79
+                },
+                "6h": {
+                    "mean": 61.35,
+                    "sd": 1.55
+                },
+                "8h": {
+                    "mean": 71.45,
+                    "sd": 2.85
+                },
+                "10h": {
+                    "mean": 82.82,
+                    "sd": 3.04
+                },
+                "12h": {
+                    "mean": 89.85,
+                    "sd": 3.55
+                }
+            },
+            "release_mechanism": "Not determined",
+            "factors_influencing": "High polymer content (100 mg each) retarded release; incomplete release at 12h (89.85%)"
+        },
+        {
+            "batch": "114_F2",
+            "release_profile": {
+                "0.5h": {
+                    "mean": 17.65,
+                    "sd": 1.6
+                },
+                "1h": {
+                    "mean": 21.85,
+                    "sd": 1.96
+                },
+                "1.5h": {
+                    "mean": 26.87,
+                    "sd": 2.67
+                },
+                "2h": {
+                    "mean": 32.96,
+                    "sd": 3.34
+                },
+                "3h": {
+                    "mean": 48.42,
+                    "sd": 0.99
+                },
+                "4h": {
+                    "mean": 53.1,
+                    "sd": 1.48
+                },
+                "5h": {
+                    "mean": 63.14,
+                    "sd": 1.43
+                },
+                "6h": {
+                    "mean": 69.45,
+                    "sd": 1.52
+                },
+                "8h": {
+                    "mean": 75.51,
+                    "sd": 2.64
+                },
+                "10h": {
+                    "mean": 85.64,
+                    "sd": 3.06
+                },
+                "12h": {
+                    "mean": 93.89,
+                    "sd": 3.92
+                }
+            },
+            "release_mechanism": "Not determined",
+            "factors_influencing": "HPMC 100 mg, Affinisol 75 mg; slower release than 114_F3 but faster than 114_F1"
+        },
+        {
+            "batch": "114_F3",
+            "release_profile": {
+                "0.5h": {
+                    "mean": 19.41,
+                    "sd": 1.55
+                },
+                "1h": {
+                    "mean": 23.25,
+                    "sd": 0.75
+                },
+                "1.5h": {
+                    "mean": 28.55,
+                    "sd": 2.81
+                },
+                "2h": {
+                    "mean": 35.11,
+                    "sd": 4.64
+                },
+                "3h": {
+                    "mean": 49.56,
+                    "sd": 1.07
+                },
+                "4h": {
+                    "mean": 57.08,
+                    "sd": 1.06
+                },
+                "5h": {
+                    "mean": 65.91,
+                    "sd": 3.69
+                },
+                "6h": {
+                    "mean": 73.01,
+                    "sd": 5.49
+                },
+                "8h": {
+                    "mean": 77.6,
+                    "sd": 6.13
+                },
+                "10h": {
+                    "mean": 87.21,
+                    "sd": 6.38
+                },
+                "12h": {
+                    "mean": 95.12,
+                    "sd": 7.05
+                }
+            },
+            "release_mechanism": "Not determined",
+            "factors_influencing": "HPMC 100 mg, Affinisol 50 mg; faster than 114_F1,114_F2"
+        },
+        {
+            "batch": "114_F4",
+            "release_profile": {
+                "0.5h": {
+                    "mean": 12.59,
+                    "sd": 1.18
+                },
+                "1h": {
+                    "mean": 15.9,
+                    "sd": 1.11
+                },
+                "1.5h": {
+                    "mean": 19.28,
+                    "sd": 1.61
+                },
+                "2h": {
+                    "mean": 28.97,
+                    "sd": 2.54
+                },
+                "3h": {
+                    "mean": 37.34,
+                    "sd": 5.27
+                },
+                "4h": {
+                    "mean": 47.3,
+                    "sd": 9.38
+                },
+                "5h": {
+                    "mean": 53.97,
+                    "sd": 7.59
+                },
+                "6h": {
+                    "mean": 60.47,
+                    "sd": 4.1
+                },
+                "8h": {
+                    "mean": 74.3,
+                    "sd": 3.58
+                },
+                "10h": {
+                    "mean": 86.18,
+                    "sd": 4.97
+                },
+                "12h": {
+                    "mean": 99.7,
+                    "sd": 4.01
+                }
+            },
+            "release_mechanism": "Non-Fickian zero-order",
+            "release_kinetics": {
+                "zero_order": {
+                    "k0": 7.9366,
+                    "R2": 0.9892
+                },
+                "first_order": {
+                    "k1": 0.3488,
+                    "R2": 0.8512
+                },
+                "higuchi": {
+                    "kH": 29.767,
+                    "R2": 0.9879
+                },
+                "korsmeyer_peppas": {
+                    "kKP": 0.1749,
+                    "n": 0.692,
+                    "R2": 0.986
+                }
+            },
+            "factors_influencing": "Combination of HPMC K100M (75 mg) and Affinisol (100 mg); Affinisol hydrophobic below pH7 reduces swelling and dissolution of HPMC, leading to non-Fickian diffusion; dissolution medium distilled water"
+        },
+        {
+            "batch": "114_F5",
+            "release_profile": {
+                "0.5h": {
+                    "mean": 14.31,
+                    "sd": 4.16
+                },
+                "1h": {
+                    "mean": 17.46,
+                    "sd": 2.92
+                },
+                "1.5h": {
+                    "mean": 23.38,
+                    "sd": 2.13
+                },
+                "2h": {
+                    "mean": 32.5,
+                    "sd": 2.48
+                },
+                "3h": {
+                    "mean": 40.67,
+                    "sd": 2.98
+                },
+                "4h": {
+                    "mean": 49.38,
+                    "sd": 2.09
+                },
+                "5h": {
+                    "mean": 55.48,
+                    "sd": 1.91
+                },
+                "6h": {
+                    "mean": 65.17,
+                    "sd": 2.22
+                },
+                "8h": {
+                    "mean": 77.36,
+                    "sd": 3.12
+                },
+                "10h": {
+                    "mean": 90.93,
+                    "sd": 3.55
+                },
+                "12h": {
+                    "mean": 101.14,
+                    "sd": 4.22
+                }
+            },
+            "release_mechanism": "Not determined",
+            "factors_influencing": "HPMC 75 mg, Affinisol 75 mg; faster than 114_F4"
+        },
+        {
+            "batch": "114_F6",
+            "release_profile": {
+                "0.5h": {
+                    "mean": 16.1,
+                    "sd": 2.53
+                },
+                "1h": {
+                    "mean": 28.66,
+                    "sd": 3.06
+                },
+                "1.5h": {
+                    "mean": 36.79,
+                    "sd": 3.75
+                },
+                "2h": {
+                    "mean": 41.95,
+                    "sd": 4.09
+                },
+                "3h": {
+                    "mean": 50.37,
+                    "sd": 3.58
+                },
+                "4h": {
+                    "mean": 62.66,
+                    "sd": 5.05
+                },
+                "5h": {
+                    "mean": 69.28,
+                    "sd": 4.73
+                },
+                "6h": {
+                    "mean": 78.17,
+                    "sd": 4.33
+                },
+                "8h": {
+                    "mean": 90.04,
+                    "sd": 3.56
+                },
+                "10h": {
+                    "mean": 97.47,
+                    "sd": 2.84
+                },
+                "12h": {
+                    "mean": 100.58,
+                    "sd": 3.24
+                }
+            },
+            "release_mechanism": "Not determined",
+            "factors_influencing": "HPMC 75 mg, Affinisol 50 mg; faster release"
+        },
+        {
+            "batch": "114_F7",
+            "release_profile": {
+                "0.5h": {
+                    "mean": 17.17,
+                    "sd": 3.52
+                },
+                "1h": {
+                    "mean": 30.12,
+                    "sd": 1.08
+                },
+                "1.5h": {
+                    "mean": 37.87,
+                    "sd": 1.46
+                },
+                "2h": {
+                    "mean": 42.45,
+                    "sd": 1.11
+                },
+                "3h": {
+                    "mean": 51.72,
+                    "sd": 0.9
+                },
+                "4h": {
+                    "mean": 61.37,
+                    "sd": 2.02
+                },
+                "5h": {
+                    "mean": 68.11,
+                    "sd": 1.79
+                },
+                "6h": {
+                    "mean": 78.69,
+                    "sd": 1.9
+                },
+                "8h": {
+                    "mean": 92.59,
+                    "sd": 3.77
+                },
+                "10h": {
+                    "mean": 98.32,
+                    "sd": 4.21
+                },
+                "12h": {
+                    "mean": 102.93,
+                    "sd": 3.34
+                }
+            },
+            "release_mechanism": "Not determined",
+            "factors_influencing": "HPMC 50 mg, Affinisol 100 mg; faster than 114_F4"
+        },
+        {
+            "batch": "114_F8",
+            "release_profile": {
+                "0.5h": {
+                    "mean": 21.34,
+                    "sd": 2.53
+                },
+                "1h": {
+                    "mean": 31.71,
+                    "sd": 1.65
+                },
+                "1.5h": {
+                    "mean": 40.01,
+                    "sd": 5.13
+                },
+                "2h": {
+                    "mean": 44.34,
+                    "sd": 3.88
+                },
+                "3h": {
+                    "mean": 53.05,
+                    "sd": 3.98
+                },
+                "4h": {
+                    "mean": 63.97,
+                    "sd": 2.33
+                },
+                "5h": {
+                    "mean": 72.85,
+                    "sd": 4.46
+                },
+                "6h": {
+                    "mean": 79.08,
+                    "sd": 3.75
+                },
+                "8h": {
+                    "mean": 93.27,
+                    "sd": 3.27
+                },
+                "10h": {
+                    "mean": 98.75,
+                    "sd": 2.33
+                },
+                "12h": {
+                    "mean": 101.76,
+                    "sd": 2.54
+                }
+            },
+            "release_mechanism": "Not determined",
+            "factors_influencing": "HPMC 50 mg, Affinisol 75 mg"
+        },
+        {
+            "batch": "114_F9",
+            "release_profile": {
+                "0.5h": {
+                    "mean": 22.82,
+                    "sd": 1.27
+                },
+                "1h": {
+                    "mean": 32.6,
+                    "sd": 2.65
+                },
+                "1.5h": {
+                    "mean": 41.6,
+                    "sd": 1.52
+                },
+                "2h": {
+                    "mean": 46.22,
+                    "sd": 2.58
+                },
+                "3h": {
+                    "mean": 56.53,
+                    "sd": 4.92
+                },
+                "4h": {
+                    "mean": 65.94,
+                    "sd": 7.22
+                },
+                "5h": {
+                    "mean": 73.74,
+                    "sd": 3.79
+                },
+                "6h": {
+                    "mean": 81.98,
+                    "sd": 4.32
+                },
+                "8h": {
+                    "mean": 95.01,
+                    "sd": 3.45
+                },
+                "10h": {
+                    "mean": 101.15,
+                    "sd": 4.56
+                },
+                "12h": {
+                    "mean": 100.1,
+                    "sd": 4.72
+                }
+            },
+            "release_mechanism": "Not determined",
+            "factors_influencing": "Lowest polymer content (50 mg each); fastest release"
+        }
+    ],
+    "tablet_properties": {
+        "114_F4": {
+            "hardness_kg_cm2": 8.87,
+            "hardness_sd": 0.95,
+            "friability_percent": 0.48,
+            "disintegration_time": "Not applicable (sustained release)",
+            "dissolution_profile": "See release_properties for 114_F4",
+            "stability": {
+                "condition": "1 month at 60°C, open container",
+                "drug_content_initial_percent": 97.8,
+                "drug_content_final_percent": 96.65,
+                "similarity_factor_f2": 53,
+                "physical_change": "Some tablets stuck together due to moisture exposure"
+            },
+            "thickness_mm": 4.45,
+            "thickness_sd": 0.02,
+            "diameter_mm": 9.93,
+            "diameter_sd": 0.01,
+            "weight_variation_percent": 0.37,
+            "weight_variation_sd": 0.04
+        },
+        "others": "Not reported"
+    },
+    "experimental_data": {
+        "key_results": "Formulation 114_F4 (HPMC K100M 75 mg, Affinisol 100 mg) achieved desired release: ≤30% at 2h, ≥50% at 6h, 100% at 12h. Zero-order release kinetics (R²=0.9892) with non-Fickian diffusion (n=0.692). Stable for 1 month at 60°C.",
+        "performance_metrics": {
+            "best_formulation": "114_F4",
+            "release_extended_to_hours": 12,
+            "similarity_factor_f2_after_stability": 53,
+            "difference_factor_f1": 11
+        },
+        "statistical_analysis": "All experiments repeated three times except in vitro dissolution (six times). Data expressed as mean ± SD. p < 0.05 considered significant. Similarity factor f2 calculated using equation: f2 = 50 * log{[1 + (1/n)Σ(Rt-Tt)^2]^{-0.5} * 100}.",
+        "zero_order_release_for_all_formulations": "Calculated only for 114_F4 (R²=0.9892); not reported for others.",
+        "first_order_release_for_all_formulations": "Calculated only for 114_F4 (R²=0.8512); not reported for others.",
+        "tablet_swelling_study": "Not performed (no swelling index reported). Surface morphology by SEM showed non-porous surface becoming smooth non-porous over time, opposite to typical hydrophilic polymer behavior due to Affinisol."
+    }
+}

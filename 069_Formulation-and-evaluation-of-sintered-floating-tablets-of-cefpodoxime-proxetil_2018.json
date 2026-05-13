@@ -1,0 +1,721 @@
+{
+    "article_title": "Formulation and Evaluation of Sintered Floating Tablets of Cefpodoxime Proxetil",
+    "materials_origin": {
+        "cefpodoxime_proxetil": "Micro Labs Pvt. Ltd., Bangalore",
+        "pvp_k30": "Burgoyne Burbidges & Co., Mumbai",
+        "magnesium_stearate": "SD fine chemicals, Mumbai",
+        "locust_bean_gum": "Himedia laboratories Pvt. Ltd.",
+        "citric_acid_anhydrous": "Universal Laboratories, Mumbai",
+        "camphor": "SigmaAldrich Chemicals Pvt. Ltd., Mumbai",
+        "other_chemicals": "analytical grade"
+    },
+    "experimental_design": {
+        "preparation_method": "Wet granulation using sublimating agent (camphor), followed by sublimation at 60°C for 3 days and sintering by exposure to acetone vapors for varying durations.",
+        "optimization_parameters": "Ratio of locust bean gum to drug, camphor concentration, sintering time",
+        "batches": [
+            "069_F1",
+            "069_F2",
+            "069_F3",
+            "069_F4",
+            "069_F5",
+            "069_F6",
+            "069_S1",
+            "069_S2",
+            "069_S3",
+            "069_S4"
+        ]
+    },
+    "ingredients_identification": {
+        "active_ingredient": "Cefpodoxime proxetil",
+        "excipients": [
+            "Locust bean gum (release retardant)",
+            "Camphor (subliming agent for floating)",
+            "PVP K30 (binder)",
+            "Magnesium stearate (lubricant)"
+        ],
+        "preparation_principle": "Wet granulation with IPA, drying, addition of camphor, compression, sublimation to create porosity, sintering with acetone vapors to crosslink polymer.",
+        "absorbance_wavelength": "264.2 nm (UV spectrophotometry in 0.1N HCl)",
+        "kinetic_equations": "Zero-order, first-order, Higuchi, Korsmeyer-Peppas"
+    },
+    "formulation_details": [
+        {
+            "batch": "069_F1",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 115.5,
+            "camphor_mg": 22.2,
+            "magnesium_stearate_mg": 7.5,
+            "pvp_mg": 23.6,
+            "ratio_lbg_drug": 0.35,
+            "camphor_percent_w_w": 6.7,
+            "notes": "Floating not achieved"
+        },
+        {
+            "batch": "069_F2",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 115.5,
+            "camphor_mg": 44.5,
+            "magnesium_stearate_mg": 5,
+            "pvp_mg": 24.7,
+            "ratio_lbg_drug": 0.35,
+            "camphor_percent_w_w": 13.5,
+            "notes": "Floating with no lag time, >12 h floating; selected for sintering"
+        },
+        {
+            "batch": "069_F3",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 115.5,
+            "camphor_mg": 66.8,
+            "magnesium_stearate_mg": 2.5,
+            "pvp_mg": 25.8,
+            "ratio_lbg_drug": 0.35,
+            "camphor_percent_w_w": 20.2,
+            "notes": "Floating with no lag time but <10 h floating, cracks developed"
+        },
+        {
+            "batch": "069_F4",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 100,
+            "camphor_mg": 21.5,
+            "magnesium_stearate_mg": 2,
+            "pvp_mg": 22.8,
+            "ratio_lbg_drug": 0.3,
+            "camphor_percent_w_w": 6.5,
+            "notes": "Not floating"
+        },
+        {
+            "batch": "069_F5",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 100,
+            "camphor_mg": 43,
+            "magnesium_stearate_mg": 5,
+            "pvp_mg": 25.6,
+            "ratio_lbg_drug": 0.3,
+            "camphor_percent_w_w": 13.0,
+            "notes": "Floating with no lag time, >12 h floating; dissolution studied"
+        },
+        {
+            "batch": "069_F6",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 100,
+            "camphor_mg": 64.5,
+            "magnesium_stearate_mg": 5,
+            "pvp_mg": 26.8,
+            "ratio_lbg_drug": 0.3,
+            "camphor_percent_w_w": 19.5,
+            "notes": "Floating with no lag time but <10 h floating"
+        },
+        {
+            "batch": "069_S1",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 82.5,
+            "camphor_mg": 41.25,
+            "magnesium_stearate_mg": 2,
+            "pvp_mg": 2.9,
+            "ratio_lbg_drug": 0.25,
+            "camphor_percent_w_w": 12.5,
+            "sintering_time_h": 1.5,
+            "notes": "Sintered; drug release retarded"
+        },
+        {
+            "batch": "069_S2",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 100,
+            "camphor_mg": 43,
+            "magnesium_stearate_mg": 5,
+            "pvp_mg": 23.9,
+            "ratio_lbg_drug": 0.3,
+            "camphor_percent_w_w": 13.0,
+            "sintering_time_h": 6,
+            "notes": "Optimized: 97.3% release in 12 h, zero-order kinetics, anomalous transport"
+        },
+        {
+            "batch": "069_S3",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 115.5,
+            "camphor_mg": 44.5,
+            "magnesium_stearate_mg": 5,
+            "pvp_mg": 24.75,
+            "ratio_lbg_drug": 0.35,
+            "camphor_percent_w_w": 13.5,
+            "sintering_time_h": 9,
+            "notes": "Sintered; no significant difference after 9 h"
+        },
+        {
+            "batch": "069_S4",
+            "cefpodoxime_proxetil_mg": 330,
+            "locust_bean_gum_mg": 132,
+            "camphor_mg": 46.25,
+            "magnesium_stearate_mg": 5,
+            "pvp_mg": 25.6,
+            "ratio_lbg_drug": 0.4,
+            "camphor_percent_w_w": 14.0,
+            "sintering_time_h": 10.5,
+            "notes": "Sintered; saturation of crosslinking"
+        }
+    ],
+    "precompression_parameters": [
+        {
+            "batch": "069_F1",
+            "angle_of_repose_deg": 26.76,
+            "angle_sd": 0.76,
+            "bulk_density_g_cm3": 0.31,
+            "bulk_sd": 0.013,
+            "tapped_density_g_cm3": 0.392,
+            "tapped_sd": 0.01,
+            "hausner_ratio": 1.23,
+            "hausner_sd": 0.09,
+            "carr_index_percent": 16.84,
+            "carr_sd": 0.14
+        },
+        {
+            "batch": "069_F2",
+            "angle_of_repose_deg": 26.26,
+            "angle_sd": 1.0,
+            "bulk_density_g_cm3": 0.344,
+            "bulk_sd": 0.01,
+            "tapped_density_g_cm3": 0.432,
+            "tapped_sd": 0.01,
+            "hausner_ratio": 1.137,
+            "hausner_sd": 0.011,
+            "carr_index_percent": 17.06,
+            "carr_sd": 0.84
+        },
+        {
+            "batch": "069_F3",
+            "angle_of_repose_deg": 26.34,
+            "angle_sd": 0.82,
+            "bulk_density_g_cm3": 0.361,
+            "bulk_sd": 0.01,
+            "tapped_density_g_cm3": 0.346,
+            "tapped_sd": 0.012,
+            "hausner_ratio": 1.228,
+            "hausner_sd": 0.01,
+            "carr_index_percent": 19.39,
+            "carr_sd": 0.78
+        },
+        {
+            "batch": "069_F4",
+            "angle_of_repose_deg": 26.26,
+            "angle_sd": 0.69,
+            "bulk_density_g_cm3": 0.368,
+            "bulk_sd": 0.01,
+            "tapped_density_g_cm3": 0.458,
+            "tapped_sd": 0.016,
+            "hausner_ratio": 1.234,
+            "hausner_sd": 0.001,
+            "carr_index_percent": 7.87,
+            "carr_sd": 0.82
+        },
+        {
+            "batch": "069_F5",
+            "angle_of_repose_deg": 27.54,
+            "angle_sd": 0.81,
+            "bulk_density_g_cm3": 0.346,
+            "bulk_sd": 0.01,
+            "tapped_density_g_cm3": 0.428,
+            "tapped_sd": 0.001,
+            "hausner_ratio": 1.226,
+            "hausner_sd": 0.04,
+            "carr_index_percent": 20.19,
+            "carr_sd": 0.34
+        },
+        {
+            "batch": "069_F6",
+            "angle_of_repose_deg": 22.47,
+            "angle_sd": 0.84,
+            "bulk_density_g_cm3": 0.322,
+            "bulk_sd": 0.0,
+            "tapped_density_g_cm3": 0.421,
+            "tapped_sd": 0.001,
+            "hausner_ratio": 1.395,
+            "hausner_sd": 0.06,
+            "carr_index_percent": 21.72,
+            "carr_sd": 0.52
+        }
+    ],
+    "ftir_spectral_measurements": {
+        "instrument": "Shimadzu Corporation, Kyoto, Japan",
+        "method": "KBr discs, 10 tons pressure, range 4000-500 cm⁻¹",
+        "key_peaks": {
+            "cefpodoxime_proxetil": [
+                "3396.41, 3230.54 cm⁻¹ (N-H stretching, primary amine)",
+                "1676 cm⁻¹ (N-H bending, aromatic primary amine)",
+                "1274 cm⁻¹ (C-N amine)",
+                "3066.61 cm⁻¹ (aromatic C-H stretch)",
+                "1638 cm⁻¹ (C=N)",
+                "809 cm⁻¹ (C-S-C)",
+                "1753 cm⁻¹ (C=O lactam)"
+            ]
+        },
+        "compatibility": "No significant interaction between drug and excipients; characteristic peaks retained after sintering."
+    },
+    "tablet_fabrications": {
+        "compression": {
+            "equipment": "10-station rotary tablet machine",
+            "punch_size_mm": 11.9,
+            "process": "Wet granulation, sublimation at 60°C for 3 days, sintering in acetone vapor desiccator"
+        },
+        "evaluation_methods": {
+            "hardness": "Monsanto hardness tester, n=5",
+            "friability": "Roche friabilator, 25 rpm for 4 min, n=10",
+            "weight_variation": "20 tablets, electronic balance",
+            "thickness": "Vernier calipers, n=10",
+            "density": "calculated from weight, diameter, height",
+            "drug_content": "UV at 264.2 nm, acceptable 90-110%",
+            "floating_lag_time": "time to emerge in 0.1N HCl",
+            "total_floating_time": "duration buoyant"
+        }
+    },
+    "tablet_properties": [
+        {
+            "batch": "069_F1",
+            "drug_content_percent": 96.4,
+            "drug_content_sd": 0.2,
+            "weight_variation_percent": 3.03,
+            "weight_variation_sd": 0.3,
+            "friability_percent": 0.62,
+            "friability_sd": 0.01,
+            "thickness_before_mm": 4.6,
+            "thickness_before_sd": 0.01,
+            "density_before_g_cm3": 1.1,
+            "density_before_sd": 0.007,
+            "hardness_before_kg_cm2": 7.1,
+            "hardness_before_sd": 0.01,
+            "thickness_after_subl_mm": 4.8,
+            "thickness_after_sd": 0.001,
+            "density_after_g_cm3": 1.02,
+            "density_after_sd": 0.01,
+            "hardness_after_kg_cm2": 6.2,
+            "hardness_after_sd": 0.01,
+            "floating_lag_time": "Not floating",
+            "total_floating_time_h": "NA"
+        },
+        {
+            "batch": "069_F2",
+            "drug_content_percent": 97.1,
+            "drug_content_sd": 0.23,
+            "weight_variation_percent": 4.02,
+            "weight_variation_sd": 0.6,
+            "friability_percent": 0.55,
+            "friability_sd": 0.06,
+            "thickness_before_mm": 4.8,
+            "thickness_before_sd": 0.001,
+            "density_before_g_cm3": 1.03,
+            "density_before_sd": 0.01,
+            "hardness_before_kg_cm2": 6.9,
+            "hardness_before_sd": 0.35,
+            "thickness_after_subl_mm": 5.1,
+            "thickness_after_sd": 0.67,
+            "density_after_g_cm3": 0.873,
+            "density_after_sd": 0.006,
+            "hardness_after_kg_cm2": 6.1,
+            "hardness_after_sd": 0.0,
+            "floating_lag_time": "No lag time",
+            "total_floating_time_h": ">12"
+        },
+        {
+            "batch": "069_F3",
+            "drug_content_percent": 96.8,
+            "drug_content_sd": 0.64,
+            "weight_variation_percent": 4.1,
+            "weight_variation_sd": 0.3,
+            "friability_percent": 0.71,
+            "friability_sd": 0.01,
+            "thickness_before_mm": 5.0,
+            "thickness_before_sd": 0.08,
+            "density_before_g_cm3": 1.08,
+            "density_before_sd": 0.01,
+            "hardness_before_kg_cm2": 7.3,
+            "hardness_before_sd": 0.28,
+            "thickness_after_subl_mm": 5.3,
+            "thickness_after_sd": 0.0,
+            "density_after_g_cm3": 0.84,
+            "density_after_sd": 0.06,
+            "hardness_after_kg_cm2": 5.8,
+            "hardness_after_sd": 0.3,
+            "floating_lag_time": "No lag time",
+            "total_floating_time_h": "<10"
+        },
+        {
+            "batch": "069_F4",
+            "drug_content_percent": 99.4,
+            "drug_content_sd": 0.77,
+            "weight_variation_percent": 3.9,
+            "weight_variation_sd": 0.5,
+            "friability_percent": 0.77,
+            "friability_sd": 0.01,
+            "thickness_before_mm": 4.5,
+            "thickness_before_sd": 0.12,
+            "density_before_g_cm3": 1.12,
+            "density_before_sd": 0.03,
+            "hardness_before_kg_cm2": 7.1,
+            "hardness_before_sd": 0.01,
+            "thickness_after_subl_mm": 4.7,
+            "thickness_after_sd": 0.01,
+            "density_after_g_cm3": 1.01,
+            "density_after_sd": 0.21,
+            "hardness_after_kg_cm2": 6.0,
+            "hardness_after_sd": 0.3,
+            "floating_lag_time": "Not floating",
+            "total_floating_time_h": "NA"
+        },
+        {
+            "batch": "069_F5",
+            "drug_content_percent": 95.3,
+            "drug_content_sd": 0.4,
+            "weight_variation_percent": 3.7,
+            "weight_variation_sd": 0.22,
+            "friability_percent": 0.71,
+            "friability_sd": 0.04,
+            "thickness_before_mm": 4.7,
+            "thickness_before_sd": 0.8,
+            "density_before_g_cm3": 1.03,
+            "density_before_sd": 0.22,
+            "hardness_before_kg_cm2": 7.0,
+            "hardness_before_sd": 0.0,
+            "thickness_after_subl_mm": 5.1,
+            "thickness_after_sd": 0.16,
+            "density_after_g_cm3": 0.84,
+            "density_after_sd": 0.01,
+            "hardness_after_kg_cm2": 6.1,
+            "hardness_after_sd": 0.01,
+            "floating_lag_time": "No lag time",
+            "total_floating_time_h": ">12"
+        },
+        {
+            "batch": "069_F6",
+            "drug_content_percent": 97.6,
+            "drug_content_sd": 0.96,
+            "weight_variation_percent": 2.8,
+            "weight_variation_sd": 0.7,
+            "friability_percent": 0.69,
+            "friability_sd": 0.02,
+            "thickness_before_mm": 4.9,
+            "thickness_before_sd": 0.07,
+            "density_before_g_cm3": 1.05,
+            "density_before_sd": 0.21,
+            "hardness_before_kg_cm2": 7.2,
+            "hardness_before_sd": 0.01,
+            "thickness_after_subl_mm": 5.3,
+            "thickness_after_sd": 0.18,
+            "density_after_g_cm3": 0.82,
+            "density_after_sd": 0.09,
+            "hardness_after_kg_cm2": 5.7,
+            "hardness_after_sd": 0.45,
+            "floating_lag_time": "No lag time",
+            "total_floating_time_h": "<10"
+        },
+        {
+            "batch": "069_S1",
+            "drug_content_percent": 97.2,
+            "drug_content_sd": 0.7,
+            "thickness_before_sinter_mm": 4.6,
+            "thickness_before_sinter_sd": 0.01,
+            "density_before_sinter_g_cm3": 1.02,
+            "density_before_sinter_sd": 0.01,
+            "hardness_before_sinter_kg_cm2": 5.7,
+            "hardness_before_sinter_sd": 0.01,
+            "thickness_after_sinter_mm": 4.9,
+            "thickness_after_sinter_sd": 0.46,
+            "density_after_sinter_g_cm3": 0.85,
+            "density_after_sinter_sd": 0.01,
+            "hardness_after_sinter_kg_cm2": 4.9,
+            "hardness_after_sinter_sd": 0.07,
+            "friability_after_sinter_percent": 0.7,
+            "friability_after_sinter_sd": 0.01
+        },
+        {
+            "batch": "069_S2",
+            "drug_content_percent": 96.4,
+            "drug_content_sd": 0.6,
+            "thickness_before_sinter_mm": 4.7,
+            "thickness_before_sinter_sd": 0.001,
+            "density_before_sinter_g_cm3": 1.03,
+            "density_before_sinter_sd": 0.665,
+            "hardness_before_sinter_kg_cm2": 5.7,
+            "hardness_before_sinter_sd": 0.0,
+            "thickness_after_sinter_mm": 5.1,
+            "thickness_after_sinter_sd": 0.01,
+            "density_after_sinter_g_cm3": 0.83,
+            "density_after_sinter_sd": 0.01,
+            "hardness_after_sinter_kg_cm2": 5.0,
+            "hardness_after_sinter_sd": 0.5,
+            "friability_after_sinter_percent": 0.5,
+            "friability_after_sinter_sd": 0.22,
+            "floating_lag_time": "No lag time",
+            "total_floating_time_h": "≥12"
+        },
+        {
+            "batch": "069_S3",
+            "drug_content_percent": 97.1,
+            "drug_content_sd": 0.6,
+            "thickness_before_sinter_mm": 4.8,
+            "thickness_before_sinter_sd": 0.24,
+            "density_before_sinter_g_cm3": 1.03,
+            "density_before_sinter_sd": 0.07,
+            "hardness_before_sinter_kg_cm2": 5.8,
+            "hardness_before_sinter_sd": 0.58,
+            "thickness_after_sinter_mm": 5.1,
+            "thickness_after_sinter_sd": 0.09,
+            "density_after_sinter_g_cm3": 0.84,
+            "density_after_sinter_sd": 0.05,
+            "hardness_after_sinter_kg_cm2": 5.1,
+            "hardness_after_sinter_sd": 0.11
+        }
+    ],
+    "release_properties": [
+        {
+            "batch": "069_F2",
+            "dissolution_medium": "0.1N HCl, USP II, 50 rpm",
+            "release_12h_percent": 95.8,
+            "zero_order_r2": 0.9842,
+            "first_order_r2": 0.8396,
+            "higuchi_r2": 0.9628,
+            "korsmeyer_peppas_r2": 0.9748,
+            "korsmeyer_peppas_n": 0.6348,
+            "release_mechanism": "Anomalous transport"
+        },
+        {
+            "batch": "069_F5",
+            "dissolution_medium": "0.1N HCl, USP II, 50 rpm",
+            "release_12h_percent": "Not explicitly given, but studied",
+            "zero_order_r2": 0.9691,
+            "first_order_r2": 0.8766,
+            "higuchi_r2": 0.9783,
+            "korsmeyer_peppas_r2": 0.9744,
+            "korsmeyer_peppas_n": 0.5549,
+            "release_mechanism": "Anomalous transport"
+        },
+        {
+            "batch": "069_S1",
+            "sintering_time_h": 1.5,
+            "dissolution_medium": "0.1N HCl",
+            "release_12h_percent": "Prolonged release compared to unsintered; less than 069_S2",
+            "kinetics": "Not separately tabulated"
+        },
+        {
+            "batch": "069_S2",
+            "sintering_time_h": 6,
+            "dissolution_medium": "0.1N HCl",
+            "release_12h_percent": 97.3,
+            "zero_order_r2": 0.9599,
+            "korsmeyer_peppas_n": 0.5331,
+            "release_mechanism": "Anomalous transport (zero-order kinetics)",
+            "notes": "Optimized formulation"
+        },
+        {
+            "batch": "069_S3",
+            "sintering_time_h": 9,
+            "dissolution_medium": "0.1N HCl",
+            "release_12h_percent": "Similar to 069_S2, no significant difference beyond 9 h",
+            "kinetics": "Not separately tabulated"
+        }
+    ],
+    "experimental_data": {
+        "floating_performance": {
+            "069_F1": "Not floating",
+            "069_F2": "No lag time, >12 h",
+            "069_F3": "No lag time, <10 h",
+            "069_F4": "Not floating",
+            "069_F5": "No lag time, >12 h",
+            "069_F6": "No lag time, <10 h"
+        },
+        "in_vivo_gastric_retention": {
+            "model": "Rabbit (1.9 kg), dose 321 mg (adjusted with BaSO₄)",
+            "xray_imaging": "Tablet retained in stomach for at least 8 hours",
+            "dose_conversion": "Based on body surface area (Km human 37, rabbit 12)"
+        },
+        "residual_solvent": {
+            "method": "Gas chromatography (Agilent 7890, FID)",
+            "acetone_retention_time": "9 min 30 sec",
+            "optimized_tablet_S2_residual_acetone": "0.9 μg/mL (within GRAS limits)"
+        },
+        "antimicrobial_activity": {
+            "test_organisms": [
+                "Escherichia coli",
+                "Bacillus subtilis"
+            ],
+            "standard_zone_inhibition_mm": {
+                "E. coli": 16,
+                "B. subtilis": 17
+            },
+            "test_zone_inhibition_mm_10μg_50μL": {
+                "E. coli": 15,
+                "B. subtilis": 18
+            },
+            "conclusion": "Antibacterial activity retained in sintered tablets"
+        },
+        "stability": {
+            "conditions": "40±2°C / 75±5% RH for 1 month",
+            "optimized_batch": "069_S2",
+            "changes": "No significant change in floating lag time, floating time, drug content, or dissolution profile"
+        }
+    },
+    "dissolution_profiles_from_figures": {
+        "069_F2": {
+            "description": "Figure 4 - Dissolution profile of formulation 069_F2 (unsintered, floating, 0.35 ratio, 10% camphor)",
+            "time_hr": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "cumulative_release_percent": [
+                0,
+                12.5,
+                23.0,
+                33.5,
+                44.0,
+                54.0,
+                63.5,
+                72.0,
+                79.5,
+                86.0,
+                91.0,
+                94.0,
+                95.8
+            ]
+        },
+        "069_F5": {
+            "description": "Figure 4 - Dissolution profile of formulation 069_F5 (unsintered, floating, 0.30 ratio, 10% camphor)",
+            "time_hr": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "cumulative_release_percent": [
+                0,
+                10.0,
+                19.5,
+                29.0,
+                38.5,
+                48.0,
+                57.0,
+                65.5,
+                73.5,
+                80.5,
+                86.5,
+                91.0,
+                94.2
+            ]
+        },
+        "069_S1": {
+            "description": "Figure 5 - Dissolution profile of sintered formulation 069_S1 (sintering time 1.5 h)",
+            "time_hr": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "cumulative_release_percent": [
+                0,
+                6.0,
+                12.5,
+                19.0,
+                26.0,
+                33.5,
+                41.5,
+                50.0,
+                58.5,
+                67.0,
+                75.0,
+                82.5,
+                89.0
+            ]
+        },
+        "069_S2": {
+            "description": "Figure 6 - Dissolution profile of optimized sintered formulation 069_S2 (sintering time 6 h)",
+            "time_hr": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "cumulative_release_percent": [
+                0,
+                5.0,
+                10.5,
+                16.5,
+                23.0,
+                30.5,
+                38.5,
+                47.0,
+                56.5,
+                66.5,
+                77.0,
+                87.5,
+                97.3
+            ]
+        },
+        "069_S3": {
+            "description": "Figure 7 - Dissolution profile of sintered formulation 069_S3 (sintering time 9 h)",
+            "time_hr": [
+                0,
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+            ],
+            "cumulative_release_percent": [
+                0,
+                4.5,
+                9.5,
+                15.0,
+                21.0,
+                27.5,
+                34.5,
+                42.0,
+                50.0,
+                58.5,
+                67.5,
+                76.5,
+                85.5
+            ]
+        }
+    }
+}

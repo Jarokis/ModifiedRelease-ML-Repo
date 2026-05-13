@@ -1,0 +1,688 @@
+{
+  "study_title": "Formulation and Preparation of Losartan-Potassium-Loaded Controlled-Release Matrices Using Ethocel Grade 10 to Establish a Correlation between In Vitro and In Vivo Results",
+  "journal": "Pharmaceutics",
+  "year": 2024,
+  "doi": "Not provided in text",
+  "materials_origin": {
+    "losartan_potassium": "Well & Well Pharma UK Ltd. (Islamabad, Pakistan)",
+    "ethocel_10_premium": "Dow Chemical Co., Midland, MI, USA",
+    "ethocel_10_fp_premium": "Dow Chemical Co., Midland, MI, USA",
+    "magnesium_stearate": "BDH Chemical Ltd. (Poole, UK)",
+    "spray_dried_lactose": "BDH Chemical Ltd. (Poole, UK)",
+    "hpmc": "Sigma-Aldrich (St. Louis, MO, USA)",
+    "cmc": "Sigma-Aldrich (St. Louis, MO, USA)",
+    "starch": "Sigma-Aldrich (St. Louis, MO, USA)",
+    "monobasic_potassium_phosphate": "Sigma-Aldrich (St. Louis, MO, USA)",
+    "sodium_hydroxide": "Sigma-Aldrich (St. Louis, MO, USA)",
+    "reference_tablets_cardaktin": "Hygeia Pharmaceutical, Islamabad, Pakistan",
+    "rabbits": "Animal houses, GCPS, Faculty of Pharmacy, Gomal University, DIK, Pakistan"
+  },
+  "experimental_design": {
+    "preparation_method": "Direct compression method",
+    "compression_device": "Single-punch tableting machine (Erweka AR 400, Langen, Germany)",
+    "compression_hardness": "7-10 kg/cm²",
+    "punch_diameter": "12 mm",
+    "dissolution_apparatus": "Pharma Test Dissolution Apparatus (D-6312, Hainburg, Germany), USP Method I (rotating basket)",
+    "dissolution_medium": "Phosphate buffer (pH 6.8), 900 mL",
+    "dissolution_temperature": "37 ± 0.5 °C",
+    "dissolution_speed": "100 rpm",
+    "hplc_conditions": {
+      "column": "Phenomenex C-18 (5 μm; 4.6 mm × 250 mm, Luna)",
+      "temperature": "25 °C",
+      "mobile_phase": "Disodium hydrogen phosphate (30 mM) pH 7 : acetonitrile (50:50 v/v)",
+      "flow_rate": "1.0 mL/min",
+      "detection_wavelength": "220 nm",
+      "retention_time": "4.9 min"
+    },
+    "ftir_conditions": {
+      "device": "PerkinElmer, Seer Green, UK",
+      "range": "100-3500 cm⁻¹",
+      "resolution": "1 cm⁻¹"
+    },
+    "dsc_conditions": {
+      "device": "Mettler Toledo DSC 822E, Greifensee, Switzerland",
+      "heating_rate": "10 °C/min",
+      "atmosphere": "Nitrogen gas"
+    },
+    "stability_conditions": {
+      "temperature": "40 ± 2 °C",
+      "relative_humidity": "75 ± 5%",
+      "duration_months": 6
+    },
+    "in_vivo_study_design": {
+      "animals": "12 healthy male albino rabbits (mean weight 2.7 ± 0.5 kg)",
+      "dose_administration": "Oral, with 10 mL water",
+      "blood_sampling_times": "0.5, 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 8.0, 10, 12, 24, 30, 36, 48 h",
+      "plasma_separation": "Centrifugation at 1500 rpm",
+      "drug_extraction": "Diethyl ether, centrifugation at 2500 rpm for 15-20 min, reconstituted in acetonitrile"
+    }
+  },
+  "formulations": [
+    {
+      "batch_name": "Ethocel 10P (10:3)",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 69,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_premium_mg": 30,
+        "co_excipient": null
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "33.42 ± 0.55",
+        "carr_index_percent_mean_sd": "14.32 ± 0.23",
+        "hausner_ratio_mean_sd": "1.16 ± 0.18"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.5 ± 0.17",
+        "diameter_mm_mean_sd": "8.0 ± 0.28",
+        "friability_percent_mean_sd": "0.21 ± 0.12",
+        "hardness_kg_cm2_mean_sd": "7.8 ± 0.51",
+        "weight_mg_mean_sd": "202 ± 0.26",
+        "assay_percent": 99.11
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 98.88,
+        "release_kinetics": {
+          "first_order_r2": 0.353,
+          "zero_order_r2": 0.966,
+          "hixson_crowell_r2": 0.891,
+          "higuchi_r2": 0.965,
+          "power_law_r2": 0.965,
+          "n_value": 0.605,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 35.73,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 18.5},
+          {"time_h": 1, "cumulative_release_percent": 32.0},
+          {"time_h": 2, "cumulative_release_percent": 48.5},
+          {"time_h": 3, "cumulative_release_percent": 60.0},
+          {"time_h": 4, "cumulative_release_percent": 69.5},
+          {"time_h": 5, "cumulative_release_percent": 76.5},
+          {"time_h": 6, "cumulative_release_percent": 82.0},
+          {"time_h": 8, "cumulative_release_percent": 88.5},
+          {"time_h": 10, "cumulative_release_percent": 93.0},
+          {"time_h": 12, "cumulative_release_percent": 96.0},
+          {"time_h": 18, "cumulative_release_percent": 98.2},
+          {"time_h": 24, "cumulative_release_percent": 98.9}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10FP (10:3)",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 69,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_fp_premium_mg": 30,
+        "co_excipient": null
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "32.20 ± 0.65",
+        "carr_index_percent_mean_sd": "13.56 ± 0.48",
+        "hausner_ratio_mean_sd": "1.15 ± 0.53"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.4 ± 0.23",
+        "diameter_mm_mean_sd": "8.0 ± 0.37",
+        "friability_percent_mean_sd": "0.19 ± 0.16",
+        "hardness_kg_cm2_mean_sd": "9.5 ± 0.37",
+        "weight_mg_mean_sd": "201 ± 0.25",
+        "assay_percent": 99.06
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 99.34,
+        "release_kinetics": {
+          "first_order_r2": 0.391,
+          "zero_order_r2": 0.977,
+          "hixson_crowell_r2": 0.926,
+          "higuchi_r2": 0.977,
+          "power_law_r2": 0.976,
+          "n_value": 0.721,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 40.03,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 17.0},
+          {"time_h": 1, "cumulative_release_percent": 30.5},
+          {"time_h": 2, "cumulative_release_percent": 47.0},
+          {"time_h": 3, "cumulative_release_percent": 59.0},
+          {"time_h": 4, "cumulative_release_percent": 68.5},
+          {"time_h": 5, "cumulative_release_percent": 76.0},
+          {"time_h": 6, "cumulative_release_percent": 81.5},
+          {"time_h": 8, "cumulative_release_percent": 88.0},
+          {"time_h": 10, "cumulative_release_percent": 93.0},
+          {"time_h": 12, "cumulative_release_percent": 96.0},
+          {"time_h": 18, "cumulative_release_percent": 98.5},
+          {"time_h": 24, "cumulative_release_percent": 99.3}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10P (10:4)",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 59,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_premium_mg": 40,
+        "co_excipient": null
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "30.13 ± 0.78",
+        "carr_index_percent_mean_sd": "11.65 ± 0.52",
+        "hausner_ratio_mean_sd": "1.12 ± 0.27"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.5 ± 0.33",
+        "diameter_mm_mean_sd": "8.0 ± 0.19",
+        "friability_percent_mean_sd": "0.23 ± 0.23",
+        "hardness_kg_cm2_mean_sd": "8.5 ± 0.46",
+        "weight_mg_mean_sd": "203 ± 0.19",
+        "assay_percent": 98.67
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 95.32,
+        "release_kinetics": {
+          "first_order_r2": 0.382,
+          "zero_order_r2": 0.987,
+          "hixson_crowell_r2": 0.929,
+          "higuchi_r2": 0.988,
+          "power_law_r2": 0.954,
+          "n_value": 0.986,
+          "mechanism": "Anomalous non-Fickian diffusion (approaching zero-order)"
+        },
+        "f1_vs_reference": 40.72,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 12.5},
+          {"time_h": 1, "cumulative_release_percent": 23.0},
+          {"time_h": 2, "cumulative_release_percent": 37.0},
+          {"time_h": 3, "cumulative_release_percent": 48.5},
+          {"time_h": 4, "cumulative_release_percent": 58.0},
+          {"time_h": 5, "cumulative_release_percent": 66.0},
+          {"time_h": 6, "cumulative_release_percent": 72.5},
+          {"time_h": 8, "cumulative_release_percent": 82.0},
+          {"time_h": 10, "cumulative_release_percent": 87.5},
+          {"time_h": 12, "cumulative_release_percent": 91.0},
+          {"time_h": 18, "cumulative_release_percent": 94.5},
+          {"time_h": 24, "cumulative_release_percent": 95.3}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10FP (10:4)",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 59,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_fp_premium_mg": 40,
+        "co_excipient": null
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "33.98 ± 0.69",
+        "carr_index_percent_mean_sd": "14.73 ± 0.38",
+        "hausner_ratio_mean_sd": "1.15 ± 0.56"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.4 ± 0.26",
+        "diameter_mm_mean_sd": "8.0 ± 0.17",
+        "friability_percent_mean_sd": "0.18 ± 0.22",
+        "hardness_kg_cm2_mean_sd": "9.2 ± 0.58",
+        "weight_mg_mean_sd": "202 ± 0.14",
+        "assay_percent": 99.14
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 91.14,
+        "release_kinetics": {
+          "first_order_r2": 0.459,
+          "zero_order_r2": 0.990,
+          "hixson_crowell_r2": 0.903,
+          "higuchi_r2": 0.990,
+          "power_law_r2": 0.993,
+          "n_value": 0.632,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 50.13,
+        "optimized": true,
+        "in_vivo_pharmacokinetics": {
+          "t12_h_mean_sd": "11.78 ± 0.018",
+          "tmax_h_mean_sd": "8.0 ± 0.091",
+          "cmax_μg_ml_mean_sd": "204.45 ± 0.289",
+          "auc0_μg_h_ml_mean_sd": "5931.10 ± 1.232",
+          "auc0_inf_μg_h_ml_mean_sd": "7348.46 ± 0.234",
+          "mrt0_48h_h_mean_sd": "17.34 ± 0.184",
+          "cl_ml_min_mean_sd": "0.002 ± 0.134"
+        },
+        "ivivc_r2": 0.985,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 10.5},
+          {"time_h": 1, "cumulative_release_percent": 19.5},
+          {"time_h": 2, "cumulative_release_percent": 32.0},
+          {"time_h": 3, "cumulative_release_percent": 42.5},
+          {"time_h": 4, "cumulative_release_percent": 51.5},
+          {"time_h": 5, "cumulative_release_percent": 59.5},
+          {"time_h": 6, "cumulative_release_percent": 66.5},
+          {"time_h": 8, "cumulative_release_percent": 76.5},
+          {"time_h": 10, "cumulative_release_percent": 83.0},
+          {"time_h": 12, "cumulative_release_percent": 87.0},
+          {"time_h": 18, "cumulative_release_percent": 90.5},
+          {"time_h": 24, "cumulative_release_percent": 91.1}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10P (10:5)",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 49,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_premium_mg": 50,
+        "co_excipient": null
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "31.25 ± 0.46",
+        "carr_index_percent_mean_sd": "12.78 ± 2.34",
+        "hausner_ratio_mean_sd": "1.14 ± 0.49"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.5 ± 0.18",
+        "diameter_mm_mean_sd": "8.0 ± 0.34",
+        "friability_percent_mean_sd": "0.24 ± 0.19",
+        "hardness_kg_cm2_mean_sd": "8.3 ± 0.46",
+        "weight_mg_mean_sd": "200 ± 0.26",
+        "assay_percent": 98.77
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 84.39,
+        "release_kinetics": {
+          "first_order_r2": 0.463,
+          "zero_order_r2": 0.993,
+          "hixson_crowell_r2": 0.957,
+          "higuchi_r2": 0.993,
+          "power_law_r2": 0.968,
+          "n_value": 0.795,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 52.96,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 8.0},
+          {"time_h": 1, "cumulative_release_percent": 15.5},
+          {"time_h": 2, "cumulative_release_percent": 27.0},
+          {"time_h": 3, "cumulative_release_percent": 36.5},
+          {"time_h": 4, "cumulative_release_percent": 44.5},
+          {"time_h": 5, "cumulative_release_percent": 51.5},
+          {"time_h": 6, "cumulative_release_percent": 57.5},
+          {"time_h": 8, "cumulative_release_percent": 67.5},
+          {"time_h": 10, "cumulative_release_percent": 74.5},
+          {"time_h": 12, "cumulative_release_percent": 79.0},
+          {"time_h": 18, "cumulative_release_percent": 83.0},
+          {"time_h": 24, "cumulative_release_percent": 84.4}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10FP (10:5)",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 49,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_fp_premium_mg": 50,
+        "co_excipient": null
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "32.77 ± 0.63",
+        "carr_index_percent_mean_sd": "13.58 ± 1.12",
+        "hausner_ratio_mean_sd": "1.15 ± 1.16"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.5 ± 0.26",
+        "diameter_mm_mean_sd": "8.0 ± 0.16",
+        "friability_percent_mean_sd": "0.17 ± 0.35",
+        "hardness_kg_cm2_mean_sd": "9.5 ± 0.35",
+        "weight_mg_mean_sd": "202 ± 0.17",
+        "assay_percent": 98.70
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 84.39,
+        "release_kinetics": {
+          "first_order_r2": 0.429,
+          "zero_order_r2": 0.985,
+          "hixson_crowell_r2": 0.907,
+          "higuchi_r2": 0.987,
+          "power_law_r2": 0.967,
+          "n_value": 0.858,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 58.22,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 7.5},
+          {"time_h": 1, "cumulative_release_percent": 14.5},
+          {"time_h": 2, "cumulative_release_percent": 25.5},
+          {"time_h": 3, "cumulative_release_percent": 34.5},
+          {"time_h": 4, "cumulative_release_percent": 42.5},
+          {"time_h": 5, "cumulative_release_percent": 49.5},
+          {"time_h": 6, "cumulative_release_percent": 55.5},
+          {"time_h": 8, "cumulative_release_percent": 65.5},
+          {"time_h": 10, "cumulative_release_percent": 73.0},
+          {"time_h": 12, "cumulative_release_percent": 78.0},
+          {"time_h": 18, "cumulative_release_percent": 82.5},
+          {"time_h": 24, "cumulative_release_percent": 84.4}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10P (10:5) with HPMC",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 44.1,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_premium_mg": 50,
+        "co_excipient": "HPMC",
+        "co_excipient_mg": 4.9
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "30.51 ± 0.28",
+        "carr_index_percent_mean_sd": "11.68 ± 0.33",
+        "hausner_ratio_mean_sd": "1.14 ± 0.18"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.5 ± 0.43",
+        "diameter_mm_mean_sd": "8.0 ± 0.09",
+        "friability_percent_mean_sd": "0.09 ± 0.25",
+        "hardness_kg_cm2_mean_sd": "8.8 ± 0.07",
+        "weight_mg_mean_sd": "198 ± 0.14",
+        "assay_percent": 99.06
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 98.91,
+        "release_kinetics": {
+          "first_order_r2": 0.356,
+          "zero_order_r2": 0.990,
+          "hixson_crowell_r2": 0.927,
+          "higuchi_r2": 0.993,
+          "power_law_r2": 0.977,
+          "n_value": 0.537,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 45.41,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 24.5},
+          {"time_h": 1, "cumulative_release_percent": 42.0},
+          {"time_h": 2, "cumulative_release_percent": 60.0},
+          {"time_h": 3, "cumulative_release_percent": 71.5},
+          {"time_h": 4, "cumulative_release_percent": 79.0},
+          {"time_h": 5, "cumulative_release_percent": 84.5},
+          {"time_h": 6, "cumulative_release_percent": 88.5},
+          {"time_h": 8, "cumulative_release_percent": 93.0},
+          {"time_h": 10, "cumulative_release_percent": 95.5},
+          {"time_h": 12, "cumulative_release_percent": 97.0},
+          {"time_h": 18, "cumulative_release_percent": 98.5},
+          {"time_h": 24, "cumulative_release_percent": 98.9}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10FP (10:5) with HPMC",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 44.1,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_fp_premium_mg": 50,
+        "co_excipient": "HPMC",
+        "co_excipient_mg": 4.9
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "28.12 ± 0.36",
+        "carr_index_percent_mean_sd": "9.56 ± 0.50",
+        "hausner_ratio_mean_sd": "1.07 ± 0.48"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.4 ± 0.10",
+        "diameter_mm_mean_sd": "8.0 ± 0.20",
+        "friability_percent_mean_sd": "0.13 ± 0.34",
+        "hardness_kg_cm2_mean_sd": "9.8 ± 0.09",
+        "weight_mg_mean_sd": "200 ± 0.33",
+        "assay_percent": 99.25
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 97.38,
+        "release_kinetics": {
+          "first_order_r2": 0.347,
+          "zero_order_r2": 0.992,
+          "hixson_crowell_r2": 0.948,
+          "higuchi_r2": 0.993,
+          "power_law_r2": 0.939,
+          "n_value": 0.585,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 48.27,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 22.0},
+          {"time_h": 1, "cumulative_release_percent": 39.0},
+          {"time_h": 2, "cumulative_release_percent": 57.0},
+          {"time_h": 3, "cumulative_release_percent": 69.0},
+          {"time_h": 4, "cumulative_release_percent": 77.0},
+          {"time_h": 5, "cumulative_release_percent": 83.0},
+          {"time_h": 6, "cumulative_release_percent": 87.0},
+          {"time_h": 8, "cumulative_release_percent": 92.0},
+          {"time_h": 10, "cumulative_release_percent": 94.5},
+          {"time_h": 12, "cumulative_release_percent": 96.0},
+          {"time_h": 18, "cumulative_release_percent": 97.0},
+          {"time_h": 24, "cumulative_release_percent": 97.4}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10P (10:5) with CMC",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 44.1,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_premium_mg": 50,
+        "co_excipient": "CMC",
+        "co_excipient_mg": 4.9
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "29.71 ± 0.13",
+        "carr_index_percent_mean_sd": "10.84 ± 0.15",
+        "hausner_ratio_mean_sd": "1.10 ± 0.23"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.5 ± 0.31",
+        "diameter_mm_mean_sd": "8.0 ± 0.51",
+        "friability_percent_mean_sd": "0.05 ± 0.07",
+        "hardness_kg_cm2_mean_sd": "8.5 ± 0.28",
+        "weight_mg_mean_sd": "203 ± 0.11",
+        "assay_percent": 98.58
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 96.55,
+        "release_kinetics": {
+          "first_order_r2": 0.346,
+          "zero_order_r2": 0.987,
+          "hixson_crowell_r2": 0.865,
+          "higuchi_r2": 0.993,
+          "power_law_r2": 0.962,
+          "n_value": 0.523,
+          "mechanism": "Anomalous non-Fickian diffusion (close to Fickian)"
+        },
+        "f1_vs_reference": 44.51,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 23.5},
+          {"time_h": 1, "cumulative_release_percent": 41.0},
+          {"time_h": 2, "cumulative_release_percent": 59.0},
+          {"time_h": 3, "cumulative_release_percent": 70.5},
+          {"time_h": 4, "cumulative_release_percent": 78.5},
+          {"time_h": 5, "cumulative_release_percent": 84.0},
+          {"time_h": 6, "cumulative_release_percent": 87.5},
+          {"time_h": 8, "cumulative_release_percent": 92.0},
+          {"time_h": 10, "cumulative_release_percent": 94.5},
+          {"time_h": 12, "cumulative_release_percent": 95.5},
+          {"time_h": 18, "cumulative_release_percent": 96.0},
+          {"time_h": 24, "cumulative_release_percent": 96.6}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10FP (10:5) with CMC",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 44.1,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_fp_premium_mg": 50,
+        "co_excipient": "CMC",
+        "co_excipient_mg": 4.9
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "30.14 ± 0.32",
+        "carr_index_percent_mean_sd": "11.14 ± 0.82",
+        "hausner_ratio_mean_sd": "1.14 ± 0.30"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.4 ± 0.28",
+        "diameter_mm_mean_sd": "8.0 ± 0.14",
+        "friability_percent_mean_sd": "0.25 ± 0.11",
+        "hardness_kg_cm2_mean_sd": "9.3 ± 0.33",
+        "weight_mg_mean_sd": "202 ± 0.44",
+        "assay_percent": 98.85
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 98.0,
+        "release_kinetics": {
+          "first_order_r2": 0.316,
+          "zero_order_r2": 0.994,
+          "hixson_crowell_r2": 0.919,
+          "higuchi_r2": 0.995,
+          "power_law_r2": 0.957,
+          "n_value": 0.540,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 47.23,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 22.0},
+          {"time_h": 1, "cumulative_release_percent": 39.0},
+          {"time_h": 2, "cumulative_release_percent": 57.0},
+          {"time_h": 3, "cumulative_release_percent": 69.5},
+          {"time_h": 4, "cumulative_release_percent": 78.0},
+          {"time_h": 5, "cumulative_release_percent": 84.0},
+          {"time_h": 6, "cumulative_release_percent": 88.0},
+          {"time_h": 8, "cumulative_release_percent": 93.0},
+          {"time_h": 10, "cumulative_release_percent": 95.5},
+          {"time_h": 12, "cumulative_release_percent": 96.5},
+          {"time_h": 18, "cumulative_release_percent": 97.5},
+          {"time_h": 24, "cumulative_release_percent": 98.0}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10P (10:5) with starch",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 44.1,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_premium_mg": 50,
+        "co_excipient": "starch",
+        "co_excipient_mg": 4.9
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "30.26 ± 1.73",
+        "carr_index_percent_mean_sd": "11.25 ± 0.40",
+        "hausner_ratio_mean_sd": "1.13 ± 0.45"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.5 ± 0.41",
+        "diameter_mm_mean_sd": "8.0 ± 0.19",
+        "friability_percent_mean_sd": "0.13 ± 0.21",
+        "hardness_kg_cm2_mean_sd": "8.5 ± 0.21",
+        "weight_mg_mean_sd": "200 ± 0.18",
+        "assay_percent": 98.57
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 96.66,
+        "release_kinetics": {
+          "first_order_r2": 0.454,
+          "zero_order_r2": 0.984,
+          "hixson_crowell_r2": 0.967,
+          "higuchi_r2": 0.986,
+          "power_law_r2": 0.948,
+          "n_value": 0.548,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 47.12,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 23.0},
+          {"time_h": 1, "cumulative_release_percent": 40.5},
+          {"time_h": 2, "cumulative_release_percent": 58.5},
+          {"time_h": 3, "cumulative_release_percent": 70.0},
+          {"time_h": 4, "cumulative_release_percent": 78.0},
+          {"time_h": 5, "cumulative_release_percent": 83.5},
+          {"time_h": 6, "cumulative_release_percent": 87.5},
+          {"time_h": 8, "cumulative_release_percent": 92.0},
+          {"time_h": 10, "cumulative_release_percent": 94.5},
+          {"time_h": 12, "cumulative_release_percent": 95.5},
+          {"time_h": 18, "cumulative_release_percent": 96.2},
+          {"time_h": 24, "cumulative_release_percent": 96.7}
+        ]
+      }
+    },
+    {
+      "batch_name": "Ethocel 10FP (10:5) with starch",
+      "composition": {
+        "losartan_potassium_mg": 100,
+        "spray_dried_lactose_mg": 44.1,
+        "magnesium_stearate_mg": 1.0,
+        "ethocel_10_fp_premium_mg": 50,
+        "co_excipient": "starch",
+        "co_excipient_mg": 4.9
+      },
+      "pre_compression_parameters": {
+        "angle_of_repose_mean_sd": "30.58 ± 0.24",
+        "carr_index_percent_mean_sd": "11.76 ± 0.14",
+        "hausner_ratio_mean_sd": "1.14 ± 0.28"
+      },
+      "tablet_properties": {
+        "thickness_mm_mean_sd": "2.4 ± 0.13",
+        "diameter_mm_mean_sd": "8.0 ± 0.30",
+        "friability_percent_mean_sd": "0.15 ± 0.25",
+        "hardness_kg_cm2_mean_sd": "9.3 ± 0.32",
+        "weight_mg_mean_sd": "199 ± 0.14",
+        "assay_percent": 98.83
+      },
+      "release_properties": {
+        "drug_release_24h_percent": 95.49,
+        "release_kinetics": {
+          "first_order_r2": 0.478,
+          "zero_order_r2": 0.986,
+          "hixson_crowell_r2": 0.969,
+          "higuchi_r2": 0.989,
+          "power_law_r2": 0.915,
+          "n_value": 0.619,
+          "mechanism": "Anomalous non-Fickian diffusion"
+        },
+        "f1_vs_reference": 49.31,
+        "release_profile": [
+          {"time_h": 0.5, "cumulative_release_percent": 21.0},
+          {"time_h": 1, "cumulative_release_percent": 37.5},
+          {"time_h": 2, "cumulative_release_percent": 55.0},
+          {"time_h": 3, "cumulative_release_percent": 67.0},
+          {"time_h": 4, "cumulative_release_percent": 75.5},
+          {"time_h": 5, "cumulative_release_percent": 81.5},
+          {"time_h": 6, "cumulative_release_percent": 85.5},
+          {"time_h": 8, "cumulative_release_percent": 90.5},
+          {"time_h": 10, "cumulative_release_percent": 93.0},
+          {"time_h": 12, "cumulative_release_percent": 94.5},
+          {"time_h": 18, "cumulative_release_percent": 95.2},
+          {"time_h": 24, "cumulative_release_percent": 95.5}
+        ]
+      }
+    }
+  ],
+  "reference_tablet_pharmacokinetics": {
+    "t12_h_mean_sd": "2.0 ± 0.125",
+    "tmax_h_mean_sd": "2.105 ± 1.131",
+    "cmax_μg_ml_mean_sd": "205.98 ± 0.321",
+    "auc0_μg_h_ml_mean_sd": "2534.12 ± 2.29",
+    "auc0_inf_μg_h_ml_mean_sd": "6415.32 ± 0.012",
+    "mrt0_48h_h_mean_sd": "9.98 ± 2.169",
+    "cl_ml_min_mean_sd": "0.005 ± 0.128"
+  }
+}

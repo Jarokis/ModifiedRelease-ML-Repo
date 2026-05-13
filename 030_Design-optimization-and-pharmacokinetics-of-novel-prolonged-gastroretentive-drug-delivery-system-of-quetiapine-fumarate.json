@@ -1,0 +1,529 @@
+{
+  "article_metadata": {
+    "title": "Design, optimization and pharmacokinetics of novel prolonged gastroretentive drug delivery system of quetiapine fumarate [file:1]",
+    "journal": "Journal of Pharmaceutical Investigation (2016) 46:453–465 [file:1]",
+    "doi": "10.1007/s40005-016-0237-0 [file:1]",
+    "sections_location": {
+      "abstract": "Beginning of article, immediately after title and author list. [file:1]",
+      "introduction": "Section titled 'Introduction' following the abstract. [file:1]",
+      "materials_and_methods": "Section titled 'Materials and methods' including subsections Materials, Methods, Preparation of bilayer tablets, Tablet characterization, In vitro drug release, In vivo pharmacokinetics study, Stability study. [file:1]",
+      "results_and_discussion": "Section titled 'Results and discussion' including subsections Preparation and characterization of bilayer tablets, Optimization by response surface methodology, In vitro release kinetics, In vivo pharmacokinetics study, Stability study. [file:1]",
+      "conclusion": "Final section titled 'Conclusion'. [file:1]"
+    }
+  },
+
+  "materials_origin": {
+    "drug_and_excipients": {
+      "quetiapine_fumarate": "Gift sample from Torrent Pharmaceuticals Ltd., Ahmedabad, India. [file:1]",
+      "HPMC_K100M": "Hydroxypropyl methylcellulose K100M, received from Colorcon Asia Pvt. Ltd, Goa, India. [file:1]",
+      "Carbopol_971P": "Carbopol 971P, received from Colorcon Asia Pvt. Ltd, Goa, India. [file:1]",
+      "Polyox_303WSR": "Polyox 303 WSR, received from Colorcon Asia Pvt. Ltd, Goa, India. [file:1]",
+      "sodium_bicarbonate": "Purchased from ASES Chemical Works, India. [file:1]",
+      "fumaric_acid": "Purchased from ASES Chemical Works, India. [file:1]",
+      "magnesium_stearate": "Purchased from ASES Chemical Works, India. [file:1]",
+      "microcrystalline_cellulose": "Received from Xylopia Research Centre, Ahmedabad, India. [file:1]",
+      "Plasdone_S630": "Received from Xylopia Research Centre, Ahmedabad, India. [file:1]",
+      "sodium_alginate": "Received from Xylopia Research Centre, Ahmedabad, India. [file:1]",
+      "PEG_6000": "Source not separately specified; used as cushioning agent and bead component. [file:1]",
+      "mannitol": "Used in alginate beads; source not specified. [file:1]"
+    },
+    "biological_material": {
+      "goat_gastric_mucosa": "Obtained from a local slaughter house for ex vivo mucoadhesion testing. [file:1]"
+    },
+    "general_chemicals": "All analytical chemicals were of HPLC grade; specific suppliers not detailed. [file:1]"
+  },
+
+  "experimental_design_for_optimization": {
+    "design_type": "3^2 full factorial design applied separately to floating layer (FL) and matrix layer (ML). [file:1]",
+    "independent_variables": {
+      "FL": {
+        "X1_FL": {
+          "name": "Polyox 303WSR",
+          "levels_mg": {
+            "low": 80,
+            "medium": 100,
+            "high": 120
+          },
+          "effect_summary": "Positive effect on floating lag time, total floating time, and adhesion force. [file:1]"
+        },
+        "X2_FL": {
+          "name": "Alginate beads",
+          "levels_mg": {
+            "low": 50,
+            "medium": 75,
+            "high": 100
+          },
+          "effect_summary": "Decreases floating lag time, increases total floating time and adhesion force. [file:1]"
+        }
+      },
+      "ML": {
+        "X1_ML": {
+          "name": "HPMC K100M",
+          "levels_mg": {
+            "low": 100,
+            "medium": 125,
+            "high": 150
+          },
+          "effect_summary": "Negative effect on Q2h, Q8h, Q18h (slows drug release). [file:1]"
+        },
+        "X2_ML": {
+          "name": "Fumaric acid",
+          "levels_mg": {
+            "low": 100,
+            "medium": 120,
+            "high": 140
+          },
+          "effect_summary": "Positive effect on Q2h, Q8h, Q18h (facilitates drug release via acidic microenvironment). [file:1]"
+        }
+      }
+    },
+    "responses": {
+      "FL": {
+        "R1_FL": "Floating lag time (h). [file:1]",
+        "R2_FL": "Total floating time (h). [file:1]",
+        "R3_FL": "Adhesion force (N). [file:1]"
+      },
+      "ML": {
+        "R1_ML": "Q2h, % drug released at 2 h. [file:1]",
+        "R2_ML": "Q8h, % drug released at 8 h. [file:1]",
+        "R3_ML": "Q18h, % drug released at 18 h. [file:1]"
+      }
+    },
+    "modeling": {
+      "general_polynomial_form": "Y = β0 + β1X1 + β2X2 + β3X1X2 + β4X1^2 + β5X2^2 + β6X1^2X2 + β7X1X2^2. [file:1]",
+      "FL_reduced_models": {
+        "R1_FL": "R1_FL = 5.69 + 0.73X1 - 0.32X2 - 0.23X1^2X2. [file:1]",
+        "R2_FL": "R2_FL = 11.66 + 2.52X1 + 0.73X2 + 0.30X1X2 + 0.52X1^2 + 0.13X1^2X2. [file:1]",
+        "R3_FL": "R3_FL = 0.56 + 0.27X1 + 0.029X1X2 + 0.04X1^2. [file:1]"
+      },
+      "ML_reduced_models": {
+        "R1_ML": "R1_ML = 21.59 - 3.82X1 + 1.4X2 - 0.32X1X2 - 0.58X1^2 + 0.32X2^2 + 1.07X1^2X2. [file:1]",
+        "R2_ML": "R2_ML = 66.19 - 4.57X1 + 4.6X2 + 1.3X1X2. [file:1]",
+        "R3_ML": "R3_ML = 91.57 - 2.2X1 + 5.45X2 - 1.87X1X2 - 3.57X1^2. [file:1]"
+      },
+      "checkpoint_validation": {
+        "checkpoint_batches": ["CFL1", "CFL2", "CML1", "CML2"],
+        "max_relative_error_percent": "Below 5% for all responses at 5% significance level. [file:1]"
+      },
+      "optimization_method": "Desirability function approach using Design-Expert software (Version 7). [file:1]"
+    }
+  },
+
+  "full_composition_FF1_to_FF9": {
+    "common_components": {
+      "FL_layer_fixed_mg_per_tablet": {
+        "HPMC_K100M": 50,
+        "Carbopol_971P": 40,
+        "Plasdone_S630": 15,
+        "PEG_6000": 15,
+        "Magnesium_stearate": 5,
+        "MCC": "q.s. to 350 mg FL layer total [file:1]"
+      },
+      "ML_layer_fixed_mg_per_tablet": {
+        "Quetiapine_fumarate": 345.75,
+        "Plasdone_S630": 35,
+        "Magnesium_stearate": 15,
+        "MCC": "q.s. to 700 mg ML layer total [file:1]"
+      },
+      "floating_alginate_beads_composition_per_100ml_casting_mixture": {
+        "Sodium_alginate": "4% w/v",
+        "NaHCO3": "4% w/v",
+        "PEG_6000": "2% w/v",
+        "Mannitol": "1% w/v [file:1]"
+      },
+      "bead_curing_solution": "2% w/v CaCl2 and 10% v/v glacial acetic acid in 200 ml ionizing solution. [file:1]"
+    },
+    "variable_components_mg_per_tablet": {
+      "FF1": {
+        "FL": {
+          "Polyox_303WSR_X1FL": 80,
+          "Alginate_beads_X2FL": 50
+        },
+        "ML": {
+          "HPMC_K100M_X1ML": 100,
+          "Fumaric_acid_X2ML": 100
+        }
+      },
+      "FF2": {
+        "FL": {
+          "Polyox_303WSR_X1FL": 80,
+          "Alginate_beads_X2FL": 75
+        },
+        "ML": {
+          "HPMC_K100M_X1ML": 100,
+          "Fumaric_acid_X2ML": 120
+        }
+      },
+      "FF3": {
+        "FL": {
+          "Polyox_303WSR_X1FL": 80,
+          "Alginate_beads_X2FL": 100
+        },
+        "ML": {
+          "HPMC_K100M_X1ML": 100,
+          "Fumaric_acid_X2ML": 140
+        }
+      },
+      "FF4": {
+        "FL": {
+          "Polyox_303WSR_X1FL": 100,
+          "Alginate_beads_X2FL": 50
+        },
+        "ML": {
+          "HPMC_K100M_X1ML": 125,
+          "Fumaric_acid_X2ML": 100
+        }
+      },
+      "FF5": {
+        "FL": {
+          "Polyox_303WSR_X1FL": 100,
+          "Alginate_beads_X2FL": 75
+        },
+        "ML": {
+          "HPMC_K100M_X1ML": 125,
+          "Fumaric_acid_X2ML": 120
+        }
+      },
+      "FF6": {
+        "FL": {
+          "Polyox_303WSR_X1FL": 100,
+          "Alginate_beads_X2FL": 100
+        },
+        "ML": {
+          "HPMC_K100M_X1ML": 125,
+          "Fumaric_acid_X2ML": 140
+        }
+      },
+      "FF7": {
+        "FL": {
+          "Polyox_303WSR_X1FL": 120,
+          "Alginate_beads_X2FL": 50
+        },
+        "ML": {
+          "HPMC_K100M_X1ML": 150,
+          "Fumaric_acid_X2ML": 100
+        }
+      },
+      "FF8": {
+        "FL": {
+          "Polyox_303WSR_X1FL": 120,
+          "Alginate_beads_X2FL": 75
+        },
+        "ML": {
+          "HPMC_K100M_X1ML": 150,
+          "Fumaric_acid_X2ML": 120
+        }
+      },
+      "FF9": {
+        "FL": {
+          "Polyox_303WSR_X1FL": 120,
+          "Alginate_beads_X2FL": 100
+        },
+        "ML": {
+          "HPMC_K100M_X1ML": 150,
+          "Fumaric_acid_X2ML": 140
+        }
+      }
+    },
+    "total_layer_weights_mg_per_tablet": {
+      "FL_layer": 350,
+      "ML_layer": 700,
+      "total_tablet": 1050
+    },
+    "preparation_notes": {
+      "FL_blend": "Matrix granules (fixed + variable Polyox + lubricants) blended with alginate beads for 10 min [file:1]",
+      "ML_blend": "Matrix granules (QF + HPMC + fumaric acid + fixed excipients) [file:1]",
+      "compression_sequence": "ML blend compressed first, then FL blend on top using 17×9 mm oval D tooling [file:1]"
+    },
+    "source": "Table 1 (compositions), Table 2 (factorial layout) [file:1]"
+  },
+
+  "ingredients_identification_and_assay": {
+    "drug_content_assay_tablets": {
+      "sample_preparation": "Twenty tablets powdered; accurate amount transferred to 200 ml volumetric flask, diluted with methanol, sonicated 15 min, filtered (0.45 µm), appropriately diluted. [file:1]",
+      "analysis_method": "HPLC method as per Reddy et al. (2011). [file:1]",
+      "content_uniformity_results_range_percent": "Approximately 97.4–102.4% for different batches (Table 4). [file:1]",
+      "absorbance_or_peak": "HPLC UV detection at 254 nm; chromatographic conditions detailed separately (plasma method). Specific tablet solution absorbance values not reported. [file:1]"
+    },
+    "plasma_HPLC_method_for_QF": {
+      "purpose": "Quantification of QF in rabbit plasma for pharmacokinetic study. [file:1]",
+      "linearity_range": "0.05–0.5 µg/ml with r^2 = 0.998. [file:1]",
+      "column": "Kromasil C18, 150 × 4.6 mm, 5 µm. [file:1]",
+      "mobile_phase": "Phosphate buffer pH 3.0 : acetonitrile : methanol (40:50:10). [file:1]",
+      "flow_rate_ml_min": 1.2,
+      "temperature_C": 40,
+      "sample_volume_ul": 100,
+      "detection_wavelength_nm": 254,
+      "runtime_min": 10,
+      "retention_time_min": "Approximately 6.4 min for QF. [file:1]"
+    }
+  },
+
+  "tablet_fabrication_and_quality_tests": {
+    "compression": {
+      "equipment": "10 station rotary tablet punching machine (Riddhi Pharma Machinery Ltd., India). [file:1]",
+      "tooling": "17 mm × 9 mm oval-shaped D tooling. [file:1]",
+      "sequence": "ML blend compressed first, then FL blend compressed on top to obtain bilayer tablets. [file:1]"
+    },
+    "granulation_process": {
+      "FL_granulation": "Wet granulation of powders (excluding Plasdone S630, Mg stearate, beads) using Plasdone S630 in isopropyl alcohol; sieving through #16, drying in FBD at 60 °C for 15 min, sizing through #30, lubrication with Mg stearate 10 min. [file:1]",
+      "ML_granulation": "Similar wet granulation using Plasdone S630 in isopropyl alcohol. [file:1]",
+      "bead_preparation": "Ionic gelation by dropping casting mixture via 20G needle into CaCl2/acetic acid solution with stirring; curing 15 min, washing, drying 48 h at room temperature, sieving #20 to remove oversized beads. [file:1]"
+    },
+    "general_tablet_properties_all_factorial_batches": {
+      "hardness_kg_cm2_mean_SD": {
+        "FF1": "5.2 ± 0.4 [file:1]",
+        "FF2": "5.5 ± 0.3 [file:1]",
+        "FF3": "5.0 ± 0.4 [file:1]",
+        "FF4": "5.7 ± 0.3 [file:1]",
+        "FF5": "5.9 ± 0.2 [file:1]",
+        "FF6": "5.5 ± 0.2 [file:1]",
+        "FF7": "5.8 ± 0.5 [file:1]",
+        "FF8": "6.1 ± 0.2 [file:1]",
+        "FF9": "5.7 ± 0.3 [file:1]"
+      },
+      "friability_percent": {
+        "FF1": 0.46,
+        "FF2": 0.82,
+        "FF3": 0.55,
+        "FF4": 0.90,
+        "FF5": 0.72,
+        "FF6": 0.77,
+        "FF7": 0.82,
+        "FF8": 0.49,
+        "FF9": 0.61
+      },
+      "content_uniformity_percent": {
+        "FF1": 99.6,
+        "FF2": 102.4,
+        "FF3": 98.6,
+        "FF4": 100.3,
+        "FF5": 97.4,
+        "FF6": 100.1,
+        "FF7": 98.8,
+        "FF8": 99.2,
+        "FF9": 97.6
+      },
+      "swelling_index_8h_mean_SD_percent": {
+        "FF1": "235 ± 16.7 [file:1]",
+        "FF2": "250 ± 22.7 [file:1]",
+        "FF3": "244 ± 18.9 [file:1]",
+        "FF4": "294 ± 30.5 [file:1]",
+        "FF5": "309 ± 27.7 [file:1]",
+        "FF6": "288 ± 20.1 [file:1]",
+        "FF7": "360 ± 33.3 [file:1]",
+        "FF8": "347 ± 29.5 [file:1]",
+        "FF9": "335 ± 32.4 [file:1]"
+      }
+    }
+  },
+
+  "process_parameters": {
+    "drying_process": {
+      "FBD_equipment": "Fluid bed drier (Cronimach Machinery, Ahmedabad, India). [file:1]",
+      "temperature_C": 60,
+      "time_min": 15
+    },
+    "beads_curing": {
+      "curing_time_min": 15,
+      "curing_medium": "2% w/v CaCl2 + 10% v/v glacial acetic acid in 200 ml solution, continuous stirring. [file:1]",
+      "drying_conditions": "Room temperature, 48 h. [file:1]"
+    },
+    "dissolution_testing_conditions": {
+      "apparatus": "USP type II (paddle), Veego DA-6D, India. [file:1]",
+      "medium": "900 ml pH 1.2 HCl buffer; for pH effect study also pH 3.0 medium. [file:1]",
+      "temperature_C": 37,
+      "temperature_tolerance": "±0.5 °C. [file:1]",
+      "rotation_speed_rpm": 50,
+      "sampling": "5 ml aliquots at specified times, replacement with fresh medium. [file:1]"
+    },
+    "mucoadhesion_test": {
+      "apparatus": "Modified analytical two-pan balance with goat gastric mucosa in pH 1.2 buffer at 37 ± 0.5 °C. [file:1]",
+      "preload_mg": 50,
+      "adhesion_force_calculation": "Adhesion force (N) = (Mucoadhesion force/1000) × 9.8. [file:1]"
+    }
+  },
+
+  "release_properties_and_kinetics": {
+    "in_vitro_release_profiles": {
+      "FF1_to_FF9": {
+        "Q2h_percent_mean_SD": {
+          "FF1": "21.34 ± 1.3 [file:1]",
+          "FF2": "21.94 ± 1.6 [file:1]",
+          "FF3": "22.95 ± 0.8 [file:1]",
+          "FF4": "20.03 ± 1.1 [file:1]",
+          "FF5": "21.57 ± 0.2 [file:1]",
+          "FF6": "21.5 ± 1.9 [file:1]",
+          "FF7": "19.67 ± 2.0 [file:1]",
+          "FF8": "20.89 ± 1.3 [file:1]",
+          "FF9": "21.32 ± 1.5 [file:1]"
+        },
+        "Q8h_percent_mean_SD": {
+          "FF1": "56.6 ± 3.3 [file:1]",
+          "FF2": "60.4 ± 2.6 [file:1]",
+          "FF3": "60.94 ± 2.8 [file:1]",
+          "FF4": "48.8 ± 2.5 [file:1]",
+          "FF5": "57.22 ± 3.0 [file:1]",
+          "FF6": "56.63 ± 2.0 [file:1]",
+          "FF7": "47.71 ± 3.1 [file:1]",
+          "FF8": "54.34 ± 2.1 [file:1]",
+          "FF9": "55.49 ± 2.4 [file:1]"
+        },
+        "Q18h_percent_mean_SD": {
+          "FF1": "92.01 ± 4.5 [file:1]",
+          "FF2": "96.31 ± 3.3 [file:1]",
+          "FF3": "98.92 ± 3.0 [file:1]",
+          "FF4": "87.23 ± 2.2 [file:1]",
+          "FF5": "93.72 ± 4.4 [file:1]",
+          "FF6": "96.8 ± 3.1 [file:1]",
+          "FF7": "85.5 ± 2.7 [file:1]",
+          "FF8": "90.58 ± 3.3 [file:1]",
+          "FF9": "92.6 ± 4.0 [file:1]"
+        },
+        "qualitative_profile": "All batches showed similar release up to ~10 h, with divergence thereafter due to different polymer/acidifier levels. [file:1]"
+      },
+      "optimized_batch_OP": {
+        "pH_independence": "Dissolution at pH 1.2 and 3.0 showed similarity factor f2 > 70, indicating minimal pH effect. [file:1]",
+        "kinetic_models_fitting": {
+          "zero_order_R2": 0.7569,
+          "first_order_R2": 0.9942,
+          "Higuchi_R2": 0.9835,
+          "Korsmeyer_Peppas_R2": 0.9835,
+          "Hixson_Crowell_R2": 0.9867,
+          "Weibull_R2": 0.9946,
+          "best_fit_model": "Weibull (highest R2, lowest SSR and F value). [file:1]"
+        },
+        "Korsmeyer_Peppas_n": "0.494, indicating anomalous (non-Fickian) transport. [file:1]"
+      }
+    },
+    "buoyancy_and_mucoadhesion_FF1_to_FF9": {
+      "floating_lag_time_h_mean_SD": {
+        "FF1": "5.45 ± 0.16 [file:1]",
+        "FF2": "5.07 ± 0.10 [file:1]",
+        "FF3": "4.43 ± 0.21 [file:1]",
+        "FF4": "5.99 ± 0.11 [file:1]",
+        "FF5": "5.59 ± 0.14 [file:1]",
+        "FF6": "5.35 ± 0.25 [file:1]",
+        "FF7": "7.02 ± 0.20 [file:1]",
+        "FF8": "6.50 ± 0.27 [file:1]",
+        "FF9": "5.83 ± 0.21 [file:1]"
+      },
+      "total_floating_time_h_mean_SD": {
+        "FF1": "9.10 ± 0.53 [file:1]",
+        "FF2": "9.67 ± 0.77 [file:1]",
+        "FF3": "10.22 ± 0.21 [file:1]",
+        "FF4": "10.93 ± 0.80 [file:1]",
+        "FF5": "11.65 ± 0.16 [file:1]",
+        "FF6": "12.40 ± 0.32 [file:1]",
+        "FF7": "13.52 ± 0.29 [file:1]",
+        "FF8": "14.73 ± 0.37 [file:1]",
+        "FF9": "15.85 ± 0.59 [file:1]"
+      },
+      "adhesion_force_N_mean_SD": {
+        "FF1": "0.347 ± 0.04 [file:1]",
+        "FF2": "0.335 ± 0.02 [file:1]",
+        "FF3": "0.322 ± 0.05 [file:1]",
+        "FF4": "0.474 ± 0.02 [file:1]",
+        "FF5": "0.455 ± 0.04 [file:1]",
+        "FF6": "0.449 ± 0.05 [file:1]",
+        "FF7": "0.605 ± 0.03 [file:1]",
+        "FF8": "0.592 ± 0.03 [file:1]",
+        "FF9": "0.598 ± 0.01 [file:1]"
+      }
+    }
+  },
+
+  "stability_of_optimized_batch_OP": {
+    "conditions": "40 ± 2 °C / 75% RH ± 5% RH for 3 months in amber glass bottles. [file:1]",
+    "physical_observations": "No notable change in appearance, colour, texture. [file:1]",
+    "physical_parameters_over_time": {
+      "average_weight_mg": {
+        "initial": 1022.7,
+        "1_month": 1005.8,
+        "2_months": 1031.5,
+        "3_months": 1015.4
+      },
+      "friability_percent": {
+        "initial": 0.82,
+        "1_month": 0.69,
+        "2_months": 0.91,
+        "3_months": 0.83
+      },
+      "hardness_kg_cm2_mean_SD": {
+        "initial": "5.5 ± 0.3 [file:1]",
+        "1_month": "5.8 ± 0.4 [file:1]",
+        "2_months": "5.2 ± 0.2 [file:1]",
+        "3_months": "5.4 ± 0.3 [file:1]"
+      },
+      "drug_content_percent": {
+        "initial": 102.27,
+        "1_month": 98.12,
+        "2_months": 96.82,
+        "3_months": 94.51
+      }
+    },
+    "in_vitro_release_key_points": {
+      "Q2h_percent": {
+        "initial": "28.3 ± 1.1 [file:1]",
+        "1_month": "26.1 ± 1.3 [file:1]",
+        "2_months": "27.7 ± 2.1 [file:1]",
+        "3_months": "27.0 ± 1.8 [file:1]"
+      },
+      "Q8h_percent": {
+        "initial": "58.2 ± 1.4 [file:1]",
+        "1_month": "56.8 ± 2.9 [file:1]",
+        "2_months": "57.2 ± 2.0 [file:1]",
+        "3_months": "57.8 ± 2.2 [file:1]"
+      },
+      "Q18h_percent": {
+        "initial": "95.3 ± 2.2 [file:1]",
+        "1_month": "94.0 ± 3.8 [file:1]",
+        "2_months": "97.5 ± 2.9 [file:1]",
+        "3_months": "95.2 ± 2.7 [file:1]"
+      },
+      "similarity_factor_f2": {
+        "1_month": 69.3,
+        "2_months": 62.0,
+        "3_months": 65.4
+      }
+    }
+  },
+
+  "in_vivo_experimental_data": {
+    "pharmacokinetic_study_design": {
+      "species": "Healthy male New Zealand rabbits (2–3 kg). [file:1]",
+      "design": "Two-period crossover with 6 rabbits, 3 per group, washout 7 days. [file:1]",
+      "fasting": "24 h fast with free access to water before dosing. [file:1]",
+      "dosing": {
+        "OP_group": "Single animal-equivalent dose of optimized batch OP. [file:1]",
+        "MP_group": "Two animal-equivalent doses of immediate-release market product 150 mg given 12 h apart. [file:1]"
+      },
+      "administration": "Oral via catheter. [file:1]",
+      "sampling": "Blood from marginal ear vein at specified times; plasma stored at −70 °C. [file:1]"
+    },
+    "pharmacokinetic_parameters": {
+      "Cmax_ng_ml_mean_SD": {
+        "MP": "244.1 ± 11.3 [file:1]",
+        "OP": "190.1 ± 10.2 [file:1]"
+      },
+      "tmax_h_mean_SD": {
+        "MP": "5 ± 0.7 [file:1]",
+        "OP": "6 ± 0.5 [file:1]"
+      },
+      "kel_h_minus1": {
+        "MP": 0.24,
+        "OP": 0.10
+      },
+      "t_half_h": {
+        "MP": 2.89,
+        "OP": 6.93
+      },
+      "AUC0_inf_ng_h_ml_mean_SD": {
+        "MP": "1207.55 ± 165.4 [file:1]",
+        "OP": "1351.41 ± 117.5 [file:1]"
+      },
+      "relative_bioavailability": "OP shows ~12% higher AUC0–∞ compared with MP. [file:1]"
+    },
+    "plasma_profiles": "OP shows sustained, flatter concentration–time curve with prolonged levels vs. rapid peak and decline for MP. [file:1]"
+  }
+}

@@ -1,0 +1,526 @@
+{
+    "materials_origin": {
+        "caffeine": "Zentiva k.s, Prague, Czech Republic",
+        "hypromellose_hpmc_k4m": "Colorcon Limited, Dartford, UK",
+        "magnesium_aluminometasilicate_neusilin_us2": "Fuji Chemical Industries Co., Ltd., Toyoma, Japan",
+        "microcrystalline_cellulose_avicel_ph_102_mcc": "FMC Biopolymers, Rockland, ME, USA",
+        "magnesium_stearate": "Peter Greven, Bad Munstereifel, Germany",
+        "colloidal_sio2_aerosil_200": "Degussa, Vicenza, IT",
+        "sodium_chloride": "Sigma-Aldrich, St. Louis, MO, USA (implied for dissolution media)",
+        "hydrochloric_acid": "Not specified (lab reagent)",
+        "sodium_triphosphate": "Not specified",
+        "potassium_chloride": "Sigma-Aldrich, St. Louis, MO, USA",
+        "pepsin": "Sigma-Aldrich, St. Louis, MO, USA",
+        "acetic_acid": "Dr. Kulich Pharma, Hradec Kralove, Czech Republic",
+        "methanol": "Honeywell, Bucharest, RO"
+    },
+    "experimental_design_for_optimization": {
+        "ingredients_identification": "Powder blends were prepared by mixing ingredients in a 3-axial homogenizer Turbula (T2C WAB, Basel, CH) for 10 min.",
+        "absorbance_measurement": "Automated UV/Vis analysis at 275 nm was used for the USP 2 dissolution test. For the biorelevant study, HPLC analysis was performed at 294 nm using an Agilent 1250 Infinity apparatus."
+    },
+    "formulation_details": [
+        {
+            "batch": "053_M125",
+            "ingredients": {
+                "caffeine_mg": 100.0,
+                "hpmc_k4m_mg": 38.8,
+                "mcc_ph_102_mg": 25.0,
+                "neusilin_us2_mg": 0.0,
+                "aerosil_200_mg": 0.5,
+                "magnesium_stearate_mg": 2.5
+            },
+            "excipients": "HPMC K4M, MCC PH 102, Aerosil 200, Magnesium stearate",
+            "api": "Caffeine"
+        },
+        {
+            "batch": "053_M100",
+            "ingredients": {
+                "caffeine_mg": 100.0,
+                "hpmc_k4m_mg": 38.8,
+                "mcc_ph_102_mg": 50.0,
+                "neusilin_us2_mg": 0.0,
+                "aerosil_200_mg": 0.5,
+                "magnesium_stearate_mg": 2.5
+            },
+            "excipients": "HPMC K4M, MCC PH 102, Aerosil 200, Magnesium stearate",
+            "api": "Caffeine"
+        },
+        {
+            "batch": "053_M75",
+            "ingredients": {
+                "caffeine_mg": 100.0,
+                "hpmc_k4m_mg": 38.8,
+                "mcc_ph_102_mg": 75.0,
+                "neusilin_us2_mg": 0.0,
+                "aerosil_200_mg": 0.5,
+                "magnesium_stearate_mg": 2.5
+            },
+            "excipients": "HPMC K4M, MCC PH 102, Aerosil 200, Magnesium stearate",
+            "api": "Caffeine"
+        },
+        {
+            "batch": "053_N125",
+            "ingredients": {
+                "caffeine_mg": 100.0,
+                "hpmc_k4m_mg": 38.8,
+                "mcc_ph_102_mg": 0.0,
+                "neusilin_us2_mg": 125.0,
+                "aerosil_200_mg": 0.5,
+                "magnesium_stearate_mg": 2.5
+            },
+            "excipients": "HPMC K4M, Neusilin US2, Aerosil 200, Magnesium stearate",
+            "api": "Caffeine"
+        },
+        {
+            "batch": "053_N100",
+            "ingredients": {
+                "caffeine_mg": 100.0,
+                "hpmc_k4m_mg": 38.8,
+                "mcc_ph_102_mg": 0.0,
+                "neusilin_us2_mg": 100.0,
+                "aerosil_200_mg": 0.5,
+                "magnesium_stearate_mg": 2.5
+            },
+            "excipients": "HPMC K4M, Neusilin US2, Aerosil 200, Magnesium stearate",
+            "api": "Caffeine"
+        },
+        {
+            "batch": "053_N75",
+            "ingredients": {
+                "caffeine_mg": 100.0,
+                "hpmc_k4m_mg": 38.8,
+                "mcc_ph_102_mg": 0.0,
+                "neusilin_us2_mg": 75.0,
+                "aerosil_200_mg": 0.5,
+                "magnesium_stearate_mg": 2.5
+            },
+            "excipients": "HPMC K4M, Neusilin US2, Aerosil 200, Magnesium stearate",
+            "api": "Caffeine"
+        },
+        {
+            "batch": "N75M50",
+            "ingredients": {
+                "caffeine_mg": 100.0,
+                "hpmc_k4m_mg": 38.8,
+                "mcc_ph_102_mg": 25.0,
+                "neusilin_us2_mg": 50.0,
+                "aerosil_200_mg": 0.5,
+                "magnesium_stearate_mg": 2.5
+            },
+            "excipients": "HPMC K4M, MCC PH 102, Neusilin US2, Aerosil 200, Magnesium stearate",
+            "api": "Caffeine"
+        },
+        {
+            "batch": "N50M50",
+            "ingredients": {
+                "caffeine_mg": 100.0,
+                "hpmc_k4m_mg": 38.8,
+                "mcc_ph_102_mg": 50.0,
+                "neusilin_us2_mg": 50.0,
+                "aerosil_200_mg": 0.5,
+                "magnesium_stearate_mg": 2.5
+            },
+            "excipients": "HPMC K4M, MCC PH 102, Neusilin US2, Aerosil 200, Magnesium stearate",
+            "api": "Caffeine"
+        },
+        {
+            "batch": "N25M50",
+            "ingredients": {
+                "caffeine_mg": 100.0,
+                "hpmc_k4m_mg": 38.8,
+                "mcc_ph_102_mg": 75.0,
+                "neusilin_us2_mg": 25.0,
+                "aerosil_200_mg": 0.5,
+                "magnesium_stearate_mg": 2.5
+            },
+            "excipients": "HPMC K4M, MCC PH 102, Neusilin US2, Aerosil 200, Magnesium stearate",
+            "api": "Caffeine"
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "053_M125",
+            "hausner_ratio_sd": "1.33 ± 0.04"
+        },
+        {
+            "batch": "053_M100",
+            "hausner_ratio_sd": "1.37 ± 0.01"
+        },
+        {
+            "batch": "053_M75",
+            "hausner_ratio_sd": "1.39 ± 0.00"
+        },
+        {
+            "batch": "053_N125",
+            "hausner_ratio_sd": "1.28 ± 0.00"
+        },
+        {
+            "batch": "053_N100",
+            "hausner_ratio_sd": "1.30 ± 0.00"
+        },
+        {
+            "batch": "053_N75",
+            "hausner_ratio_sd": "1.30 ± 0.01"
+        },
+        {
+            "batch": "N75M50",
+            "hausner_ratio_sd": "1.29 ± 0.01"
+        },
+        {
+            "batch": "N50M50",
+            "hausner_ratio_sd": "1.32 ± 0.01"
+        },
+        {
+            "batch": "N25M50",
+            "hausner_ratio_sd": "1.37 ± 0.01"
+        }
+    ],
+    "composition_of_independent_variables_and_their_levels": {
+        "description": "The formulation variables were the proportions of HPMC K4M, MCC PH 102, and Neusilin US2. The HPMC content varied between 10-30% of the tablet weight. The fillers (MCC and NEU) were used individually or in blends with ratios of 1.5:1, 1:1, and 0.5:1.",
+        "levels": "HPMC: 10%, 20%, 30% (corresponding to sample designations 053_M125/053_N125, 053_M100/053_N100, 053_M75/053_N75 and their mixtures)."
+    },
+    "fourier_transform_infrared_spectral_measurements_information": "Not available in the provided text.",
+    "tablet_fabrications": [
+        {
+            "batch": "053_M125",
+            "average_weight_mg_sd": "256.7 ± 0.0010",
+            "hardness_n_sd": "129.8 ± 3.80",
+            "friability_percent": "0.30",
+            "average_content_percent_sd": "103.13 ± 1.75"
+        },
+        {
+            "batch": "053_M100",
+            "average_weight_mg_sd": "251.9 ± 0.0038",
+            "hardness_n_sd": "107.8 ± 3.90",
+            "friability_percent": "0.28",
+            "average_content_percent_sd": "104.65 ± 3.08"
+        },
+        {
+            "batch": "053_M75",
+            "average_weight_mg_sd": "256.5 ± 0.0011",
+            "hardness_n_sd": "133.0 ± 4.00",
+            "friability_percent": "0.14",
+            "average_content_percent_sd": "108.49 ± 3.67"
+        },
+        {
+            "batch": "053_N125",
+            "average_weight_mg_sd": "261.7 ± 0.0035",
+            "hardness_n_sd": "118.2 ± 3.30",
+            "friability_percent": "0.18",
+            "average_content_percent_sd": "103.01 ± 2.57"
+        },
+        {
+            "batch": "053_N100",
+            "average_weight_mg_sd": "250.3 ± 0.0031",
+            "hardness_n_sd": "98.2 ± 5.90",
+            "friability_percent": "0.19",
+            "average_content_percent_sd": "104.93 ± 1.48"
+        },
+        {
+            "batch": "053_N75",
+            "average_weight_mg_sd": "250.1 ± 0.0020",
+            "hardness_n_sd": "105.1 ± 6.70",
+            "friability_percent": "0.13",
+            "average_content_percent_sd": "103.78 ± 1.24"
+        },
+        {
+            "batch": "N75M50",
+            "average_weight_mg_sd": "255.6 ± 0.0023",
+            "hardness_n_sd": "156.0 ± 5.90",
+            "friability_percent": "0.23",
+            "average_content_percent_sd": "103.77 ± 3.99"
+        },
+        {
+            "batch": "N50M50",
+            "average_weight_mg_sd": "251.3 ± 0.0019",
+            "hardness_n_sd": "142.5 ± 6.40",
+            "friability_percent": "0.21",
+            "average_content_percent_sd": "108.07 ± 2.71"
+        },
+        {
+            "batch": "N25M50",
+            "average_weight_mg_sd": "257.4 ± 0.0021",
+            "hardness_n_sd": "139.2 ± 5.90",
+            "friability_percent": "0.23",
+            "average_content_percent_sd": "107.54 ± 4.61"
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "Eccentric tablet press Korsch EK 0, Korsch Pressen, Berlin, Germany",
+        "compression_process": "Direct compression to maximum hardness",
+        "tablet_dimensions": "Convex-faced, diameter 10 mm, weight 258 mg (target)",
+        "equipment_used": "3-axial homogenizer Turbula (T2C WAB, Basel, CH) for mixing; SOTAX AT 7 Online System for USP 2 dissolution; Golem v2 apparatus for dynamic dissolution; Texture Analyser CT 3 for gel layer; MIRA3 SEM for surface; SU 8010 CryoSEM for gel morphology.",
+        "process_conditions": "Mixing for 10 min. Dissolution at 37°C. Gel layer study at 37°C."
+    },
+    "release_properties": [
+        {
+            "batch": "053_M125",
+            "usp_ii_release_mechanism": "Anomalous transport (diffusion and erosion)",
+            "usp_ii_release_kinetics": "Korsmeyer-Peppas R² 0.9983, n=0.515; Zero-Order R² 0.2929; First-Order R² 0.9801; Higuchi R² 0.9572; Weibull R² 0.9979, b=0.7354",
+            "biorelevant_release_mechanism": "Erosion-dominated (n higher than USP II)",
+            "biorelevant_release_kinetics": "Korsmeyer-Peppas R² 0.9966, n=0.64; Zero-Order R² 0.8862; First-Order R² 0.9889; Higuchi R² 0.9655; Weibull R² 0.9973, b=0.73",
+            "factors_influencing_release": "pH change (1.2 to 6.8 in USP II; dynamic pH in biorelevant), filler type (MCC), HPMC concentration (10%)"
+        },
+        {
+            "batch": "053_M100",
+            "usp_ii_release_mechanism": "Anomalous transport (diffusion and erosion)",
+            "usp_ii_release_kinetics": "Korsmeyer-Peppas R² 0.9928, n=0.485; Zero-Order R² 0.1304; First-Order R² 0.9865; Higuchi R² 0.921; Weibull R² 0.9983, b=0.7854",
+            "biorelevant_release_mechanism": "Erosion-dominated (n higher than USP II)",
+            "biorelevant_release_kinetics": "Korsmeyer-Peppas R² 0.9912, n=0.63; Zero-Order R² 0.8654; First-Order R² 0.9722; Higuchi R² 0.9669; Weibull R² 0.9901, b=0.6324",
+            "factors_influencing_release": "pH change, filler type (MCC), HPMC concentration (20%)"
+        },
+        {
+            "batch": "053_M75",
+            "usp_ii_release_mechanism": "Anomalous transport (diffusion and erosion)",
+            "usp_ii_release_kinetics": "Korsmeyer-Peppas R² 0.9924, n=0.508; Zero-Order R² 0.260; First-Order R² 0.9906; Higuchi R² 0.9375; Weibull R² 0.9975, b=0.8254",
+            "biorelevant_release_mechanism": "Erosion-dominated (n higher than USP II)",
+            "biorelevant_release_kinetics": "Korsmeyer-Peppas R² 0.9931, n=0.70; Zero-Order R² 0.9243; First-Order R² 0.9906; Higuchi R² 0.9426; Weibull R² 0.9935, b=0.81",
+            "factors_influencing_release": "pH change, filler type (MCC), HPMC concentration (30%)"
+        },
+        {
+            "batch": "053_N125",
+            "usp_ii_release_mechanism": "Anomalous transport (diffusion and erosion), more erosion than MCC",
+            "usp_ii_release_kinetics": "Korsmeyer-Peppas R² 0.990, n=0.307; Zero-Order R² xx; First-Order R² 0.8842; Higuchi R² xx; Weibull R² 0.9965, b=0.5224",
+            "biorelevant_release_mechanism": "Erosion-dominated (n higher than USP II)",
+            "biorelevant_release_kinetics": "Korsmeyer-Peppas R² 0.9884, n=0.61; Zero-Order R² 0.8450; First-Order R² 0.9873; Higuchi R² 0.9685; Weibull R² 0.9920, b=0.80",
+            "factors_influencing_release": "pH change, filler type (NEU), HPMC concentration (10%), high absorption capacity of NEU"
+        },
+        {
+            "batch": "053_N100",
+            "usp_ii_release_mechanism": "Anomalous transport (diffusion and erosion), more erosion than MCC",
+            "usp_ii_release_kinetics": "Korsmeyer-Peppas R² 0.9924, n=0.561; Zero-Order R² xx; First-Order R² 0.9902; Higuchi R² 0.8125; Weibull R² 0.9955, b=0.8924",
+            "biorelevant_release_mechanism": "Erosion-dominated (n higher than USP II)",
+            "biorelevant_release_kinetics": "Korsmeyer-Peppas R² 0.9962, n=0.73; Zero-Order R² 0.9463; First-Order R² 0.9891; Higuchi R² 0.9336; Weibull R² 0.9957, b=0.7324",
+            "factors_influencing_release": "pH change, filler type (NEU), HPMC concentration (20%)"
+        },
+        {
+            "batch": "053_N75",
+            "usp_ii_release_mechanism": "Anomalous transport (diffusion and erosion), more erosion than MCC",
+            "usp_ii_release_kinetics": "Korsmeyer-Peppas R² 0.9899, n=0.573; Zero-Order R² 0.1626; First-Order R² 0.9948; Higuchi R² 0.8821; Weibull R² 0.9944, b=1.0124",
+            "biorelevant_release_mechanism": "Erosion-dominated (n higher than USP II)",
+            "biorelevant_release_kinetics": "Korsmeyer-Peppas R² 0.9949, n=0.72; Zero-Order R² 0.9393; First-Order R² 0.9885; Higuchi R² 0.9356; Weibull R² 0.9949, b=0.7224",
+            "factors_influencing_release": "pH change, filler type (NEU), HPMC concentration (30%)"
+        },
+        {
+            "batch": "N75M50",
+            "usp_ii_release_mechanism": "Anomalous transport, shift towards zero-order",
+            "usp_ii_release_kinetics": "Korsmeyer-Peppas R² 0.9991, n=0.568; Zero-Order R² 0.6066; First-Order R² 0.9861; Higuchi R² 0.9916; Weibull R² 0.9997, b=0.7372",
+            "biorelevant_release_mechanism": "Erosion-dominated, shift towards zero-order",
+            "biorelevant_release_kinetics": "Korsmeyer-Peppas R² 0.9967, n=0.68; Zero-Order R² 0.9145; First-Order R² 0.9931; Higuchi R² 0.9530; Weibull R² 0.9969, b=0.79",
+            "factors_influencing_release": "pH change, combined fillers (NEU/MCC), HPMC concentration (10%)"
+        },
+        {
+            "batch": "N50M50",
+            "usp_ii_release_mechanism": "Anomalous transport, shift towards zero-order",
+            "usp_ii_release_kinetics": "Korsmeyer-Peppas R² 0.9978, n=0.543; Zero-Order R² 0.6602; First-Order R² 0.9832; Higuchi R² 0.9963; Weibull R² 0.9999, b=0.6672",
+            "biorelevant_release_mechanism": "Erosion-dominated, shift towards zero-order",
+            "biorelevant_release_kinetics": "Korsmeyer-Peppas R² 0.9943, n=0.68; Zero-Order R² 0.9135; First-Order R² 0.9942; Higuchi R² 0.9499; Weibull R² 0.9967, b=0.84",
+            "factors_influencing_release": "pH change, combined fillers (NEU/MCC), HPMC concentration (20%)"
+        },
+        {
+            "batch": "N25M50",
+            "usp_ii_release_mechanism": "Anomalous transport, shift towards zero-order",
+            "usp_ii_release_kinetics": "Korsmeyer-Peppas R² 0.9915, n=0.494; Zero-Order R² 0.5366; First-Order R² 0.9885; Higuchi R² 0.9821; Weibull R² 0.9990, b=0.7772",
+            "biorelevant_release_mechanism": "Erosion-dominated, shift towards zero-order",
+            "biorelevant_release_kinetics": "Korsmeyer-Peppas R² 0.9925, n=0.66; Zero-Order R² 0.8948; First-Order R² 0.9875; Higuchi R² 0.9569; Weibull R² 0.9930, b=0.76",
+            "factors_influencing_release": "pH change, combined fillers (NEU/MCC), HPMC concentration (30%)"
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "053_M125",
+            "hardness_n_sd": "129.8 ± 3.80",
+            "friability_percent": "0.30",
+            "weight_variation_mg_sd": "256.7 ± 0.0010",
+            "drug_content_percent_sd": "103.13 ± 1.75",
+            "dissolution_profile_usp_ii": "Burst effect 17.11%, total release 75.97% over 12h",
+            "dissolution_profile_usp_ii_time_points": {
+                "30min": 17.11,
+                "60min": 28,
+                "120min": 45,
+                "240min": 62,
+                "360min": 70,
+                "720min": 75.97
+            },
+            "similarity_factor_f2_vs_biorelevant": "47.48 (Non-similar)",
+            "similarity_factor_f2_vs_n75m50_usp": "73.05 (Similar)",
+            "gel_layer_thickness_mm_360min": "~1.40 (inferred from Figure 6)",
+            "penetration_force_n_15min": "0.72",
+            "penetration_force_n_360min": "0.65"
+        },
+        {
+            "batch": "053_M100",
+            "hardness_n_sd": "107.8 ± 3.90",
+            "friability_percent": "0.28",
+            "weight_variation_mg_sd": "251.9 ± 0.0038",
+            "drug_content_percent_sd": "104.65 ± 3.08",
+            "dissolution_profile_usp_ii": "Burst effect 12.96%, total release 57.42% over 12h",
+            "dissolution_profile_usp_ii_time_points": {
+                "30min": 12.96,
+                "60min": 20,
+                "120min": 32,
+                "240min": 45,
+                "360min": 52,
+                "720min": 57.42
+            },
+            "similarity_factor_f2_vs_biorelevant": "40.01 (Non-similar)",
+            "similarity_factor_f2_vs_n50m50_usp": "69.52 (Similar)",
+            "gel_layer_thickness_mm_360min": "~1.45 (inferred from Figure 6)",
+            "penetration_force_n_15min": "0.69",
+            "penetration_force_n_360min": "0.59"
+        },
+        {
+            "batch": "053_M75",
+            "hardness_n_sd": "133.0 ± 4.00",
+            "friability_percent": "0.14",
+            "weight_variation_mg_sd": "256.5 ± 0.0011",
+            "drug_content_percent_sd": "108.49 ± 3.67",
+            "dissolution_profile_usp_ii": "Burst effect ~9.2%, total release ~52% over 12h",
+            "dissolution_profile_usp_ii_time_points": {
+                "30min": 9.2,
+                "60min": 15,
+                "120min": 25,
+                "240min": 38,
+                "360min": 46,
+                "720min": 52
+            },
+            "similarity_factor_f2_vs_biorelevant": "36.31 (Non-similar)",
+            "similarity_factor_f2_vs_n25m50_usp": "83.63 (Similar)",
+            "gel_layer_thickness_mm_360min": "~1.78 (inferred from Figure 6)",
+            "penetration_force_n_15min": "0.76",
+            "penetration_force_n_360min": "0.56"
+        },
+        {
+            "batch": "053_N125",
+            "hardness_n_sd": "118.2 ± 3.30",
+            "friability_percent": "0.18",
+            "weight_variation_mg_sd": "261.7 ± 0.0035",
+            "drug_content_percent_sd": "103.01 ± 2.57",
+            "dissolution_profile_usp_ii": "Burst effect 42.33%, total release 81.24% over 12h",
+            "dissolution_profile_usp_ii_time_points": {
+                "30min": 42.33,
+                "60min": 55,
+                "120min": 68,
+                "240min": 77,
+                "360min": 80,
+                "720min": 81.24
+            },
+            "similarity_factor_f2_vs_biorelevant": "29.28 (Non-similar)",
+            "similarity_factor_f2_vs_m125_usp": "37.94 (Non-similar)",
+            "gel_layer_thickness_mm_360min": "~1.17 (inferred from Figure 6)",
+            "penetration_force_n_15min": "0.63",
+            "penetration_force_n_360min": "0.72"
+        },
+        {
+            "batch": "053_N100",
+            "hardness_n_sd": "98.2 ± 5.90",
+            "friability_percent": "0.19",
+            "weight_variation_mg_sd": "250.3 ± 0.0031",
+            "drug_content_percent_sd": "104.93 ± 1.48",
+            "dissolution_profile_usp_ii": "Burst effect 18.79%, total release 69.01% over 12h",
+            "dissolution_profile_usp_ii_time_points": {
+                "30min": 18.79,
+                "60min": 30,
+                "120min": 45,
+                "240min": 58,
+                "360min": 65,
+                "720min": 69.01
+            },
+            "similarity_factor_f2_vs_biorelevant": "40.31 (Non-similar)",
+            "similarity_factor_f2_vs_m100_usp": "45.96 (Non-similar)",
+            "gel_layer_thickness_mm_360min": "~1.35 (inferred from Figure 6)",
+            "penetration_force_n_15min": "0.63",
+            "penetration_force_n_360min": "0.66"
+        },
+        {
+            "batch": "053_N75",
+            "hardness_n_sd": "105.1 ± 6.70",
+            "friability_percent": "0.13",
+            "weight_variation_mg_sd": "250.1 ± 0.0020",
+            "drug_content_percent_sd": "103.78 ± 1.24",
+            "dissolution_profile_usp_ii": "Burst effect ~11.47%, total release 45.70% over 12h",
+            "dissolution_profile_usp_ii_time_points": {
+                "30min": 11.47,
+                "60min": 18,
+                "120min": 28,
+                "240min": 38,
+                "360min": 43,
+                "720min": 45.7
+            },
+            "similarity_factor_f2_vs_biorelevant": "38.98 (Non-similar)",
+            "similarity_factor_f2_vs_m75_usp": "68.52 (Similar)",
+            "gel_layer_thickness_mm_360min": "~1.72 (inferred from Figure 6)",
+            "penetration_force_n_15min": "0.69",
+            "penetration_force_n_360min": "0.73"
+        },
+        {
+            "batch": "N75M50",
+            "hardness_n_sd": "156.0 ± 5.90",
+            "friability_percent": "0.23",
+            "weight_variation_mg_sd": "255.6 ± 0.0023",
+            "drug_content_percent_sd": "103.77 ± 3.99",
+            "dissolution_profile_usp_ii": "Burst effect 14.35%, total release 78.37% over 12h",
+            "dissolution_profile_usp_ii_time_points": {
+                "30min": 14.35,
+                "60min": 25,
+                "120min": 42,
+                "240min": 60,
+                "360min": 70,
+                "720min": 78.37
+            },
+            "similarity_factor_f2_vs_biorelevant": "58.66 (Similar)",
+            "similarity_factor_f2_vs_m125_usp": "73.05 (Similar)",
+            "gel_layer_thickness_mm_360min": "~1.20 (inferred from Figure 6)",
+            "penetration_force_n_15min": "0.76",
+            "penetration_force_n_360min": "0.63"
+        },
+        {
+            "batch": "N50M50",
+            "hardness_n_sd": "142.5 ± 6.40",
+            "friability_percent": "0.21",
+            "weight_variation_mg_sd": "251.3 ± 0.0019",
+            "drug_content_percent_sd": "108.07 ± 2.71",
+            "dissolution_profile_usp_ii": "Burst effect ~14.0%, total release ~66.93% over 12h",
+            "dissolution_profile_usp_ii_time_points": {
+                "30min": 14.0,
+                "60min": 23,
+                "120min": 38,
+                "240min": 52,
+                "360min": 60,
+                "720min": 66.93
+            },
+            "similarity_factor_f2_vs_biorelevant": "55.45 (Similar)",
+            "similarity_factor_f2_vs_m100_usp": "69.52 (Similar)",
+            "gel_layer_thickness_mm_360min": "~1.24 (inferred from Figure 6)",
+            "penetration_force_n_15min": "0.68",
+            "penetration_force_n_360min": "0.55"
+        },
+        {
+            "batch": "N25M50",
+            "hardness_n_sd": "139.2 ± 5.90",
+            "friability_percent": "0.23",
+            "weight_variation_mg_sd": "257.4 ± 0.0021",
+            "drug_content_percent_sd": "107.54 ± 4.61",
+            "dissolution_profile_usp_ii": "Burst effect ~10.5%, total release ~56% over 12h",
+            "dissolution_profile_usp_ii_time_points": {
+                "30min": 10.5,
+                "60min": 17,
+                "120min": 28,
+                "240min": 40,
+                "360min": 48,
+                "720min": 56
+            },
+            "similarity_factor_f2_vs_biorelevant": "37.9 (Non-similar)",
+            "similarity_factor_f2_vs_m75_usp": "83.63 (Similar)",
+            "gel_layer_thickness_mm_360min": "~1.54 (inferred from Figure 6)",
+            "penetration_force_n_15min": "0.68",
+            "penetration_force_n_360min": "0.51"
+        }
+    ],
+    "experimental_data": {
+        "key_results": "NEU alone as filler accelerated drug release in USP II, especially at low HPMC concentrations, but this effect was mitigated in the biorelevant dynamic dissolution study. The combination of NEU and MCC (N75M50, N50M50) showed improved flowability, higher tablet hardness, and a shift towards zero-order kinetics. These mixed-filler samples also showed similarity between USP II and biorelevant dissolution profiles, suggesting better in vivo predictability.",
+        "statistical_analysis": "Multivariate data analysis (factor analysis with varimax rotation) was used to evaluate relationships between formulation variables (HPMC, NEU, MCC) and quality parameters (hardness, gel layer, dissolution at various time points). Similarity factor f2 analysis was used to compare dissolution profiles.",
+        "in_vitro_studies": "USP apparatus 2 dissolution test (12h, pH 1.2 for 2h then 6.8) and biorelevant dynamic dissolution study using Golem v2 apparatus (4h, simulated GIT with stomach, duodenum, jejunum, ileum compartments, dynamic pH and volume).",
+        "in_vivo_studies": "Not conducted."
+    }
+}

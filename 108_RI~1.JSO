@@ -1,0 +1,645 @@
+{
+    "article_info": {
+        "title": "Risk-based approach for systematic development of gastroretentive drug delivery system",
+        "authors": "A.G. Mirani, S.P. Patankar, V.J. Kadam",
+        "year": 2016,
+        "journal": "Drug Delivery and Translational Research",
+        "drug": "Diltiazem hydrochloride (DTZ)"
+    },
+    "materials_origin": {
+        "diltiazem_hcl": {
+            "source": "Nicholas Piramal Healthcare (Mumbai, India)",
+            "grade": "gift sample"
+        },
+        "hpmc_grades": {
+            "supplier": "Colorcon Asia Pvt. Ltd. (Goa, India)",
+            "types": [
+                "HPMC K4M CR",
+                "HPMC K15M CR",
+                "HPMC K100M CR"
+            ]
+        },
+        "sodium_bicarbonate": {
+            "supplier": "S.D. Fine Chemicals Ltd (Mumbai, India)"
+        },
+        "pvp_k30": {
+            "supplier": "S.D. Fine Chemicals Ltd (Mumbai, India)"
+        },
+        "aerosil": {
+            "supplier": "S.D. Fine Chemicals Ltd (Mumbai, India)"
+        },
+        "magnesium_stearate": {
+            "supplier": "S.D. Fine Chemicals Ltd (Mumbai, India)"
+        },
+        "other_ingredients": "analytical grade"
+    },
+    "experimental_design_optimization": {
+        "design_type": "3^2 full factorial design",
+        "independent_variables": [
+            {
+                "name": "HPMC K4M CR (X1)",
+                "unit": "mg",
+                "levels": [
+                    60,
+                    90,
+                    120
+                ]
+            },
+            {
+                "name": "Sodium bicarbonate (X2)",
+                "unit": "mg",
+                "levels": [
+                    3,
+                    5,
+                    7
+                ]
+            }
+        ],
+        "response_variables": [
+            "floating lag time (Y1, seconds)",
+            "percent drug release at 1 h (Q1th, Y2)",
+            "percent drug release at 8 h (Q8th, Y3)"
+        ],
+        "acceptance_criteria": {
+            "Y1": "less than 60 s",
+            "Y2": "30–34 %",
+            "Y3": "82–86 %"
+        },
+        "software": "Design-Expert 9.0"
+    },
+    "theoretical_release_profile": {
+        "model": "first-order kinetics",
+        "equation": "log M_t = log M_0 - 0.43 k_1 t",
+        "parameters": {
+            "M0": "60 mg (maintenance dose)",
+            "k1": "0.22 h^{-1}",
+            "prompt_dose": "30 mg released within 1 h"
+        },
+        "profile_table": [
+            {
+                "time_h": 0,
+                "cumulative_mg": 0,
+                "cumulative_percent": 0
+            },
+            {
+                "time_h": 1,
+                "cumulative_mg": 30,
+                "cumulative_percent": 33.33
+            },
+            {
+                "time_h": 2,
+                "cumulative_mg": 41.76,
+                "cumulative_percent": 46.4
+            },
+            {
+                "time_h": 3,
+                "cumulative_mg": 51.2,
+                "cumulative_percent": 56.88
+            },
+            {
+                "time_h": 4,
+                "cumulative_mg": 58.79,
+                "cumulative_percent": 65.32
+            },
+            {
+                "time_h": 5,
+                "cumulative_mg": 64.9,
+                "cumulative_percent": 72.11
+            },
+            {
+                "time_h": 6,
+                "cumulative_mg": 69.81,
+                "cumulative_percent": 77.55
+            },
+            {
+                "time_h": 7,
+                "cumulative_mg": 73.76,
+                "cumulative_percent": 81.95
+            },
+            {
+                "time_h": 8,
+                "cumulative_mg": 76.94,
+                "cumulative_percent": 85.48
+            },
+            {
+                "time_h": 9,
+                "cumulative_mg": 79.5,
+                "cumulative_percent": 88.33
+            },
+            {
+                "time_h": 10,
+                "cumulative_mg": 81.55,
+                "cumulative_percent": 90.55
+            },
+            {
+                "time_h": 11,
+                "cumulative_mg": 83.29,
+                "cumulative_percent": 92.44
+            },
+            {
+                "time_h": 12,
+                "cumulative_mg": 84.54,
+                "cumulative_percent": 93.92
+            }
+        ]
+    },
+    "preliminary_batches": {
+        "composition_table": [
+            {
+                "batch": "B1",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": 45,
+                "HPMC_K15M_mg": null,
+                "HPMC_K100M_mg": null,
+                "NaHCO3_mg": null,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B2",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": null,
+                "HPMC_K15M_mg": 45,
+                "HPMC_K100M_mg": null,
+                "NaHCO3_mg": null,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B3",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": null,
+                "HPMC_K15M_mg": null,
+                "HPMC_K100M_mg": 45,
+                "NaHCO3_mg": null,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B4",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": 90,
+                "HPMC_K15M_mg": null,
+                "HPMC_K100M_mg": null,
+                "NaHCO3_mg": null,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B5",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": null,
+                "HPMC_K15M_mg": 90,
+                "HPMC_K100M_mg": null,
+                "NaHCO3_mg": null,
+                "PVP_K30_percent": 1.1,
+                "Aerosil_percent": 0.6,
+                "Mg_stearate_percent": 1.1
+            },
+            {
+                "batch": "B6",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": null,
+                "HPMC_K15M_mg": null,
+                "HPMC_K100M_mg": 90,
+                "NaHCO3_mg": null,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B7",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": 180,
+                "HPMC_K15M_mg": null,
+                "HPMC_K100M_mg": null,
+                "NaHCO3_mg": null,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B8",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": null,
+                "HPMC_K15M_mg": 180,
+                "HPMC_K100M_mg": null,
+                "NaHCO3_mg": null,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B9",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": null,
+                "HPMC_K15M_mg": null,
+                "HPMC_K100M_mg": 180,
+                "NaHCO3_mg": null,
+                "PVP_K30_percent": 1.1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1.1
+            },
+            {
+                "batch": "B10",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": 90,
+                "HPMC_K15M_mg": null,
+                "HPMC_K100M_mg": null,
+                "NaHCO3_mg": 5,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B11",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": null,
+                "HPMC_K15M_mg": 90,
+                "HPMC_K100M_mg": null,
+                "NaHCO3_mg": 5,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B12",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": null,
+                "HPMC_K15M_mg": null,
+                "HPMC_K100M_mg": 90,
+                "NaHCO3_mg": 5,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            },
+            {
+                "batch": "B13",
+                "DTZ_mg": 90,
+                "HPMC_K4M_mg": 90,
+                "HPMC_K15M_mg": null,
+                "HPMC_K100M_mg": null,
+                "NaHCO3_mg": 10,
+                "PVP_K30_percent": 1,
+                "Aerosil_percent": 0.5,
+                "Mg_stearate_percent": 1
+            }
+        ],
+        "observed_properties_summary": {
+            "weight_variation": "less than 7.5% for all",
+            "drug_content_range": "97.6–99.5%",
+            "friability": "less than 1% for all",
+            "floating_behavior": {
+                "B1_to_B6": "no floating",
+                "B7_to_B9": "floating lag time 30–40 s",
+                "B10": "floating lag time ~60 s (HPMC K4M, 5 mg NaHCO3)",
+                "B11": "floating lag time increased (exact not given)",
+                "B12": "floating lag time ~900 s (HPMC K100M, 5 mg NaHCO3)",
+                "B13": "not reported"
+            },
+            "drug_release_1h": {
+                "B1_to_B3 (drug:HPMC 1:0.5)": "36–32%",
+                "B4_to_B6 (1:1)": "23–21%",
+                "B7_to_B9 (1:2)": "16–19%"
+            }
+        }
+    },
+    "optimization_batches_F1_to_F9": {
+        "tablet_properties": [
+            {
+                "batch": "F1",
+                "thickness_mm": 2.8,
+                "diameter_mm": 8,
+                "matrix_integrity": "+",
+                "density_g_per_ml": 1.21,
+                "hardness_kg_per_cm2": "2 ± 0.5",
+                "friability_percent": "0.41 ± 0.014",
+                "drug_content_percent": 99.4,
+                "weight_variation_percent": "1.25 ± 0.741",
+                "floating_lag_time_s": "170 ± 2",
+                "floating_time_h": 11,
+                "Qt1h_percent": "33.73 ± 1.04",
+                "Qt8h_percent": "86.77 ± 1.26"
+            },
+            {
+                "batch": "F2",
+                "thickness_mm": 2.8,
+                "diameter_mm": 8,
+                "matrix_integrity": "+",
+                "density_g_per_ml": 1.23,
+                "hardness_kg_per_cm2": "2 ± 0.5",
+                "friability_percent": "0.40 ± 0.007",
+                "drug_content_percent": 98.9,
+                "weight_variation_percent": "1.15 ± 0.880",
+                "floating_lag_time_s": "98 ± 2",
+                "floating_time_h": 10,
+                "Qt1h_percent": "37.99 ± 1.53",
+                "Qt8h_percent": "92.93 ± 1.98"
+            },
+            {
+                "batch": "F3",
+                "thickness_mm": 2.8,
+                "diameter_mm": 8,
+                "matrix_integrity": "+",
+                "density_g_per_ml": 1.24,
+                "hardness_kg_per_cm2": "2 ± 0.5",
+                "friability_percent": "0.43 ± 0.004",
+                "drug_content_percent": 99.1,
+                "weight_variation_percent": "1.70 ± 0.523",
+                "floating_lag_time_s": "45 ± 2",
+                "floating_time_h": 8,
+                "Qt1h_percent": "41.07 ± 1.24",
+                "Qt8h_percent": "99.22 ± 1.04"
+            },
+            {
+                "batch": "F4",
+                "thickness_mm": 2.8,
+                "diameter_mm": 9,
+                "matrix_integrity": "+++",
+                "density_g_per_ml": 1.147,
+                "hardness_kg_per_cm2": "2 ± 0.5",
+                "friability_percent": "0.41 ± 0.008",
+                "drug_content_percent": 98.5,
+                "weight_variation_percent": "1.912 ± 0.89",
+                "floating_lag_time_s": "110 ± 2",
+                "floating_time_h": ">12",
+                "Qt1h_percent": "28.31 ± 1.177",
+                "Qt8h_percent": "82.18 ± 2.53"
+            },
+            {
+                "batch": "F5",
+                "thickness_mm": 2.8,
+                "diameter_mm": 9,
+                "matrix_integrity": "+++",
+                "density_g_per_ml": 1.16,
+                "hardness_kg_per_cm2": "2 ± 0.5",
+                "friability_percent": "0.39 ± 0.019",
+                "drug_content_percent": 99.1,
+                "weight_variation_percent": "1.27 ± 0.724",
+                "floating_lag_time_s": "50 ± 2",
+                "floating_time_h": ">12",
+                "Qt1h_percent": "31.21 ± 1.153",
+                "Qt8h_percent": "86.41 ± 0.97"
+            },
+            {
+                "batch": "F6",
+                "thickness_mm": 2.9,
+                "diameter_mm": 9,
+                "matrix_integrity": "+++",
+                "density_g_per_ml": 1.13,
+                "hardness_kg_per_cm2": "2 ± 0.5",
+                "friability_percent": "0.40 ± 0.084",
+                "drug_content_percent": 99.3,
+                "weight_variation_percent": "1.38 ± 0.649",
+                "floating_lag_time_s": "25 ± 2",
+                "floating_time_h": ">12",
+                "Qt1h_percent": "36.12 ± 1.015",
+                "Qt8h_percent": "90.26 ± 0.755"
+            },
+            {
+                "batch": "F7",
+                "thickness_mm": 2.9,
+                "diameter_mm": 10,
+                "matrix_integrity": "+++",
+                "density_g_per_ml": 1.047,
+                "hardness_kg_per_cm2": "2 ± 0.5",
+                "friability_percent": "0.38 ± 0.003",
+                "drug_content_percent": 99.5,
+                "weight_variation_percent": "1.41 ± 0.739",
+                "floating_lag_time_s": "65 ± 2",
+                "floating_time_h": ">12",
+                "Qt1h_percent": "23.45 ± 1.017",
+                "Qt8h_percent": "76.64 ± 1.51"
+            },
+            {
+                "batch": "F8",
+                "thickness_mm": 3,
+                "diameter_mm": 10,
+                "matrix_integrity": "+++",
+                "density_g_per_ml": 1.02,
+                "hardness_kg_per_cm2": "2 ± 0.5",
+                "friability_percent": "0.35 ± 0.004",
+                "drug_content_percent": 98.7,
+                "weight_variation_percent": "1.54 ± 0.810",
+                "floating_lag_time_s": "35 ± 2",
+                "floating_time_h": ">12",
+                "Qt1h_percent": "26.91 ± 1.285",
+                "Qt8h_percent": "80.52 ± 1.02"
+            },
+            {
+                "batch": "F9",
+                "thickness_mm": 3,
+                "diameter_mm": 10,
+                "matrix_integrity": "+++",
+                "density_g_per_ml": 1.03,
+                "hardness_kg_per_cm2": "2 ± 0.5",
+                "friability_percent": "0.35 ± 0.016",
+                "drug_content_percent": 98.9,
+                "weight_variation_percent": "1.62 ± 0.690",
+                "floating_lag_time_s": "14 ± 2",
+                "floating_time_h": ">12",
+                "Qt1h_percent": "32.89 ± 1.870",
+                "Qt8h_percent": "84.31 ± 1.57"
+            }
+        ]
+    },
+    "release_kinetics_optimization_batches": {
+        "table_11": [
+            {
+                "batch": "F1",
+                "r_zero_order": 0.871,
+                "r_first_order": 0.9359,
+                "r_higuchi": 0.9979,
+                "release_exponent_n": 0.4607,
+                "mechanism": "anomalous (0.45-0.89)"
+            },
+            {
+                "batch": "F2",
+                "r_zero_order": 0.8296,
+                "r_first_order": 0.9658,
+                "r_higuchi": 0.9961,
+                "release_exponent_n": 0.4276,
+                "mechanism": "Fickian diffusion (n<0.45)"
+            },
+            {
+                "batch": "F3",
+                "r_zero_order": 0.8465,
+                "r_first_order": 0.974,
+                "r_higuchi": 0.9953,
+                "release_exponent_n": 0.4432,
+                "mechanism": "Fickian diffusion"
+            },
+            {
+                "batch": "F4",
+                "r_zero_order": 0.8667,
+                "r_first_order": 0.9914,
+                "r_higuchi": 0.9965,
+                "release_exponent_n": 0.5119,
+                "mechanism": "anomalous"
+            },
+            {
+                "batch": "F5",
+                "r_zero_order": 0.8397,
+                "r_first_order": 0.983,
+                "r_higuchi": 0.9959,
+                "release_exponent_n": 0.4811,
+                "mechanism": "anomalous"
+            },
+            {
+                "batch": "F6",
+                "r_zero_order": 0.7829,
+                "r_first_order": 0.9839,
+                "r_higuchi": 0.9939,
+                "release_exponent_n": 0.4277,
+                "mechanism": "Fickian diffusion"
+            },
+            {
+                "batch": "F7",
+                "r_zero_order": 0.8852,
+                "r_first_order": 0.9974,
+                "r_higuchi": 0.9937,
+                "release_exponent_n": 0.5672,
+                "mechanism": "anomalous"
+            },
+            {
+                "batch": "F8",
+                "r_zero_order": 0.8763,
+                "r_first_order": 0.99,
+                "r_higuchi": 0.9955,
+                "release_exponent_n": 0.5299,
+                "mechanism": "anomalous"
+            },
+            {
+                "batch": "F9",
+                "r_zero_order": 0.8209,
+                "r_first_order": 0.9702,
+                "r_higuchi": 0.9941,
+                "release_exponent_n": 0.458,
+                "mechanism": "anomalous"
+            }
+        ]
+    },
+    "statistical_analysis_anova": {
+        "response_FLT": {
+            "model": "FM",
+            "sum_of_squares": 19723.67,
+            "F_value": 196.15,
+            "p_value": 0.0006,
+            "adj_r2": 0.997,
+            "pred_r2": 0.9919
+        },
+        "response_Q1th": {
+            "model": "FM",
+            "sum_of_squares": 49.88,
+            "F_value": 103.53,
+            "p_value": 0.0015,
+            "adj_r2": 0.9942,
+            "pred_r2": 0.9846
+        },
+        "response_Q8th": {
+            "model": "FM",
+            "sum_of_squares": 372.58,
+            "F_value": 170.26,
+            "p_value": 0.0007,
+            "adj_r2": 0.9965,
+            "pred_r2": 0.9906
+        }
+    },
+    "regression_equations": {
+        "floating_lag_time_Y1": "Y1 = +54.67 - 33.17 X1 - 43.50 X2 + 18.50 X1X2 + 9.50 X1^2 + 10.56 X2^2",
+        "Q1th_Y2": "Y2 = +31.53 - 4.92 X1 + 4.10 X2 + 0.53 X1X2 + 0.76 X1^2 + 0.57 X2^2",
+        "Q8th_Y3": "Y3 = +84.49 - 4.67 X1 + 2.93 X2 + 0.36 X1X2 + 0.93 X1^2 + 0.25 X2^2"
+    },
+    "process_parameters": {
+        "compression_device": "RIMEK Mini Tablet Press, single punch rotary tablet compression machine",
+        "tooling": "flat-faced punches (8.0 mm / 9.0 mm / 11.0 mm)",
+        "hardness_adjustment": "2–2.5 kg/cm2 (Monsanto hardness tester)",
+        "compression_force": "not specified, but controlled to achieve hardness",
+        "compression_speed_range": "10–30 rpm (from control strategy table)",
+        "coating": "none (direct compression)",
+        "mixing": "geometric mixing after sifting through ASTM #80; silicon dioxide added; magnesium stearate added last and blended for 2 min"
+    },
+    "ftir_information": "Not reported in the provided text.",
+    "uv_absorbance": {
+        "wavelength": "237 nm",
+        "instrument": "Shimadzu 1601-PC double beam spectrometer",
+        "medium": "0.1 N HCl"
+    },
+    "checkpoint_validation": {
+        "formulations": [
+            {
+                "code": "108_V1",
+                "X1_mg": 90.08,
+                "X2_mg": 5.21,
+                "FLT_pred_s": 58.59,
+                "FLT_exp_s": 60.5,
+                "FLT_error_percent": 3.15,
+                "Q1th_pred_percent": 32.08,
+                "Q1th_exp_percent": 31.63,
+                "Q1th_error_percent": 1.4,
+                "Q8th_pred_percent": 86.07,
+                "Q8th_exp_percent": 86.44,
+                "Q8th_error_percent": 0.42
+            },
+            {
+                "code": "108_V2",
+                "X1_mg": 94.66,
+                "X2_mg": 5.54,
+                "FLT_pred_s": 56.24,
+                "FLT_exp_s": 58.33,
+                "FLT_error_percent": 3.53,
+                "Q1th_pred_percent": 32.26,
+                "Q1th_exp_percent": 32.71,
+                "Q1th_error_percent": 1.37,
+                "Q8th_pred_percent": 87.81,
+                "Q8th_exp_percent": 87.52,
+                "Q8th_error_percent": 0.33
+            },
+            {
+                "code": "108_V3",
+                "X1_mg": 96,
+                "X2_mg": 5.4,
+                "FLT_pred_s": 55.4,
+                "FLT_exp_s": 57.23,
+                "FLT_error_percent": 3.14,
+                "Q1th_pred_percent": 33.5,
+                "Q1th_exp_percent": 33.73,
+                "Q1th_error_percent": 0.681,
+                "Q8th_pred_percent": 86.21,
+                "Q8th_exp_percent": 86.56,
+                "Q8th_error_percent": 0.004
+            }
+        ]
+    },
+    "control_strategy": {
+        "HPMC_concentration": {
+            "range_studied": "60–120 mg",
+            "proposed_range": "90 mg ± 5%",
+            "purpose": "Ensure in vitro dissolution, floating, in vivo performance, batch consistency"
+        },
+        "sodium_bicarbonate_concentration": {
+            "range_studied": "5–7 mg",
+            "proposed_range": "5 mg ± 5%",
+            "purpose": "Ensure in vitro dissolution, floating, in vivo performance, batch consistency"
+        },
+        "magnesium_stearate_concentration": {
+            "range_studied": "0.25–0.5 mg",
+            "proposed_range": "0.5 mg ± 5%",
+            "purpose": "Ensure sufficient lubrication, reduce risk of retarded dissolution"
+        },
+        "compression_force": {
+            "range_studied": "10–20 N",
+            "proposed_range": "10 N ± 5%",
+            "purpose": "Batch consistency"
+        },
+        "compression_speed": {
+            "range_studied": "10–30 rpm",
+            "proposed_range": "20 rpm ± 5%",
+            "purpose": "Batch consistency"
+        }
+    }
+}

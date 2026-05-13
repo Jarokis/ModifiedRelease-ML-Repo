@@ -1,0 +1,2494 @@
+{
+    "materials_origin": {
+        "carvedilol_phosphate": "Gift sample from M/s Aizant Drug Research Solutions Pvt. Ltd., Hyderabad",
+        "polymers": {
+            "HPMC_K100M": "Commercial source",
+            "HPMC_K4M": "Commercial source",
+            "Carbopol_934": "Commercial source",
+            "Polyox_WSR": "Commercial source"
+        },
+        "other_excipients": {
+            "sodium_bicarbonate": "Commercial source",
+            "dicalcium_phosphate": "Commercial source",
+            "lactose": "Commercial source",
+            "spray_dried_lactose": "Commercial source",
+            "HPBCD": "Not specified (used in formulations)",
+            "talc": "Pharmacopoeial grade",
+            "magnesium_stearate": "Pharmacopoeial grade"
+        }
+    },
+    "experimental_design_for_optimization": {
+        "objective": "To develop floating tablets of Carvedilol phosphate with sustained release using different polymers and fillers",
+        "factors": [
+            "Polymer type (HPMC K100M, Carbopol 934, Polyox WSR, HPMC K4M)",
+            "Polymer concentration (100 mg, 50 mg, 75 mg, etc.)",
+            "Filler type (DCP, spray dried lactose, HPBCD)"
+        ],
+        "response_variables": [
+            "Hardness",
+            "Friability",
+            "Drug content",
+            "Floating lag time",
+            "Floating time",
+            "Drug release"
+        ],
+        "optimization_criteria": "100% drug release within 12 hours, zero-order release, non-Fickian diffusion"
+    },
+    "ingredients_identification": {
+        "method": "UV-Visible spectrophotometry",
+        "wavelength": "240 nm",
+        "medium": "0.1N HCl buffer",
+        "concentration_range": "0-10 μg/ml",
+        "beers_law_compliance": true,
+        "precision": "RSD < 1.92%",
+        "equation": "Not provided in the article"
+    },
+    "formulation_details": [
+        {
+            "batch": "046_F1",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 100,
+                    "percent": 50.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 32,
+                    "percent": 16.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F2",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 50,
+                    "percent": 25.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 82,
+                    "percent": 41.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F3",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Carbopol 934",
+                    "mass_mg": 100,
+                    "percent": 50.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 32,
+                    "percent": 16.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F4",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Carbopol 934",
+                    "mass_mg": 50,
+                    "percent": 25.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 82,
+                    "percent": 41.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F5",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 100,
+                    "percent": 50.0
+                },
+                {
+                    "name": "HPBCD",
+                    "mass_mg": 30,
+                    "percent": 15.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 12,
+                    "percent": 6.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F6",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 50,
+                    "percent": 25.0
+                },
+                {
+                    "name": "HPBCD",
+                    "mass_mg": 30,
+                    "percent": 15.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 52,
+                    "percent": 26.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F7",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Carbopol 934",
+                    "mass_mg": 100,
+                    "percent": 50.0
+                },
+                {
+                    "name": "HPBCD",
+                    "mass_mg": 30,
+                    "percent": 15.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 12,
+                    "percent": 6.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F8",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Carbopol 934",
+                    "mass_mg": 50,
+                    "percent": 25.0
+                },
+                {
+                    "name": "HPBCD",
+                    "mass_mg": 30,
+                    "percent": 15.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 52,
+                    "percent": 26.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F9",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Polyox WSR",
+                    "mass_mg": 100,
+                    "percent": 50.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 32,
+                    "percent": 16.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F10",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Polyox WSR",
+                    "mass_mg": 50,
+                    "percent": 25.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 82,
+                    "percent": 41.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F11",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Carbopol 934",
+                    "mass_mg": 100,
+                    "percent": 50.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 32,
+                    "percent": 16.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F12",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Carbopol 934",
+                    "mass_mg": 50,
+                    "percent": 25.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 82,
+                    "percent": 41.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F13",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 100,
+                    "percent": 50.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 32,
+                    "percent": 16.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F14",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 50,
+                    "percent": 25.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 82,
+                    "percent": 41.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F15",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 75,
+                    "percent": 37.5
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 57,
+                    "percent": 28.5
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F16",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Carbopol 934",
+                    "mass_mg": 75,
+                    "percent": 37.5
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 27,
+                    "percent": 13.5
+                },
+                {
+                    "name": "HPBCD",
+                    "mass_mg": 30,
+                    "percent": 15.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F17",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 100,
+                    "percent": 50.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 32,
+                    "percent": 16.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F18",
+            "ingredients": [
+                {
+                    "name": "Carvedilol phosphate",
+                    "mass_mg": 20,
+                    "percent": 10.0
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 50,
+                    "percent": 25.0
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mass_mg": 40,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Dicalcium phosphate",
+                    "mass_mg": 82,
+                    "percent": 41.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 4,
+                    "percent": 2.0
+                }
+            ]
+        }
+    ],
+    "pre_compression_parameters": [],
+    "composition_independent_variables": {
+        "polymers": {
+            "HPMC_K100M": [
+                100,
+                50
+            ],
+            "Carbopol_934": [
+                100,
+                50,
+                75
+            ],
+            "HPMC_K4M": [
+                100,
+                50,
+                75
+            ],
+            "Polyox_WSR": [
+                100,
+                50
+            ]
+        },
+        "fillers": {
+            "Dicalcium_phosphate": [
+                12,
+                32,
+                52,
+                82
+            ],
+            "Spray_dried_lactose": [
+                27,
+                32,
+                57,
+                82
+            ],
+            "HPBCD": [
+                30
+            ]
+        },
+        "gas_generator": "Sodium bicarbonate 40 mg in all formulations"
+    },
+    "ftir_information": {
+        "technique": "KBr disc",
+        "instrument": "Bruker Optics, Model: Alpha",
+        "range": "4000-400 cm⁻¹",
+        "observation": "No chemical interactions between Carvedilol phosphate and excipients",
+        "figures": [
+            "Fig. 1",
+            "Fig. 2",
+            "Fig. 3",
+            "Fig. 4",
+            "Fig. 5"
+        ]
+    },
+    "tablet_fabrications": [
+        {
+            "batch": "046_F1",
+            "hardness_kg_cm2": "4±0.05",
+            "friability_percent": "0.82±0.015",
+            "drug_content_percent": "99.6±1.98",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F2",
+            "hardness_kg_cm2": "5±0.03",
+            "friability_percent": "0.75±0.010",
+            "drug_content_percent": "98.2±1.25",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F3",
+            "hardness_kg_cm2": "5.5±0.06",
+            "friability_percent": "0.65±0.012",
+            "drug_content_percent": "100.3±1.50",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F4",
+            "hardness_kg_cm2": "4±0.06",
+            "friability_percent": "0.87±0.015",
+            "drug_content_percent": "99.5±1.65",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F5",
+            "hardness_kg_cm2": "5±0.03",
+            "friability_percent": "0.77±0.013",
+            "drug_content_percent": "97.3±1.50",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F6",
+            "hardness_kg_cm2": "6±0.05",
+            "friability_percent": "0.55±0.001",
+            "drug_content_percent": "99.8±2.00",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F7",
+            "hardness_kg_cm2": "5.5±0.06",
+            "friability_percent": "0.60±0.012",
+            "drug_content_percent": "98.7±1.90",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F8",
+            "hardness_kg_cm2": "6±0.06",
+            "friability_percent": "0.45±0.010",
+            "drug_content_percent": "99.6±1.45",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F9",
+            "hardness_kg_cm2": "6±0.05",
+            "friability_percent": "0.34±0.006",
+            "drug_content_percent": "101.2±1.50",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F10",
+            "hardness_kg_cm2": "5±0.05",
+            "friability_percent": "0.6±0.012",
+            "drug_content_percent": "100.8±1.85",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F11",
+            "hardness_kg_cm2": "5±0.05",
+            "friability_percent": "0.74±0.010",
+            "drug_content_percent": "99.5±1.56",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F12",
+            "hardness_kg_cm2": "4±0.04",
+            "friability_percent": "0.47±0.010",
+            "drug_content_percent": "98.5±1.50",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F13",
+            "hardness_kg_cm2": "5±0.04",
+            "friability_percent": "0.65±0.011",
+            "drug_content_percent": "99.3±1.75",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F14",
+            "hardness_kg_cm2": "6±0.04",
+            "friability_percent": "0.52±0.010",
+            "drug_content_percent": "99.5±1.50",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F15",
+            "hardness_kg_cm2": "6±0.04",
+            "friability_percent": "0.45±0.009",
+            "drug_content_percent": "98.7±1.60",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F16",
+            "hardness_kg_cm2": "6±0.04",
+            "friability_percent": "0.38±0.006",
+            "drug_content_percent": "98.4±1.75",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F17",
+            "hardness_kg_cm2": "5±0.04",
+            "friability_percent": "0.56±0.010",
+            "drug_content_percent": "99.6±1.35",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        },
+        {
+            "batch": "046_F18",
+            "hardness_kg_cm2": "5.5±0.05",
+            "friability_percent": "0.29±0.005",
+            "drug_content_percent": "101.5±2.00",
+            "weight_variation": null,
+            "thickness": null,
+            "diameter": null,
+            "density": null,
+            "consolidation_index": null
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "Multi-station tablet compression machine",
+        "punch_size": "9 mm flat punches",
+        "hardness_target": "4-6 kg/cm²",
+        "coating": "None",
+        "temperature": "Room temperature (not specified, assumed ambient)",
+        "pressure": "Not specified"
+    },
+    "release_properties": [
+        {
+            "batch": "046_F1",
+            "release_rate_K0_mg_per_h": "0.76±0.01",
+            "release_rate_K1_per_h": "0.0510±0.001",
+            "release_exponent_n": "0.800±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.981,
+                "first_order": 0.995,
+                "higuchi": 0.974,
+                "korsmeyer_peppas": 0.998
+            },
+            "mechanism": "Non-Fickian diffusion (anomalous)",
+            "factors": "HPMC K100M, DCP"
+        },
+        {
+            "batch": "046_F2",
+            "release_rate_K0_mg_per_h": "0.80±0.01",
+            "release_rate_K1_per_h": "0.0539±0.001",
+            "release_exponent_n": "0.765±0.01",
+            "release_order": "Zero-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.993,
+                "first_order": 0.986,
+                "higuchi": 0.919,
+                "korsmeyer_peppas": 0.933
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "HPMC K100M, DCP"
+        },
+        {
+            "batch": "046_F3",
+            "release_rate_K0_mg_per_h": "0.91±0.01",
+            "release_rate_K1_per_h": "0.0713±0.001",
+            "release_exponent_n": "0.589±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.939,
+                "first_order": 0.986,
+                "higuchi": 0.919,
+                "korsmeyer_peppas": 0.995
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "Carbopol, DCP"
+        },
+        {
+            "batch": "046_F4",
+            "release_rate_K0_mg_per_h": "2.40±0.04",
+            "release_rate_K1_per_h": "0.4075±0.008",
+            "release_exponent_n": "0.688±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.895,
+                "first_order": 0.993,
+                "higuchi": 0.979,
+                "korsmeyer_peppas": 0.968
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "Carbopol, DCP"
+        },
+        {
+            "batch": "046_F5",
+            "release_rate_K0_mg_per_h": "0.89±0.01",
+            "release_rate_K1_per_h": "0.0671±0.001",
+            "release_exponent_n": "0.694±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.895,
+                "first_order": 0.965,
+                "higuchi": 0.914,
+                "korsmeyer_peppas": 0.983
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "HPMC K100M, HPBCD, DCP"
+        },
+        {
+            "batch": "046_F6",
+            "release_rate_K0_mg_per_h": "1.12±0.02",
+            "release_rate_K1_per_h": "0.0901±0.001",
+            "release_exponent_n": "0.926±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.961,
+                "first_order": 0.981,
+                "higuchi": 0.953,
+                "korsmeyer_peppas": 0.978
+            },
+            "mechanism": "Super case II transport",
+            "factors": "HPMC K100M, HPBCD, DCP"
+        },
+        {
+            "batch": "046_F7",
+            "release_rate_K0_mg_per_h": "1.35±0.02",
+            "release_rate_K1_per_h": "0.1263±0.002",
+            "release_exponent_n": "0.992±0.01",
+            "release_order": "Zero-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.999,
+                "first_order": 0.99,
+                "higuchi": 0.953,
+                "korsmeyer_peppas": 0.994
+            },
+            "mechanism": "Super case II transport",
+            "factors": "Carbopol, HPBCD, DCP"
+        },
+        {
+            "batch": "046_F8",
+            "release_rate_K0_mg_per_h": "4.82±0.06",
+            "release_rate_K1_per_h": "0.3152±0.006",
+            "release_exponent_n": "0.657±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.981,
+                "first_order": 0.984,
+                "higuchi": 0.849,
+                "korsmeyer_peppas": 0.995
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "Carbopol, HPBCD, DCP"
+        },
+        {
+            "batch": "046_F9",
+            "release_rate_K0_mg_per_h": "9.87±0.15",
+            "release_rate_K1_per_h": "1.868±0.036",
+            "release_exponent_n": "0.169±0.003",
+            "release_order": "First-order (based on R2, zero-order 0.968, first-order 0.936, Higuchi 0.988)",
+            "best_fit_model_R2": {
+                "zero_order": 0.968,
+                "first_order": 0.936,
+                "higuchi": 0.988,
+                "korsmeyer_peppas": 0.882
+            },
+            "mechanism": "Fickian diffusion",
+            "factors": "Polyox WSR, lactose"
+        },
+        {
+            "batch": "046_F10",
+            "release_rate_K0_mg_per_h": "8.56±0.15",
+            "release_rate_K1_per_h": "1.601±0.02",
+            "release_exponent_n": "0.696±0.01",
+            "release_order": "First-order (Higuchi best fit)",
+            "best_fit_model_R2": {
+                "zero_order": 0.657,
+                "first_order": 0.807,
+                "higuchi": 0.999,
+                "korsmeyer_peppas": 0.769
+            },
+            "mechanism": "Non-Fickian diffusion (but text says fickian, likely a discrepancy)",
+            "factors": "Polyox WSR, lactose"
+        },
+        {
+            "batch": "046_F11",
+            "release_rate_K0_mg_per_h": "1.57±0.03",
+            "release_rate_K1_per_h": "0.240±0.006",
+            "release_exponent_n": "0.656±0.01",
+            "release_order": "Zero-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.945,
+                "first_order": 0.913,
+                "higuchi": 0.955,
+                "korsmeyer_peppas": 0.99
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "Carbopol, lactose"
+        },
+        {
+            "batch": "046_F12",
+            "release_rate_K0_mg_per_h": "2.89±0.03",
+            "release_rate_K1_per_h": "0.580±0.01",
+            "release_exponent_n": "0.733±0.015",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.733,
+                "first_order": 0.881,
+                "higuchi": 0.913,
+                "korsmeyer_peppas": 0.882
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "Carbopol, lactose"
+        },
+        {
+            "batch": "046_F13",
+            "release_rate_K0_mg_per_h": "1.03±0.01",
+            "release_rate_K1_per_h": "0.083±0.002",
+            "release_exponent_n": "0.733±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.97,
+                "first_order": 0.993,
+                "higuchi": 0.981,
+                "korsmeyer_peppas": 0.956
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "HPMC K4M, lactose"
+        },
+        {
+            "batch": "046_F14",
+            "release_rate_K0_mg_per_h": "2.65±0.05",
+            "release_rate_K1_per_h": "0.486±0.01",
+            "release_exponent_n": "0.896±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.917,
+                "first_order": 0.974,
+                "higuchi": 0.955,
+                "korsmeyer_peppas": 0.953
+            },
+            "mechanism": "Super case II transport (n>0.89)",
+            "factors": "HPMC K4M, lactose"
+        },
+        {
+            "batch": "046_F15",
+            "release_rate_K0_mg_per_h": "1.50±0.02",
+            "release_rate_K1_per_h": "0.143±0.002",
+            "release_exponent_n": "0.709±0.01",
+            "release_order": "Zero-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.979,
+                "first_order": 0.926,
+                "higuchi": 0.95,
+                "korsmeyer_peppas": 0.979
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "HPMC K4M, lactose"
+        },
+        {
+            "batch": "046_F16",
+            "release_rate_K0_mg_per_h": "1.66±0.01",
+            "release_rate_K1_per_h": "0.332±0.006",
+            "release_exponent_n": "0.701±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.959,
+                "first_order": 0.965,
+                "higuchi": 0.969,
+                "korsmeyer_peppas": 0.976
+            },
+            "mechanism": "Non-Fickian diffusion",
+            "factors": "Carbopol, lactose, HPBCD"
+        },
+        {
+            "batch": "046_F17",
+            "release_rate_K0_mg_per_h": "0.95±0.01",
+            "release_rate_K1_per_h": "0.067±0.001",
+            "release_exponent_n": "0.945±0.01",
+            "release_order": "First-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.976,
+                "first_order": 0.982,
+                "higuchi": 0.953,
+                "korsmeyer_peppas": 0.981
+            },
+            "mechanism": "Super case II transport",
+            "factors": "HPMC K4M, DCP"
+        },
+        {
+            "batch": "046_F18",
+            "release_rate_K0_mg_per_h": "2.23±0.02",
+            "release_rate_K1_per_h": "0.168±0.003",
+            "release_exponent_n": "0.964±0.01",
+            "release_order": "Zero-order",
+            "best_fit_model_R2": {
+                "zero_order": 0.963,
+                "first_order": 0.864,
+                "higuchi": 0.842,
+                "korsmeyer_peppas": 0.964
+            },
+            "mechanism": "Super case II transport",
+            "factors": "HPMC K4M, DCP"
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "046_F1",
+            "hardness_kg_cm2": "4±0.05",
+            "friability_percent": "0.82±0.015",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained over 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "30±0.5",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 5.0
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 9.7
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 14.2
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 18.5
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 22.5
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 26.4
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 30.1
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 33.6
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 37.0
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 40.2
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 43.3
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 46.2
+                }
+            ]
+        },
+        {
+            "batch": "046_F2",
+            "hardness_kg_cm2": "5±0.03",
+            "friability_percent": "0.75±0.010",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained over 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "15±0.5",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 4.0
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 8.0
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 12.0
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 16.0
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 20.0
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 24.0
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 28.0
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 32.0
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 36.0
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 40.0
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 44.0
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 48.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F3",
+            "hardness_kg_cm2": "5.5±0.06",
+            "friability_percent": "0.65±0.012",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained over 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "22±0.4",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 6.9
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 13.3
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 19.3
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 24.8
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 30.1
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 35.0
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 39.6
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 43.9
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 47.9
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 51.7
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 55.3
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 58.6
+                }
+            ]
+        },
+        {
+            "batch": "046_F4",
+            "hardness_kg_cm2": "4±0.06",
+            "friability_percent": "0.87±0.015",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained over 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "13±0.2",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 33.5
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 55.8
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 70.6
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 80.4
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 87.0
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 91.4
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 94.3
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 96.2
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 97.5
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 98.3
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 98.9
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 99.3
+                }
+            ]
+        },
+        {
+            "batch": "046_F5",
+            "hardness_kg_cm2": "5±0.03",
+            "friability_percent": "0.77±0.013",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained over 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "90±1.5",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 6.5
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 12.6
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 18.2
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 23.6
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 28.6
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 33.3
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 37.8
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 42.0
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 45.9
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 49.7
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 53.2
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 56.5
+                }
+            ]
+        },
+        {
+            "batch": "046_F6",
+            "hardness_kg_cm2": "6±0.05",
+            "friability_percent": "0.55±0.001",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained over 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "60±1.5",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 8.6
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 16.5
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 23.8
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 30.4
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 36.6
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 42.2
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 47.4
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 52.2
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 56.6
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 60.7
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 64.5
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 68.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F7",
+            "hardness_kg_cm2": "5.5±0.06",
+            "friability_percent": "0.60±0.012",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained over 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "28±0.4",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 6.8
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 13.5
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 20.3
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 27.0
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 33.8
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 40.5
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 47.3
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 54.0
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 60.8
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 67.5
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 74.3
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 81.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F8",
+            "hardness_kg_cm2": "6±0.06",
+            "friability_percent": "0.45±0.010",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained over 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "18±0.2",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 27.0
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 46.8
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 61.2
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 71.7
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 79.3
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 84.9
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 89.0
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 92.0
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 94.2
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 95.8
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 96.9
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 97.7
+                }
+            ]
+        },
+        {
+            "batch": "046_F9",
+            "hardness_kg_cm2": "6±0.05",
+            "friability_percent": "0.34±0.006",
+            "disintegration_time": "Disintegrated",
+            "dissolution_profile": "Rapid release (up to 4h)",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "10±0.2",
+            "total_floating_time_h": "Up to 4",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "percent_released": 60.5
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 84.5
+                },
+                {
+                    "time_h": 1.5,
+                    "percent_released": 94.0
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 97.6
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 99.6
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 100.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F10",
+            "hardness_kg_cm2": "5±0.05",
+            "friability_percent": "0.6±0.012",
+            "disintegration_time": "Disintegrated",
+            "dissolution_profile": "Rapid release (up to 3h)",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "14±0.2",
+            "total_floating_time_h": "Up to 3",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "percent_released": 55.0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 79.8
+                },
+                {
+                    "time_h": 1.5,
+                    "percent_released": 90.9
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 95.9
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 99.2
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 99.8
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 100.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F11",
+            "hardness_kg_cm2": "5±0.05",
+            "friability_percent": "0.74±0.010",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "100% in 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "5±0.1",
+            "total_floating_time_h": "Up to 10",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 7.9
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 15.7
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 23.6
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 31.4
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 39.3
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 47.1
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 55.0
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 62.8
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 70.7
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 78.5
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 86.4
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 94.2
+                }
+            ]
+        },
+        {
+            "batch": "046_F12",
+            "hardness_kg_cm2": "4±0.04",
+            "friability_percent": "0.47±0.010",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "5±0.1",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 44.0
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 68.7
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 82.5
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 90.2
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 94.5
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 97.0
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 98.4
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 99.2
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 99.6
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 99.8
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 99.9
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 100.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F13",
+            "hardness_kg_cm2": "5±0.04",
+            "friability_percent": "0.65±0.011",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "48±0.3",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 8.0
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 15.3
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 22.1
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 28.4
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 34.2
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 39.6
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 44.6
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 49.3
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 53.6
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 57.6
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 61.3
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 64.7
+                }
+            ]
+        },
+        {
+            "batch": "046_F14",
+            "hardness_kg_cm2": "6±0.04",
+            "friability_percent": "0.52±0.010",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "22±0.3",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 38.5
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 62.1
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 76.7
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 85.7
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 91.3
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 94.7
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 96.8
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 98.1
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 98.9
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 99.4
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 99.7
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 99.8
+                }
+            ]
+        },
+        {
+            "batch": "046_F15",
+            "hardness_kg_cm2": "6±0.04",
+            "friability_percent": "0.45±0.009",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "100% in 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "14±0.2",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 7.5
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 15.0
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 22.5
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 30.0
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 37.5
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 45.0
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 52.5
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 60.0
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 67.5
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 75.0
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 82.5
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 90.0
+                }
+            ]
+        },
+        {
+            "batch": "046_F16",
+            "hardness_kg_cm2": "6±0.04",
+            "friability_percent": "0.38±0.006",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "100% in 12h",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "25±0.2",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 28.2
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 48.5
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 63.0
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 73.5
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 81.1
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 86.6
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 90.6
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 93.5
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 95.5
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 96.9
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 97.9
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 98.6
+                }
+            ]
+        },
+        {
+            "batch": "046_F17",
+            "hardness_kg_cm2": "5±0.04",
+            "friability_percent": "0.56±0.010",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "30±0.15",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 6.5
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 12.6
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 18.3
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 23.7
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 28.8
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 33.6
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 38.1
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 42.4
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 46.4
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 50.2
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 53.8
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 57.2
+                }
+            ]
+        },
+        {
+            "batch": "046_F18",
+            "hardness_kg_cm2": "5.5±0.05",
+            "friability_percent": "0.29±0.005",
+            "disintegration_time": "No disintegration",
+            "dissolution_profile": "Sustained",
+            "stability": "Not reported",
+            "thickness": null,
+            "weight_variation_percent": null,
+            "floating_lag_time_sec": "14±0.15",
+            "total_floating_time_h": ">24",
+            "swelling_index": null,
+            "dissolution_profile_data": [
+                {
+                    "time_h": 0,
+                    "percent_released": 0
+                },
+                {
+                    "time_h": 1,
+                    "percent_released": 11.2
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 22.3
+                },
+                {
+                    "time_h": 3,
+                    "percent_released": 33.5
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 44.6
+                },
+                {
+                    "time_h": 5,
+                    "percent_released": 55.8
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 66.9
+                },
+                {
+                    "time_h": 7,
+                    "percent_released": 78.1
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 89.2
+                },
+                {
+                    "time_h": 9,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 11,
+                    "percent_released": 100.0
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 100.0
+                }
+            ]
+        }
+    ],
+    "experimental_data": {
+        "key_results": "Formulations 046_F11, 046_F15, and 046_F16 achieved 100% drug release within 12 hours and exhibited non-Fickian release with zero-order (046_F11, 046_F15) or first-order (046_F16) kinetics. These are optimized for twice-daily administration.",
+        "performance_metrics": {
+            "hardness_range": "4-6 kg/cm²",
+            "friability_range": "0.29-0.87%",
+            "drug_content_range": "97.3-101.5%",
+            "floating_lag_time_range": "5 sec to 34 min",
+            "floating_time_range": "2-24 h"
+        },
+        "statistical_analysis": "Data presented as mean±SD (n=3 for release, n=10 for other parameters). RSD for UV method <1.92%.",
+        "zero_order_release_formulations": [
+            "046_F2",
+            "046_F7",
+            "046_F11",
+            "046_F15",
+            "046_F18"
+        ],
+        "first_order_release_formulations": [
+            "046_F1",
+            "046_F3",
+            "046_F4",
+            "046_F5",
+            "046_F6",
+            "046_F8",
+            "046_F9",
+            "046_F10",
+            "046_F12",
+            "046_F13",
+            "046_F14",
+            "046_F16",
+            "046_F17"
+        ]
+    }
+}

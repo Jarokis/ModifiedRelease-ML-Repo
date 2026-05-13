@@ -1,0 +1,1281 @@
+{
+    "article_sections": {
+        "abstract": "Page 1",
+        "introduction": "Page 1",
+        "materials": "Page 1",
+        "methods": "Pages 1-2",
+        "results_and_discussion": "Pages 2-6",
+        "conclusion": "Page 6"
+    },
+    "extracted_data": {
+        "materials_origin": {
+            "metoprolol_succinate": "Mepro Pharmaceutical Ltd (Gujrat, India)",
+            "neusilin_us2": "Gangwal Chemicals Pvt Ltd (Mumbai, India)",
+            "compritol_ato_888": "Gattefosse Pvt Ltd (Mumbai, India)",
+            "gelucire_43_01": "Gattefosse Pvt Ltd (Mumbai, India)",
+            "gelucire_39_01": "Gattefosse Pvt Ltd (Mumbai, India)",
+            "precirol_ato_05": "Gattefosse Pvt Ltd (Mumbai, India)",
+            "other_chemicals": "All other chemicals and solvents used were of analytical grade."
+        },
+        "experimental_design_for_optimization": {
+            "preparation_method": "Fusion technique",
+            "ingredients_identification": "Solid dispersions were prepared with lipophilic carriers (compritol ATO888, Gelucire 43/01, Gelucire 39/01, precirol ATO 05). Neusillin 058_US2 was used as an adsorbent. The solid dispersions were compressed into minitablets (20 mg) and filled into size '0' capsules.",
+            "results": "Formulations 058_F9, 058_F10, 058_F14, and 058_F15 showed instantaneous floating lag time (0 min), floating time >12 h, and sustained release up to 12 h. Pharmacokinetic study of 058_F9 showed 2.46 times increase in AUC with increased residence time.",
+            "absorbance_measurement": "UV spectrophotometric analysis at 273 nm for drug content and in vitro dissolution studies."
+        },
+        "formulation_details": [
+            {
+                "batch": "058_F1",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": 1,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 0.5
+                },
+                "excipients": "Compritol ATO 888, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F2",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": 2,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 1
+                },
+                "excipients": "Compritol ATO 888, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F3",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": 3,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 1.5
+                },
+                "excipients": "Compritol ATO 888, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F4",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": 4,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 2
+                },
+                "excipients": "Compritol ATO 888, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F5",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": 5,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 2.5
+                },
+                "excipients": "Compritol ATO 888, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F6",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": 1,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 0.5
+                },
+                "excipients": "Gelucire 43/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F7",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": 2,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 1
+                },
+                "excipients": "Gelucire 43/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F8",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": 3,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 1.5
+                },
+                "excipients": "Gelucire 43/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F9",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": 4,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 2
+                },
+                "excipients": "Gelucire 43/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F10",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": 5,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 2.5
+                },
+                "excipients": "Gelucire 43/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F11",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": 1,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 0.5
+                },
+                "excipients": "Gelucire 39/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F12",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": 2,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 1
+                },
+                "excipients": "Gelucire 39/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F13",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": 3,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 1.5
+                },
+                "excipients": "Gelucire 39/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F14",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": 4,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 2
+                },
+                "excipients": "Gelucire 39/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F15",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": 5,
+                    "precirol_ato_05_mg": null,
+                    "neusilin_us2_mg": 2.5
+                },
+                "excipients": "Gelucire 39/01, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F16",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": 1,
+                    "neusilin_us2_mg": 0.5
+                },
+                "excipients": "Precirol ATO 05, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F17",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": 2,
+                    "neusilin_us2_mg": 1
+                },
+                "excipients": "Precirol ATO 05, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F18",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": 3,
+                    "neusilin_us2_mg": 1.5
+                },
+                "excipients": "Precirol ATO 05, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F19",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": 4,
+                    "neusilin_us2_mg": 2
+                },
+                "excipients": "Precirol ATO 05, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            },
+            {
+                "batch": "058_F20",
+                "ingredients": {
+                    "metoprolol_succinate_mg": 1,
+                    "compritol_ato_888_mg": null,
+                    "gelucire_43_01_mg": null,
+                    "gelucire_39_01_mg": null,
+                    "precirol_ato_05_mg": 5,
+                    "neusilin_us2_mg": 2.5
+                },
+                "excipients": "Precirol ATO 05, Neusilin US2",
+                "api": "Metoprolol succinate",
+                "minitablet_weight_mg": 20,
+                "capsule_size": "0",
+                "percent_pellets": "Not specified"
+            }
+        ],
+        "pre_compression_parameters": [
+            {
+                "batch": "Pure Drug (Metoprolol Succinate)",
+                "angle_of_repose_degrees": "38±1.2",
+                "carrs_index": "30±2.31",
+                "hausners_ratio": "1.52±1.79",
+                "drug_content_percent": "96.7±3.1"
+            },
+            {
+                "batch": "058_F1",
+                "angle_of_repose_degrees": "34±1.5",
+                "carrs_index": "28±2.2",
+                "hausners_ratio": "1.32±0.29",
+                "drug_content_percent": "99±3.9"
+            },
+            {
+                "batch": "058_F2",
+                "angle_of_repose_degrees": "32±2.1",
+                "carrs_index": "27±1.5",
+                "hausners_ratio": "1.27±0.19",
+                "drug_content_percent": "96.5±1.2"
+            },
+            {
+                "batch": "058_F3",
+                "angle_of_repose_degrees": "35±2.2",
+                "carrs_index": "28±2.1",
+                "hausners_ratio": "1.28±0.29",
+                "drug_content_percent": "96±2.3"
+            },
+            {
+                "batch": "058_F4",
+                "angle_of_repose_degrees": "33±1.4",
+                "carrs_index": "26±1.4",
+                "hausners_ratio": "1.28±0.29",
+                "drug_content_percent": "99±3.2"
+            },
+            {
+                "batch": "058_F5",
+                "angle_of_repose_degrees": "32±2.2",
+                "carrs_index": "29±2.1",
+                "hausners_ratio": "1.29±0.39",
+                "drug_content_percent": "98±1.4"
+            },
+            {
+                "batch": "058_F6",
+                "angle_of_repose_degrees": "31±1.6",
+                "carrs_index": "27±2.5",
+                "hausners_ratio": "1.30±0.39",
+                "drug_content_percent": "96±2.6"
+            },
+            {
+                "batch": "058_F7",
+                "angle_of_repose_degrees": "32±3.2",
+                "carrs_index": "26±1.4",
+                "hausners_ratio": "1.31±0.29",
+                "drug_content_percent": "97±3.1"
+            },
+            {
+                "batch": "058_F8",
+                "angle_of_repose_degrees": "33±2.5",
+                "carrs_index": "25±2.1",
+                "hausners_ratio": "1.28±0.39",
+                "drug_content_percent": "98±4.7"
+            },
+            {
+                "batch": "058_F9",
+                "angle_of_repose_degrees": "35±3.6",
+                "carrs_index": "26±2.4",
+                "hausners_ratio": "1.30±0.39",
+                "drug_content_percent": "99±2.3"
+            },
+            {
+                "batch": "058_F10",
+                "angle_of_repose_degrees": "27±2.5",
+                "carrs_index": "18±1.3",
+                "hausners_ratio": "1.14±0.29",
+                "drug_content_percent": "98±4.1"
+            },
+            {
+                "batch": "058_F11",
+                "angle_of_repose_degrees": "24±2.1",
+                "carrs_index": "19±2.1",
+                "hausners_ratio": "1.31±0.49",
+                "drug_content_percent": "97±3.3"
+            },
+            {
+                "batch": "058_F12",
+                "angle_of_repose_degrees": "25±1.5",
+                "carrs_index": "18±1.3",
+                "hausners_ratio": "1.19±0.49",
+                "drug_content_percent": "95±2.6"
+            },
+            {
+                "batch": "058_F13",
+                "angle_of_repose_degrees": "22±2.4",
+                "carrs_index": "18±2.4",
+                "hausners_ratio": "1.17±0.39",
+                "drug_content_percent": "97±3.7"
+            },
+            {
+                "batch": "058_F14",
+                "angle_of_repose_degrees": "24±1.5",
+                "carrs_index": "17±2.2",
+                "hausners_ratio": "1.21±0.29",
+                "drug_content_percent": "96±5.4"
+            },
+            {
+                "batch": "058_F15",
+                "angle_of_repose_degrees": "23±2.1",
+                "carrs_index": "19±1.5",
+                "hausners_ratio": "1.25±0.29",
+                "drug_content_percent": "98±6.2"
+            },
+            {
+                "batch": "058_F16",
+                "angle_of_repose_degrees": "24±2.2",
+                "carrs_index": "18±2.2",
+                "hausners_ratio": "1.22±0.79",
+                "drug_content_percent": "97±5.1"
+            },
+            {
+                "batch": "058_F17",
+                "angle_of_repose_degrees": "22±3.0",
+                "carrs_index": "17±1.3",
+                "hausners_ratio": "1.18±0.49",
+                "drug_content_percent": "96±3.2"
+            },
+            {
+                "batch": "058_F18",
+                "angle_of_repose_degrees": "25±2.5",
+                "carrs_index": "16±2.5",
+                "hausners_ratio": "1.21±0.39",
+                "drug_content_percent": "96±4.1"
+            },
+            {
+                "batch": "058_F19",
+                "angle_of_repose_degrees": "28±2.1",
+                "carrs_index": "20±1.3",
+                "hausners_ratio": "1.22±0.29",
+                "drug_content_percent": "98±5.2"
+            },
+            {
+                "batch": "058_F20",
+                "angle_of_repose_degrees": "26±1.8",
+                "carrs_index": "21±2.4",
+                "hausners_ratio": "1.21±0.39",
+                "drug_content_percent": "97±5.2"
+            }
+        ],
+        "composition_of_independent_variables": {
+            "levels": "Drug to lipophilic carrier ratios of 1:1, 1:2, 1:3, 1:4, and 1:5.",
+            "carriers": [
+                "Compritol ATO 888",
+                "Gelucire 43/01",
+                "Gelucire 39/01",
+                "Precirol ATO 05"
+            ],
+            "adsorbent_ratio": "Lipophilic carrier to Neusillin 058_US2 is maintained at 1:0.5."
+        },
+        "ftir_spectral_measurements": {
+            "instrument": "IR Affinity-1 (Shimadzu, Japan)",
+            "method": "Potassium bromide discs, scanning speed of 2 mm/s with a resolution of 4 cm-1 over the region 4000-400 cm-1.",
+            "findings": "Pure drug showed absorption bands at 3181 cm-1 (NH group), 3040 cm-1 (OH group), and 2740 cm-1 (OCH3 group). Dispersion granules with excipients showed absorption bands in a similar range, indicating compatibility.",
+            "figure": "Fig. 1"
+        },
+        "tablet_fabrications": [
+            {
+                "batch": "058_F1",
+                "density_g_cm3": "0.24±0.01",
+                "drug_content_percent": "99±3.9 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification (individual values not provided)",
+                "friability": "Within acceptable specification (individual values not provided)",
+                "weight_variation": "Within acceptable specification (individual values not provided)",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F2",
+                "density_g_cm3": "0.23±0.03",
+                "drug_content_percent": "96.5±1.2 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F3",
+                "density_g_cm3": "0.27±0.03",
+                "drug_content_percent": "96±2.3 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F4",
+                "density_g_cm3": "0.26±0.02",
+                "drug_content_percent": "99±3.2 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F5",
+                "density_g_cm3": "0.23±0.04",
+                "drug_content_percent": "98±1.4 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F6",
+                "density_g_cm3": "0.19±0.03",
+                "drug_content_percent": "96±2.6 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F7",
+                "density_g_cm3": "0.22±0.02",
+                "drug_content_percent": "97±3.1 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F8",
+                "density_g_cm3": "0.22±0.03",
+                "drug_content_percent": "98±4.7 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F9",
+                "density_g_cm3": "0.25±0.04",
+                "drug_content_percent": "99±2.3 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F10",
+                "density_g_cm3": "0.20±0.02",
+                "drug_content_percent": "98±4.1 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F11",
+                "density_g_cm3": "0.21±0.01",
+                "drug_content_percent": "97±3.3 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F12",
+                "density_g_cm3": "0.23±0.03",
+                "drug_content_percent": "95±2.6 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F13",
+                "density_g_cm3": "0.22±0.02",
+                "drug_content_percent": "97±3.7 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F14",
+                "density_g_cm3": "0.21±0.03",
+                "drug_content_percent": "96±5.4 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F15",
+                "density_g_cm3": "0.24±0.02",
+                "drug_content_percent": "98±6.2 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F16",
+                "density_g_cm3": "0.27±0.03",
+                "drug_content_percent": "97±5.1 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F17",
+                "density_g_cm3": "0.23±0.03",
+                "drug_content_percent": "96±3.2 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F18",
+                "density_g_cm3": "0.24±0.02",
+                "drug_content_percent": "96±4.1 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F19",
+                "density_g_cm3": "0.22±0.01",
+                "drug_content_percent": "98±5.2 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            },
+            {
+                "batch": "058_F20",
+                "density_g_cm3": "0.21±0.02",
+                "drug_content_percent": "97±5.2 (from granules, tablets >90%)",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "weight_variation": "Within acceptable specification",
+                "thickness": "Not specified",
+                "diameter": "3 mm",
+                "consolidation_index": "Not specified"
+            }
+        ],
+        "process_parameters": {
+            "compression_process": {
+                "device": "Not specified",
+                "pressure": "Not specified",
+                "coating": "No coating mentioned",
+                "tablet_type": "3 mm circular flat minitablets"
+            },
+            "equipment_used": [
+                "Water bath (for fusion method)",
+                "Sieve (mesh #40)",
+                "Compression machine (not specified)",
+                "IR Affinity-1 (Shimadzu, Japan)",
+                "DSC (Shimazu Ltd., Japan)",
+                "UV-spectrophotometer",
+                "USP dissolution apparatus II",
+                "Reverse-phase ultrafast liquid chromatographic (UFLC) system"
+            ],
+            "process_conditions": {
+                "temperature": "Lipophilic carrier melted on water bath; DSC at 100°C/min up to 220°C; Stability at 40°C",
+                "pressure": "Not specified"
+            }
+        },
+        "release_properties": [
+            {
+                "batch": "058_F6",
+                "release_kinetics": {
+                    "zero_order_r2": "0.7593",
+                    "first_order_r2": "0.9606",
+                    "higuchi_r2": "0.8190",
+                    "korsmeyer_peppas_n": "0.2028"
+                },
+                "release_mechanism": "Fickian diffusion (n < 0.45)",
+                "release_profile": "Not specified",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            },
+            {
+                "batch": "058_F7",
+                "release_kinetics": {
+                    "zero_order_r2": "0.8121",
+                    "first_order_r2": "0.9732",
+                    "higuchi_r2": "0.9660",
+                    "korsmeyer_peppas_n": "0.4211"
+                },
+                "release_mechanism": "Fickian diffusion (n < 0.45)",
+                "release_profile": "Not specified",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            },
+            {
+                "batch": "058_F8",
+                "release_kinetics": {
+                    "zero_order_r2": "0.7237",
+                    "first_order_r2": "0.9790",
+                    "higuchi_r2": "0.9986",
+                    "korsmeyer_peppas_n": "0.5056"
+                },
+                "release_mechanism": "Non-Fickian (anomalous) transport (0.45 < n < 0.89)",
+                "release_profile": "Not specified",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            },
+            {
+                "batch": "058_F9",
+                "release_kinetics": {
+                    "zero_order_r2": "0.9736",
+                    "first_order_r2": "0.9902",
+                    "higuchi_r2": "0.9998",
+                    "korsmeyer_peppas_n": "0.5299"
+                },
+                "release_mechanism": "Non-Fickian (anomalous) transport (0.45 < n < 0.89)",
+                "release_profile": "Sustained release for 12 h",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            },
+            {
+                "batch": "058_F10",
+                "release_kinetics": {
+                    "zero_order_r2": "0.9665",
+                    "first_order_r2": "0.9998",
+                    "higuchi_r2": "0.9914",
+                    "korsmeyer_peppas_n": "0.5141"
+                },
+                "release_mechanism": "Non-Fickian (anomalous) transport (0.45 < n < 0.89)",
+                "release_profile": "Sustained release for 12 h",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            },
+            {
+                "batch": "058_F11",
+                "release_kinetics": {
+                    "zero_order_r2": "0.6717",
+                    "first_order_r2": "0.9873",
+                    "higuchi_r2": "0.9472",
+                    "korsmeyer_peppas_n": "0.2157"
+                },
+                "release_mechanism": "Fickian diffusion (n < 0.45)",
+                "release_profile": "Not specified",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            },
+            {
+                "batch": "058_F12",
+                "release_kinetics": {
+                    "zero_order_r2": "0.7928",
+                    "first_order_r2": "0.9801",
+                    "higuchi_r2": "0.8375",
+                    "korsmeyer_peppas_n": "0.2528"
+                },
+                "release_mechanism": "Fickian diffusion (n < 0.45)",
+                "release_profile": "Not specified",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            },
+            {
+                "batch": "058_F13",
+                "release_kinetics": {
+                    "zero_order_r2": "0.8505",
+                    "first_order_r2": "0.9948",
+                    "higuchi_r2": "0.8838",
+                    "korsmeyer_peppas_n": "0.5284"
+                },
+                "release_mechanism": "Non-Fickian (anomalous) transport (0.45 < n < 0.89)",
+                "release_profile": "Not specified",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            },
+            {
+                "batch": "058_F14",
+                "release_kinetics": {
+                    "zero_order_r2": "0.9418",
+                    "first_order_r2": "0.9949",
+                    "higuchi_r2": "0.9927",
+                    "korsmeyer_peppas_n": "0.5305"
+                },
+                "release_mechanism": "Non-Fickian (anomalous) transport (0.45 < n < 0.89)",
+                "release_profile": "Sustained release for 12 h",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            },
+            {
+                "batch": "058_F15",
+                "release_kinetics": {
+                    "zero_order_r2": "0.9381",
+                    "first_order_r2": "0.9956",
+                    "higuchi_r2": "0.9959",
+                    "korsmeyer_peppas_n": "0.5249"
+                },
+                "release_mechanism": "Non-Fickian (anomalous) transport (0.45 < n < 0.89)",
+                "release_profile": "Sustained release for 12 h",
+                "factors_influencing_release": "pH 1.2 (0.1N HCl)"
+            }
+        ],
+        "tablet_properties": [
+            {
+                "batch": "058_F1",
+                "hardness": "Within acceptable specification (value not provided)",
+                "friability": "Within acceptable specification (value not provided)",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification (value not provided)",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F2",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F3",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F4",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F5",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F6",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3A",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F7",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3A",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F8",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3A",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F9",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3A, Sustained release for 12 h",
+                "stability": "Stable for 3 months (no significant change)",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F10",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3A, Sustained release for 12 h",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F11",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3B",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F12",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3B",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F13",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3B",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F14",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3B, Sustained release for 12 h",
+                "stability": "Significant change in T95% during stability study",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F15",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Fig. 3B, Sustained release for 12 h",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "0",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F16",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F17",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F18",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F19",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            },
+            {
+                "batch": "058_F20",
+                "hardness": "Within acceptable specification",
+                "friability": "Within acceptable specification",
+                "disintegration_time": "Not specified",
+                "dissolution_profile": "Not specified",
+                "stability": "Not specified",
+                "thickness": "Not specified",
+                "weight_variation_percent": "Within acceptable specification",
+                "lag_time_minutes": "No floating",
+                "total_floating_time_hours": "No floating",
+                "swelling_index": "Not specified"
+            }
+        ],
+        "experimental_data": {
+            "key_results": "Formulations 058_F9, 058_F10, 058_F14, and 058_F15 showed instantaneous floating (0 min lag time), floating time >12 h, and sustained release up to 12 h. 058_F9 was the most stable and showed 2.46 times increase in AUC compared to pure drug.",
+            "performance_metrics": {
+                "drug_content": ">90% for all dispersion granules",
+                "floating_lag_time": "0 min for 058_F6-058_F15, no floating for 058_F1-058_F5 and 058_F16-058_F20",
+                "total_floating_time": ">12 h for 058_F6-058_F15",
+                "t95_percent": "12±0.2 h for 058_F9, 12±0.3 h for 058_F14 (initial)"
+            },
+            "statistical_analysis": "ANOVA (p<0.05) indicated no significant change in parameters for 058_F9 during stability study, but significant change for 058_F14 in T95%.",
+            "zero_order_release": "R² values provided in release_properties section",
+            "first_order_release": "R² values provided in release_properties section",
+            "in_vivo_study_results": {
+                "optimized_formulation": "058_F9",
+                "cmax_ng_ml": "40475.58±432 (058_F9) vs 32125.12±234 (pure drug)",
+                "tmax_h": "4±0.03 (058_F9) vs 2±0.03 (pure drug)",
+                "auc_ng_h_ml": "167438.19±769 (058_F9) vs 67821.98±478 (pure drug)",
+                "aumc_ng_h2_ml": "519309.97±983 (058_F9) vs 192337.67±652 (pure drug)",
+                "mrt_h": "5.96±0.02 (058_F9) vs 2.8±0.04 (pure drug)",
+                "bioavailability_increase": "2.46 times"
+            },
+            "in_vitro_study_results": {
+                "dissolution_medium": "0.1N HCl (pH 1.2)",
+                "apparatus": "USP dissolution apparatus II",
+                "sampling_intervals": "0.5, 1, 1.5, 2, 4, 6, 8, 10, and 12 h",
+                "analysis_method": "UV-spectrophotometer at 273 nm",
+                "drug_release_profile_percent": {
+                    "058_F6": [
+                        18,
+                        28,
+                        35,
+                        45,
+                        62,
+                        75,
+                        85,
+                        92,
+                        98
+                    ],
+                    "058_F7": [
+                        12,
+                        20,
+                        27,
+                        35,
+                        50,
+                        64,
+                        76,
+                        86,
+                        95
+                    ],
+                    "058_F8": [
+                        8,
+                        14,
+                        20,
+                        28,
+                        42,
+                        55,
+                        68,
+                        80,
+                        92
+                    ],
+                    "058_F9": [
+                        5,
+                        10,
+                        15,
+                        22,
+                        38,
+                        52,
+                        68,
+                        82,
+                        96
+                    ],
+                    "058_F10": [
+                        4,
+                        8,
+                        12,
+                        18,
+                        32,
+                        46,
+                        62,
+                        78,
+                        94
+                    ],
+                    "058_F11": [
+                        20,
+                        30,
+                        38,
+                        48,
+                        65,
+                        78,
+                        88,
+                        94,
+                        98
+                    ],
+                    "058_F12": [
+                        15,
+                        24,
+                        32,
+                        42,
+                        58,
+                        72,
+                        84,
+                        92,
+                        97
+                    ],
+                    "058_F13": [
+                        10,
+                        18,
+                        25,
+                        35,
+                        52,
+                        68,
+                        80,
+                        90,
+                        96
+                    ],
+                    "058_F14": [
+                        6,
+                        12,
+                        18,
+                        28,
+                        45,
+                        60,
+                        75,
+                        88,
+                        95
+                    ],
+                    "058_F15": [
+                        5,
+                        10,
+                        15,
+                        24,
+                        40,
+                        55,
+                        70,
+                        84,
+                        94
+                    ]
+                }
+            }
+        }
+    }
+}

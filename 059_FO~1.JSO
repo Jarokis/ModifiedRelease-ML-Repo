@@ -1,0 +1,390 @@
+{
+    "article_title": "Formulation, Development, and Evaluation of Bosentan Monohydrate Solid Dispersion Tablets by Spray Drying to Improve Dissolution Profile",
+    "materials_origin": {
+        "bosentan_monohydrate": "Megafine Chemicals Pvt. Ltd., Mumbai, India",
+        "eudragit_EPO": "Evonik Industries Pvt. Ltd., Mumbai, India",
+        "hpmc_k4m": "Loba Chem Ltd., Mumbai, India",
+        "other_chemicals": "Analytical grade, all compounds and reagents"
+    },
+    "experimental_design": {
+        "objective": "Enhance dissolution rate of Bosentan monohydrate (BM) using Eudragit EPO via spray drying",
+        "solid_dispersion_ratios": [
+            "1:1 (059_SD1)",
+            "1:2 (059_SD2)",
+            "1:3 (059_SD3)",
+            "1:4 (059_SD4)",
+            "1:5 (059_SD5)"
+        ],
+        "optimization_criteria": "Drug content and saturation solubility; 059_SD5 selected as optimal",
+        "tablet_formulations": "Six formulations (059_F1-059_F6) based on 059_SD5 with varying HPMC K4M and MCC"
+    },
+    "spray_drying_process_parameters": {
+        "solvent": "Methanol (10% w/v)",
+        "inlet_temperature": "80°C",
+        "outlet_temperature": "55°C",
+        "feed_pump_rate": "8 mL/min",
+        "aspiration_rate": "45 mbar",
+        "atomization_air_pressure": "2.5 kg/cm²",
+        "post_drying": "Vacuum desiccated for 24 h, passed through mesh 80"
+    },
+    "solid_dispersions": [
+        {
+            "batch_code": "059_SD1",
+            "drug_carrier_ratio": "1:1",
+            "solubility_in_water_mg_per_mL": 0.085,
+            "drug_content_percent": 74.2,
+            "saturation_solubility_mcg_per_mL": 55.54,
+            "angle_of_repose_deg": 42.4,
+            "bulk_density_g_per_cm3": 0.4718,
+            "tap_density_g_per_cm3": 0.6178,
+            "hausner_ratio": 1.31,
+            "carr_index_percent": 23.6,
+            "particle_size_nm": null
+        },
+        {
+            "batch_code": "059_SD2",
+            "drug_carrier_ratio": "1:2",
+            "solubility_in_water_mg_per_mL": 0.091,
+            "drug_content_percent": 82.7,
+            "saturation_solubility_mcg_per_mL": 88.72,
+            "angle_of_repose_deg": 46.1,
+            "bulk_density_g_per_cm3": 0.4627,
+            "tap_density_g_per_cm3": 0.5547,
+            "hausner_ratio": 1.2,
+            "carr_index_percent": 16.6,
+            "particle_size_nm": null
+        },
+        {
+            "batch_code": "059_SD3",
+            "drug_carrier_ratio": "1:3",
+            "solubility_in_water_mg_per_mL": 0.098,
+            "drug_content_percent": 83.9,
+            "saturation_solubility_mcg_per_mL": 104.33,
+            "angle_of_repose_deg": 38.2,
+            "bulk_density_g_per_cm3": 0.4579,
+            "tap_density_g_per_cm3": 0.5741,
+            "hausner_ratio": 1.25,
+            "carr_index_percent": 20.2,
+            "particle_size_nm": null
+        },
+        {
+            "batch_code": "059_SD4",
+            "drug_carrier_ratio": "1:4",
+            "solubility_in_water_mg_per_mL": 0.099,
+            "drug_content_percent": 91.5,
+            "saturation_solubility_mcg_per_mL": 123.63,
+            "angle_of_repose_deg": 48.19,
+            "bulk_density_g_per_cm3": 0.4905,
+            "tap_density_g_per_cm3": 0.5853,
+            "hausner_ratio": 1.19,
+            "carr_index_percent": 16.2,
+            "particle_size_nm": null
+        },
+        {
+            "batch_code": "059_SD5",
+            "drug_carrier_ratio": "1:5",
+            "solubility_in_water_mg_per_mL": 0.103,
+            "drug_content_percent": 94.4,
+            "saturation_solubility_mcg_per_mL": 138.16,
+            "angle_of_repose_deg": 27.32,
+            "bulk_density_g_per_cm3": 0.4375,
+            "tap_density_g_per_cm3": 0.5131,
+            "hausner_ratio": 1.18,
+            "carr_index_percent": 14.7,
+            "particle_size_nm": 213.4
+        }
+    ],
+    "heckel_plot_data": {
+        "sample": "BM-loaded Eudragit EPO SD (likely 059_SD5)",
+        "curve_type": "Type C (particle rearrangement and fragmentation, plastic deformation)",
+        "compression_press": "KBR Manual Hydraulic Press, single punch, 10 cm diameter die",
+        "lubrication": "2% magnesium stearate suspension in acetone",
+        "tablet_weight": "200±3 mg",
+        "pressures_tons": [
+            0.5,
+            1.0,
+            1.5,
+            2.0,
+            2.5,
+            3.0
+        ],
+        "thickness_cm": [
+            0.31,
+            0.3,
+            0.29,
+            0.27,
+            0.24,
+            0.24
+        ],
+        "hardness_kg_per_cm2": [
+            4,
+            5,
+            7,
+            8,
+            9,
+            9
+        ],
+        "relative_density": [
+            0.7739,
+            0.7996,
+            0.8276,
+            0.8886,
+            1.0,
+            1.0
+        ],
+        "ln_1_over_1_minus_RD": [
+            1.4861,
+            1.6074,
+            1.7578,
+            2.1938,
+            null,
+            null
+        ]
+    },
+    "tablet_formulations": [
+        {
+            "batch_code": "059_F1",
+            "sd5_powder_mg": 90,
+            "hpmc_k4m_mg": 56.74,
+            "mcc_mg": 43.26,
+            "talc_mg": 7,
+            "magnesium_stearate_mg": 3,
+            "total_weight_mg": 200,
+            "hpmc_k4m_percent": 28.37,
+            "mcc_percent": 21.63,
+            "thickness_mm": 2.91,
+            "hardness_kg_per_cm2": 4.5,
+            "friability_percent": 0.39,
+            "weight_variation_percent": 4.56,
+            "disintegration_time_sec": 36,
+            "drug_content_percent": 93.55
+        },
+        {
+            "batch_code": "059_F2",
+            "sd5_powder_mg": 90,
+            "hpmc_k4m_mg": 52.73,
+            "mcc_mg": 47.27,
+            "talc_mg": 7,
+            "magnesium_stearate_mg": 3,
+            "total_weight_mg": 200,
+            "hpmc_k4m_percent": 26.36,
+            "mcc_percent": 23.63,
+            "thickness_mm": 3.92,
+            "hardness_kg_per_cm2": 5.0,
+            "friability_percent": 0.54,
+            "weight_variation_percent": 7.54,
+            "disintegration_time_sec": 45,
+            "drug_content_percent": 95.41
+        },
+        {
+            "batch_code": "059_F3",
+            "sd5_powder_mg": 90,
+            "hpmc_k4m_mg": 48.75,
+            "mcc_mg": 51.25,
+            "talc_mg": 7,
+            "magnesium_stearate_mg": 3,
+            "total_weight_mg": 200,
+            "hpmc_k4m_percent": 24.38,
+            "mcc_percent": 25.62,
+            "thickness_mm": 2.85,
+            "hardness_kg_per_cm2": 4.4,
+            "friability_percent": 0.38,
+            "weight_variation_percent": 5.22,
+            "disintegration_time_sec": 38,
+            "drug_content_percent": 94.85
+        },
+        {
+            "batch_code": "059_F4",
+            "sd5_powder_mg": 90,
+            "hpmc_k4m_mg": 44.74,
+            "mcc_mg": 55.26,
+            "talc_mg": 7,
+            "magnesium_stearate_mg": 3,
+            "total_weight_mg": 200,
+            "hpmc_k4m_percent": 22.37,
+            "mcc_percent": 27.63,
+            "thickness_mm": 3.75,
+            "hardness_kg_per_cm2": 4.5,
+            "friability_percent": 0.45,
+            "weight_variation_percent": 4.18,
+            "disintegration_time_sec": 40,
+            "drug_content_percent": 93.15
+        },
+        {
+            "batch_code": "059_F5",
+            "sd5_powder_mg": 90,
+            "hpmc_k4m_mg": 40.73,
+            "mcc_mg": 59.27,
+            "talc_mg": 7,
+            "magnesium_stearate_mg": 3,
+            "total_weight_mg": 200,
+            "hpmc_k4m_percent": 20.36,
+            "mcc_percent": 29.64,
+            "thickness_mm": 2.94,
+            "hardness_kg_per_cm2": 3.9,
+            "friability_percent": 0.39,
+            "weight_variation_percent": 3.17,
+            "disintegration_time_sec": 33,
+            "drug_content_percent": 94.32
+        },
+        {
+            "batch_code": "059_F6",
+            "sd5_powder_mg": 90,
+            "hpmc_k4m_mg": 37.75,
+            "mcc_mg": 62.25,
+            "talc_mg": 7,
+            "magnesium_stearate_mg": 3,
+            "total_weight_mg": 200,
+            "hpmc_k4m_percent": 18.88,
+            "mcc_percent": 31.12,
+            "thickness_mm": 2.86,
+            "hardness_kg_per_cm2": 3.7,
+            "friability_percent": 0.45,
+            "weight_variation_percent": 2.45,
+            "disintegration_time_sec": 32,
+            "drug_content_percent": 94.62
+        }
+    ],
+    "ftir_analysis": {
+        "bosentan_monohydrate_peaks_cm1": {
+            "CH3_stretching": 2960.73,
+            "OH_stretching": 3493.09,
+            "C-O_stretching_ether": 1080.14,
+            "S=O_stretching": 1384.89
+        },
+        "formulation_F2_peaks_cm1": {
+            "CH3_stretching": 2927,
+            "OH_stretching": 3383
+        },
+        "interpretation": "Minor shifts indicating intermolecular hydrogen bonding potential"
+    },
+    "xrd_analysis": {
+        "observation": "Conversion of drug from crystalline to amorphous form in 059_F2 formulation"
+    },
+    "dsc_analysis": {
+        "bosentan_monohydrate_melting_endotherm": "104.2°C",
+        "F2_formulation_endotherm": "68.8°C",
+        "interpretation": "Reduced and diffused endothermic peak indicates amorphous state with higher internal energy"
+    },
+    "release_kinetics": {
+        "best_fit_model": "Higuchi release kinetics (square root kinetics)",
+        "mechanism": "Drug diffusion at slower pace as diffusion distance increases",
+        "models_tested": [
+            "Zero-order",
+            "First-order",
+            "Higuchi",
+            "Korsmeyer-Peppas"
+        ]
+    },
+    "figure_5_release_data": {
+        "plain_bm": [
+            {
+                "time_hr": 0.5,
+                "cumulative_release_percent": 2.5
+            },
+            {
+                "time_hr": 1,
+                "cumulative_release_percent": 5.0
+            },
+            {
+                "time_hr": 2,
+                "cumulative_release_percent": 9.0
+            },
+            {
+                "time_hr": 3,
+                "cumulative_release_percent": 12.5
+            },
+            {
+                "time_hr": 4,
+                "cumulative_release_percent": 16.0
+            },
+            {
+                "time_hr": 5,
+                "cumulative_release_percent": 20.0
+            },
+            {
+                "time_hr": 6,
+                "cumulative_release_percent": 24.0
+            },
+            {
+                "time_hr": 7,
+                "cumulative_release_percent": 28.0
+            },
+            {
+                "time_hr": 8,
+                "cumulative_release_percent": 32.0
+            },
+            {
+                "time_hr": 9,
+                "cumulative_release_percent": 35.5
+            }
+        ],
+        "bm_sd_f2": [
+            {
+                "time_hr": 0.5,
+                "cumulative_release_percent": 22.0
+            },
+            {
+                "time_hr": 1,
+                "cumulative_release_percent": 41.5
+            },
+            {
+                "time_hr": 2,
+                "cumulative_release_percent": 61.0
+            },
+            {
+                "time_hr": 3,
+                "cumulative_release_percent": 73.5
+            },
+            {
+                "time_hr": 4,
+                "cumulative_release_percent": 82.0
+            },
+            {
+                "time_hr": 5,
+                "cumulative_release_percent": 88.0
+            },
+            {
+                "time_hr": 6,
+                "cumulative_release_percent": 92.0
+            },
+            {
+                "time_hr": 7,
+                "cumulative_release_percent": 94.5
+            },
+            {
+                "time_hr": 8,
+                "cumulative_release_percent": 95.8
+            },
+            {
+                "time_hr": 9,
+                "cumulative_release_percent": 96.6
+            }
+        ]
+    },
+    "tablet_fabrication_method": {
+        "technique": "Wet granulation",
+        "steps": [
+            "059_SD5 powder passed through #80 mesh",
+            "Addition of granulating agent",
+            "Granules passed through #22/44 and dried at 40°C for 12 h",
+            "Addition of HPMC K4M and MCC as binders",
+            "Addition of talc (glidant) and magnesium stearate (lubricant)",
+            "Compression into tablets"
+        ],
+        "compression_device": "Not specified for final tablets; for Heckel plot: KBR Manual Hydraulic Press"
+    },
+    "dissolution_study_parameters": {
+        "apparatus": "USP XXII type II (paddle)",
+        "rotation_speed": "50 rpm",
+        "sampling_duration": "Up to 9 hours",
+        "detection_wavelength": "273 nm",
+        "dissolution_medium": "Phosphate buffer pH 6.8"
+    },
+    "stability_study": {
+        "conditions": "40°C ± 2°C / 75% RH ± 5%",
+        "duration": "3 months",
+        "parameters_evaluated": "Drug content and drug release",
+        "results": "Not reported in provided text"
+    }
+}

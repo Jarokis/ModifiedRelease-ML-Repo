@@ -1,0 +1,1399 @@
+{
+    "materials_origin": {
+        "diltiazem_hydrochloride": "Golden Cross Pharma (India)",
+        "magnesium_stearate": "Golden Cross Pharma (India)",
+        "hydroxypropyl_methylcellulose_HPMC_K15M_CR": "Colorcon Asia Private Ltd. (India)",
+        "starch_Sta_RX_1500": "Colorcon Asia Private Ltd. (India)",
+        "polyvinyl_acetate_polyvinylpyrrolidone_Kollidon_SR": "BASF (India)",
+        "eudragit_RSPO": "Evonik GmbH (Germany)",
+        "microcrystalline_cellulose_MCC": "Ozone® International (India)",
+        "talc": "origin not specified"
+    },
+    "experimental_design_for_optimization": {
+        "design_type": "3^2 full factorial design",
+        "independent_variables": [
+            {
+                "name": "073_X1: amount of HPMC K15M CR",
+                "units": "mg",
+                "levels": {
+                    "-1": 150,
+                    "0": 170,
+                    "1": 190
+                }
+            },
+            {
+                "name": "073_X2: amount of Eudragit RSPO",
+                "units": "mg",
+                "levels": {
+                    "-1": 60,
+                    "0": 80,
+                    "1": 100
+                }
+            }
+        ],
+        "dependent_variables": [
+            "drug release at 18 hours",
+            "drug release at 20 hours"
+        ],
+        "response_surface_methodology": "3D response surface methodology used to determine influence of polymers"
+    },
+    "ingredients_identification": {
+        "preparation_method": "Direct compression. All powders passed through 250 μm sieve, blended manually in polybag.",
+        "results": "Sustained release tablets with release up to 24 hours achieved.",
+        "equation": "Not provided.",
+        "absorbance": "UV spectrophotometry at 235 nm"
+    },
+    "formulation_details": [
+        {
+            "batch_code": "073_DHE1",
+            "variables": {
+                "073_X1": -1,
+                "073_X2": -1
+            },
+            "total_weight_mg": 452,
+            "ingredients": {
+                "diltiazem_hydrochloride": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "HPMC_K15M_CR": {
+                    "mass_mg": 150,
+                    "percent_of_total": 33.19
+                },
+                "Eudragit_RSPO": {
+                    "mass_mg": 60,
+                    "percent_of_total": 13.27
+                },
+                "Starch_1500": {
+                    "mass_mg": 28.92,
+                    "percent_of_total": 6.4
+                },
+                "talc": {
+                    "mass_mg": 4.84,
+                    "percent_of_total": 1.07
+                },
+                "magnesium_stearate": {
+                    "mass_mg": 0.94,
+                    "percent_of_total": 0.21
+                },
+                "microcrystalline_cellulose": {
+                    "mass_mg": 107.3,
+                    "percent_of_total": 23.74
+                }
+            }
+        },
+        {
+            "batch_code": "073_DHE2",
+            "variables": {
+                "073_X1": -1,
+                "073_X2": 0
+            },
+            "total_weight_mg": 452,
+            "ingredients": {
+                "diltiazem_hydrochloride": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "HPMC_K15M_CR": {
+                    "mass_mg": 150,
+                    "percent_of_total": 33.19
+                },
+                "Eudragit_RSPO": {
+                    "mass_mg": 80,
+                    "percent_of_total": 17.7
+                },
+                "Starch_1500": {
+                    "mass_mg": 26.53,
+                    "percent_of_total": 5.87
+                },
+                "talc": {
+                    "mass_mg": 4.44,
+                    "percent_of_total": 0.98
+                },
+                "magnesium_stearate": {
+                    "mass_mg": 0.87,
+                    "percent_of_total": 0.19
+                },
+                "microcrystalline_cellulose": {
+                    "mass_mg": 90.17,
+                    "percent_of_total": 19.95
+                }
+            }
+        },
+        {
+            "batch_code": "073_DHE3",
+            "variables": {
+                "073_X1": -1,
+                "073_X2": 1
+            },
+            "total_weight_mg": 452,
+            "ingredients": {
+                "diltiazem_hydrochloride": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "HPMC_K15M_CR": {
+                    "mass_mg": 150,
+                    "percent_of_total": 33.19
+                },
+                "Eudragit_RSPO": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "Starch_1500": {
+                    "mass_mg": 24.14,
+                    "percent_of_total": 5.34
+                },
+                "talc": {
+                    "mass_mg": 4.04,
+                    "percent_of_total": 0.89
+                },
+                "magnesium_stearate": {
+                    "mass_mg": 0.79,
+                    "percent_of_total": 0.17
+                },
+                "microcrystalline_cellulose": {
+                    "mass_mg": 73.03,
+                    "percent_of_total": 16.16
+                }
+            }
+        },
+        {
+            "batch_code": "073_DHE4",
+            "variables": {
+                "073_X1": 0,
+                "073_X2": -1
+            },
+            "total_weight_mg": 452,
+            "ingredients": {
+                "diltiazem_hydrochloride": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "HPMC_K15M_CR": {
+                    "mass_mg": 170,
+                    "percent_of_total": 37.61
+                },
+                "Eudragit_RSPO": {
+                    "mass_mg": 60,
+                    "percent_of_total": 13.27
+                },
+                "Starch_1500": {
+                    "mass_mg": 26.53,
+                    "percent_of_total": 5.87
+                },
+                "talc": {
+                    "mass_mg": 4.44,
+                    "percent_of_total": 0.98
+                },
+                "magnesium_stearate": {
+                    "mass_mg": 0.87,
+                    "percent_of_total": 0.19
+                },
+                "microcrystalline_cellulose": {
+                    "mass_mg": 90.17,
+                    "percent_of_total": 19.95
+                }
+            }
+        },
+        {
+            "batch_code": "073_DHE5",
+            "variables": {
+                "073_X1": 0,
+                "073_X2": 0
+            },
+            "total_weight_mg": 452,
+            "ingredients": {
+                "diltiazem_hydrochloride": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "HPMC_K15M_CR": {
+                    "mass_mg": 170,
+                    "percent_of_total": 37.61
+                },
+                "Eudragit_RSPO": {
+                    "mass_mg": 80,
+                    "percent_of_total": 17.7
+                },
+                "Starch_1500": {
+                    "mass_mg": 24.14,
+                    "percent_of_total": 5.34
+                },
+                "talc": {
+                    "mass_mg": 4.04,
+                    "percent_of_total": 0.89
+                },
+                "magnesium_stearate": {
+                    "mass_mg": 0.79,
+                    "percent_of_total": 0.17
+                },
+                "microcrystalline_cellulose": {
+                    "mass_mg": 73.03,
+                    "percent_of_total": 16.16
+                }
+            }
+        },
+        {
+            "batch_code": "073_DHE6",
+            "variables": {
+                "073_X1": 0,
+                "073_X2": 1
+            },
+            "total_weight_mg": 452,
+            "ingredients": {
+                "diltiazem_hydrochloride": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "HPMC_K15M_CR": {
+                    "mass_mg": 170,
+                    "percent_of_total": 37.61
+                },
+                "Eudragit_RSPO": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "Starch_1500": {
+                    "mass_mg": 21.75,
+                    "percent_of_total": 4.81
+                },
+                "talc": {
+                    "mass_mg": 3.64,
+                    "percent_of_total": 0.81
+                },
+                "magnesium_stearate": {
+                    "mass_mg": 0.71,
+                    "percent_of_total": 0.16
+                },
+                "microcrystalline_cellulose": {
+                    "mass_mg": 55.9,
+                    "percent_of_total": 12.37
+                }
+            }
+        },
+        {
+            "batch_code": "073_DHE7",
+            "variables": {
+                "073_X1": 1,
+                "073_X2": -1
+            },
+            "total_weight_mg": 452,
+            "ingredients": {
+                "diltiazem_hydrochloride": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "HPMC_K15M_CR": {
+                    "mass_mg": 190,
+                    "percent_of_total": 42.04
+                },
+                "Eudragit_RSPO": {
+                    "mass_mg": 60,
+                    "percent_of_total": 13.27
+                },
+                "Starch_1500": {
+                    "mass_mg": 24.14,
+                    "percent_of_total": 5.34
+                },
+                "talc": {
+                    "mass_mg": 4.04,
+                    "percent_of_total": 0.89
+                },
+                "magnesium_stearate": {
+                    "mass_mg": 0.79,
+                    "percent_of_total": 0.17
+                },
+                "microcrystalline_cellulose": {
+                    "mass_mg": 73.03,
+                    "percent_of_total": 16.16
+                }
+            }
+        },
+        {
+            "batch_code": "073_DHE8",
+            "variables": {
+                "073_X1": 1,
+                "073_X2": 0
+            },
+            "total_weight_mg": 452,
+            "ingredients": {
+                "diltiazem_hydrochloride": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "HPMC_K15M_CR": {
+                    "mass_mg": 190,
+                    "percent_of_total": 42.04
+                },
+                "Eudragit_RSPO": {
+                    "mass_mg": 80,
+                    "percent_of_total": 17.7
+                },
+                "Starch_1500": {
+                    "mass_mg": 21.75,
+                    "percent_of_total": 4.81
+                },
+                "talc": {
+                    "mass_mg": 3.64,
+                    "percent_of_total": 0.81
+                },
+                "magnesium_stearate": {
+                    "mass_mg": 0.71,
+                    "percent_of_total": 0.16
+                },
+                "microcrystalline_cellulose": {
+                    "mass_mg": 55.9,
+                    "percent_of_total": 12.37
+                }
+            }
+        },
+        {
+            "batch_code": "073_DHE9",
+            "variables": {
+                "073_X1": 1,
+                "073_X2": 1
+            },
+            "total_weight_mg": 452,
+            "ingredients": {
+                "diltiazem_hydrochloride": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "HPMC_K15M_CR": {
+                    "mass_mg": 190,
+                    "percent_of_total": 42.04
+                },
+                "Eudragit_RSPO": {
+                    "mass_mg": 100,
+                    "percent_of_total": 22.12
+                },
+                "Starch_1500": {
+                    "mass_mg": 19.36,
+                    "percent_of_total": 4.28
+                },
+                "talc": {
+                    "mass_mg": 3.24,
+                    "percent_of_total": 0.72
+                },
+                "magnesium_stearate": {
+                    "mass_mg": 0.63,
+                    "percent_of_total": 0.14
+                },
+                "microcrystalline_cellulose": {
+                    "mass_mg": 38.77,
+                    "percent_of_total": 8.58
+                }
+            }
+        }
+    ],
+    "pre_compression_parameters": {
+        "sieve_size": "250 μm",
+        "blending": "manual in polybag",
+        "mass_distribution": "not reported",
+        "hardness": "not applicable pre-compression",
+        "friability": "not applicable pre-compression",
+        "size": "not applicable pre-compression"
+    },
+    "composition_of_independent_variables": {
+        "factor_X1_HPMC_K15M_CR_mg": {
+            "-1": 150,
+            "0": 170,
+            "1": 190
+        },
+        "factor_X2_Eudragit_RSPO_mg": {
+            "-1": 60,
+            "0": 80,
+            "1": 100
+        }
+    },
+    "ftir_spectral_measurements": null,
+    "tablet_fabrications": [
+        {
+            "batch_code": "073_DHE1",
+            "hardness_kg_cm2": {
+                "mean": 8.3,
+                "sd": 0.4
+            },
+            "friability_percent": 0.63,
+            "weight_variation": "not reported",
+            "thickness_mm": "not reported",
+            "diameter_mm": 8,
+            "density": "not reported",
+            "drug_content_percent": {
+                "mean": 92.32,
+                "sd": 4.2
+            },
+            "consolidation_index": "not reported"
+        },
+        {
+            "batch_code": "073_DHE2",
+            "hardness_kg_cm2": {
+                "mean": 8.5,
+                "sd": 0.5
+            },
+            "friability_percent": 0.66,
+            "drug_content_percent": {
+                "mean": 90.25,
+                "sd": 2.4
+            }
+        },
+        {
+            "batch_code": "073_DHE3",
+            "hardness_kg_cm2": {
+                "mean": 8.6,
+                "sd": 0.2
+            },
+            "friability_percent": 0.53,
+            "drug_content_percent": {
+                "mean": 96.43,
+                "sd": 5.1
+            }
+        },
+        {
+            "batch_code": "073_DHE4",
+            "hardness_kg_cm2": {
+                "mean": 8.5,
+                "sd": 0.1
+            },
+            "friability_percent": 0.72,
+            "drug_content_percent": {
+                "mean": 97.24,
+                "sd": 3.3
+            }
+        },
+        {
+            "batch_code": "073_DHE5",
+            "hardness_kg_cm2": {
+                "mean": 8.2,
+                "sd": 0.3
+            },
+            "friability_percent": 0.58,
+            "drug_content_percent": {
+                "mean": 94.45,
+                "sd": 5.2
+            }
+        },
+        {
+            "batch_code": "073_DHE6",
+            "hardness_kg_cm2": {
+                "mean": 8.3,
+                "sd": 0.1
+            },
+            "friability_percent": 0.69,
+            "drug_content_percent": {
+                "mean": 95.14,
+                "sd": 3.3
+            }
+        },
+        {
+            "batch_code": "073_DHE7",
+            "hardness_kg_cm2": {
+                "mean": 8.3,
+                "sd": 0.2
+            },
+            "friability_percent": 0.59,
+            "drug_content_percent": {
+                "mean": 91.45,
+                "sd": 1.5
+            }
+        },
+        {
+            "batch_code": "073_DHE8",
+            "hardness_kg_cm2": {
+                "mean": 8.4,
+                "sd": 0.3
+            },
+            "friability_percent": 0.65,
+            "drug_content_percent": {
+                "mean": 93.24,
+                "sd": 2.4
+            }
+        },
+        {
+            "batch_code": "073_DHE9",
+            "hardness_kg_cm2": {
+                "mean": 8.5,
+                "sd": 0.4
+            },
+            "friability_percent": 0.61,
+            "drug_content_percent": {
+                "mean": 97.32,
+                "sd": 4.2
+            }
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "Cadmach single punch tablet machine",
+        "punch_size": "8 mm concave punches",
+        "compression_pressure": "not specified",
+        "coating": "none (matrix tablets)",
+        "equipment_used": "Cadmach single punch tablet machine",
+        "process_conditions": "ambient temperature, no specific temperature or pressure reported"
+    },
+    "release_properties": [
+        {
+            "batch_code": "073_DHE1",
+            "release_profile": [
+                {
+                    "time_h": 1,
+                    "cumulative_percent": 22.0
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_percent": 32.5
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_percent": 37.8
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_percent": 41.2
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_percent": 46.8
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_percent": 54.1
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_percent": 60.2
+                },
+                {
+                    "time_h": 8,
+                    "cumulative_percent": 65.8
+                },
+                {
+                    "time_h": 9,
+                    "cumulative_percent": 69.4
+                },
+                {
+                    "time_h": 10,
+                    "cumulative_percent": 73.9
+                },
+                {
+                    "time_h": 11,
+                    "cumulative_percent": 78.8
+                },
+                {
+                    "time_h": 12,
+                    "cumulative_percent": 82.6
+                },
+                {
+                    "time_h": 14,
+                    "cumulative_percent": 86.8
+                },
+                {
+                    "time_h": 16,
+                    "cumulative_percent": 93.9
+                },
+                {
+                    "time_h": 18,
+                    "cumulative_percent": 97.6
+                },
+                {
+                    "time_h": 20,
+                    "cumulative_percent": 99.1
+                },
+                {
+                    "time_h": 22,
+                    "cumulative_percent": 98.7
+                },
+                {
+                    "time_h": 24,
+                    "cumulative_percent": 98.0
+                }
+            ],
+            "release_mechanism": "not reported for this batch",
+            "kinetics": "not reported",
+            "factors_influencing_release": "polymer composition"
+        },
+        {
+            "batch_code": "073_DHE2",
+            "release_profile": [
+                {
+                    "time_h": 1,
+                    "cumulative_percent": 20.3
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_percent": 30.9
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_percent": 35.9
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_percent": 39.2
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_percent": 45.2
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_percent": 51.6
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_percent": 58.2
+                },
+                {
+                    "time_h": 8,
+                    "cumulative_percent": 64.1
+                },
+                {
+                    "time_h": 9,
+                    "cumulative_percent": 67.0
+                },
+                {
+                    "time_h": 10,
+                    "cumulative_percent": 71.7
+                },
+                {
+                    "time_h": 11,
+                    "cumulative_percent": 76.3
+                },
+                {
+                    "time_h": 12,
+                    "cumulative_percent": 80.6
+                },
+                {
+                    "time_h": 14,
+                    "cumulative_percent": 85.3
+                },
+                {
+                    "time_h": 16,
+                    "cumulative_percent": 92.9
+                },
+                {
+                    "time_h": 18,
+                    "cumulative_percent": 95.4
+                },
+                {
+                    "time_h": 20,
+                    "cumulative_percent": 98.5
+                },
+                {
+                    "time_h": 22,
+                    "cumulative_percent": 97.9
+                },
+                {
+                    "time_h": 24,
+                    "cumulative_percent": 99.5
+                }
+            ]
+        },
+        {
+            "batch_code": "073_DHE3",
+            "release_profile": [
+                {
+                    "time_h": 1,
+                    "cumulative_percent": 18.9
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_percent": 25.8
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_percent": 32.6
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_percent": 36.8
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_percent": 42.8
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_percent": 46.3
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_percent": 53.7
+                },
+                {
+                    "time_h": 8,
+                    "cumulative_percent": 59.1
+                },
+                {
+                    "time_h": 9,
+                    "cumulative_percent": 65.4
+                },
+                {
+                    "time_h": 10,
+                    "cumulative_percent": 68.1
+                },
+                {
+                    "time_h": 11,
+                    "cumulative_percent": 71.3
+                },
+                {
+                    "time_h": 12,
+                    "cumulative_percent": 76.3
+                },
+                {
+                    "time_h": 14,
+                    "cumulative_percent": 82.8
+                },
+                {
+                    "time_h": 16,
+                    "cumulative_percent": 89.3
+                },
+                {
+                    "time_h": 18,
+                    "cumulative_percent": 94.8
+                },
+                {
+                    "time_h": 20,
+                    "cumulative_percent": 97.9
+                },
+                {
+                    "time_h": 22,
+                    "cumulative_percent": 93.9
+                },
+                {
+                    "time_h": 24,
+                    "cumulative_percent": 93.9
+                }
+            ]
+        },
+        {
+            "batch_code": "073_DHE4",
+            "release_profile": [
+                {
+                    "time_h": 1,
+                    "cumulative_percent": 19.3
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_percent": 27.1
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_percent": 38.6
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_percent": 41.9
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_percent": 48.4
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_percent": 51.0
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_percent": 55.7
+                },
+                {
+                    "time_h": 8,
+                    "cumulative_percent": 59.0
+                },
+                {
+                    "time_h": 9,
+                    "cumulative_percent": 67.7
+                },
+                {
+                    "time_h": 10,
+                    "cumulative_percent": 71.5
+                },
+                {
+                    "time_h": 11,
+                    "cumulative_percent": 74.1
+                },
+                {
+                    "time_h": 12,
+                    "cumulative_percent": 78.3
+                },
+                {
+                    "time_h": 14,
+                    "cumulative_percent": 83.1
+                },
+                {
+                    "time_h": 16,
+                    "cumulative_percent": 88.7
+                },
+                {
+                    "time_h": 18,
+                    "cumulative_percent": 94.4
+                },
+                {
+                    "time_h": 20,
+                    "cumulative_percent": 97.5
+                },
+                {
+                    "time_h": 22,
+                    "cumulative_percent": 93.8
+                },
+                {
+                    "time_h": 24,
+                    "cumulative_percent": 93.8
+                }
+            ]
+        },
+        {
+            "batch_code": "073_DHE5",
+            "release_profile": [
+                {
+                    "time_h": 1,
+                    "cumulative_percent": 18.5
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_percent": 25.6
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_percent": 36.0
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_percent": 40.3
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_percent": 46.8
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_percent": 49.3
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_percent": 53.7
+                },
+                {
+                    "time_h": 8,
+                    "cumulative_percent": 58.8
+                },
+                {
+                    "time_h": 9,
+                    "cumulative_percent": 65.9
+                },
+                {
+                    "time_h": 10,
+                    "cumulative_percent": 69.9
+                },
+                {
+                    "time_h": 11,
+                    "cumulative_percent": 72.8
+                },
+                {
+                    "time_h": 12,
+                    "cumulative_percent": 76.8
+                },
+                {
+                    "time_h": 14,
+                    "cumulative_percent": 81.3
+                },
+                {
+                    "time_h": 16,
+                    "cumulative_percent": 87.9
+                },
+                {
+                    "time_h": 18,
+                    "cumulative_percent": 92.8
+                },
+                {
+                    "time_h": 20,
+                    "cumulative_percent": 96.5
+                },
+                {
+                    "time_h": 22,
+                    "cumulative_percent": 95.5
+                },
+                {
+                    "time_h": 24,
+                    "cumulative_percent": 94.5
+                }
+            ]
+        },
+        {
+            "batch_code": "073_DHE6",
+            "release_profile": [
+                {
+                    "time_h": 1,
+                    "cumulative_percent": 17.9
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_percent": 25.6
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_percent": 34.0
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_percent": 34.3
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_percent": 43.8
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_percent": 45.3
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_percent": 50.7
+                },
+                {
+                    "time_h": 8,
+                    "cumulative_percent": 55.8
+                },
+                {
+                    "time_h": 9,
+                    "cumulative_percent": 63.9
+                },
+                {
+                    "time_h": 10,
+                    "cumulative_percent": 65.9
+                },
+                {
+                    "time_h": 11,
+                    "cumulative_percent": 68.8
+                },
+                {
+                    "time_h": 12,
+                    "cumulative_percent": 73.8
+                },
+                {
+                    "time_h": 14,
+                    "cumulative_percent": 78.3
+                },
+                {
+                    "time_h": 16,
+                    "cumulative_percent": 84.9
+                },
+                {
+                    "time_h": 18,
+                    "cumulative_percent": 90.8
+                },
+                {
+                    "time_h": 20,
+                    "cumulative_percent": 95.5
+                },
+                {
+                    "time_h": 22,
+                    "cumulative_percent": 94.5
+                },
+                {
+                    "time_h": 24,
+                    "cumulative_percent": 93.9
+                }
+            ]
+        },
+        {
+            "batch_code": "073_DHE7",
+            "release_profile": [
+                {
+                    "time_h": 1,
+                    "cumulative_percent": 18.3
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_percent": 29.9
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_percent": 38.0
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_percent": 42.9
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_percent": 52.2
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_percent": 56.0
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_percent": 60.7
+                },
+                {
+                    "time_h": 8,
+                    "cumulative_percent": 63.4
+                },
+                {
+                    "time_h": 9,
+                    "cumulative_percent": 65.5
+                },
+                {
+                    "time_h": 10,
+                    "cumulative_percent": 70.1
+                },
+                {
+                    "time_h": 11,
+                    "cumulative_percent": 73.8
+                },
+                {
+                    "time_h": 12,
+                    "cumulative_percent": 76.0
+                },
+                {
+                    "time_h": 14,
+                    "cumulative_percent": 82.8
+                },
+                {
+                    "time_h": 16,
+                    "cumulative_percent": 87.5
+                },
+                {
+                    "time_h": 18,
+                    "cumulative_percent": 91.1
+                },
+                {
+                    "time_h": 20,
+                    "cumulative_percent": 94.6
+                },
+                {
+                    "time_h": 22,
+                    "cumulative_percent": 93.6
+                },
+                {
+                    "time_h": 24,
+                    "cumulative_percent": 93.8
+                }
+            ]
+        },
+        {
+            "batch_code": "073_DHE8",
+            "release_profile": [
+                {
+                    "time_h": 1,
+                    "cumulative_percent": 17.9
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_percent": 29.9
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_percent": 35.9
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_percent": 43.2
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_percent": 49.2
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_percent": 53.3
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_percent": 57.2
+                },
+                {
+                    "time_h": 8,
+                    "cumulative_percent": 61.1
+                },
+                {
+                    "time_h": 9,
+                    "cumulative_percent": 66.0
+                },
+                {
+                    "time_h": 10,
+                    "cumulative_percent": 70.7
+                },
+                {
+                    "time_h": 11,
+                    "cumulative_percent": 74.3
+                },
+                {
+                    "time_h": 12,
+                    "cumulative_percent": 78.0
+                },
+                {
+                    "time_h": 14,
+                    "cumulative_percent": 82.3
+                },
+                {
+                    "time_h": 16,
+                    "cumulative_percent": 86.5
+                },
+                {
+                    "time_h": 18,
+                    "cumulative_percent": 89.2
+                },
+                {
+                    "time_h": 20,
+                    "cumulative_percent": 93.6
+                },
+                {
+                    "time_h": 22,
+                    "cumulative_percent": 90.6
+                },
+                {
+                    "time_h": 24,
+                    "cumulative_percent": 90.6
+                }
+            ]
+        },
+        {
+            "batch_code": "073_DHE9",
+            "release_profile": [
+                {
+                    "time_h": 1,
+                    "cumulative_percent": 15.9
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_percent": 20.9
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_percent": 31.9
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_percent": 39.2
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_percent": 43.2
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_percent": 48.3
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_percent": 52.2
+                },
+                {
+                    "time_h": 8,
+                    "cumulative_percent": 56.1
+                },
+                {
+                    "time_h": 9,
+                    "cumulative_percent": 61.0
+                },
+                {
+                    "time_h": 10,
+                    "cumulative_percent": 65.7
+                },
+                {
+                    "time_h": 11,
+                    "cumulative_percent": 69.3
+                },
+                {
+                    "time_h": 12,
+                    "cumulative_percent": 72.0
+                },
+                {
+                    "time_h": 14,
+                    "cumulative_percent": 78.3
+                },
+                {
+                    "time_h": 16,
+                    "cumulative_percent": 82.5
+                },
+                {
+                    "time_h": 18,
+                    "cumulative_percent": 87.2
+                },
+                {
+                    "time_h": 20,
+                    "cumulative_percent": 90.6
+                },
+                {
+                    "time_h": 22,
+                    "cumulative_percent": 85.6
+                },
+                {
+                    "time_h": 24,
+                    "cumulative_percent": 85.6
+                }
+            ],
+            "release_mechanism": "anomalous diffusion (diffusion and erosion)",
+            "kinetics": {
+                "higuchi_model_R2": 0.996,
+                "korsmeyer_peppas_R2": 0.995,
+                "korsmeyer_peppas_n": 0.564,
+                "zero_order_R2": "not reported",
+                "first_order_R2": "not reported",
+                "hixson_crowell_R2": "not reported"
+            },
+            "factors_influencing_release": "concentration of Eudragit RSPO and HPMC; hydrophobic character of RSPO delays medium penetration; HPMC forms gel layer"
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch_code": "073_DHE1",
+            "hardness_kg_cm2": {
+                "mean": 8.3,
+                "sd": 0.4
+            },
+            "friability_percent": 0.63,
+            "disintegration_time": "not reported",
+            "dissolution_profile": "see release_properties",
+            "stability": "not reported for this batch",
+            "thickness_mm": "not reported",
+            "diameter_mm": 8,
+            "weight_variation_percent": "not reported"
+        },
+        {
+            "batch_code": "073_DHE2",
+            "hardness_kg_cm2": {
+                "mean": 8.5,
+                "sd": 0.5
+            },
+            "friability_percent": 0.66,
+            "dissolution_profile": "see release_properties"
+        },
+        {
+            "batch_code": "073_DHE3",
+            "hardness_kg_cm2": {
+                "mean": 8.6,
+                "sd": 0.2
+            },
+            "friability_percent": 0.53,
+            "dissolution_profile": "see release_properties"
+        },
+        {
+            "batch_code": "073_DHE4",
+            "hardness_kg_cm2": {
+                "mean": 8.5,
+                "sd": 0.1
+            },
+            "friability_percent": 0.72,
+            "dissolution_profile": "see release_properties"
+        },
+        {
+            "batch_code": "073_DHE5",
+            "hardness_kg_cm2": {
+                "mean": 8.2,
+                "sd": 0.3
+            },
+            "friability_percent": 0.58,
+            "dissolution_profile": "see release_properties"
+        },
+        {
+            "batch_code": "073_DHE6",
+            "hardness_kg_cm2": {
+                "mean": 8.3,
+                "sd": 0.1
+            },
+            "friability_percent": 0.69,
+            "dissolution_profile": "see release_properties"
+        },
+        {
+            "batch_code": "073_DHE7",
+            "hardness_kg_cm2": {
+                "mean": 8.3,
+                "sd": 0.2
+            },
+            "friability_percent": 0.59,
+            "dissolution_profile": "see release_properties"
+        },
+        {
+            "batch_code": "073_DHE8",
+            "hardness_kg_cm2": {
+                "mean": 8.4,
+                "sd": 0.3
+            },
+            "friability_percent": 0.65,
+            "dissolution_profile": "see release_properties"
+        },
+        {
+            "batch_code": "073_DHE9",
+            "hardness_kg_cm2": {
+                "mean": 8.5,
+                "sd": 0.4
+            },
+            "friability_percent": 0.61,
+            "dissolution_profile": "see release_properties",
+            "stability": {
+                "conditions": "40°C / 75% RH for 6 months",
+                "drug_content_initial_percent": {
+                    "mean": 97.32,
+                    "sd": 4.2
+                },
+                "drug_content_after_6_months_percent": {
+                    "mean": 96.22,
+                    "sd": 3.8
+                },
+                "dissolution_24h_initial_percent": 98.0,
+                "dissolution_24h_after_6_months_percent": 97.0
+            }
+        }
+    ],
+    "experimental_data": {
+        "in_vivo_study": {
+            "design": "single-dose, randomized three-period crossover, six healthy male subjects (20-29 years, 55-65 kg)",
+            "test_formulation": "073_DHE9",
+            "reference_formulation": "Diltime SR (Zydus Medica, India)",
+            "pharmacokinetic_parameters": {
+                "073_DHE9": {
+                    "Cmax_ng_ml": {
+                        "mean": 501.74,
+                        "sd": 0.05
+                    },
+                    "Tmax_h": {
+                        "mean": 2.05,
+                        "sd": 0.52
+                    },
+                    "AUC_0_t_ng_ml_h": {
+                        "mean": 5357.75,
+                        "sd": 0.214
+                    },
+                    "AUC_0_inf_ng_ml_h": {
+                        "mean": 5622.77,
+                        "sd": 0.221
+                    }
+                },
+                "Commercial_Formulation": {
+                    "Cmax_ng_ml": {
+                        "mean": 509.65,
+                        "sd": 0.06
+                    },
+                    "Tmax_h": {
+                        "mean": 2.3,
+                        "sd": 0.57
+                    },
+                    "AUC_0_t_ng_ml_h": {
+                        "mean": 5424.38,
+                        "sd": 0.219
+                    },
+                    "AUC_0_inf_ng_ml_h": {
+                        "mean": 5653.22,
+                        "sd": 0.226
+                    }
+                }
+            }
+        },
+        "in_vitro_in_vivo_correlation": {
+            "method": "linear regression analysis",
+            "correlation_coefficient_r2": 0.8551,
+            "conclusion": "fair correlation"
+        },
+        "statistical_analysis": {
+            "software": "Design Expert 7.0.3, OPTI-STAT (in-house)",
+            "tests": "ANOVA, multiple regression analysis, unpaired two-tailed t-test at 95% confidence level"
+        },
+        "zero_and_first_order_release_data": "not reported for individual formulations; only Higuchi and Korsmeyer-Peppas models reported for optimized formulation 073_DHE9",
+        "swelling_water_uptake_study": "not performed or not reported"
+    }
+}

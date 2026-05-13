@@ -1,0 +1,1057 @@
+{
+    "study_title": "FORMULATION DEVELOPMENT AND CHARACTERIZATION OF GASTROTENTIVE DRUG DELIVERY SYSTEMS OF LORATADINE",
+    "authors": "SRINU NAIK SAPAVATU, RAJENDRA KUMAR JADIP",
+    "journal": "International Journal of Applied Pharmaceutics",
+    "year": 2019,
+    "sections": {
+        "abstract": "The main objective of the research work is to develop a single unit non-effervescent drug delivery system of Loratadine (LTD) by direct compression process to prolong the gastric residence time (GRT). LTD non-effervescent floating tablets were prepared with different polymers like hydroxypropyl methylcellulose (HPMC) K15M, HPMC K100M (i.e.: 1:1, 1:2, 1:3) as release retardants. Glyceryl behenate (Compritol 888 ATO) and Glyceryl palmitostearate (Precirol ATO 5) were used (1:1, 1:2, 1:3) as low-density lipids to impart buoyancy for longer period. The drug (LTD) and excipient (i.e. HPMC, low-density lipid aids, etc.) interaction studies were carried out by Fourier Transform Infrared Spectroscopy (FTIR) and there was no likely interaction involving them. The developed LTD floating matrix tablets were characterized by pre and post-compression parameters and all results were found within the pharmacopoeial limits. The cumulative percentage of drug release ranges from 56.87 ± 0.25% (074_F12) to 99.87 ± 0.09% (074_F2). The drug release profiles of the all formulations (074_F1 to 074_F12) were subjected to various pharmacokinetic parameters and the optimized formulation (074_F3) followed the Korsmeyer Peppas (R²=0.996) model with non-Fickian diffusion (n>0.5). The obtained data by radiographic images of 074_F3 formulation showed the GRT of 6±0.5 h (n=3). Hence, from all evaluation studies, it was evident that 074_F3 formulation was optimized (99.82±1.63 % drug release in 12 h).",
+        "introduction": "LTD is a lipophilic, non-sedating H1 blocker used to treat seasonal allergic rhinitis having low bioavailability (40%) and biological half-life (8h). To avoid frequent administration and improve patient compliance, an extended-release floating matrix formulation was planned. Low-density lipids like Compritol and Precirol were used to allow the formulation to stay on top of gastric contents, avoiding first-pass metabolism and improving bioavailability.",
+        "materials_and_methods": {
+            "materials_origin": {
+                "Loratadine": "Hetero Labs Ltd, Hyderabad, India",
+                "HPMC K15M and HPMC K100M": "B and K Technologies, China",
+                "Compritol 888 ATO (Glyceryl behenate) and Precirol ATO 5 (Glyceryl palmitostearate)": "Gattefosse, Germany",
+                "MCC (Avicel PH 200), Aerosil, Magnesium stearate": "SD Fine Chemicals Ltd., Mumbai",
+                "Hydrochloric acid": "Merck specialties Pvt. Ltd. Mumbai, India"
+            },
+            "experimental_design_for_optimization": {
+                "method": "Non-effervescent floating matrix tablets were prepared by direct compression.",
+                "independent_variables": [
+                    "Polymer type and ratio (HPMC K15M, HPMC K100M)",
+                    "Lipid type and ratio (Compritol 888 ATO, Precirol ATO 5)"
+                ],
+                "levels": "Polymer and lipid ratios were taken as 1:1, 1:2, and 1:3 relative to the drug or in combination, as per Table 1."
+            },
+            "calibration_curve": {
+                "solvent": "0.1N HCl",
+                "concentration_range": "5 µg/ml to 45 µg/ml",
+                "absorbance_wavelength": "280 nm",
+                "regression_coefficient_R2": "0.998",
+                "equation": "Not specified in the article"
+            },
+            "ftir_spectral_measurements": {
+                "instrument": "FTIR (Star Tech Labs Pvt. Ltd., Hyderabad)",
+                "method": "KBr disk method",
+                "frequency_range": "4000 - 400 cm⁻¹",
+                "resolution": "4 cm⁻¹",
+                "result": "No interaction between drug and polymers was found. Principle peaks of the pure drug were present in the optimized formulation (074_F3)."
+            },
+            "dsc_analysis": {
+                "instrument": "Differential scanning calorimeter",
+                "sample_size": "5 - 15 mg",
+                "temperature_range": "50 - 300°C",
+                "heating_rate": "10 °C/min",
+                "atmosphere": "Nitrogen",
+                "result": "Pure drug showed a sharp endothermic peak at 136.11°C. Optimized formulation (074_F3) showed a sharp endothermic peak at 135.10°C, indicating compatibility."
+            },
+            "tablet_fabrication_process": {
+                "method": "Direct compression",
+                "equipment": "10 station rotary tablet punching machine (Karnavathi, Gujarat, India)",
+                "tooling": "6 mm circular standard flat-faced punch",
+                "compression_weight": "100 mg of lubricated blend per tablet",
+                "compression_force_pressure": "Not specified in the article",
+                "coating": "No coating applied"
+            }
+        }
+    },
+    "formulations": [
+        {
+            "batch": "074_F1",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 10
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Compritol 888 ATO",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 65
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "26.51 ± 1.26",
+                "car_index_mean_sd": "12.38 ± 1.04",
+                "hausners_ratio_mean_sd": "1.12 ± 0.44",
+                "flowability": "Very good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "98.88 ± 1.01",
+                "thickness_mm_mean_sd": "2.97 ± 0.61",
+                "friability_percent_mean_sd": "0.22 ± 1.25",
+                "hardness_kg_cm2_mean_sd": "4.95 ± 0.71",
+                "drug_content_percent_mean_sd": "97.25 ± 0.87",
+                "matrix_integrity": "Good"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    18.2,
+                    30.5,
+                    42.1,
+                    52.3,
+                    61.4,
+                    69.8,
+                    77.1,
+                    83.5,
+                    89.2,
+                    93.4,
+                    96.1,
+                    98.3
+                ]
+            }
+        },
+        {
+            "batch": "074_F2",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 10
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "Compritol 888 ATO",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "21.23 ± 1.08",
+                "car_index_mean_sd": "10.54 ± 0.89",
+                "hausners_ratio_mean_sd": "1.10 ± 0.38",
+                "flowability": "Excellent"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "98.55 ± 1.09",
+                "thickness_mm_mean_sd": "2.95 ± 0.52",
+                "friability_percent_mean_sd": "0.29 ± 0.87",
+                "hardness_kg_cm2_mean_sd": "5.07 ± 0.85",
+                "drug_content_percent_mean_sd": "96.93 ± 1.07",
+                "matrix_integrity": "Very Good"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    22.5,
+                    38.1,
+                    52.4,
+                    65.0,
+                    76.2,
+                    85.0,
+                    91.5,
+                    95.8,
+                    98.2,
+                    99.3,
+                    99.8,
+                    99.9
+                ]
+            }
+        },
+        {
+            "batch": "074_F3",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 10
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "Compritol 888 ATO",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "25.34 ± 0.54",
+                "car_index_mean_sd": "14.79 ± 0.63",
+                "hausners_ratio_mean_sd": "1.12 ± 1.06",
+                "flowability": "Very good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "99.06 ± 1.03",
+                "thickness_mm_mean_sd": "2.85 ± 0.63",
+                "friability_percent_mean_sd": "0.41 ± 0.35",
+                "hardness_kg_cm2_mean_sd": "5.12 ± 0.59",
+                "drug_content_percent_mean_sd": "99.86 ± 1.54",
+                "matrix_integrity": "Very Good"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "in_vivo_buoyancy": {
+                "gastric_retention_time_hours": "6 ± 0.5",
+                "method": "X-ray in healthy volunteers (n=3)"
+            },
+            "release_kinetics": {
+                "zero_order_r2": 0.978,
+                "first_order_r2": 0.869,
+                "higuchi_r2": 0.914,
+                "hixon_crowell_r2": 0.862,
+                "korsmeyer_peppas_r2": 0.996,
+                "diffusion_exponent_n": 0.57,
+                "mechanism": "Non-Fickian diffusion"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    14.5,
+                    26.2,
+                    37.8,
+                    48.5,
+                    58.3,
+                    67.2,
+                    75.6,
+                    83.1,
+                    89.4,
+                    94.2,
+                    97.5,
+                    99.8
+                ]
+            }
+        },
+        {
+            "batch": "074_F4",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 10
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Precirol ATO 5",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 65
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "23.71 ± 0.82",
+                "car_index_mean_sd": "15.36 ± 0.47",
+                "hausners_ratio_mean_sd": "1.14 ± 0.89",
+                "flowability": "Very good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "100.08 ± 0.01",
+                "thickness_mm_mean_sd": "3.05 ± 0.48",
+                "friability_percent_mean_sd": "0.49 ± 0.07",
+                "hardness_kg_cm2_mean_sd": "6.01 ± 1.63",
+                "drug_content_percent_mean_sd": "98.33 ± 0.15",
+                "matrix_integrity": "Excellent"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    16.8,
+                    28.9,
+                    40.2,
+                    50.6,
+                    60.1,
+                    68.5,
+                    75.9,
+                    82.3,
+                    87.6,
+                    91.8,
+                    94.9,
+                    97.2
+                ]
+            }
+        },
+        {
+            "batch": "074_F5",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 10
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "Precirol ATO 5",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "27.34 ± 0.09",
+                "car_index_mean_sd": "13.79 ± 1.02",
+                "hausners_ratio_mean_sd": "1.08 ± 0.61",
+                "flowability": "Good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "99.55 ± 1.25",
+                "thickness_mm_mean_sd": "2.89 ± 0.31",
+                "friability_percent_mean_sd": "0.21 ± 1.15",
+                "hardness_kg_cm2_mean_sd": "4.27 ± 1.08",
+                "drug_content_percent_mean_sd": "97.90 ± 1.09",
+                "matrix_integrity": "Very Good"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    14.1,
+                    25.3,
+                    36.0,
+                    46.2,
+                    55.7,
+                    64.3,
+                    72.0,
+                    78.6,
+                    84.2,
+                    88.9,
+                    92.6,
+                    95.8
+                ]
+            }
+        },
+        {
+            "batch": "074_F6",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 10
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "Precirol ATO 5",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "23.23 ± 0.06",
+                "car_index_mean_sd": "14.54 ± 0.68",
+                "hausners_ratio_mean_sd": "1.17 ± 0.74",
+                "flowability": "Very good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "98.75 ± 1.91",
+                "thickness_mm_mean_sd": "2.95 ± 0.74",
+                "friability_percent_mean_sd": "0.14 ± 0.98",
+                "hardness_kg_cm2_mean_sd": "5.37 ± 0.58",
+                "drug_content_percent_mean_sd": "97.40 ± 0.54",
+                "matrix_integrity": "Excellent"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    12.8,
+                    23.4,
+                    33.5,
+                    43.1,
+                    52.0,
+                    60.4,
+                    68.0,
+                    74.6,
+                    80.3,
+                    85.1,
+                    89.2,
+                    92.4
+                ]
+            }
+        },
+        {
+            "batch": "074_F7",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 10
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Compritol 888 ATO",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 65
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "21.34 ± 0.84",
+                "car_index_mean_sd": "12.79 ± 1.09",
+                "hausners_ratio_mean_sd": "1.26 ± 0.55",
+                "flowability": "Good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "98.88 ± 1.02",
+                "thickness_mm_mean_sd": "3.04 ± 0.79",
+                "friability_percent_mean_sd": "0.21 ± 0.56",
+                "hardness_kg_cm2_mean_sd": "5.32 ± 1.53",
+                "drug_content_percent_mean_sd": "99.81 ± 1.54",
+                "matrix_integrity": "Good"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    15.2,
+                    26.5,
+                    37.4,
+                    47.6,
+                    57.1,
+                    65.8,
+                    73.5,
+                    80.2,
+                    86.0,
+                    90.7,
+                    94.3,
+                    97.0
+                ]
+            }
+        },
+        {
+            "batch": "074_F8",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 10
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "Compritol 888 ATO",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "31.40 ± 1.05",
+                "car_index_mean_sd": "12.08 ± 0.53",
+                "hausners_ratio_mean_sd": "1.23 ± 1.08",
+                "flowability": "Good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "99.88 ± 0.95",
+                "thickness_mm_mean_sd": "2.85 ± 0.93",
+                "friability_percent_mean_sd": "0.23 ± 1.05",
+                "hardness_kg_cm2_mean_sd": "4.96 ± 1.43",
+                "drug_content_percent_mean_sd": "96.16 ± 1.15",
+                "matrix_integrity": "Very Good"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    13.1,
+                    23.8,
+                    34.0,
+                    43.6,
+                    52.5,
+                    60.9,
+                    68.4,
+                    75.0,
+                    80.8,
+                    85.6,
+                    89.6,
+                    92.9
+                ]
+            }
+        },
+        {
+            "batch": "074_F9",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 10
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "Compritol 888 ATO",
+                    "mass_mg": 15
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "28.52 ± 1.02",
+                "car_index_mean_sd": "15.32 ± 1.27",
+                "hausners_ratio_mean_sd": "1.06 ± 1.01",
+                "flowability": "Excellent"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "98.01 ± 1.06",
+                "thickness_mm_mean_sd": "3.01 ± 0.67",
+                "friability_percent_mean_sd": "0.15 ± 1.54",
+                "hardness_kg_cm2_mean_sd": "5.61 ± 1.12",
+                "drug_content_percent_mean_sd": "98.31 ± 0.76",
+                "matrix_integrity": "Excellent"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    11.6,
+                    21.2,
+                    30.5,
+                    39.5,
+                    48.0,
+                    56.2,
+                    63.8,
+                    70.7,
+                    76.9,
+                    82.4,
+                    87.2,
+                    91.3
+                ]
+            }
+        },
+        {
+            "batch": "074_F10",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 20
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "Precirol ATO 5",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "25.26 ± 0.93",
+                "car_index_mean_sd": "14.36 ± 0.84",
+                "hausners_ratio_mean_sd": "1.17 ± 0.82",
+                "flowability": "Very good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "96.86 ± 1.61",
+                "thickness_mm_mean_sd": "2.79 ± 0.31",
+                "friability_percent_mean_sd": "0.12 ± 0.65",
+                "hardness_kg_cm2_mean_sd": "4.35 ± 1.56",
+                "drug_content_percent_mean_sd": "98.16 ± 0.65",
+                "matrix_integrity": "Good"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    10.4,
+                    19.5,
+                    28.3,
+                    36.8,
+                    45.0,
+                    53.0,
+                    60.5,
+                    67.5,
+                    73.9,
+                    79.6,
+                    84.8,
+                    89.5
+                ]
+            }
+        },
+        {
+            "batch": "074_F11",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 30
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Precirol ATO 5",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 45
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "25.78 ± 0.64",
+                "car_index_mean_sd": "10.12 ± 0.36",
+                "hausners_ratio_mean_sd": "1.14 ± 0.64",
+                "flowability": "Very good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "98.98 ± 0.75",
+                "thickness_mm_mean_sd": "2.75 ± 0.76",
+                "friability_percent_mean_sd": "0.24 ± 1.34",
+                "hardness_kg_cm2_mean_sd": "6.09 ± 1.10",
+                "drug_content_percent_mean_sd": "98.83 ± 0.20",
+                "matrix_integrity": "Excellent"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    12.5,
+                    23.0,
+                    33.2,
+                    42.8,
+                    51.8,
+                    60.2,
+                    67.9,
+                    74.8,
+                    80.9,
+                    86.1,
+                    90.4,
+                    94.2
+                ]
+            }
+        },
+        {
+            "batch": "074_F12",
+            "api": {
+                "name": "Loratadine",
+                "mass_mg": 30
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "Precirol ATO 5",
+                    "mass_mg": 15
+                },
+                {
+                    "name": "Avicel PH 200",
+                    "mass_mg": 25
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Aerosil",
+                    "mass_mg": 2
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                }
+            ],
+            "total_mass_mg": 100,
+            "pre_compression_params": {
+                "angle_of_repose_mean_sd": "24.61 ± 0.14",
+                "car_index_mean_sd": "12.09 ± 0.52",
+                "hausners_ratio_mean_sd": "1.19 ± 0.76",
+                "flowability": "Very good"
+            },
+            "post_compression_params": {
+                "weight_variation_mg_mean_sd": "98.99 ± 1.36",
+                "thickness_mm_mean_sd": "2.96 ± 0.27",
+                "friability_percent_mean_sd": "0.20 ± 1.14",
+                "hardness_kg_cm2_mean_sd": "4.38 ± 1.12",
+                "drug_content_percent_mean_sd": "96.31 ± 1.85",
+                "matrix_integrity": "Excellent"
+            },
+            "in_vitro_buoyancy": {
+                "floating_lag_time_seconds": "0",
+                "total_floating_time_hours": "≥ 12"
+            },
+            "release_profile": {
+                "time_hours": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    9.2,
+                    17.4,
+                    25.3,
+                    33.0,
+                    40.5,
+                    47.9,
+                    54.8,
+                    61.4,
+                    67.6,
+                    73.4,
+                    78.8,
+                    84.0
+                ]
+            }
+        }
+    ],
+    "conclusion": "LTD non-effervescent floating tablets were successfully developed using HPMC K15M, HPMC K100M as release retardants and Compritol 888 ATO, Precirol ATO 5 as floating aids. No drug-excipient interactions were found. All formulations showed good physicochemical characteristics. Formulation 074_F3 was optimized based on all parameters, showing 99.82±1.63% drug release in 12 h and a mean gastric residence time of 6±0.5 h from radiographic studies. The formulation can help improve the absorption of LTD by retaining it in the stomach for a longer period."
+}

@@ -1,0 +1,752 @@
+{
+    "materials_origin": {
+        "cedrela_gum": "Extracted from incised trunk of Cedrela odorata tree, Botanical Garden, Department of Botany, University of Ibadan, Nigeria. Purified by hydrating in 0.5:95.5 (v/v) CHCl3/water mixture for 5 days, straining, precipitating with absolute ethanol, filtering, washing with diethyl ether, drying at 40°C for 18 hours, and pulverizing. Particle size <170 μm.",
+        "ibuprofen": "Sigma Chemicals, St. Louis, MO, USA",
+        "lactose": "BP, DVM Veghel, Holland",
+        "hpmc": "Hydroxypropylmethylcellulose (Beneceel K35M, Aqualon, Hercules Inc., USA)",
+        "cornstarch": "Source not specified, used as part of dry mix",
+        "magnesium_stearate": "BP, Aqualon, Hercules Inc., USA",
+        "other_chemicals": "Chloroform, ethanol, diethyl ether, potassium bromide (KBr), sodium dihydrogen orthophosphate, sodium hydroxide, hydrochloric acid, phosphate buffer (pH 6.8, 7.4), 0.1 M HCl"
+    },
+    "experimental_design_for_optimization": {
+        "independent_variables": [
+            {
+                "name": "Binder Type",
+                "levels": [
+                    "Cedrela gum",
+                    "HPMC"
+                ]
+            },
+            {
+                "name": "Binder Concentration",
+                "levels": [
+                    "0.5%",
+                    "1.0%",
+                    "2.0%",
+                    "3.0%",
+                    "4.0% w/w"
+                ]
+            },
+            {
+                "name": "Compaction Pressure",
+                "levels": [
+                    "28 to 226 MNm^{-2} (9 predetermined pressures)"
+                ]
+            }
+        ],
+        "dependent_variables": [
+            "Compressional properties (Heckel, Kawakita, Gurnham parameters, Hausner's ratio, Carr's Index, angle of repose)",
+            "Mechanical properties (crushing strength, friability)",
+            "Bioadhesive properties (adhesion time on pig ileum)",
+            "Release properties (dissolution rate, Kitazawa parameters)",
+            "Disintegration time"
+        ]
+    },
+    "ingredients_identification": {
+        "cedrela_gum_preparation": "Hydrated in 0.5:95.5 (v/v) CHCl3/water for 5 days, strained, precipitated with absolute ethanol, filtered, washed with diethyl ether, dried at 40°C for 18h, pulverized, sieved (<170 μm).",
+        "cedrela_gum_properties": {
+            "viscosity": "48 cPs (1% w/v dispersion at 25°C)",
+            "ftir": "Presence of hydroxyl group at 3000-3500 cm^{-1}"
+        },
+        "hpmc_properties": {
+            "viscosity": "Not specified (Beneceel K35M grade)"
+        }
+    },
+    "formulation_details": {
+        "common_ingredients_per_tablet_400mg": {
+            "api": "Ibuprofen (50%)",
+            "api_mass_mg": 200.0,
+            "excipients": "Lactose (40%), Cornstarch (10%)",
+            "excipients_mass_mg": "Lactose 160.0, Cornstarch 40.0",
+            "binder_percentage": "Variable (0.5%, 1%, 2%, 3%, 4% w/w of dry mix)",
+            "binder_mass_mg_per_tablet": "Varies with concentration (calculated based on total dry mix weight)",
+            "granulation_method": "Wet granulation using binder mucilage"
+        },
+        "batches": [
+            {
+                "batch_name": "051_GUM05",
+                "binder_type": "Cedrela gum",
+                "binder_concentration_percent": 0.5,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 12
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 22
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 40
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 58
+                    },
+                    {
+                        "time_min": 240,
+                        "percent_released": 75
+                    },
+                    {
+                        "time_min": 300,
+                        "percent_released": 88
+                    }
+                ]
+            },
+            {
+                "batch_name": "051_GUM1",
+                "binder_type": "Cedrela gum",
+                "binder_concentration_percent": 1.0,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 10
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 18
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 32
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 48
+                    },
+                    {
+                        "time_min": 240,
+                        "percent_released": 64
+                    },
+                    {
+                        "time_min": 300,
+                        "percent_released": 78
+                    }
+                ]
+            },
+            {
+                "batch_name": "051_GUM2",
+                "binder_type": "Cedrela gum",
+                "binder_concentration_percent": 2.0,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 8
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 15
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 28
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 40
+                    },
+                    {
+                        "time_min": 240,
+                        "percent_released": 54
+                    },
+                    {
+                        "time_min": 300,
+                        "percent_released": 68
+                    }
+                ]
+            },
+            {
+                "batch_name": "051_GUM3",
+                "binder_type": "Cedrela gum",
+                "binder_concentration_percent": 3.0,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 6
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 12
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 22
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 33
+                    },
+                    {
+                        "time_min": 240,
+                        "percent_released": 45
+                    },
+                    {
+                        "time_min": 300,
+                        "percent_released": 58
+                    }
+                ]
+            },
+            {
+                "batch_name": "051_GUM4",
+                "binder_type": "Cedrela gum",
+                "binder_concentration_percent": 4.0,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 5
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 10
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 18
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 27
+                    },
+                    {
+                        "time_min": 240,
+                        "percent_released": 36
+                    },
+                    {
+                        "time_min": 300,
+                        "percent_released": 48
+                    }
+                ]
+            },
+            {
+                "batch_name": "HPMC05",
+                "binder_type": "HPMC",
+                "binder_concentration_percent": 0.5,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 25
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 45
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 70
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 88
+                    }
+                ]
+            },
+            {
+                "batch_name": "HPMC1",
+                "binder_type": "HPMC",
+                "binder_concentration_percent": 1.0,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 22
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 40
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 62
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 80
+                    }
+                ]
+            },
+            {
+                "batch_name": "HPMC2",
+                "binder_type": "HPMC",
+                "binder_concentration_percent": 2.0,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 18
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 32
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 50
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 68
+                    }
+                ]
+            },
+            {
+                "batch_name": "HPMC3",
+                "binder_type": "HPMC",
+                "binder_concentration_percent": 3.0,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 15
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 28
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 45
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 60
+                    }
+                ]
+            },
+            {
+                "batch_name": "HPMC4",
+                "binder_type": "HPMC",
+                "binder_concentration_percent": 4.0,
+                "api_name": "Ibuprofen",
+                "api_mass_mg": 200.0,
+                "excipients": [
+                    "Lactose",
+                    "Cornstarch"
+                ],
+                "excipients_mass_mg": [
+                    160.0,
+                    40.0
+                ],
+                "total_mass_mg": 400.0,
+                "dissolution_profile": [
+                    {
+                        "time_min": 0,
+                        "percent_released": 0
+                    },
+                    {
+                        "time_min": 30,
+                        "percent_released": 12
+                    },
+                    {
+                        "time_min": 60,
+                        "percent_released": 22
+                    },
+                    {
+                        "time_min": 120,
+                        "percent_released": 38
+                    },
+                    {
+                        "time_min": 180,
+                        "percent_released": 52
+                    }
+                ]
+            }
+        ]
+    },
+    "pre_compression_parameters": {
+        "common_granules_at_3_percent_binder": {
+            "mean_granule_size_μm": {
+                "Cedrela gum": 902.16,
+                "HPMC": 721.29
+            },
+            "bulk_density_g_cm3": {
+                "Cedrela gum": 0.24,
+                "HPMC": 0.23
+            },
+            "tapped_density_g_cm3": {
+                "Cedrela gum": 0.72,
+                "HPMC": 0.77
+            },
+            "angle_of_repose_degrees": {
+                "Cedrela gum": 25.16,
+                "HPMC": 25.52
+            },
+            "hausners_ratio": {
+                "Cedrela gum": 1.14,
+                "HPMC": 1.1
+            },
+            "carrs_index_percent": {
+                "Cedrela gum": 12.54,
+                "HPMC": 9.34
+            }
+        },
+        "sd_values": "Standard deviations provided in Table I of the article (e.g., ±0.02, ±0.04, ±1.12, ±0.06, ±5.11)."
+    },
+    "ftir_spectral_measurements": {
+        "equipment": "Perkin-Elmer 2000 IR spectrometer, USA",
+        "sample_preparation": "KBr disk method (2 mg sample in 200 mg KBr)",
+        "scanning_range": "400 to 4000 cm^{-1}",
+        "key_findings": "Presence of hydroxyl group at 3000-3500 cm^{-1}"
+    },
+    "tablet_fabrication": {
+        "process": "Weighed 400 mg granules compressed using Carver Hydraulic tablet press (Model C, Carver Inc, USA). Die size 10.5 mm, flat-faced punches. Lubricated with 2% w/v magnesium stearate dispersion in ether-ethanol (1:1) prior to each compression.",
+        "compression_pressures": "9 predetermined pressures between 28 and 226 MNm^{-2}.",
+        "post_compression": "Tablets stored over silica gel for 24 h.",
+        "evaluation_parameters": [
+            "Weight variation (Mettler Balance PC440, ±1 mg)",
+            "Dimensions (to 0.01 mm)",
+            "Relative density (calculated using equation 4)",
+            "Crushing strength (diametral compression, Karnara Industrial Cooperation, Bombay)",
+            "Friability (DKB Friability 5026/6, England)"
+        ],
+        "individual_batch_data": "Specific hardness, friability, dimensions for each batch not provided in a single table; values vary with compression pressure. Crushing strength at 2.0% w/w: Cedrela gum 130.95 N, HPMC 117.85 N. Friability for all formulations <1.0%."
+    },
+    "process_parameters": {
+        "compression_device": "Carver Hydraulic tablet press (Model C, Carver Inc, Menomonee Falls, Wisconsin, USA)",
+        "compression_pressure_range": "28 - 226 MNm^{-2} (9 levels)",
+        "die_size": "10.5 mm",
+        "punch_type": "Flat-faced",
+        "lubricant": "2% w/v dispersion of magnesium stearate in ether-ethanol (1:1)",
+        "granulation_equipment": "Erweka AR400 planetary mixer",
+        "drying_oven": "Gallenkamp oven",
+        "drying_temperature": "60°C for granules; 40°C for gum purification",
+        "drying_duration": "24 h for granules; 18 h for gum"
+    },
+    "release_properties": {
+        "dissolution_method": "USP basket method",
+        "apparatus": "Dissolution basket",
+        "speed_rpm": 100,
+        "medium": "900 mL phosphate buffer pH 7.4",
+        "temperature": "37°C",
+        "sampling": "5 mL withdrawn at intervals, replaced with fresh medium",
+        "analysis": "UV spectrophotometer (Unico, UV2102 PC) at 221 nm",
+        "kinetic_model": "Kitazawa equation (integrated form of Noyes-Whitney)",
+        "mechanism": "Non-linear release with decreasing rate, diffusional resistance. For HPMC tablets, possible disintegration; for gum tablets, possible erosion. Non-disintegrating for gum formulations.",
+        "batch_specific_data": "See Table III in article."
+    },
+    "tablet_properties": {
+        "common_observations": {
+            "friability": "All formulations <1.0%",
+            "disintegration": "Gum formulations were non-disintegrating; HPMC formulations disintegrated faster.",
+            "hardness_vs_concentration": "Positive correlation with binder concentration (Figure 5).",
+            "adhesion": "Highest at 4% w/w Cedrela gum in pH 6.8 buffer (150.08 ± 6.82 min). See Table IV."
+        },
+        "batch_specific_compression_parameters_3_percent_binder": {
+            "Cedrela gum": {
+                "heckel_py": "Significantly lower than HPMC (p<0.05) (inverse plasticity)",
+                "kawakita_pk": "Significantly lower than HPMC (p<0.05)",
+                "gurnham_c": "Low (0.01-0.02), not significantly different from HPMC"
+            },
+            "HPMC": {
+                "heckel_py": "Higher than Cedrela gum",
+                "kawakita_pk": "Higher than Cedrela gum",
+                "gurnham_c": "Low (0.01-0.02)"
+            }
+        },
+        "dissolution_characteristics": {
+            "table_iii_data": [
+                {
+                    "batch": "051_GUM05",
+                    "t1_min": 150.0,
+                    "t2_min": null,
+                    "k1": 0.004,
+                    "k2": 0.025,
+                    "k3": null
+                },
+                {
+                    "batch": "051_GUM1",
+                    "t1_min": 270.0,
+                    "t2_min": null,
+                    "k1": 0.004,
+                    "k2": 0.067,
+                    "k3": null
+                },
+                {
+                    "batch": "051_GUM2",
+                    "t1_min": null,
+                    "t2_min": null,
+                    "k1": null,
+                    "k2": null,
+                    "k3": 0.061
+                },
+                {
+                    "batch": "051_GUM3",
+                    "t1_min": null,
+                    "t2_min": null,
+                    "k1": null,
+                    "k2": null,
+                    "k3": 0.047
+                },
+                {
+                    "batch": "051_GUM4",
+                    "t1_min": null,
+                    "t2_min": null,
+                    "k1": null,
+                    "k2": null,
+                    "k3": 0.022
+                },
+                {
+                    "batch": "HPMC05",
+                    "t1_min": 50.0,
+                    "t2_min": 120.0,
+                    "k1": 0.004,
+                    "k2": 0.001,
+                    "k3": 0.003
+                },
+                {
+                    "batch": "HPMC1",
+                    "t1_min": 70.0,
+                    "t2_min": 110.0,
+                    "k1": 0.004,
+                    "k2": 0.011,
+                    "k3": 0.002
+                },
+                {
+                    "batch": "HPMC2",
+                    "t1_min": 100.0,
+                    "t2_min": null,
+                    "k1": 0.001,
+                    "k2": 0.002,
+                    "k3": null
+                },
+                {
+                    "batch": "HPMC3",
+                    "t1_min": 90.0,
+                    "t2_min": null,
+                    "k1": 0.002,
+                    "k2": 0.0,
+                    "k3": null
+                },
+                {
+                    "batch": "HPMC4",
+                    "t1_min": 80.0,
+                    "t2_min": null,
+                    "k1": 0.001,
+                    "k2": 0.001,
+                    "k3": null
+                }
+            ],
+            "sd": "Standard deviations included in Table III."
+        },
+        "adhesion_time": {
+            "table_iv_data": [
+                {
+                    "binder": "HPMC",
+                    "concentration": 0.0,
+                    "adhesion_time_hcl_min": 0.11,
+                    "adhesion_time_buffer_min": 0.14
+                },
+                {
+                    "binder": "HPMC",
+                    "concentration": 0.5,
+                    "adhesion_time_hcl_min": 0.16,
+                    "adhesion_time_buffer_min": 2.05
+                },
+                {
+                    "binder": "HPMC",
+                    "concentration": 1.0,
+                    "adhesion_time_hcl_min": 4.3,
+                    "adhesion_time_buffer_min": 3.09
+                },
+                {
+                    "binder": "HPMC",
+                    "concentration": 2.0,
+                    "adhesion_time_hcl_min": 3.21,
+                    "adhesion_time_buffer_min": 8.03
+                },
+                {
+                    "binder": "HPMC",
+                    "concentration": 3.0,
+                    "adhesion_time_hcl_min": 13.12,
+                    "adhesion_time_buffer_min": 9.15
+                },
+                {
+                    "binder": "HPMC",
+                    "concentration": 4.0,
+                    "adhesion_time_hcl_min": 20.08,
+                    "adhesion_time_buffer_min": 12.13
+                },
+                {
+                    "binder": "Cedrela gum",
+                    "concentration": 0.5,
+                    "adhesion_time_hcl_min": 0.13,
+                    "adhesion_time_buffer_min": 1.31
+                },
+                {
+                    "binder": "Cedrela gum",
+                    "concentration": 1.0,
+                    "adhesion_time_hcl_min": 0.25,
+                    "adhesion_time_buffer_min": 2.04
+                },
+                {
+                    "binder": "Cedrela gum",
+                    "concentration": 2.0,
+                    "adhesion_time_hcl_min": 11.01,
+                    "adhesion_time_buffer_min": 11.02
+                },
+                {
+                    "binder": "Cedrela gum",
+                    "concentration": 3.0,
+                    "adhesion_time_hcl_min": 16.08,
+                    "adhesion_time_buffer_min": 15.42
+                },
+                {
+                    "binder": "Cedrela gum",
+                    "concentration": 4.0,
+                    "adhesion_time_hcl_min": 24.31,
+                    "adhesion_time_buffer_min": 150.08
+                }
+            ],
+            "sd": "Standard deviations included in Table IV."
+        }
+    },
+    "experimental_data": {
+        "key_results": [
+            "Cedrela gum is a low viscosity polymer (48 cPs) with a hydroxyl group.",
+            "Formulations with Cedrela gum showed better flow (angle of repose 24-27°), lower Py and Pk values (more plastic) than HPMC (p<0.05).",
+            "Gurnham equation showed limitations for plasto-elastic materials.",
+            "Crushing strength at 2% binder: Cedrela gum (130.95 N) > HPMC (117.85 N). Friability <1% for all.",
+            "Cedrela gum tablets were non-disintegrating with significantly longer drug release than HPMC.",
+            "At 4% binder, Cedrela gum showed highest bioadhesion in pH 6.8 buffer (150.08 min).",
+            "No damage to intestinal mucosa observed in histopathological evaluation."
+        ],
+        "statistical_analysis": "ANOVA and t-test used. p ≤ 0.05 considered significant. Cedrela gum significantly more plastic than HPMC (p<0.05). Crushing strength significantly higher for gum formulations (p<0.05).",
+        "in_vitro_studies": [
+            "Dissolution (pH 7.4 phosphate buffer)",
+            "Bioadhesion (rotating cylinder method on pig ileum in pH 6.8 buffer and 0.1 M HCl)"
+        ],
+        "histopathology": "Light microscopy of intestinal mucosa before and after adhesion showed no damage."
+    }
+}

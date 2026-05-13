@@ -1,0 +1,1565 @@
+{
+    "article_sections": {
+        "abstract": "Page 1",
+        "introduction": "Pages 1-2",
+        "materials_and_methods": "Pages 3-5",
+        "results_and_discussion": "Pages 6-13",
+        "conclusion": "Page 13"
+    },
+    "extracted_data": {
+        "materials_origin": {
+            "amoxicillin_trihydrate": "Aladdin Industrial Corporation (Shanghai, China), purity >98.0%",
+            "levofloxacin": "Aladdin Industrial Corporation (Shanghai, China), purity >98.0%",
+            "HPMC_100000_cp": "Shin-Etsu Chemical Co., Ltd. (Tokyo, Japan)",
+            "HPMC_15000_cp": "Shin-Etsu Chemical Co., Ltd. (Tokyo, Japan)",
+            "HPMC_4000_cp": "Shin-Etsu Chemical Co., Ltd. (Tokyo, Japan)",
+            "sodium_carboxymethylcellulose_CMC": "Ashland Inc. (Covington, OH, USA)",
+            "polyethylene_oxide_PEO": "Colorcon Korea (Suwon, Republic of Korea)",
+            "aerosil_200": "EVONIK Industries (Hanau, Germany)"
+        },
+        "experimental_design_for_optimization": {
+            "purpose": "To prepare and optimize gastroenteric floating combination tablets (GRCTs) containing 500 mg amoxicillin trihydrate (AMX) and 125 mg levofloxacin (LVX) for sustained release and stability at gastric pH for eradicating resistant H. pylori.",
+            "preparation_method": "Direct compression method using a manual hydraulic press.",
+            "optimization_parameters": [
+                "pH stability",
+                "tablet hardness",
+                "floating lag time",
+                "total floating time",
+                "drug release rate",
+                "gel strength"
+            ],
+            "equations": {
+                "density_calculation": "D = W / V, where D = density, W = weight, V = volume",
+                "peak_area_percentage": "peak area of each active ingredient × 100 / total sum of all related peak areas"
+            },
+            "absorbance": {
+                "AMX_HPLC_conditions": {
+                    "column": "C18 (5 μm, 3.9 mm × 30 cm; Waters 2487)",
+                    "mobile_phase": "phosphate buffer (pH 5.0) and acetonitrile (39:1, v/v)",
+                    "flow_rate": "0.7 mL/min",
+                    "injection_volume": "10 μL",
+                    "detection_wavelength": "230 nm"
+                },
+                "LVX_HPLC_conditions": {
+                    "column": "C18 (5 μm, 4.6 mm × 15 cm; Osaka Soda)",
+                    "mobile_phase": "0.87% pentanesulfonic acid in phosphate buffer (pH 2.4) and acetonitrile (8:2, v/v)",
+                    "flow_rate": "1.0 mL/min",
+                    "injection_volume": "10 μL",
+                    "detection_wavelength": "294 nm"
+                }
+            },
+            "ph_stability_results": {
+                "AMX_peak_area_percentage": {
+                    "pH_1.2": 37.28,
+                    "pH_4.0": 95.88,
+                    "pH_5.0": 99.71
+                },
+                "LVX_peak_area_percentage": {
+                    "pH_1.2": ">99.0",
+                    "pH_4.0": ">99.0",
+                    "pH_5.0": ">99.0"
+                }
+            }
+        },
+        "formulation_details": [
+            {
+                "batch": "041_F1",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": 100,
+                    "HPMC (15,000 cp)": null,
+                    "HPMC (4000 cp)": null,
+                    "PEO": null,
+                    "CMC": null,
+                    "Citric acid": null,
+                    "Sodium bicarbonate": null,
+                    "Microcrystalline cellulose": 225,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "HPMC (100,000 cp)": 10.0,
+                    "Microcrystalline cellulose": 22.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F2",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": null,
+                    "HPMC (15,000 cp)": 100,
+                    "HPMC (4000 cp)": null,
+                    "PEO": null,
+                    "CMC": null,
+                    "Citric acid": null,
+                    "Sodium bicarbonate": null,
+                    "Microcrystalline cellulose": 225,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "HPMC (15,000 cp)": 10.0,
+                    "Microcrystalline cellulose": 22.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F3",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": null,
+                    "HPMC (15,000 cp)": null,
+                    "HPMC (4000 cp)": 100,
+                    "PEO": null,
+                    "CMC": null,
+                    "Citric acid": null,
+                    "Sodium bicarbonate": null,
+                    "Microcrystalline cellulose": 225,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "HPMC (4000 cp)": 10.0,
+                    "Microcrystalline cellulose": 22.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F4",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": null,
+                    "HPMC (15,000 cp)": null,
+                    "HPMC (4000 cp)": null,
+                    "PEO": 100,
+                    "CMC": null,
+                    "Citric acid": null,
+                    "Sodium bicarbonate": null,
+                    "Microcrystalline cellulose": 225,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "PEO": 10.0,
+                    "Microcrystalline cellulose": 22.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F5",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": null,
+                    "HPMC (15,000 cp)": null,
+                    "HPMC (4000 cp)": null,
+                    "PEO": null,
+                    "CMC": 100,
+                    "Citric acid": null,
+                    "Sodium bicarbonate": null,
+                    "Microcrystalline cellulose": 225,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "CMC": 10.0,
+                    "Microcrystalline cellulose": 22.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F6",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": 50,
+                    "HPMC (15,000 cp)": null,
+                    "HPMC (4000 cp)": null,
+                    "PEO": null,
+                    "CMC": 50,
+                    "Citric acid": null,
+                    "Sodium bicarbonate": null,
+                    "Microcrystalline cellulose": 225,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "HPMC (100,000 cp)": 5.0,
+                    "CMC": 5.0,
+                    "Microcrystalline cellulose": 22.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F7",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": null,
+                    "HPMC (15,000 cp)": 50,
+                    "HPMC (4000 cp)": null,
+                    "PEO": null,
+                    "CMC": 50,
+                    "Citric acid": null,
+                    "Sodium bicarbonate": null,
+                    "Microcrystalline cellulose": 225,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "HPMC (15,000 cp)": 5.0,
+                    "CMC": 5.0,
+                    "Microcrystalline cellulose": 22.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F8",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": null,
+                    "HPMC (15,000 cp)": null,
+                    "HPMC (4000 cp)": 50,
+                    "PEO": null,
+                    "CMC": 50,
+                    "Citric acid": null,
+                    "Sodium bicarbonate": null,
+                    "Microcrystalline cellulose": 225,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "HPMC (4000 cp)": 5.0,
+                    "CMC": 5.0,
+                    "Microcrystalline cellulose": 22.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F9",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": null,
+                    "HPMC (15,000 cp)": null,
+                    "HPMC (4000 cp)": 50,
+                    "PEO": null,
+                    "CMC": 50,
+                    "Citric acid": 20,
+                    "Sodium bicarbonate": 30,
+                    "Microcrystalline cellulose": 175,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "HPMC (4000 cp)": 5.0,
+                    "CMC": 5.0,
+                    "Citric acid": 2.0,
+                    "Sodium bicarbonate": 3.0,
+                    "Microcrystalline cellulose": 17.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F10",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": null,
+                    "HPMC (15,000 cp)": null,
+                    "HPMC (4000 cp)": 50,
+                    "PEO": null,
+                    "CMC": 50,
+                    "Citric acid": 40,
+                    "Sodium bicarbonate": 60,
+                    "Microcrystalline cellulose": 125,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "HPMC (4000 cp)": 5.0,
+                    "CMC": 5.0,
+                    "Citric acid": 4.0,
+                    "Sodium bicarbonate": 6.0,
+                    "Microcrystalline cellulose": 12.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            },
+            {
+                "batch": "041_F11",
+                "ingredients": {
+                    "AMX": 500,
+                    "LVX": 125,
+                    "HPMC (100,000 cp)": null,
+                    "HPMC (15,000 cp)": null,
+                    "HPMC (4000 cp)": 50,
+                    "PEO": null,
+                    "CMC": 50,
+                    "Citric acid": 60,
+                    "Sodium bicarbonate": 90,
+                    "Microcrystalline cellulose": 75,
+                    "Calcium silicate": 30,
+                    "Aerosil 200": 10,
+                    "Magnesium stearate": 10
+                },
+                "total_weight_mg": 1000,
+                "percent_composition": {
+                    "AMX": 50.0,
+                    "LVX": 12.5,
+                    "HPMC (4000 cp)": 5.0,
+                    "CMC": 5.0,
+                    "Citric acid": 6.0,
+                    "Sodium bicarbonate": 9.0,
+                    "Microcrystalline cellulose": 7.5,
+                    "Calcium silicate": 3.0,
+                    "Aerosil 200": 1.0,
+                    "Magnesium stearate": 1.0
+                }
+            }
+        ],
+        "pre_compression_parameters": {
+            "note": "The article does not provide pre-compression parameters such as mass distribution, friability, or size with standard deviation for individual batches. These parameters were evaluated post-compression.",
+            "general_observation": "Mean weight of all prepared GRCTs ranged between 997.47 and 998.47 mg/tablet, with a relative standard deviation of < 0.2%."
+        },
+        "composition_of_independent_variables": {
+            "variables": [
+                {
+                    "variable": "Polymer type",
+                    "levels": [
+                        "HPMC (100,000 cP)",
+                        "HPMC (15,000 cP)",
+                        "HPMC (4000 cP)",
+                        "PEO",
+                        "CMC"
+                    ]
+                },
+                {
+                    "variable": "Polymer combination",
+                    "levels": [
+                        "Single polymer (041_F1-041_F5)",
+                        "HPMC + CMC (041_F6-041_F8)"
+                    ]
+                },
+                {
+                    "variable": "Effervescent agent concentration (citric acid + sodium bicarbonate)",
+                    "levels": [
+                        "0% (041_F8)",
+                        "5% (20+30 mg, 041_F9)",
+                        "10% (40+60 mg, 041_F10)",
+                        "15% (60+90 mg, 041_F11)"
+                    ]
+                },
+                {
+                    "variable": "Compression pressure",
+                    "levels": [
+                        "30 bar",
+                        "40 bar",
+                        "50 bar"
+                    ]
+                },
+                {
+                    "variable": "Dwelling time",
+                    "levels": [
+                        "2 s",
+                        "5 s"
+                    ]
+                }
+            ]
+        },
+        "fourier_transform_infrared_spectral_measurements": {
+            "note": "FTIR spectral measurements are not mentioned or discussed in this article."
+        },
+        "tablet_fabrications": [
+            {
+                "batch": "041_F1",
+                "determination_of_hardness_kp": "3.9 ± 0.1",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "Approx. 0.80 - 0.82 (overall range for 041_F1-041_F8)",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F2",
+                "determination_of_hardness_kp": "4.0 ± 0.1",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "Approx. 0.80 - 0.82 (overall range for 041_F1-041_F8)",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F3",
+                "determination_of_hardness_kp": "4.1 ± 0.1",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "Approx. 0.80 - 0.82 (overall range for 041_F1-041_F8)",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F4",
+                "determination_of_hardness_kp": "< 3.80 (mean)",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "Approx. 0.80 - 0.82 (overall range for 041_F1-041_F8)",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F5",
+                "determination_of_hardness_kp": "< 3.80 (mean)",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "Approx. 0.80 - 0.82 (overall range for 041_F1-041_F8)",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F6",
+                "determination_of_hardness_kp": "< 3.80 (mean)",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "Approx. 0.80 - 0.82 (overall range for 041_F1-041_F8)",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F7",
+                "determination_of_hardness_kp": "< 3.80 (mean)",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "Approx. 0.80 - 0.82 (overall range for 041_F1-041_F8)",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F8",
+                "determination_of_hardness_kp": "3.3 ± 0.1 (at standard compression)",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "0.91 (at 50 bar/5s compression)",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F9",
+                "determination_of_hardness_kp": "6.6 ± 0.3",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "0.89 - 0.93",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F10",
+                "determination_of_hardness_kp": "6.6 ± 0.2",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "0.89 - 0.93",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            },
+            {
+                "batch": "041_F11",
+                "determination_of_hardness_kp": "6.6 ± 0.1",
+                "friability": "Not reported",
+                "weight_variation_mg": "997.47 - 998.47 (overall range for all batches)",
+                "thickness": "Not reported per batch",
+                "diameter": "Not reported",
+                "density_g_per_mL": "0.89 - 0.93",
+                "drug_content": "Not reported per batch",
+                "consolidation_index": "Not reported"
+            }
+        ],
+        "process_parameters": {
+            "compression_device": "Manual hydraulic press (SUG-10; SMART HYDRAULICS CO., LTD, Siheung-si, Republic of Korea)",
+            "compression_pressure": "Varied: 30 bar (041_F1-041_F8 standard), 40 bar, 50 bar (for optimization)",
+            "dwelling_time": "Standard 5 s; also tested at 2 s for optimization",
+            "coating": "None applied",
+            "equipment_used": [
+                "Analytical balance (MS204; Mettler Toledo)",
+                "Manual hydraulic press",
+                "Drug dissolution tester (708-DS, Agilent Technologies Inc.)",
+                "Hardness tester (PTB 111E, PHARMA TEST)",
+                "HPLC system (2695 HPLC, Waters) with UV-vis detector (Waters 2487)",
+                "Texture analyzer (TAXTplus, Stable Micro Systems)",
+                "pH meter (SevenCompact S220, Mettler Toledo)"
+            ],
+            "process_conditions": {
+                "temperature": "37 ± 0.5°C (for drug release and floating tests)",
+                "pH_medium": "pH 4.0 acetate buffer (0.05 M) for drug release and floating tests"
+            }
+        },
+        "release_properties": [
+            {
+                "batch": "041_F1",
+                "release_mechanism": "AMX: Zero-order; LVX: First-order",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 29.79
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 62.5
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, polymer viscosity (HPMC 100,000 cP)",
+                "release_kinetics": {
+                    "AMX_K0": 0.196,
+                    "AMX_r2": 0.994,
+                    "LVX_K1": 0.675,
+                    "LVX_r2": 0.998
+                }
+            },
+            {
+                "batch": "041_F2",
+                "release_mechanism": "AMX: Zero-order; LVX: First-order",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 47.86
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 77.4
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, polymer viscosity (HPMC 15,000 cP)",
+                "release_kinetics": {
+                    "AMX_K0": 0.326,
+                    "AMX_r2": 0.998,
+                    "LVX_K1": 0.698,
+                    "LVX_r2": 1.0
+                }
+            },
+            {
+                "batch": "041_F3",
+                "release_mechanism": "AMX: Zero-order; LVX: First-order",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 60.13
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 88.46
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, polymer viscosity (HPMC 4000 cP)",
+                "release_kinetics": {
+                    "AMX_K0": 0.409,
+                    "AMX_r2": 0.999,
+                    "LVX_K1": 0.719,
+                    "LVX_r2": 0.999
+                }
+            },
+            {
+                "batch": "041_F4",
+                "release_mechanism": "AMX: Zero-order; LVX: First-order",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, PEO polymer",
+                "release_kinetics": {
+                    "AMX_K0": 0.34,
+                    "AMX_r2": 0.994,
+                    "LVX_K1": 0.73,
+                    "LVX_r2": 0.996
+                }
+            },
+            {
+                "batch": "041_F5",
+                "release_mechanism": "Not applicable (complete disintegration)",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 240,
+                            "percent_released": ">95 (disintegrated by 4h)"
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 240,
+                            "percent_released": ">95 (disintegrated by 4h)"
+                        }
+                    ]
+                },
+                "factors_influencing_release": "Low viscosity CMC, disintegration at ~4h",
+                "release_kinetics": {
+                    "AMX_K0": "N/A",
+                    "LVX_K1": "N/A"
+                }
+            },
+            {
+                "batch": "041_F6",
+                "release_mechanism": "AMX: Zero-order; LVX: First-order",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, HPMC (100,000 cP) + CMC",
+                "release_kinetics": {
+                    "AMX_K0": 0.211,
+                    "AMX_r2": 0.995,
+                    "LVX_K1": 0.707,
+                    "LVX_r2": 0.993
+                }
+            },
+            {
+                "batch": "041_F7",
+                "release_mechanism": "AMX: Zero-order; LVX: First-order",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, HPMC (15,000 cP) + CMC",
+                "release_kinetics": {
+                    "AMX_K0": 0.345,
+                    "AMX_r2": 0.985,
+                    "LVX_K1": 0.708,
+                    "LVX_r2": 0.991
+                }
+            },
+            {
+                "batch": "041_F8",
+                "release_mechanism": "AMX: Zero-order; LVX: First-order",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5A"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 69.55
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 5B"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 90.81
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, HPMC (4000 cP) + CMC",
+                "release_kinetics": {
+                    "AMX_K0": 0.455,
+                    "AMX_r2": 0.988,
+                    "LVX_K1": 0.717,
+                    "LVX_r2": 0.985
+                }
+            },
+            {
+                "batch": "041_F9",
+                "release_mechanism": "AMX: Zero-order; LVX: First-order",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Approx. 20 (estimated from Figure 8A)"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": ">80 (from text)"
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": ">90 (from text)"
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, HPMC (4000 cP) + CMC, effervescent agents (5%)",
+                "release_kinetics": {
+                    "AMX_K0": 0.554,
+                    "LVX_K1": 0.845
+                }
+            },
+            {
+                "batch": "041_F10",
+                "release_mechanism": "AMX: Zero-order; LVX: First-order",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": 22.99
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 93.22
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": 23.67
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 540,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 99.54
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, HPMC (4000 cP) + CMC, effervescent agents (10%)",
+                "release_kinetics": {
+                    "AMX_K0": 0.592,
+                    "LVX_K1": 0.831
+                }
+            },
+            {
+                "batch": "041_F11",
+                "release_mechanism": "Not applicable (disintegration at 6h)",
+                "release_profile": {
+                    "AMX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": 60.63
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 8A"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Complete disintegration"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 94.4
+                        }
+                    ],
+                    "LVX": [
+                        {
+                            "time_min": 15,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 30,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 60,
+                            "percent_released": 61.71
+                        },
+                        {
+                            "time_min": 180,
+                            "percent_released": "Not specified numerically, see Figure 8B"
+                        },
+                        {
+                            "time_min": 360,
+                            "percent_released": "Complete disintegration"
+                        },
+                        {
+                            "time_min": 720,
+                            "percent_released": 99.0
+                        }
+                    ]
+                },
+                "factors_influencing_release": "pH 4.0, excessive effervescent agents (15%), rapid initial burst, disintegration by 6h",
+                "release_kinetics": "Could not be determined due to large initial burst release and disintegration"
+            }
+        ],
+        "tablet_properties": [
+            {
+                "batch": "041_F1",
+                "hardness_kp": "3.9 ± 0.1",
+                "friability": "Not reported",
+                "disintegration_time": "Not reported (floating >12h)",
+                "dissolution_profile": "See release_profile",
+                "stability": "Stable at pH >4.0",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "<5 s",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not reported (gel erosion observed)"
+            },
+            {
+                "batch": "041_F2",
+                "hardness_kp": "4.0 ± 0.1",
+                "friability": "Not reported",
+                "disintegration_time": "Not reported (floating >12h)",
+                "dissolution_profile": "See release_profile",
+                "stability": "Stable at pH >4.0",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "<5 s",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not reported (gel erosion observed)"
+            },
+            {
+                "batch": "041_F3",
+                "hardness_kp": "4.1 ± 0.1",
+                "friability": "Not reported",
+                "disintegration_time": "Not reported (floating >12h)",
+                "dissolution_profile": "See release_profile",
+                "stability": "Stable at pH >4.0",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "<5 s",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not reported (gel erosion observed)"
+            },
+            {
+                "batch": "041_F4",
+                "hardness_kp": "<3.80",
+                "friability": "Not reported",
+                "disintegration_time": "Not reported",
+                "dissolution_profile": "See release_profile",
+                "stability": "Not specified",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": ">1 min",
+                "total_floating_time_hours": "Not reported",
+                "swelling_index": "Not reported"
+            },
+            {
+                "batch": "041_F5",
+                "hardness_kp": "<3.80",
+                "friability": "Not reported",
+                "disintegration_time": "Complete disintegration at ~4h",
+                "dissolution_profile": "See release_profile",
+                "stability": "Not applicable",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "Not reported",
+                "total_floating_time_hours": "Disintegrated at 4h",
+                "swelling_index": "Not reported"
+            },
+            {
+                "batch": "041_F6",
+                "hardness_kp": "<3.80",
+                "friability": "Not reported",
+                "disintegration_time": "Not reported (floating >12h)",
+                "dissolution_profile": "See release_profile",
+                "stability": "Stable at pH >4.0",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "<5 s",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not reported (disintegration with holes)"
+            },
+            {
+                "batch": "041_F7",
+                "hardness_kp": "<3.80",
+                "friability": "Not reported",
+                "disintegration_time": "Not reported (floating >12h)",
+                "dissolution_profile": "See release_profile",
+                "stability": "Stable at pH >4.0",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "<5 s",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not reported (disintegration with holes)"
+            },
+            {
+                "batch": "041_F8",
+                "hardness_kp": "3.3 ± 0.1 (at standard compression)",
+                "friability": "Not reported",
+                "disintegration_time": "Not reported (floating >12h)",
+                "dissolution_profile": "See release_profile",
+                "stability": "Stable at pH >4.0",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "<5 s (at 30 bar), increased to 47 min at 50 bar/5s",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not reported (disintegration with holes)"
+            },
+            {
+                "batch": "041_F9",
+                "hardness_kp": "6.6 ± 0.3",
+                "friability": "Not reported",
+                "disintegration_time": "Not reported (floating >12h)",
+                "dissolution_profile": "See release_profile",
+                "stability": "Stable at pH >4.0",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "<5 s",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not reported",
+                "gel_strength_at_6h_g": "210.6 ± 47.9",
+                "gel_pH_at_12h": "4.4 ± 0.1"
+            },
+            {
+                "batch": "041_F10",
+                "hardness_kp": "6.6 ± 0.2",
+                "friability": "Not reported",
+                "disintegration_time": "Not reported (floating >12h)",
+                "dissolution_profile": "See release_profile",
+                "stability": "Stable at pH >4.0 (AMX peak area 96.77% at 12h)",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "<5 s",
+                "total_floating_time_hours": ">12",
+                "swelling_index": "Not reported",
+                "gel_strength_at_6h_g": "107.33 ± 10.69",
+                "gel_pH_at_12h": "4.6 ± 0.1"
+            },
+            {
+                "batch": "041_F11",
+                "hardness_kp": "6.6 ± 0.1",
+                "friability": "Not reported",
+                "disintegration_time": "Complete disintegration at 6h",
+                "dissolution_profile": "See release_profile",
+                "stability": "Not applicable due to disintegration",
+                "thickness": "Not reported",
+                "weight_variation_percent": "<0.2% RSD",
+                "lag_time_minutes": "<5 s",
+                "total_floating_time_hours": "6",
+                "swelling_index": "Not reported",
+                "gel_strength_at_6h_g": "13.2 ± 0.7",
+                "gel_pH_at_12h": "Could not be measured (disintegrated)"
+            }
+        ],
+        "experimental_data": {
+            "key_results": {
+                "optimal_formulation": "041_F10 (AMX/LVX/HPMC [4000 cP]/CMC/citric acid/sodium bicarbonate = 500/125/50/50/40/60 mg)",
+                "optimal_properties": {
+                    "hardness": ">6 kp",
+                    "floating_lag_time": "<5 s",
+                    "total_floating_time": ">12 h",
+                    "drug_release_at_12h": "AMX 93.22%, LVX 99.54%",
+                    "gel_strength_at_6h": "107.33 ± 10.69 g",
+                    "gel_pH_at_12h": "4.6 ± 0.1",
+                    "AMX_stability_at_12h": "96.77% peak area"
+                }
+            },
+            "performance_metrics": {
+                "density_range_all_formulations": "0.80 - 0.93 g/mL",
+                "hardness_range_F1_F8": "3.3 - 4.1 kp",
+                "hardness_range_F9_F11": "6.6 kp",
+                "floating_lag_time_optimized": "<5 s",
+                "total_floating_time_optimized": ">12 h"
+            },
+            "statistical_analysis": "Data presented as mean ± standard deviation (n=3). Coefficients of determination (r²) used to assess fit to kinetic models.",
+            "zero_and_first_order_release_constants": {
+                "041_F1": {
+                    "AMX_K0": 0.196,
+                    "LVX_K1": 0.675
+                },
+                "041_F2": {
+                    "AMX_K0": 0.326,
+                    "LVX_K1": 0.698
+                },
+                "041_F3": {
+                    "AMX_K0": 0.409,
+                    "LVX_K1": 0.719
+                },
+                "041_F4": {
+                    "AMX_K0": 0.34,
+                    "LVX_K1": 0.73
+                },
+                "041_F5": {
+                    "AMX_K0": "N/A",
+                    "LVX_K1": "N/A"
+                },
+                "041_F6": {
+                    "AMX_K0": 0.211,
+                    "LVX_K1": 0.707
+                },
+                "041_F7": {
+                    "AMX_K0": 0.345,
+                    "LVX_K1": 0.708
+                },
+                "041_F8": {
+                    "AMX_K0": 0.455,
+                    "LVX_K1": 0.717
+                },
+                "041_F9": {
+                    "AMX_K0": 0.554,
+                    "LVX_K1": 0.845
+                },
+                "041_F10": {
+                    "AMX_K0": 0.592,
+                    "LVX_K1": 0.831
+                },
+                "041_F11": {
+                    "AMX_K0": "Could not be determined",
+                    "LVX_K1": "Could not be determined"
+                }
+            },
+            "tablet_floating_properties": {
+                "F1_F3": {
+                    "lag_time": "<5 s",
+                    "total_floating_time": ">12 h",
+                    "observation": "Gel erosion, smooth surface"
+                },
+                "041_F4": {
+                    "lag_time": ">1 min",
+                    "total_floating_time": "Not reported"
+                },
+                "041_F5": {
+                    "total_floating_time": "Disintegrated at 4h"
+                },
+                "F6_F8": {
+                    "lag_time": "<5 s",
+                    "total_floating_time": ">12 h",
+                    "observation": "Disintegration with holes and tears"
+                },
+                "F9_F10": {
+                    "lag_time": "<5 s",
+                    "total_floating_time": ">12 h"
+                },
+                "041_F11": {
+                    "lag_time": "<5 s",
+                    "total_floating_time": "6 h (complete disintegration)"
+                }
+            }
+        }
+    }
+}

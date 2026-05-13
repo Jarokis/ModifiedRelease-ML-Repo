@@ -1,0 +1,729 @@
+{
+    "source": {
+        "article_title": "Core in Cup Ethylmorphine Hydrochloride Tablet for Dual Fast and Sustained Pain Relief: Formulation, Characterization, and Pharmacokinetic Study",
+        "authors": [
+            "Aliaa Nabil ElMeshad",
+            "Khaled M. Abdel-Haleem",
+            "Nabaweya A. Abdel Gawad",
+            "Mohamed Ahmed El-Nabarawi",
+            "Nermin M. Sheta"
+        ],
+        "journal": "AAPS PharmSciTech",
+        "year": 2020,
+        "file_citation": ":contentReference[oaicite:1]{index=1}"
+    },
+    "materials_origin": {
+        "Ethylmorphine_hydrochloride": "gift sample from Macfarlan Smith Ltd., Edinburgh (UK).",
+        "Mannitol_SD_USP_grade": "El-Nasr Pharmaceutical Chemicals Co., Egypt.",
+        "Glycine": "El-Nasr Pharmaceutical Chemicals Co., Egypt.",
+        "Gelatin": "El-Nasr Pharmaceutical Chemicals Co., Egypt.",
+        "Alpha_lactose_monohydrate_350M": "El-Nasr Pharmaceutical Chemicals Co., Egypt.",
+        "Potassium_dihydrogen_phosphate": "El-Nasr Pharmaceutical Chemicals Co., Egypt.",
+        "Disodium_hydrogen_phosphate": "El-Nasr Pharmaceutical Chemicals Co., Egypt.",
+        "Potassium_chloride": "El-Nasr Pharmaceutical Chemicals Co., Egypt.",
+        "Hydrochloric_acid": "El-Nasr Pharmaceutical Chemicals Co., Egypt.",
+        "Maltodextrin_Maltrin_QDTM_M500": "Sigma-Aldrich Co., Steinheim, Germany.",
+        "Ethyl_cellulose_Ethocel_Premium": "Sigma-Aldrich Co., Steinheim, Germany.",
+        "Hydroxypropyl_methylcellulose_K4M": "Sigma-Aldrich Co., Steinheim, Germany.",
+        "Magnesium_stearate_LR": "SD Fine-Chem Limited, Mumbai, India.",
+        "Methyl_cellulose": "Dow Chemical Company, Midland, MI, USA.",
+        "MST_containing_morphine_sulfate (marketed comparitor)": "Medical Union Pharmaceuticals (MUP).",
+        "Orthophosphoric_acid_and_acetonitrile_HPLC_grade": "Merck, Germany."
+    },
+    "experimental_design_for_optimization": {
+        "ODT_cup_design": {
+            "design_type": "4^1 · 2^2 full factorial (Design-Expert software)",
+            "independent_variables": {
+                "X1_binder_concentration": [
+                    "20%",
+                    "30%",
+                    "40%",
+                    "50%"
+                ],
+                "X2_binder_type": [
+                    "gelatin",
+                    "methyl cellulose (MC)"
+                ],
+                "X3_filler_type": [
+                    "mannitol (MAN)",
+                    "maltodextrin (MDX)"
+                ]
+            },
+            "dependent_variables": {
+                "Y1": "disintegration time (DT) — minimize",
+                "Y2": "drug release (%) — maximize"
+            }
+        },
+        "SR_core_design": {
+            "design_type": "3^2 full factorial",
+            "independent_variables": {
+                "X1_binder_type": [
+                    "methyl cellulose (MC)",
+                    "ethyl cellulose (EC)",
+                    "hydroxypropyl methylcellulose (HPMC)"
+                ],
+                "X2_binder_concentration": [
+                    "20%",
+                    "30%",
+                    "40%"
+                ]
+            },
+            "dependent_variable": {
+                "Y1": "drug release (%) — minimize (i.e., sustained release)"
+            }
+        },
+        "selection_criteria": "From ODT factorial results, two formulas (015_F9 & 015_F10) selected as cup (fast IR). From SR factorial 015_S6 selected as sustained core based on in vitro release profile. These choices are stated in the article."
+    },
+    "ingredients_identification_and_preparation_methods": {
+        "general_preparation_methods": {
+            "ODT_lyophilization": {
+                "binder_hydration": "Gelatin or methyl cellulose dispersed in 0.2 mL distilled water for 30 min then 2 mL added; heated to 40°C until clear.",
+                "add_excipients": "Mannitol or maltodextrin and glycine (20 mg) added and dissolved; EtM added; aliquots of 2 mL placed into blister pockets (2 cm diameter), frozen at -20°C for 24 h.",
+                "lyophilizer": "Christ Alpha 1-2LD plus (Munich, Germany). Condenser temp -55°C, vacuum 7.6 Pa. Primary drying 12 h at -30°C and 0.37 mbar; secondary drying 12 h at 20°C and 0.01 mbar."
+            },
+            "SR_direct_compression": {
+                "equipment": "Single punch tablet machine (Shakti Pharmatech, Model SSTP-12, India) with flat-faced 8-mm punch/die.",
+                "procedure": "Powder components fed manually into die and compressed with constant compression force; each tablet final weight 150 mg containing 40 mg EtM (for SR formulas as composed)."
+            }
+        },
+        "ingredients_identification_notes": {
+            "ETM_abbreviation": "EtM = Ethylmorphine hydrochloride",
+            "MAN": "Mannitol",
+            "MDX": "Maltodextrin",
+            "MC": "Methyl cellulose",
+            "EC": "Ethyl cellulose",
+            "HPMC": "Hydroxypropyl methylcellulose",
+            "Mg_ste": "Magnesium stearate",
+            "KCl": "Potassium chloride",
+            "Lactose": "Alpha-lactose monohydrate 350 M",
+            "glycine": "collapse protectant (20 mg in ODT formulas)"
+        },
+        "analytical_identification": {
+            "UV_spectrophotometry": {
+                "λ_max_nm": 284,
+                "use_case": "Drug content assay for tablets (dissolved in phosphate buffer pH 6.8)."
+            },
+            "HPLC_for_in_vivo_samples": {
+                "column": "ProntoSIL RP-C18 (150 x 4.6 mm), 5 µm",
+                "mobile_phase": "water (pH 5.4 with orthophosphoric acid) : acetonitrile 40:60 v/v",
+                "flow_rate_mL_min": 1,
+                "retention_time_min": 4.2,
+                "instrument": "Shimadzu LC-10ADvp with SPD-20A UV/VIS detector"
+            }
+        }
+    },
+    "formulation_details_per_batch": {
+        "notes": "All batch composition values below are taken directly from Table II of the article. Where table text was structured in two parts (Cup and Core) the aggregated composition of final core-in-cup (015_B1, 015_B2) is provided in the 015_B1/015_B2 entries. For 015_S1–015_S9 the SR tablet ingredient masses are shown as given.",
+        "015_S1": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride": 40,
+                "Methyl_cellulose": 30,
+                "Ethyl_cellulose": null,
+                "Hydroxypropyl_methylcellulose": null,
+                "Magnesium_stearate": 3,
+                "Potassium_chloride": 10,
+                "Alpha_lactose_monohydrate": 67
+            },
+            "comments": null
+        },
+        "015_S2": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride": 40,
+                "Methyl_cellulose": 45,
+                "Ethyl_cellulose": null,
+                "Hydroxypropyl_methylcellulose": null,
+                "Magnesium_stearate": 3,
+                "Potassium_chloride": 10,
+                "Alpha_lactose_monohydrate": 52
+            },
+            "note_on_table_parsing": "Table text for 015_S2 in the PDF is compacted; the article table shows EtM=45 mg and HPMC=52 mg—other columns are blank in the printed table."
+        },
+        "015_S3": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride": 40,
+                "Methyl_cellulose": 60,
+                "Ethyl_cellulose": null,
+                "Hydroxypropyl_methylcellulose": null,
+                "Magnesium_stearate": 3,
+                "Potassium_chloride": 10,
+                "Alpha_lactose_monohydrate": 37
+            },
+            "note_on_table_parsing": "015_S3 row in the article table: EtM=60 mg and HPMC=37 mg."
+        },
+        "015_S4": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride": 40,
+                "Methyl_cellulose": null,
+                "Ethyl_cellulose": 30,
+                "Hydroxypropyl_methylcellulose": null,
+                "Magnesium_stearate": 3,
+                "Potassium_chloride": 10,
+                "Alpha_lactose_monohydrate": 67
+            },
+            "note_on_table_parsing": "015_S4 row layout indicates MC=30, Mg stearate=3, KCl=10, lactose=67; EtM value not explicitly printed in that row in the compact PDF excerpt—interpretation: some rows were split in two-line format in the table; see Article text for explicit dosing logic (total core dose usually 40 mg EtM)."
+        },
+        "015_S5": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride": 40,
+                "Methyl_cellulose": null,
+                "Ethyl_cellulose": 45,
+                "Hydroxypropyl_methylcellulose": null,
+                "Magnesium_stearate": 3,
+                "Potassium_chloride": 10,
+                "Alpha_lactose_monohydrate": 52
+            },
+            "note_on_table_parsing": "As above, table formatting in PDF compresses entries; taken as presented in Table II."
+        },
+        "015_S6": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride": 40,
+                "Methyl_cellulose": null,
+                "Ethyl_cellulose": 60,
+                "Hydroxypropyl_methylcellulose": null,
+                "Magnesium_stearate": 3,
+                "Potassium_chloride": 10,
+                "Alpha_lactose_monohydrate": 37
+            },
+            "note_on_selection": "015_S6 is explicitly stated in the article as the selected SR formula (best sustained release — showed 70.48 ± 0.08% release after 24 h)."
+        },
+        "015_S7": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride": 40,
+                "Methyl_cellulose": null,
+                "Ethyl_cellulose": null,
+                "Hydroxypropyl_methylcellulose": 30,
+                "Magnesium_stearate": 3,
+                "Potassium_chloride": 10,
+                "Alpha_lactose_monohydrate": 67
+            },
+            "note_on_table_parsing": "015_S7 row indicates EC=30, other excipients as indicated."
+        },
+        "015_S8": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride": 40,
+                "Methyl_cellulose": null,
+                "Ethyl_cellulose": null,
+                "Hydroxypropyl_methylcellulose": 45,
+                "Magnesium_stearate": 3,
+                "Potassium_chloride": 10,
+                "Alpha_lactose_monohydrate": 52
+            },
+            "note_on_table_parsing": "015_S8 row indicates EC=45."
+        },
+        "015_S9": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride": 40,
+                "Methyl_cellulose": null,
+                "Ethyl_cellulose": null,
+                "Hydroxypropyl_methylcellulose": 60,
+                "Magnesium_stearate": 3,
+                "Potassium_chloride": 10,
+                "Alpha_lactose_monohydrate": 37
+            },
+            "note_on_table_parsing": "015_S9 row indicates EC=60."
+        },
+        "015_B1": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride_total": 50,
+                "Cup_component": {
+                    "Ethylmorphine_hydrochloride_in_cup": 10,
+                    "Mannitol": 60,
+                    "Maltodextrin": null,
+                    "Gelatin": 20,
+                    "Glycine": 20
+                },
+                "Core_component": {
+                    "Ethylmorphine_hydrochloride_in_core": 40,
+                    "Ethyl_cellulose": 60,
+                    "Magnesium_stearate": 3,
+                    "Potassium_chloride": 10,
+                    "Alpha_lactose_monohydrate": 37
+                }
+            },
+            "percent_of_pellets": {
+                "data_not_provided_in_article": true
+            }
+        },
+        "015_B2": {
+            "ingredients_full_names_and_mg": {
+                "Ethylmorphine_hydrochloride_total": 50,
+                "Cup_component": {
+                    "Ethylmorphine_hydrochloride_in_cup": 10,
+                    "Mannitol": null,
+                    "Maltodextrin": 60,
+                    "Gelatin": 20,
+                    "Glycine": 20
+                },
+                "Core_component": {
+                    "Ethylmorphine_hydrochloride_in_core": 40,
+                    "Ethyl_cellulose": 60,
+                    "Magnesium_stearate": 3,
+                    "Potassium_chloride": 10,
+                    "Alpha_lactose_monohydrate": 37
+                }
+            },
+            "percent_of_pellets": {
+                "data_not_provided_in_article": true
+            }
+        }
+    },
+    "pre_compression_parameters_for_SR_batches_S1_to_S9": {
+        "source_table_note": "Table III in article. Data are mean ± SD, n = 3.",
+        "015_S1": {
+            "bulk_density_g_cm3": 0.596,
+            "bulk_density_SD": 0.02,
+            "tapped_density_g_cm3": 0.705,
+            "tapped_density_SD": 0.05,
+            "Carr_index_percent": 15.46,
+            "Carr_index_SD": 0.02,
+            "angle_of_repose_degrees": 25.47,
+            "angle_of_repose_SD": 0.06
+        },
+        "015_S2": {
+            "bulk_density_g_cm3": 0.593,
+            "bulk_density_SD": 0.04,
+            "tapped_density_g_cm3": 0.711,
+            "tapped_density_SD": 0.17,
+            "Carr_index_percent": 16.59,
+            "Carr_index_SD": 0.14,
+            "angle_of_repose_degrees": 24.65,
+            "angle_of_repose_SD": 0.01
+        },
+        "015_S3": {
+            "bulk_density_g_cm3": 0.608,
+            "bulk_density_SD": 0.03,
+            "tapped_density_g_cm3": 0.721,
+            "tapped_density_SD": 0.11,
+            "Carr_index_percent": 15.67,
+            "Carr_index_SD": 0.15,
+            "angle_of_repose_degrees": 25.88,
+            "angle_of_repose_SD": 0.01
+        },
+        "015_S4": {
+            "bulk_density_g_cm3": 0.615,
+            "bulk_density_SD": 0.02,
+            "tapped_density_g_cm3": 0.706,
+            "tapped_density_SD": 0.09,
+            "Carr_index_percent": 12.88,
+            "Carr_index_SD": 0.08,
+            "angle_of_repose_degrees": 23.68,
+            "angle_of_repose_SD": 0.04
+        },
+        "015_S5": {
+            "bulk_density_g_cm3": 0.619,
+            "bulk_density_SD": 0.02,
+            "tapped_density_g_cm3": 0.715,
+            "tapped_density_SD": 0.07,
+            "Carr_index_percent": 13.42,
+            "Carr_index_SD": 0.06,
+            "angle_of_repose_degrees": 24.27,
+            "angle_of_repose_SD": 0.08
+        },
+        "015_S6": {
+            "bulk_density_g_cm3": 0.624,
+            "bulk_density_SD": 0.07,
+            "tapped_density_g_cm3": 0.726,
+            "tapped_density_SD": 0.02,
+            "Carr_index_percent": 14.04,
+            "Carr_index_SD": 0.03,
+            "angle_of_repose_degrees": 25.33,
+            "angle_of_repose_SD": 0.01
+        },
+        "015_S7": {
+            "bulk_density_g_cm3": 0.631,
+            "bulk_density_SD": 0.05,
+            "tapped_density_g_cm3": 0.748,
+            "tapped_density_SD": 0.02,
+            "Carr_index_percent": 15.64,
+            "Carr_index_SD": 0.04,
+            "angle_of_repose_degrees": 24.97,
+            "angle_of_repose_SD": 0.02
+        },
+        "015_S8": {
+            "bulk_density_g_cm3": 0.627,
+            "bulk_density_SD": 0.12,
+            "tapped_density_g_cm3": 0.746,
+            "tapped_density_SD": 0.04,
+            "Carr_index_percent": 15.95,
+            "Carr_index_SD": 0.18,
+            "angle_of_repose_degrees": 25.32,
+            "angle_of_repose_SD": 0.01
+        },
+        "015_S9": {
+            "bulk_density_g_cm3": 0.628,
+            "bulk_density_SD": 0.07,
+            "tapped_density_g_cm3": 0.721,
+            "tapped_density_SD": 0.01,
+            "Carr_index_percent": 12.89,
+            "Carr_index_SD": 0.12,
+            "angle_of_repose_degrees": 25.61,
+            "angle_of_repose_SD": 0.01
+        }
+    },
+    "fourier_transform_infrared_spectral_measurements": {
+        "method": "KBr pellet method; 3 mg sample + 300 mg KBr compressed at 10 kg/cm to form pellet; scanned 4000–500 cm^-1 using FT-IR Affinity-1 (Shimadzu).",
+        "findings": {
+            "EtM_key_peaks_cm_minus1": [
+                3452.82,
+                3118.51,
+                2912.14
+            ],
+            "optimum_formulations_tested": [
+                "015_F9 (ODT)",
+                "015_F10 (ODT)",
+                "015_S6 (SR)"
+            ],
+            "compatibility_conclusion": "All peaks of the optimum formulae (015_F9, 015_F10 and 015_S6) exist in their original position without shifting — indicating no incompatibility between EtM and excipients in the tested formulas.",
+            "note": "FT-IR spectra for 015_S6 (SR) and 015_F9/015_F10 (ODTs) are included in the article's figures; the article reports absence of drug–excipient interactions based on the preserved characteristic peaks."
+        }
+    },
+    "tablet_fabrication_and_process_parameters": {
+        "SR_tablet_core_compression": {
+            "device": "Single punch tablet machine (Shakti Pharmatech, Model SSTP-12, India)",
+            "punch_die": "Flat-faced 8-mm punch and die set",
+            "compression_force": "constant compression force for all formulae (numerical pressure not provided)",
+            "tablet_final_weight_mg": 150,
+            "EtM_content_in_SR_tablets_mg": "40 mg (where specified in the SR table rows)",
+            "process_conditions_temperature_pressure": {
+                "temperature_control": "room temperature for compression (not numerically specified)",
+                "pressure_specified": "not provided numerically (article: 'constant compression force')",
+                "data_not_provided_in_article": true
+            }
+        },
+        "ODT_lyophilization_processing_parameters": {
+            "freezing": "-20°C for 24 h (pre-lyophilization)",
+            "lyophilizer": "Christ Alpha 1-2LD plus (Munich, Germany)",
+            "condenser_temperature": "-55°C",
+            "vacuum_at_start": "7.6 Pa",
+            "primary_drying": {
+                "duration_h": 12,
+                "temperature_C": -30,
+                "pressure_mbar": 0.37
+            },
+            "secondary_drying": {
+                "duration_h": 12,
+                "temperature_C": 20,
+                "pressure_mbar": 0.01
+            }
+        },
+        "coating": {
+            "coating_for_core_in_cup": "The core is compressed and the cup is formed by lyophilized ODT surrounding the core—no additional coating process described.",
+            "data_not_provided_in_article": false
+        }
+    },
+    "tablet_properties_per_batch_S1_to_S9": {
+        "source_table_note": "Table IV in article. Means ± SD are provided there (n not explicitly repeated for each test).",
+        "015_S1": {
+            "mean_weight_mg": 150,
+            "mean_weight_SD": 0.002,
+            "thickness_mm": 3.08,
+            "thickness_SD": 0.02,
+            "breaking_force_MPa": 0.58,
+            "breaking_force_SD": 0.08,
+            "tensile_strength_MPa": 14.12,
+            "tensile_strength_SD": 0.25,
+            "friability_percent": 0.41,
+            "friability_SD": 0.21,
+            "drug_content_percent": 98.3,
+            "drug_content_SD": 0.75,
+            "disintegration_time": "NA (not applicable for SR)"
+        },
+        "015_S2": {
+            "mean_weight_mg": 149,
+            "mean_weight_SD": 0.003,
+            "thickness_mm": 3.07,
+            "thickness_SD": 0.01,
+            "breaking_force_MPa": 0.632,
+            "breaking_force_SD": 0.03,
+            "tensile_strength_MPa": 15.25,
+            "tensile_strength_SD": 0.16,
+            "friability_percent": 0.38,
+            "friability_SD": 0.19,
+            "drug_content_percent": 99.6,
+            "drug_content_SD": 0.45
+        },
+        "015_S3": {
+            "mean_weight_mg": 150,
+            "mean_weight_SD": 0.005,
+            "thickness_mm": 3.12,
+            "thickness_SD": 0.03,
+            "breaking_force_MPa": 0.672,
+            "breaking_force_SD": 0.02,
+            "tensile_strength_MPa": 15.23,
+            "tensile_strength_SD": 0.39,
+            "friability_percent": 0.32,
+            "friability_SD": 0.22,
+            "drug_content_percent": 100.1,
+            "drug_content_SD": 0.35
+        },
+        "015_S4": {
+            "mean_weight_mg": 148,
+            "mean_weight_SD": 0.002,
+            "thickness_mm": 3.1,
+            "thickness_SD": 0.03,
+            "breaking_force_MPa": 0.679,
+            "breaking_force_SD": 0.01,
+            "tensile_strength_MPa": 16.2,
+            "tensile_strength_SD": 0.45,
+            "friability_percent": 0.27,
+            "friability_SD": 0.24,
+            "drug_content_percent": 100.2,
+            "drug_content_SD": 0.68
+        },
+        "015_S5": {
+            "mean_weight_mg": 150,
+            "mean_weight_SD": 0.009,
+            "thickness_mm": 3.06,
+            "thickness_SD": 0.01,
+            "breaking_force_MPa": 0.697,
+            "breaking_force_SD": 0.05,
+            "tensile_strength_MPa": 17.27,
+            "tensile_strength_SD": 0.29,
+            "friability_percent": 0.19,
+            "friability_SD": 0.16,
+            "drug_content_percent": 99.8,
+            "drug_content_SD": 0.42
+        },
+        "015_S6": {
+            "mean_weight_mg": 151,
+            "mean_weight_SD": 0.006,
+            "thickness_mm": 3.01,
+            "thickness_SD": 0.04,
+            "breaking_force_MPa": 0.71,
+            "breaking_force_SD": 0.01,
+            "tensile_strength_MPa": 16.87,
+            "tensile_strength_SD": 0.63,
+            "friability_percent": 0.15,
+            "friability_SD": 0.19,
+            "drug_content_percent": 99.5,
+            "drug_content_SD": 0.62
+        },
+        "015_S7": {
+            "mean_weight_mg": 147,
+            "mean_weight_SD": 0.005,
+            "thickness_mm": 3.08,
+            "thickness_SD": 0.01,
+            "breaking_force_MPa": 0.657,
+            "breaking_force_SD": 0.06,
+            "tensile_strength_MPa": 15.61,
+            "tensile_strength_SD": 0.42,
+            "friability_percent": 0.34,
+            "friability_SD": 0.22,
+            "drug_content_percent": 100.1,
+            "drug_content_SD": 0.43
+        },
+        "015_S8": {
+            "mean_weight_mg": 152,
+            "mean_weight_SD": 0.002,
+            "thickness_mm": 3.06,
+            "thickness_SD": 0.03,
+            "breaking_force_MPa": 0.659,
+            "breaking_force_SD": 0.03,
+            "tensile_strength_MPa": 15.61,
+            "tensile_strength_SD": 0.24,
+            "friability_percent": 0.3,
+            "friability_SD": 0.23,
+            "drug_content_percent": 99.6,
+            "drug_content_SD": 0.72
+        },
+        "015_S9": {
+            "mean_weight_mg": 150,
+            "mean_weight_SD": 0.004,
+            "thickness_mm": 3.11,
+            "thickness_SD": 0.02,
+            "breaking_force_MPa": 0.684,
+            "breaking_force_SD": 0.02,
+            "tensile_strength_MPa": 16.29,
+            "tensile_strength_SD": 0.18,
+            "friability_percent": 0.22,
+            "friability_SD": 0.25,
+            "drug_content_percent": 99.8,
+            "drug_content_SD": 0.34
+        }
+    },
+    "release_properties": {
+        "SR_tablet_testing_conditions": {
+            "two_stage_dissolution": "0–2 h in 900 mL 0.1 N HCl (pH 1.2), then transfer to phosphate buffer pH 6.8 (900 mL) for the remainder (up to 24 h).",
+            "apparatus": "USP dissolution apparatus (not further numerically specified in Methods beyond apparatus type); paddle",
+            "temperature_C": 37,
+            "sampling": "5 mL aliquots withdrawn at predetermined intervals and replaced with fresh medium; samples filtered (0.22 µm) and assayed spectrophotometrically at λmax=284 nm."
+        },
+        "S1_to_S9_release_summary": {
+            "general_findings": "Formulations compressed with either HPMC or MC or EC showed extended release for up to 24 h; type and concentration of matrix-forming polymer affected release (higher polymer concentration decreased release).",
+            "S6_specific": {
+                "release_at_24h_percent": 70.48,
+                "release_at_24h_SD": 0.08,
+                "article_statement": "015_S6 shows more hindering of the drug release (70.48 ± 0.08%) after 24 h and therefore was selected as the sustained core formula."
+            },
+            "full_timepoint_release_profiles": {
+                "data_not_provided_in_article": true,
+                "explanation": "The article provides release curves (figures) but does not tabulate the full numeric time-by-time dissolution data in the text or tables; only the summary 24-h value for 015_S6 is numerically given explicitly."
+            }
+        },
+        "release_mechanism_discussion": {
+            "authors_conclusions": "Reduction of EtM release by ethyl cellulose (hydrophobic polymer) is consistent with decreased solvent penetration and diffusion-limited release; authors reference the 'penetration theory' and attribute SR behavior mainly to matrix viscosity and hydrophobicity — i.e., diffusion-controlled matrix release.",
+            "kinetic_modelling_constants": {
+                "zero_order_constants": {
+                    "data_not_provided_in_article": true
+                },
+                "first_order_constants": {
+                    "data_not_provided_in_article": true
+                },
+                "Hix_Crowell": {
+                    "data_not_provided_in_article": true
+                },
+                "Korsmeyer_Peppas_n_and_k": {
+                    "data_not_provided_in_article": true
+                }
+            }
+        }
+    },
+    "tablet_properties_for_B1_and_B2": {
+        "composition_and_description": {
+            "015_B1": {
+                "total_EtM_mg": 50,
+                "components": {
+                    "EtM_cup": 10,
+                    "Mannitol": 60,
+                    "Gelatin": 20,
+                    "Glycine": 20,
+                    "EtM_core": 40,
+                    "Ethyl_cellulose": 60,
+                    "Magnesium_stearate": 3,
+                    "Potassium_chloride": 10,
+                    "Alpha_lactose_monohydrate": 37
+                }
+            },
+            "015_B2": {
+                "total_EtM_mg": 50,
+                "components": {
+                    "EtM_cup": 10,
+                    "Maltodextrin": 60,
+                    "Gelatin": 20,
+                    "Glycine": 20,
+                    "EtM_core": 40,
+                    "Ethyl_cellulose": 60,
+                    "Magnesium_stearate": 3,
+                    "Potassium_chloride": 10,
+                    "Alpha_lactose_monohydrate": 37
+                }
+            }
+        },
+        "manufacture_notes": "Core tablet prepared by direct compression (SR formula 015_S6 for core). The compressed core tablet was placed in lyophilized ODT pocket and additional solution added to sandwich the core followed by freezing and lyophilization — producing core-in-cup tablets 015_B1 and B2.",
+        "physical_characteristics_reported_in_article": {
+            "weight_thickness_hardness_friability_for_B1_B2": {
+                "data_not_provided_in_article": true,
+                "explanation": "Article gives characterization for ODTs (F series) and SR (S series) separately in tables, but does not tabulate final 015_B1/015_B2 hardness/thickness/friability explicitly. Pharmacokinetic experiments used tablets sized/adjusted for rats (30 mg tablets administered to rats)."
+            }
+        }
+    },
+    "experimental_data_and_in_vivo_results": {
+        "in_vivo_study_design_summary": {
+            "animals": "18 male Wistar rats (300–350 g)",
+            "groups": 3,
+            "group_treatments": {
+                "Group_I": "015_B1 orally at 1.5 mg/kg",
+                "Group_II": "015_B2 orally at 1.5 mg/kg",
+                "Group_III": "MST® marketed product (morphine sulfate) as comparator"
+            },
+            "sampling_times_minutes": [
+                0,
+                15,
+                30,
+                60,
+                120,
+                240,
+                360,
+                480,
+                600,
+                720
+            ],
+            "bioanalysis": "Plasma EtM measured by HPLC (method described in article). Non-compartmental analysis using Kinetica software."
+        },
+        "pharmacokinetic_parameters_table_values": {
+            "source_table": "Table V (article)",
+            "015_B1": {
+                "Cmax_ng_mL": 354.12,
+                "Cmax_SD": 11.24,
+                "Tmax_h": 3,
+                "Tmax_SD_h": 0.18,
+                "MRT_h": 14.38,
+                "MRT_SD_h": 1.85,
+                "AUC0_24_ng_h_mL": 1331.65,
+                "AUC0_24_SD": 2.89,
+                "AUC0_inf_ng_h_mL": 1660.76,
+                "AUC0_inf_SD": 2.18,
+                "relative_bioavailability_percent_vs_MST": 279.06
+            },
+            "015_B2": {
+                "Cmax_ng_mL": 350.82,
+                "Cmax_SD": 9.58,
+                "Tmax_h": 3,
+                "Tmax_SD_h": 0.28,
+                "MRT_h": 14.27,
+                "MRT_SD_h": 2.22,
+                "AUC0_24_ng_h_mL": 1305.93,
+                "AUC0_24_SD": 3.33,
+                "AUC0_inf_ng_h_mL": 1625.17,
+                "AUC0_inf_SD": 2.11,
+                "relative_bioavailability_percent_vs_MST": 273.08
+            },
+            "MST_comparator": {
+                "Cmax_ng_mL": 172.05,
+                "Cmax_SD": 10.41,
+                "Tmax_h": 2.2,
+                "Tmax_SD_h": 0.24,
+                "MRT_h": 15.54,
+                "MRT_SD_h": 1.45,
+                "AUC0_24_ng_h_mL": 464.31,
+                "AUC0_24_SD": 2.52,
+                "AUC0_inf_ng_h_mL": 595.12,
+                "AUC0_inf_SD": 1.48
+            }
+        },
+        "statistical_analysis_for_in_vivo": {
+            "method": "One-way ANOVA followed by post-hoc multiple comparisons using LSD; significance at p < 0.05.",
+            "reported_findings": "Cmax and AUC for 015_B1 and 015_B2 were significantly higher than MST® (p < 0.05). No significant difference between 015_B1 and 015_B2 (p > 0.1) for Cmax."
+        }
+    },
+    "tablet_performance_and_stability": {
+        "stability_data": {
+            "data_not_provided_in_article": true,
+            "explanation": "Article concludes formulation was successful and suggests further human in vivo bioavailability studies; no accelerated or long-term stability numeric data presented."
+        },
+        "dissolution_profile_stability_notes": "Article presents dissolution curves in figures for ODT and SR formulas; numeric time series data for each time point not tabulated."
+    },
+    "experimental_data_in_vitro_and_statistics": {
+        "micromeritic_statistics": "Micromeritic values reported as mean ± SD (n=3).",
+        "tablet_characterization_statistics": "Weight, thickness, breaking force, tensile strength, friability, drug content reported as mean ± SD in Table IV. Disintegration time reported for ODTs (not applicable to SR).",
+        "performance_metrics_summary": {
+            "S6_as_selected_SR": "015_S6 showed most sustained release (70.48 ± 0.08% at 24 h).",
+            "ODT_selection_for_cup": "015_F9 and 015_F10 selected as cup ODTs based on fastest disintegration time and highest immediate release (note: F-series not requested for extraction per your choice A)."
+        },
+        "release_kinetics_for_all_formulations": {
+            "zero_order": {
+                "data_not_provided_in_article": true
+            },
+            "first_order": {
+                "data_not_provided_in_article": true
+            },
+            "Korsmeyer_Peppas": {
+                "data_not_provided_in_article": true
+            },
+            "authors_interpretation": "Release shows polymer-dependent sustained-release behavior consistent with matrix diffusion/penetration theory; EC produced more sustained profiles than MC/HPMC."
+        }
+    },
+    "additional_notes_and_missing_items": {
+        "explicit_missing_numeric_data": [
+            "Complete time-by-time dissolution numeric tables for 015_S1–015_S9 (except 015_S6 24-h point) are not provided in text/tables.",
+            "Kinetic model constants (zero/first order rate constants, Korsmeyer-Peppas n and k) are not tabulated in the article.",
+            "Compression pressure in numeric units (kN or MPa) for direct compression is not provided.",
+            "Final 015_B1/015_B2 physical attributes (hardness, friability, thickness, weight variation) are not tabulated explicitly in the article."
+        ],
+        "where_figures_show_data": "Several findings (e.g., full dissolution curves, FTIR spectra, SEM images) are presented as figures in the article but the raw numeric files or tables are not present in the text; the JSON indicates where numeric values are missing."
+    },
+    "references_and_citation": {
+        "primary_article": "This JSON was generated from the uploaded article. See file citation above: :contentReference[oaicite:2]{index=2}",
+        "note": "All numeric values and text summaries were transcribed from the article's tables and text (Tables II–V and Figs described)."
+    }
+}

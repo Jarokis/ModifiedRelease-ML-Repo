@@ -1,0 +1,470 @@
+{
+    "materials_origin": {
+        "api": "IMM-033_H014 was produced in the author's laboratory (Institute of Materia Medica, Chinese Academy of Medical Sciences & Peking Union Medical College).",
+        "excipients": {
+            "hydroxypropyl_methylcellulose": "Purchased from Shin–Etsu Chemical Co., Ltd. (Dalian, China)",
+            "lactose": "Purchased from DFE pharma GmbH & Co. KG. (Shanghai, China)",
+            "silicon_dioxide": "Purchased from Anhui Sunhere Pharmaceutical Excipients Co., Ltd. (Huainan, China)",
+            "magnesium_stearate": "Purchased from Anhui Sunhere Pharmaceutical Excipients Co., Ltd. (Huainan, China)"
+        },
+        "reagents": {
+            "acetonitrile": "HPLC grade, purchased from Honeywell",
+            "methanol": "HPLC grade, purchased from Honeywell"
+        },
+        "animals": "Beagles (female or male), purchased from Beijing Marshall Biotechnology Co., Ltd. (Beijing, China)"
+    },
+    "experimental_design_for_optimization": {
+        "ingredients_identification": {
+            "preparation": "The appropriate amount of the IMM-033_H014 active pharmaceutical ingredient (API) was loaded into the gelatin capsule shell as the IMM-033_H014 immediate-release preparation. For ER tablets, required quantities of drug and ingredients were passed through an 80-mesh screen. IMM-033_H014, HPMC, and lactose were mixed completely using the equivalent addition method. Then, after adding silicon dioxide and magnesium stearate, the sample was mixed for a further 10 min. Tablets were compressed using a flat-faced 8mm punch.",
+            "results": "The optimal formulation (033_F9) was determined. HPMC (90SH-4000SR) was selected as the best matrix material. The formulation with 15% HPMC (033_F9) showed an AUC equivalent to IR, significantly lengthened MRT, and significantly lowered Cmax.",
+            "equation": "Not specified in the provided text.",
+            "absorbance": "Drug release was quantified by ultraviolet-visible spectrophotometry at a wavelength of 230 nm. For content determination, HPLC with a UV detector wavelength of 230 nm was used."
+        }
+    },
+    "formulation_details": [
+        {
+            "batch_code": "IR",
+            "type": "Immediate Release Capsule",
+            "ingredients": {
+                "IMM-033_H014": "Appropriate amount"
+            },
+            "excipients": "Gelatin capsule shell",
+            "api_mass_mg": null,
+            "total_weight_mg": null,
+            "percent_api": null,
+            "cumulative_release_data": {
+                "note": "Immediate release, 100% released in < 1h."
+            }
+        },
+        {
+            "batch_code": "033_F1",
+            "type": "ER Tablet",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPMC (90SH-4000SR)": 60,
+                "Lactose": 111,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPMC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "cumulative_release_data": {}
+        },
+        {
+            "batch_code": "033_F2",
+            "type": "ER Tablet",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPMC (90SH-10,000SR)": 60,
+                "Lactose": 111,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPMC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "cumulative_release_data": {}
+        },
+        {
+            "batch_code": "033_F3",
+            "type": "ER Tablet",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPC (M-FP)": 60,
+                "Lactose": 111,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "cumulative_release_data": {}
+        },
+        {
+            "batch_code": "033_F4",
+            "type": "ER Tablet",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPC (H-FP)": 60,
+                "Lactose": 111,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "cumulative_release_data": {}
+        },
+        {
+            "batch_code": "033_F5",
+            "type": "ER Tablet",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPMC (90SH-4000SR)": 65,
+                "Lactose": 106,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPMC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "percent_hpmc": 32.5,
+            "cumulative_release_data": {
+                "1h": 19.1,
+                "note": "Only 1h data provided in text. Complete profile available in supplementary Table S3."
+            }
+        },
+        {
+            "batch_code": "033_F6",
+            "type": "ER Tablet",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPMC (90SH-4000SR)": 50,
+                "Lactose": 121,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPMC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "percent_hpmc": 25.0,
+            "cumulative_release_data": {}
+        },
+        {
+            "batch_code": "033_F7",
+            "type": "ER Tablet",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPMC (90SH-4000SR)": 40,
+                "Lactose": 131,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPMC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "percent_hpmc": 20.0,
+            "cumulative_release_data": {}
+        },
+        {
+            "batch_code": "033_F8",
+            "type": "ER Tablet",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPMC (90SH-4000SR)": 30,
+                "Lactose": 141,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPMC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "percent_hpmc": 15.0,
+            "cumulative_release_data": {}
+        },
+        {
+            "batch_code": "033_F9",
+            "type": "ER Tablet (Optimal Formulation)",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPMC (90SH-4000SR)": 20,
+                "Lactose": 151,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPMC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "percent_hpmc": 10.0,
+            "cumulative_release_data": {
+                "note": "Release >90% in 24h in all media. Exact time points not specified in main text; see Figure 4 and supplementary materials."
+            }
+        },
+        {
+            "batch_code": "033_F10",
+            "type": "ER Tablet",
+            "ingredients": {
+                "IMM-033_H014": 25,
+                "HPMC (90SH-4000SR)": 30,
+                "Lactose": 141,
+                "Silicon dioxide": 1,
+                "Magnesium stearate": 3
+            },
+            "excipients": "HPMC, Lactose, Silicon dioxide, Magnesium stearate",
+            "api_mass_mg": 25,
+            "total_weight_mg": 200,
+            "percent_api": 12.5,
+            "percent_hpmc": 15.0,
+            "cumulative_release_data": {
+                "1h": 71.9,
+                "note": "Only 1h data provided in text. Complete profile available in supplementary Table S3."
+            }
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch_code": "033_F1",
+            "angle_of_repose_deg": 26,
+            "carrs_index_percent": 13.4,
+            "hardness_n": "100–130",
+            "friability_percent": 0.14,
+            "weight_variation_percent": "-2.57–3.02",
+            "size": "Not specified"
+        },
+        {
+            "batch_code": "033_F2",
+            "angle_of_repose_deg": 27,
+            "carrs_index_percent": 12.7,
+            "hardness_n": "100–130",
+            "friability_percent": 0.15,
+            "weight_variation_percent": "-3.10–2.89",
+            "size": "Not specified"
+        },
+        {
+            "batch_code": "033_F3",
+            "angle_of_repose_deg": 35,
+            "carrs_index_percent": 17.5,
+            "hardness_n": "100–130",
+            "friability_percent": 0.17,
+            "weight_variation_percent": "-6.03–5.72",
+            "size": "Not specified"
+        },
+        {
+            "batch_code": "033_F4",
+            "angle_of_repose_deg": 37,
+            "carrs_index_percent": 18.4,
+            "hardness_n": "100–130",
+            "friability_percent": 0.16,
+            "weight_variation_percent": "-5.82–5.93",
+            "size": "Not specified"
+        },
+        {
+            "batch_code": "033_F5",
+            "angle_of_repose_deg": 30,
+            "carrs_index_percent": 13.3,
+            "hardness_n": "100–130",
+            "friability_percent": 0.18,
+            "weight_variation_percent": "-2.74–3.59",
+            "size": "Not specified"
+        },
+        {
+            "batch_code": "033_F6",
+            "angle_of_repose_deg": 29,
+            "carrs_index_percent": 13.0,
+            "hardness_n": "100–130",
+            "friability_percent": 0.19,
+            "weight_variation_percent": "-3.17–3.19",
+            "size": "Not specified"
+        },
+        {
+            "batch_code": "033_F7",
+            "angle_of_repose_deg": 29,
+            "carrs_index_percent": 12.9,
+            "hardness_n": "100–130",
+            "friability_percent": 0.2,
+            "weight_variation_percent": "-2.98–3.61",
+            "size": "Not specified"
+        },
+        {
+            "batch_code": "033_F8",
+            "angle_of_repose_deg": 27,
+            "carrs_index_percent": 12.9,
+            "hardness_n": "100–130",
+            "friability_percent": 0.17,
+            "weight_variation_percent": "-3.55–2.14",
+            "size": "Not specified"
+        },
+        {
+            "batch_code": "033_F9",
+            "angle_of_repose_deg": 28,
+            "carrs_index_percent": 12.7,
+            "hardness_n": "100–130",
+            "friability_percent": 0.21,
+            "weight_variation_percent": "-2.02–4.01",
+            "size": "Not specified"
+        },
+        {
+            "batch_code": "033_F10",
+            "angle_of_repose_deg": 29,
+            "carrs_index_percent": 12.5,
+            "hardness_n": "100–130",
+            "friability_percent": 0.19,
+            "weight_variation_percent": "-2.19–3.42",
+            "size": "Not specified"
+        }
+    ],
+    "composition_of_independent_variables_and_levels": "Not explicitly detailed in the provided text.",
+    "fourier_transform_infrared_spectral_measurements_information": "Not specified in the provided text.",
+    "tablet_fabrications": [
+        {
+            "batch_code": "General for 033_F1-033_F10",
+            "determination_of_hardness": "Performed using a hardness tester, values reported in newtons (N) (Tianda Tianfa Instrument, Tianjin, China). Target range: 100-130 N.",
+            "friability": "Approximately 6.5g of tablets was tested in a friability tester (Xixin Instrument, Tianjin, China) set to 100 revolutions for 4 min. Friability calculated as percentage weight lost.",
+            "weight_variation": "20 tablets were weighed using an electronic balance (Mettler Toledo, Oakland, CA, USA).",
+            "thickness_and_diameter": "Not specified.",
+            "density_of_formulation": "Not specified.",
+            "drug_content_in_tablet": "Determined by HPLC (Shimazu LC-20AT, Kyoto, Japan) with UV detection at 230nm. Content was >99% for reproducibility batches.",
+            "consolidation_index": "Not specified."
+        }
+    ],
+    "process_parameters": {
+        "compression_process": {
+            "device": "Not specified.",
+            "pressure": "Not specified, but target tablet hardness was 100-130 N.",
+            "coating": "Tablets were uncoated."
+        },
+        "equipment_used": "Flat-faced 8mm punch for compression; HPLC (Shimazu LC-20AT, Kyoto, Japan); Dissolution apparatus (USP type II); Friability tester (Xixin Instrument, Tianjin, China); Hardness tester (Tianda Tianfa Instrument, Tianjin, China).",
+        "process_conditions": {
+            "temperature": "In vitro release studies were maintained at 37 ± 0.5°C. HPLC column temperature was 35°C. Stability studies were at 40°C.",
+            "pressure": "Not specified."
+        }
+    },
+    "release_properties": [
+        {
+            "batch_code": "IR",
+            "release_mechanism": "Immediate release",
+            "release_profile": "100% released in < 1h",
+            "factors_influencing_release": null
+        },
+        {
+            "batch_code": "033_F1",
+            "release_mechanism": "Extended release via diffusion from HPMC gel layer.",
+            "release_profile": "Incompletely released after 24h.",
+            "factors_influencing_release": "HPMC viscosity and concentration"
+        },
+        {
+            "batch_code": "033_F2",
+            "release_mechanism": "Extended release via diffusion from HPMC gel layer.",
+            "release_profile": "Incompletely released after 24h.",
+            "factors_influencing_release": "HPMC viscosity and concentration"
+        },
+        {
+            "batch_code": "033_F3",
+            "release_mechanism": "Extended release from HPC matrix.",
+            "release_profile": "Incompletely released after 24h.",
+            "factors_influencing_release": "HPC viscosity and concentration"
+        },
+        {
+            "batch_code": "033_F4",
+            "release_mechanism": "Extended release from HPC matrix.",
+            "release_profile": "Incompletely released after 24h.",
+            "factors_influencing_release": "HPC viscosity and concentration"
+        },
+        {
+            "batch_code": "033_F5",
+            "release_mechanism": "Extended release via diffusion from HPMC gel layer.",
+            "release_profile": "19.1% cumulative release at 1h, slower release with higher HPMC concentration.",
+            "factors_influencing_release": "HPMC concentration"
+        },
+        {
+            "batch_code": "033_F6",
+            "release_mechanism": "Extended release via diffusion from HPMC gel layer.",
+            "release_profile": "Not specified in text.",
+            "factors_influencing_release": "HPMC concentration"
+        },
+        {
+            "batch_code": "033_F7",
+            "release_mechanism": "Extended release via diffusion from HPMC gel layer.",
+            "release_profile": "Not specified in text.",
+            "factors_influencing_release": "HPMC concentration"
+        },
+        {
+            "batch_code": "033_F8",
+            "release_mechanism": "Extended release via diffusion from HPMC gel layer.",
+            "release_profile": "Not specified in text.",
+            "factors_influencing_release": "HPMC concentration"
+        },
+        {
+            "batch_code": "033_F9",
+            "release_mechanism": "Diffusion (Fickian), as per Ritzer-Peppas model (n=0.45)",
+            "release_profile": "71.9% cumulative release at 1h. >90% released in 24h in all five media.",
+            "factors_influencing_release": "pH of dissolution media (higher release at lower pH), HPMC concentration (10%)."
+        },
+        {
+            "batch_code": "033_F10",
+            "release_mechanism": "Extended release via diffusion from HPMC gel layer.",
+            "release_profile": "71.9% cumulative release at 1h.",
+            "factors_influencing_release": "HPMC concentration"
+        }
+    ],
+    "release_kinetics_optimized_formulation": {
+        "fitted_equations": {
+            "zero_order": "Qt = 5.92t + 33.73",
+            "first_order": "Ln (100 - Qt) = -0.36t",
+            "higuchi": "Qt = 26.42t^1/2 + 9.26",
+            "ritger_peppas": "Qt = 32.87t^0.45"
+        },
+        "r_squared_values": {
+            "zero_order": 0.87718,
+            "first_order": 0.96333,
+            "higuchi": 0.96458,
+            "ritger_peppas": 0.97521
+        },
+        "mechanism_of_drug_release": "Fickian diffusion (n = 0.45, which is ≤ 0.45)"
+    },
+    "tablet_properties": [
+        {
+            "batch_code": "033_F1-033_F10",
+            "hardness": "100–130 N (as per pre-compression parameters)",
+            "friability": "Between 0.14% and 0.21% (as per pre-compression parameters)",
+            "disintegration_time": "Not specified",
+            "dissolution_profile": "Varies by batch; detailed in 'release_properties' and cumulative_release_data",
+            "stability": "Optimal formulation (033_F9) stable for 6 months at 40°C/75% RH.",
+            "thickness": "Not specified",
+            "weight_variation_percent": "Ranges from -6.03% to 5.93% (as per pre-compression parameters)",
+            "lag_time": "Not specified",
+            "total_floating_time": "Not specified",
+            "swelling_index": "Not specified"
+        }
+    ],
+    "experimental_data": {
+        "in_vitro_studies": {
+            "optimal_formulation_f9": {
+                "dissolution_profiles": "Figure 4 shows dissolution in pH 2.0 HCl, pH 4.5 ABEP, pH 6.8 PBS, water, and pH 2.0 → pH 7.5 PBS. Total amount released within 24h reached more than 90% in all five media. Drug release amount within the initial stage (1h) at pH 2.0 was higher.",
+                "reproducibility": "Three batches of 20,000 tablets showed f2 values >50 compared to batch 1, indicating similar release profiles.",
+                "stability": "After 6 months at 40°C/75% RH, f2 values in five media were >50 compared to 0-month formulation, content >99%."
+            }
+        },
+        "in_vivo_studies": {
+            "study_design": "Two-treatment, two-period crossover design in 10 healthy beagles. Single dose equivalent to 75mg IMM-033_H014 (3 tablets). Fasted conditions.",
+            "plasma_concentration_profiles": "Figure 5 shows plasma concentration vs. time for ER and IR.",
+            "pharmacokinetic_parameters": {
+                "ir_preparation": {
+                    "AUC(0-t)_ng_h_mL": 10277.3,
+                    "AUC(0-∞)_ng_h_mL": 10291.2,
+                    "MRT(0-t)_h": 6.2,
+                    "MRT(0-∞)_h": 6.3,
+                    "Tmax_h": 0.7,
+                    "Cmax_ng_mL": 3106.9
+                },
+                "er_tablet_f9": {
+                    "AUC(0-t)_ng_h_mL": 10062.6,
+                    "AUC(0-∞)_ng_h_mL": 10203.3,
+                    "MRT(0-t)_h": 9.8,
+                    "MRT(0-∞)_h": 10.4,
+                    "Tmax_h": 2.5,
+                    "Cmax_ng_mL": 1068.0,
+                    "relative_bioavailability_F_percent": 97.9
+                },
+                "statistical_significance": "Tmax, Cmax, and MRT showed significant difference (p < 0.05) between IR and ER. AUC showed no significant difference (p=0.87, 0.95)."
+            }
+        },
+        "ivivc": {
+            "method": "Loo-Riegelman method for absorption fraction. Linear regression of in vitro release vs. in vivo absorption fraction.",
+            "correlation_equation": "y = 0.8106x + 6.5793",
+            "correlation_coefficient_r2": 0.9509,
+            "conclusion": "Good association between drug release and fraction absorbed, indicating in vitro release can predict in vivo absorption."
+        },
+        "zero_and_first_order_of_release_of_drug_for_all_formulations": "Only provided for the optimized formulation (033_F9) in Table 3. See 'release_kinetics_optimized_formulation'."
+    }
+}

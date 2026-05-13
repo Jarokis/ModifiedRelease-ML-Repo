@@ -1,0 +1,378 @@
+[
+    {
+        "batch_code": "067_F1",
+        "materials_origin": "Naproxen (gift from IPS Pharma Training Institute, Hyderabad); Sodium starch glycolate (Rajesh Chemicals, Mumbai); PVP-K-30 (Himedia Chem. Lab, Mumbai); Magnesium stearate, lactose, acetone, triethyl citrate, isopropanol (S.D Fine Chem. Lab, Mumbai); Aerozil (Sisco Research Laboratories Pvt. Ltd., Mumbai); Talc (Loba Chemie Pvt. Ltd, Mumbai); Eudragit 067_L100 and 067_S100 (gift from Degussa India Pvt. Ltd., Mumbai); Empty HPMC capsules (gift from ACG Associated Capsules Pvt. Ltd., Mumbai).",
+        "experimental_design": "Optimization by varying ratio of Eudragit 067_L100:067_S100 (1:0, 2:1, 1:1, 1:2, 0:1) and coating level (10%, 15%, 20%) to achieve lag time of ~5 h and complete release at pH 7.2.",
+        "ingredients_identification": {
+            "absorption_maxima": {
+                "pH1.2": "230 nm",
+                "pH6.5": "329 nm",
+                "pH6.8": "329 nm",
+                "pH7.2": "331 nm"
+            },
+            "FTIR": "Naproxen peaks at 1726, 1685, 1606, 1567 cm⁻¹; physical mixture with polymers showed all characteristic peaks, indicating no interaction.",
+            "DSC": "Naproxen endotherm at 156.76°C; physical mixture showed similar endotherm, confirming compatibility."
+        },
+        "formulation_details": {
+            "core": {
+                "Naproxen": "16.666 mg",
+                "Sodium starch glycolate": "2.5 mg",
+                "PVP K30": "1.0 mg",
+                "Lactose": "4.334 mg",
+                "Magnesium stearate": "0.25 mg",
+                "Aerosil": "0.25 mg",
+                "total_weight": "25 mg"
+            },
+            "coating": {
+                "polymer_ratio": "Eudragit 067_L100:067_S100 = 1:0",
+                "coating_level": "10%",
+                "coating_solution_composition": "Eudragit 067_L100 and/or 067_S100 6.00 g, Triethyl citrate 0.600 g, Talc 3.00 g, Acetone 34.69 g, Isopropanol 51.42 g, Water 4.29 g (total 100 g)"
+            }
+        },
+        "pre_compression_parameters": {
+            "angle_of_repose": "23.48 ± 0.11°",
+            "bulk_density": "0.54 ± 0.01 g/cc",
+            "tapped_density": "0.63 ± 0.01 g/cc",
+            "carr_index": "14.28 ± 0.91%",
+            "hausner_ratio": "1.16 ± 0.03"
+        },
+        "independent_variables": {
+            "ratio_L100_S100": "1:0",
+            "coating_level_percent": 10
+        },
+        "ftir_spectral": "No interaction; peaks of naproxen intact in physical mixture.",
+        "tablet_fabrication": {
+            "hardness": "3.22 ± 0.22 kg/cm² (core)",
+            "friability": "0.67 ± 0.04% (core)",
+            "weight_variation": "26 ± 0.12 mg (core)",
+            "thickness": "2.12 ± 0.00 mm (core)",
+            "diameter": "3 mm (core)",
+            "drug_content": "99.42 ± 0.04% (core)",
+            "consolidation_index": "Not specified"
+        },
+        "process_parameters": {
+            "compression_device": "Rotary tablet press (Karnavati Engineering, Ahmadabad) with 3 mm round concave punches",
+            "coating_equipment": "6-inch lab scale coating pan with spray gun (United Technologies, Mumbai)",
+            "process_conditions": {
+                "preheating_temperature": "40 ± 5°C",
+                "preheating_time": "20 min",
+                "inlet_air_temperature": "45 ± 5°C",
+                "nozzle_diameter": "1.0 mm",
+                "atomization_pressure": "2.0 bar",
+                "spray_rate": "8-10 ml/min"
+            }
+        },
+        "release_properties": {
+            "release_mechanism": "pH-dependent; Eudragit 067_L100 soluble above pH 6, Eudragit 067_S100 soluble above pH 7.",
+            "release_profile": "Not specified numerically for 067_F1; qualitative: released in pH 6.5, 6.8, and 7.2 media (failed to prevent release at pH 6.5).",
+            "factors_influencing": "pH, polymer ratio, coating level",
+            "release_kinetics": "Not specified"
+        },
+        "tablet_properties": {
+            "hardness": "3.22 ± 0.22 kg/cm² (core)",
+            "friability": "0.67 ± 0.04% (core)",
+            "disintegration_time": "6 ± 0.56 min (core)",
+            "dissolution_profile": "Not specified individually; see Figure 3 for 10% coating level group.",
+            "stability": "Not specified for 067_F1",
+            "thickness": "2.12 ± 0.00 mm (core)",
+            "weight_variation_percent": "Not specified; mean weight 26 mg"
+        },
+        "experimental_data": {
+            "key_results": "067_F1 (1:0, 10%) failed to provide adequate lag time; released drug in pH 6.5.",
+            "statistical_analysis": "Not specified for 067_F1",
+            "zero_order_release": "Not reported",
+            "first_order_release": "Not reported"
+        }
+    },
+    {
+        "batch_code": "067_F2",
+        "materials_origin": "Same as 067_F1",
+        "experimental_design": "Same as 067_F1",
+        "ingredients_identification": "Same as 067_F1",
+        "formulation_details": {
+            "core": "Same as 067_F1",
+            "coating": {
+                "polymer_ratio": "Eudragit 067_L100:067_S100 = 1:0",
+                "coating_level": "15%",
+                "coating_solution_composition": "Same as 067_F1"
+            }
+        },
+        "pre_compression_parameters": "Same as 067_F1",
+        "independent_variables": {
+            "ratio_L100_S100": "1:0",
+            "coating_level_percent": 15
+        },
+        "ftir_spectral": "Same as 067_F1",
+        "tablet_fabrication": "Same as 067_F1",
+        "process_parameters": "Same as 067_F1",
+        "release_properties": {
+            "release_mechanism": "Same as 067_F1",
+            "release_profile": "Qualitative: released in pH 6.5, 6.8, and 7.2 (failed to prevent at pH 6.5).",
+            "factors_influencing": "Same as 067_F1",
+            "release_kinetics": "Not specified"
+        },
+        "tablet_properties": "Same as 067_F1",
+        "experimental_data": {
+            "key_results": "067_F2 (1:0, 15%) failed to provide adequate lag time; released in pH 6.5.",
+            "statistical_analysis": "Not specified",
+            "zero_order_release": "Not reported",
+            "first_order_release": "Not reported"
+        }
+    },
+    {
+        "batch_code": "067_F3",
+        "independent_variables": {
+            "ratio_L100_S100": "1:0",
+            "coating_level_percent": 20
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "1:0",
+                "coating_level": "20%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: released in pH 6.5, 6.8, and 7.2 (failed to prevent at pH 6.5)."
+        },
+        "experimental_data": {
+            "key_results": "067_F3 (1:0, 20%) failed to provide adequate lag time; released in pH 6.5."
+        }
+    },
+    {
+        "batch_code": "067_F4",
+        "independent_variables": {
+            "ratio_L100_S100": "2:1",
+            "coating_level_percent": 10
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "2:1",
+                "coating_level": "10%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: released in pH 6.5, 6.8, and 7.2 (failed to prevent at pH 6.5)."
+        },
+        "experimental_data": {
+            "key_results": "067_F4 (2:1, 10%) failed to provide adequate lag time; released in pH 6.5."
+        }
+    },
+    {
+        "batch_code": "067_F5",
+        "independent_variables": {
+            "ratio_L100_S100": "2:1",
+            "coating_level_percent": 15
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "2:1",
+                "coating_level": "15%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: released in pH 6.5, 6.8, and 7.2 (failed to prevent at pH 6.5)."
+        },
+        "experimental_data": {
+            "key_results": "067_F5 (2:1, 15%) failed to provide adequate lag time; released in pH 6.5."
+        }
+    },
+    {
+        "batch_code": "067_F6",
+        "independent_variables": {
+            "ratio_L100_S100": "2:1",
+            "coating_level_percent": 20
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "2:1",
+                "coating_level": "20%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: released in pH 6.5, 6.8, and 7.2 (failed to prevent at pH 6.5)."
+        },
+        "experimental_data": {
+            "key_results": "067_F6 (2:1, 20%) failed to provide adequate lag time; released in pH 6.5."
+        }
+    },
+    {
+        "batch_code": "067_F7",
+        "independent_variables": {
+            "ratio_L100_S100": "1:1",
+            "coating_level_percent": 10
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "1:1",
+                "coating_level": "10%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: released in pH 6.5, 6.8, and 7.2 (failed to prevent at pH 6.5)."
+        },
+        "experimental_data": {
+            "key_results": "067_F7 (1:1, 10%) failed to provide adequate lag time; released in pH 6.5."
+        }
+    },
+    {
+        "batch_code": "067_F8",
+        "independent_variables": {
+            "ratio_L100_S100": "1:1",
+            "coating_level_percent": 15
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "1:1",
+                "coating_level": "15%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: released in pH 6.5, 6.8, and 7.2 (failed to prevent at pH 6.5)."
+        },
+        "experimental_data": {
+            "key_results": "067_F8 (1:1, 15%) failed to provide adequate lag time; released in pH 6.5."
+        }
+    },
+    {
+        "batch_code": "067_F9",
+        "independent_variables": {
+            "ratio_L100_S100": "1:1",
+            "coating_level_percent": 20
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "1:1",
+                "coating_level": "20%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: prevented release in pH 1.2 and 6.5, but released in pH 6.8 and 7.2."
+        },
+        "experimental_data": {
+            "key_results": "067_F9 (1:1, 20%) provided some lag but released at pH 6.8, not ideal."
+        }
+    },
+    {
+        "batch_code": "067_F10",
+        "independent_variables": {
+            "ratio_L100_S100": "1:2",
+            "coating_level_percent": 10
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "1:2",
+                "coating_level": "10%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: released in pH 6.5, 6.8, and 7.2 (failed to prevent at pH 6.5)."
+        },
+        "experimental_data": {
+            "key_results": "067_F10 (1:2, 10%) failed to provide adequate lag time; released in pH 6.5."
+        }
+    },
+    {
+        "batch_code": "067_F11",
+        "independent_variables": {
+            "ratio_L100_S100": "1:2",
+            "coating_level_percent": 15
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "1:2",
+                "coating_level": "15%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: prevented release in pH 1.2 and 6.5, but released in pH 6.8 and 7.2."
+        },
+        "experimental_data": {
+            "key_results": "067_F11 (1:2, 15%) provided some lag but released at pH 6.8, not ideal."
+        }
+    },
+    {
+        "batch_code": "067_F12",
+        "independent_variables": {
+            "ratio_L100_S100": "1:2",
+            "coating_level_percent": 20
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "1:2",
+                "coating_level": "20%"
+            }
+        },
+        "release_properties": {
+            "release_mechanism": "pH-dependent; released after lag time at pH 7.2",
+            "release_profile": "Lag time 5.02 ± 0.4 h, 99.40 ± 0.4% released at end of 8 h",
+            "factors_influencing": "pH, polymer ratio, coating level",
+            "release_kinetics": "Not specified"
+        },
+        "tablet_properties": {
+            "stability": "Stable for 6 months as per ICH guidelines; drug content reduced by 0.90 ± 0.55% over 6 months; dissolution profile variation <1%"
+        },
+        "experimental_data": {
+            "key_results": "Optimized formulation; met desired lag time and complete release at pH 7.2.",
+            "statistical_analysis": "No significant difference before and after stability (p ≤ 0.05)",
+            "zero_order_release": "Not reported",
+            "first_order_release": "Not reported"
+        }
+    },
+    {
+        "batch_code": "067_F13",
+        "independent_variables": {
+            "ratio_L100_S100": "0:1",
+            "coating_level_percent": 10
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "0:1",
+                "coating_level": "10%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: prevented release in pH 1.2 and 6.5, but released in pH 6.8 and 7.2."
+        },
+        "experimental_data": {
+            "key_results": "067_F13 (0:1, 10%) provided some lag but released at pH 6.8, not ideal."
+        }
+    },
+    {
+        "batch_code": "067_F14",
+        "independent_variables": {
+            "ratio_L100_S100": "0:1",
+            "coating_level_percent": 15
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "0:1",
+                "coating_level": "15%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: prevented release in pH 1.2, 6.5, and 6.8, but failed to release maximum drug by 8 h."
+        },
+        "experimental_data": {
+            "key_results": "067_F14 (0:1, 15%) had excessive lag; incomplete release by 8 h."
+        }
+    },
+    {
+        "batch_code": "067_F15",
+        "independent_variables": {
+            "ratio_L100_S100": "0:1",
+            "coating_level_percent": 20
+        },
+        "formulation_details": {
+            "coating": {
+                "polymer_ratio": "0:1",
+                "coating_level": "20%"
+            }
+        },
+        "release_properties": {
+            "release_profile": "Qualitative: prevented release in pH 1.2, 6.5, and 6.8, but failed to release maximum drug by 8 h."
+        },
+        "experimental_data": {
+            "key_results": "067_F15 (0:1, 20%) had excessive lag; incomplete release by 8 h."
+        }
+    }
+]

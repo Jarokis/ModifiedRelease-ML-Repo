@@ -1,0 +1,789 @@
+{
+  "materials_origin": {
+    "gift_samples": [
+      {
+        "material": "Lornoxicam",
+        "source": "Spectrum Pharma Training Institute, Hyderabad, India"
+      },
+      {
+        "material": "L-hpc (Low substituted hydroxypropyl cellulose)",
+        "source": "Spectrum Pharma Training Institute, Hyderabad, India"
+      }
+    ],
+    "purchased_materials": [
+      {
+        "material": "Ethyl cellulose",
+        "source": "FMC Biopolymers"
+      },
+      {
+        "material": "HPMC K4M",
+        "source": "FMC Biopolymers"
+      },
+      {
+        "material": "PVP K30",
+        "source": "FMC Biopolymers"
+      },
+      {
+        "material": "Sodium carboxy methyl cellulose (NaCMC)",
+        "source": "SD Fine Chemicals, Mumbai"
+      },
+      {
+        "material": "Lactose",
+        "source": "SD Fine Chemicals, Mumbai"
+      },
+      {
+        "material": "Avicel PH 102",
+        "source": "SD Fine Chemicals, Mumbai"
+      },
+      {
+        "material": "Aerosil",
+        "source": "SD Fine Chemicals, Mumbai"
+      },
+      {
+        "material": "Magnesium stearate",
+        "source": "Himedia Chem Lab, Mumbai"
+      }
+    ],
+    "other_details": "The remaining ingredients were of analytical grade."
+  },
+  "experimental_design_for_optimization": {
+    "purpose": "To design a pulsatile formulation of lornoxicam to treat rheumatoid arthritis as per the chronotherapeutic pattern of the disease, targeting drug release in the early morning hours.",
+    "approach": "Two-step process: 1) Preparation of fast-disintegrating core tablets with varying disintegrant (crospovidone) concentration. 2) Compression coating of the optimized core tablet with different ratios and combinations of hydrophobic (ethyl cellulose) and hydrophilic (HPMC K4M, L-hpc, NaCMC) polymers to achieve a lag time of ~5.5 hours.",
+    "optimized_formulation": "F-5, which released lornoxicam after a lag time of 5.5 ± 0.7 hours and 99.81 ± 0.81% up to 8 hours."
+  },
+  "ingredients_identification": {
+    "preparation_method": "Physical mixture of drug and polymers.",
+    "ftir_results": {
+      "lornoxicam_pure": "Ar-CH: 3100 cm⁻¹, -NH: 3066 cm⁻¹, -C=O: 1647 cm⁻¹, -CONH-: 1594 cm⁻¹, -SO2: 1327 cm⁻¹, C-Cl: 790 cm⁻¹",
+      "l_hpc_pure": "OH: 3418 cm⁻¹, CH: 2886 cm⁻¹, C-O: 1317 cm⁻¹",
+      "ethyl_cellulose_pure": "OH: 3318 cm⁻¹, CH: 2911 cm⁻¹",
+      "physical_mixture": "OH: 3400 cm⁻¹, -NH: 3288 cm⁻¹, Ar-CH: 2972 cm⁻¹, CH: 2902 cm⁻¹, -C=O: 1749 cm⁻¹, -CONH-: 1647 cm⁻¹, -SO2: 1387 cm⁻¹, C-O: 1080 cm⁻¹, C-Cl: 785 cm⁻¹"
+    },
+    "interpretation": "All characteristic peaks of the drug and polymers remained intact in the physical mixture, indicating no chemical interaction.",
+    "equation": "Not applicable.",
+    "absorbance": "Not specified."
+  },
+  "formulation_details": [
+    {
+      "batch": "LCT-1",
+      "type": "Core Tablet",
+      "ingredients": [
+        {"name": "Lornoxicam", "mass_mg": 8},
+        {"name": "Crospovidone", "mass_mg": 0},
+        {"name": "PVP K30", "mass_mg": 5},
+        {"name": "Lactose", "mass_mg": 85.4},
+        {"name": "Aerosil", "mass_mg": 0.8},
+        {"name": "Magnesium stearate", "mass_mg": 0.8}
+      ],
+      "total_weight_mg": 100,
+      "percent_pellets": "Not applicable"
+    },
+    {
+      "batch": "LCT-2",
+      "type": "Core Tablet",
+      "ingredients": [
+        {"name": "Lornoxicam", "mass_mg": 8},
+        {"name": "Crospovidone", "mass_mg": 2.5},
+        {"name": "PVP K30", "mass_mg": 5},
+        {"name": "Lactose", "mass_mg": 82.9},
+        {"name": "Aerosil", "mass_mg": 0.8},
+        {"name": "Magnesium stearate", "mass_mg": 0.8}
+      ],
+      "total_weight_mg": 100,
+      "percent_pellets": "Not applicable"
+    },
+    {
+      "batch": "LCT-3",
+      "type": "Core Tablet",
+      "ingredients": [
+        {"name": "Lornoxicam", "mass_mg": 8},
+        {"name": "Crospovidone", "mass_mg": 5},
+        {"name": "PVP K30", "mass_mg": 5},
+        {"name": "Lactose", "mass_mg": 80.4},
+        {"name": "Aerosil", "mass_mg": 0.8},
+        {"name": "Magnesium stearate", "mass_mg": 0.8}
+      ],
+      "total_weight_mg": 100,
+      "percent_pellets": "Not applicable"
+    },
+    {
+      "batch": "LCT-4",
+      "type": "Core Tablet",
+      "ingredients": [
+        {"name": "Lornoxicam", "mass_mg": 8},
+        {"name": "Crospovidone", "mass_mg": 10},
+        {"name": "PVP K30", "mass_mg": 5},
+        {"name": "Lactose", "mass_mg": 75.4},
+        {"name": "Aerosil", "mass_mg": 0.8},
+        {"name": "Magnesium stearate", "mass_mg": 0.8}
+      ],
+      "total_weight_mg": 100,
+      "percent_pellets": "Not applicable",
+      "note": "Selected as the optimized core tablet for compression coating due to fastest disintegration (1.52 min)."
+    },
+    {
+      "batch": "F-1",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "HPMC K4M", "mass_mg": 150},
+        {"name": "Ethyl cellulose", "mass_mg": 150}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-2",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "HPMC K4M", "mass_mg": 200},
+        {"name": "Ethyl cellulose", "mass_mg": 100}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-3",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "HPMC K4M", "mass_mg": 225},
+        {"name": "Ethyl cellulose", "mass_mg": 75}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-4",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "HPMC K4M", "mass_mg": 240},
+        {"name": "Ethyl cellulose", "mass_mg": 60}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-5",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "L-hpc", "mass_mg": 150},
+        {"name": "Ethyl cellulose", "mass_mg": 150}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0,
+      "note": "Optimized formulation."
+    },
+    {
+      "batch": "F-6",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "L-hpc", "mass_mg": 200},
+        {"name": "Ethyl cellulose", "mass_mg": 100}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-7",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "L-hpc", "mass_mg": 225},
+        {"name": "Ethyl cellulose", "mass_mg": 75}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-8",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "L-hpc", "mass_mg": 240},
+        {"name": "Ethyl cellulose", "mass_mg": 60}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-9",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "NaCMC", "mass_mg": 150},
+        {"name": "Ethyl cellulose", "mass_mg": 150}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-10",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "NaCMC", "mass_mg": 200},
+        {"name": "Ethyl cellulose", "mass_mg": 100}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-11",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "NaCMC", "mass_mg": 225},
+        {"name": "Ethyl cellulose", "mass_mg": 75}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    },
+    {
+      "batch": "F-12",
+      "type": "Compression-Coated Tablet",
+      "core_batch": "LCT-4",
+      "core_weight_mg": 100,
+      "coating_composition": [
+        {"name": "NaCMC", "mass_mg": 240},
+        {"name": "Ethyl cellulose", "mass_mg": 60}
+      ],
+      "total_coating_weight_mg": 300,
+      "final_tablet_weight_mg": 400,
+      "percent_core_of_total": 25.0
+    }
+  ],
+  "pre_compression_parameters": [
+    {
+      "batch": "LCT-1",
+      "angle_of_repose_degrees": "24°40′ ± 0.10",
+      "bulk_density_g_per_cc": "0.59 ± 0.02",
+      "tapped_density_g_per_cc": "0.69 ± 0.02",
+      "carrs_index_percent": "14.49 ± 0.94",
+      "hausners_ratio": "1.16 ± 0.02"
+    },
+    {
+      "batch": "LCT-2",
+      "angle_of_repose_degrees": "22°48′ ± 0.09",
+      "bulk_density_g_per_cc": "0.57 ± 0.02",
+      "tapped_density_g_per_cc": "0.66 ± 0.02",
+      "carrs_index_percent": "13.63 ± 0.81",
+      "hausners_ratio": "1.15 ± 0.01"
+    },
+    {
+      "batch": "LCT-3",
+      "angle_of_repose_degrees": "23°36′ ± 0.10",
+      "bulk_density_g_per_cc": "0.58 ± 0.01",
+      "tapped_density_g_per_cc": "0.67 ± 0.02",
+      "carrs_index_percent": "13.43 ± 0.90",
+      "hausners_ratio": "1.15 ± 0.02"
+    },
+    {
+      "batch": "LCT-4",
+      "angle_of_repose_degrees": "22°15′ ± 0.13",
+      "bulk_density_g_per_cc": "0.59 ± 0.03",
+      "tapped_density_g_per_cc": "0.68 ± 0.03",
+      "carrs_index_percent": "13.23 ± 0.86",
+      "hausners_ratio": "1.15 ± 0.03"
+    }
+  ],
+  "post_compression_parameters_core_tablets": [
+    {
+      "batch": "LCT-1",
+      "weight_variation_mg": "99.4 ± 0.22",
+      "hardness_kg_per_cm2": "3.89 ± 0.10",
+      "thickness_mm": "2.14 ± 0.01",
+      "friability_percent": "0.16 ± 0.04",
+      "drug_content_percent": "97.63 ± 0.02",
+      "disintegration_time_min": "12.44 ± 0.35"
+    },
+    {
+      "batch": "LCT-2",
+      "weight_variation_mg": "100.6 ± 0.16",
+      "hardness_kg_per_cm2": "3.94 ± 0.32",
+      "thickness_mm": "2.16 ± 0.01",
+      "friability_percent": "0.24 ± 0.07",
+      "drug_content_percent": "99.12 ± 0.04",
+      "disintegration_time_min": "6.74 ± 0.27"
+    },
+    {
+      "batch": "LCT-3",
+      "weight_variation_mg": "98.0 ± 0.26",
+      "hardness_kg_per_cm2": "3.90 ± 0.29",
+      "thickness_mm": "2.15 ± 0.01",
+      "friability_percent": "0.19 ± 0.02",
+      "drug_content_percent": "98.10 ± 0.03",
+      "disintegration_time_min": "4.96 ± 0.33"
+    },
+    {
+      "batch": "LCT-4",
+      "weight_variation_mg": "99.8 ± 0.17",
+      "hardness_kg_per_cm2": "3.97 ± 0.16",
+      "thickness_mm": "2.16 ± 0.02",
+      "friability_percent": "0.11 ± 0.04",
+      "drug_content_percent": "98.22 ± 0.02",
+      "disintegration_time_min": "1.52 ± 0.47"
+    }
+  ],
+  "post_compression_parameters_compression_coated_tablets": [
+    {
+      "batch": "F-1",
+      "weight_variation_mg": "396 ± 0.20",
+      "hardness_kg_per_cm2": "11.57 ± 0.12",
+      "thickness_mm": "4.27 ± 0.01",
+      "friability_percent": "0.25 ± 0.05"
+    },
+    {
+      "batch": "F-2",
+      "weight_variation_mg": "397 ± 0.16",
+      "hardness_kg_per_cm2": "11.68 ± 0.00",
+      "thickness_mm": "4.31 ± 0.02",
+      "friability_percent": "0.18 ± 0.02"
+    },
+    {
+      "batch": "F-3",
+      "weight_variation_mg": "401 ± 0.19",
+      "hardness_kg_per_cm2": "11.65 ± 0.32",
+      "thickness_mm": "4.29 ± 0.03",
+      "friability_percent": "0.33 ± 0.06"
+    },
+    {
+      "batch": "F-4",
+      "weight_variation_mg": "398 ± 0.33",
+      "hardness_kg_per_cm2": "11.69 ± 0.28",
+      "thickness_mm": "4.28 ± 0.01",
+      "friability_percent": "0.18 ± 0.03"
+    },
+    {
+      "batch": "F-5",
+      "weight_variation_mg": "397 ± 0.31",
+      "hardness_kg_per_cm2": "11.25 ± 0.18",
+      "thickness_mm": "4.30 ± 0.02",
+      "friability_percent": "0.49 ± 0.05"
+    },
+    {
+      "batch": "F-6",
+      "weight_variation_mg": "403 ± 0.29",
+      "hardness_kg_per_cm2": "11.37 ± 0.00",
+      "thickness_mm": "4.29 ± 0.01",
+      "friability_percent": "0.52 ± 0.04"
+    },
+    {
+      "batch": "F-7",
+      "weight_variation_mg": "399 ± 0.34",
+      "hardness_kg_per_cm2": "11.41 ± 0.20",
+      "thickness_mm": "4.29 ± 0.02",
+      "friability_percent": "0.38 ± 0.03"
+    },
+    {
+      "batch": "F-8",
+      "weight_variation_mg": "404 ± 0.18",
+      "hardness_kg_per_cm2": "11.39 ± 0.12",
+      "thickness_mm": "4.28 ± 0.01",
+      "friability_percent": "0.27 ± 0.04"
+    },
+    {
+      "batch": "F-9",
+      "weight_variation_mg": "399 ± 0.20",
+      "hardness_kg_per_cm2": "11.45 ± 0.26",
+      "thickness_mm": "4.29 ± 0.02",
+      "friability_percent": "0.38 ± 0.05"
+    },
+    {
+      "batch": "F-10",
+      "weight_variation_mg": "398 ± 0.15",
+      "hardness_kg_per_cm2": "11.42 ± 0.32",
+      "thickness_mm": "4.30 ± 0.02",
+      "friability_percent": "0.36 ± 0.04"
+    },
+    {
+      "batch": "F-11",
+      "weight_variation_mg": "402 ± 0.36",
+      "hardness_kg_per_cm2": "11.38 ± 0.00",
+      "thickness_mm": "4.28 ± 0.02",
+      "friability_percent": "0.44 ± 0.03"
+    },
+    {
+      "batch": "F-12",
+      "weight_variation_mg": "399 ± 0.19",
+      "hardness_kg_per_cm2": "11.47 ± 0.22",
+      "thickness_mm": "4.29 ± 0.01",
+      "friability_percent": "0.32 ± 0.04"
+    }
+  ],
+  "composition_of_independent_variables": {
+    "variables": [
+      {"name": "Type of hydrophilic polymer in coat", "levels": ["HPMC K4M", "L-hpc", "NaCMC"]},
+      {"name": "Concentration of hydrophilic polymer in coat (mg)", "levels": [150, 200, 225, 240]},
+      {"name": "Concentration of hydrophobic polymer (Ethyl cellulose) in coat (mg)", "levels": [60, 75, 100, 150]},
+      {"name": "Concentration of disintegrant (Crospovidone) in core (%)", "levels": [0, 2.5, 5, 10]}
+    ],
+    "response_variables": ["Lag time (hours)", "Cumulative drug release (%) at 8 hours"]
+  },
+  "fourier_transform_infrared_spectral_measurements": {
+    "instrument": "Perkin Elmer, Spectrum-100, Japan",
+    "sample_preparation": "2 mg of sample in 200 mg of potassium bromide pellets",
+    "scanning_range": "400 to 4000 cm⁻¹",
+    "resolution": "1 cm⁻¹",
+    "samples_analyzed": ["Pure drug Lornoxicam", "Low substituted hydroxypropyl cellulose (L-hpc)", "Ethyl cellulose", "Physical mixture of Lornoxicam + L-hpc + ethyl cellulose"],
+    "results": "All characteristic peaks of the drug and polymers remained intact in their physical mixture, confirming compatibility."
+  },
+  "dsc_measurements": {
+    "instrument": "Diffraction scanning calorimeter (Shimadzu, Japan)",
+    "temperature_range": "30 to 350°C",
+    "heating_rate": "10°C/min",
+    "samples_analyzed": ["Pure drug Lornoxicam", "Physical mixture of Lornoxicam + L-hpc + ethyl cellulose"],
+    "results": {
+      "lornoxicam_peak": "218.74°C",
+      "physical_mixture_peak": "219.79°C"
+    },
+    "interpretation": "The drug melting peak is present in the same range in the physical mixture, confirming no chemical interaction."
+  },
+  "tablet_fabrication": {
+    "core_tablets": {
+      "method": "Direct compression",
+      "equipment": "Rotary tablet press (Rimek minipress, Karnavathi engineering, Ahmedabad)",
+      "punch_size": "8 mm flat faced punches",
+      "process": "Blended mixture lubricated with magnesium stearate and aerosil, blended for 10 minutes, then punched."
+    },
+    "compression_coated_tablets": {
+      "method": "Compression coating",
+      "equipment": "Rotary tablet press",
+      "punch_size": "11 mm concave punches",
+      "process": "Half the coating polymer blend filled in die cavity, core tablet placed in center, remaining coating blend added, then compressed."
+    }
+  },
+  "process_parameters": {
+    "compression_process": {
+      "device": "Rotary tablet press (Rimek minipress)",
+      "pressure": "Not specified",
+      "coating_method": "Compression coating with polymer blend"
+    },
+    "equipment_used": [
+      "Rotary tablet press (Rimek minipress)",
+      "Disintegration test apparatus",
+      "USP XXIII dissolution test apparatus (paddle type, Electrolab USP, India)",
+      "UV- Spectrophotometer (UV- 1700, Shimadzu corporation, Japan)",
+      "Stability chamber"
+    ],
+    "process_conditions": {
+      "dissolution_temperature": "37 ± 0.5°C",
+      "dissolution_rpm": 100,
+      "stability_storage": "40°C ± 2°C / 75% ± 5% RH",
+      "disintegration_medium_temperature": "37°C"
+    }
+  },
+  "release_properties": [
+    {
+      "batch": "LCT-1",
+      "release_mechanism": "Immediate release from core",
+      "release_profile": "53.66 ± 0.91% at 30 minutes",
+      "factors_influencing_release": "pH 6.8 phosphate buffer"
+    },
+    {
+      "batch": "LCT-2",
+      "release_mechanism": "Immediate release from core",
+      "release_profile": "62.01 ± 1.05% at 30 minutes",
+      "factors_influencing_release": "pH 6.8 phosphate buffer"
+    },
+    {
+      "batch": "LCT-3",
+      "release_mechanism": "Immediate release from core",
+      "release_profile": "69.16 ± 0.84% at 30 minutes",
+      "factors_influencing_release": "pH 6.8 phosphate buffer"
+    },
+    {
+      "batch": "LCT-4",
+      "release_mechanism": "Immediate release from core",
+      "release_profile": "99.93 ± 0.81% at 30 minutes",
+      "factors_influencing_release": "pH 6.8 phosphate buffer"
+    },
+    {
+      "batch": "F-1",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "10.5 ± 0.78",
+      "release_profile": "98.38 ± 0.98% at 14 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of HPMC K4M:EC"
+    },
+    {
+      "batch": "F-2",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "8 ± 0.65",
+      "release_profile": "98.26 ± 1.06% at 12 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of HPMC K4M:EC"
+    },
+    {
+      "batch": "F-3",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "7 ± 0.93",
+      "release_profile": "99.10 ± 1.02% at 11 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of HPMC K4M:EC"
+    },
+    {
+      "batch": "F-4",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "5.5 ± 0.82",
+      "release_profile": "99.34 ± 0.80% at 9 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of HPMC K4M:EC"
+    },
+    {
+      "batch": "F-5",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "5.5 ± 0.7",
+      "release_profile": "99.81 ± 0.81% at 8 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of L-hpc:EC"
+    },
+    {
+      "batch": "F-6",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "4 ± 0.89",
+      "release_profile": "99.58 ± 0.75% at 7 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of L-hpc:EC"
+    },
+    {
+      "batch": "F-7",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "3 ± 0.76",
+      "release_profile": "99.22 ± 0.93% at 6 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of L-hpc:EC"
+    },
+    {
+      "batch": "F-8",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "1.5 ± 0.88",
+      "release_profile": "99.46 ± 0.98% at 4 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of L-hpc:EC"
+    },
+    {
+      "batch": "F-9",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "4 ± 0.88",
+      "release_profile": "99.81 ± 0.77% at 7 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of NaCMC:EC"
+    },
+    {
+      "batch": "F-10",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "3 ± 0.95",
+      "release_profile": "99.69 ± 0.83% at 6 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of NaCMC:EC"
+    },
+    {
+      "batch": "F-11",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "2 ± 0.82",
+      "release_profile": "99.93 ± 0.69% at 5 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of NaCMC:EC"
+    },
+    {
+      "batch": "F-12",
+      "release_mechanism": "Time-dependent, pulsatile release",
+      "lag_time_hours": "1.5 ± 0.91",
+      "release_profile": "99.46 ± 0.97% at 4 hours",
+      "factors_influencing_release": "pH 1.2 for 2h, then pH 6.8; ratio of NaCMC:EC"
+    }
+  ],
+  "release_kinetics": {
+    "model_fitting": "Not specified in the provided text.",
+    "mechanism": "Likely erosion/diffusion from the hydrophilic polymer layer followed by rapid disintegration/dispersion of the core."
+  },
+  "tablet_properties": [
+    {
+      "batch": "LCT-1",
+      "hardness_kg_per_cm2": "3.89 ± 0.10",
+      "friability_percent": "0.16 ± 0.04",
+      "disintegration_time_min": "12.44 ± 0.35",
+      "dissolution_profile_30min_percent": "53.66 ± 0.91",
+      "thickness_mm": "2.14 ± 0.01",
+      "weight_variation_percent": "99.4 ± 0.22 mg (within ±10% of 100mg)",
+      "drug_content_percent": "97.63 ± 0.02"
+    },
+    {
+      "batch": "LCT-2",
+      "hardness_kg_per_cm2": "3.94 ± 0.32",
+      "friability_percent": "0.24 ± 0.07",
+      "disintegration_time_min": "6.74 ± 0.27",
+      "dissolution_profile_30min_percent": "62.01 ± 1.05",
+      "thickness_mm": "2.16 ± 0.01",
+      "weight_variation_percent": "100.6 ± 0.16 mg (within ±10% of 100mg)",
+      "drug_content_percent": "99.12 ± 0.04"
+    },
+    {
+      "batch": "LCT-3",
+      "hardness_kg_per_cm2": "3.90 ± 0.29",
+      "friability_percent": "0.19 ± 0.02",
+      "disintegration_time_min": "4.96 ± 0.33",
+      "dissolution_profile_30min_percent": "69.16 ± 0.84",
+      "thickness_mm": "2.15 ± 0.01",
+      "weight_variation_percent": "98.0 ± 0.26 mg (within ±10% of 100mg)",
+      "drug_content_percent": "98.10 ± 0.03"
+    },
+    {
+      "batch": "LCT-4",
+      "hardness_kg_per_cm2": "3.97 ± 0.16",
+      "friability_percent": "0.11 ± 0.04",
+      "disintegration_time_min": "1.52 ± 0.47",
+      "dissolution_profile_30min_percent": "99.93 ± 0.81",
+      "thickness_mm": "2.16 ± 0.02",
+      "weight_variation_percent": "99.8 ± 0.17 mg (within ±10% of 100mg)",
+      "drug_content_percent": "98.22 ± 0.02"
+    },
+    {
+      "batch": "F-5 (Optimized)",
+      "hardness_kg_per_cm2": "11.25 ± 0.18",
+      "friability_percent": "0.49 ± 0.05",
+      "disintegration_time": "Not applicable for coated tablet",
+      "dissolution_profile": "Lag time 5.5 ± 0.7 h, 99.81 ± 0.81% at 8 h",
+      "thickness_mm": "4.30 ± 0.02",
+      "weight_variation_percent": "397 ± 0.31 mg (within ±5% of 400mg)",
+      "stability_6months": "Drug content reduced by 0.87%; dissolution profile stable (<1% variation)"
+    }
+  ],
+  "experimental_data": {
+    "key_results": [
+      "Core tablets with 10% crospovidone (LCT-4) showed fastest disintegration (1.52 min) and 99.93% drug release in 30 min.",
+      "Optimized formulation F-5 (L-hpc:EC 150:150 mg) provided a lag time of 5.5 ± 0.7 h and 99.81 ± 0.81% release by 8 h.",
+      "Order of extending lag time: HPMC-K4M > L-hpc > NaCMC.",
+      "FTIR and DSC confirmed no drug-polymer interaction.",
+      "F-5 was stable for 6 months at 40°C/75% RH as per ICH guidelines."
+    ],
+    "statistical_analysis": "Results expressed as mean ± standard deviation (n=3 or as specified). Level of significance chosen as p ≤ 0.05.",
+    "lag_time_minutes_converted": {
+      "F-1": "630 ± 46.8",
+      "F-2": "480 ± 39",
+      "F-3": "420 ± 55.8",
+      "F-4": "330 ± 49.2",
+      "F-5": "330 ± 42",
+      "F-6": "240 ± 53.4",
+      "F-7": "180 ± 45.6",
+      "F-8": "90 ± 52.8",
+      "F-9": "240 ± 52.8",
+      "F-10": "180 ± 57",
+      "F-11": "120 ± 49.2",
+      "F-12": "90 ± 54.6"
+    },
+    "stability_data_f5": {
+      "condition": "40°C ± 2°C / 75% ± 5% RH for 6 months",
+      "appearance": "No change",
+      "hardness": "Uniform",
+      "drug_content_reduction_percent": "0.87",
+      "dissolution_after_stability": {
+        "lag_time_hours": "5.5 ± 1.15? (text says 8.27 ± 1.15, possible unit mismatch)",
+        "release_at_8hours_percent": "98.93 ± 1.08"
+      },
+      "note": "The text reports '8.27 ± 1.15' for lag time after stability, which appears to be a typo or unit mismatch, likely meaning 5.5 hours."
+    }
+  },
+  "approximated_release_data_from_figures": {
+    "figure_3_core_tablets": [
+      {
+        "batch": "LCT-1",
+        "time_min": [5, 10, 15, 20, 25, 30],
+        "release_percent": [12.5, 23.0, 32.5, 41.0, 48.5, 53.7]
+      },
+      {
+        "batch": "LCT-2",
+        "time_min": [5, 10, 15, 20, 25, 30],
+        "release_percent": [18.0, 32.0, 44.0, 54.0, 61.0, 62.0]
+      },
+      {
+        "batch": "LCT-3",
+        "time_min": [5, 10, 15, 20, 25, 30],
+        "release_percent": [23.0, 40.0, 53.0, 63.0, 68.0, 69.2]
+      },
+      {
+        "batch": "LCT-4",
+        "time_min": [5, 10, 15, 20, 25, 30],
+        "release_percent": [52.0, 78.0, 91.0, 97.0, 99.0, 99.9]
+      }
+    ],
+    "figure_4_compression_coated_tablets": [
+      {
+        "batch": "F-1",
+        "time_hours": [0, 2, 4, 6, 8, 10, 10.5, 11, 12, 13, 14],
+        "release_percent": [0, 0, 0, 0, 0, 0, 5, 35, 70, 90, 98.4]
+      },
+      {
+        "batch": "F-2",
+        "time_hours": [0, 2, 4, 6, 8, 8.5, 9, 10, 11, 12],
+        "release_percent": [0, 0, 0, 0, 0, 8, 30, 65, 88, 98.3]
+      },
+      {
+        "batch": "F-3",
+        "time_hours": [0, 2, 4, 6, 7, 7.5, 8, 9, 10, 11],
+        "release_percent": [0, 0, 0, 0, 5, 20, 50, 80, 95, 99.1]
+      },
+      {
+        "batch": "F-4",
+        "time_hours": [0, 2, 4, 5.5, 6, 7, 8, 9],
+        "release_percent": [0, 0, 0, 8, 35, 70, 92, 99.3]
+      },
+      {
+        "batch": "F-5",
+        "time_hours": [0, 2, 4, 5.5, 6, 7, 8],
+        "release_percent": [0, 0, 0, 9, 45, 82, 99.8]
+      },
+      {
+        "batch": "F-6",
+        "time_hours": [0, 2, 4, 4.5, 5, 6, 7],
+        "release_percent": [0, 0, 0, 15, 50, 85, 99.6]
+      },
+      {
+        "batch": "F-7",
+        "time_hours": [0, 2, 3, 3.5, 4, 5, 6],
+        "release_percent": [0, 0, 5, 30, 65, 90, 99.2]
+      },
+      {
+        "batch": "F-8",
+        "time_hours": [0, 1.5, 2, 3, 4],
+        "release_percent": [0, 8, 40, 80, 99.5]
+      },
+      {
+        "batch": "F-9",
+        "time_hours": [0, 2, 4, 4.5, 5, 6, 7],
+        "release_percent": [0, 0, 0, 20, 55, 85, 99.8]
+      },
+      {
+        "batch": "F-10",
+        "time_hours": [0, 2, 3, 3.5, 4, 5, 6],
+        "release_percent": [0, 0, 8, 30, 65, 90, 99.7]
+      },
+      {
+        "batch": "F-11",
+        "time_hours": [0, 2, 2.5, 3, 4, 5],
+        "release_percent": [0, 0, 15, 45, 85, 99.9]
+      },
+      {
+        "batch": "F-12",
+        "time_hours": [0, 1.5, 2, 3, 4],
+        "release_percent": [0, 10, 45, 85, 99.5]
+      }
+    ]
+  }
+}

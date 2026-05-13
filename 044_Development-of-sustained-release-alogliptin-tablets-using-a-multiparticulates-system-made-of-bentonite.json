@@ -1,0 +1,285 @@
+{
+  "materials_origin": {
+    "alogliptin_benzoate": "United Pharmaceutical Industry (Amman, Jordan)",
+    "sodium_sulfate": "Sigma-Aldrich (Steinheim, Germany)",
+    "bentonite": "Sigma-Aldrich (Steinheim, Germany)",
+    "sodium_hydroxide": "Merck (Darmstadt, Germany)",
+    "potassium_dihydrogen_phosphate": "Merck (Darmstadt, Germany)",
+    "acetonitrile_HPLC_grade": "MACRON (China)",
+    "hydroxypropyl_methylcellulose_HPMC": "Yangzhou WeiKem Chemical Co., Ltd (China)",
+    "ortho_phosphoric_acid": "Frutarom (bekuhaimstalar, UK)",
+    "microcrystalline_cellulose_Avicel_101": "FMC (Brussels, Belgium)"
+  },
+  "experimental_design_for_optimization": "Varying concentrations of HPMC (5%, 10%, 20%, 30%) as binder to evaluate sustained release properties of bentonite-based alogliptin tablets. Other binders (Avicel, PEG4000) were also tested but did not sustain release.",
+  "ingredients_identification": {
+    "hplc_method": {
+      "instrument": "Thermo Scientific Dionex Ultimate 3000 with diode array detector",
+      "column": "C18 (250 × 4.6 mm)",
+      "mobile_phase": "Sodium sulfate anhydrous with ortho-phosphoric acid buffer pH 2.3 and acetonitrile (200:800)",
+      "flow_rate": "1.5 ml/min",
+      "runtime": "13 min",
+      "injection_volume": "100 µl",
+      "detection_wavelength": "254 nm",
+      "retention_time": "5.29 ± 0.1 min"
+    },
+    "calibration_curve": "y = 458x + 0.6",
+    "correlation_coefficient": 0.99963,
+    "loq": "0.01 mg/ml (signal/noise >> 9)"
+  },
+  "formulation_details": {
+    "HPMC5%": {
+      "api": "Alogliptin benzoate",
+      "api_mass_mg": 25,
+      "bentonite_mg": 351,
+      "binder": "HPMC",
+      "binder_mass_mg": 20,
+      "lubricant_mg": 4,
+      "total_mg": 400,
+      "percent_api": 6.25
+    },
+    "HPMC10%": {
+      "api": "Alogliptin benzoate",
+      "api_mass_mg": 25,
+      "bentonite_mg": 331,
+      "binder": "HPMC",
+      "binder_mass_mg": 40,
+      "lubricant_mg": 4,
+      "total_mg": 400,
+      "percent_api": 6.25
+    },
+    "HPMC20%": {
+      "api": "Alogliptin benzoate",
+      "api_mass_mg": 25,
+      "bentonite_mg": 291,
+      "binder": "HPMC",
+      "binder_mass_mg": 80,
+      "lubricant_mg": 4,
+      "total_mg": 400,
+      "percent_api": 6.25
+    },
+    "HPMC30%": {
+      "api": "Alogliptin benzoate",
+      "api_mass_mg": 25,
+      "bentonite_mg": 251,
+      "binder": "HPMC",
+      "binder_mass_mg": 120,
+      "lubricant_mg": 4,
+      "total_mg": 400,
+      "percent_api": 6.25
+    }
+  },
+  "pre_compression_parameters": {
+    "HPMC5%": {
+      "bulk_density_g_per_ml": 0.44,
+      "bulk_density_sd": 0.003,
+      "tapped_density_g_per_ml": 0.51,
+      "tapped_density_sd": 0.004,
+      "carr_index_percent": 14.81,
+      "carr_index_sd": 1.17,
+      "hausner_ratio": 1.17,
+      "hausner_ratio_sd": 0.11
+    },
+    "HPMC10%": {
+      "bulk_density_g_per_ml": 0.45,
+      "bulk_density_sd": 0.003,
+      "tapped_density_g_per_ml": 0.54,
+      "tapped_density_sd": 0.004,
+      "carr_index_percent": 16.63,
+      "carr_index_sd": 1.20,
+      "hausner_ratio": 1.20,
+      "hausner_ratio_sd": 0.12
+    },
+    "HPMC20%": {
+      "bulk_density_g_per_ml": 0.53,
+      "bulk_density_sd": 0.004,
+      "tapped_density_g_per_ml": 0.64,
+      "tapped_density_sd": 0.005,
+      "carr_index_percent": 16.60,
+      "carr_index_sd": 1.19,
+      "hausner_ratio": 1.19,
+      "hausner_ratio_sd": 0.12
+    },
+    "HPMC30%": {
+      "bulk_density_g_per_ml": 0.44,
+      "bulk_density_sd": 0.003,
+      "tapped_density_g_per_ml": 0.52,
+      "tapped_density_sd": 0.004,
+      "carr_index_percent": 14.81,
+      "carr_index_sd": 1.17,
+      "hausner_ratio": 1.17,
+      "hausner_ratio_sd": 0.11
+    }
+  },
+  "composition_of_independent_variables": {
+    "variables": ["HPMC concentration (%)"],
+    "levels": [5, 10, 20, 30]
+  },
+  "ftir_info": {
+    "findings": "No interaction between alogliptin and bentonite. Bentonite bands (Si-O at 1021 cm⁻¹, Si-O-Al at 524 cm⁻¹, Si-O-Si at 464 cm⁻¹) remained unchanged in granules. Alogliptin bands were not visible due to low drug content.",
+    "table_4_alogliptin_bands": [
+      {"wavenumber": 3356, "bond": "N-H stretching"},
+      {"wavenumber": 2977, "bond": "O-H of carboxylic acid stretching"},
+      {"wavenumber": 1630, "bond": "N-H bending"},
+      {"wavenumber": 1599, "bond": "Carbonyl in purine ring"},
+      {"wavenumber": 1521, "bond": "C=C stretching"},
+      {"wavenumber": 1451, "bond": "C-H bending"},
+      {"wavenumber": 1365, "bond": "C-N stretching of aromatic ring"},
+      {"wavenumber": 1240, "bond": "C-N stretching of amine group"},
+      {"wavenumber": 1623, "bond": "C=O stretching"},
+      {"wavenumber": 718, "bond": "C-H bending"}
+    ]
+  },
+  "tablet_fabrications": {
+    "HPMC5%": {
+      "hardness_N": 135,
+      "hardness_sd": 7.07,
+      "friability_percent": 0.42,
+      "friability_sd": 0.02,
+      "weight_variation": "398 ± 4.1 mg, within ±5%",
+      "thickness_mm": null,
+      "diameter_mm": 8,
+      "drug_content_percent": null,
+      "consolidation_index_carr_percent": 14.81
+    },
+    "HPMC10%": {
+      "hardness_N": 115.5,
+      "hardness_sd": 6.363,
+      "friability_percent": 0.14,
+      "friability_sd": 0.01,
+      "weight_variation": "398 ± 4.1 mg, within ±5%",
+      "thickness_mm": null,
+      "diameter_mm": 8,
+      "drug_content_percent": null,
+      "consolidation_index_carr_percent": 16.63
+    },
+    "HPMC20%": {
+      "hardness_N": 142.5,
+      "hardness_sd": 17.677,
+      "friability_percent": 0.66,
+      "friability_sd": 0.04,
+      "weight_variation": "398 ± 4.1 mg, within ±5%",
+      "thickness_mm": null,
+      "diameter_mm": 8,
+      "drug_content_percent": null,
+      "consolidation_index_carr_percent": 16.60
+    },
+    "HPMC30%": {
+      "hardness_N": 280,
+      "hardness_sd": 14.142,
+      "friability_percent": 1.97,
+      "friability_sd": 0.11,
+      "weight_variation": "398 ± 4.1 mg, within ±5%",
+      "thickness_mm": null,
+      "diameter_mm": 8,
+      "drug_content_percent": null,
+      "consolidation_index_carr_percent": 14.81
+    }
+  },
+  "process_parameters": {
+    "compression_machine": "Erweka AR 400E single press",
+    "die_size_mm": 8,
+    "compression_pressure": null,
+    "granulation_method": "Wet granulation (water sprayed, sieved through 0.355 mm, dried at 56°C overnight) for HPMC batches",
+    "drying_temperature_C": 56,
+    "drying_duration": "overnight",
+    "equipment": {
+      "sieve": "stainless steel, aperture 0.355 mm",
+      "oven": null
+    }
+  },
+  "release_properties": {
+    "HPMC5%": {
+      "release_mechanism": "Fickian diffusion",
+      "zero_order_7h_r": 0.979,
+      "zero_order_7h_rsd": 0.307,
+      "zero_order_24h_r": 0.938,
+      "zero_order_24h_rsd": 0.711,
+      "fickian_24h_r": 0.993,
+      "fickian_24h_rsd": 0.234,
+      "factors_influencing": "pH 6.7 phosphate buffer, bentonite gel matrix"
+    },
+    "HPMC10%": {
+      "release_mechanism": "Fickian diffusion",
+      "zero_order_7h_r": 0.985,
+      "zero_order_7h_rsd": 0.404,
+      "zero_order_24h_r": 0.967,
+      "zero_order_24h_rsd": 0.904,
+      "fickian_24h_r": 0.993,
+      "fickian_24h_rsd": 0.427,
+      "factors_influencing": "pH 6.7 phosphate buffer, bentonite gel matrix"
+    },
+    "HPMC20%": {
+      "release_mechanism": "Fickian diffusion",
+      "zero_order_7h_r": 0.990,
+      "zero_order_7h_rsd": 1.353,
+      "zero_order_24h_r": 0.953,
+      "zero_order_24h_rsd": 2.842,
+      "fickian_24h_r": 0.980,
+      "fickian_24h_rsd": 1.853,
+      "factors_influencing": "pH 6.7 phosphate buffer, bentonite gel matrix"
+    },
+    "HPMC30%": {
+      "release_mechanism": "Fickian diffusion",
+      "zero_order_7h_r": 0.966,
+      "zero_order_7h_rsd": 1.620,
+      "zero_order_24h_r": 0.966,
+      "zero_order_24h_rsd": 1.495,
+      "fickian_24h_r": 0.980,
+      "fickian_24h_rsd": 1.155,
+      "factors_influencing": "pH 6.7 phosphate buffer, bentonite gel matrix"
+    }
+  },
+  "tablet_properties": {
+    "HPMC5%": {
+      "hardness_N": 135,
+      "hardness_sd": 7.07,
+      "friability_percent": 0.42,
+      "friability_sd": 0.02,
+      "disintegration_time": "No disintegration; tablets swelled and maintained integrity",
+      "dissolution_profile": "Cumulative release over 24 h (see Figure 6)",
+      "thickness_mm": null,
+      "weight_variation_percent": "within ±5%",
+      "swelling_index": null
+    },
+    "HPMC10%": {
+      "hardness_N": 115.5,
+      "hardness_sd": 6.363,
+      "friability_percent": 0.14,
+      "friability_sd": 0.01,
+      "disintegration_time": "No disintegration; tablets swelled and maintained integrity",
+      "dissolution_profile": "Cumulative release over 24 h (see Figure 6)",
+      "thickness_mm": null,
+      "weight_variation_percent": "within ±5%",
+      "swelling_index": null
+    },
+    "HPMC20%": {
+      "hardness_N": 142.5,
+      "hardness_sd": 17.677,
+      "friability_percent": 0.66,
+      "friability_sd": 0.04,
+      "disintegration_time": "No disintegration; tablets swelled and maintained integrity",
+      "dissolution_profile": "Cumulative release over 24 h (see Figure 6)",
+      "thickness_mm": null,
+      "weight_variation_percent": "within ±5%",
+      "swelling_index": null
+    },
+    "HPMC30%": {
+      "hardness_N": 280,
+      "hardness_sd": 14.142,
+      "friability_percent": 1.97,
+      "friability_sd": 0.11,
+      "disintegration_time": "No disintegration; tablets swelled and maintained integrity",
+      "dissolution_profile": "Cumulative release over 24 h (see Figure 6)",
+      "thickness_mm": null,
+      "weight_variation_percent": "within ±5%",
+      "swelling_index": null
+    }
+  },
+  "experimental_data": {
+    "key_results": "Sustained release of alogliptin achieved using bentonite with HPMC as binder. Release followed Fickian diffusion. XRD showed shift in montmorillonite peak indicating intercalation of drug, but HPMC helped maintain gel structure.",
+    "statistical_analysis": "t-test with 95% confidence interval (p < 0.05) used for similarity testing.",
+    "zero_order_release": "Correlation coefficients for zero-order model at 7h and 24h are provided in release_properties.",
+    "first_order_release": null,
+    "performance_metrics": "Tablets complied with pharmacopoeial requirements for weight variation and hardness; friability acceptable except for HPMC30% (1.97%)."
+  }
+}

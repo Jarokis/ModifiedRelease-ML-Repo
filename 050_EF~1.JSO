@@ -1,0 +1,680 @@
+{
+    "materials_origin": {
+        "dextromethorphan_hbr": "F. Hoffmann-La Roche (Basel, Switzerland)",
+        "dowex_50w": "Aldrich Chemical Co, Milwaukee, WI",
+        "amberlite_irp69": "Aldrich Chemical Co, Milwaukee, WI",
+        "microcrystalline_cellulose_mcc_avicel_ph102": "Asahi Chemical Industry Co, Tokyo, Japan",
+        "dicalcium_phosphate_dihydrate_dcp_emcompress": "Edward Mendell Co, Patterson, NY",
+        "spray_dried_rice_starch_sdrs_era_tab": "Erawan Pharmaceutical Research and Laboratory Co, Bangkok, Thailand",
+        "sodium_starch_glycolate_explotab": "Rama Production Co, Thailand",
+        "magnesium_stearate": "Mallinckrodt Inc, St Louis, MO",
+        "methanol_benzene_hcl": "Analytical grade, used as received"
+    },
+    "experimental_design_for_optimization": {
+        "purpose": "To investigate the effect of different polysulfonate resins (Dowex 50W and Amberlite 050_IRP69) and direct compression fillers (MCC, DCP, SDRS) on physical properties and drug release of sustained-release DMP resinate tablets.",
+        "independent_variables": [
+            {
+                "variable": "Type of polysulfonate resin",
+                "levels": [
+                    "Dowex 50W",
+                    "Amberlite 050_IRP69"
+                ]
+            },
+            {
+                "variable": "Type of direct compression filler",
+                "levels": [
+                    "MCC",
+                    "DCP",
+                    "SDRS"
+                ]
+            },
+            {
+                "variable": "Compression pressure",
+                "levels": [
+                    "1 MPa",
+                    "2 MPa",
+                    "4 MPa"
+                ]
+            }
+        ]
+    },
+    "ingredients_identification": {
+        "dmp_resinate_preparation": {
+            "method": "Batch process. Resin (10g) was added to 500 mL of 2% w/v DMP HBr solution and shaken in a water bath at 37°C for 2 hours. The resinates were filtered, washed with distilled water, and dried overnight at 50°C.",
+            "drug_loading_results": {
+                "dowex_50w": "43.3 ± 0.3% w/w",
+                "amberlite_irp69": "32.9 ± 0.3% w/w"
+            },
+            "absorbance_wavelength": "278 nm (Model UV-1201, Shimadzu, Kyoto, Japan)",
+            "equation_for_release_kinetics": "-ln(1 - F) = kt^0.65, where F is fractional drug release, k is release rate constant, and t is time. This is derived from a particle diffusion-controlled model."
+        }
+    },
+    "tablet_batches": [
+        {
+            "batch_name": "DMP-MCC-300mg-1MPa-A",
+            "resin_type": "Dowex 50W",
+            "formulation_details": {
+                "api": "DMP resinate (equivalent to 30 mg DMP HBr)",
+                "excipients": [
+                    {
+                        "name": "Microcrystalline Cellulose (MCC)",
+                        "function": "Filler",
+                        "mass_mg": 210.9
+                    },
+                    {
+                        "name": "Sodium starch glycolate",
+                        "function": "Superdisintegrant",
+                        "percentage_w_w": 10,
+                        "mass_mg": 30
+                    },
+                    {
+                        "name": "Magnesium stearate",
+                        "function": "Lubricant",
+                        "percentage_w_w": 1,
+                        "mass_mg": 3
+                    },
+                    {
+                        "name": "DMP Resinate (Dowex 50W)",
+                        "note": "Amount calculated based on 43.3% w/w loading to provide 30 mg DMP HBr",
+                        "mass_mg": 69.3
+                    }
+                ],
+                "total_weight_mg": 300,
+                "percent_of_pellets_resinates": 23.1
+            },
+            "pre_compression_parameters": {
+                "dmp_resinate_particle_size": {
+                    "d10_percent_μm": "108.1 ± 0.8",
+                    "d50_percent_μm": "170.9 ± 0.6",
+                    "d90_percent_μm": "229.2 ± 0.3",
+                    "pi": "0.71 ± 0.01"
+                }
+            },
+            "tablet_fabrication": {
+                "compression_pressure_mpa": 1,
+                "thickness_mm": "Data for this specific batch not isolated; see Figure 2A for trends.",
+                "hardness": "Significantly lower than 4 MPa; see Figure 2B.",
+                "weight_variation": "Not specified",
+                "drug_content": "Equivalent to 30 mg DMP HBr per tablet",
+                "density_of_formulation": "Not specified",
+                "consolidation_index": "Not specified"
+            },
+            "process_parameters": {
+                "device": "Hydrostatic press (Model 3126, Shimadzu, Kyoto, Japan)",
+                "compression_process": "Direct compression, no holding time.",
+                "equipment": "10-mm diameter flat-faced punches and die",
+                "process_conditions": "Ambient temperature"
+            },
+            "release_properties": {
+                "release_mechanism": "Ion-exchange, particle diffusion-controlled model.",
+                "release_rate_constant_k_x_10_2_min_0_65": "7.7 ± 0.6",
+                "dmp_released_at_5_min_percent": "9.9 ± 2.0",
+                "factors_influencing_release": "pH (0.1 mol/L HCl used in study)",
+                "release_kinetics_followed": "-ln(1-F) vs t^0.65 (R² > 0.98)"
+            },
+            "tablet_properties": {
+                "hardness": "~20 N (approx. from Figure 2B)",
+                "friability": "Not specified",
+                "disintegration_time_sec": "< 30 (from Figure 2C)",
+                "thickness_mm": "~3.25 mm (approx. from Figure 2A)"
+            },
+            "release_profile": [
+                {
+                    "time_min": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_min": 30,
+                    "release_percent": 15
+                },
+                {
+                    "time_min": 60,
+                    "release_percent": 20
+                },
+                {
+                    "time_min": 120,
+                    "release_percent": 30
+                },
+                {
+                    "time_min": 180,
+                    "release_percent": 37
+                },
+                {
+                    "time_min": 240,
+                    "release_percent": 43
+                },
+                {
+                    "time_min": 300,
+                    "release_percent": 48
+                },
+                {
+                    "time_min": 360,
+                    "release_percent": 52
+                }
+            ]
+        },
+        {
+            "batch_name": "DMP-MCC-300mg-2MPa-B",
+            "resin_type": "Dowex 50W",
+            "formulation_details": {
+                "api": "DMP resinate (equivalent to 30 mg DMP HBr)",
+                "excipients": [
+                    {
+                        "name": "Microcrystalline Cellulose (MCC)",
+                        "function": "Filler",
+                        "mass_mg": 210.9
+                    },
+                    {
+                        "name": "Sodium starch glycolate",
+                        "function": "Superdisintegrant",
+                        "percentage_w_w": 10,
+                        "mass_mg": 30
+                    },
+                    {
+                        "name": "Magnesium stearate",
+                        "function": "Lubricant",
+                        "percentage_w_w": 1,
+                        "mass_mg": 3
+                    },
+                    {
+                        "name": "DMP Resinate (Dowex 50W)",
+                        "note": "Amount calculated based on 43.3% w/w loading to provide 30 mg DMP HBr",
+                        "mass_mg": 69.3
+                    }
+                ],
+                "total_weight_mg": 300,
+                "percent_of_pellets_resinates": 23.1
+            },
+            "pre_compression_parameters": {
+                "dmp_resinate_particle_size": {
+                    "d10_percent_μm": "108.1 ± 0.8",
+                    "d50_percent_μm": "170.9 ± 0.6",
+                    "d90_percent_μm": "229.2 ± 0.3",
+                    "pi": "0.71 ± 0.01"
+                }
+            },
+            "tablet_fabrication": {
+                "compression_pressure_mpa": 2,
+                "thickness_mm": "Data for this specific batch not isolated; see Figure 2A for trends.",
+                "hardness": "Higher than 1 MPa, lower than 4 MPa; see Figure 2B.",
+                "weight_variation": "Not specified",
+                "drug_content": "Equivalent to 30 mg DMP HBr per tablet",
+                "density_of_formulation": "Not specified",
+                "consolidation_index": "Not specified"
+            },
+            "process_parameters": {
+                "device": "Hydrostatic press (Model 3126, Shimadzu, Kyoto, Japan)",
+                "compression_process": "Direct compression, no holding time.",
+                "equipment": "10-mm diameter flat-faced punches and die",
+                "process_conditions": "Ambient temperature"
+            },
+            "release_properties": {
+                "release_mechanism": "Ion-exchange, particle diffusion-controlled model.",
+                "release_rate_constant_k_x_10_2_min_0_65": "8.3 ± 0.2",
+                "dmp_released_at_5_min_percent": "13.2 ± 2.7",
+                "factors_influencing_release": "pH (0.1 mol/L HCl used in study)",
+                "release_kinetics_followed": "-ln(1-F) vs t^0.65 (R² > 0.98)"
+            },
+            "tablet_properties": {
+                "hardness": "~40 N (approx. from Figure 2B)",
+                "friability": "Not specified",
+                "disintegration_time_sec": "< 30 (from Figure 2C)",
+                "thickness_mm": "~3.0 mm (approx. from Figure 2A)"
+            },
+            "release_profile": [
+                {
+                    "time_min": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_min": 30,
+                    "release_percent": 18
+                },
+                {
+                    "time_min": 60,
+                    "release_percent": 23
+                },
+                {
+                    "time_min": 120,
+                    "release_percent": 32
+                },
+                {
+                    "time_min": 180,
+                    "release_percent": 39
+                },
+                {
+                    "time_min": 240,
+                    "release_percent": 45
+                },
+                {
+                    "time_min": 300,
+                    "release_percent": 50
+                },
+                {
+                    "time_min": 360,
+                    "release_percent": 54
+                }
+            ]
+        },
+        {
+            "batch_name": "DMP-MCC-300mg-4MPa-C",
+            "resin_type": "Dowex 50W",
+            "formulation_details": {
+                "api": "DMP resinate (equivalent to 30 mg DMP HBr)",
+                "excipients": [
+                    {
+                        "name": "Microcrystalline Cellulose (MCC)",
+                        "function": "Filler",
+                        "mass_mg": 210.9
+                    },
+                    {
+                        "name": "Sodium starch glycolate",
+                        "function": "Superdisintegrant",
+                        "percentage_w_w": 10,
+                        "mass_mg": 30
+                    },
+                    {
+                        "name": "Magnesium stearate",
+                        "function": "Lubricant",
+                        "percentage_w_w": 1,
+                        "mass_mg": 3
+                    },
+                    {
+                        "name": "DMP Resinate (Dowex 50W)",
+                        "note": "Amount calculated based on 43.3% w/w loading to provide 30 mg DMP HBr",
+                        "mass_mg": 69.3
+                    }
+                ],
+                "total_weight_mg": 300,
+                "percent_of_pellets_resinates": 23.1
+            },
+            "pre_compression_parameters": {
+                "dmp_resinate_particle_size": {
+                    "d10_percent_μm": "108.1 ± 0.8",
+                    "d50_percent_μm": "170.9 ± 0.6",
+                    "d90_percent_μm": "229.2 ± 0.3",
+                    "pi": "0.71 ± 0.01"
+                }
+            },
+            "tablet_fabrication": {
+                "compression_pressure_mpa": 4,
+                "thickness_mm": "~2.9 mm (approx. from Figure 2A)",
+                "hardness": "~65 N (approx. from Figure 2B)",
+                "weight_variation": "Not specified",
+                "drug_content": "Equivalent to 30 mg DMP HBr per tablet",
+                "density_of_formulation": "Not specified",
+                "consolidation_index": "Not specified"
+            },
+            "process_parameters": {
+                "device": "Hydrostatic press (Model 3126, Shimadzu, Kyoto, Japan)",
+                "compression_process": "Direct compression, no holding time.",
+                "equipment": "10-mm diameter flat-faced punches and die",
+                "process_conditions": "Ambient temperature"
+            },
+            "release_properties": {
+                "release_mechanism": "Ion-exchange, particle diffusion-controlled model.",
+                "release_rate_constant_k_x_10_2_min_0_65": "7.7 ± 0.3",
+                "dmp_released_at_5_min_percent": "17.7 ± 6.6",
+                "factors_influencing_release": "pH (0.1 mol/L HCl used in study)",
+                "release_kinetics_followed": "-ln(1-F) vs t^0.65 (R² > 0.98)"
+            },
+            "tablet_properties": {
+                "hardness": "~65 N (approx. from Figure 2B)",
+                "friability": "Not specified",
+                "disintegration_time_sec": "< 30 (from Figure 2C)",
+                "thickness_mm": "~2.9 mm (approx. from Figure 2A)"
+            },
+            "release_profile": [
+                {
+                    "time_min": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_min": 30,
+                    "release_percent": 22
+                },
+                {
+                    "time_min": 60,
+                    "release_percent": 26
+                },
+                {
+                    "time_min": 120,
+                    "release_percent": 34
+                },
+                {
+                    "time_min": 180,
+                    "release_percent": 41
+                },
+                {
+                    "time_min": 240,
+                    "release_percent": 47
+                },
+                {
+                    "time_min": 300,
+                    "release_percent": 52
+                },
+                {
+                    "time_min": 360,
+                    "release_percent": 56
+                }
+            ]
+        },
+        {
+            "batch_name": "DMP-SDRS-300mg-2MPa-A",
+            "resin_type": "Dowex 50W",
+            "formulation_details": {
+                "api": "DMP resinate (equivalent to 30 mg DMP HBr)",
+                "excipients": [
+                    {
+                        "name": "Spray-dried rice starch (SDRS)",
+                        "function": "Filler",
+                        "mass_mg": 210.9
+                    },
+                    {
+                        "name": "Sodium starch glycolate",
+                        "function": "Superdisintegrant",
+                        "percentage_w_w": 10,
+                        "mass_mg": 30
+                    },
+                    {
+                        "name": "Magnesium stearate",
+                        "function": "Lubricant",
+                        "percentage_w_w": 1,
+                        "mass_mg": 3
+                    },
+                    {
+                        "name": "DMP Resinate (Dowex 50W)",
+                        "note": "Amount calculated based on 43.3% w/w loading to provide 30 mg DMP HBr",
+                        "mass_mg": 69.3
+                    }
+                ],
+                "total_weight_mg": 300,
+                "percent_of_pellets_resinates": 23.1
+            },
+            "pre_compression_parameters": {
+                "dmp_resinate_particle_size": {
+                    "d10_percent_μm": "108.1 ± 0.8",
+                    "d50_percent_μm": "170.9 ± 0.6",
+                    "d90_percent_μm": "229.2 ± 0.3",
+                    "pi": "0.71 ± 0.01"
+                }
+            },
+            "tablet_fabrication": {
+                "compression_pressure_mpa": 2,
+                "thickness_mm": "Data for this specific batch not isolated; see Figure 2A for trends.",
+                "hardness": "~30 N (approx. from Figure 2B)",
+                "weight_variation": "Not specified",
+                "drug_content": "Equivalent to 30 mg DMP HBr per tablet",
+                "density_of_formulation": "Not specified",
+                "consolidation_index": "Not specified"
+            },
+            "process_parameters": {
+                "device": "Hydrostatic press (Model 3126, Shimadzu, Kyoto, Japan)",
+                "compression_process": "Direct compression, no holding time.",
+                "equipment": "10-mm diameter flat-faced punches and die",
+                "process_conditions": "Ambient temperature"
+            },
+            "release_properties": {
+                "release_mechanism": "Ion-exchange, particle diffusion-controlled model.",
+                "release_rate_constant_k_x_10_2_min_0_65": "7.7 ± 0.4",
+                "dmp_released_at_5_min_percent": "5.8 ± 4.1",
+                "factors_influencing_release": "pH (0.1 mol/L HCl used in study)",
+                "release_kinetics_followed": "-ln(1-F) vs t^0.65 (R² > 0.98)"
+            },
+            "tablet_properties": {
+                "hardness": "~30 N (approx. from Figure 2B)",
+                "friability": "Not specified",
+                "disintegration_time_sec": "~150 (approx. from Figure 2C)",
+                "thickness_mm": "~3.4 mm (approx. from Figure 2A)"
+            },
+            "release_profile": [
+                {
+                    "time_min": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_min": 30,
+                    "release_percent": 10
+                },
+                {
+                    "time_min": 60,
+                    "release_percent": 15
+                },
+                {
+                    "time_min": 120,
+                    "release_percent": 23
+                },
+                {
+                    "time_min": 180,
+                    "release_percent": 30
+                },
+                {
+                    "time_min": 240,
+                    "release_percent": 36
+                },
+                {
+                    "time_min": 300,
+                    "release_percent": 41
+                },
+                {
+                    "time_min": 360,
+                    "release_percent": 45
+                }
+            ]
+        },
+        {
+            "batch_name": "DMP-DCP-400mg-1MPa-A",
+            "resin_type": "Dowex 50W",
+            "formulation_details": {
+                "api": "DMP resinate (equivalent to 30 mg DMP HBr)",
+                "excipients": [
+                    {
+                        "name": "Dicalcium phosphate dihydrate (DCP)",
+                        "function": "Filler",
+                        "mass_mg": 310.9
+                    },
+                    {
+                        "name": "Sodium starch glycolate",
+                        "function": "Superdisintegrant",
+                        "percentage_w_w": 10,
+                        "mass_mg": 40
+                    },
+                    {
+                        "name": "Magnesium stearate",
+                        "function": "Lubricant",
+                        "percentage_w_w": 1,
+                        "mass_mg": 4
+                    },
+                    {
+                        "name": "DMP Resinate (Dowex 50W)",
+                        "note": "Amount calculated based on 43.3% w/w loading to provide 30 mg DMP HBr",
+                        "mass_mg": 69.3
+                    }
+                ],
+                "total_weight_mg": 400,
+                "percent_of_pellets_resinates": 17.3
+            },
+            "pre_compression_parameters": {
+                "dmp_resinate_particle_size": {
+                    "d10_percent_μm": "108.1 ± 0.8",
+                    "d50_percent_μm": "170.9 ± 0.6",
+                    "d90_percent_μm": "229.2 ± 0.3",
+                    "pi": "0.71 ± 0.01"
+                }
+            },
+            "tablet_fabrication": {
+                "compression_pressure_mpa": 1,
+                "thickness_mm": "Data for this specific batch not isolated; see Figure 2A for trends.",
+                "hardness": "Not measurable (very low) (from Figure 2B)",
+                "weight_variation": "Not specified",
+                "drug_content": "Equivalent to 30 mg DMP HBr per tablet",
+                "density_of_formulation": "Not specified",
+                "consolidation_index": "Not specified"
+            },
+            "process_parameters": {
+                "device": "Hydrostatic press (Model 3126, Shimadzu, Kyoto, Japan)",
+                "compression_process": "Direct compression, no holding time.",
+                "equipment": "10-mm diameter flat-faced punches and die",
+                "process_conditions": "Ambient temperature"
+            },
+            "release_properties": {
+                "release_mechanism": "Ion-exchange, particle diffusion-controlled model.",
+                "release_rate_constant_k_x_10_2_min_0_65": "9.3 ± 1.2",
+                "dmp_released_at_5_min_percent": "5.2 ± 3.8",
+                "factors_influencing_release": "pH (0.1 mol/L HCl used in study)",
+                "release_kinetics_followed": "-ln(1-F) vs t^0.65 (R² > 0.98)"
+            },
+            "tablet_properties": {
+                "hardness": "Not measurable",
+                "friability": "Not specified",
+                "disintegration_time_sec": "< 30 (from Figure 2C)",
+                "thickness_mm": "~3.55 mm (approx. from Figure 2A)"
+            },
+            "release_profile": [
+                {
+                    "time_min": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_min": 30,
+                    "release_percent": 10
+                },
+                {
+                    "time_min": 60,
+                    "release_percent": 18
+                },
+                {
+                    "time_min": 120,
+                    "release_percent": 30
+                },
+                {
+                    "time_min": 180,
+                    "release_percent": 40
+                },
+                {
+                    "time_min": 240,
+                    "release_percent": 48
+                },
+                {
+                    "time_min": 300,
+                    "release_percent": 54
+                },
+                {
+                    "time_min": 360,
+                    "release_percent": 58
+                }
+            ]
+        },
+        {
+            "batch_name": "DMP-DCP-400mg-4MPa-B",
+            "resin_type": "Amberlite 050_IRP69",
+            "formulation_details": {
+                "api": "DMP resinate (equivalent to 30 mg DMP HBr)",
+                "excipients": [
+                    {
+                        "name": "Dicalcium phosphate dihydrate (DCP)",
+                        "function": "Filler",
+                        "mass_mg": 279.8
+                    },
+                    {
+                        "name": "Sodium starch glycolate",
+                        "function": "Superdisintegrant",
+                        "percentage_w_w": 10,
+                        "mass_mg": 40
+                    },
+                    {
+                        "name": "Magnesium stearate",
+                        "function": "Lubricant",
+                        "percentage_w_w": 1,
+                        "mass_mg": 4
+                    },
+                    {
+                        "name": "DMP Resinate (Amberlite 050_IRP69)",
+                        "note": "Amount calculated based on 32.9% w/w loading to provide 30 mg DMP HBr",
+                        "mass_mg": 91.2
+                    }
+                ],
+                "total_weight_mg": 400,
+                "percent_of_pellets_resinates": 22.8
+            },
+            "pre_compression_parameters": {
+                "dmp_resinate_particle_size": {
+                    "d10_percent_μm": "118.9 ± 1.9",
+                    "d50_percent_μm": "165.5 ± 0.6",
+                    "d90_percent_μm": "222.4 ± 0.7",
+                    "pi": "0.62 ± 0.01"
+                }
+            },
+            "tablet_fabrication": {
+                "compression_pressure_mpa": 4,
+                "thickness_mm": "~3.3 mm (approx. from Figure 2A)",
+                "hardness": "~12 N (approx. from Figure 2B)",
+                "weight_variation": "Not specified",
+                "drug_content": "Equivalent to 30 mg DMP HBr per tablet",
+                "density_of_formulation": "Not specified",
+                "consolidation_index": "Not specified"
+            },
+            "process_parameters": {
+                "device": "Hydrostatic press (Model 3126, Shimadzu, Kyoto, Japan)",
+                "compression_process": "Direct compression, no holding time.",
+                "equipment": "10-mm diameter flat-faced punches and die",
+                "process_conditions": "Ambient temperature"
+            },
+            "release_properties": {
+                "release_mechanism": "Ion-exchange, particle diffusion-controlled model.",
+                "release_rate_constant_k_x_10_2_min_0_65": "5.5 ± 0.1",
+                "dmp_released_at_5_min_percent": "13.4 ± 2.9",
+                "factors_influencing_release": "pH (0.1 mol/L HCl used in study)",
+                "release_kinetics_followed": "-ln(1-F) vs t^0.65 (R² > 0.98)"
+            },
+            "tablet_properties": {
+                "hardness": "~12 N (approx. from Figure 2B)",
+                "friability": "Not specified",
+                "disintegration_time_sec": "< 30 (from Figure 2C)",
+                "thickness_mm": "~3.3 mm (approx. from Figure 2A)"
+            },
+            "release_profile": [
+                {
+                    "time_min": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_min": 30,
+                    "release_percent": 20
+                },
+                {
+                    "time_min": 60,
+                    "release_percent": 26
+                },
+                {
+                    "time_min": 120,
+                    "release_percent": 35
+                },
+                {
+                    "time_min": 180,
+                    "release_percent": 42
+                },
+                {
+                    "time_min": 240,
+                    "release_percent": 48
+                },
+                {
+                    "time_min": 300,
+                    "release_percent": 53
+                },
+                {
+                    "time_min": 360,
+                    "release_percent": 57
+                }
+            ]
+        }
+    ],
+    "experimental_data": {
+        "key_findings": {
+            "tablet_hardness": "MCC > SDRS > DCP. Tablets with Dowex 50W (spherical) were harder than those with Amberlite 050_IRP69 (rod/plate-like).",
+            "disintegration_time": "MCC and DCP < 30 sec; SDRS resulted in longer times due to gel formation.",
+            "drug_release": "Release followed particle diffusion model (-ln(1-F) vs t^0.65). DCP with Dowex 50W showed increased release rate (resinate fracture). Amberlite 050_IRP69 (higher cross-linking) resisted fracture, protecting release profile."
+        },
+        "statistical_analysis": "One-way ANOVA with least significant difference test (P < 0.05) was used to determine significant effects."
+    }
+}

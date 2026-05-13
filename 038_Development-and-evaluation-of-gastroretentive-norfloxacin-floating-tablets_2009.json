@@ -1,0 +1,640 @@
+{
+    "materials_origin": {
+        "norfloxacin": "Dr. Reddy's Labs, India (generous gift sample)",
+        "HPMC_K4M": "Colorcon Asia Pvt. Ltd",
+        "HPMC_K100M": "Colorcon Asia Pvt. Ltd",
+        "xanthan_gum": "Kanwarlal Industries, India",
+        "other_chemicals": "All other chemicals used were of analytical grade."
+    },
+    "experimental_design_for_optimization": {
+        "ingredients_identification": "Tablets prepared by wet granulation technique using polymers HPMC K4M, HPMC K100M, xanthan gum, and sodium bicarbonate as gas-generating agent. Binder solution was PVP K-30 in isopropyl alcohol.",
+        "preparation_method_summary": "Dry ingredients were passed through 0.425 mm sieve, geometrically mixed, and blended. PVP K-30 binder solution in IPA was added with kneading to form homogeneous mass. Dough mass was passed through 2.0 mm sieve, granules dried at room temperature, then passed through 1.18 mm sieve. Granules were lubricated with magnesium stearate and talc, and compressed.",
+        "results_summary": "Formulations exhibited controlled drug release, non-Fickian diffusion mechanism. 038_F4 was best overall (HPMC K4M based). 038_F9 best with HPMC K100M. 038_F16 best with xanthan gum. In vivo study on 038_F4 showed gastric retention time of 180±30 min.",
+        "equation": "\\[\\frac{M_{\\mathrm{t}}}{M_{\\mathrm{m}}} = bt^n\\] (Korsmeyer-Peppas equation for release mechanism)",
+        "absorbance_wavelength": "278 nm"
+    },
+    "formulation_details": [
+        {
+            "batch": "038_F1",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 160,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 0,
+                "sodium_bicarbonate_mg": 100,
+                "DCP_mg": 10,
+                "PVP_K30_mg": 15,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F2",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 140,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 0,
+                "sodium_bicarbonate_mg": 100,
+                "DCP_mg": 20,
+                "PVP_K30_mg": 25,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F3",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 100,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 0,
+                "sodium_bicarbonate_mg": 100,
+                "DCP_mg": 55,
+                "PVP_K30_mg": 30,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F4",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 120,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 0,
+                "sodium_bicarbonate_mg": 100,
+                "DCP_mg": 35,
+                "PVP_K30_mg": 30,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F5",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 120,
+                "xanthan_gum_mg": 0,
+                "sodium_bicarbonate_mg": 80,
+                "DCP_mg": 5,
+                "PVP_K30_mg": 30,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F6",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 100,
+                "xanthan_gum_mg": 0,
+                "sodium_bicarbonate_mg": 80,
+                "DCP_mg": 25,
+                "PVP_K30_mg": 30,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F7",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 90,
+                "xanthan_gum_mg": 0,
+                "sodium_bicarbonate_mg": 80,
+                "DCP_mg": 35,
+                "PVP_K30_mg": 30,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F8",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 80,
+                "xanthan_gum_mg": 0,
+                "sodium_bicarbonate_mg": 80,
+                "DCP_mg": 45,
+                "PVP_K30_mg": 30,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F9",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 70,
+                "xanthan_gum_mg": 0,
+                "sodium_bicarbonate_mg": 80,
+                "DCP_mg": 55,
+                "PVP_K30_mg": 30,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F10",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 140,
+                "sodium_bicarbonate_mg": 120,
+                "DCP_mg": 55,
+                "PVP_K30_mg": 20,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F11",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 100,
+                "sodium_bicarbonate_mg": 120,
+                "DCP_mg": 95,
+                "PVP_K30_mg": 20,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F12",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 80,
+                "sodium_bicarbonate_mg": 120,
+                "DCP_mg": 115,
+                "PVP_K30_mg": 20,
+                "lactose_mg": 0,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F13",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 80,
+                "sodium_bicarbonate_mg": 120,
+                "DCP_mg": 65,
+                "PVP_K30_mg": 20,
+                "lactose_mg": 50,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F14",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 100,
+                "sodium_bicarbonate_mg": 120,
+                "DCP_mg": 45,
+                "PVP_K30_mg": 20,
+                "lactose_mg": 50,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F15",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 140,
+                "sodium_bicarbonate_mg": 120,
+                "DCP_mg": 5,
+                "PVP_K30_mg": 20,
+                "lactose_mg": 50,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        },
+        {
+            "batch": "038_F16",
+            "api_mg": 400,
+            "ingredients": {
+                "HPMC_K4M_mg": 0,
+                "HPMC_K100M_mg": 0,
+                "xanthan_gum_mg": 130,
+                "sodium_bicarbonate_mg": 120,
+                "DCP_mg": 15,
+                "PVP_K30_mg": 20,
+                "lactose_mg": 50,
+                "magnesium_stearate_mg": 7,
+                "talc_mg": 8
+            }
+        }
+    ],
+    "pre_compression_parameters": "Data not available in the provided article. The article discusses post-compression parameters only.",
+    "composition_of_independent_variables": "The independent variables were the types and concentrations of polymers (HPMC K4M, HPMC K100M, xanthan gum) and the inclusion of lactose (for xanthan gum formulations). Their levels are detailed in the 'ingredients' section for each batch.",
+    "ftir_information": "Data not available in the provided article.",
+    "tablet_fabrications_properties": [
+        {
+            "batch": "038_F1",
+            "hardness_kg_cm2": "9.6 ± 0.2",
+            "thickness_mm": "Range: 5.9 - 6.1 (overall range for all formulations)",
+            "friability_percent": "Range: 0.14 - 0.27 (overall range for all formulations)",
+            "mass_variation_mg": "700 ± 3 (value for 038_F4, given as representative)",
+            "drug_content_percent": "Range: 95.5 - 98.9 (overall range for all formulations)"
+        },
+        {
+            "batch": "038_F2",
+            "hardness_kg_cm2": "Between 8 - 8.6 (range for 038_F2-038_F16)",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F3",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F4",
+            "hardness_kg_cm2": "8.04 ± 0.19",
+            "thickness_mm": "6.09 ± 0.01",
+            "friability_percent": "0.21",
+            "mass_variation_mg": "700 ± 3",
+            "drug_content_percent": "97.3 ± 0.9"
+        },
+        {
+            "batch": "038_F5",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F6",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F7",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F8",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F9",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F10",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F11",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F12",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F13",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F14",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F15",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        },
+        {
+            "batch": "038_F16",
+            "hardness_kg_cm2": "8 - 8.6",
+            "thickness_mm": "5.9 - 6.1",
+            "friability_percent": "0.14 - 0.27",
+            "mass_variation_mg": "Not specified per batch",
+            "drug_content_percent": "95.5 - 98.9"
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "16-station punching machine (Rimek, India)",
+        "compression_details": "Oblong tablets of 16 mm length and 5.9-6.1 mm thickness.",
+        "coating": "None",
+        "process_conditions": "Temperature: Room temperature for drying. No other conditions specified."
+    },
+    "release_properties": [
+        {
+            "batch": "038_F1",
+            "release_percent_9h": "69.5",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "First-order (R2=0.9887), Higuchi (R2=0.9413), Zero-order (R2=0.9819), Peppas n=0.9537",
+            "de_percent": "69.7 ± 0.95",
+            "t50_h": "5.46 ± 0.04"
+        },
+        {
+            "batch": "038_F2",
+            "release_percent_9h": "82.1",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9862), First-order (R2=0.9562), Higuchi (R2=0.9578), Peppas n=0.7995",
+            "de_percent": "82.1 ± 1.3",
+            "t50_h": "4.86 ± 0.11"
+        },
+        {
+            "batch": "038_F3",
+            "release_percent_9h": "96.5 (in 8h)",
+            "release_mechanism": "Fickian diffusion (n=0.4596, <0.5)",
+            "kinetics_model": "Zero-order (R2=0.9321), First-order (R2=0.9732), Higuchi (R2=0.9565), Peppas n=0.4596",
+            "de_percent": "96.5 ± 1.2",
+            "t50_h": "3.10 ± 0.07"
+        },
+        {
+            "batch": "038_F4",
+            "release_percent_9h": "94.3 ± 1.5",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9582), First-order (R2=0.9683), Higuchi (R2=0.9820), Peppas n=0.7371",
+            "de_percent": "94.3 ± 1.9",
+            "t50_h": "3.16 ± 0.04"
+        },
+        {
+            "batch": "038_F5",
+            "release_percent_9h": "60.4",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9794), First-order (R2=0.9959), Higuchi (R2=0.9808), Peppas n=0.916",
+            "de_percent": "60.4 ± 2.1",
+            "t50_h": "6.30 ± 0.10"
+        },
+        {
+            "batch": "038_F6",
+            "release_percent_9h": "76.0",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9897), First-order (R2=0.9927), Higuchi (R2=0.9629), Peppas n=0.8975",
+            "de_percent": "76.0 ± 0.7",
+            "t50_h": "5.16 ± 0.02"
+        },
+        {
+            "batch": "038_F7",
+            "release_percent_9h": "83.7",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9875), First-order (R2=0.9452), Higuchi (R2=0.9552), Peppas n=0.803",
+            "de_percent": "83.7 ± 2.1",
+            "t50_h": "4.88 ± 0.03"
+        },
+        {
+            "batch": "038_F8",
+            "release_percent_9h": "87.4",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9843), First-order (R2=0.9790), Higuchi (R2=0.9522), Peppas n=0.7981",
+            "de_percent": "87.4 ± 1.0",
+            "t50_h": "4.20 ± 0.07"
+        },
+        {
+            "batch": "038_F9",
+            "release_percent_9h": "96.5",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9492), First-order (R2=0.9531), Higuchi (R2=0.9628), Peppas n=0.7334",
+            "de_percent": "96.5 ± 0.8",
+            "t50_h": "2.98 ± 0.18"
+        },
+        {
+            "batch": "038_F10",
+            "release_percent_9h": "66.8",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9743), First-order (R2=0.9983), Higuchi (R2=0.9768), Peppas n=0.7547",
+            "de_percent": "66.8 ± 1.8",
+            "t50_h": "5.82 ± 0.18"
+        },
+        {
+            "batch": "038_F11",
+            "release_percent_9h": "74.3",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9828), First-order (R2=0.9910), Higuchi (R2=0.9696), Peppas n=0.7845",
+            "de_percent": "74.3 ± 1.2",
+            "t50_h": "5.28 ± 0.04"
+        },
+        {
+            "batch": "038_F12",
+            "release_percent_9h": "77.8",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9723), First-order (R2=0.9811), Higuchi (R2=0.9832), Peppas n=0.6487",
+            "de_percent": "77.8 ± 2.4",
+            "t50_h": "4.80 ± 0.18"
+        },
+        {
+            "batch": "038_F13",
+            "release_percent_9h": "98.6 (in 5h)",
+            "release_mechanism": "Non-Fickian diffusion (n=0.5464, borderline)",
+            "kinetics_model": "Zero-order (R2=0.9766), First-order (R2=0.8694), Higuchi (R2=0.9744), Peppas n=0.5464",
+            "de_percent": "N/A (released 98.6% in 5h)",
+            "t50_h": "1.94 ± 0.19"
+        },
+        {
+            "batch": "038_F14",
+            "release_percent_9h": "96.3 (in 7h)",
+            "release_mechanism": "Non-Fickian diffusion (n=0.5701)",
+            "kinetics_model": "Zero-order (R2=0.9428), First-order (R2=0.9428), Higuchi (R2=0.9973), Peppas n=0.5701",
+            "de_percent": "N/A (released 96.3% in 7h)",
+            "t50_h": "2.22 ± 0.06"
+        },
+        {
+            "batch": "038_F15",
+            "release_percent_9h": "85.7",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9561), First-order (R2=0.9686), Higuchi (R2=0.9892), Peppas n=0.6341",
+            "de_percent": "85.7 ± 1.6",
+            "t50_h": "3.77 ± 0.18"
+        },
+        {
+            "batch": "038_F16",
+            "release_percent_9h": "93.4",
+            "release_mechanism": "Non-Fickian diffusion",
+            "kinetics_model": "Zero-order (R2=0.9421), First-order (R2=0.9900), Higuchi (R2=0.9841), Peppas n=0.6828",
+            "de_percent": "93.4 ± 1.6",
+            "t50_h": "3.06 ± 0.09"
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "038_F1",
+            "lag_time_seconds": "70 ± 8",
+            "total_floating_time_h": "23.65 ± 0.25",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F2",
+            "lag_time_seconds": "55 ± 8",
+            "total_floating_time_h": "24.05 ± 0.30",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F3",
+            "lag_time_seconds": "60 ± 4",
+            "total_floating_time_h": "23.30 ± 0.22",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F4",
+            "lag_time_seconds": "35 ± 4",
+            "total_floating_time_h": "23.45 ± 0.16",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F5",
+            "lag_time_seconds": "50 ± 2",
+            "total_floating_time_h": "24.25 ± 0.15",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F6",
+            "lag_time_seconds": "35 ± 1",
+            "total_floating_time_h": "24.10 ± 0.35",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F7",
+            "lag_time_seconds": "30 ± 2",
+            "total_floating_time_h": "23.35 ± 0.19",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F8",
+            "lag_time_seconds": "25 ± 2",
+            "total_floating_time_h": "24.40 ± 0.10",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F9",
+            "lag_time_seconds": "25 ± 2",
+            "total_floating_time_h": "23.45 ± 0.20",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F10",
+            "lag_time_seconds": "1860 ± 29",
+            "total_floating_time_h": "23.35 ± 0.27",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F11",
+            "lag_time_seconds": "1500 ± 24",
+            "total_floating_time_h": "23.50 ± 0.26",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F12",
+            "lag_time_seconds": "1380 ± 16",
+            "total_floating_time_h": "24.20 ± 0.19",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F13",
+            "lag_time_seconds": "510 ± 4",
+            "total_floating_time_h": "23.37 ± 0.29",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F14",
+            "lag_time_seconds": "540 ± 10",
+            "total_floating_time_h": "23.40 ± 0.09",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F15",
+            "lag_time_seconds": "600 ± 11",
+            "total_floating_time_h": "23.35 ± 0.15",
+            "swelling_index": "Not available"
+        },
+        {
+            "batch": "038_F16",
+            "lag_time_seconds": "570 ± 4",
+            "total_floating_time_h": "23.45 ± 0.12",
+            "swelling_index": "Not available"
+        }
+    ],
+    "experimental_data": {
+        "in_vitro_studies": "Drug release conducted using USP 28 type II (paddle) apparatus in 750 mL HCl (pH 1.2) at 37±0.5°C, 50 rpm. Samples analyzed at 278 nm.",
+        "in_vivo_studies": "Radiographic study on 4 healthy male volunteers (25±2 years, 55-75 kg) using BaSO4-loaded 038_F4 tablets. Tablets remained in stomach for 180±30 min.",
+        "statistical_analysis": "Dissolution profile comparison using f1/f2 factors. f2 values for optimized batches vs. theoretical profile: 038_F4 (66), 038_F9 (63), 038_F16 (63).",
+        "similarity_factor_f2": {
+            "038_F4": 66,
+            "038_F9": 63,
+            "038_F16": 63
+        },
+        "difference_factor_f1": {
+            "038_F4": 7,
+            "038_F9": 9,
+            "038_F16": 9
+        }
+    }
+}

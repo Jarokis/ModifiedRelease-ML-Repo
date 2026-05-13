@@ -1,0 +1,349 @@
+{
+  "article_metadata": {
+    "title": "Bilayer tablets with sustained‑release metformin and immediate‑release sitagliptin: preparation and in vitro/in vivo evaluation",
+    "journal": "Journal of Pharmaceutical Investigation",
+    "year": 2021,
+    "doi": "10.1007/s40005-021-00533-z",
+    "authors": [
+      "Ngoc Nha Thao Nguyen",
+      "Duy Toan Pham",
+      "Duc Tuan Nguyen",
+      "Thi Thu Loan Trinh"
+    ],
+    "reference_product": "Janumet XR 50/500 mg",
+    "source": "[attached_file:1]"
+  },
+  "section_index": {
+    "abstract": "Purpose, methods overview, headline in vitro/in vivo results, conclusion [attached_file:1]",
+    "introduction": "Clinical context, rationale, limitations of coating, prior reports [attached_file:1]",
+    "materials_and_methods": "Materials origin, preparation of each layer, bilayer compression, dissolution/HPLC, LC–MS/MS, DoE [attached_file:1]",
+    "results_and_discussion": "Optimization (DoE), tablet quality, stability, release profiles and f2, excipient effects [attached_file:1]",
+    "conclusion": "Performance summary and bioequivalence statement [attached_file:1]"
+  },
+  "materials_origin": {
+    "metformin_hydrochloride": "Vistin Pharma Co., Ltd. (Norway) [attached_file:1]",
+    "sitagliptin_phosphate_monohydrate": "Harman Co., Ltd. (India) [attached_file:1]",
+    "standards": {
+      "metformin_standard": "Institute of Drug Quality Control Ho Chi Minh City (92.20%) [attached_file:1]",
+      "phenformin_internal_standard": "Institute of Drug Quality Control Ho Chi Minh City (95.00%) [attached_file:1]",
+      "sitagliptin_standard": "Sigma Aldrich (USA, 95.00%) [attached_file:1]"
+    },
+    "excipients": {
+      "HPMC_K100M": "Dow Chemical Co. (USA) [attached_file:1]",
+      "magnesium_stearate": "Mingtai Co., Ltd. (Taiwan) [attached_file:1]",
+      "microcrystalline_cellulose_Avicel_PH_101": "Mingtai Co., Ltd. (Taiwan) [attached_file:1]",
+      "PVP_K30_and_K90": "ISP, Ltd. (USA) [attached_file:1]"
+    },
+    "grades": "Other excipients ≥ analytical grade; HPLC solvents chromatographic grade [attached_file:1]"
+  },
+  "experimental_design_for_optimization": {
+    "design": "D-optimal design (Design-Expert, Stat-Ease) [attached_file:1]",
+    "independent_variables": [
+      { "name": "HPMC K100M (amount)", "levels": ["-1","0","1"], "type": "numeric [attached_file:1]" },
+      { "name": "Carbopol (amount)", "levels": ["-1","0","1"], "type": "numeric [attached_file:1]" },
+      { "name": "Water amount in wet granulation", "levels": ["-1","1"], "type": "numeric [attached_file:1]" }
+    ],
+    "responses": [
+      "% MH released at 1 h",
+      "% MH released at 2 h",
+      "% MH released at 6 h",
+      "% MH released at 10 h"
+    ],
+    "runs": 14,
+    "selection_criterion": "Similarity to Janumet XR dissolution (f2 > 50) and acceptable tablet properties [attached_file:1]"
+  },
+  "ingredients_identification": {
+    "dissolution_assay_detection": {
+      "technique": "HPLC-UV at 265 nm (Hitachi L-2000) [attached_file:1]",
+      "column": "Phenomenex Luna RP-C8, 4.6×250 mm, 5 µm [attached_file:1]",
+      "mobile_phase": "5 mM sodium laureth sulfate with 0.1% triethylamine (pH 4.0 with phosphoric acid):methanol 30:70 v/v [attached_file:1]",
+      "flow_rate_mL_per_min": 1.0
+    },
+    "bioanalytical_quantification": {
+      "technique": "LC–MS/MS (Triple Quadrupole Xevo, ESI+), MRM [attached_file:1]",
+      "column": "Gemini C18, 250×4 mm, 5 µm [attached_file:1]",
+      "mobile_phase": "0.1% formic acid:methanol 45:55 v/v, 1.0 mL/min, 10 µL injection [attached_file:1]",
+      "ion_transitions_mz": {
+        "metformin": "130 → 71 [attached_file:1]",
+        "sitagliptin": "408 → 235 [attached_file:1]",
+        "phenformin_IS": "206 → 105 [attached_file:1]"
+      },
+      "calibration": {
+        "metformin": "y = 0.01175x − 0.05701, R^2 = 0.9987, range 5–3200 ng/mL [attached_file:1]",
+        "sitagliptin": "y = 0.23278x − 0.00077, R^2 = 0.9968, range 1–799 ng/mL [attached_file:1]"
+      },
+      "source": "[attached_file:1]"
+    },
+    "similarity_factor_equation_LaTeX": "\\[ f_2 = 50 \\times \\log\\left\\{\\left(1 + \\frac{1}{n} \\sum_{t=1}^{n} (R_t - T_t)^2 \\right)^{-0.5} \\times 100\\right\\} \\]",
+    "notes": "Absorbance per se not reported; quantification based on HPLC-UV area and LC–MS/MS MRM [attached_file:1]"
+  },
+  "formulation_details_per_layer_optimal_batch": {
+    "metformin_layer_sustained_release": {
+      "ingredients_mg_per_tablet": [
+        { "name": "Metformin HCl", "amount_mg": 500.00 },
+        { "name": "HPMC K100M", "amount_mg": 246.00 },
+        { "name": "Carbopol", "amount_mg": 81.00 },
+        { "name": "PVP K30", "amount_mg": 60.00 },
+        { "name": "Magnesium stearate", "amount_mg": 10.00 },
+        { "name": "Aerosil (fumed silica)", "amount_mg": 5.00 },
+        { "name": "Avicel PH-101", "amount_mg": 68.00 }
+      ],
+      "layer_total_mass_mg": 970.00,
+      "source": "[attached_file:1]"
+    },
+    "sitagliptin_layer_immediate_release": {
+      "ingredients_mg_per_tablet": [
+        { "name": "Sitagliptin (equivalent)", "amount_mg": 50.00 },
+        { "name": "Ludipress", "amount_mg": 50.00 },
+        { "name": "Sodium starch glycolate", "amount_mg": 15.00 },
+        { "name": "PVP K90", "amount_mg": 30.00 },
+        { "name": "Magnesium stearate", "amount_mg": 2.50 },
+        { "name": "Aerosil (fumed silica)", "amount_mg": 0.50 },
+        { "name": "A-tab", "amount_mg": 137.75 }
+      ],
+      "layer_total_mass_mg": 285.75,
+      "source": "[attached_file:1]"
+    },
+    "bilayer_total_mass_mg": 1255.75,
+    "notes": "Table 1 lists only the optimal composition; other DoE trial compositions are in Supplementary Data [attached_file:1]"
+  },
+  "pre_compression_parameters": {
+    "metformin_layer": {
+      "mass_distribution": null,
+      "hardness": null,
+      "friability": null,
+      "size_dimensions_mm": null,
+      "notes": "Not reported separately for individual layers [attached_file:1]"
+    },
+    "sitagliptin_layer": {
+      "mass_distribution": null,
+      "hardness": null,
+      "friability": null,
+      "size_dimensions_mm": null,
+      "notes": "Not reported separately for individual layers [attached_file:1]"
+    },
+    "bilayer_tablet": {
+      "shape": "Caplet (oval) [attached_file:1]",
+      "die_dimensions_mm": { "length": 19, "width": 11 },
+      "hardness_N_mean_SD": "183 ± 18 (n=10) [attached_file:1]",
+      "friability_percent_mean_SD": "0.19 ± 0.01 (n=10) [attached_file:1]",
+      "content_uniformity_percent": "100 ± 5 (n=20) [attached_file:1]"
+    }
+  },
+  "independent_variables_and_levels": {
+    "variables": [
+      { "name": "HPMC K100M amount", "levels": ["-1","0","1"] },
+      { "name": "Carbopol amount", "levels": ["-1","0","1"] },
+      { "name": "Water amount in wet granulation", "levels": ["-1","1"] }
+    ],
+    "responses": ["MH % release at 1 h", "2 h", "6 h", "10 h"],
+    "runs": 14,
+    "design": "D-optimal",
+    "software": "Design-Expert (Stat-Ease)",
+    "source": "[attached_file:1]"
+  },
+  "ftir_measurements": {
+    "status": "Not reported in this study",
+    "source": "[attached_file:1]"
+  },
+  "tablet_fabrications_measurements": {
+    "per_layer": {
+      "metformin_layer": {
+        "hardness": null,
+        "friability": null,
+        "weight_variation": null,
+        "thickness_diameter": null,
+        "density": null,
+        "drug_content": null,
+        "consolidation_index": null,
+        "notes": "Measurements reported for final bilayer only [attached_file:1]"
+      },
+      "sitagliptin_layer": {
+        "hardness": null,
+        "friability": null,
+        "weight_variation": null,
+        "thickness_diameter": null,
+        "density": null,
+        "drug_content": null,
+        "consolidation_index": null,
+        "notes": "Measurements reported for final bilayer only [attached_file:1]"
+      }
+    },
+    "bilayer_tablet": {
+      "hardness_N_mean_SD": "183 ± 18 (n=10) [attached_file:1]",
+      "friability_percent_mean_SD": "0.19 ± 0.01 (n=10) [attached_file:1]",
+      "weight_variation_percent": null,
+      "thickness_diameter_mm": "Die: 19×11 (final thickness not separately reported) [attached_file:1]",
+      "density": null,
+      "drug_content_uniformity_percent": "100 ± 5 (n=20) [attached_file:1]"
+    }
+  },
+  "process_parameters": {
+    "wet_granulation_metformin_layer": {
+      "sieving": "0.3 mm pre-sieve of powders; wet mass pressed through 0.8 mm screen [attached_file:1]",
+      "binder_solution": "10% w/w PVP K30 in 70% ethanol [attached_file:1]",
+      "drying": "60 °C for 6 h [attached_file:1]",
+      "post_dry_blend": "Sieving 0.8 mm, then blend with carbopol, magnesium stearate, Aerosil [attached_file:1]"
+    },
+    "direct_compression_sitagliptin_layer": {
+      "sieving": "SG and sodium starch glycolate through 0.3 mm [attached_file:1]",
+      "blending": "With Ludipress, A‑tab, PVP K90 in cube mixer; add magnesium stearate and Aerosil [attached_file:1]"
+    },
+    "bilayer_compression": {
+      "machine": "2‑layer tablet press (N.R.Narongkarnchang, Thailand) [attached_file:1]",
+      "die": "Caplet L 19 mm × W 11 mm [attached_file:1]",
+      "first_compression": "Metformin layer to intermediate tablet at 7 ± 2 kg/cm² [attached_file:1]",
+      "final_compression": "Add SG layer and compress at 18 ± 3 kg/cm² [attached_file:1]",
+      "coating": "None (bilayer avoids SG coating) [attached_file:1]"
+    },
+    "dissolution_test": {
+      "apparatus": "USP Apparatus I (basket), Pharmatest [attached_file:1]",
+      "media": ["pH 1.2 HCl", "pH 4.5 phosphate buffer", "pH 6.8 phosphate buffer"],
+      "volume_mL": 1000,
+      "rotation_rpm": 100,
+      "temperature_C": "37 ± 0.5",
+      "sampling_times": {
+        "sitagliptin": ["5 min", "15 min", "30 min"],
+        "metformin": ["1 h", "2 h", "6 h", "10 h"]
+      },
+      "filtration": "0.45 µm membrane [attached_file:1]",
+      "HPLC_detection": "UV 265 nm with conditions as above [attached_file:1]"
+    },
+    "bioanalytical_LC_MS_MS": {
+      "instrument": "Triple Quadrupole Mass Spectrometer Xevo (ESI+, MRM) [attached_file:1]",
+      "key_settings": {
+        "interface_voltage_V": 40,
+        "desolvation_line_temperature_C": 500,
+        "nebulizer_gas_flow_L_per_h": 1000,
+        "dwell_time_s": 0.02,
+        "collision_voltage_eV": { "MH": 20, "SG": 18, "phenformin": 18 }
+      },
+      "pharmacokinetic_software": "WinNonlin Equiv Test PK (Certara) [attached_file:1]"
+    }
+  },
+  "release_properties": {
+    "sitagliptin_immediate_release": {
+      "design_goal": ">95% within 30 min (pH 1.2) achieved [attached_file:1]",
+      "release_percent_mean_SD": {
+        "pH_1_2": {
+          "5_min": { "test": "15.06 ± 7.32", "reference": "14.26 ± 5.46" },
+          "15_min": { "test": "59.39 ± 4.09", "reference": "68.58 ± 2.58" },
+          "30_min": { "test": "98.86 ± 6.21", "reference": "99.36 ± 3.21" }
+        },
+        "pH_4_5": {
+          "5_min": { "test": "16.22 ± 4.13", "reference": "14.00 ± 3.41" },
+          "15_min": { "test": "58.84 ± 3.54", "reference": "67.43 ± 3.86" },
+          "30_min": { "test": "99.74 ± 0.85", "reference": "99.02 ± 2.11" }
+        },
+        "pH_6_8": {
+          "5_min": { "test": "17.09 ± 4.44", "reference": "12.82 ± 6.13" },
+          "15_min": { "test": "54.56 ± 4.09", "reference": "63.57 ± 5.59" },
+          "30_min": { "test": "98.11 ± 2.84", "reference": "94.32 ± 3.44" }
+        }
+      },
+      "f2_similarity": { "pH_1_2": 63.30, "pH_4_5": 64.05, "pH_6_8": 60.26 },
+      "kinetics_modeling": "Not modeled (no zero/first-order/Korsmeyer–Peppas fits reported) [attached_file:1]"
+    },
+    "metformin_sustained_release": {
+      "design_goal": "Sustain release ~10 h (pH 6.8) achieved [attached_file:1]",
+      "release_percent_mean_SD": {
+        "pH_1_2": {
+          "1_h": { "test": "32.19 ± 6.37", "reference": "30.53 ± 9.11" },
+          "2_h": { "test": "48.12 ± 2.23", "reference": "50.34 ± 6.26" },
+          "6_h": { "test": "78.84 ± 3.49", "reference": "86.38 ± 5.25" },
+          "10_h": { "test": "97.14 ± 2.83", "reference": "100.27 ± 4.37" }
+        },
+        "pH_4_5": {
+          "1_h": { "test": "32.26 ± 3.28", "reference": "28.02 ± 5.11" },
+          "2_h": { "test": "47.53 ± 1.85", "reference": "47.71 ± 5.20" },
+          "6_h": { "test": "80.77 ± 4.85", "reference": "85.02 ± 4.46" },
+          "10_h": { "test": "99.42 ± 3.87", "reference": "102.99 ± 2.41" }
+        },
+        "pH_6_8": {
+          "1_h": { "test": "31.43 ± 6.48", "reference": "28.51 ± 7.48" },
+          "2_h": { "test": "47.93 ± 7.55", "reference": "46.59 ± 5.91" },
+          "6_h": { "test": "80.75 ± 5.32", "reference": "81.63 ± 6.61" },
+          "10_h": { "test": "97.27 ± 1.72", "reference": "99.20 ± 2.95" }
+        }
+      },
+      "f2_similarity": { "pH_1_2": 67.50, "pH_4_5": 71.95, "pH_6_8": 83.19 },
+      "mechanistic_factors": "HPMC K100M slight pre-swelling via limited water in granulation traps MH; carbopol forms outer gel retarding early release [attached_file:1]"
+    },
+    "excipient_effects_at_pH_6_8": {
+      "without_carbopol": {
+        "1_h": "43.25 ± 4.37",
+        "2_h": "56.19 ± 3.23",
+        "6_h": "81.04 ± 6.82",
+        "10_h": "98.30 ± 2.15"
+      },
+      "with_carbopol": {
+        "1_h": "31.43 ± 6.48",
+        "2_h": "47.93 ± 7.55",
+        "6_h": "80.75 ± 5.32",
+        "10_h": "97.27 ± 1.72"
+      },
+      "interpretation": "Carbopol further sustains MH release, notably at 1–2 h [attached_file:1]"
+    }
+  },
+  "tablet_properties": {
+    "per_layer": {
+      "sitagliptin_layer": {
+        "hardness": null,
+        "friability": null,
+        "disintegration_time": null,
+        "stability": null,
+        "thickness": null,
+        "weight_variation_percent": null
+      },
+      "metformin_layer": {
+        "hardness": null,
+        "friability": null,
+        "disintegration_time": null,
+        "stability": null,
+        "thickness": null,
+        "weight_variation_percent": null
+      }
+    },
+    "bilayer_tablet": {
+      "hardness_N_mean_SD": "183 ± 18",
+      "friability_percent_mean_SD": "0.19 ± 0.01",
+      "dissolution_profile": "See release_properties [attached_file:1]",
+      "stability": "Physicochemically stable at room temperature for ≥1 year [attached_file:1]",
+      "thickness": null,
+      "weight_variation_percent": null,
+      "notes": "Disintegration time and swelling/floating not applicable/reported [attached_file:1]"
+    }
+  },
+  "experimental_data": {
+    "in_vitro": {
+      "dissolution_tables": "Full values as in release_properties (Table 2) [attached_file:1]",
+      "similarity_factors_f2": {
+        "sitagliptin": { "pH_1_2": 63.30, "pH_4_5": 64.05, "pH_6_8": 60.26 },
+        "metformin": { "pH_1_2": 67.50, "pH_4_5": 71.95, "pH_6_8": 83.19 }
+      },
+      "kinetic_models": "Zero/first-order/Hixson–Crowell/Korsmeyer–Peppas not reported [attached_file:1]"
+    },
+    "in_vivo_bioequivalence": {
+      "design": "Open-label, randomized, single-dose, two-period crossover; n=14 healthy adults; fasting; 14-day washout [attached_file:1]",
+      "safety": "Well-tolerated; no withdrawals [attached_file:1]",
+      "PK_parameters_mean_SD": {
+        "metformin_test": { "Cmax_ng_per_mL": "707.3 ± 114.7", "Tmax_h": "5.2 ± 1.5", "t_half_h": "5.76 ± 1.62", "AUC0_t_h_ng_per_mL": "6137.4 ± 816.1", "AUC0_inf_h_ng_per_mL": "6225.5 ± 825.1" },
+        "metformin_reference": { "Cmax_ng_per_mL": "741.1 ± 124.0", "Tmax_h": "5.4 ± 1.5", "t_half_h": "5.53 ± 1.04", "AUC0_t_h_ng_per_mL": "6951.2 ± 1632.1", "AUC0_inf_h_ng_per_mL": "7020.2 ± 1646.0" },
+        "metformin_T_over_R_percent": { "Cmax": 95.44, "Tmax": 96.30, "t_half": 104.16, "AUC0_t": 88.29, "AUC0_inf": 88.68 },
+        "sitagliptin_test": { "Cmax_ng_per_mL": "216.3 ± 52.1", "Tmax_h": "2.9 ± 1.2", "t_half_h": "8.71 ± 1.96", "AUC0_t_h_ng_per_mL": "1885.3 ± 226.8", "AUC0_inf_h_ng_per_mL": "1920.0 ± 234.1" },
+        "sitagliptin_reference": { "Cmax_ng_per_mL": "200.7 ± 46.6", "Tmax_h": "3.5 ± 1.7", "t_half_h": "8.63 ± 1.85", "AUC0_t_h_ng_per_mL": "1857.4 ± 307.9", "AUC0_inf_h_ng_per_mL": "1888.3 ± 311.9" },
+        "sitagliptin_T_over_R_percent": { "Cmax": 107.77, "Tmax": 82.86, "t_half": 100.93, "AUC0_t": 101.50, "AUC0_inf": 101.68 }
+      },
+      "bioequivalence_criterion": "T/R ratios within 80–120% satisfied [attached_file:1]"
+    },
+    "statistics": {
+      "methods": ["One-way ANOVA", "Student’s t-test", "Wilcoxon test for Tmax"],
+      "significance_threshold": "p < 0.05 [attached_file:1]"
+    }
+  },
+  "additional_notes": [
+    "The bilayer approach avoids solvent/heat steps of SG coating, reducing risk of polymorphic change and oxidative degradation [attached_file:1]",
+    "No FTIR, swelling/floating, or classical kinetic model fitting reported [attached_file:1]"
+  ],
+  "source": "[attached_file:1]"
+}

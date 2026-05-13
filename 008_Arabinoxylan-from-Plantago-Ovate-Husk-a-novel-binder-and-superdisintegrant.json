@@ -1,0 +1,523 @@
+{
+    "source": "",
+    "article_sections": {
+        "abstract": "Present; includes aims, formulations (atenolol/atorvastatin ODTs 008_F1–008_F6; metformin tablets 008_F1–008_F3), evaluation tests, and key findings on disintegration and release.",
+        "introduction": "Present; covers roles of excipients, Plantago ovata arabinoxylan, and rationale for ODTs of atenolol/atorvastatin and metformin tablets.",
+        "materials": "Present under Materials and Methods; lists API sources, excipient sources, and isolation of arabinoxylan.",
+        "methods": "Present; includes arabinoxylan isolation, tablet preparation (direct compression for ODTs; wet granulation for metformin), FTIR, pre- and post-compression tests, dissolution conditions and UV wavelengths.",
+        "results_and_discussion": "Present; reports FTIR compatibility, flow indices, tablet properties, wetting/absorption, and dissolution outcomes with figures and tables.",
+        "conclusion": "Implied in discussion; arabinoxylan functions as an effective binder and superdisintegrant, outperforming husk and SSG in several tests."
+    },
+    "materials_origin": {
+        "apis": "Atenolol, atorvastatin, and metformin obtained as gifts from Warrick Pharmaceuticals, Islamabad, Pakistan.",
+        "arabinoxylan_source": "Ispaghula (Plantago ovata) husk purchased from local market in Sargodha, Pakistan.",
+        "other_excipients": "Sodium starch glycolate, talc, microcrystalline cellulose, saccharin sodium, starch, magnesium stearate; analytical grade."
+    },
+    "experimental_design_for_optimization": {
+        "design_type": "Comparative formulations; no formal factorial/RSM optimization reported.",
+        "independent_factors": "Type and level of superdisintegrant in ODTs (arabinoxylan 12/9/6 mg; ispaghula husk 12 mg; sodium starch glycolate 12 mg); binder type in metformin (starch vs arabinoxylan; arabinoxylan also as superdisintegrant).",
+        "dependent_responses": "Flow indices, hardness, thickness, diameter, friability, weight variation, disintegration time, wetting time, water absorption ratio, dissolution profile."
+    },
+    "ingredients_identification": {
+        "arabinoxylan_isolation": {
+            "procedure": "100 g husk soaked overnight in 5 L water; pH adjusted to 12 with 2.5% NaOH; husk removed; gel coagulated with conc. acetic acid to pH 3; washed to constant pH and freeze-dried ~1 week; yield ~45% gel.",
+            "reference_method": "Method of Saghir et al. (2008) for arabinoxylan isolation referenced by authors."
+        },
+        "uv_vis_assay_conditions": {
+            "atenolol_lambda_max_nm": 243,
+            "atorvastatin_lambda_max_nm": 225,
+            "metformin_lambda_max_nm": 233,
+            "notes": "Samples filtered/diluted; quantified during dissolution testing in pH 6.8 buffer."
+        },
+        "equations_and_measurements": {
+            "bulk_density": "ρ_bulk = M / V0 (USP Method I).",
+            "tapped_density": "ρ_tapped = M / Vf (USP Method I; final volume after tapping).",
+            "compressibility_index_carr": "CI = 100 × (V0 − Vf) / V0 [%].",
+            "hausner_ratio": "HR = Vf / V0.",
+            "angle_of_repose": "tan(θ) = 2h / D (fixed funnel method).",
+            "water_absorption_ratio": "AR = (Wa − Wb) / Wb."
+        }
+    },
+    "formulation_details": {
+        "atenolol_atorvastatin_tablets": {
+            "total_tablet_weight_mg": 150,
+            "008_F1": {
+                "API": {
+                    "atenolol_mg": 50,
+                    "atorvastatin_calcium_mg": 5
+                },
+                "excipients_mg": {
+                    "arabinoxylan": 12,
+                    "ispaghula_husk": 0,
+                    "sodium_starch_glycolate": 0,
+                    "microcrystalline_cellulose": 76,
+                    "magnesium_stearate": 2,
+                    "talc": 2,
+                    "saccharin_sodium": 3
+                },
+                "note": "Direct compression ODT."
+            },
+            "008_F2": {
+                "API": {
+                    "atenolol_mg": 50,
+                    "atorvastatin_calcium_mg": 5
+                },
+                "excipients_mg": {
+                    "arabinoxylan": 9,
+                    "ispaghula_husk": 0,
+                    "sodium_starch_glycolate": 0,
+                    "microcrystalline_cellulose": 79,
+                    "magnesium_stearate": 2,
+                    "talc": 2,
+                    "saccharin_sodium": 3
+                },
+                "note": "Direct compression ODT."
+            },
+            "008_F3": {
+                "API": {
+                    "atenolol_mg": 50,
+                    "atorvastatin_calcium_mg": 5
+                },
+                "excipients_mg": {
+                    "arabinoxylan": 6,
+                    "ispaghula_husk": 0,
+                    "sodium_starch_glycolate": 0,
+                    "microcrystalline_cellulose": 82,
+                    "magnesium_stearate": 2,
+                    "talc": 2,
+                    "saccharin_sodium": 3
+                },
+                "note": "Direct compression ODT."
+            },
+            "008_F4": {
+                "API": {
+                    "atenolol_mg": 50,
+                    "atorvastatin_calcium_mg": 5
+                },
+                "excipients_mg": {
+                    "arabinoxylan": 0,
+                    "ispaghula_husk": 12,
+                    "sodium_starch_glycolate": 0,
+                    "microcrystalline_cellulose": 76,
+                    "magnesium_stearate": 2,
+                    "talc": 2,
+                    "saccharin_sodium": 3
+                },
+                "note": "Direct compression ODT; husk as superdisintegrant."
+            },
+            "008_F5": {
+                "API": {
+                    "atenolol_mg": 50,
+                    "atorvastatin_calcium_mg": 5
+                },
+                "excipients_mg": {
+                    "arabinoxylan": 0,
+                    "ispaghula_husk": 0,
+                    "sodium_starch_glycolate": 12,
+                    "microcrystalline_cellulose": 76,
+                    "magnesium_stearate": 2,
+                    "talc": 2,
+                    "saccharin_sodium": 3
+                },
+                "note": "Direct compression ODT; SSG as superdisintegrant."
+            },
+            "008_F6": {
+                "API": {
+                    "atenolol_mg": 50,
+                    "atorvastatin_calcium_mg": 5
+                },
+                "excipients_mg": {
+                    "arabinoxylan": 0,
+                    "ispaghula_husk": 0,
+                    "sodium_starch_glycolate": 0,
+                    "microcrystalline_cellulose": 82,
+                    "magnesium_stearate": 2,
+                    "talc": 2,
+                    "saccharin_sodium": 3
+                },
+                "note": "Formulation listed in table; no superdisintegrant specified; no evaluation data reported in result tables."
+            }
+        },
+        "metformin_tablets": {
+            "total_tablet_weight_mg": 650,
+            "008_M1": {
+                "API": {
+                    "metformin_mg": 500
+                },
+                "excipients_mg": {
+                    "starch_binder": 31.25,
+                    "arabinoxylan_binder": 0,
+                    "arabinoxylan_superdisintegrant": 0,
+                    "sodium_starch_glycolate": 12.5,
+                    "microcrystalline_cellulose": 93.75,
+                    "magnesium_stearate": 6.25
+                },
+                "note": "Wet granulation; starch as binder, SSG as superdisintegrant."
+            },
+            "008_M2": {
+                "API": {
+                    "metformin_mg": 500
+                },
+                "excipients_mg": {
+                    "starch_binder": 0,
+                    "arabinoxylan_binder": 31.25,
+                    "arabinoxylan_superdisintegrant": 0,
+                    "sodium_starch_glycolate": 12.5,
+                    "microcrystalline_cellulose": 93.75,
+                    "magnesium_stearate": 6.25
+                },
+                "note": "Wet granulation; arabinoxylan as binder, SSG as superdisintegrant."
+            },
+            "008_M3": {
+                "API": {
+                    "metformin_mg": 500
+                },
+                "excipients_mg": {
+                    "starch_binder": 0,
+                    "arabinoxylan_binder": 31.25,
+                    "arabinoxylan_superdisintegrant": 12.5,
+                    "sodium_starch_glycolate": 0,
+                    "microcrystalline_cellulose": 93.75,
+                    "magnesium_stearate": 6.25
+                },
+                "note": "Wet granulation; arabinoxylan as binder and superdisintegrant."
+            }
+        }
+    },
+    "pre_compression_parameters": {
+        "atenolol_atorvastatin": {
+            "008_F1": {
+                "bulk_density_g_ml": "0.38 ± 0.01",
+                "tapped_density_g_ml": "0.50 ± 0.01",
+                "angle_of_repose_deg": "40 ± 1",
+                "hausner_ratio": "1.31",
+                "carr_index_percent": "24.00",
+                "notes": "Passable flow per USP scale (as discussed) "
+            },
+            "008_F2": {
+                "bulk_density_g_ml": "0.38 ± 0.00",
+                "tapped_density_g_ml": "0.50 ± 0.01",
+                "angle_of_repose_deg": "36 ± 1",
+                "hausner_ratio": "1.31",
+                "carr_index_percent": "24.00",
+                "notes": "Passable flow per USP scale (as discussed) "
+            },
+            "008_F3": {
+                "bulk_density_g_ml": "0.38 ± 0.00",
+                "tapped_density_g_ml": "0.50 ± 0.01",
+                "angle_of_repose_deg": "38 ± 0.5",
+                "hausner_ratio": "1.31",
+                "carr_index_percent": "24.00",
+                "notes": "Passable flow per USP scale (as discussed) "
+            },
+            "008_F4": {
+                "bulk_density_g_ml": "0.38 ± 0.01",
+                "tapped_density_g_ml": "0.54 ± 0.01",
+                "angle_of_repose_deg": "44 ± 2",
+                "hausner_ratio": "1.42",
+                "carr_index_percent": "29.62",
+                "notes": "Poor flow per discussion "
+            },
+            "008_F5": {
+                "bulk_density_g_ml": "0.35 ± 0.01",
+                "tapped_density_g_ml": "0.53 ± 0.01",
+                "angle_of_repose_deg": "50 ± 0.5",
+                "hausner_ratio": "1.51",
+                "carr_index_percent": "33.96",
+                "notes": "Poor flow per discussion "
+            },
+            "008_F6": {
+                "bulk_density_g_ml": "not reported",
+                "tapped_density_g_ml": "not reported",
+                "angle_of_repose_deg": "not reported",
+                "hausner_ratio": "not reported",
+                "carr_index_percent": "not reported",
+                "notes": "No precompression table entry provided for 008_F6 "
+            }
+        },
+        "metformin": {
+            "008_M1": {
+                "bulk_density_g_ml": "0.35 ± 0.01",
+                "tapped_density_g_ml": "0.39 ± 0.01",
+                "angle_of_repose_deg": "34 ± 2",
+                "hausner_ratio": "1.10",
+                "carr_index_percent": "9.09",
+                "notes": "Good flow as discussed "
+            },
+            "008_M2": {
+                "bulk_density_g_ml": "0.52 ± 0.00",
+                "tapped_density_g_ml": "0.58 ± 0.01",
+                "angle_of_repose_deg": "36 ± 0.5",
+                "hausner_ratio": "1.10",
+                "carr_index_percent": "10.00",
+                "notes": "Good flow as discussed "
+            },
+            "008_M3": {
+                "bulk_density_g_ml": "0.45 ± 0.01",
+                "tapped_density_g_ml": "0.60 ± 0.00",
+                "angle_of_repose_deg": "41 ± 1",
+                "hausner_ratio": "1.33",
+                "carr_index_percent": "25.00",
+                "notes": "Passable flow as discussed "
+            }
+        }
+    },
+    "independent_variables_and_levels": {
+        "odt_superdisintegrant_type": [
+            "arabinoxylan",
+            "ispaghula_husk",
+            "sodium_starch_glycolate",
+            "none (008_F6) "
+        ],
+        "odt_superdisintegrant_level_mg": [
+            "12",
+            "9",
+            "6",
+            "12 (husk)",
+            "12 (SSG)",
+            "0 (008_F6) "
+        ],
+        "metformin_binder_type": [
+            "starch (008_M1)",
+            "arabinoxylan (008_M2, 008_M3) "
+        ],
+        "metformin_superdisintegrant_type": [
+            "sodium_starch_glycolate (008_M1, 008_M2)",
+            "arabinoxylan (008_M3) "
+        ]
+    },
+    "ftir": {
+        "method": "KBr pellet method; 2 mg sample in 200 mg KBr, pressed at 150 kg/cm^2; spectra recorded for pure atenolol, atorvastatin, metformin and their physical mixtures with arabinoxylan.",
+        "result": "No band shifts or additional peaks observed, indicating compatibility between arabinoxylan and APIs."
+    },
+    "tablet_fabrication_and_tests": {
+        "fabrication": {
+            "atenolol_atorvastatin": "Direct compression; all ingredients passed through mesh 60, blended by tumbling; compressed with 8 mm round flat punches on 10‑station rotary tablet machine.",
+            "metformin": "Wet granulation; sieved (1.0 mm), mixed 10 min; water granulated; granulated through 2.5 mm (25 mm likely typo?) screen; oven-dried at 40°C for 1 h; resized to 1 mm; 1% w/w superdisintegrant and 2% w/w lubricant added; compression."
+        },
+        "equipment_and_conditions": {
+            "weight_variation": "20 tablets; Shimadzu electronic balance; acceptance ranges noted (±7.5 mg for ODTs; 5% for metformin).",
+            "hardness": "Digital hardness tester (Pharma Test, Germany); mean of three tablets.",
+            "thickness_diameter": "Digital apparatus (Pharma Test, Germany); vertical placement; read from screen.",
+            "friability": "Roche friabilator (Pharma Test, Germany); 25 rpm, 4 min; weight loss calculated; spec <1%.",
+            "disintegration": "Pharma Test disintegration apparatus; buffer pH 6.8 at 37±2°C; time to complete disintegration recorded.",
+            "wetting_absorption": "Modified Doijad method; eosin dye; wetting time to surface coloration; AR = (Wa − Wb)/Wb.",
+            "dissolution_odt": "USP II paddle, 50 rpm, 37°C, pH 6.8 phosphate buffer; samples every 3 min; UV at 243 nm (atenolol) and 225 nm (atorvastatin).",
+            "dissolution_metformin": "USP II paddle, 50 rpm, pH 6.8; samples every 5 min; UV at 233 nm.",
+            "coating": "No coating reported.",
+            "compression_pressure": "Not reported."
+        }
+    },
+    "tablet_properties_by_batch": {
+        "atenolol_atorvastatin": {
+            "008_F1": {
+                "weight_mg": "143.6 ± 0.15",
+                "diameter_mm": "6.84 ± 0.04",
+                "hardness_kg_cm2": "2.9 ± 0.1",
+                "thickness_mm": "2.89 ± 0.01",
+                "friability_percent": "0.61 ± 0.01",
+                "disintegration_time_sec": "4 ± 1.00",
+                "stability_moisture_uptake": "Stable at 75% RH for 2 weeks (qualitative statement) "
+            },
+            "008_F2": {
+                "weight_mg": "140.89 ± 0.11",
+                "diameter_mm": "6.85 ± 0.01",
+                "hardness_kg_cm2": "2.8 ± ~0.0",
+                "thickness_mm": "3.00 ± 0.02",
+                "friability_percent": "0.72 ± 0.01",
+                "disintegration_time_sec": "6 ± 1.00",
+                "stability_moisture_uptake": "Stable (qualitative) "
+            },
+            "008_F3": {
+                "weight_mg": "142.8 ± 0.21",
+                "diameter_mm": "6.90 ± 0.00",
+                "hardness_kg_cm2": "3.0 ± 0.1",
+                "thickness_mm": "2.90 ± 0.01",
+                "friability_percent": "0.51 ± 0.00",
+                "disintegration_time_sec": "8 ± 1.00",
+                "stability_moisture_uptake": "Stable (qualitative) "
+            },
+            "008_F4": {
+                "weight_mg": "149.2 ± 0.18",
+                "diameter_mm": "6.91 ± 0.01",
+                "hardness_kg_cm2": "3.0 ± 0.2",
+                "thickness_mm": "2.90 ± 0.00",
+                "friability_percent": "0.52 ± 0.02",
+                "disintegration_time_sec": "30 ± 1.53",
+                "stability_moisture_uptake": "Stable (qualitative) "
+            },
+            "008_F5": {
+                "weight_mg": "148.03 ± 0.12",
+                "diameter_mm": "6.85 ± 0.02",
+                "hardness_kg_cm2": "3.2 ± 0.2",
+                "thickness_mm": "3.00 ± 0.01",
+                "friability_percent": "0.51 ± 0.01",
+                "disintegration_time_sec": "35 ± 1.00",
+                "stability_moisture_uptake": "Stable (qualitative) "
+            },
+            "008_F6": {
+                "weight_mg": "not reported",
+                "diameter_mm": "not reported",
+                "hardness_kg_cm2": "not reported",
+                "thickness_mm": "not reported",
+                "friability_percent": "not reported",
+                "disintegration_time_sec": "not reported",
+                "stability_moisture_uptake": "not reported "
+            }
+        },
+        "metformin": {
+            "008_M1": {
+                "weight_mg": "645 ± 0.15",
+                "diameter_mm": "11.0 ± 0.5",
+                "hardness_kg_cm2": "6.0 ± 0.1",
+                "thickness_mm": "5.1 ± 0.1",
+                "friability_percent": "0.91 ± 0.01",
+                "disintegration_time_min": "14.0 ± 1.00",
+                "notes": "Meets friability spec <1% "
+            },
+            "008_M2": {
+                "weight_mg": "647 ± 0.21",
+                "diameter_mm": "10.7 ± 1.0",
+                "hardness_kg_cm2": "5.5 ± 0.3",
+                "thickness_mm": "5.1 ± 0.0",
+                "friability_percent": "0.84 ± 0.01",
+                "disintegration_time_min": "4.5 ± 1.50",
+                "notes": "Meets friability spec <1% "
+            },
+            "008_M3": {
+                "weight_mg": "644 ± 0.21",
+                "diameter_mm": "10.6 ± 0.3",
+                "hardness_kg_cm2": "6.0 ± 0.1",
+                "thickness_mm": "5.1 ± 0.1",
+                "friability_percent": "0.88 ± 0.00",
+                "disintegration_time_min": "2.5 ± 1.00",
+                "notes": "Meets friability spec <1% "
+            }
+        },
+        "swelling_and_water_uptake": {
+            "atenolol_atorvastatin_selected": {
+                "008_F1": {
+                    "wetting_time_sec": 17,
+                    "water_absorption_ratio_or_swelling_ratio": 1.946,
+                    "note": "Classified as swelling disintegrant mechanism "
+                },
+                "008_F4": {
+                    "wetting_time_sec": 26,
+                    "water_absorption_ratio_or_swelling_ratio": 1.088,
+                    "note": "Husk showed lower swelling index than arabinoxylan "
+                },
+                "008_F5": {
+                    "wetting_time_sec": 26,
+                    "water_absorption_ratio": 2.11,
+                    "note": "Despite higher AR, disintegration was slower with SSG "
+                }
+            },
+            "floating_or_lag_time": "Not applicable; no floating system reported "
+        }
+    },
+    "release_properties": {
+        "dissolution_conditions_common": "USP II, 50 rpm, 37°C, pH 6.8; ODT sampling every 3 min (atenolol at 243 nm; atorvastatin at 225 nm); metformin sampling every 5 min at 233 nm.",
+        "atenolol_by_batch": {
+            "008_F1": {
+                "profile_summary": "≈98–100% within 18 min ",
+                "release_mechanism_model": "Not modeled; immediate-release ODT behavior "
+            },
+            "008_F2": {
+                "profile_summary": "Not individually quantified; see figure; rapid IR profile ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_F3": {
+                "profile_summary": "Not individually quantified; see figure; rapid IR profile ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_F4": {
+                "profile_summary": "≈98–100% within 18 min ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_F5": {
+                "profile_summary": "≈98% in 24 min ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_F6": {
+                "profile_summary": "Not reported ",
+                "release_mechanism_model": "Not reported "
+            }
+        },
+        "atorvastatin_by_batch": {
+            "008_F1": {
+                "profile_summary": "≈98–100% within 18 min ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_F2": {
+                "profile_summary": "Not individually quantified; see figure; rapid IR profile ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_F3": {
+                "profile_summary": "Not individually quantified; see figure; rapid IR profile ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_F4": {
+                "profile_summary": "≈98–100% within 18 min ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_F5": {
+                "profile_summary": "≈100% in 21 min ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_F6": {
+                "profile_summary": "Not reported ",
+                "release_mechanism_model": "Not reported "
+            }
+        },
+        "metformin_by_batch": {
+            "008_M1": {
+                "profile_summary": "≈98% in 30 min ",
+                "release_mechanism_model": "Not modeled; immediate-release behavior "
+            },
+            "008_M2": {
+                "profile_summary": "≈99% in 30 min ",
+                "release_mechanism_model": "Not modeled "
+            },
+            "008_M3": {
+                "profile_summary": "≈98% in 18 min ",
+                "release_mechanism_model": "Not modeled "
+            }
+        },
+        "factors_influencing_release": "Medium pH 6.8 and rapid disintegration/swelling behavior; no enzyme effects studied.",
+        "kinetic_models_fitted": "Zero/first-order, Higuchi, Korsmeyer–Peppas not reported/fitted in the paper."
+    },
+    "experimental_data_summary": {
+        "in_vitro_only": "All data are in vitro; no in vivo studies reported.",
+        "statistics": "Results presented as means with standard deviations where shown; no inferential statistics reported.",
+        "key_findings": [
+            "FTIR confirmed compatibility of arabinoxylan with atenolol, atorvastatin, and metformin (no shifts/additional peaks).",
+            "Arabinoxylan ODT 008_F1 showed minimum disintegration time of 4 s and low wetting time (17 s) with high swelling ratio (1.946).",
+            "Husk (008_F4) and SSG (008_F5) ODTs disintegrated slower (30 s and 35 s, respectively) despite acceptable mechanical properties.",
+            "ODT dissolution: 008_F1 and 008_F4 achieved ≈98–100% release by 18 min; 008_F5 required 24 min (atenolol) and 21 min (atorvastatin).",
+            "Metformin tablets: 008_M3 (AX as binder and superdisintegrant) disintegrated fastest (2.5 min) and released ≈98% by 18 min."
+        ],
+        "zero_and_first_order_release": "Not analyzed/reported; only empirical release profiles provided "
+    },
+    "process_parameters": {
+        "compression": {
+            "device": "10‑station rotary tablet press; 8 mm round flat punches (ODTs).",
+            "pressure_force": "Not reported ",
+            "coating": "None reported "
+        },
+        "granulation_drying": {
+            "metformin": "Wet granulation with purified water; oven drying at 40°C for 1 h before resizing."
+        },
+        "test_conditions": {
+            "friability": "25 rpm for 4 min (Roche).",
+            "disintegration": "pH 6.8 buffer at 37±2°C.",
+            "dissolution": "USP II, 50 rpm, 37°C, pH 6.8; sampling intervals per product type."
+        }
+    },
+    "notes_and_limitations": {
+        "f6_data_gap": "008_F6 composition listed but no pre/post-compression or dissolution data reported in tables.",
+        "drug_content_assay": "Drug content (%) per tablet not reported.",
+        "density_of_formulation": "No tablet solid density; only powder bulk/tapped densities reported.",
+        "consolidation_index": "Reported as Carr’s index in precompression tables.",
+        "kinetic_modeling": "No zero/first-order/Higuchi/Peppas analysis in the paper."
+    }
+}

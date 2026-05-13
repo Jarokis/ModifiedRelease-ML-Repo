@@ -1,0 +1,985 @@
+{
+    "file_name": "APPLIC-1.json",
+    "article_metadata": {
+        "title": "Application of an anionic polymer in the formulation of floating tablets containing an alkaline model drug",
+        "authors": [
+            "Dorota Wójcik-Pastuszka",
+            "Iwona Golonka",
+            "Andrzej Drys",
+            "Jobst B. Mielck",
+            "Maria Twarda",
+            "Witold Musiał"
+        ],
+        "journal": "Advances in Clinical and Experimental Medicine",
+        "year": 2017,
+        "volume_issue_pages": "26(9):1319–1327",
+        "doi": "10.17219/acem/65507"
+    },
+    "sections_map": {
+        "abstract": [
+            "Study aims",
+            "Key floating and release findings",
+            "Optimal batch identification"
+        ],
+        "introduction": [
+            "Background on floating systems",
+            "Rationale for polymer use",
+            "Optimization variables context"
+        ],
+        "materials_and_methods": [
+            "Materials origin",
+            "Fabrication process",
+            "Equipment and conditions",
+            "Testing protocols and instruments",
+            "Kinetic models and statistics"
+        ],
+        "results": [
+            "Physical parameters",
+            "Swelling/water uptake",
+            "Floating data",
+            "Dissolution profiles",
+            "Kinetic parameters and half-times"
+        ],
+        "discussion": [
+            "Mechanistic interpretation",
+            "Effect of polymer and compression force",
+            "Model fits and diffusion exponent"
+        ],
+        "conclusion": [
+            "Implications",
+            "Optimal formulation",
+            "Therapeutic relevance"
+        ]
+    },
+    "materials_origin": {
+        "HCl_solution": "1 mol/L, Stanlab (Gliwice, Poland)",
+        "chlorhexidine_CHX": "98%, Sigma-Aldrich (Poznań, Poland)",
+        "sorbitol": "P 30/60, Roquette (Lestrem Cedex, France)",
+        "Carbopol_934_NF": "Lubrizol (Wickliffe, USA)",
+        "magnesium_stearate": "Sigma-Aldrich (Poznań, Poland)"
+    },
+    "experimental_design_for_optimization": {
+        "objective": "Evaluate effect of anionic polymer content and compressive force on floating and release for CHX tablets",
+        "independent_variables": {
+            "polymer_level_PA_mg_per_tablet": [
+                0,
+                23,
+                45
+            ],
+            "compression_force_kN": [
+                2.5,
+                25
+            ]
+        },
+        "formulation_matrix": {
+            "A": {
+                "PA_mg": 0,
+                "CF_kN": [
+                    2.5,
+                    25
+                ]
+            },
+            "B": {
+                "PA_mg": 23,
+                "CF_kN": [
+                    2.5,
+                    25
+                ]
+            },
+            "C": {
+                "PA_mg": 45,
+                "CF_kN": [
+                    2.5,
+                    25
+                ]
+            }
+        },
+        "responses": [
+            "FLT",
+            "FT",
+            "release_kinetics_model_fit",
+            "rate_constants",
+            "t0.5",
+            "diffusion_exponent_n"
+        ],
+        "optimal_formulation": "007_C1 (FT > 24 h; t0.5 ≈ 113–144 min depending on model)",
+        "notes": "No formal DoE; factorial variation of PA level and compression force only"
+    },
+    "ingredients_identification": {
+        "assay_method": "UV-VIS spectrophotometry using T60 spectrophotometer (PG Instruments), sampling scheme as per dissolution protocol",
+        "preparation": "Direct compression tablets evaluated in 0.1 mol/L HCl (pH 1) at 37°C; samples withdrawn on defined intervals",
+        "equation_absorbance": "Calibration details and absorbance wavelength referenced to prior spectrophotometric study (Ref. 21); not explicitly reported here",
+        "results_summary": "Assay values used for kinetic modeling across zero-order, first-order, Korsmeyer-Peppas, Hixon-Crowell, and Higuchi"
+    },
+    "formulation_details": [
+        {
+            "batch": "007_A1",
+            "total_weight_mg": 450,
+            "compression_force_kN": 2.5,
+            "components_mg": {
+                "sorbitol": 440,
+                "polyacrylic_acid_PA": 0,
+                "magnesium_stearate": 5,
+                "chlorhexidine_CHX": 5
+            },
+            "release_data_approximated_fig3": [
+                {
+                    "time_min": 0,
+                    "fraction_released": 0
+                },
+                {
+                    "time_min": 5,
+                    "fraction_released": 72
+                },
+                {
+                    "time_min": 10,
+                    "fraction_released": 88
+                },
+                {
+                    "time_min": 15,
+                    "fraction_released": 94
+                },
+                {
+                    "time_min": 20,
+                    "fraction_released": 97
+                },
+                {
+                    "time_min": 30,
+                    "fraction_released": 99
+                },
+                {
+                    "time_min": 40,
+                    "fraction_released": 100
+                }
+            ]
+        },
+        {
+            "batch": "007_A2",
+            "total_weight_mg": 450,
+            "compression_force_kN": 25,
+            "components_mg": {
+                "sorbitol": 440,
+                "polyacrylic_acid_PA": 0,
+                "magnesium_stearate": 5,
+                "chlorhexidine_CHX": 5
+            },
+            "release_data_approximated_fig3": [
+                {
+                    "time_min": 0,
+                    "fraction_released": 0
+                },
+                {
+                    "time_min": 5,
+                    "fraction_released": 48
+                },
+                {
+                    "time_min": 10,
+                    "fraction_released": 65
+                },
+                {
+                    "time_min": 15,
+                    "fraction_released": 76
+                },
+                {
+                    "time_min": 20,
+                    "fraction_released": 84
+                },
+                {
+                    "time_min": 30,
+                    "fraction_released": 93
+                },
+                {
+                    "time_min": 40,
+                    "fraction_released": 98
+                },
+                {
+                    "time_min": 50,
+                    "fraction_released": 100
+                }
+            ]
+        },
+        {
+            "batch": "007_B1",
+            "total_weight_mg": 450,
+            "compression_force_kN": 2.5,
+            "components_mg": {
+                "sorbitol": 417,
+                "polyacrylic_acid_PA": 23,
+                "magnesium_stearate": 5,
+                "chlorhexidine_CHX": 5
+            },
+            "release_data_approximated_fig3": [
+                {
+                    "time_min": 0,
+                    "fraction_released": 0
+                },
+                {
+                    "time_min": 10,
+                    "fraction_released": 9
+                },
+                {
+                    "time_min": 20,
+                    "fraction_released": 18
+                },
+                {
+                    "time_min": 30,
+                    "fraction_released": 26
+                },
+                {
+                    "time_min": 40,
+                    "fraction_released": 34
+                },
+                {
+                    "time_min": 50,
+                    "fraction_released": 41
+                },
+                {
+                    "time_min": 60,
+                    "fraction_released": 48
+                },
+                {
+                    "time_min": 80,
+                    "fraction_released": 59
+                },
+                {
+                    "time_min": 100,
+                    "fraction_released": 68
+                },
+                {
+                    "time_min": 120,
+                    "fraction_released": 76
+                }
+            ]
+        },
+        {
+            "batch": "007_B2",
+            "total_weight_mg": 450,
+            "compression_force_kN": 25,
+            "components_mg": {
+                "sorbitol": 417,
+                "polyacrylic_acid_PA": 23,
+                "magnesium_stearate": 5,
+                "chlorhexidine_CHX": 5
+            },
+            "release_data_approximated_fig3": [
+                {
+                    "time_min": 0,
+                    "fraction_released": 0
+                },
+                {
+                    "time_min": 10,
+                    "fraction_released": 6
+                },
+                {
+                    "time_min": 20,
+                    "fraction_released": 11
+                },
+                {
+                    "time_min": 30,
+                    "fraction_released": 16
+                },
+                {
+                    "time_min": 40,
+                    "fraction_released": 21
+                },
+                {
+                    "time_min": 50,
+                    "fraction_released": 25
+                },
+                {
+                    "time_min": 60,
+                    "fraction_released": 29
+                },
+                {
+                    "time_min": 80,
+                    "fraction_released": 37
+                },
+                {
+                    "time_min": 100,
+                    "fraction_released": 44
+                },
+                {
+                    "time_min": 120,
+                    "fraction_released": 50
+                }
+            ]
+        },
+        {
+            "batch": "007_C1",
+            "total_weight_mg": 450,
+            "compression_force_kN": 2.5,
+            "components_mg": {
+                "sorbitol": 395,
+                "polyacrylic_acid_PA": 45,
+                "magnesium_stearate": 5,
+                "chlorhexidine_CHX": 5
+            },
+            "release_data_approximated_fig3": [
+                {
+                    "time_min": 0,
+                    "fraction_released": 0
+                },
+                {
+                    "time_min": 10,
+                    "fraction_released": 7
+                },
+                {
+                    "time_min": 20,
+                    "fraction_released": 14
+                },
+                {
+                    "time_min": 30,
+                    "fraction_released": 20
+                },
+                {
+                    "time_min": 40,
+                    "fraction_released": 27
+                },
+                {
+                    "time_min": 50,
+                    "fraction_released": 33
+                },
+                {
+                    "time_min": 60,
+                    "fraction_released": 39
+                },
+                {
+                    "time_min": 80,
+                    "fraction_released": 50
+                },
+                {
+                    "time_min": 100,
+                    "fraction_released": 60
+                },
+                {
+                    "time_min": 120,
+                    "fraction_released": 69
+                }
+            ]
+        },
+        {
+            "batch": "007_C2",
+            "total_weight_mg": 450,
+            "compression_force_kN": 25,
+            "components_mg": {
+                "sorbitol": 395,
+                "polyacrylic_acid_PA": 45,
+                "magnesium_stearate": 5,
+                "chlorhexidine_CHX": 5
+            },
+            "release_data_approximated_fig3": [
+                {
+                    "time_min": 0,
+                    "fraction_released": 0
+                },
+                {
+                    "time_min": 10,
+                    "fraction_released": 5
+                },
+                {
+                    "time_min": 20,
+                    "fraction_released": 9
+                },
+                {
+                    "time_min": 30,
+                    "fraction_released": 13
+                },
+                {
+                    "time_min": 40,
+                    "fraction_released": 17
+                },
+                {
+                    "time_min": 50,
+                    "fraction_released": 21
+                },
+                {
+                    "time_min": 60,
+                    "fraction_released": 25
+                },
+                {
+                    "time_min": 80,
+                    "fraction_released": 32
+                },
+                {
+                    "time_min": 100,
+                    "fraction_released": 38
+                },
+                {
+                    "time_min": 120,
+                    "fraction_released": 44
+                }
+            ]
+        }
+    ],
+    "pre_compression_parameters": {
+        "note": "Parameters listed are tablet physical tests post-compression as reported by the authors; per-batch SDs were only provided for thickness",
+        "mass_distribution": {
+            "average_mass_range_mg": "449.5–451.0",
+            "uniformity": "Compliant: ≤2 tablets deviated >5% and none >10%",
+            "per_batch_stats": "Not reported as mean ± SD per batch"
+        },
+        "friability": {
+            "per_batch": "All <1% (12 tablets/batch, 100 rpm)",
+            "exact_values": "Not reported"
+        },
+        "hardness_N": {
+            "ranges": "85–322 N for batches 007_A1–007_C1; >350 N for 007_C2",
+            "per_batch_means_SD": "Not reported"
+        },
+        "size": {
+            "diameter_mm": "9.969–10.019 (not per-batch means)",
+            "thickness_mm_mean_SD": {
+                "007_A1": "4.152 ± 0.007",
+                "007_A2": "3.007 ± 0.031",
+                "007_B1": "5.020 ± 0.012",
+                "007_B2": "4.089 ± 0.012",
+                "007_C1": "4.706 ± 0.048",
+                "007_C2": "4.169 ± 0.008"
+            }
+        }
+    },
+    "independent_variables_and_levels": {
+        "polyacrylic_acid_PA_mg": [
+            0,
+            23,
+            45
+        ],
+        "compression_force_kN": [
+            2.5,
+            25
+        ],
+        "environmental_conditions": {
+            "humidity_percent": 50,
+            "temperature_C": 22
+        }
+    },
+    "ftir_measurements": {
+        "reported": false,
+        "details": "No FTIR data provided; SEM micrographs and kinetic modeling used instead"
+    },
+    "tablet_fabrication_and_tests": {
+        "fabrication": {
+            "mixing": "Turbula double cone blender (WAB, Muttenz, Switzerland)",
+            "compression": "Fette tablet press Exacta 11, CF: 2.5 or 25 kN",
+            "environment": "50% RH, 22°C",
+            "coating": "None (direct compression, uncoated)"
+        },
+        "equipment_and_methods": {
+            "mass_uniformity": "Ph. Eur. 2.9.5 on 20 tablets; % deviation vs mean",
+            "friability": "Ph. Eur. 2.9.7 on 12 tablets at 100 rpm",
+            "hardness": "Ph. Eur. 2.9.8; 10 tablets; precision 1 N",
+            "dimensions": "Mitutoyo digital micrometer, 0.001 mm precision",
+            "SEM": "LEO 1525 (Zeiss) EHT 10.00 kV",
+            "floatation": "FLT and FT in 0.1 mol/L HCl",
+            "dissolution": "USP/Ph. Eur. type-2 paddle, Symphony 7100, 37°C, 1000 mL pH 1 HCl, 50 rpm",
+            "spectrophotometry": "UV-VIS T60 (PG Instruments), sampling intervals per batch group",
+            "statistics": "Curvilinear regression, ANOVA, STATISTICA v10"
+        },
+        "per_batch_summary": {
+            "007_A1": {
+                "hardness": "Within 85–322 N range (exact mean/SD not reported)",
+                "friability_percent": "<1",
+                "weight_variation": "Compliant",
+                "thickness_mm": "4.152 ± 0.007",
+                "diameter_mm": "≈10",
+                "density": "Not reported",
+                "drug_content": "Not separately assayed; formulation CHX 5 mg",
+                "consolidation_index": "Not reported"
+            },
+            "007_A2": {
+                "hardness": "Within 85–322 N range (exact mean/SD not reported)",
+                "friability_percent": "<1",
+                "weight_variation": "Compliant",
+                "thickness_mm": "3.007 ± 0.031",
+                "diameter_mm": "≈10",
+                "density": "Not reported",
+                "drug_content": "Not separately assayed; formulation CHX 5 mg",
+                "consolidation_index": "Not reported"
+            },
+            "007_B1": {
+                "hardness": "Within 85–322 N range (exact mean/SD not reported)",
+                "friability_percent": "<1",
+                "weight_variation": "Compliant",
+                "thickness_mm": "5.020 ± 0.012",
+                "diameter_mm": "≈10",
+                "density": "Not reported",
+                "drug_content": "Not separately assayed; formulation CHX 5 mg",
+                "consolidation_index": "Not reported"
+            },
+            "007_B2": {
+                "hardness": "Within 85–322 N range (exact mean/SD not reported)",
+                "friability_percent": "<1",
+                "weight_variation": "Compliant",
+                "thickness_mm": "4.089 ± 0.012",
+                "diameter_mm": "≈10",
+                "density": "Not reported",
+                "drug_content": "Not separately assayed; formulation CHX 5 mg",
+                "consolidation_index": "Not reported"
+            },
+            "007_C1": {
+                "hardness": "Within 85–322 N range (exact mean/SD not reported)",
+                "friability_percent": "<1",
+                "weight_variation": "Compliant",
+                "thickness_mm": "4.706 ± 0.048",
+                "diameter_mm": "≈10",
+                "density": "Not reported",
+                "drug_content": "Not separately assayed; formulation CHX 5 mg",
+                "consolidation_index": "Not reported"
+            },
+            "007_C2": {
+                "hardness": ">350 N",
+                "friability_percent": "<1",
+                "weight_variation": "Compliant",
+                "thickness_mm": "4.169 ± 0.008",
+                "diameter_mm": "≈10",
+                "density": "Not reported",
+                "drug_content": "Not separately assayed; formulation CHX 5 mg",
+                "consolidation_index": "Not reported"
+            }
+        }
+    },
+    "process_parameters": {
+        "compression_process": {
+            "device": "Fette Exacta 11",
+            "compression_force_kN": [
+                2.5,
+                25
+            ],
+            "coating": "None"
+        },
+        "equipment": {
+            "blender": "Turbula double cone (WAB)",
+            "micrometer": "Mitutoyo 0.001 mm",
+            "friabilator": "Ph. Eur.-compatible",
+            "hardness_tester": "Ph. Eur.-compatible, 1 N precision",
+            "SEM": "LEO 1525 (Zeiss) EHT 10 kV",
+            "dissolution": "Symphony 7100, type-2 paddle",
+            "spectrophotometer": "UV-VIS T60 (PG Instruments)"
+        },
+        "conditions": {
+            "manufacturing_environment": {
+                "relative_humidity_percent": 50,
+                "temperature_C": 22
+            },
+            "dissolution_test": {
+                "temperature_C": 37,
+                "medium": "1000 mL 0.1 mol/L HCl, pH 1",
+                "paddle_speed_rpm": 50
+            }
+        }
+    },
+    "release_properties": {
+        "models": [
+            "Zero-order",
+            "First-order",
+            "Korsmeyer-Peppas",
+            "Hixon-Crowell",
+            "Higuchi"
+        ],
+        "best_fit_model": {
+            "007_A1": "Hixon-Crowell",
+            "007_A2": "Higuchi",
+            "007_B1": "Hixon-Crowell",
+            "007_B2": "Higuchi",
+            "007_C1": "Hixon-Crowell",
+            "007_C2": "Hixon-Crowell"
+        },
+        "korsmeyer_peppas_exponent_n_mean_SD": {
+            "007_A1": "0.37 ± 0.03",
+            "007_A2": "0.54 ± 0.02",
+            "007_B1": "0.81 ± 0.03",
+            "007_B2": "0.64 ± 0.02",
+            "007_C1": "0.69 ± 0.04",
+            "007_C2": "0.70 ± 0.03"
+        },
+        "half_release_time_t0_5_min_mean_SD_by_model": {
+            "007_A1": {
+                "Zero": "45 ± 5",
+                "First": "12 ± 1",
+                "Korsmeyer-Peppas": "11 ± 4",
+                "Hixon-Crowell": "19 ± 1",
+                "Higuchi": "20 ± 2"
+            },
+            "007_A2": {
+                "Zero": "46 ± 4",
+                "First": "16 ± 2",
+                "Korsmeyer-Peppas": "25 ± 4",
+                "Hixon-Crowell": "26 ± 1",
+                "Higuchi": "24 ± 1"
+            },
+            "007_B1": {
+                "Zero": "75 ± 2",
+                "First": "62 ± 1",
+                "Korsmeyer-Peppas": "72 ± 10",
+                "Hixon-Crowell": "67 ± 1",
+                "Higuchi": "64 ± 5"
+            },
+            "007_B2": {
+                "Zero": "152 ± 6",
+                "First": "175 ± 5",
+                "Korsmeyer-Peppas": "202 ± 26",
+                "Hixon-Crowell": "167 ± 5",
+                "Higuchi": "255 ± 12"
+            },
+            "007_C1": {
+                "Zero": "113 ± 2",
+                "First": "117 ± 3",
+                "Korsmeyer-Peppas": "128 ± 33",
+                "Hixon-Crowell": "116 ± 2",
+                "Higuchi": "144 ± 13"
+            },
+            "007_C2": {
+                "Zero": "149 ± 5",
+                "First": "169 ± 5",
+                "Korsmeyer-Peppas": "185 ± 34",
+                "Hixon-Crowell": "162 ± 4",
+                "Higuchi": "249 ± 19"
+            }
+        },
+        "rate_constants_R2_p": {
+            "note": "Per Table 4; summarized below per model and batch",
+            "Zero_order": {
+                "007_A1": {
+                    "K0_x1e3_min-1": "11.1 ± 1.3",
+                    "R2": 0.8233,
+                    "p": "3.3e-7"
+                },
+                "007_A2": {
+                    "K0_x1e3_min-1": "10.9 ± 0.9",
+                    "R2": 0.9161,
+                    "p": "4.1e-9"
+                },
+                "007_B1": {
+                    "K0_x1e3_min-1": "6.6 ± 0.2",
+                    "R2": 0.9933,
+                    "p": "1.7e-13"
+                },
+                "007_B2": {
+                    "K0_x1e3_min-1": "3.3 ± 0.1",
+                    "R2": 0.9828,
+                    "p": "2.9e-11"
+                },
+                "007_C1": {
+                    "K0_x1e3_min-1": "4.4 ± 0.1",
+                    "R2": 0.9952,
+                    "p": "2.6e-14"
+                },
+                "007_C2": {
+                    "K0_x1e3_min-1": "3.4 ± 0.1",
+                    "R2": 0.9889,
+                    "p": "2.6e-12"
+                }
+            },
+            "First_order": {
+                "007_A1": {
+                    "K1_x1e3_min-1": "56.2 ± 3.5",
+                    "R2": 0.9599,
+                    "p": "1.6e-8"
+                },
+                "007_A2": {
+                    "K1_x1e3_min-1": "42.7 ± 4.4",
+                    "R2": 0.8715,
+                    "p": "2.4e-7"
+                },
+                "007_B1": {
+                    "K1_x1e3_min-1": "11.1 ± 0.3",
+                    "R2": 0.9939,
+                    "p": "9.4e-14"
+                },
+                "007_B2": {
+                    "K1_x1e3_min-1": "3.9 ± 0.1",
+                    "R2": 0.9912,
+                    "p": "7.2e-13"
+                },
+                "007_C1": {
+                    "K1_x1e3_min-1": "5.9 ± 0.1",
+                    "R2": 0.9938,
+                    "p": "1.0e-13"
+                },
+                "007_C2": {
+                    "K1_x1e3_min-1": "4.1 ± 0.1",
+                    "R2": 0.9909,
+                    "p": "8.9e-13"
+                }
+            },
+            "Korsmeyer_Peppas": {
+                "007_A1": {
+                    "KKP_x1e2_min^-n": "20.2 ± 2.6",
+                    "n": "0.37 ± 0.03",
+                    "R2": 0.8842,
+                    "p": "2.03e-8"
+                },
+                "007_A2": {
+                    "KKP_x1e2_min^-n": "8.7 ± 0.7",
+                    "n": "0.54 ± 0.02",
+                    "R2": 0.9738,
+                    "p": "1.81e-12"
+                },
+                "007_B1": {
+                    "KKP_x1e2_min^-n": "1.6 ± 0.2",
+                    "n": "0.81 ± 0.03",
+                    "R2": 0.988,
+                    "p": "6.35e-12"
+                },
+                "007_B2": {
+                    "KKP_x1e2_min^-n": "1.7 ± 0.1",
+                    "n": "0.64 ± 0.02",
+                    "R2": 0.9896,
+                    "p": "2.87e-12"
+                },
+                "007_C1": {
+                    "KKP_x1e2_min^-n": "1.7 ± 0.3",
+                    "n": "0.69 ± 0.04",
+                    "R2": 0.9599,
+                    "p": "4.93e-9"
+                },
+                "007_C2": {
+                    "KKP_x1e2_min^-n": "1.3 ± 0.2",
+                    "n": "0.70 ± 0.03",
+                    "R2": 0.9781,
+                    "p": "1.77e-10"
+                }
+            },
+            "Hixon_Crowell": {
+                "007_A1": {
+                    "Kbeta_x1e3_min-1": "11.14 ± 0.5",
+                    "R2": 0.9662,
+                    "p": "1.02e-11"
+                },
+                "007_A2": {
+                    "Kbeta_x1e3_min-1": "8.08 ± 0.45",
+                    "R2": 0.956,
+                    "p": "1.42e-15"
+                },
+                "007_B1": {
+                    "Kbeta_x1e3_min-1": "3.08 ± 0.04",
+                    "R2": 0.9977,
+                    "p": "8.19e-11"
+                },
+                "007_B2": {
+                    "Kbeta_x1e3_min-1": "1.24 ± 0.04",
+                    "R2": 0.9888,
+                    "p": "2.03e-13"
+                },
+                "007_C1": {
+                    "Kbeta_x1e3_min-1": "1.78 ± 0.03",
+                    "R2": 0.9961,
+                    "p": "1.63e-10"
+                },
+                "007_C2": {
+                    "Kbeta_x1e3_min-1": "1.27 ± 0.03",
+                    "R2": 0.9911,
+                    "p": "3.67e-11"
+                }
+            },
+            "Higuchi": {
+                "007_A1": {
+                    "KH_x1e2_min^-0.5": "11.2 ± 0.6",
+                    "R2": 0.9551,
+                    "p": "1.02e-11"
+                },
+                "007_A2": {
+                    "KH_x1e2_min^-0.5": "10.2 ± 0.3",
+                    "R2": 0.9899,
+                    "p": "1.42e-15"
+                },
+                "007_B1": {
+                    "KH_x1e2_min^-0.5": "6.3 ± 0.3",
+                    "R2": 0.9792,
+                    "p": "8.19e-11"
+                },
+                "007_B2": {
+                    "KH_x1e2_min^-0.5": "3.1 ± 0.1",
+                    "R2": 0.993,
+                    "p": "2.03e-13"
+                },
+                "007_C1": {
+                    "KH_x1e2_min^-0.5": "4.2 ± 0.2",
+                    "R2": 0.9765,
+                    "p": "1.63e-10"
+                },
+                "007_C2": {
+                    "KH_x1e2_min^-0.5": "3.2 ± 0.1",
+                    "R2": 0.9821,
+                    "p": "3.67e-11"
+                }
+            }
+        },
+        "factors_influencing_release": [
+            "Polymer content",
+            "Compression force",
+            "Medium pH (pH = 1)",
+            "Potential ionic interactions between cationic CHX and anionic PA matrix"
+        ]
+    },
+    "floating_and_swelling_properties": {
+        "FLT_min_and_FT_h": {
+            "007_A1": {
+                "FLT_min": 15,
+                "FT_h": "Dissolved by 0.37 h (~22 min)",
+                "observation_24h": "White film (Mg stearate)"
+            },
+            "007_A2": {
+                "FLT_min": 31,
+                "FT_h": "Dissolved by 0.72 h (~43 min)",
+                "observation_24h": "White film (Mg stearate)"
+            },
+            "007_B1": {
+                "FLT_min": 61,
+                "FT_h": ">24 h",
+                "observation_24h": "Floating"
+            },
+            "007_B2": {
+                "FLT_min": 89,
+                "FT_h": "<24 h",
+                "observation_24h": "Bottom"
+            },
+            "007_C1": {
+                "FLT_min": 80,
+                "FT_h": ">24 h",
+                "observation_24h": "Floating"
+            },
+            "007_C2": {
+                "FLT_min": 105,
+                "FT_h": "<24 h",
+                "observation_24h": "Bottom"
+            }
+        },
+        "water_uptake_and_residue": {
+            "M0_mg": {
+                "007_A1": 450,
+                "007_A2": 450,
+                "007_B1": 450,
+                "007_B2": 450,
+                "007_C1": 450,
+                "007_C2": 450
+            },
+            "M21_mg": {
+                "007_A1": null,
+                "007_A2": null,
+                "007_B1": 30,
+                "007_B2": 24.2,
+                "007_C1": 50.4,
+                "007_C2": 49.6
+            },
+            "VT0_mm3": {
+                "007_A1": 392.5,
+                "007_A2": 314,
+                "007_B1": 392.5,
+                "007_B2": 314,
+                "007_C1": 392.5,
+                "007_C2": 314
+            },
+            "VT24_mm3": {
+                "007_A1": null,
+                "007_A2": null,
+                "007_B1": 870,
+                "007_B2": 754,
+                "007_C1": 1010,
+                "007_C2": 913
+            },
+            "VW24_mm3": {
+                "007_A1": null,
+                "007_A2": null,
+                "007_B1": 564,
+                "007_B2": 496,
+                "007_C1": 951,
+                "007_C2": 855
+            }
+        },
+        "swelling_index_percent_estimated": {
+            "method": "(VT24 - VT0) / VT0 * 100",
+            "values": {
+                "007_B1": 121.6,
+                "007_B2": 140.1,
+                "007_C1": 157.4,
+                "007_C2": 190.8
+            },
+            "note": "007_A1 and 007_A2 dissolved; swelling not determined"
+        }
+    },
+    "tablet_properties_summary": {
+        "per_batch": {
+            "007_A1": {
+                "hardness": "Within 85–322 N range",
+                "friability_percent": "<1",
+                "disintegration_time": "Not reported",
+                "dissolution_profile": "Rapid to plateau ~20 min; dissolved by 22 min",
+                "stability": "Not reported",
+                "thickness_mm": "4.152 ± 0.007",
+                "weight_variation": "Compliant"
+            },
+            "007_A2": {
+                "hardness": "Within 85–322 N range",
+                "friability_percent": "<1",
+                "disintegration_time": "Not reported",
+                "dissolution_profile": "Rapid to plateau ~40 min; dissolved by 43 min",
+                "stability": "Not reported",
+                "thickness_mm": "3.007 ± 0.031",
+                "weight_variation": "Compliant"
+            },
+            "007_B1": {
+                "hardness": "Within 85–322 N range",
+                "friability_percent": "<1",
+                "disintegration_time": "Not reported",
+                "dissolution_profile": "Sustained; no plateau in 120 min",
+                "stability": "Not reported",
+                "thickness_mm": "5.020 ± 0.012",
+                "weight_variation": "Compliant"
+            },
+            "007_B2": {
+                "hardness": "Within 85–322 N range",
+                "friability_percent": "<1",
+                "disintegration_time": "Not reported",
+                "dissolution_profile": "More sustained than 007_B1; longer t0.5",
+                "stability": "Not reported",
+                "thickness_mm": "4.089 ± 0.012",
+                "weight_variation": "Compliant"
+            },
+            "007_C1": {
+                "hardness": "Within 85–322 N range",
+                "friability_percent": "<1",
+                "disintegration_time": "Not reported",
+                "dissolution_profile": "Sustained; t0.5 ~113–144 min",
+                "stability": "Not reported",
+                "thickness_mm": "4.706 ± 0.048",
+                "weight_variation": "Compliant"
+            },
+            "007_C2": {
+                "hardness": ">350 N",
+                "friability_percent": "<1",
+                "disintegration_time": "Not reported",
+                "dissolution_profile": "Most sustained with 007_B2; high t0.5",
+                "stability": "Not reported",
+                "thickness_mm": "4.169 ± 0.008",
+                "weight_variation": "Compliant"
+            }
+        }
+    },
+    "experimental_data_and_statistics": {
+        "in_vitro": [
+            "Dissolution at 37°C in pH 1 HCl",
+            "Sampling intervals per batch group",
+            "UV-VIS quantitation"
+        ],
+        "kinetic_models": [
+            "Zero-order",
+            "First-order",
+            "Korsmeyer-Peppas",
+            "Hixon-Crowell",
+            "Higuchi"
+        ],
+        "model_fit_quality": "R2 high across models; best fits: 007_A1/007_B1/007_C1/007_C2 = Hixon-Crowell, 007_A2/007_B2 = Higuchi",
+        "statistics": "Curvilinear regression and ANOVA; p-values between 1.42e-15 and 3.3e-7 indicate significance",
+        "notes": "Diffusion exponent n between 0.54 and 0.81 for polymer-containing formulations indicates anomalous transport (diffusion + erosion)"
+    },
+    "notes_and_gaps": {
+        "ftir": "Not reported",
+        "drug_content_assay": "Not separately reported; composition-level CHX provided",
+        "consolidation_index": "Not reported",
+        "per_batch_hardness_SD": "Not reported",
+        "per_batch_friability_values": "Not reported",
+        "per_batch_mass_mean_SD": "Not reported",
+        "density": "Not reported"
+    }
+}

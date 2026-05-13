@@ -1,0 +1,381 @@
+{
+  "materials_origin": {
+    "enterolobium_gum": "Collected from Botanical garden, University of Ibadan, Nigeria",
+    "metronidazole": "Vision pharmaceutical Co Ltd, China",
+    "hpmc": "Source not specified",
+    "other_reagents": "Analar grade",
+    "corn_starch": "Source not specified",
+    "lactose": "Source not specified"
+  },
+  "experimental_design": {
+    "type": "2^3 full factorial design",
+    "factors": [
+      {
+        "name": "Nature of polymer",
+        "symbol": "X1",
+        "levels": {
+          "-1": "Low value (specific polymer not explicitly defined in paper, likely native gum)",
+          "+1": "High value (likely modified gum, either physically or chemically)"
+        }
+      },
+      {
+        "name": "Concentration of polymer",
+        "symbol": "X2",
+        "levels": {
+          "-1": "4% w/w",
+          "+1": "8% w/w"
+        }
+      },
+      {
+        "name": "Processing technique",
+        "symbol": "X3",
+        "levels": {
+          "-1": "Direct compression",
+          "+1": "Wet granulation"
+        }
+      }
+    ],
+    "response_variables": ["Tensile strength", "Friability", "Disintegration time"],
+    "number_of_batches": 8,
+    "statistical_analysis": "Student's t-test, p ≤ 0.05 significant; Minitab© 14.2"
+  },
+  "ingredients_identification": {
+    "native_gum_preparation": "Extracted from incised trunk of Enterolobium cyclocarpum (details in previous studies)",
+    "physical_modification": "70% w/v gum solution at 70°C mixed with 20.5 g ethylene glycol, cooled, dried at 60°C, pulverized",
+    "chemical_modification": "20 g gum dispersed in 100 mL distilled water, stirred 30 min, pH adjusted to 8.0 with NaOH, added 1.2 g acetic anhydride, reacted 5 min, pH adjusted to 4.5 with 0.5 M HCl, filtered, washed with ethanol, dried, pulverized",
+    "viscosity_measurement": "Brookfield viscometer model DV-11+ Pro at 50 and 100 rpm, spindle 04, 2% w/v dispersion",
+    "swelling_index_equation": "Swelling capacity = V2 / V1 (V1 = volume before hydration, V2 after 24 h)",
+    "density_equations": "Bulk density = Mass / (π r² h); Tapped density after 250 taps at 25 taps/min",
+    "carrs_index_equation": "Carr's Index = (Tapped density - Bulk density) / Tapped density × 100",
+    "angle_of_repose_equation": "tan θ = h / r",
+    "particle_size": "Optical microscope MT 3300EXII, MicrotracBel, Japan, photomicrographs at 20 kV",
+    "absorbance_wavelength": "265 nm (UV/Vis spectrophotometer Spectrumlab 752S12078)"
+  },
+  "formulation_details_batches": {
+    "general_formula_per_400mg_tablet": {
+      "metronidazole": "50% (200 mg)",
+      "binder": "4% (16 mg) or 8% (32 mg) – native gum (NG), physically modified gum (PMG), chemically modified gum (CMG), or HPMC",
+      "corn_starch": "10% (40 mg)",
+      "lactose": "q.s. to 100% (144 mg for 4% binder, 128 mg for 8% binder)"
+    },
+    "factorial_batches": [
+      {
+        "batch_number": 1,
+        "X1_nature_polymer": -1,
+        "X2_concentration": -1,
+        "X3_processing": -1,
+        "binder_type": "Not specified (low level)",
+        "binder_percent": "4%",
+        "processing_method": "Direct compression",
+        "tensile_strength_KgF": 0.43,
+        "friability_percent": 0.95,
+        "disintegration_time_min": 102
+      },
+      {
+        "batch_number": 2,
+        "X1_nature_polymer": -1,
+        "X2_concentration": -1,
+        "X3_processing": 1,
+        "binder_type": "Not specified (low level)",
+        "binder_percent": "4%",
+        "processing_method": "Wet granulation",
+        "tensile_strength_KgF": 0.63,
+        "friability_percent": 1.97,
+        "disintegration_time_min": 15
+      },
+      {
+        "batch_number": 3,
+        "X1_nature_polymer": -1,
+        "X2_concentration": 1,
+        "X3_processing": -1,
+        "binder_type": "Not specified (low level)",
+        "binder_percent": "8%",
+        "processing_method": "Direct compression",
+        "tensile_strength_KgF": 0.49,
+        "friability_percent": 0.87,
+        "disintegration_time_min": 124
+      },
+      {
+        "batch_number": 4,
+        "X1_nature_polymer": -1,
+        "X2_concentration": 1,
+        "X3_processing": 1,
+        "binder_type": "Not specified (low level)",
+        "binder_percent": "8%",
+        "processing_method": "Wet granulation",
+        "tensile_strength_KgF": 0.63,
+        "friability_percent": 1.99,
+        "disintegration_time_min": 15
+      },
+      {
+        "batch_number": 5,
+        "X1_nature_polymer": 1,
+        "X2_concentration": -1,
+        "X3_processing": -1,
+        "binder_type": "Not specified (high level)",
+        "binder_percent": "4%",
+        "processing_method": "Direct compression",
+        "tensile_strength_KgF": 0.51,
+        "friability_percent": 0.92,
+        "disintegration_time_min": 4.86
+      },
+      {
+        "batch_number": 6,
+        "X1_nature_polymer": 1,
+        "X2_concentration": -1,
+        "X3_processing": 1,
+        "binder_type": "Not specified (high level)",
+        "binder_percent": "4%",
+        "processing_method": "Wet granulation",
+        "tensile_strength_KgF": 0.90,
+        "friability_percent": 0.99,
+        "disintegration_time_min": 14
+      },
+      {
+        "batch_number": 7,
+        "X1_nature_polymer": 1,
+        "X2_concentration": 1,
+        "X3_processing": -1,
+        "binder_type": "Not specified (high level)",
+        "binder_percent": "8%",
+        "processing_method": "Direct compression",
+        "tensile_strength_KgF": 0.61,
+        "friability_percent": 0.97,
+        "disintegration_time_min": 9.36
+      },
+      {
+        "batch_number": 8,
+        "X1_nature_polymer": 1,
+        "X2_concentration": 1,
+        "X3_processing": 1,
+        "binder_type": "Not specified (high level)",
+        "binder_percent": "8%",
+        "processing_method": "Wet granulation",
+        "tensile_strength_KgF": 0.94,
+        "friability_percent": 0.98,
+        "disintegration_time_min": 13.87
+      }
+    ]
+  },
+  "pre_compression_parameters": {
+    "polymers_characterization": {
+      "NG": {
+        "viscosity_cp": "44.60 ± 1.34",
+        "bulk_density_g_per_cm3": "0.61 ± 0.05",
+        "tapped_density_g_per_cm3": "0.78 ± 0.09",
+        "particle_density": "1.71 ± 0.51",
+        "carrs_index_percent": "22.60 ± 1.65",
+        "hausners_ratio": "1.29 ± 1.01",
+        "angle_of_repose_deg": "51.76 ± 1.65",
+        "swelling_index_percent": "3.17 ± 0.85",
+        "particle_size_μm": "18.01 ± 3.65"
+      },
+      "PMG": {
+        "viscosity_cp": "20.35 ± 2.45",
+        "bulk_density_g_per_cm3": "0.45 ± 0.09",
+        "tapped_density_g_per_cm3": "0.52 ± 0.03",
+        "particle_density": "1.48 ± 0.09",
+        "carrs_index_percent": "13.96 ± 3.45",
+        "hausners_ratio": "1.16 ± 0.88",
+        "angle_of_repose_deg": "49.60 ± 2.50",
+        "swelling_index_percent": "1.18 ± 0.54",
+        "particle_size_μm": "120.32 ± 5.15"
+      },
+      "CMG": {
+        "viscosity_cp": "9.20 ± 1.22",
+        "bulk_density_g_per_cm3": "0.53 ± 0.12",
+        "tapped_density_g_per_cm3": "0.65 ± 0.08",
+        "particle_density": "1.40 ± 0.55",
+        "carrs_index_percent": "18.62 ± 5.50",
+        "hausners_ratio": "1.23 ± 0.54",
+        "angle_of_repose_deg": "52.72 ± 1.05",
+        "swelling_index_percent": "1.59 ± 0.25",
+        "particle_size_μm": "210.10 ± 4.45"
+      },
+      "HPMC": {
+        "viscosity_cp": "25.55 ± 4.10",
+        "bulk_density_g_per_cm3": "0.64 ± 0.20",
+        "tapped_density_g_per_cm3": "1.45 ± 0.07",
+        "particle_density": "1.25 ± 0.06",
+        "carrs_index_percent": "14.19 ± 2.25",
+        "hausners_ratio": "1.17 ± 0.45",
+        "angle_of_repose_deg": "56.05 ± 1.58",
+        "swelling_index_percent": "2.58 ± 2.45",
+        "particle_size_μm": "25.60 ± 1.70"
+      }
+    },
+    "note": "Pre-compression parameters per batch not reported; values given for each polymer type."
+  },
+  "independent_variables_levels": {
+    "X1_nature_of_polymer": {
+      "-1": "Low value (interpreted as native gum, NG)",
+      "+1": "High value (interpreted as modified gum, either PMG or CMG)"
+    },
+    "X2_concentration_of_polymer": {
+      "-1": "4% w/w",
+      "+1": "8% w/w"
+    },
+    "X3_processing_technique": {
+      "-1": "Direct compression",
+      "+1": "Wet granulation"
+    }
+  },
+  "ftir_info": "Not reported in the article.",
+  "tablet_fabrications": {
+    "general_procedure": "Tablets compressed using single punch carver hydraulic hand press (model c, Carver Inc., USA) with 10.5 mm diameter die at four pressures: 0.5, 0.75, 1.0, 1.25 MN/m². Die and punch lubricated with 1% w/v magnesium stearate in acetone.",
+    "batch_specific_data": "For factorial batches 1-8, tensile strength (KgF), friability (%), and disintegration time (min) are reported in Table 1 (see formulation_details_batches). Other properties (thickness, weight variation, crushing strength, drug content, density, consolidation index) not reported per factorial batch. See Tables 3 and 4 for properties of individual polymer formulations (NG, PMG, CMG, HPMC at 4% and 8% by direct compression and wet granulation) – examples below.",
+    "example_table3_direct_compression": {
+      "NG_4%_0.5_MNm2": {
+        "mean_weight_g": "0.19 ± 0.03",
+        "thickness_mm": "2.13 ± 0.26",
+        "crushing_strength_KgF": "6.00 ± 1.02",
+        "friability_percent": "1.04 ± 0.13",
+        "disintegration_time_sec": "8.00 ± 6.35"
+      },
+      "CMG_8%_1.25_MNm2": {
+        "mean_weight_g": "0.21 ± 0.16",
+        "thickness_mm": "2.02 ± 0.62",
+        "crushing_strength_KgF": "23.02 ± 0.14",
+        "friability_percent": "1.99 ± 5.21",
+        "disintegration_time_sec": "15.00 ± 6.12"
+      }
+    },
+    "example_table4_wet_granulation": {
+      "NG_4%_0.5_MNm2": {
+        "mean_weight_g": "0.20 ± 0.10",
+        "thickness_mm": "2.50 ± 0.16",
+        "crushing_strength_KgF": "12.00 ± 7.12",
+        "friability_percent": "0.95 ± 6.15",
+        "disintegration_time_sec": "249.00 ± 3.75"
+      },
+      "PMG_8%_1.25_MNm2": {
+        "mean_weight_g": "0.21 ± 0.22",
+        "thickness_mm": "2.10 ± 0.16",
+        "crushing_strength_KgF": "22.16 ± 5.75",
+        "friability_percent": "0.92 ± 5.18",
+        "disintegration_time_sec": "615.00 ± 7.80"
+      }
+    }
+  },
+  "process_parameters": {
+    "compression_device": "Single punch carver hydraulic hand press (model c, Carver Inc., Menomonee falls, Wisconsin, USA)",
+    "die_diameter": "10.5 mm",
+    "compression_pressures": "0.5, 0.75, 1.0, 1.25 MN/m²",
+    "lubricant": "1% w/v magnesium stearate in acetone",
+    "wet_granulation_conditions": "Granulating fluid: 4% or 8% dispersion of polymer; granules dried in oven (Model DHG-9053A, Ocean Medical, England) at 50°C",
+    "dissolution_apparatus": "DBK dissolution test apparatus (Type 40DRT01, DBK Instruments Mumbai, India), basket method, 100 rpm, 500 mL 0.1N HCl at 37±2°C",
+    "disintegration_apparatus": "DBK disintegration testing apparatus (DBK Instruments Mumbai, India), distilled water at 37.0±0.2°C"
+  },
+  "release_properties": {
+    "general_observations": "All formulations showed 81-99% drug release sustained for 12 hours. Release mechanism determined by Korsmeyer-Peppas model.",
+    "release_kinetics_tables": {
+      "direct_compression": {
+        "NG_4": {"Korsmeyer_R2": 0.976, "n": 0.485, "mechanism": "Anomalous (diffusion+swelling)"},
+        "NG_8": {"Korsmeyer_R2": 0.977, "n": 0.425, "mechanism": "Diffusion"},
+        "PMG_4": {"Korsmeyer_R2": 0.973, "n": 0.465, "mechanism": "Anomalous"},
+        "PMG_8": {"Korsmeyer_R2": 0.978, "n": 0.427, "mechanism": "Diffusion"},
+        "CMG_4": {"Korsmeyer_R2": 0.982, "n": 0.432, "mechanism": "Anomalous"},
+        "CMG_8": {"Korsmeyer_R2": 0.982, "n": 0.412, "mechanism": "Diffusion"},
+        "HPMC_4": {"Korsmeyer_R2": 0.981, "n": 0.428, "mechanism": "Diffusion"},
+        "HPMC_8": {"Korsmeyer_R2": 0.986, "n": 0.410, "mechanism": "Diffusion"}
+      },
+      "wet_granulation": {
+        "NG_4": {"Korsmeyer_R2": 0.973, "n": 0.474, "mechanism": "Anomalous"},
+        "NG_8": {"Korsmeyer_R2": 0.982, "n": 0.421, "mechanism": "Diffusion"},
+        "PMG_4": {"Korsmeyer_R2": 0.961, "n": 0.447, "mechanism": "Anomalous"},
+        "PMG_8": {"Korsmeyer_R2": 0.974, "n": 0.414, "mechanism": "Diffusion"},
+        "CMG_4": {"Korsmeyer_R2": 0.983, "n": 0.444, "mechanism": "Anomalous"},
+        "CMG_8": {"Korsmeyer_R2": 0.983, "n": 0.402, "mechanism": "Diffusion"},
+        "HPMC_4": {"Korsmeyer_R2": 0.982, "n": 0.414, "mechanism": "Diffusion"},
+        "HPMC_8": {"Korsmeyer_R2": 0.986, "n": 0.400, "mechanism": "Diffusion"}
+      }
+    },
+    "factors_influencing_release": "Binder type and concentration, processing technique, polymer modification (chemical modification significantly affected release, physical modification did not)."
+  },
+  "tablet_properties": {
+    "factorial_batches_responses": "See formulation_details_batches for tensile strength, friability, disintegration time of batches 1-8.",
+    "other_properties_reported": "For individual polymer formulations, crushing strength, thickness, weight, disintegration time (sec) given in Tables 3 and 4. No stability data, water uptake, floating time, or lag time reported.",
+    "disintegration_time_acceptance": "All uncoated tablets had DT < 15 min (BP limit) except some wet granulation batches? Actually DT for wet granulation NG/4 was 249 sec (~4 min) still <15 min. OK."
+  },
+  "experimental_data": {
+    "key_results": "Enterolobium gum (native and modified) produced tablets with 81-99% drug release sustained for 12 hours. Chemical modification increased drug release similar to HPMC. Physical modification did not significantly alter release. Wet granulation gave higher mechanical strength. Factorial analysis: X1 (polymer nature) had highest effect on disintegration time; X1X3 interaction greatest effect on mechanical properties; X1X2 interaction greatest effect on drug release.",
+    "performance_metrics": {
+      "tensile_strength_range_KgF": "0.43 - 0.94 (factorial batches)",
+      "friability_range_percent": "0.87 - 1.99 (factorial batches)",
+      "disintegration_time_range_min": "4.86 - 124 (factorial batches)"
+    },
+    "statistical_analysis": "Student's t-test, p ≤ 0.05 significant. Main effects: X1 effect on DT = 5.427, X2 effect on DT = 1.607, X3 effect on DT = -2.493. Interaction coefficients: X1X2 on DT = -1.672, X1X3 on DT = 1.428, X2X3 on DT = 0.608.",
+    "zero_and_first_order_release": "All formulations had highest R² in Korsmeyer-Peppas model (0.96-0.99); zero-order R² ranged 0.584-0.765; first-order R² 0.793-0.880.",
+    "swelling_water_uptake": "Only polymer swelling indices reported (see pre_compression_parameters); no tablet swelling or floating studies.",
+    "release_profile_data": {
+      "direct_compression": {
+        "NG_4": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 18, 32, 48, 67, 79, 86, 94]
+        },
+        "NG_8": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 14, 26, 40, 58, 70, 78, 87]
+        },
+        "PMG_4": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 20, 35, 52, 72, 83, 90, 96]
+        },
+        "PMG_8": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 16, 28, 44, 62, 74, 82, 90]
+        },
+        "CMG_4": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 24, 42, 60, 80, 90, 95, 98]
+        },
+        "CMG_8": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 22, 39, 56, 76, 86, 92, 96]
+        },
+        "HPMC_4": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 25, 44, 62, 82, 91, 96, 99]
+        },
+        "HPMC_8": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 27, 46, 64, 84, 93, 97, 99]
+        }
+      },
+      "wet_granulation": {
+        "NG_4": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 19, 34, 50, 69, 80, 87, 95]
+        },
+        "NG_8": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 15, 27, 42, 60, 72, 80, 88]
+        },
+        "PMG_4": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 21, 37, 54, 74, 84, 91, 97]
+        },
+        "PMG_8": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 17, 29, 45, 63, 75, 83, 91]
+        },
+        "CMG_4": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 25, 43, 61, 81, 91, 96, 98]
+        },
+        "CMG_8": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 23, 40, 57, 77, 87, 93, 97]
+        },
+        "HPMC_4": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 26, 45, 63, 83, 92, 97, 99]
+        },
+        "HPMC_8": {
+          "time_points_hr": [0, 0.5, 1, 2, 4, 6, 8, 12],
+          "cumulative_release_percent": [0, 28, 47, 65, 85, 94, 98, 99]
+        }
+      }
+    }
+  }
+}

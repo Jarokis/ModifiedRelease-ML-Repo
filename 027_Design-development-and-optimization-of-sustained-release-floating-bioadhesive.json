@@ -1,0 +1,786 @@
+{
+    "Article_Identification": {
+        "Title": "Design, development and optimization of sustained release floating, bioadhesive and swellable matrix tablet of ranitidine hydrochloride",
+        "Authors": [
+            "Birhanu Nigusse",
+            "Tsige Gebre-Mariam",
+            "Anteneh Belete"
+        ],
+        "Journal": "PLOS ONE",
+        "Year": 2021,
+        "Dosage_Form": "Sustained release gastro-retentive matrix tablet",
+        "API": "Ranitidine hydrochloride"
+    },
+    "Materials_Origin": {
+        "Ranitidine_HCl": "China Associate Co. Ltd, China (provided by Cadila Pharmaceutical Factory PLC, Ethiopia)",
+        "HPMC_K100M": "Shin-Etsu Chemicals Ltd, Japan",
+        "Sodium_CMC": "China Associate Co. Ltd, China",
+        "Microcrystalline_Cellulose": "China Associate Co. Ltd, China",
+        "Magnesium_Stearate": "BDH Chemicals Ltd, England",
+        "Talc": "BDH Chemicals Ltd, England",
+        "Sodium_Bicarbonate": "Newport Industries Ltd, UK"
+    },
+    "Experimental_Design_for_Optimization": {
+        "Design_Type": "Central Composite Design (CCD)",
+        "Number_of_Formulations": 13,
+        "Independent_Variables": {
+            "X1": "HPMC/NaCMC (3:1) concentration (mg)",
+            "X2": "Sodium bicarbonate concentration (mg)"
+        },
+        "Dependent_Variables": {
+            "Y1": "Floating lag time (sec)",
+            "Y2": "Bioadhesive strength (g)",
+            "Y3": "Swelling index at 12 h (%)",
+            "Y4": "Cumulative drug release at 1 h (%)",
+            "Y5": "Time to 50% drug release, t50% (h)",
+            "Y6": "Cumulative drug release at 12 h (%)"
+        },
+        "Optimization_Software": "Design-Expert® Version 10.0.7.0",
+        "Statistical_Analysis": "ANOVA, Response Surface Methodology"
+    },
+    "Ingredients_Identification": {
+        "Preparation_Method": "Direct compression",
+        "Drug_Analysis_Method": "UV spectrophotometry at 314 nm",
+        "Equation_Used": {
+            "Swelling_Index": "SI (%) = ((Wt - W0) / W0) × 100"
+        },
+        "Absorbance_Wavelength_nm": 314,
+        "Results_Summary": {
+            "Drug_Content": "98.25–102.50%",
+            "Floating_Duration": "> 12 h",
+            "Release_Mechanism": "Anomalous (non-Fickian diffusion)"
+        }
+    },
+    "Composition_of_Independent_Variables_and_Levels": {
+        "X1_HPMC_NaCMC_mg": {
+            "0": 176,
+            "-α": 113.775,
+            "-1": 132,
+            "+1": 220,
+            "+α": 238.225
+        },
+        "X2_NaHCO3_mg": {
+            "0": 55,
+            "-α": 39.44,
+            "-1": 44,
+            "+1": 66,
+            "+α": 70.556
+        }
+    },
+    "Formulation_Details_Per_Batch": {
+        "027_F1": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 132,
+            "NaHCO3_mg": 44,
+            "MCC_mg": 118
+        },
+        "027_F2": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 220,
+            "NaHCO3_mg": 44,
+            "MCC_mg": 30
+        },
+        "027_F3": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 132,
+            "NaHCO3_mg": 66,
+            "MCC_mg": 96
+        },
+        "027_F4": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 220,
+            "NaHCO3_mg": 66,
+            "MCC_mg": 8
+        },
+        "027_F5": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 113,
+            "NaHCO3_mg": 55,
+            "MCC_mg": 126
+        },
+        "027_F6": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 238,
+            "NaHCO3_mg": 55,
+            "MCC_mg": 1
+        },
+        "027_F7": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 176,
+            "NaHCO3_mg": 44,
+            "MCC_mg": 74
+        },
+        "027_F8": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 176,
+            "NaHCO3_mg": 66,
+            "MCC_mg": 52
+        },
+        "027_F9": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 176,
+            "NaHCO3_mg": 55,
+            "MCC_mg": 63
+        },
+        "027_F10": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 176,
+            "NaHCO3_mg": 55,
+            "MCC_mg": 63
+        },
+        "027_F11": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 176,
+            "NaHCO3_mg": 55,
+            "MCC_mg": 63
+        },
+        "027_F12": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 176,
+            "NaHCO3_mg": 55,
+            "MCC_mg": 63
+        },
+        "027_F13": {
+            "Ranitidine_HCl_mg": 168,
+            "HPMC_NaCMC_mg": 176,
+            "NaHCO3_mg": 55,
+            "MCC_mg": 63
+        }
+    },
+    "Pre_Compression_and_Tablet_Properties": {
+        "Hardness_N": "60.4 – 67.8 (± SD)",
+        "Friability_percent": "0.18 – 0.50",
+        "Thickness_mm": "3.89 – 4.02",
+        "Weight_Variation": "Within pharmacopeial limits",
+        "Matrix_Integrity": "Maintained up to 12 h (except 027_F5)"
+    },
+    "Fourier_Transform_Infrared_Spectral_Measurements": {
+        "Reported": "Not reported in article"
+    },
+    "Tablet_Fabrication_Process": {
+        "Method": "Direct compression",
+        "Mixer": "Turbula mixer (10 min blending)",
+        "Compression_Machine": "Eccentric tablet press (EK0 Korsch, Germany)",
+        "Punch_Size_mm": 10,
+        "Lubrication": "Magnesium stearate and talc"
+    },
+    "Process_Parameters": {
+        "Compression_Pressure": "Not reported",
+        "Temperature": "Room temperature",
+        "Coating": "None",
+        "Dissolution_Temperature": "37 ± 0.5 °C"
+    },
+    "Release_Profiles": {
+        "ranitidine_release_profiles": [
+            {
+                "batch": "027_F1",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 14
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 25
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 40
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 49
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 60
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 74
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 85
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 95
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 98
+                    }
+                ]
+            },
+            {
+                "batch": "027_F2",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 10
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 18
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 26
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 35
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 44
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 56
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 68
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 78
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 88
+                    }
+                ]
+            },
+            {
+                "batch": "027_F3",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 17
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 29
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 42
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 53
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 61
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 80
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 92
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 98
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 99
+                    }
+                ]
+            },
+            {
+                "batch": "027_F4",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 14
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 20
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 30
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 40
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 50
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 60
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 72
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 82
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 94
+                    }
+                ]
+            },
+            {
+                "batch": "027_F5",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 20
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 36
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 49
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 59
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 69
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 85
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 96
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 99
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 100
+                    }
+                ]
+            },
+            {
+                "batch": "027_F6",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 8
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 15
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 24
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 32
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 41
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 53
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 63
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 74
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 84
+                    }
+                ]
+            },
+            {
+                "batch": "027_F7",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 12
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 19
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 30
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 40
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 50
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 62
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 73
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 81
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 94
+                    }
+                ]
+            },
+            {
+                "batch": "027_F8",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 12
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 18
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 28
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 38
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 48
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 59
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 70
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 80
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 90
+                    }
+                ]
+            },
+            {
+                "batch": "027_F9",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 15
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 21
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 32
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 41
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 56
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 67
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 79
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 86
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 97
+                    }
+                ]
+            },
+            {
+                "batch": "027_F10",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 14
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 25
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 35
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 45
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 55
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 66
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 78
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 86
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 97
+                    }
+                ]
+            },
+            {
+                "batch": "027_F11",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 12
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 18
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 30
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 39
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 49
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 60
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 73
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 81
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 94
+                    }
+                ]
+            },
+            {
+                "batch": "027_F12",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 15
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 29
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 39
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 51
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 59
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 70
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 80
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 88
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 100
+                    }
+                ]
+            },
+            {
+                "batch": "027_F13",
+                "data": [
+                    {
+                        "time_hr": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_hr": 0.5,
+                        "release_percent": 10
+                    },
+                    {
+                        "time_hr": 1,
+                        "release_percent": 16
+                    },
+                    {
+                        "time_hr": 2,
+                        "release_percent": 29
+                    },
+                    {
+                        "time_hr": 3,
+                        "release_percent": 39
+                    },
+                    {
+                        "time_hr": 4,
+                        "release_percent": 48
+                    },
+                    {
+                        "time_hr": 6,
+                        "release_percent": 59
+                    },
+                    {
+                        "time_hr": 8,
+                        "release_percent": 70
+                    },
+                    {
+                        "time_hr": 10,
+                        "release_percent": 81
+                    },
+                    {
+                        "time_hr": 12,
+                        "release_percent": 93
+                    }
+                ]
+            }
+        ]
+    },
+    "Release_Properties_Per_Batch": {
+        "Release_Model": "Higuchi (best fit)",
+        "Korsmeyer_Peppas_n": "0.47 – 0.60",
+        "Release_Mechanism": "Anomalous (diffusion + erosion)",
+        "Release_Duration": "Up to 12 h",
+        "pH_Condition": "0.1 N HCl (pH 1.2)"
+    },
+    "Experimental_Data_Summary": {
+        "In_Vitro_Studies": "Dissolution, swelling, bioadhesion, floating behavior",
+        "In_Vivo_Studies": "Not reported",
+        "Statistical_Significance": "p < 0.05",
+        "Optimized_Formulation": {
+            "HPMC_NaCMC_mg": 214.55,
+            "NaHCO3_mg": 61.22,
+            "Floating_Lag_Time_sec": 5.09,
+            "Bioadhesive_Strength_g": 29.69,
+            "Swelling_Index_12h_percent": 315.04,
+            "Drug_Release_12h_percent": 93.65
+        }
+    },
+    "Conclusion": {
+        "Outcome": "Successfully developed sustained-release gastro-retentive ranitidine tablets",
+        "Significance": "Improved gastric retention and controlled release for drugs with narrow absorption window"
+    }
+}

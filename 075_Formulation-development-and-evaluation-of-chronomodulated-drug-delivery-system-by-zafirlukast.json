@@ -1,0 +1,1447 @@
+{
+    "article_info": {
+        "title": "FORMULATION DEVELOPMENT AND EVALUATION OF CHROMODULATED DRUG DELIVERY SYSTEM BY ZAFIRLUKAST",
+        "authors": "N. Shiva Krishna, B. Jayanthi, A. Madhukar",
+        "journal": "International Journal of Applied Pharmaceutics",
+        "volume": 13,
+        "issue": 4,
+        "pages": "211-220",
+        "year": 2021,
+        "doi": "https://dx.doi.org/10.22159/ijap.2021v13i34.41734"
+    },
+    "materials_origin": {
+        "zafirlukast": "Sura Labs, Dilshuknagar, Hyderabad, India",
+        "plantago_ovata_seed_powder": "Local market",
+        "sodium_starch_glycolate": "SD Fine Chemicals, Mumbai, India",
+        "crospovidone": "R. K. Enterprises, Ghaziabad, India",
+        "locust_bean_gum": "R. K. Enterprises, Ghaziabad, India",
+        "croscarmellose_sodium": "R. K. Enterprises, Ghaziabad, India",
+        "eudragit_rs100": "Evonik Industries, Mumbai, India",
+        "eudragit_rl100": "Evonik Industries, Mumbai, India",
+        "ethylcellulose": "CDH Chemicals, New Delhi, India",
+        "hpmc_k4m": "Colorcon Asia Pvt. Ltd., Goa, India",
+        "hpmc_k100m": "Colorcon Asia Pvt. Ltd., Goa, India",
+        "mannitol": "SD Fine Chemicals, Mumbai, India",
+        "mg_stearate": "SD Fine Chemicals, Mumbai, India",
+        "talc": "SD Fine Chemicals, Mumbai, India",
+        "pvp_k30": "SD Fine Chemicals, Mumbai, India",
+        "aerosil": "Reachem Labs, New Delhi, India",
+        "microcrystalline_cellulose": "Sigma Chemicals, Bangalore, India",
+        "sodium_stearyl_fumerate": "SD Fine Chemicals, Mumbai, India"
+    },
+    "experimental_design": {
+        "core_tablets": "Optimization using natural (Plantago ovata seed powder, locust bean gum) and synthetic (sodium starch glycolate, croscarmellose sodium, crospovidone) superdisintegrants at three concentration levels (8, 16, 24 mg) via direct compression.",
+        "press_coated_tablets": "Optimized core (075_ZC5) coated with various combinations of hydrophobic polymers (ethylcellulose, Eudragit RL100, Eudragit RS100) and hydrophilic polymers (HPMC K4M, HPMC K100M) in 1:1 ratio, total coating weight 200 mg, compressed to 350 mg tablets."
+    },
+    "ingredients_identification": {
+        "calibration_curve": {
+            "solvents": [
+                "0.1N HCl",
+                "phosphate buffer pH 6.8",
+                "phosphate buffer pH 7.4"
+            ],
+            "wavelength_nm": [
+                235,
+                239,
+                239
+            ],
+            "data": [
+                {
+                    "concentration_ug_ml": 0,
+                    "absorbance": [
+                        0,
+                        0,
+                        0
+                    ]
+                },
+                {
+                    "concentration_ug_ml": 5,
+                    "absorbance": [
+                        0.114,
+                        0.185,
+                        0.183
+                    ]
+                },
+                {
+                    "concentration_ug_ml": 10,
+                    "absorbance": [
+                        0.225,
+                        0.358,
+                        0.388
+                    ]
+                },
+                {
+                    "concentration_ug_ml": 15,
+                    "absorbance": [
+                        0.312,
+                        0.598,
+                        0.595
+                    ]
+                },
+                {
+                    "concentration_ug_ml": 20,
+                    "absorbance": [
+                        0.411,
+                        0.784,
+                        0.801
+                    ]
+                },
+                {
+                    "concentration_ug_ml": 25,
+                    "absorbance": [
+                        0.513,
+                        0.989,
+                        0.959
+                    ]
+                }
+            ],
+            "linearity": "Beer-Lambert law obeyed"
+        },
+        "ftir_peaks": {
+            "pure_drug": [
+                {
+                    "functional_group": "C-H Bending",
+                    "wavenumber_cm-1": 2952.26
+                },
+                {
+                    "functional_group": "C=C Stretch",
+                    "wavenumber_cm-1": 990.86
+                },
+                {
+                    "functional_group": "C=O Stretching",
+                    "wavenumber_cm-1": 1723.63
+                },
+                {
+                    "functional_group": "C-H Stretch",
+                    "wavenumber_cm-1": 2870.87
+                },
+                {
+                    "functional_group": "O-H Stretching",
+                    "wavenumber_cm-1": 3544.94
+                },
+                {
+                    "functional_group": "N-H Stretch",
+                    "wavenumber_cm-1": 3544.94
+                },
+                {
+                    "functional_group": "Benzene ring",
+                    "wavenumber_cm-1": 1696.65
+                },
+                {
+                    "functional_group": "C-O",
+                    "wavenumber_cm-1": 1225.7
+                },
+                {
+                    "functional_group": "Aromatic C-H stretch",
+                    "wavenumber_cm-1": 3010.5
+                },
+                {
+                    "functional_group": "075_SO2",
+                    "wavenumber_cm-1": 1368.48
+                }
+            ],
+            "optimized_formulation": [
+                {
+                    "functional_group": "C-H Bending",
+                    "wavenumber_cm-1": 2952.62
+                },
+                {
+                    "functional_group": "C=C Stretch",
+                    "wavenumber_cm-1": 990.84
+                },
+                {
+                    "functional_group": "C=O Stretching",
+                    "wavenumber_cm-1": 1723.41
+                },
+                {
+                    "functional_group": "C-H Stretch",
+                    "wavenumber_cm-1": 2871.14
+                },
+                {
+                    "functional_group": "O-H Stretching",
+                    "wavenumber_cm-1": 3542.83
+                },
+                {
+                    "functional_group": "N-H Stretch",
+                    "wavenumber_cm-1": 3542.83
+                },
+                {
+                    "functional_group": "Benzene ring",
+                    "wavenumber_cm-1": 1696.5
+                },
+                {
+                    "functional_group": "C-O",
+                    "wavenumber_cm-1": 1225.52
+                },
+                {
+                    "functional_group": "Aromatic C-H stretch",
+                    "wavenumber_cm-1": 3010.91
+                },
+                {
+                    "functional_group": "075_SO2",
+                    "wavenumber_cm-1": 1368.16
+                }
+            ],
+            "conclusion": "No interaction between drug and excipients"
+        },
+        "dsc": {
+            "pure_drug": "Sharp endothermic peak at 141.9°C (melting point)",
+            "optimized_formulation": "Sharp endothermic peak at 138.0°C; no interaction"
+        }
+    },
+    "formulation_details": {
+        "core_tablets": [
+            {
+                "code": "075_ZC1",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Plantago ovata seed powder",
+                    "amount_mg": 8
+                }
+            },
+            {
+                "code": "075_ZC2",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Plantago ovata seed powder",
+                    "amount_mg": 16
+                }
+            },
+            {
+                "code": "075_ZC3",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Plantago ovata seed powder",
+                    "amount_mg": 24
+                }
+            },
+            {
+                "code": "075_ZC4",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Locust bean gum",
+                    "amount_mg": 8
+                }
+            },
+            {
+                "code": "075_ZC5",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Locust bean gum",
+                    "amount_mg": 16
+                }
+            },
+            {
+                "code": "075_ZC6",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Locust bean gum",
+                    "amount_mg": 24
+                }
+            },
+            {
+                "code": "075_ZC7",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Sodium starch glycolate",
+                    "amount_mg": 8
+                }
+            },
+            {
+                "code": "075_ZC8",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Sodium starch glycolate",
+                    "amount_mg": 16
+                }
+            },
+            {
+                "code": "075_ZC9",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Sodium starch glycolate",
+                    "amount_mg": 24
+                }
+            },
+            {
+                "code": "075_ZC10",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Croscarmellose sodium",
+                    "amount_mg": 8
+                }
+            },
+            {
+                "code": "075_ZC11",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Croscarmellose sodium",
+                    "amount_mg": 16
+                }
+            },
+            {
+                "code": "075_ZC12",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Croscarmellose sodium",
+                    "amount_mg": 24
+                }
+            },
+            {
+                "code": "075_ZC13",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Crospovidone",
+                    "amount_mg": 8
+                }
+            },
+            {
+                "code": "075_ZC14",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Crospovidone",
+                    "amount_mg": 16
+                }
+            },
+            {
+                "code": "075_ZC15",
+                "total_weight_mg": 150,
+                "zafirlukast_mg": 20,
+                "aerosil_mg": 1,
+                "sodium_stearyl_fumerate_mg": 3,
+                "mannitol_mg": "QS",
+                "superdisintegrant": {
+                    "name": "Crospovidone",
+                    "amount_mg": 24
+                }
+            }
+        ],
+        "press_coated_tablets": [
+            {
+                "code": "075_P1",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "ethylcellulose_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 125
+                }
+            },
+            {
+                "code": "075_P2",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "eudragit_rl100_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 125
+                }
+            },
+            {
+                "code": "075_P3",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "eudragit_rs100_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 125
+                }
+            },
+            {
+                "code": "075_P4",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "hpmc_k4m_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 125
+                }
+            },
+            {
+                "code": "075_P5",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "hpmc_k100m_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 125
+                }
+            },
+            {
+                "code": "075_P6",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "ethylcellulose_mg": 62.5,
+                    "hpmc_k4m_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 62.5
+                }
+            },
+            {
+                "code": "075_P7",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "eudragit_rl100_mg": 62.5,
+                    "hpmc_k4m_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 62.5
+                }
+            },
+            {
+                "code": "075_P8",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "eudragit_rs100_mg": 62.5,
+                    "hpmc_k4m_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 62.5
+                }
+            },
+            {
+                "code": "075_P9",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "ethylcellulose_mg": 62.5,
+                    "hpmc_k100m_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 62.5
+                }
+            },
+            {
+                "code": "075_P10",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "eudragit_rl100_mg": 62.5,
+                    "hpmc_k100m_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 62.5
+                }
+            },
+            {
+                "code": "075_P11",
+                "core_tablet": "075_ZC5",
+                "coating_weight_mg": 200,
+                "total_weight_mg": 350,
+                "coating_composition": {
+                    "eudragit_rs100_mg": 62.5,
+                    "hpmc_k100m_mg": 62.5,
+                    "pvp_k30_mg": 6.5,
+                    "mg_stearate_mg": 4,
+                    "talc_mg": 2,
+                    "mcc_mg": 62.5
+                }
+            }
+        ]
+    },
+    "pre_compression_parameters": {
+        "core_blends": [
+            {
+                "code": "075_ZC1",
+                "angle_of_repose_mean_sd": "23.98±1.2",
+                "bulk_density_g_ml_mean_sd": "0.549±0.01",
+                "tapped_density_g_ml_mean_sd": "0.626±0.01",
+                "carrs_index_percent_mean_sd": "12.30±0.13",
+                "hausners_ratio_mean_sd": "1.140±0.02"
+            },
+            {
+                "code": "075_ZC2",
+                "angle_of_repose_mean_sd": "28.72±2.5",
+                "bulk_density_g_ml_mean_sd": "0.335±0.03",
+                "tapped_density_g_ml_mean_sd": "0.470±0.05",
+                "carrs_index_percent_mean_sd": "28.72±0.12",
+                "hausners_ratio_mean_sd": "1.401±0.01"
+            },
+            {
+                "code": "075_ZC3",
+                "angle_of_repose_mean_sd": "21.12±2.5",
+                "bulk_density_g_ml_mean_sd": "0.409±0.02",
+                "tapped_density_g_ml_mean_sd": "0.531±0.06",
+                "carrs_index_percent_mean_sd": "22.97±0.13",
+                "hausners_ratio_mean_sd": "1.298±0.06"
+            },
+            {
+                "code": "075_ZC4",
+                "angle_of_repose_mean_sd": "26.89±0.5",
+                "bulk_density_g_ml_mean_sd": "0.681±0.03",
+                "tapped_density_g_ml_mean_sd": "0.887±0.05",
+                "carrs_index_percent_mean_sd": "23.22±0.18",
+                "hausners_ratio_mean_sd": "0.980±0.01"
+            },
+            {
+                "code": "075_ZC5",
+                "angle_of_repose_mean_sd": "24.19±0.5",
+                "bulk_density_g_ml_mean_sd": "0.547±0.06",
+                "tapped_density_g_ml_mean_sd": "0.624±0.04",
+                "carrs_index_percent_mean_sd": "12.33±0.11",
+                "hausners_ratio_mean_sd": "1.140±0.03"
+            },
+            {
+                "code": "075_ZC6",
+                "angle_of_repose_mean_sd": "26.6±0.6",
+                "bulk_density_g_ml_mean_sd": "0.555±0.03",
+                "tapped_density_g_ml_mean_sd": "0.714±0.07",
+                "carrs_index_percent_mean_sd": "22.22±0.21",
+                "hausners_ratio_mean_sd": "1.280±0.06"
+            },
+            {
+                "code": "075_ZC7",
+                "angle_of_repose_mean_sd": "22.67±0.8",
+                "bulk_density_g_ml_mean_sd": "0.395±0.01",
+                "tapped_density_g_ml_mean_sd": "0.475±0.01",
+                "carrs_index_percent_mean_sd": "20.25±0.17",
+                "hausners_ratio_mean_sd": "1.202±0.03"
+            },
+            {
+                "code": "075_ZC8",
+                "angle_of_repose_mean_sd": "26.02±0.8",
+                "bulk_density_g_ml_mean_sd": "0.267±0.03",
+                "tapped_density_g_ml_mean_sd": "0.307±0.03",
+                "carrs_index_percent_mean_sd": "13.33±0.18",
+                "hausners_ratio_mean_sd": "1.150±0.06"
+            },
+            {
+                "code": "075_ZC9",
+                "angle_of_repose_mean_sd": "27.67±1.0",
+                "bulk_density_g_ml_mean_sd": "0.429±0.03",
+                "tapped_density_g_ml_mean_sd": "0.546±0.05",
+                "carrs_index_percent_mean_sd": "23.93±0.19",
+                "hausners_ratio_mean_sd": "1.272±0.03"
+            },
+            {
+                "code": "075_ZC10",
+                "angle_of_repose_mean_sd": "26.02±1.2",
+                "bulk_density_g_ml_mean_sd": "0.267±0.01",
+                "tapped_density_g_ml_mean_sd": "0.307±0.08",
+                "carrs_index_percent_mean_sd": "13.33±0.12",
+                "hausners_ratio_mean_sd": "1.150±0.01"
+            },
+            {
+                "code": "075_ZC11",
+                "angle_of_repose_mean_sd": "24.70±0.4",
+                "bulk_density_g_ml_mean_sd": "0.519±0.04",
+                "tapped_density_g_ml_mean_sd": "0.683±0.08",
+                "carrs_index_percent_mean_sd": "13.46±0.13",
+                "hausners_ratio_mean_sd": "1.315±0.03"
+            },
+            {
+                "code": "075_ZC12",
+                "angle_of_repose_mean_sd": "25.81±0.8",
+                "bulk_density_g_ml_mean_sd": "0.393±0.06",
+                "tapped_density_g_ml_mean_sd": "0.453±0.09",
+                "carrs_index_percent_mean_sd": "13.24±0.14",
+                "hausners_ratio_mean_sd": "1.150±0.02"
+            },
+            {
+                "code": "075_ZC13",
+                "angle_of_repose_mean_sd": "25.31±2.2",
+                "bulk_density_g_ml_mean_sd": "0.330±0.07",
+                "tapped_density_g_ml_mean_sd": "0.380±0.05",
+                "carrs_index_percent_mean_sd": "13.15±0.15",
+                "hausners_ratio_mean_sd": "1.152±0.04"
+            },
+            {
+                "code": "075_ZC14",
+                "angle_of_repose_mean_sd": "24.70±1.4",
+                "bulk_density_g_ml_mean_sd": "0.462±0.09",
+                "tapped_density_g_ml_mean_sd": "0.591±0.06",
+                "carrs_index_percent_mean_sd": "21.82±0.13",
+                "hausners_ratio_mean_sd": "1.279±0.06"
+            },
+            {
+                "code": "075_ZC15",
+                "angle_of_repose_mean_sd": "26.31±1.2",
+                "bulk_density_g_ml_mean_sd": "0.232±0.05",
+                "tapped_density_g_ml_mean_sd": "0.273±0.07",
+                "carrs_index_percent_mean_sd": "15.52±0.12",
+                "hausners_ratio_mean_sd": "1.181±0.01"
+            }
+        ],
+        "core_tablets": [
+            {
+                "code": "075_ZC1",
+                "average_weight_mg_mean_sd": "150.5±1",
+                "hardness_kg_cm2_mean_sd": "4.5±0.8",
+                "friability_percent_loss_mean_sd": "0.52",
+                "thickness_mm_mean_sd": "3.5±0.01",
+                "drug_content_percent_mean_sd": "99.76±0.44"
+            },
+            {
+                "code": "075_ZC2",
+                "average_weight_mg_mean_sd": "150.4±2",
+                "hardness_kg_cm2_mean_sd": "4.0±0.6",
+                "friability_percent_loss_mean_sd": "0.54",
+                "thickness_mm_mean_sd": "3.3±0.05",
+                "drug_content_percent_mean_sd": "97.45±0.75"
+            },
+            {
+                "code": "075_ZC3",
+                "average_weight_mg_mean_sd": "149.6±1",
+                "hardness_kg_cm2_mean_sd": "4.4±0.5",
+                "friability_percent_loss_mean_sd": "0.51",
+                "thickness_mm_mean_sd": "3.1±0.03",
+                "drug_content_percent_mean_sd": "98.34±0.92"
+            },
+            {
+                "code": "075_ZC4",
+                "average_weight_mg_mean_sd": "149.6±2",
+                "hardness_kg_cm2_mean_sd": "4.5±0.4",
+                "friability_percent_loss_mean_sd": "0.55",
+                "thickness_mm_mean_sd": "3.4±0.04",
+                "drug_content_percent_mean_sd": "99.87±0.72"
+            },
+            {
+                "code": "075_ZC5",
+                "average_weight_mg_mean_sd": "151.4±2",
+                "hardness_kg_cm2_mean_sd": "4.4±0.6",
+                "friability_percent_loss_mean_sd": "0.56",
+                "thickness_mm_mean_sd": "3.2±0.07",
+                "drug_content_percent_mean_sd": "99.14±0.37"
+            },
+            {
+                "code": "075_ZC6",
+                "average_weight_mg_mean_sd": "150.7±2",
+                "hardness_kg_cm2_mean_sd": "4.2±0.1",
+                "friability_percent_loss_mean_sd": "0.45",
+                "thickness_mm_mean_sd": "3.4±0.05",
+                "drug_content_percent_mean_sd": "97.56±0.25"
+            },
+            {
+                "code": "075_ZC7",
+                "average_weight_mg_mean_sd": "148.95±1",
+                "hardness_kg_cm2_mean_sd": "4.2±0.3",
+                "friability_percent_loss_mean_sd": "0.45",
+                "thickness_mm_mean_sd": "3.1±0.03",
+                "drug_content_percent_mean_sd": "98.3±0.49"
+            },
+            {
+                "code": "075_ZC8",
+                "average_weight_mg_mean_sd": "149.15±1",
+                "hardness_kg_cm2_mean_sd": "4.7±0.2",
+                "friability_percent_loss_mean_sd": "0.54",
+                "thickness_mm_mean_sd": "3.2±0.04",
+                "drug_content_percent_mean_sd": "99.3±0.33"
+            },
+            {
+                "code": "075_ZC9",
+                "average_weight_mg_mean_sd": "150.26±2",
+                "hardness_kg_cm2_mean_sd": "4.2±0.3",
+                "friability_percent_loss_mean_sd": "0.55",
+                "thickness_mm_mean_sd": "3.3±0.02",
+                "drug_content_percent_mean_sd": "98.2±0.47"
+            },
+            {
+                "code": "075_ZC10",
+                "average_weight_mg_mean_sd": "150.36±2",
+                "hardness_kg_cm2_mean_sd": "4.0±0.6",
+                "friability_percent_loss_mean_sd": "0.56",
+                "thickness_mm_mean_sd": "3.5±0.05",
+                "drug_content_percent_mean_sd": "99.2±0.65"
+            },
+            {
+                "code": "075_ZC11",
+                "average_weight_mg_mean_sd": "149.25±3",
+                "hardness_kg_cm2_mean_sd": "4.2±0.1",
+                "friability_percent_loss_mean_sd": "0.48",
+                "thickness_mm_mean_sd": "3.1±0.06",
+                "drug_content_percent_mean_sd": "99.3±0.55"
+            },
+            {
+                "code": "075_ZC12",
+                "average_weight_mg_mean_sd": "148.26±1",
+                "hardness_kg_cm2_mean_sd": "4.1±0.5",
+                "friability_percent_loss_mean_sd": "0.45",
+                "thickness_mm_mean_sd": "3.2±0.07",
+                "drug_content_percent_mean_sd": "97.2±0.45"
+            },
+            {
+                "code": "075_ZC13",
+                "average_weight_mg_mean_sd": "150.5±1",
+                "hardness_kg_cm2_mean_sd": "4.3±0.2",
+                "friability_percent_loss_mean_sd": "0.51",
+                "thickness_mm_mean_sd": "3.3±0.09",
+                "drug_content_percent_mean_sd": "102.3±1.50"
+            },
+            {
+                "code": "075_ZC14",
+                "average_weight_mg_mean_sd": "150.63±1",
+                "hardness_kg_cm2_mean_sd": "4.4±0.7",
+                "friability_percent_loss_mean_sd": "0.52",
+                "thickness_mm_mean_sd": "3.3±0.04",
+                "drug_content_percent_mean_sd": "103.5±1.00"
+            },
+            {
+                "code": "075_ZC15",
+                "average_weight_mg_mean_sd": "151.85±1",
+                "hardness_kg_cm2_mean_sd": "4.5±0.2",
+                "friability_percent_loss_mean_sd": "0.53",
+                "thickness_mm_mean_sd": "3.4±0.05",
+                "drug_content_percent_mean_sd": "103.0±0.92"
+            }
+        ],
+        "coated_tablets": [
+            {
+                "code": "075_P1",
+                "average_weight_mg_mean_sd": "349.25±0.6",
+                "hardness_kg_cm2_mean_sd": "5.9±0.15",
+                "friability_percent_loss_mean_sd": "0.35",
+                "thickness_mm_mean_sd": "4.99±0.03",
+                "drug_content_percent_mean_sd": "99.45±0.55"
+            },
+            {
+                "code": "075_P2",
+                "average_weight_mg_mean_sd": "350.65±0.8",
+                "hardness_kg_cm2_mean_sd": "5.5±0.20",
+                "friability_percent_loss_mean_sd": "0.29",
+                "thickness_mm_mean_sd": "4.89±0.06",
+                "drug_content_percent_mean_sd": "99.86±0.33"
+            },
+            {
+                "code": "075_P3",
+                "average_weight_mg_mean_sd": "350.89±0.65",
+                "hardness_kg_cm2_mean_sd": "5.8±0.55",
+                "friability_percent_loss_mean_sd": "0.51",
+                "thickness_mm_mean_sd": "4.68±0.05",
+                "drug_content_percent_mean_sd": "99.73±0.45"
+            },
+            {
+                "code": "075_P4",
+                "average_weight_mg_mean_sd": "350.77±0.55",
+                "hardness_kg_cm2_mean_sd": "5.3±0.50",
+                "friability_percent_loss_mean_sd": "0.48",
+                "thickness_mm_mean_sd": "4.90±0.06",
+                "drug_content_percent_mean_sd": "99.92±0.64"
+            },
+            {
+                "code": "075_P5",
+                "average_weight_mg_mean_sd": "348.99±0.75",
+                "hardness_kg_cm2_mean_sd": "5.2±0.22",
+                "friability_percent_loss_mean_sd": "0.63",
+                "thickness_mm_mean_sd": "4.19±0.07",
+                "drug_content_percent_mean_sd": "99.65±0.12"
+            },
+            {
+                "code": "075_P6",
+                "average_weight_mg_mean_sd": "350.12±0.71",
+                "hardness_kg_cm2_mean_sd": "5.1±0.56",
+                "friability_percent_loss_mean_sd": "0.81",
+                "thickness_mm_mean_sd": "4.72±0.08",
+                "drug_content_percent_mean_sd": "99.55±0.23"
+            },
+            {
+                "code": "075_P7",
+                "average_weight_mg_mean_sd": "347.35±0.8",
+                "hardness_kg_cm2_mean_sd": "5.3±0.23",
+                "friability_percent_loss_mean_sd": "0.15",
+                "thickness_mm_mean_sd": "4.39±0.07",
+                "drug_content_percent_mean_sd": "98.42±0.37"
+            },
+            {
+                "code": "075_P8",
+                "average_weight_mg_mean_sd": "348.46±0.82",
+                "hardness_kg_cm2_mean_sd": "5.8±0.12",
+                "friability_percent_loss_mean_sd": "0.43",
+                "thickness_mm_mean_sd": "4.57±0.05",
+                "drug_content_percent_mean_sd": "99.85±0.49"
+            },
+            {
+                "code": "075_P9",
+                "average_weight_mg_mean_sd": "349.14±1.01",
+                "hardness_kg_cm2_mean_sd": "5.1±0.27",
+                "friability_percent_loss_mean_sd": "0.57",
+                "thickness_mm_mean_sd": "4.38±0.04",
+                "drug_content_percent_mean_sd": "99.12±0.57"
+            },
+            {
+                "code": "075_P10",
+                "average_weight_mg_mean_sd": "350.32±0.64",
+                "hardness_kg_cm2_mean_sd": "5.0±0.45",
+                "friability_percent_loss_mean_sd": "0.43",
+                "thickness_mm_mean_sd": "4.29±0.03",
+                "drug_content_percent_mean_sd": "98.42±0.62"
+            },
+            {
+                "code": "075_P11",
+                "average_weight_mg_mean_sd": "352.47±0.71",
+                "hardness_kg_cm2_mean_sd": "5.94±0.37",
+                "friability_percent_loss_mean_sd": "0.37",
+                "thickness_mm_mean_sd": "4.35±0.01",
+                "drug_content_percent_mean_sd": "99.65±0.19"
+            }
+        ]
+    },
+    "independent_variables": {
+        "core_tablets": {
+            "superdisintegrant_types": [
+                "Plantago ovata seed powder",
+                "Locust bean gum",
+                "Sodium starch glycolate",
+                "Croscarmellose sodium",
+                "Crospovidone"
+            ],
+            "concentration_levels_mg": [
+                8,
+                16,
+                24
+            ]
+        },
+        "press_coated_tablets": {
+            "hydrophobic_polymers": [
+                "Ethylcellulose",
+                "Eudragit RL100",
+                "Eudragit RS100"
+            ],
+            "hydrophilic_polymers": [
+                "HPMC K4M",
+                "HPMC K100M"
+            ],
+            "ratio": "1:1 (62.5 mg each)",
+            "total_coating_weight_mg": 200
+        }
+    },
+    "ftir_data": {
+        "functional_groups": [
+            {
+                "group": "C-H Bending",
+                "pure_drug_cm-1": 2952.26,
+                "optimized_cm-1": 2952.62
+            },
+            {
+                "group": "C=C Stretch",
+                "pure_drug_cm-1": 990.86,
+                "optimized_cm-1": 990.84
+            },
+            {
+                "group": "C=O Stretching",
+                "pure_drug_cm-1": 1723.63,
+                "optimized_cm-1": 1723.41
+            },
+            {
+                "group": "C-H Stretch",
+                "pure_drug_cm-1": 2870.87,
+                "optimized_cm-1": 2871.14
+            },
+            {
+                "group": "O-H Stretching",
+                "pure_drug_cm-1": 3544.94,
+                "optimized_cm-1": 3542.83
+            },
+            {
+                "group": "N-H Stretch",
+                "pure_drug_cm-1": 3544.94,
+                "optimized_cm-1": 3542.83
+            },
+            {
+                "group": "Benzene ring",
+                "pure_drug_cm-1": 1696.65,
+                "optimized_cm-1": 1696.5
+            },
+            {
+                "group": "C-O",
+                "pure_drug_cm-1": 1225.7,
+                "optimized_cm-1": 1225.52
+            },
+            {
+                "group": "Aromatic C-H stretch",
+                "pure_drug_cm-1": 3010.5,
+                "optimized_cm-1": 3010.91
+            },
+            {
+                "group": "075_SO2",
+                "pure_drug_cm-1": 1368.48,
+                "optimized_cm-1": 1368.16
+            }
+        ]
+    },
+    "tablet_fabrication": {
+        "core_tablets": {
+            "method": "Direct compression",
+            "equipment": "Lab press Limited, India",
+            "punch_die_size_mm": 6,
+            "compression_force": "Manual"
+        },
+        "press_coated_tablets": {
+            "coating_blend_method": "Wet granulation",
+            "equipment": "Lab press Limited, India",
+            "die_size_mm": 10,
+            "compression": "Core tablet placed manually, then coated blend compressed",
+            "total_tablet_weight_mg": 350
+        }
+    },
+    "release_properties": {
+        "core_tablets": {
+            "summary": "075_ZC5 (Locust bean gum 16 mg) showed disintegration time 22.13 sec and >98% drug release in 30 min. 075_ZC10 (CCS 8 mg) also rapid release.",
+            "disintegration_times_seconds": {
+                "075_ZC1": "~40 (from Fig 3)",
+                "075_ZC2": "~45",
+                "075_ZC3": "~50",
+                "075_ZC4": "~25",
+                "075_ZC5": "22.13±0.72",
+                "075_ZC6": "~28",
+                "075_ZC7": "~35",
+                "075_ZC8": "~30",
+                "075_ZC9": "~32",
+                "075_ZC10": "~24",
+                "075_ZC11": "~28",
+                "075_ZC12": "~30",
+                "075_ZC13": "~38",
+                "075_ZC14": "~34",
+                "075_ZC15": "~36"
+            }
+        },
+        "press_coated_tablets": {
+            "dissolution_data": [
+                {
+                    "code": "075_P1",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        0,
+                        0,
+                        5.81,
+                        12.34,
+                        17.87,
+                        22.89,
+                        31.83,
+                        39.35,
+                        46.95,
+                        51.89,
+                        65.34,
+                        76.62,
+                        89.32
+                    ]
+                },
+                {
+                    "code": "075_P2",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        0,
+                        0,
+                        10.89,
+                        22.31,
+                        35.35,
+                        47.26,
+                        58.18,
+                        63.48,
+                        77.34,
+                        89.89,
+                        89.92,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "code": "075_P3",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        0,
+                        0,
+                        0,
+                        22.14,
+                        26.43,
+                        38.18,
+                        42.27,
+                        48.54,
+                        53.78,
+                        55.68,
+                        67.35,
+                        73.62,
+                        86.43
+                    ]
+                },
+                {
+                    "code": "075_P4",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        33.42,
+                        41.86,
+                        50.33,
+                        63.49,
+                        73.81,
+                        85.44,
+                        96.65,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "code": "075_P5",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        21.8,
+                        30.92,
+                        36.84,
+                        39.28,
+                        48.39,
+                        55.83,
+                        65.66,
+                        85.72,
+                        94.8,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "code": "075_P6",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        0.56,
+                        0.77,
+                        1.21,
+                        3.46,
+                        39.54,
+                        43.15,
+                        49.89,
+                        52.77,
+                        58.04,
+                        61.04,
+                        68.22,
+                        81.09,
+                        89.03
+                    ]
+                },
+                {
+                    "code": "075_P7",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        0.12,
+                        0.35,
+                        0.51,
+                        0.62,
+                        0.78,
+                        1.95,
+                        46.34,
+                        99.48,
+                        null,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "code": "075_P8",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        0.34,
+                        0.61,
+                        2.34,
+                        4.73,
+                        37.48,
+                        44.85,
+                        52.44,
+                        63.19,
+                        74.55,
+                        83.62,
+                        87.69,
+                        92.34,
+                        98.86
+                    ]
+                },
+                {
+                    "code": "075_P9",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        0.46,
+                        0.95,
+                        1.41,
+                        4.45,
+                        24.75,
+                        42.27,
+                        48.54,
+                        51.74,
+                        55.68,
+                        62.14,
+                        67.35,
+                        76.43,
+                        83.28
+                    ]
+                },
+                {
+                    "code": "075_P10",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        0.31,
+                        0.55,
+                        0.82,
+                        1.36,
+                        1.81,
+                        5.45,
+                        43.9,
+                        65.32,
+                        98.45,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                },
+                {
+                    "code": "075_P11",
+                    "time_hours": [
+                        0,
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "cumulative_release_percent_mean_sd": [
+                        0,
+                        0.14,
+                        0.22,
+                        0.58,
+                        1.12,
+                        3.65,
+                        7.34,
+                        12.16,
+                        50.65,
+                        98.54,
+                        null,
+                        null,
+                        null,
+                        null
+                    ]
+                }
+            ],
+            "lag_time": "For 075_P8, approximately 4 h",
+            "release_mechanism": "Zero-order for 075_P8 (R²=0.963), with anomalous transport (Korsmeyer-Peppas n value not specified but indicates non-Fickian)",
+            "factors_influencing": "Hydrophobic polymer type and concentration; combination with HPMC controls lag time and release rate"
+        },
+        "release_kinetics_optimized": {
+            "formulation": "075_P8",
+            "zero_order": {
+                "r_squared": 0.963,
+                "equation": "% release = k0*t"
+            },
+            "first_order": {
+                "r_squared": "not specified",
+                "equation": "log(% remaining) = -kt"
+            },
+            "higuchi": {
+                "r_squared": "not specified"
+            },
+            "korsmeyer_peppas": {
+                "r_squared": "not specified",
+                "n_value": ">0.5 (anomalous transport)"
+            }
+        }
+    },
+    "tablet_properties": {
+        "core_tablets": {
+            "disintegration_time": "075_ZC5: 22.13±0.72 seconds",
+            "hardness_range_kg_cm2": "4.0-4.7",
+            "friability_percent": "0.45-0.56",
+            "thickness_range_mm": "3.1-3.5",
+            "weight_variation": "Within limits (±5%)",
+            "drug_content_percent": "97.2-103.5"
+        },
+        "press_coated_tablets": {
+            "lag_time_hours": "075_P8: ~4 h",
+            "total_release_time_hours": "12 h",
+            "hardness_range_kg_cm2": "5.0-5.9",
+            "friability_percent": "0.15-0.81",
+            "thickness_range_mm": "4.19-4.99",
+            "drug_content_percent": "98.42-99.92",
+            "swelling": "Not quantified; HPMC-containing tablets formed gel layer"
+        }
+    },
+    "experimental_data": {
+        "stability": {
+            "formulation": "075_P8",
+            "conditions": "40±2°C / 75±5% RH for 3 months",
+            "drug_content_percent": [
+                {
+                    "month": 0,
+                    "value": "99.85±0.09"
+                },
+                {
+                    "month": 1,
+                    "value": "99.85±0.09"
+                },
+                {
+                    "month": 2,
+                    "value": "99.85±0.07"
+                },
+                {
+                    "month": 3,
+                    "value": "99.84±0.10"
+                }
+            ],
+            "dissolution_profile": "No significant change; release remained 98.86% at 12 h after 3 months"
+        },
+        "pharmacokinetics": {
+            "formulation": "Optimized pulsatile tablets (075_P8)",
+            "animals": "Wistar male rats (250-300 g)",
+            "parameters": {
+                "Cmax_ng_ml": "503.1±0.21",
+                "Tmax_h": "1.58±0.57",
+                "AUC_ng_l_h": "1342.8±1.29"
+            }
+        },
+        "statistical_analysis": "Mean ± SD reported for n=3; stability data showed no significant difference (p>0.05)."
+    }
+}

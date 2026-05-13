@@ -1,0 +1,937 @@
+{
+    "article_summary": {
+        "title": "Formulation development of directly compressible co-processed excipient for sustained release of tramadol hydrochloride",
+        "objective": "To prepare and evaluate directly compressible co-processed excipient for sustained release tablets using tramadol hydrochloride as a model drug.",
+        "conclusion": "Co-processed glyceryl monostearate and dicalcium phosphate dihydrate improved flowability, compressibility, and provided sustained release. Batch 077_F14 was optimized and stable for 3 months."
+    },
+    "materials_origin": {
+        "glyceryl_monostearate": "Yarrow Chem. Products",
+        "dicalcium_phosphate_dihydrate": "Yarrow Chem. Products",
+        "povidone_PVP_K30": "Balaji Drugs",
+        "magnesium_stearate": "SD Fine Chem. Ltd.",
+        "talc": "Chemport Private Ltd.",
+        "tramadol_hydrochloride": "Cadila Healthcare Limited, Ahmedabad (India) - gift sample"
+    },
+    "experimental_design": {
+        "type": "Box-Behnken design (3³)",
+        "independent_variables": [
+            {
+                "name": "X1",
+                "description": "Percentage of glyceryl monostearate",
+                "low": 30,
+                "medium": 45,
+                "high": 60
+            },
+            {
+                "name": "X2",
+                "description": "Ratio of dicalcium phosphate dihydrate : glyceryl monostearate",
+                "low": "60:40",
+                "medium": "50:50",
+                "high": "40:60"
+            },
+            {
+                "name": "X3",
+                "description": "Concentration of binder (PVP K30)",
+                "low": 5,
+                "medium": 7,
+                "high": 9
+            }
+        ],
+        "dependent_variables": [
+            {
+                "name": "Y1",
+                "description": "Drug release at 3 h (Q3)",
+                "specification": "20 ≤ Y1 ≥ 45"
+            },
+            {
+                "name": "Y2",
+                "description": "Drug release at 6 h (Q6)",
+                "specification": "45 ≤ Y2 ≥ 75"
+            },
+            {
+                "name": "Y3",
+                "description": "Drug release at 12 h (Q12)",
+                "specification": "75 ≤ Y3 ≥ 100"
+            },
+            {
+                "name": "Y4",
+                "description": "Carr's index",
+                "specification": "10 ≤ Y4"
+            }
+        ],
+        "quadratic_model_equation": "Y = b0 + b1X1 + b2X2 + b3X3 + b12X1X2 + b13X1X3 + b23X2X3 + b11X1² + b22X2² + b33X3²"
+    },
+    "formulation_details_batches": [
+        {
+            "batch": "077_F1",
+            "X1_percent_GMS": 30,
+            "X2_ratio_DCPD_GMS": "60:40",
+            "X3_percent_PVP_K30": 7,
+            "composition_details": "Co-processed excipient prepared by wet granulation. GMS and DCPD (40 mesh) blended and granulated with PVP K30 solution, passed through 30 mesh sieve.",
+            "api_mass_per_tablet_mg": 100,
+            "excipients": "Co-processed excipient (GMS, DCPD, PVP K30), magnesium stearate (2%), talc (1%)"
+        },
+        {
+            "batch": "077_F2",
+            "X1_percent_GMS": 30,
+            "X2_ratio_DCPD_GMS": "50:50",
+            "X3_percent_PVP_K30": 5
+        },
+        {
+            "batch": "077_F3",
+            "X1_percent_GMS": 45,
+            "X2_ratio_DCPD_GMS": "40:60",
+            "X3_percent_PVP_K30": 5
+        },
+        {
+            "batch": "077_F4",
+            "X1_percent_GMS": 45,
+            "X2_ratio_DCPD_GMS": "50:50",
+            "X3_percent_PVP_K30": 7
+        },
+        {
+            "batch": "077_F5",
+            "X1_percent_GMS": 30,
+            "X2_ratio_DCPD_GMS": "40:60",
+            "X3_percent_PVP_K30": 7
+        },
+        {
+            "batch": "077_F6",
+            "X1_percent_GMS": 30,
+            "X2_ratio_DCPD_GMS": "50:50",
+            "X3_percent_PVP_K30": 9
+        },
+        {
+            "batch": "077_F7",
+            "X1_percent_GMS": 45,
+            "X2_ratio_DCPD_GMS": "50:50",
+            "X3_percent_PVP_K30": 7
+        },
+        {
+            "batch": "077_F8",
+            "X1_percent_GMS": 45,
+            "X2_ratio_DCPD_GMS": "50:50",
+            "X3_percent_PVP_K30": 7
+        },
+        {
+            "batch": "077_F9",
+            "X1_percent_GMS": 45,
+            "X2_ratio_DCPD_GMS": "60:40",
+            "X3_percent_PVP_K30": 5
+        },
+        {
+            "batch": "077_F10",
+            "X1_percent_GMS": 60,
+            "X2_ratio_DCPD_GMS": "50:50",
+            "X3_percent_PVP_K30": 5
+        },
+        {
+            "batch": "077_F11",
+            "X1_percent_GMS": 60,
+            "X2_ratio_DCPD_GMS": "50:50",
+            "X3_percent_PVP_K30": 9
+        },
+        {
+            "batch": "077_F12",
+            "X1_percent_GMS": 45,
+            "X2_ratio_DCPD_GMS": "60:40",
+            "X3_percent_PVP_K30": 9
+        },
+        {
+            "batch": "077_F13",
+            "X1_percent_GMS": 45,
+            "X2_ratio_DCPD_GMS": "40:60",
+            "X3_percent_PVP_K30": 9
+        },
+        {
+            "batch": "077_F14",
+            "X1_percent_GMS": 60,
+            "X2_ratio_DCPD_GMS": "40:60",
+            "X3_percent_PVP_K30": 7
+        },
+        {
+            "batch": "077_F15",
+            "X1_percent_GMS": 60,
+            "X2_ratio_DCPD_GMS": "60:40",
+            "X3_percent_PVP_K30": 7
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "077_F1",
+            "percentage_yield": 64.5,
+            "hausners_ratio": 1.056,
+            "carrs_index": 5.37,
+            "angle_of_repose": 30.19,
+            "mean_particle_size_μm": 851.93,
+            "friability_constant": 9e-05
+        },
+        {
+            "batch": "077_F2",
+            "percentage_yield": 72.48,
+            "hausners_ratio": 1.018,
+            "carrs_index": 1.78,
+            "angle_of_repose": 33.44,
+            "mean_particle_size_μm": 906.95,
+            "friability_constant": 0.0004
+        },
+        {
+            "batch": "077_F3",
+            "percentage_yield": 71.25,
+            "hausners_ratio": 1.11,
+            "carrs_index": 9.99,
+            "angle_of_repose": 31.58,
+            "mean_particle_size_μm": 1188.65,
+            "friability_constant": 0.0002
+        },
+        {
+            "batch": "077_F4",
+            "percentage_yield": 79.12,
+            "hausners_ratio": 1.142,
+            "carrs_index": 12.43,
+            "angle_of_repose": 29.47,
+            "mean_particle_size_μm": 1163.17,
+            "friability_constant": 6e-05
+        },
+        {
+            "batch": "077_F5",
+            "percentage_yield": 83.13,
+            "hausners_ratio": 1.125,
+            "carrs_index": 11.12,
+            "angle_of_repose": 31.49,
+            "mean_particle_size_μm": 979.52,
+            "friability_constant": 6e-05
+        },
+        {
+            "batch": "077_F6",
+            "percentage_yield": 78.06,
+            "hausners_ratio": 1.09,
+            "carrs_index": 8.33,
+            "angle_of_repose": 28.87,
+            "mean_particle_size_μm": 1201.04,
+            "friability_constant": 9e-05
+        },
+        {
+            "batch": "077_F7",
+            "percentage_yield": 78.22,
+            "hausners_ratio": 1.142,
+            "carrs_index": 12.43,
+            "angle_of_repose": 30.15,
+            "mean_particle_size_μm": 1161.95,
+            "friability_constant": 8e-05
+        },
+        {
+            "batch": "077_F8",
+            "percentage_yield": 79.1,
+            "hausners_ratio": 1.142,
+            "carrs_index": 12.43,
+            "angle_of_repose": 29.66,
+            "mean_particle_size_μm": 1163.34,
+            "friability_constant": 0.0001
+        },
+        {
+            "batch": "077_F9",
+            "percentage_yield": 79.92,
+            "hausners_ratio": 1.14,
+            "carrs_index": 12.5,
+            "angle_of_repose": 30.98,
+            "mean_particle_size_μm": 1039.92,
+            "friability_constant": 0.0002
+        },
+        {
+            "batch": "077_F10",
+            "percentage_yield": 76.75,
+            "hausners_ratio": 1.11,
+            "carrs_index": 9.99,
+            "angle_of_repose": 31.42,
+            "mean_particle_size_μm": 1228.93,
+            "friability_constant": 7e-05
+        },
+        {
+            "batch": "077_F11",
+            "percentage_yield": 76.23,
+            "hausners_ratio": 1.11,
+            "carrs_index": 9.99,
+            "angle_of_repose": 28.94,
+            "mean_particle_size_μm": 1197.1,
+            "friability_constant": 3e-05
+        },
+        {
+            "batch": "077_F12",
+            "percentage_yield": 70.22,
+            "hausners_ratio": 1.142,
+            "carrs_index": 12.5,
+            "angle_of_repose": 26.95,
+            "mean_particle_size_μm": 1097.55,
+            "friability_constant": 3e-05
+        },
+        {
+            "batch": "077_F13",
+            "percentage_yield": 64.88,
+            "hausners_ratio": 1.11,
+            "carrs_index": 9.99,
+            "angle_of_repose": 33.88,
+            "mean_particle_size_μm": 1163.09,
+            "friability_constant": 5e-05
+        },
+        {
+            "batch": "077_F14",
+            "percentage_yield": 78.0,
+            "hausners_ratio": 1.11,
+            "carrs_index": 9.99,
+            "angle_of_repose": 33.31,
+            "mean_particle_size_μm": 1161.1,
+            "friability_constant": 4e-05
+        },
+        {
+            "batch": "077_F15",
+            "percentage_yield": 78.86,
+            "hausners_ratio": 1.166,
+            "carrs_index": 14.28,
+            "angle_of_repose": 29.47,
+            "mean_particle_size_μm": 1196.22,
+            "friability_constant": 7e-05
+        }
+    ],
+    "ftir_spectral_measurements": {
+        "purpose": "To detect chemical interaction between glyceryl monostearate and tramadol HCl.",
+        "findings": "Principal peaks of tramadol HCl were preserved in physical mixture of glyceryl monostearate and tramadol HCl, indicating no chemical interaction.",
+        "spectra_recorded_for": [
+            "Glyceryl monostearate",
+            "Tramadol HCl",
+            "Physical mixture of GMS and tramadol HCl"
+        ]
+    },
+    "tablet_fabrication": {
+        "process": "Co-processed excipient blended with tramadol HCl (100 mg/tablet), then with 2% magnesium stearate for 5 min and 1% talc for 2 min. Compressed using tablet machine with 8 mm diameter concave punches (Rimek mini press-I).",
+        "properties": [
+            {
+                "batch": "077_F1",
+                "diameter_mm": "7.96 ± 0.006",
+                "thickness_mm": "3.26 ± 0.011",
+                "hardness_kg_cm2": "6.2 ± 0.273",
+                "percent_friability": 0.66,
+                "assay_percent": 98.26
+            },
+            {
+                "batch": "077_F2",
+                "diameter_mm": "7.95 ± 0.006",
+                "thickness_mm": "3.29 ± 0.015",
+                "hardness_kg_cm2": "6.3 ± 0.273",
+                "percent_friability": 0.59,
+                "assay_percent": 96.89
+            },
+            {
+                "batch": "077_F3",
+                "diameter_mm": "7.76 ± 0.205",
+                "thickness_mm": "3.51 ± 0.060",
+                "hardness_kg_cm2": "6.2 ± 0.273",
+                "percent_friability": 0.46,
+                "assay_percent": 98.92
+            },
+            {
+                "batch": "077_F4",
+                "diameter_mm": "7.99 ± 0.006",
+                "thickness_mm": "3.15 ± 0.010",
+                "hardness_kg_cm2": "5.2 ± 0.273",
+                "percent_friability": 0.18,
+                "assay_percent": 97.63
+            },
+            {
+                "batch": "077_F5",
+                "diameter_mm": "8.00 ± 0.006",
+                "thickness_mm": "3.31 ± 0.010",
+                "hardness_kg_cm2": "5.3 ± 0.273",
+                "percent_friability": 0.39,
+                "assay_percent": 98.78
+            },
+            {
+                "batch": "077_F6",
+                "diameter_mm": "8.02 ± 0.012",
+                "thickness_mm": "3.15 ± 0.036",
+                "hardness_kg_cm2": "6.5 ± 0.353",
+                "percent_friability": 0.25,
+                "assay_percent": 99.62
+            },
+            {
+                "batch": "077_F7",
+                "diameter_mm": "7.99 ± 0.010",
+                "thickness_mm": "3.17 ± 0.006",
+                "hardness_kg_cm2": "5.5 ± 0.353",
+                "percent_friability": 0.17,
+                "assay_percent": 96.97
+            },
+            {
+                "batch": "077_F8",
+                "diameter_mm": "8.00 ± 0.010",
+                "thickness_mm": "3.16 ± 0.015",
+                "hardness_kg_cm2": "5.2 ± 0.273",
+                "percent_friability": 0.17,
+                "assay_percent": 98.47
+            },
+            {
+                "batch": "077_F9",
+                "diameter_mm": "7.99 ± 0.006",
+                "thickness_mm": "3.69 ± 0.015",
+                "hardness_kg_cm2": "5.3 ± 0.273",
+                "percent_friability": 0.26,
+                "assay_percent": 96.04
+            },
+            {
+                "batch": "077_F10",
+                "diameter_mm": "8.02 ± 0.012",
+                "thickness_mm": "4.26 ± 0.006",
+                "hardness_kg_cm2": "6.1 ± 0.418",
+                "percent_friability": 0.36,
+                "assay_percent": 99.62
+            },
+            {
+                "batch": "077_F11",
+                "diameter_mm": "8.01 ± 0.010",
+                "thickness_mm": "4.01 ± 0.010",
+                "hardness_kg_cm2": "6.2 ± 0.273",
+                "percent_friability": 0.3,
+                "assay_percent": 98.76
+            },
+            {
+                "batch": "077_F12",
+                "diameter_mm": "8.00 ± 0.006",
+                "thickness_mm": "3.72 ± 0.010",
+                "hardness_kg_cm2": "5.6 ± 0.418",
+                "percent_friability": 0.23,
+                "assay_percent": 97.34
+            },
+            {
+                "batch": "077_F13",
+                "diameter_mm": "7.99 ± 0.006",
+                "thickness_mm": "3.29 ± 0.006",
+                "hardness_kg_cm2": "5.4 ± 0.418",
+                "percent_friability": 0.38,
+                "assay_percent": 98.24
+            },
+            {
+                "batch": "077_F14",
+                "diameter_mm": "8.01 ± 0.006",
+                "thickness_mm": "3.62 ± 0.006",
+                "hardness_kg_cm2": "6.0 ± 0.353",
+                "percent_friability": 0.34,
+                "assay_percent": 98.29
+            },
+            {
+                "batch": "077_F15",
+                "diameter_mm": "8.00 ± 0.006",
+                "thickness_mm": "4.19 ± 0.006",
+                "hardness_kg_cm2": "3.6 ± 0.418",
+                "percent_friability": 0.33,
+                "assay_percent": 98.72
+            }
+        ]
+    },
+    "process_parameters": {
+        "compression_device": "Rimek mini press-I",
+        "punch_diameter_mm": 8,
+        "compression_type": "Direct compression after blending",
+        "coating": "None",
+        "process_conditions": "Ambient temperature and humidity during compression"
+    },
+    "release_properties": [
+        {
+            "batch": "077_F1",
+            "similarity_factor_f2": 28.94,
+            "difference_factor_f1": 42.93,
+            "higuchi_r2": 0.8412,
+            "zero_order_r2": 0.6979,
+            "first_order_r2": 0.6748,
+            "hixon_crowell_r2": 0.7744,
+            "korsmeyer_peppas_r2": 0.9337,
+            "n_value": 0.1386,
+            "release_mechanism": "Fickian diffusion (n < 0.5)",
+            "dissolution_medium": "0.1 N HCl (2h), pH 4.6 acetate buffer (4h), pH 7.4 phosphate buffer (22h)"
+        },
+        {
+            "batch": "077_F2",
+            "similarity_factor_f2": 28.93,
+            "difference_factor_f1": 43.86,
+            "higuchi_r2": 0.8173,
+            "zero_order_r2": 0.6698,
+            "first_order_r2": 0.6472,
+            "hixon_crowell_r2": 0.7655,
+            "korsmeyer_peppas_r2": 0.9151,
+            "n_value": 0.1783
+        },
+        {
+            "batch": "077_F3",
+            "similarity_factor_f2": 39.36,
+            "difference_factor_f1": 24.88,
+            "higuchi_r2": 0.8384,
+            "zero_order_r2": 0.6957,
+            "first_order_r2": 0.666,
+            "hixon_crowell_r2": 0.747,
+            "korsmeyer_peppas_r2": 0.9287,
+            "n_value": 0.1584
+        },
+        {
+            "batch": "077_F4",
+            "similarity_factor_f2": 43.98,
+            "difference_factor_f1": 20.91,
+            "higuchi_r2": 0.7583,
+            "zero_order_r2": 0.6154,
+            "first_order_r2": 0.5895,
+            "hixon_crowell_r2": 0.6784,
+            "korsmeyer_peppas_r2": 0.8887,
+            "n_value": 0.1782
+        },
+        {
+            "batch": "077_F5",
+            "similarity_factor_f2": 28.47,
+            "difference_factor_f1": 43.47,
+            "higuchi_r2": 0.7073,
+            "zero_order_r2": 0.5421,
+            "first_order_r2": 0.5274,
+            "hixon_crowell_r2": 0.5884,
+            "korsmeyer_peppas_r2": 0.8452,
+            "n_value": 0.1233
+        },
+        {
+            "batch": "077_F6",
+            "similarity_factor_f2": 30.56,
+            "difference_factor_f1": 39.22,
+            "higuchi_r2": 0.7929,
+            "zero_order_r2": 0.6383,
+            "first_order_r2": 0.619,
+            "hixon_crowell_r2": 0.6877,
+            "korsmeyer_peppas_r2": 0.9044,
+            "n_value": 0.1304
+        },
+        {
+            "batch": "077_F7",
+            "similarity_factor_f2": 44.04,
+            "difference_factor_f1": 20.7,
+            "higuchi_r2": 0.7536,
+            "zero_order_r2": 0.61,
+            "first_order_r2": 0.5861,
+            "hixon_crowell_r2": 0.6722,
+            "korsmeyer_peppas_r2": 0.8868,
+            "n_value": 0.1752
+        },
+        {
+            "batch": "077_F8",
+            "similarity_factor_f2": 44.24,
+            "difference_factor_f1": 20.55,
+            "higuchi_r2": 0.7548,
+            "zero_order_r2": 0.6114,
+            "first_order_r2": 0.5869,
+            "hixon_crowell_r2": 0.674,
+            "korsmeyer_peppas_r2": 0.8873,
+            "n_value": 0.1779
+        },
+        {
+            "batch": "077_F9",
+            "similarity_factor_f2": 41.68,
+            "difference_factor_f1": 24.89,
+            "higuchi_r2": 0.8543,
+            "zero_order_r2": 0.7293,
+            "first_order_r2": 0.699,
+            "hixon_crowell_r2": 0.803,
+            "korsmeyer_peppas_r2": 0.9474,
+            "n_value": 0.1992
+        },
+        {
+            "batch": "077_F10",
+            "similarity_factor_f2": 56.11,
+            "difference_factor_f1": 10.93,
+            "higuchi_r2": 0.8738,
+            "zero_order_r2": 0.7602,
+            "first_order_r2": 0.7291,
+            "hixon_crowell_r2": 0.8046,
+            "korsmeyer_peppas_r2": 0.9528,
+            "n_value": 0.2418
+        },
+        {
+            "batch": "077_F11",
+            "similarity_factor_f2": 57.76,
+            "difference_factor_f1": 10.53,
+            "higuchi_r2": 0.8441,
+            "zero_order_r2": 0.72,
+            "first_order_r2": 0.6972,
+            "hixon_crowell_r2": 0.7671,
+            "korsmeyer_peppas_r2": 0.9412,
+            "n_value": 0.2566
+        },
+        {
+            "batch": "077_F12",
+            "similarity_factor_f2": 38.81,
+            "difference_factor_f1": 27.62,
+            "higuchi_r2": 0.663,
+            "zero_order_r2": 0.5145,
+            "first_order_r2": 0.4994,
+            "hixon_crowell_r2": 0.5888,
+            "korsmeyer_peppas_r2": 0.8194,
+            "n_value": 0.1683
+        },
+        {
+            "batch": "077_F13",
+            "similarity_factor_f2": 48.26,
+            "difference_factor_f1": 15.76,
+            "higuchi_r2": 0.8393,
+            "zero_order_r2": 0.7118,
+            "first_order_r2": 0.6868,
+            "hixon_crowell_r2": 0.7615,
+            "korsmeyer_peppas_r2": 0.9399,
+            "n_value": 0.1783
+        },
+        {
+            "batch": "077_F14",
+            "similarity_factor_f2": 69.76,
+            "difference_factor_f1": 6.14,
+            "higuchi_r2": 0.8244,
+            "zero_order_r2": 0.6928,
+            "first_order_r2": 0.6539,
+            "hixon_crowell_r2": 0.7547,
+            "korsmeyer_peppas_r2": 0.9274,
+            "n_value": 0.3393
+        },
+        {
+            "batch": "077_F15",
+            "similarity_factor_f2": 73.22,
+            "difference_factor_f1": 4.73,
+            "higuchi_r2": 0.8469,
+            "zero_order_r2": 0.7216,
+            "first_order_r2": 0.6798,
+            "hixon_crowell_r2": 0.7797,
+            "korsmeyer_peppas_r2": 0.9389,
+            "n_value": 0.3535
+        }
+    ],
+    "dissolution_profiles": {
+        "time_points_h": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            24
+        ],
+        "batches": [
+            {
+                "batch": "077_F1",
+                "cumulative_percent_released": [
+                    0,
+                    15,
+                    30,
+                    42,
+                    52,
+                    61,
+                    68,
+                    85
+                ]
+            },
+            {
+                "batch": "077_F2",
+                "cumulative_percent_released": [
+                    0,
+                    14,
+                    28,
+                    40,
+                    50,
+                    59,
+                    66,
+                    83
+                ]
+            },
+            {
+                "batch": "077_F3",
+                "cumulative_percent_released": [
+                    0,
+                    18,
+                    34,
+                    48,
+                    59,
+                    68,
+                    76,
+                    92
+                ]
+            },
+            {
+                "batch": "077_F4",
+                "cumulative_percent_released": [
+                    0,
+                    20,
+                    38,
+                    52,
+                    64,
+                    73,
+                    81,
+                    96
+                ]
+            },
+            {
+                "batch": "077_F5",
+                "cumulative_percent_released": [
+                    0,
+                    16,
+                    31,
+                    44,
+                    55,
+                    64,
+                    72,
+                    88
+                ]
+            },
+            {
+                "batch": "077_F6",
+                "cumulative_percent_released": [
+                    0,
+                    17,
+                    33,
+                    46,
+                    57,
+                    66,
+                    74,
+                    90
+                ]
+            },
+            {
+                "batch": "077_F7",
+                "cumulative_percent_released": [
+                    0,
+                    19,
+                    36,
+                    51,
+                    63,
+                    72,
+                    80,
+                    95
+                ]
+            },
+            {
+                "batch": "077_F8",
+                "cumulative_percent_released": [
+                    0,
+                    19,
+                    36,
+                    51,
+                    63,
+                    72,
+                    80,
+                    95
+                ]
+            },
+            {
+                "batch": "077_F9",
+                "cumulative_percent_released": [
+                    0,
+                    16,
+                    32,
+                    45,
+                    56,
+                    65,
+                    73,
+                    89
+                ]
+            },
+            {
+                "batch": "077_F10",
+                "cumulative_percent_released": [
+                    0,
+                    12,
+                    25,
+                    37,
+                    48,
+                    58,
+                    67,
+                    84
+                ]
+            },
+            {
+                "batch": "077_F11",
+                "cumulative_percent_released": [
+                    0,
+                    11,
+                    23,
+                    35,
+                    46,
+                    56,
+                    65,
+                    82
+                ]
+            },
+            {
+                "batch": "077_F12",
+                "cumulative_percent_released": [
+                    0,
+                    22,
+                    40,
+                    54,
+                    66,
+                    76,
+                    84,
+                    98
+                ]
+            },
+            {
+                "batch": "077_F13",
+                "cumulative_percent_released": [
+                    0,
+                    14,
+                    29,
+                    42,
+                    53,
+                    62,
+                    70,
+                    86
+                ]
+            },
+            {
+                "batch": "077_F14",
+                "cumulative_percent_released": [
+                    0,
+                    8,
+                    19,
+                    30,
+                    41,
+                    52,
+                    63,
+                    84
+                ]
+            },
+            {
+                "batch": "077_F15",
+                "cumulative_percent_released": [
+                    0,
+                    7,
+                    17,
+                    28,
+                    39,
+                    50,
+                    61,
+                    82
+                ]
+            },
+            {
+                "batch": "TRD_CONTIN_SR_100",
+                "cumulative_percent_released": [
+                    0,
+                    9,
+                    20,
+                    31,
+                    42,
+                    53,
+                    64,
+                    83
+                ]
+            }
+        ]
+    },
+    "experimental_data": {
+        "regression_equations": [
+            {
+                "response": "Y1 (Q3)",
+                "equation": "Q3 = +61.76 -13.15X1 -0.36X2 -0.21X3 +0.19X1X2 -0.63X1X3 -2.35X2X3 -0.67X1² -0.64X2² +2.60X3²",
+                "r2": 0.9548,
+                "p_value": 0.0072
+            },
+            {
+                "response": "Y2 (Q6)",
+                "equation": "Q6 = +74.16 -11.43X1 -0.50X2 -0.76X3 -0.29X1X2 +0.54X1X3 -2.84X2X3 -0.12X1² +0.10X2² +0.36X3²",
+                "r2": 0.9709,
+                "p_value": 0.0025
+            },
+            {
+                "response": "Y3 (Q12)",
+                "equation": "Q12 = +80.93 -6.71X1 -1.26X2 -1.75X3 +0.57X1X2 +1.55X1X3 -0.74X2X3 +4.83X1² +0.89X2² +1.23X3²",
+                "r2": 0.9952,
+                "p_value": "< 0.0001"
+            },
+            {
+                "response": "Y4 (Carr's index)",
+                "equation": "Carr's Index = +12.43 +2.21X1 -0.44X2 +0.82X3 -2.51X1X2 -1.64X1X3 +0.000X2X3 -2.98X1² +0.74X2² -1.93X3²",
+                "r2": 0.9208,
+                "p_value": 0.0268
+            }
+        ],
+        "optimized_batch": "077_F14",
+        "optimized_composition": {
+            "X1_percent_GMS": 60,
+            "X2_ratio_DCPD_GMS": "40:60",
+            "X3_percent_PVP_K30": 7
+        },
+        "stability": "Optimized batch 077_F14 was stable for 3 months at accelerated conditions (40°C / 75% RH) with no significant changes in appearance, Carr's index, angle of repose, hardness, drug content, and drug release.",
+        "checkpoint_batches_validation": [
+            {
+                "composition": "(0.5;0.5;1)",
+                "response": "Y1 (Q3)",
+                "experimental": 53.89,
+                "predicted": 55.62
+            },
+            {
+                "composition": "(0.5;0.5;1)",
+                "response": "Y2 (Q6)",
+                "experimental": 64.5,
+                "predicted": 66.57
+            },
+            {
+                "composition": "(0.5;0.5;1)",
+                "response": "Y3 (Q12)",
+                "experimental": 80.38,
+                "predicted": 78.39
+            },
+            {
+                "composition": "(0.5;0.5;1)",
+                "response": "Y4 (Carr's index)",
+                "experimental": 11.12,
+                "predicted": 10.19
+            },
+            {
+                "composition": "(0; -1; -1)",
+                "response": "Y1 (Q3)",
+                "experimental": 74.04,
+                "predicted": 71.44
+            },
+            {
+                "composition": "(0; -1; -1)",
+                "response": "Y2 (Q6)",
+                "experimental": 83.25,
+                "predicted": 82.51
+            },
+            {
+                "composition": "(0; -1; -1)",
+                "response": "Y3 (Q12)",
+                "experimental": 90.31,
+                "predicted": 89.05
+            },
+            {
+                "composition": "(-0.8;-0.4;-0.5)",
+                "response": "Y4 (Carr's index)",
+                "experimental": 7.71,
+                "predicted": 7.608
+            },
+            {
+                "composition": "(-0.8;-0.4;-0.5)",
+                "response": "Y1 (Q3)",
+                "experimental": 73.66,
+                "predicted": 71.98
+            },
+            {
+                "composition": "(-0.8;-0.4;-0.5)",
+                "response": "Y2 (Q6)",
+                "experimental": 82.94,
+                "predicted": 83.47
+            },
+            {
+                "composition": "(-0.8;-0.4;-0.5)",
+                "response": "Y3 (Q12)",
+                "experimental": 92.38,
+                "predicted": 91.86
+            },
+            {
+                "composition": "(-0.8;-0.4;-0.5)",
+                "response": "Y4 (Carr's index)",
+                "experimental": 6.366,
+                "predicted": 6.703
+            }
+        ]
+    }
+}

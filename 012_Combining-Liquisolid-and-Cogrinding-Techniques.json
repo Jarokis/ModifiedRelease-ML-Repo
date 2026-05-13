@@ -1,0 +1,362 @@
+{
+    "paper_metadata": {
+        "title": "Combining Liquisolid and Co‑grinding Techniques to Enhance the Dissolution Rate of Celecoxib",
+        "journal": "Journal of Pharmaceutical Innovation (2023) 18:300–309",
+        "sections_likely_locations": {
+            "abstract": "First page under title and author list",
+            "introduction": "Starts after abstract; context on dissolution enhancement and celecoxib BCS II characteristics",
+            "materials": "Section titled Materials listing API and excipient sources and grades",
+            "methods_preparation": "Preparation of celecoxib formulations: combination (liquisolid + ball mill), conventional liquisolid, direct compression",
+            "methods_tests": "Dissolution testing (USP II, media, sampling, UV quantification), friability, PXRD, DSC, aging study",
+            "results_discussion": "Dissolution comparisons in SGF vs SIF and across LSB/LS/DC, PXRD, DSC, aging effects with figures and discussion",
+            "conclusion": "Final section summarizing enhanced dissolution and stability outcomes"
+        }
+    },
+    "materials_origin": {
+        "API": "Celecoxib (Darupakhsh Pharmaceuticals, Tehran)",
+        "carriers_excipients": [
+            "Microcrystalline cellulose Avicel PH101 (Mingtai Chemical, Taiwan)",
+            "Sodium starch glycolate (Mingtai Chemical, Taiwan)",
+            "Colloidal silicon dioxide/silica (Mingtai Chemical, Taiwan)",
+            "Magnesium stearate (Mingtai Chemical, Taiwan)",
+            "Polyvinylpyrrolidone PVP-K30 (Sharlau, Belgium)",
+            "Polyethylene glycol 200 (Merck, Germany)",
+            "Polysorbate 80 (Tween 80) (Merck, Germany)",
+            "Ethanol (Merck, Germany)"
+        ],
+        "media_reagents": [
+            "Sodium chloride, KH2PO4, NaOH, HCl 37% (Merck, Germany) for SGF and SIF preparation"
+        ]
+    },
+    "experimental_design_for_optimization": {
+        "formulation_families": [
+            "LSB (Liquisolid + Ball milling; co‑ground) with API in liquid medication at 30%, 40%, 50%: 012_LSB1, 012_LSB2, 012_LSB3",
+            "LS (Conventional liquisolid without milling) at 30%, 40%, 50%: 012_LS1, 012_LS2, 012_LS3",
+            "DC (Direct compression/physical mixture) at nominal 30%, 40%, 50% API load series: 012_DC1, 012_DC2, 012_DC3"
+        ],
+        "independent_variables_and_levels": {
+            "API_fraction_in_liquid_medication": [
+                "30%",
+                "40%",
+                "50%"
+            ],
+            "process_method": [
+                "Combination LSB",
+                "Classic LS",
+                "Direct compression DC"
+            ],
+            "compression_force": [
+                "50 kg/cm^2",
+                "100 kg/cm^2",
+                "150 kg/cm^2 (LSB and LS used to reach 5–7 kg/cm^2 hardness)"
+            ],
+            "dissolution_medium": [
+                "SGF pH 1 (no enzyme)",
+                "SIF pH 7.2 (no enzyme)"
+            ],
+            "aging_condition": [
+                "6 months at 25 °C, protected from moisture and light (tested on 40% LSB)"
+            ]
+        },
+        "responses": [
+            "Cumulative % drug release vs time (up to 120 min)",
+            "Hardness (target 5–7 kg/cm^2; aging impact)",
+            "Friability (%) by 10‑tablet test",
+            "Solid‑state state (PXRD peaks and intensities; DSC melting endotherm)"
+        ]
+    },
+    "ingredients_identification_and_analytics": {
+        "preparation_summary": {
+            "LSB": "Celecoxib dispersed in PEG 200; milled in planetary ball mill (PM 100 Retsch, 50‑mL zirconia chamber, stainless steel balls 5–10 cm) for 3 h; PVP added and mixed 5 min; Avicel added per load factor at R=20 (carrier:coating); silica (1:20 to Avicel) sieved 60‑mesh added; sodium starch glycolate 3.5% w/w added and mixed 15 min; lubricated with magnesium stearate; tablets with 100 mg celecoxib compressed to 5–7 kg/cm^2 using 50/100/150 kg/cm^2 on Riken P‑16B",
+            "LS": "Same as LSB but without ball milling; celecoxib mixed with PEG 200 by mortar/pestle to uniform dispersion; same excipient ratios and compression to hardness 5–7 kg/cm^2",
+            "DC": "Same as liquisolid excipient base but without non‑volatile co‑solvent; compressed with 12 mm flat‑faced punch at 50 kg/cm^2"
+        },
+        "quantification": {
+            "dissolution_sampling": "USP II, 900 mL media, 50 rpm, 37 °C; sampling at 5, 10, 15, 30, 45, 60, 90, 120 min; replace 5 mL; 0.45 µm filter; UV–vis at 249 nm; calibration based on standard curve",
+            "correction_equation": "Sampling correction: C_tn = C_on + (v/V) Σ_{i=1}^{n−1} C_oi where v=sample volume, V=total medium volume",
+            "profile_similarity": "Similarity factor f2 = 50 log{[1 + (1/n) Σ_t (R_t − T_t)^2]^{−0.5} × 100}; f2 < 50 indicates significant difference",
+            "absorbance_wavelength": "UV–vis quantification at 249 nm for celecoxib"
+        }
+    },
+    "formulation_details_per_batch": {
+        "012_LSB1": {
+            "composition_table": "API fraction in liquid medication 30%",
+            "ingredients_g": {
+                "Celecoxib": 3.0,
+                "PEG 200": 7.0,
+                "PVP-K30": 1.0,
+                "Avicel PH101": 23.25,
+                "Silica": 1.1,
+                "Sodium starch glycolate": 1.7,
+                "Magnesium stearate": 0.3
+            },
+            "tablet_weight_g": 1.205,
+            "API_per_tablet_mg": 100
+        },
+        "012_LSB2": {
+            "composition_table": "API fraction in liquid medication 40%",
+            "ingredients_g": {
+                "Celecoxib": 4.0,
+                "PEG 200": 6.0,
+                "PVP-K30": 1.0,
+                "Avicel PH101": 23.25,
+                "Silica": 1.1,
+                "Sodium starch glycolate": 1.7,
+                "Magnesium stearate": 0.3
+            },
+            "tablet_weight_g": 0.937,
+            "API_per_tablet_mg": 100
+        },
+        "012_LSB3": {
+            "composition_table": "API fraction in liquid medication 50%",
+            "ingredients_g": {
+                "Celecoxib": 5.0,
+                "PEG 200": 5.0,
+                "PVP-K30": 1.0,
+                "Avicel PH101": 23.25,
+                "Silica": 1.1,
+                "Sodium starch glycolate": 1.7,
+                "Magnesium stearate": 0.3
+            },
+            "tablet_weight_g": 0.75,
+            "API_per_tablet_mg": 100
+        },
+        "012_LS1": {
+            "composition_table": "API fraction in liquid medication 30%",
+            "ingredients_g": {
+                "Celecoxib": 3.0,
+                "PEG 200": 7.0,
+                "PVP-K30": 1.0,
+                "Avicel PH101": 23.25,
+                "Silica": 1.1,
+                "Sodium starch glycolate": 1.7,
+                "Magnesium stearate": 0.3
+            },
+            "tablet_weight_g": 1.205,
+            "API_per_tablet_mg": 100
+        },
+        "012_LS2": {
+            "composition_table": "API fraction in liquid medication 40%",
+            "ingredients_g": {
+                "Celecoxib": 4.0,
+                "PEG 200": 6.0,
+                "PVP-K30": 1.0,
+                "Avicel PH101": 23.25,
+                "Silica": 1.1,
+                "Sodium starch glycolate": 1.7,
+                "Magnesium stearate": 0.3
+            },
+            "tablet_weight_g": 0.973,
+            "API_per_tablet_mg": 100
+        },
+        "012_LS3": {
+            "composition_table": "API fraction in liquid medication 50%",
+            "ingredients_g": {
+                "Celecoxib": 5.0,
+                "PEG 200": 5.0,
+                "PVP-K30": 1.0,
+                "Avicel PH101": 23.25,
+                "Silica": 1.1,
+                "Sodium starch glycolate": 1.7,
+                "Magnesium stearate": 0.3
+            },
+            "tablet_weight_g": 0.75,
+            "API_per_tablet_mg": 100
+        },
+        "012_DC1": {
+            "composition_table": "Nominal 30% series; no liquid vehicle",
+            "ingredients_g": {
+                "Celecoxib": 3.0,
+                "PVP-K30": 1.0,
+                "Avicel PH101": 23.2,
+                "Silica": 1.1,
+                "Sodium starch glycolate": 1.7,
+                "Magnesium stearate": 0.3
+            },
+            "tablet_weight_g": 1.0,
+            "API_per_tablet_mg": 100
+        },
+        "012_DC2": {
+            "composition_table": "Nominal 40% series; no liquid vehicle",
+            "ingredients_g": {
+                "Celecoxib": 4.0,
+                "PVP-K30": 1.0,
+                "Avicel PH101": 23.2,
+                "Silica": 1.1,
+                "Sodium starch glycolate": 1.7,
+                "Magnesium stearate": 0.3
+            },
+            "tablet_weight_g": 0.756,
+            "API_per_tablet_mg": 100
+        },
+        "012_DC3": {
+            "composition_table": "Nominal 50% series; no liquid vehicle",
+            "ingredients_g": {
+                "Celecoxib": 5.0,
+                "PVP-K30": 1.0,
+                "Avicel PH101": 23.2,
+                "Silica": 1.1,
+                "Sodium starch glycolate": 1.7,
+                "Magnesium stearate": 0.3
+            },
+            "tablet_weight_g": 0.648,
+            "API_per_tablet_mg": 100
+        }
+    },
+    "pre_compression_parameters_per_batch": {
+        "notes": "Mass distribution, hardness SD, friability SD, and size SD per batch were not fully tabulated; friability raw W1/W2 listed in Table 4; hardness target 5–7 kg/cm^2 for LSB/LS; no batch‑wise SDs reported for hardness or size; DC compressed at fixed 50 kg/cm^2 with 12 mm punch",
+        "friability_table4": {
+            "012_LSB1": {
+                "W1_g": 5.985,
+                "W2_g": 5.978,
+                "friability_%": 0.12
+            },
+            "012_LS1": {
+                "W1_g": 6.106,
+                "W2_g": 6.0987,
+                "friability_%": 0.12
+            },
+            "012_DC1": {
+                "W1_g": 4.988,
+                "W2_g": 4.959,
+                "friability_%": 0.58
+            },
+            "012_LSB2": {
+                "W1_g": 4.6553,
+                "W2_g": 4.6445,
+                "friability_%": 0.14
+            },
+            "012_LS2": {
+                "W1_g": 3.887,
+                "W2_g": 3.872,
+                "friability_%": 0.39
+            },
+            "012_DC2": {
+                "W1_g": 3.8754,
+                "W2_g": 3.8735,
+                "friability_%": 0.55
+            },
+            "012_LSB3": {
+                "W1_g": 2.962,
+                "W2_g": 2.95,
+                "friability_%": 0.41
+            },
+            "012_LS3": {
+                "W1_g": 3.511,
+                "W2_g": 3.498,
+                "friability_%": 0.37
+            },
+            "012_DC3": {
+                "W1_g": 3.136,
+                "W2_g": 3.128,
+                "friability_%": 0.25
+            }
+        }
+    },
+    "fourier_transform_infrared_spectral_measurements": {
+        "note": "FTIR not performed/reported; solid‑state analysis used PXRD and DSC; no FTIR section or spectra mentioned"
+    },
+    "tablet_fabrication_and_quality_per_batch": {
+        "process": {
+            "compression_device": "Manual tableting machine Riken P‑16B (Tokyo, Japan) for LS/LSB; 12 mm flat‑faced punch for DC",
+            "compression_force": "LS/LSB: 50, 100, 150 kg/cm^2 to achieve hardness 5–7 kg/cm^2; DC: 50 kg/cm^2",
+            "target_hardness": "5–7 kg/cm^2; aging showed 6–7 kg/cm^2 after 6 months for 40% LSB"
+        },
+        "per_batch_QC": {
+            "hardness": "Reported as target range; specific per‑batch mean±SD not tabulated; aged 40% LSB unchanged at 6–7 kg/cm^2",
+            "friability": "See Table 4 per batch; all <1%",
+            "weight_variation": "Not explicitly tabulated per batch; tablet weights per formulation provided in Tables 1–3; no SDs reported",
+            "thickness_diameter": "Diameter 12 mm for DC; thickness not reported; LS/LSB punch dimensions not specified beyond compression device; no SDs reported",
+            "density": "Not reported",
+            "drug_content": "Not reported; quantification focused on dissolution UV assay",
+            "consolidation_index": "Not reported"
+        }
+    },
+    "process_parameters": {
+        "liquisolid_preparation": {
+            "R_ratio": "Carrier to coating R=20 (Avicel:silica 20:1 by weight)",
+            "sieving": "Silica sieved to 60‑mesh before mixing",
+            "mixing_times": "PVP to liquid medication 5 min; final blend with SSG 15 min"
+        },
+        "co_grinding": {
+            "equipment": "Planetary ball mill PM 100 Retsch with 50‑mL zirconia chamber; stainless steel balls 5–10 cm",
+            "milling_time": "3 hours"
+        },
+        "compression": {
+            "device": "Riken P‑16B manual press; DC also used 12 mm flat‑faced punch",
+            "pressure": "50/100/150 kg/cm^2 for LS/LSB; 50 kg/cm^2 for DC"
+        },
+        "coating": "No tablet film coating applied; ‘coating’ refers to silica powder coating in liquisolid powder",
+        "temperatures": {
+            "dissolution": "37 °C",
+            "PXRD": "Ambient 25 °C",
+            "DSC": "Scan 25–300 °C at 10 °C/min",
+            "aging": "Storage 25 °C for 6 months"
+        }
+    },
+    "release_properties_per_batch": {
+        "test_conditions": "USP II, 900 mL SGF pH 1 and SIF pH 7.2, 50 rpm, 37 °C; UV at 249 nm; non‑sink conditions acknowledged",
+        "mechanism_models": {
+            "reported_models": "Profiles compared with f2; narrative references Noyes–Whitney and diffusion boundary layer theory; no formal zero/first order, Higuchi, Hixson‑Crowell, or Korsmeyer–Peppas model fitting parameters reported per batch"
+        },
+        "profiles_and_findings": {
+            "012_LSB1": "In SIF and SGF, cumulative release after 120 min approximately 28.53% (SIF) and 18.1% (SGF); no significant difference between SIF and SGF (pH effect minimal due to celecoxib pKa 11.1)",
+            "LSB_series_vs_LS_vs_DC": "For 30%, 40%, 50% series in SIF, LSB showed fastest release > LS > DC; at 60 min LSB approx 7.5× DC; increased API% in liquid medication reduced release rate (30% > 40% > 50%)",
+            "aging_effect": "40% LSB aged 6 months showed f2 > 50 vs fresh in both SIF and SGF indicating similar profiles; no leaks or cracks observed"
+        },
+        "factors_influencing_release": [
+            "Hydrophilic liquid vehicle improves wettability and specific surface area, enhancing dissolution",
+            "Co‑grinding reduces particle size and increases specific surface area; potential local co‑solvency increases Cs in boundary layer per Noyes–Whitney",
+            "Higher API fraction in liquid medication reduces degree of molecular dispersion, lowering release rate",
+            "Bulk pH between 1 and 7.2 shows limited effect due to celecoxib pKa 11.1 under non‑sink conditions"
+        ]
+    },
+    "tablet_properties_per_batch": {
+        "hardness": {
+            "LSB": "Target 5–7 kg/cm^2; aged 40% remained 6–7 kg/cm^2",
+            "LS": "Target 5–7 kg/cm^2",
+            "DC": "Not specified beyond compression at 50 kg/cm^2; hardness values not tabulated"
+        },
+        "friability_percent": {
+            "per_batch": "See Table 4 values; all below 1% acceptance"
+        },
+        "disintegration_time": "Not reported",
+        "dissolution_profile": {
+            "summary": "Figures 2–4 show LSB > LS > DC across 30/40/50% in SIF; 012_LSB1 detailed in Fig. 1 for SGF vs SIF"
+        },
+        "stability": {
+            "aging": "No visual leakage or structural change; hardness and dissolution unchanged (f2 > 50) over 6 months at 25 °C for 40% LSB"
+        },
+        "thickness": "Not reported",
+        "weight_variation_percent": "Not reported; only batch total tablet weight given per formulation",
+        "density_of_formulation": "Not reported",
+        "drug_content_in_tablet": "Not reported",
+        "consolidation_index": "Not reported",
+        "swelling_water_uptake": {
+            "lag_time_min": "Not applicable/not reported",
+            "total_floating_time_h": "Not applicable/not reported",
+            "swelling_index_percent": "Not reported"
+        }
+    },
+    "experimental_data": {
+        "in_vitro": {
+            "dissolution": "Time points 5–120 min; UV at 249 nm; correction applied; LSB showed significantly faster dissolution vs DC and LS; non‑sink acknowledged",
+            "friability": "Per‑batch W1, W2, friability% in Table 4; all within <1%",
+            "PXRD": "Celecoxib sharp peaks at 2θ ≈ 5°, 10.5°, 16°, 21.5°; LS and DC similar patterns with reduced peak intensity suggesting lower crystallinity; no new peaks indicating no interaction with excipients",
+            "DSC": "Pure celecoxib melting endotherm at 161.26 °C; small peak in physical mixture from low drug fraction; no melting peak in co‑ground and classic liquisolid indicating reduced crystallinity/amorphousness",
+            "aging": "Hardness stable (6–7 kg/cm^2) and dissolution f2 > 50 after 6 months for 40% LSB"
+        },
+        "in_vivo": "No in vivo studies reported in this article",
+        "release_kinetics_fitting": "No batch‑wise zero/first order, Higuchi, Hixson‑Crowell, or Korsmeyer–Peppas parameters reported; only mechanistic discussion and f2 comparison provided"
+    },
+    "equations": {
+        "sampling_correction": "C_tn = C_on + (v/V) Σ_{i=1}^{n−1} C_oi",
+        "similarity_factor_f2": "f2 = 50 log{[1 + (1/n) Σ_t (R_t − T_t)^2]^{−0.5} × 100}",
+        "mechanistic_reference": "Noyes–Whitney dissolution context used qualitatively; no numerical fitting presented"
+    },
+    "gaps_limitations": {
+        "unreported_items": [
+            "Pre‑compression flow properties, mass distribution SD, hardness SD per batch, thickness, diameter (for LSB/LS), density, assay/drug content, consolidation index, disintegration time, tablet swelling metrics, and formal kinetic model fits are not reported"
+        ]
+    }
+}

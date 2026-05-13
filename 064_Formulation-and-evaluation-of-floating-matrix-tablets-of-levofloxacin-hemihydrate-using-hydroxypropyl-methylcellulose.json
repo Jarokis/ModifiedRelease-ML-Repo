@@ -1,0 +1,396 @@
+{
+  "materials_origin": {
+    "levofloxacin_hemihydrate": "Gift sample from Ajanta Pharmaceuticals, Mumbai",
+    "hydroxypropyl_methylcellulose_K4M": "Obtained from Orchid Health Care, Chennai",
+    "microcrystalline_cellulose": "Obtained from Moly Chemicals Ltd., Mumbai",
+    "polyvinylpyrrolidone_PVP_K30": "Obtained from Fisher Scientific, Mumbai",
+    "other_reagents": "All other reagents and solvents used were of analytical grade"
+  },
+  "experimental_design_for_optimization": {
+    "preparation_method": "Conventional wet granulation method",
+    "polymer_used": "HPMC K4M as release retardant",
+    "gas_generating_agent": "Sodium bicarbonate",
+    "binding_agent_solvent": "PVP K30 using isopropyl alcohol",
+    "optimization_focus": "Effect of HPMC K4M polymer concentration on drug release behavior and buoyancy properties",
+    "optimal_formula": "LFTA4",
+    "equation_absorbance": "Samples measured at 294 nm using UV-visible spectroscopy"
+  },
+  "formulation_details_per_batch": [
+    {
+      "batch_code": "LFTA1",
+      "ingredients": {
+        "levofloxacin_hemihydrate_mg": 250,
+        "HPMC_K4M_mg": 25,
+        "sodium_bicarbonate_mg": 75,
+        "PVP_K30_2_percent_mg": 10,
+        "magnesium_stearate_1_percent_mg": 5,
+        "talc_1_percent_mg": 5,
+        "microcrystalline_cellulose_mg": 130,
+        "total_weight_mg": 500
+      },
+      "percent_polymer": "5%"
+    },
+    {
+      "batch_code": "LFTA2",
+      "ingredients": {
+        "levofloxacin_hemihydrate_mg": 250,
+        "HPMC_K4M_mg": 50,
+        "sodium_bicarbonate_mg": 75,
+        "PVP_K30_2_percent_mg": 10,
+        "magnesium_stearate_1_percent_mg": 5,
+        "talc_1_percent_mg": 5,
+        "microcrystalline_cellulose_mg": 105,
+        "total_weight_mg": 500
+      },
+      "percent_polymer": "10%"
+    },
+    {
+      "batch_code": "LFTA3",
+      "ingredients": {
+        "levofloxacin_hemihydrate_mg": 250,
+        "HPMC_K4M_mg": 75,
+        "sodium_bicarbonate_mg": 75,
+        "PVP_K30_2_percent_mg": 10,
+        "magnesium_stearate_1_percent_mg": 5,
+        "talc_1_percent_mg": 5,
+        "microcrystalline_cellulose_mg": 80,
+        "total_weight_mg": 500
+      },
+      "percent_polymer": "15%"
+    },
+    {
+      "batch_code": "LFTA4",
+      "ingredients": {
+        "levofloxacin_hemihydrate_mg": 250,
+        "HPMC_K4M_mg": 100,
+        "sodium_bicarbonate_mg": 75,
+        "PVP_K30_2_percent_mg": 10,
+        "magnesium_stearate_1_percent_mg": 5,
+        "talc_1_percent_mg": 5,
+        "microcrystalline_cellulose_mg": 55,
+        "total_weight_mg": 500
+      },
+      "percent_polymer": "20%"
+    },
+    {
+      "batch_code": "LFTA5",
+      "ingredients": {
+        "levofloxacin_hemihydrate_mg": 250,
+        "HPMC_K4M_mg": 125,
+        "sodium_bicarbonate_mg": 75,
+        "PVP_K30_2_percent_mg": 10,
+        "magnesium_stearate_1_percent_mg": 5,
+        "talc_1_percent_mg": 5,
+        "microcrystalline_cellulose_mg": 30,
+        "total_weight_mg": 500
+      },
+      "percent_polymer": "25%"
+    }
+  ],
+  "pre_compression_parameters_per_batch": [
+    {
+      "batch_code": "LFTA1",
+      "mass_distribution": "Not specified in text",
+      "hardness_kg_per_cm2": "4 ± 0.63",
+      "friability_percent": "0.24 ± 0.14",
+      "size_mm": "12 mm flat punch"
+    },
+    {
+      "batch_code": "LFTA2",
+      "mass_distribution": "Not specified in text",
+      "hardness_kg_per_cm2": "4 ± 0.75",
+      "friability_percent": "0.53 ± 0.11",
+      "size_mm": "12 mm flat punch"
+    },
+    {
+      "batch_code": "LFTA3",
+      "mass_distribution": "Not specified in text",
+      "hardness_kg_per_cm2": "4 ± 0.85",
+      "friability_percent": "0.42 ± 0.14",
+      "size_mm": "12 mm flat punch"
+    },
+    {
+      "batch_code": "LFTA4",
+      "mass_distribution": "Not specified in text",
+      "hardness_kg_per_cm2": "4 ± 0.76",
+      "friability_percent": "0.58 ± 0.14",
+      "size_mm": "12 mm flat punch"
+    },
+    {
+      "batch_code": "LFTA5",
+      "mass_distribution": "Not specified in text",
+      "hardness_kg_per_cm2": "4 ± 0.89",
+      "friability_percent": "0.43 ± 0.08",
+      "size_mm": "12 mm flat punch"
+    }
+  ],
+  "composition_of_independent_variables_and_levels": {
+    "independent_variable": "HPMC K4M concentration",
+    "levels_percent": ["5%", "10%", "15%", "20%", "25%"],
+    "corresponding_batches": ["LFTA1", "LFTA2", "LFTA3", "LFTA4", "LFTA5"]
+  },
+  "ftir_spectral_measurements": {
+    "observation": "No interaction observed between drug and polymer.",
+    "drug_characteristic_peaks_cm": [3420.55, 3266.25, 2935.67, 2884.34, 2847.39, 2803.36],
+    "conclusion": "No shifting in drug peaks was observed in mixtures, confirming no interaction."
+  },
+  "tablet_fabrications_per_batch": [
+    {
+      "batch_code": "LFTA1",
+      "hardness_kg_per_cm2": "4 ± 0.63",
+      "friability_percent": "0.24 ± 0.14",
+      "weight_variation_percent": "0.826 ± 0.03",
+      "thickness_and_diameter_mm": "Diameter: 12 mm, Thickness: Not specified",
+      "density_of_formulation": "Not specified",
+      "drug_content_assay_percent": "96.14 ± 0.45",
+      "consolidation_index": "Not specified"
+    },
+    {
+      "batch_code": "LFTA2",
+      "hardness_kg_per_cm2": "4 ± 0.75",
+      "friability_percent": "0.53 ± 0.11",
+      "weight_variation_percent": "1.23 ± 0.09",
+      "thickness_and_diameter_mm": "Diameter: 12 mm, Thickness: Not specified",
+      "density_of_formulation": "Not specified",
+      "drug_content_assay_percent": "96.86 ± 0.57",
+      "consolidation_index": "Not specified"
+    },
+    {
+      "batch_code": "LFTA3",
+      "hardness_kg_per_cm2": "4 ± 0.85",
+      "friability_percent": "0.42 ± 0.14",
+      "weight_variation_percent": "1.96 ± 0.08",
+      "thickness_and_diameter_mm": "Diameter: 12 mm, Thickness: Not specified",
+      "density_of_formulation": "Not specified",
+      "drug_content_assay_percent": "98.73 ± 0.90",
+      "consolidation_index": "Not specified"
+    },
+    {
+      "batch_code": "LFTA4",
+      "hardness_kg_per_cm2": "4 ± 0.76",
+      "friability_percent": "0.58 ± 0.14",
+      "weight_variation_percent": "0.987 ± 0.12",
+      "thickness_and_diameter_mm": "Diameter: 12 mm, Thickness: Not specified",
+      "density_of_formulation": "Not specified",
+      "drug_content_assay_percent": "99.02 ± 0.63",
+      "consolidation_index": "Not specified"
+    },
+    {
+      "batch_code": "LFTA5",
+      "hardness_kg_per_cm2": "4 ± 0.89",
+      "friability_percent": "0.43 ± 0.08",
+      "weight_variation_percent": "1.227 ± 0.06",
+      "thickness_and_diameter_mm": "Diameter: 12 mm, Thickness: Not specified",
+      "density_of_formulation": "Not specified",
+      "drug_content_assay_percent": "97.75 ± 0.55",
+      "consolidation_index": "Not specified"
+    }
+  ],
+  "process_parameters": {
+    "compression_device": "Multistation rotary tablet press (Cadmach Machinery Co. Pvt. Ltd., Mumbai)",
+    "punch_size": "12 mm flat punch",
+    "compression_pressure": "Not specified",
+    "coating": "None (matrix tablets)",
+    "granulation_drying_temperature": "50°C",
+    "granulation_drying_duration": "1.5 hours"
+  },
+  "release_properties_per_batch": [
+    {
+      "batch_code": "LFTA1",
+      "release_mechanism": "Diffusion controlled",
+      "release_profile": "100% drug release by 1 hour",
+      "release_kinetics": "First-order (r=0.999 for Higuchi, suggesting diffusion)",
+      "peppas_n_value": 0.5
+    },
+    {
+      "batch_code": "LFTA2",
+      "release_mechanism": "Diffusion controlled, Non-Fickian (anomalous)",
+      "release_profile": "100% drug release by 7 hours",
+      "release_kinetics": "Zero-order (r=0.980) / Higuchi (r=0.993)",
+      "peppas_n_value": 0.54
+    },
+    {
+      "batch_code": "LFTA3",
+      "release_mechanism": "Diffusion controlled, Non-Fickian (anomalous)",
+      "release_profile": "99.07% drug release by 11 hours",
+      "release_kinetics": "Zero-order (r=0.995)",
+      "peppas_n_value": 0.882
+    },
+    {
+      "batch_code": "LFTA4",
+      "release_mechanism": "Diffusion controlled, Non-Fickian (anomalous)",
+      "release_profile": "99.03% drug release by 12 hours",
+      "release_kinetics": "Zero-order (r=0.992)",
+      "peppas_n_value": 0.799
+    },
+    {
+      "batch_code": "LFTA5",
+      "release_mechanism": "Diffusion controlled, Non-Fickian (anomalous)",
+      "release_profile": "94.23% drug release by 12 hours",
+      "release_kinetics": "Zero-order (r=0.994)",
+      "peppas_n_value": 0.819
+    }
+  ],
+  "tablet_properties_per_batch": [
+    {
+      "batch_code": "LFTA1",
+      "hardness_kg_per_cm2": "4 ± 0.63",
+      "friability_percent": "0.24 ± 0.14",
+      "disintegration_time": "Non-disintegrating",
+      "dissolution_profile_percent": "100.09% at 1h, 42.89% at 2h, 70.05% at 4h, 92.68% at 6h, 101.67% at 7h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "0.826 ± 0.03",
+      "floating_lag_time_seconds": 66,
+      "total_floating_time_hours": 12,
+      "swelling_index_percent": "Not studied"
+    },
+    {
+      "batch_code": "LFTA2",
+      "hardness_kg_per_cm2": "4 ± 0.75",
+      "friability_percent": "0.53 ± 0.11",
+      "disintegration_time": "Non-disintegrating",
+      "dissolution_profile_percent": "24.84% at 0.5h, 32.06% at 1h, 61.44% at 3h, 79.44% at 5h, 101.67% at 7h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "1.23 ± 0.09",
+      "floating_lag_time_seconds": 61,
+      "total_floating_time_hours": 12,
+      "swelling_index_percent": "Not studied"
+    },
+    {
+      "batch_code": "LFTA3",
+      "hardness_kg_per_cm2": "4 ± 0.85",
+      "friability_percent": "0.42 ± 0.14",
+      "disintegration_time": "Non-disintegrating",
+      "dissolution_profile_percent": "7.58% at 0.5h, 21.01% at 2h, 31.75% at 4h, 61.86% at 6h, 86.87% at 9h, 99.07% at 11h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "1.96 ± 0.08",
+      "floating_lag_time_seconds": 59,
+      "total_floating_time_hours": 12,
+      "swelling_index_percent": "Not studied"
+    },
+    {
+      "batch_code": "LFTA4",
+      "hardness_kg_per_cm2": "4 ± 0.76",
+      "friability_percent": "0.58 ± 0.14",
+      "disintegration_time": "Non-disintegrating",
+      "dissolution_profile_percent": "7.23% at 0.5h, 19.60% at 2h, 30.98% at 4h, 58.02% at 6h, 75.19% at 9h, 90.46% at 11h, 99.03% at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "0.987 ± 0.12",
+      "floating_lag_time_seconds": 50,
+      "total_floating_time_hours": 12,
+      "swelling_index_percent": "Not studied"
+    },
+    {
+      "batch_code": "LFTA5",
+      "hardness_kg_per_cm2": "4 ± 0.89",
+      "friability_percent": "0.43 ± 0.08",
+      "disintegration_time": "Non-disintegrating",
+      "dissolution_profile_percent": "7.12% at 0.5h, 17.10% at 2h, 28.10% at 4h, 49.37% at 6h, 71.09% at 9h, 81.75% at 11h, 94.23% at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "1.227 ± 0.06",
+      "floating_lag_time_seconds": 52,
+      "total_floating_time_hours": 12,
+      "swelling_index_percent": "Not studied"
+    }
+  ],
+  "experimental_data": {
+    "key_results": "LFTA4 (20% HPMC K4M) was identified as the optimal formulation with 99.03% drug release over 12 hours, floating lag time of 50 seconds, and total floating time of 12 hours.",
+    "statistical_analysis": "Release kinetics were evaluated using linear regression. Correlation coefficients (r) for zero-order, first-order, and Higuchi models are provided.",
+    "zero_order_correlation_coefficients": {
+      "LFTA1": 0.972,
+      "LFTA2": 0.980,
+      "LFTA3": 0.995,
+      "LFTA4": 0.992,
+      "LFTA5": 0.994
+    },
+    "first_order_correlation_coefficients": {
+      "LFTA1": 0.999,
+      "LFTA2": 0.964,
+      "LFTA3": 0.894,
+      "LFTA4": 0.965,
+      "LFTA5": 0.982
+    },
+    "release_characteristics": {
+      "LFTA1": {"T25_h": null, "T50_h": null, "K0_mg_per_h": 100, "K1_per_h": 2.45, "n_in_Peppas": 0.5},
+      "LFTA2": {"T25_h": 2.5, "T50_h": 14.98, "K0_mg_per_h": 13.16, "K1_per_h": 0.374, "n_in_Peppas": 0.54},
+      "LFTA3": {"T25_h": 5.19, "T50_h": 7.81, "K0_mg_per_h": 9.38, "K1_per_h": 0.336, "n_in_Peppas": 0.882},
+      "LFTA4": {"T25_h": 5.62, "T50_h": 8.91, "K0_mg_per_h": 8.20, "K1_per_h": 0.188, "n_in_Peppas": 0.799},
+      "LFTA5": {"T25_h": 5.91, "T50_h": 9.93, "K0_mg_per_h": 7.49, "K1_per_h": 0.145, "n_in_Peppas": 0.819}
+    }
+  },
+  "figure_4_release_data": {
+    "LFTA1": [
+      {"time_h": 0.5, "release_percent": 70.71},
+      {"time_h": 1.0, "release_percent": 100.09},
+      {"time_h": 2.0, "release_percent": 42.89},
+      {"time_h": 3.0, "release_percent": 61.44},
+      {"time_h": 4.0, "release_percent": 70.05},
+      {"time_h": 5.0, "release_percent": 79.44},
+      {"time_h": 6.0, "release_percent": 92.68},
+      {"time_h": 7.0, "release_percent": 101.67}
+    ],
+    "LFTA2": [
+      {"time_h": 0.5, "release_percent": 24.84},
+      {"time_h": 1.0, "release_percent": 32.06},
+      {"time_h": 2.0, "release_percent": 42.89},
+      {"time_h": 3.0, "release_percent": 61.44},
+      {"time_h": 4.0, "release_percent": 70.05},
+      {"time_h": 5.0, "release_percent": 79.44},
+      {"time_h": 6.0, "release_percent": 92.68},
+      {"time_h": 7.0, "release_percent": 101.67},
+      {"time_h": 8.0, "release_percent": 101.67},
+      {"time_h": 9.0, "release_percent": 101.67},
+      {"time_h": 10.0, "release_percent": 101.67},
+      {"time_h": 11.0, "release_percent": 101.67}
+    ],
+    "LFTA3": [
+      {"time_h": 0.5, "release_percent": 7.58},
+      {"time_h": 1.0, "release_percent": 11.32},
+      {"time_h": 2.0, "release_percent": 21.01},
+      {"time_h": 3.0, "release_percent": 26.60},
+      {"time_h": 4.0, "release_percent": 31.75},
+      {"time_h": 5.0, "release_percent": 48.02},
+      {"time_h": 6.0, "release_percent": 61.86},
+      {"time_h": 7.0, "release_percent": 70.66},
+      {"time_h": 8.0, "release_percent": 78.65},
+      {"time_h": 9.0, "release_percent": 86.87},
+      {"time_h": 10.0, "release_percent": 95.76},
+      {"time_h": 11.0, "release_percent": 99.07}
+    ],
+    "LFTA4": [
+      {"time_h": 0.5, "release_percent": 7.23},
+      {"time_h": 1.0, "release_percent": 12.32},
+      {"time_h": 2.0, "release_percent": 19.60},
+      {"time_h": 3.0, "release_percent": 26.13},
+      {"time_h": 4.0, "release_percent": 30.98},
+      {"time_h": 5.0, "release_percent": 38.82},
+      {"time_h": 6.0, "release_percent": 58.02},
+      {"time_h": 7.0, "release_percent": 66.67},
+      {"time_h": 8.0, "release_percent": 72.12},
+      {"time_h": 9.0, "release_percent": 75.19},
+      {"time_h": 10.0, "release_percent": 81.73},
+      {"time_h": 11.0, "release_percent": 90.46},
+      {"time_h": 12.0, "release_percent": 99.03}
+    ],
+    "LFTA5": [
+      {"time_h": 0.5, "release_percent": 7.12},
+      {"time_h": 1.0, "release_percent": 10.09},
+      {"time_h": 2.0, "release_percent": 17.10},
+      {"time_h": 3.0, "release_percent": 23.09},
+      {"time_h": 4.0, "release_percent": 28.10},
+      {"time_h": 5.0, "release_percent": 34.09},
+      {"time_h": 6.0, "release_percent": 49.37},
+      {"time_h": 7.0, "release_percent": 57.05},
+      {"time_h": 8.0, "release_percent": 66.09},
+      {"time_h": 9.0, "release_percent": 71.09},
+      {"time_h": 10.0, "release_percent": 76.03},
+      {"time_h": 11.0, "release_percent": 81.75},
+      {"time_h": 12.0, "release_percent": 94.23}
+    ]
+  }
+}

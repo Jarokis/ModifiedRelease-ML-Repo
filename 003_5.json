@@ -1,0 +1,751 @@
+{
+    "article_metadata": {
+        "title": "Development of Bilayer Tablets with Modified Release of Selected Incompatible Drugs",
+        "journal": "Polimery w Medycynie (Polim. Med.) 2016, 46(1), 5–15",
+        "authors": [
+            "Neha Dhiman",
+            "Rajendra Awasthi",
+            "Shammy Jindal",
+            "Smriti Khatri",
+            "Kamal Dua"
+        ],
+        "drugs": [
+            "Telmisartan (TMS)",
+            "Simvastatin (SVT)"
+        ],
+        "objective": "Develop bilayer tablets with conventional release TMS and slow-release SVT to co-formulate incompatible drugs safely in one tablet.",
+        "key_outcomes": {
+            "summary": "TMS layer achieved ≥85% release by 45 min; SVT layer achieved ~80% by 8 h with no SVT release in first hour at pH 1.2.",
+            "best_formulation_note": "003_F4 gave the highest TMS 1 h release and acceptable SVT control; maps to 003_T4/003_TMS4/003_SVT4 in this schema."
+        }
+    },
+    "materials_origin": {
+        "APIs": {
+            "telmisartan": "Gift sample, Medley Pharmaceuticals Ltd., Daman, India",
+            "simvastatin": "Gift sample, Lincoln Pharmaceuticals Ltd., Ahmedabad, India"
+        },
+        "excipients": {
+            "croscarmellose_sodium": "SD Fine Chem. Ltd., Mumbai, India",
+            "HPMC_K15M": "SD Fine Chem. Ltd., Mumbai, India",
+            "PVP_K30": "Central Drug House (P) Ltd., Mumbai, India",
+            "microcrystalline_cellulose": "Yarrow Chem Products, Mumbai, India",
+            "lactose": "Yarrow Chem Products, Mumbai, India",
+            "Carbopol_934P": "Yarrow Chem Products, Mumbai, India",
+            "aerosil": "Listed in TMS layer; commercial source not specified"
+        }
+    },
+    "experimental_design_for_optimization": {
+        "design_type": "Eight trial formulations per layer (F1–F8) varying superdisintegrant in TMS layer; binder type/level, HPMC/Carbopol, croscarmellose/DCP in SVT layer; combined to bilayer tablets F1–F8.",
+        "independent_variables_and_levels": {
+            "TMS_layer": {
+                "croscarmellose_sodium": [
+                    "0 mg",
+                    "3 mg",
+                    "6 mg",
+                    "9 mg"
+                ]
+            },
+            "SVT_layer": {
+                "binder_type": [
+                    "starch paste 5% w/v",
+                    "starch paste 3% w/v",
+                    "starch paste 2% w/v",
+                    "starch powder"
+                ],
+                "croscarmellose_sodium": [
+                    "0 mg",
+                    "1 mg",
+                    "2 mg"
+                ],
+                "DCP": [
+                    "0 mg",
+                    "1 mg",
+                    "2 mg"
+                ],
+                "HPMC_K15M": [
+                    "56 mg",
+                    "57 mg"
+                ],
+                "Carbopol_934P": [
+                    "55 mg",
+                    "56 mg"
+                ],
+                "PVP_K30": [
+                    "26 mg"
+                ]
+            }
+        },
+        "response_variables": [
+            "Granule flow indices (bulk/tapped density, Hausner ratio, Carr’s index, angle of repose)",
+            "Tablet hardness, friability, thickness, weight variation, layer separation, disintegration",
+            "Content uniformity (TMS, SVT)",
+            "Dissolution profiles in 0.1M HCl (1 h) then pH 6.8 buffer (7 h)",
+            "Release kinetics fits (zero, first order, Higuchi, Peppas) and ANOVA"
+        ],
+        "analysis_methods": {
+            "kinetics_models": [
+                "Zero order",
+                "First order",
+                "Higuchi",
+                "Korsmeyer-Peppas"
+            ],
+            "statistics": "Two-way ANOVA with Bonferroni post-tests; p < 0.0001 threshold"
+        }
+    },
+    "ingredients_identification_and_analytical_setup": {
+        "UV_spectrophotometry": {
+            "instrument": "UV 3000+ (Labindia Instruments, Mumbai)",
+            "lambda_max_nm": {
+                "TMS": 290,
+                "SVT": 238
+            },
+            "media": {
+                "TMS": "0.1M HCl (pH 1.2)",
+                "SVT": "Phosphate buffer (pH 6.8)"
+            },
+            "scan_range_nm": "200–400",
+            "multi_component_analysis": true
+        },
+        "FTIR": {
+            "instrument": "IR Affinity-1 (Shimadzu, Japan)",
+            "method": "KBr disc",
+            "scan_range_cm_minus1": "4000–400",
+            "resolution_cm_minus1": 4,
+            "compatibility_findings": "Layers individually show preserved API characteristic peaks; physical mixture of layers shows reduced intensity/shifted/disappeared peaks, evidencing incompatibility when blended.",
+            "key_band_assignments": {
+                "telmisartan": [
+                    {
+                        "cm_minus1": 1772,
+                        "assignment": "C=O stretch"
+                    },
+                    {
+                        "cm_minus1": 3132,
+                        "assignment": "O–H stretch"
+                    },
+                    {
+                        "cm_minus1": 3647,
+                        "assignment": "O–H stretch"
+                    },
+                    {
+                        "cm_minus1": 1697,
+                        "assignment": "C=O stretch"
+                    },
+                    {
+                        "cm_minus1": 1352,
+                        "assignment": "C–N stretch"
+                    },
+                    {
+                        "cm_minus1": 1296,
+                        "assignment": "C–N stretch"
+                    },
+                    {
+                        "cm_minus1": 1153,
+                        "assignment": "C–N stretch"
+                    },
+                    {
+                        "cm_minus1": 1481,
+                        "assignment": "CH3 bending"
+                    },
+                    {
+                        "cm_minus1": 1382,
+                        "assignment": "CH3 bending"
+                    }
+                ],
+                "simvastatin": [
+                    {
+                        "cm_minus1": 3550,
+                        "assignment": "Free O–H stretch"
+                    },
+                    {
+                        "cm_minus1": 2968,
+                        "assignment": "C–H stretch"
+                    },
+                    {
+                        "cm_minus1": 2929,
+                        "assignment": "C–H stretch"
+                    },
+                    {
+                        "cm_minus1": 1309,
+                        "assignment": "C–H stretch"
+                    },
+                    {
+                        "cm_minus1": 1269,
+                        "assignment": "Ester stretch"
+                    },
+                    {
+                        "cm_minus1": 1165,
+                        "assignment": "Lactone/Carbonyl C=O/C–O stretch"
+                    },
+                    {
+                        "cm_minus1": 3749,
+                        "assignment": "O–H stretch"
+                    }
+                ]
+            }
+        },
+        "equations": {
+            "bulk_density": "\\(Bulk density = \\frac{Weight of granules}{Initial volume}\\)",
+            "tapped_density": "\\(Tapped density = \\frac{Weight of granules}{Final volume after tapping}\\)",
+            "hausner_ratio": "\\(Hausner ratio = \\frac{T_d}{B_d}\\)",
+            "carr_index": "\\(Carr's Index = \\frac{T_d - B_d}{T_d} \\times 100\\)",
+            "angle_of_repose": "\\(\\theta = \\tan^{-1}\\left(\\frac{h}{r}\\right)\\)",
+            "higuchi": "\\(Q = K t^{1/2}\\)"
+        }
+    },
+    "formulation_details": {
+        "TMS_layer_batches": {
+            "003_TMS1": {
+                "telmisartan_mg": 12,
+                "croscarmellose_sodium_mg": 0,
+                "microcrystalline_cellulose_mg": 20.5,
+                "lactose_mg": 66,
+                "aerosil_mg": 1.5
+            },
+            "003_TMS2": {
+                "telmisartan_mg": 12,
+                "croscarmellose_sodium_mg": 3,
+                "microcrystalline_cellulose_mg": 17.5,
+                "lactose_mg": 66,
+                "aerosil_mg": 1.5
+            },
+            "003_TMS3": {
+                "telmisartan_mg": 12,
+                "croscarmellose_sodium_mg": 6,
+                "microcrystalline_cellulose_mg": 14.5,
+                "lactose_mg": 66,
+                "aerosil_mg": 1.5
+            },
+            "003_TMS4": {
+                "telmisartan_mg": 12,
+                "croscarmellose_sodium_mg": 9,
+                "microcrystalline_cellulose_mg": 11.5,
+                "lactose_mg": 66,
+                "aerosil_mg": 1.5
+            },
+            "003_TMS5": {
+                "telmisartan_mg": 12,
+                "croscarmellose_sodium_mg": 3,
+                "microcrystalline_cellulose_mg": 17.5,
+                "lactose_mg": 66,
+                "aerosil_mg": 1.5
+            },
+            "003_TMS6": {
+                "telmisartan_mg": 12,
+                "croscarmellose_sodium_mg": 3,
+                "microcrystalline_cellulose_mg": 17.5,
+                "lactose_mg": 66,
+                "aerosil_mg": 1.5
+            },
+            "003_TMS7": {
+                "telmisartan_mg": 12,
+                "croscarmellose_sodium_mg": 3,
+                "microcrystalline_cellulose_mg": 17.5,
+                "lactose_mg": 66,
+                "aerosil_mg": 1.5
+            },
+            "003_TMS8": {
+                "telmisartan_mg": 12,
+                "croscarmellose_sodium_mg": 3,
+                "microcrystalline_cellulose_mg": 17.5,
+                "lactose_mg": 66,
+                "aerosil_mg": 1.5
+            }
+        },
+        "SVT_layer_batches": {
+            "003_SVT1": {
+                "simvastatin_mg": 8,
+                "HPMC_K15M_mg": 57,
+                "Carbopol_934P_mg": 56,
+                "PVP_K30_mg": 26,
+                "croscarmellose_sodium_mg": 0,
+                "DCP_mg": 0,
+                "binder": "starch paste 5% w/v"
+            },
+            "003_SVT2": {
+                "simvastatin_mg": 8,
+                "HPMC_K15M_mg": 57,
+                "Carbopol_934P_mg": 56,
+                "PVP_K30_mg": 26,
+                "croscarmellose_sodium_mg": 0,
+                "DCP_mg": 0,
+                "binder": "starch paste 3% w/v"
+            },
+            "003_SVT3": {
+                "simvastatin_mg": 8,
+                "HPMC_K15M_mg": 57,
+                "Carbopol_934P_mg": 56,
+                "PVP_K30_mg": 26,
+                "croscarmellose_sodium_mg": 0,
+                "DCP_mg": 0,
+                "binder": "starch paste 2% w/v"
+            },
+            "003_SVT4": {
+                "simvastatin_mg": 8,
+                "HPMC_K15M_mg": 57,
+                "Carbopol_934P_mg": 56,
+                "PVP_K30_mg": 26,
+                "croscarmellose_sodium_mg": 0,
+                "DCP_mg": 0,
+                "binder": "starch powder"
+            },
+            "003_SVT5": {
+                "simvastatin_mg": 8,
+                "HPMC_K15M_mg": 57,
+                "Carbopol_934P_mg": 55,
+                "PVP_K30_mg": 26,
+                "croscarmellose_sodium_mg": 1,
+                "DCP_mg": 0,
+                "binder": "starch paste 5% w/v"
+            },
+            "003_SVT6": {
+                "simvastatin_mg": 8,
+                "HPMC_K15M_mg": 57,
+                "Carbopol_934P_mg": 55,
+                "PVP_K30_mg": 26,
+                "croscarmellose_sodium_mg": 0,
+                "DCP_mg": 1,
+                "binder": "starch paste 5% w/v"
+            },
+            "003_SVT7": {
+                "simvastatin_mg": 8,
+                "HPMC_K15M_mg": 56,
+                "Carbopol_934P_mg": 55,
+                "PVP_K30_mg": 26,
+                "croscarmellose_sodium_mg": 2,
+                "DCP_mg": 0,
+                "binder": "starch paste 5% w/v"
+            },
+            "003_SVT8": {
+                "simvastatin_mg": 8,
+                "HPMC_K15M_mg": 56,
+                "Carbopol_934P_mg": 55,
+                "PVP_K30_mg": 26,
+                "croscarmellose_sodium_mg": 0,
+                "DCP_mg": 2,
+                "binder": "starch paste 5% w/v"
+            }
+        },
+        "bilayer_batches_mapping": {
+            "003_T1": {
+                "TMS_layer": "003_TMS1",
+                "SVT_layer": "003_SVT1"
+            },
+            "003_T2": {
+                "TMS_layer": "003_TMS2",
+                "SVT_layer": "003_SVT2"
+            },
+            "003_T3": {
+                "TMS_layer": "003_TMS3",
+                "SVT_layer": "003_SVT3"
+            },
+            "003_T4": {
+                "TMS_layer": "003_TMS4",
+                "SVT_layer": "003_SVT4"
+            },
+            "003_T5": {
+                "TMS_layer": "003_TMS5",
+                "SVT_layer": "003_SVT5"
+            },
+            "003_T6": {
+                "TMS_layer": "003_TMS6",
+                "SVT_layer": "003_SVT6"
+            },
+            "003_T7": {
+                "TMS_layer": "003_TMS7",
+                "SVT_layer": "003_SVT7"
+            },
+            "003_T8": {
+                "TMS_layer": "003_TMS8",
+                "SVT_layer": "003_SVT8"
+            }
+        }
+    },
+    "pre_compression_parameters": {
+        "granules_TMS_layer": {
+            "003_TMS1": {
+                "bulk_density_g_per_mL": "0.827 ± 0.010",
+                "tapped_density_g_per_mL": "1.022 ± 0.016",
+                "carr_index_percent": "19.11 ± 1.17",
+                "hausner_ratio": "1.236 ± 0.017",
+                "angle_of_repose_deg": 29.74
+            },
+            "003_TMS2": {
+                "bulk_density_g_per_mL": "0.612 ± 0.030",
+                "tapped_density_g_per_mL": "0.748 ± 0.040",
+                "carr_index_percent": "18.18 ± 0.47",
+                "hausner_ratio": "1.22 ± 0.170",
+                "angle_of_repose_deg": 31.21
+            },
+            "003_TMS3": {
+                "bulk_density_g_per_mL": "0.821 ± 0.010",
+                "tapped_density_g_per_mL": "1.032 ± 0.016",
+                "carr_index_percent": "20.43 ± 1.15",
+                "hausner_ratio": "1.257 ± 0.018",
+                "angle_of_repose_deg": 29.05
+            },
+            "003_TMS4": {
+                "bulk_density_g_per_mL": "0.489 ± 0.011",
+                "tapped_density_g_per_mL": "0.631 ± 0.005",
+                "carr_index_percent": "22.53 ± 1.20",
+                "hausner_ratio": "1.290 ± 0.020",
+                "angle_of_repose_deg": 33.69
+            },
+            "003_TMS5": {
+                "bulk_density_g_per_mL": "0.755 ± 0.023",
+                "tapped_density_g_per_mL": "0.970 ± 0.038",
+                "carr_index_percent": "22.16 ± 0.68",
+                "hausner_ratio": "1.284 ± 0.011",
+                "angle_of_repose_deg": 32.82
+            },
+            "003_TMS6": {
+                "bulk_density_g_per_mL": "0.903 ± 0.012",
+                "tapped_density_g_per_mL": "1.061 ± 0.017",
+                "carr_index_percent": "14.51 ± 0.20",
+                "hausner_ratio": "1.169 ± 0.002",
+                "angle_of_repose_deg": 32.59
+            },
+            "003_TMS7": {
+                "bulk_density_g_per_mL": "0.618 ± 0.020",
+                "tapped_density_g_per_mL": "0.756 ± 0.030",
+                "carr_index_percent": "18.25 ± 0.56",
+                "hausner_ratio": "1.220 ± 0.242",
+                "angle_of_repose_deg": 28.39
+            },
+            "003_TMS8": {
+                "bulk_density_g_per_mL": "0.707 ± 0.013",
+                "tapped_density_g_per_mL": "0.872 ± 0.020",
+                "carr_index_percent": "18.82 ± 3.41",
+                "hausner_ratio": "1.233 ± 0.051",
+                "angle_of_repose_deg": 30.46
+            }
+        },
+        "granules_SVT_layer": {
+            "003_SVT1": {
+                "bulk_density_g_per_mL": "0.515 ± 0.150",
+                "tapped_density_g_per_mL": "0.662 ± 0.012",
+                "carr_index_percent": "22.16 ± 0.862",
+                "hausner_ratio": "1.283 ± 0.014",
+                "angle_of_repose_deg": 25.43
+            },
+            "003_SVT2": {
+                "bulk_density_g_per_mL": "0.491 ± 0.010",
+                "tapped_density_g_per_mL": "0.639 ± 0.005",
+                "carr_index_percent": "23.20 ± 1.580",
+                "hausner_ratio": "1.301 ± 0.027",
+                "angle_of_repose_deg": 28.67
+            },
+            "003_SVT3": {
+                "bulk_density_g_per_mL": "0.543 ± 0.020",
+                "tapped_density_g_per_mL": "0.659 ± 0.006",
+                "carr_index_percent": "17.63 ± 2.450",
+                "hausner_ratio": "1.213 ± 0.035",
+                "angle_of_repose_deg": 27.54
+            },
+            "003_SVT4": {
+                "bulk_density_g_per_mL": "0.520 ± 0.016",
+                "tapped_density_g_per_mL": "0.635 ± 0.005",
+                "carr_index_percent": "18.16 ± 1.950",
+                "hausner_ratio": "1.221 ± 0.029",
+                "angle_of_repose_deg": 30.72
+            },
+            "003_SVT5": {
+                "bulk_density_g_per_mL": "0.531 ± 0.010",
+                "tapped_density_g_per_mL": "0.663 ± 0.006",
+                "carr_index_percent": "19.90 ± 1.320",
+                "hausner_ratio": "1.247 ± 0.021",
+                "angle_of_repose_deg": 31.48
+            },
+            "003_SVT6": {
+                "bulk_density_g_per_mL": "0.507 ± 0.016",
+                "tapped_density_g_per_mL": "0.637 ± 0.005",
+                "carr_index_percent": "20.53 ± 1.920",
+                "hausner_ratio": "1.257 ± 0.030",
+                "angle_of_repose_deg": 29.53
+            },
+            "003_SVT7": {
+                "bulk_density_g_per_mL": "0.498 ± 0.011",
+                "tapped_density_g_per_mL": "0.633 ± 0.009",
+                "carr_index_percent": "21.36 ± 0.650",
+                "hausner_ratio": "1.270 ± 0.010",
+                "angle_of_repose_deg": 28.95
+            },
+            "003_SVT8": {
+                "bulk_density_g_per_mL": "0.471 ± 0.014",
+                "tapped_density_g_per_mL": "0.627 ± 0.010",
+                "carr_index_percent": "24.90 ± 1.100",
+                "hausner_ratio": "1.330 ± 0.020",
+                "angle_of_repose_deg": 30.56
+            }
+        }
+    },
+    "tablet_fabrication_and_properties": {
+        "process_parameters": {
+            "granulation": {
+                "sieving": "#80 pre-sift; wet mass through #16; dried mass through #22",
+                "binders": "SVT layer: starch paste (2–5% w/v) or starch powder",
+                "TMS_layer_solvent": "Isopropyl alcohol",
+                "drying": "Hot air oven 35–40°C"
+            },
+            "compression": {
+                "press": "10-station rotary press (M26 A12, Karnavati Engineering Ltd., Ahmedabad)",
+                "tooling": "6 mm round, flat-faced",
+                "mode": "Double compression to form bilayer",
+                "pressure": "Not reported",
+                "coating": "None"
+            },
+            "testing_equipment": {
+                "hardness": "Monsanto tester (Cadmach, Ahmedabad)",
+                "thickness": "Vernier calipers (Mitutoyo, Japan)",
+                "friability": "Roche friabilator EF-2, 25 rpm, 4 min",
+                "disintegration": "USP apparatus, 900 mL pH 6.8, 37 ± 0.5°C",
+                "dissolution": "USP II (DS 8000), 900 mL, 100 rpm, 37 ± 0.5°C; 0.1M HCl 1 h then pH 6.8",
+                "UV_analysis": "UV 3000+ multi-component mode"
+            }
+        },
+        "bilayer_tablet_batches": {
+            "003_T1": {
+                "hardness_kg_per_cm2": "7.2 ± 0.16",
+                "friability_percent": "0.619 ± 0.15",
+                "layer_separation": "No",
+                "disintegration_TMS_min": "15 ± 1",
+                "disintegration_SVT": "Not fully disintegrated within 2 h",
+                "weight_mg": "249.0 ± 0.47",
+                "thickness_mm": "4.12 ± 0.18",
+                "content_uniformity": {
+                    "telmisartan_mg": "11.53 ± 0.16 (96.08%)",
+                    "simvastatin_mg": "8.01 ± 0.89 (99.82%)"
+                },
+                "diameter_mm": 6
+            },
+            "003_T2": {
+                "hardness_kg_per_cm2": "6.1 ± 0.29",
+                "friability_percent": "0.782 ± 0.11",
+                "layer_separation": "No",
+                "disintegration_TMS_min": "8 ± 1",
+                "disintegration_SVT": "Not fully disintegrated within 2 h",
+                "weight_mg": "251.2 ± 0.72",
+                "thickness_mm": "4.15 ± 0.06",
+                "content_uniformity": {
+                    "telmisartan_mg": "11.68 ± 0.34 (97.56%)",
+                    "simvastatin_mg": "7.82 ± 0.67 (97.82%)"
+                },
+                "diameter_mm": 6
+            },
+            "003_T3": {
+                "hardness_kg_per_cm2": "6.5 ± 0.47",
+                "friability_percent": "0.632 ± 0.21",
+                "layer_separation": "No",
+                "disintegration_TMS_min": "5 ± 2",
+                "disintegration_SVT": "Not fully disintegrated within 2 h",
+                "weight_mg": "250.5 ± 0.52",
+                "thickness_mm": "4.20 ± 0.14",
+                "content_uniformity": {
+                    "telmisartan_mg": "11.57 ± 0.81 (97.35%)",
+                    "simvastatin_mg": "7.94 ± 0.84 (98.16%)"
+                },
+                "diameter_mm": 6
+            },
+            "003_T4": {
+                "hardness_kg_per_cm2": "5.3 ± 0.35",
+                "friability_percent": "0.667 ± 0.16",
+                "layer_separation": "Some tablets",
+                "disintegration_TMS_min": "4 ± 1",
+                "disintegration_SVT": "Not fully disintegrated within 2 h",
+                "weight_mg": "250.4 ± 0.34",
+                "thickness_mm": "4.11 ± 0.17",
+                "content_uniformity": {
+                    "telmisartan_mg": "11.67 ± 0.65 (97.40%)",
+                    "simvastatin_mg": "7.53 ± 0.95 (96.87%)"
+                },
+                "diameter_mm": 6
+            },
+            "003_T5": {
+                "hardness_kg_per_cm2": "5.8 ± 0.16",
+                "friability_percent": "0.587 ± 0.22",
+                "layer_separation": "No",
+                "disintegration_TMS_min": "8 ± 1",
+                "disintegration_SVT": "Not fully disintegrated within 2 h",
+                "weight_mg": "250.8 ± 0.51",
+                "thickness_mm": "4.22 ± 0.02",
+                "content_uniformity": {
+                    "telmisartan_mg": "10.70 ± 0.10 (96.72%)",
+                    "simvastatin_mg": "7.81 ± 0.37 (96.77%)"
+                },
+                "diameter_mm": 6
+            },
+            "003_T6": {
+                "hardness_kg_per_cm2": "7.5 ± 0.23",
+                "friability_percent": "0.612 ± 0.17",
+                "layer_separation": "No",
+                "disintegration_TMS_min": "8 ± 1",
+                "disintegration_SVT": "Not fully disintegrated within 2 h",
+                "weight_mg": "251.5 ± 0.34",
+                "thickness_mm": "4.17 ± 0.07",
+                "content_uniformity": {
+                    "telmisartan_mg": "12.02 ± 0.17 (100.08%)",
+                    "simvastatin_mg": "7.98 ± 0.29 (97.38%)"
+                },
+                "diameter_mm": 6
+            },
+            "003_T7": {
+                "hardness_kg_per_cm2": "6.8 ± 0.64",
+                "friability_percent": "0.724 ± 0.16",
+                "layer_separation": "No",
+                "disintegration_TMS_min": "7 ± 1",
+                "disintegration_SVT": "Not fully disintegrated within 2 h",
+                "weight_mg": "251.7 ± 0.37",
+                "thickness_mm": "4.10 ± 0.08",
+                "content_uniformity": {
+                    "telmisartan_mg": "11.36 ± 0.43 (97.15%)",
+                    "simvastatin_mg": "7.92 ± 0.45 (97.84%)"
+                },
+                "diameter_mm": 6
+            },
+            "003_T8": {
+                "hardness_kg_per_cm2": "7.9 ± 0.72",
+                "friability_percent": "0.531 ± 0.19",
+                "layer_separation": "No",
+                "disintegration_TMS_min": "7 ± 2",
+                "disintegration_SVT": "Not fully disintegrated within 2 h",
+                "weight_mg": "252.0 ± 0.22",
+                "thickness_mm": "4.14 ± 0.15",
+                "content_uniformity": {
+                    "telmisartan_mg": "11.96 ± 0.72 (97.93%)",
+                    "simvastatin_mg": "8.03 ± 0.58 (100.42%)"
+                },
+                "diameter_mm": 6
+            }
+        }
+    },
+    "release_properties_and_kinetics": {
+        "method_overview": {
+            "sequence": "0.1M HCl (pH 1.2) for 1 h then phosphate buffer (pH 6.8) for 7 h at 100 rpm, 37 ± 0.5°C",
+            "findings_summary": "No SVT release in first hour; TMS shows rapid release; SVT shows controlled release to ~80% by 8 h depending on batch."
+        },
+        "TMS_release_highlights": {
+            "note": "TMS release increased with higher croscarmellose; 003_F4 (003_TMS4) achieved 93.84 ± 0.99% at 1 h.",
+            "criterion": "Conventional release target >80% in 45 min satisfied."
+        },
+        "SVT_release_kinetics_table_r2_peppas_n": {
+            "003_SVT1": {
+                "zero_order_r2": 0.92,
+                "first_order_r2": 0.937,
+                "higuchi_r2": 0.918,
+                "peppas_r2": 0.798,
+                "peppas_n": 0.938
+            },
+            "003_SVT2": {
+                "zero_order_r2": 0.924,
+                "first_order_r2": 0.955,
+                "higuchi_r2": 0.917,
+                "peppas_r2": 0.789,
+                "peppas_n": 0.986
+            },
+            "003_SVT3": {
+                "zero_order_r2": 0.916,
+                "first_order_r2": 0.929,
+                "higuchi_r2": 0.916,
+                "peppas_r2": 0.782,
+                "peppas_n": 0.929
+            },
+            "003_SVT4": {
+                "zero_order_r2": 0.886,
+                "first_order_r2": 0.929,
+                "higuchi_r2": 0.905,
+                "peppas_r2": 0.744,
+                "peppas_n": 0.823
+            },
+            "003_SVT5": {
+                "zero_order_r2": 0.884,
+                "first_order_r2": 0.93,
+                "higuchi_r2": 0.904,
+                "peppas_r2": 0.745,
+                "peppas_n": 0.855
+            },
+            "003_SVT6": {
+                "zero_order_r2": 0.883,
+                "first_order_r2": 0.93,
+                "higuchi_r2": 0.904,
+                "peppas_r2": 0.739,
+                "peppas_n": 0.833
+            },
+            "003_SVT7": {
+                "zero_order_r2": 0.92,
+                "first_order_r2": 0.978,
+                "higuchi_r2": 0.915,
+                "peppas_r2": 0.766,
+                "peppas_n": 0.975
+            },
+            "003_SVT8": {
+                "zero_order_r2": 0.907,
+                "first_order_r2": 0.958,
+                "higuchi_r2": 0.911,
+                "peppas_r2": 0.751,
+                "peppas_n": 0.934
+            }
+        },
+        "release_mechanism_interpretation": {
+            "model_fit": "SVT release best fits first-order and Higuchi models across batches.",
+            "mechanism": "Diffusion-controlled release with swelling; Peppas n between 0.5 and 1 indicates Fickian diffusion with swelling."
+        },
+        "ANOVA_summary": {
+            "two_way_anova": {
+                "p_value": "< 0.0001",
+                "significance": "Significant differences among SVT dissolution profiles F1–F8; polymer composition significantly affects release."
+            },
+            "anova_table": {
+                "CSS": {
+                    "SS": 2343,
+                    "df": 7,
+                    "MS": 334.7,
+                    "F_calc": 14.71,
+                    "F_tab": 1.91
+                },
+                "RSS": {
+                    "SS": 45830,
+                    "df": 11,
+                    "MS": 4166,
+                    "F_calc": 183.0,
+                    "F_tab": 1.96
+                },
+                "ESS": {
+                    "SS": 1752,
+                    "df": 77,
+                    "MS": 22.76
+                }
+            }
+        }
+    },
+    "tablet_properties_summary": {
+        "hardness_range_kg_per_cm2": "5.3–7.9 across 003_T1–003_T8",
+        "friability_range_percent": "0.531–0.782 across 003_T1–003_T8",
+        "weight_range_mg": "249.0–252.0 (mean ± SD within ±7.5% USP limits)",
+        "thickness_range_mm": "4.10–4.22",
+        "layer_separation": "None except some tablets in 003_T4",
+        "disintegration": {
+            "TMS_layer": "4–15 min depending on batch and croscarmellose level",
+            "SVT_layer": "Not fully disintegrated within 2 h for all batches"
+        },
+        "content_uniformity_ranges": {
+            "TMS_percent": "96.08–100.08",
+            "SVT_percent": "96.77–100.42"
+        }
+    },
+    "gaps_limitations_notes": {
+        "unreported_parameters": [
+            "Compression pressure not reported",
+            "Granule moisture not reported",
+            "Exact consolidation index not reported"
+        ],
+        "coating": "No coating applied",
+        "stability": "Long-term stability study not reported"
+    },
+    "section_locator": {
+        "abstract": "Study aim, design summary, FTIR compatibility statement, and headline dissolution/outcomes.",
+        "introduction": "Rationale for bilayer approach with TMS/SVT, incompatibility context, therapeutic logic.",
+        "materials": "API and excipient sources; instruments listed.",
+        "methods": "Granulation, drying, compression, instruments, test conditions, equations; Tables 1–2 compositions.",
+        "results_discussion": "Preformulation (melting point, UV λmax), FTIR assignments (Table 3), micromeritic data (Tables 4–5), tablet tests (Tables 6–8), dissolution and kinetics (Figures 4–5, Table 9), ANOVA (Table 10).",
+        "conclusion": "Best batch summary and mechanism statement; compliance benefits."
+    }
+}

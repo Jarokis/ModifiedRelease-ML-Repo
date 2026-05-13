@@ -1,0 +1,1199 @@
+{
+    "materials_origin": {
+        "mercaptopurine_monohydrate": "M/S Dabur Pharmaceuticals Ltd, Ghaziabad, India (ex-gratis)",
+        "xanthan_gum": "M/S SD fine chemicals limited (Mumbai, India)",
+        "sodium_alginate": "M/S SD fine chemicals limited (Mumbai, India)",
+        "hydroxypropyl_cellulose": "M/S SD fine chemicals limited (Mumbai, India)",
+        "hydroxy_propyl_methylcellulose_E15_LV": "Himedia, Mumbai (ex-gratis)",
+        "PEG_6000": "M/S Titan Biotech (ex-gratis)",
+        "sodium_chloride": "M/S Reachem Laboratory Chemicals",
+        "talc": "Standard chemical supplier (assumed from context)",
+        "magnesium_stearate": "Standard chemical supplier (assumed from context)",
+        "microcrystalline_cellulose": "Standard chemical supplier (assumed from context)",
+        "spray_dried_lactose": "Standard chemical supplier (assumed from context)",
+        "all_other_chemicals": "Analytical grade"
+    },
+    "experimental_design_for_optimization": {
+        "design_type": "3^2 full factorial design",
+        "independent_variables": [
+            {
+                "variable": "X1",
+                "name": "Percentage of xanthan gum",
+                "levels": [
+                    "30%",
+                    "40%",
+                    "50%"
+                ],
+                "coded_values": {
+                    "-1": 30,
+                    "0": 40,
+                    "+1": 50
+                }
+            },
+            {
+                "variable": "X2",
+                "name": "Percentage of sodium chloride",
+                "levels": [
+                    "5%",
+                    "7.5%",
+                    "10%"
+                ],
+                "coded_values": {
+                    "-1": 5,
+                    "0": 7.5,
+                    "+1": 10
+                }
+            }
+        ],
+        "dependent_variables": [
+            "Swelling index",
+            "Cumulative Percent Release (CPR)"
+        ],
+        "polymer_selection": {
+            "method": "Placebo tablet screening (batches P1-P10)",
+            "selected_polymer": "Xanthan gum",
+            "selection_criteria": "Best hardness, swelling index, and disintegration time",
+            "results_summary": "Xanthan gum tablets (P1, P2) showed highest swelling (90-99%) and hardness (>4.5 kg/cm²). PEG-6000 tablets (P9, P10) showed negligible swelling and low hardness."
+        },
+        "diluent_selection": {
+            "method": "Evaluation of formulations 025_F1, 025_F2, 025_F3",
+            "selected_diluent": "Microcrystalline Cellulose (MCC)",
+            "basis": "Formulation 025_F1 with MCC alone released drug faster, indicating need for release modifier; 025_F2 (spray dried lactose) and 025_F3 (combination) showed slower release."
+        },
+        "release_modifier": "Sodium chloride (5%, 7.5%, 10%)",
+        "regression_equations": {
+            "swelling_index": "Y1 = 839.36 + 159.03X1 - 186.50X2",
+            "cpr": "Y2 = 74.835 - 14.887X1 + 10.04X2 - 2.765X1X2 - 7.390X1^2 + 5.781X2^2"
+        },
+        "absorbance_wavelength": "311 nm",
+        "software_used": "PCP Disso 2000 V3, PCP Disso Version 2.08"
+    },
+    "formulation_details": [
+        {
+            "batch": "025_F1",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 50
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 75
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 7.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 16
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 50
+        },
+        {
+            "batch": "025_F2",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 50
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 75
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 7.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 8
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 50
+        },
+        {
+            "batch": "025_F3",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 50
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 75
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 7.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Spray dried lactose",
+                    "mass_mg": 8
+                }
+            ],
+            "total_mass_mg": 158,
+            "percent_polymer": 47.5
+        },
+        {
+            "batch": "025_F4",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 33.3
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Sodium chloride",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 5.6
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 33.33
+        },
+        {
+            "batch": "025_F5",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 33.3
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Sodium chloride",
+                    "mass_mg": 7.5
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 3.1
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 33.33
+        },
+        {
+            "batch": "025_F6",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 33.3
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Sodium chloride",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 0.6
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 33.33
+        },
+        {
+            "batch": "025_F7",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 33.3
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 40
+                },
+                {
+                    "name": "Sodium chloride",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 15.6
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 26.67
+        },
+        {
+            "batch": "025_F8",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 33.5
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 40
+                },
+                {
+                    "name": "Sodium chloride",
+                    "mass_mg": 7.5
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 13.1
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 26.67
+        },
+        {
+            "batch": "025_F9",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 33.3
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 40
+                },
+                {
+                    "name": "Sodium chloride",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 10.6
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 26.67
+        },
+        {
+            "batch": "025_F10",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 33.3
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "Sodium chloride",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 25.6
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 20.0
+        },
+        {
+            "batch": "025_F11",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 33.3
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "Sodium chloride",
+                    "mass_mg": 7.5
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 23.1
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 20.0
+        },
+        {
+            "batch": "025_F12",
+            "api": {
+                "name": "Mercaptopurine",
+                "mass_mg": 33.1
+            },
+            "excipients": [
+                {
+                    "name": "Xanthan gum",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "Sodium chloride",
+                    "mass_mg": 10
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1
+                },
+                {
+                    "name": "MCC",
+                    "mass_mg": 20.6
+                }
+            ],
+            "total_mass_mg": 150,
+            "percent_polymer": 20.0
+        }
+    ],
+    "pre_compression_parameters": "Not reported in the provided text (focus is on tablet evaluation, not powder blend pre-compression).",
+    "composition_independent_variables": {
+        "design_summary": "Table IV and Table VII",
+        "coded_values": [
+            {
+                "batch": "025_F4",
+                "X1": -1,
+                "X2": -1
+            },
+            {
+                "batch": "025_F5",
+                "X1": -1,
+                "X2": 0
+            },
+            {
+                "batch": "025_F6",
+                "X1": -1,
+                "X2": 1
+            },
+            {
+                "batch": "025_F7",
+                "X1": 0,
+                "X2": -1
+            },
+            {
+                "batch": "025_F8",
+                "X1": 0,
+                "X2": 0
+            },
+            {
+                "batch": "025_F9",
+                "X1": 0,
+                "X2": 1
+            },
+            {
+                "batch": "025_F10",
+                "X1": 1,
+                "X2": -1
+            },
+            {
+                "batch": "025_F11",
+                "X1": 1,
+                "X2": 0
+            },
+            {
+                "batch": "025_F12",
+                "X1": 1,
+                "X2": 1
+            },
+            {
+                "batch": "C1",
+                "X1": -0.5,
+                "X2": -0.5
+            },
+            {
+                "batch": "C2",
+                "X1": 0.5,
+                "X2": 0.5
+            }
+        ]
+    },
+    "ftir_information": "FTIR was mentioned as a compatibility study for the optimized formulation (F-11) in the methodology, but the spectra/results are not shown in the provided text. The authors state 'compatibility studies such as FTIR and DSC analysis' were performed for F-11, but only DSC and XRD data are presented.",
+    "tablet_fabrications": [
+        {
+            "batch": "025_F1-025_F3",
+            "hardness_kg_cm2": {
+                "025_F1": "5.03±0.208",
+                "025_F2": "5.54±0.152",
+                "025_F3": "5.33±0.115"
+            },
+            "friability_percent": {
+                "025_F1": "0.093±0.022",
+                "025_F2": "0.107±0.263",
+                "025_F3": "0.112±0.112"
+            },
+            "weight_variation_percent": {
+                "025_F1": "4.76±0.075",
+                "025_F2": "3.25±0.081",
+                "025_F3": "4.52±0.045"
+            },
+            "thickness_mm": "Not reported",
+            "diameter_mm": "Not reported (punch size 8mm round for all)",
+            "drug_content_percent": {
+                "025_F1": "99.08±0.04",
+                "025_F2": "100.5±0.20",
+                "025_F3": "99.86±0.15"
+            }
+        },
+        {
+            "batch": "025_F4",
+            "hardness_kg_cm2": "5.16±0.152",
+            "friability_percent": "0.204±0.074",
+            "weight_variation_percent": "5.21±0.052",
+            "thickness_mm": "Not reported",
+            "diameter_mm": "8 mm",
+            "drug_content_percent": "100.03±0.23"
+        },
+        {
+            "batch": "025_F5",
+            "hardness_kg_cm2": "5.54±0.152",
+            "friability_percent": "0.107±0.263",
+            "weight_variation_percent": "4.85±0.081",
+            "thickness_mm": "Not reported",
+            "diameter_mm": "8 mm",
+            "drug_content_percent": "99.62±0.20"
+        },
+        {
+            "batch": "025_F6",
+            "hardness_kg_cm2": "5.38±0.102",
+            "friability_percent": "0.176±0.075",
+            "weight_variation_percent": "5.87±0.085",
+            "thickness_mm": "Not reported",
+            "diameter_mm": "8 mm",
+            "drug_content_percent": "100.60±0.33"
+        },
+        {
+            "batch": "025_F7",
+            "hardness_kg_cm2": "4.66±0.126",
+            "friability_percent": "0.099±0.025",
+            "weight_variation_percent": "2.48±0.022",
+            "thickness_mm": "Not reported",
+            "diameter_mm": "8 mm",
+            "drug_content_percent": "99.63±1.78"
+        },
+        {
+            "batch": "025_F8",
+            "hardness_kg_cm2": "4.54±0.321",
+            "friability_percent": "0.117±0.492",
+            "weight_variation_percent": "3.67±0.038",
+            "thickness_mm": "Not reported",
+            "diameter_mm": "8 mm",
+            "drug_content_percent": "100.49±0.34"
+        },
+        {
+            "batch": "025_F9",
+            "hardness_kg_cm2": "4.23±0.235",
+            "friability_percent": "0.111±0.039",
+            "weight_variation_percent": "1.52±0.036",
+            "thickness_mm": "Not reported",
+            "diameter_mm": "8 mm",
+            "drug_content_percent": "100.12±0.98"
+        },
+        {
+            "batch": "025_F10",
+            "hardness_kg_cm2": "4.79±0.097",
+            "friability_percent": "0.196±0.012",
+            "weight_variation_percent": "3.56±0.56",
+            "thickness_mm": "Not reported",
+            "diameter_mm": "8 mm",
+            "drug_content_percent": "99.44±1.19"
+        },
+        {
+            "batch": "025_F11",
+            "hardness_kg_cm2": "4.83±0.112",
+            "friability_percent": "0.145±0.112",
+            "weight_variation_percent": "1.06±0.59",
+            "thickness_mm": "Not reported",
+            "diameter_mm": "8 mm (round); also prepared in oval shape 9.4x5.6mm",
+            "drug_content_percent": "99.193±0.19"
+        },
+        {
+            "batch": "025_F12",
+            "hardness_kg_cm2": "4.56±0.145",
+            "friability_percent": "0.245±0.109",
+            "weight_variation_percent": "2.34±0.13",
+            "thickness_mm": "Not reported",
+            "diameter_mm": "8 mm",
+            "drug_content_percent": "100.36±1.02"
+        }
+    ],
+    "process_parameters": {
+        "compression_method": "Direct compression",
+        "equipment": "Tablet compression machine (CIP Punching Machineries Pvt. Ltd, Mumbai, India) for initial batches; Rimek MINI PRESS-II SF (Karnavati) for shape/force study",
+        "punch_size": "8 mm round (standard); 9.4 x 5.6 mm oval (for effect study)",
+        "compression_force_study": "2000, 3000, 4000, 5000 kg (2, 3, 4, 5 kg/cm²) for oval tablets",
+        "coating": "None (matrix tablets)",
+        "process_conditions": "Ambient temperature, no special atmospheric control mentioned."
+    },
+    "release_properties": [
+        {
+            "batch": "025_F4",
+            "release_mechanism": "Zero order (primary), Korsmeyer-Peppas",
+            "release_profile": "58.51% in 12h",
+            "best_fit_model": "Zero order",
+            "release_exponent_n": "0.8183",
+            "r_squared_zero_order": "0.9745",
+            "factors_influencing": "pH (1.2 for 2h, then 7.4), polymer concentration (50%), NaCl concentration (5%)"
+        },
+        {
+            "batch": "025_F5",
+            "release_mechanism": "Zero order",
+            "release_profile": "48.81% in 12h (data from Table VII seems inconsistent with text; text says 66.13%? using table value)",
+            "best_fit_model": "Zero order",
+            "release_exponent_n": "0.7693",
+            "r_squared_zero_order": "0.9722",
+            "factors_influencing": "pH, polymer (50%), NaCl (7.5%)"
+        },
+        {
+            "batch": "025_F6",
+            "release_mechanism": "Zero order",
+            "release_profile": "66.09% in 12h",
+            "best_fit_model": "Zero order",
+            "release_exponent_n": "0.7071",
+            "r_squared_zero_order": "0.9707",
+            "factors_influencing": "pH, polymer (50%), NaCl (10%)"
+        },
+        {
+            "batch": "025_F7",
+            "release_mechanism": "Zero order",
+            "release_profile": "70.18% in 12h",
+            "best_fit_model": "Zero order",
+            "release_exponent_n": "0.8992",
+            "r_squared_zero_order": "0.9892",
+            "factors_influencing": "pH, polymer (40%), NaCl (5%)"
+        },
+        {
+            "batch": "025_F8",
+            "release_mechanism": "Zero order",
+            "release_profile": "74.59% in 12h",
+            "best_fit_model": "Zero order",
+            "release_exponent_n": "0.8584",
+            "r_squared_zero_order": "0.9899",
+            "factors_influencing": "pH, polymer (40%), NaCl (7.5%)"
+        },
+        {
+            "batch": "025_F9",
+            "release_mechanism": "Zero order",
+            "release_profile": "91.3% in 10h (tablet eroded)",
+            "best_fit_model": "Zero order",
+            "release_exponent_n": "0.7801",
+            "r_squared_zero_order": "0.9902",
+            "factors_influencing": "pH, polymer (40%), NaCl (10%) - high NaCl caused erosion"
+        },
+        {
+            "batch": "025_F10",
+            "release_mechanism": "Zero order",
+            "release_profile": "75.2% in 12h",
+            "best_fit_model": "Zero order",
+            "release_exponent_n": "0.8900",
+            "r_squared_zero_order": "0.9841",
+            "factors_influencing": "pH, polymer (30%), NaCl (5%)"
+        },
+        {
+            "batch": "025_F11",
+            "release_mechanism": "Zero order (primary), Korsmeyer-Peppas",
+            "release_profile": "83.56% in 12h (text says 95.9% at 12h; using table value)",
+            "best_fit_model": "Zero order",
+            "release_exponent_n": "0.8283",
+            "r_squared_zero_order": "0.9936",
+            "factors_influencing": "pH, polymer (30%), NaCl (7.5%)"
+        },
+        {
+            "batch": "025_F12",
+            "release_mechanism": "Korsmeyer-Peppas",
+            "release_profile": "99.8% in 8h (erosion after 1h)",
+            "best_fit_model": "Korsmeyer-Peppas",
+            "release_exponent_n": "1.1393",
+            "r_squared_korsmeyer": "0.9923",
+            "factors_influencing": "pH, polymer (30%), NaCl (10%) - high NaCl caused rapid erosion"
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "025_F1",
+            "hardness_kg_cm2": "5.03±0.208",
+            "friability_percent": "0.093±0.022",
+            "disintegration_time": "Not reported for 025_F1-025_F3",
+            "dissolution_profile": "~45% at 2h, ~70% at 12h (approx from Figure 3)",
+            "stability": "Not applicable",
+            "weight_variation_percent": "4.76±0.075",
+            "swelling_index": "~900 at 2h, ~1050 at 12h (approx from Figure 1)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 22
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 38
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 65
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 75
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 82
+                }
+            ]
+        },
+        {
+            "batch": "025_F2",
+            "hardness_kg_cm2": "5.54±0.152",
+            "friability_percent": "0.107±0.263",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "~38% at 2h, ~58% at 12h (approx from Figure 3)",
+            "stability": "Not applicable",
+            "weight_variation_percent": "3.25±0.081",
+            "swelling_index": "~950 at 2h, ~1050 at 12h (approx from Figure 1)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 15
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 28
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 40
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 60
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 68
+                }
+            ]
+        },
+        {
+            "batch": "025_F3",
+            "hardness_kg_cm2": "5.33±0.115",
+            "friability_percent": "0.112±0.112",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "~35% at 2h, ~48% at 12h (approx from Figure 3)",
+            "stability": "Not applicable",
+            "weight_variation_percent": "4.52±0.045",
+            "swelling_index": "~900 at 2h, ~1050 at 12h (approx from Figure 1)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 22
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 32
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 42
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 60
+                }
+            ]
+        },
+        {
+            "batch": "025_F4",
+            "hardness_kg_cm2": "5.16±0.152",
+            "friability_percent": "0.204±0.074",
+            "disintegration_time": "Not reported for 025_F4-025_F12",
+            "dissolution_profile": "51.57% at 12h",
+            "stability": "Not applicable",
+            "weight_variation_percent": "5.21±0.052",
+            "swelling_index": "1160 at 12h (from Table VII)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 10
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 20
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 39
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 46
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 51.57
+                }
+            ]
+        },
+        {
+            "batch": "025_F5",
+            "hardness_kg_cm2": "5.54±0.152",
+            "friability_percent": "0.107±0.263",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "48.81% at 12h",
+            "stability": "Not applicable",
+            "weight_variation_percent": "4.85±0.081",
+            "swelling_index": "1053 at 12h (from Table VII)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 9
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 18
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 27
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 35
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 42
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 48.81
+                }
+            ]
+        },
+        {
+            "batch": "025_F6",
+            "hardness_kg_cm2": "5.38±0.102",
+            "friability_percent": "0.176±0.075",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "66.09% at 12h",
+            "stability": "Not applicable",
+            "weight_variation_percent": "5.87±0.085",
+            "swelling_index": "866.6 at 12h (from Table VII)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 13
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 26
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 38
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 59
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 66.09
+                }
+            ]
+        },
+        {
+            "batch": "025_F7",
+            "hardness_kg_cm2": "4.66±0.126",
+            "friability_percent": "0.099±0.025",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "70.18% at 12h",
+            "stability": "Not applicable",
+            "weight_variation_percent": "2.48±0.022",
+            "swelling_index": "920 at 12h (from Table VII)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 14
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 28
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 41
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 53
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 63
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 70.18
+                }
+            ]
+        },
+        {
+            "batch": "025_F8",
+            "hardness_kg_cm2": "4.54±0.321",
+            "friability_percent": "0.117±0.492",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "74.59% at 12h",
+            "stability": "Not applicable",
+            "weight_variation_percent": "3.67±0.038",
+            "swelling_index": "889.3 at 12h (from Table VII)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 15
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 44
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 57
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 67
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 74.59
+                }
+            ]
+        },
+        {
+            "batch": "025_F9",
+            "hardness_kg_cm2": "4.23±0.235",
+            "friability_percent": "0.111±0.039",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "91.3% at 10h",
+            "stability": "Not applicable",
+            "weight_variation_percent": "1.52±0.036",
+            "swelling_index": "540 at 12h? (Table VII says 540 for 025_F9 at variable? likely 540 at some time, full index not given)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 20
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 40
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 60
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 91.3
+                }
+            ]
+        },
+        {
+            "batch": "025_F10",
+            "hardness_kg_cm2": "4.79±0.097",
+            "friability_percent": "0.196±0.012",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "75.2% at 12h",
+            "stability": "Not applicable",
+            "weight_variation_percent": "3.56±0.56",
+            "swelling_index": "872.2 at 12h (from Table VII)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 15
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 44
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 58
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 68
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 75.2
+                }
+            ]
+        },
+        {
+            "batch": "025_F11",
+            "hardness_kg_cm2": "4.83±0.112",
+            "friability_percent": "0.145±0.112",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "83.56% at 12h",
+            "stability": "Stable for 3 months at 40°C/75% RH",
+            "weight_variation_percent": "1.06±0.59",
+            "swelling_index": "826.6 at 12h (from Table VII)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 17
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 34
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 65
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 76
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 83.56
+                }
+            ]
+        },
+        {
+            "batch": "025_F12",
+            "hardness_kg_cm2": "4.56±0.145",
+            "friability_percent": "0.245±0.109",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "99.8% at 8h",
+            "stability": "Not applicable",
+            "weight_variation_percent": "2.34±0.13",
+            "swelling_index": "426.6 at 12h (from Table VII)",
+            "release_profile_approximated": [
+                {
+                    "time_h": 2,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 60
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 85
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 99.8
+                }
+            ]
+        },
+        {
+            "batch": "MKT",
+            "hardness_kg_cm2": "Not reported",
+            "friability_percent": "Not reported",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "100% within 45 min",
+            "stability": "Not applicable",
+            "weight_variation_percent": "Not reported",
+            "swelling_index": "Not applicable",
+            "release_profile_approximated": [
+                {
+                    "time_min": 5,
+                    "release_percent": 30
+                },
+                {
+                    "time_min": 10,
+                    "release_percent": 55
+                },
+                {
+                    "time_min": 15,
+                    "release_percent": 75
+                },
+                {
+                    "time_min": 20,
+                    "release_percent": 88
+                },
+                {
+                    "time_min": 30,
+                    "release_percent": 98
+                },
+                {
+                    "time_min": 45,
+                    "release_percent": 100
+                }
+            ]
+        }
+    ],
+    "experimental_data": {
+        "in_vitro_studies": "Dissolution and swelling performed in pH 1.2 for 2h then pH 7.4 for 10h at 37°C, 50 rpm (USP I basket).",
+        "in_vivo_studies": "Not performed.",
+        "statistical_analysis": "3^2 full factorial design, polynomial equations, response surface plots, checkpoint batches (C1, C2) for validation.",
+        "performance_metrics": {
+            "best_formulation": "025_F11",
+            "optimal_criteria": "Good swelling index (826.6), sustained release up to 12h (83.56%), zero-order kinetics (R²=0.9936), stable.",
+            "comparison_with_market": "025_F11 released drug over 12h; marketed conventional tablet released within 45 min."
+        },
+        "zero_order_release_r2": {
+            "025_F4": 0.9745,
+            "025_F5": 0.9722,
+            "025_F6": 0.9707,
+            "025_F7": 0.9892,
+            "025_F8": 0.9899,
+            "025_F9": 0.9902,
+            "025_F10": 0.9841,
+            "025_F11": 0.9936,
+            "025_F12": 0.99
+        },
+        "first_order_release_r2": {
+            "025_F4": 0.9389,
+            "025_F5": 0.9284,
+            "025_F6": 0.9187,
+            "025_F7": 0.943,
+            "025_F8": 0.843,
+            "025_F9": 0.7977,
+            "025_F10": 0.9196,
+            "025_F11": 0.8566,
+            "025_F12": 0.8418
+        },
+        "tablet_swelling_data": {
+            "025_F4": 1160,
+            "025_F5": 1053,
+            "025_F6": 866.6,
+            "025_F7": 920,
+            "025_F8": 889.3,
+            "025_F9": 540,
+            "025_F10": 872.2,
+            "025_F11": 826.6,
+            "025_F12": 426.6
+        }
+    }
+}

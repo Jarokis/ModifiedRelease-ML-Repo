@@ -1,0 +1,1070 @@
+{
+    "materials_origin": {
+        "ambroxol_hydrochloride": "Wuhan Yuancheng Technology development Co., Ltd. (Hubei, China)",
+        "hypromellose": "Shanghai Colorcon Co., Ltd. (Shanghai, China) (METHOCEL™ K100LV/K4M Premium DC2 and K15M Premium CR)",
+        "ethylcellulose_dispersion": "Shanghai Colorcon Co., Ltd. (Shanghai, China) (Surelease®, E-7-19020)",
+        "hpmc_coating": "Shanghai Colorcon Co., Ltd. (Shanghai, China) (Opadry®, OY-29020)",
+        "mannitol": "Shanghai InnoPolymer Pharmaceutical Tech.Co., Ltd. (Shanghai, China) (PEARLITOL® 200 SD)",
+        "microcrystalline_cellulose": "Shanghai Fenghong Pharmaceutical Excipients Tech. Co., Ltd. (Shanghai, China) (Avicel® 054_PH102)",
+        "colloidal_silicon_dioxide": "Shanghai Fenghong Pharmaceutical Excipients Tech. Co., Ltd. (Shanghai, China) (Aerosil® 200 Pharma)",
+        "magnesium_stearate": "Shanghai Chineway Pharmaceutical Tech. Co., Ltd. (Shanghai, China) (Hyqual®)"
+    },
+    "experimental_design_for_optimization": {
+        "ingredients_identification": "The study used Ambroxol Hydrochloride (AH) as the active pharmaceutical ingredient (API). Hypromellose (HPMC) of various viscosities (K100LV, K4M, K15M) was used as the primary matrix material. Surelease® (aqueous ethylcellulose dispersion) was used as the insoluble film coating polymer, and Opadry® (HPMC-based) was used as a pore-former in the coating. Other excipients included MCC, mannitol, colloidal silicon dioxide, and magnesium stearate.",
+        "preparation_method": "Core tablets were prepared by direct compression of a dry mixture of API, HPMC, fillers, and glidant, followed by lubrication and compression. Coated tablets were prepared by spraying an aqueous dispersion of Surelease® and Opadry® onto the core tablets in a coating pan.",
+        "results": "The study successfully produced robust matrix tablets with uniform film coatings. Drug release rates could be tailored by adjusting HPMC viscosity/amount, pore-former ratio in the coating, and coating weight gain. Coated tablets exhibited an initial lag time followed by near zero-order release kinetics. In vivo studies in beagle dogs showed a prolonged lag time with decreased coating membrane permeability, correlating with in vitro release.",
+        "equation": "Zero-order: Mt/M∞ = kt; Power Law: Mt/M∞ = ktⁿ",
+        "absorbance": "In vitro drug content was determined by UV/Vis spectrophotometry at a wavelength of 244 nm (USP Apparatus II) or 307 nm (USP Apparatus III)."
+    },
+    "formulation_details": [
+        {
+            "batch_code": "054_F1 (K100LV)",
+            "type": "Uncoated Core Tablet",
+            "api": {
+                "name": "Ambroxol Hydrochloride",
+                "mass_mg": 75.0,
+                "percent_w_w": 25.0
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K100LV",
+                    "mass_mg": 90.0,
+                    "percent_w_w": 30.0
+                },
+                {
+                    "name": "MCC (Avicel® 054_PH102)",
+                    "mass_mg": 30.0,
+                    "percent_w_w": 10.0
+                },
+                {
+                    "name": "Mannitol (PEARLITOL® 200 SD)",
+                    "mass_mg": 102.0,
+                    "percent_w_w": 34.0
+                },
+                {
+                    "name": "Colloidal silicon dioxide",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                }
+            ],
+            "total_weight_mg": 300.0,
+            "notes": "Composition derived from Table I, assuming 30% HPMC and filler quantity adjusted to reach 100%. Mannitol calculated as 39.0 - (HPMC% - 25.0%)."
+        },
+        {
+            "batch_code": "054_F2 (K4M)",
+            "type": "Uncoated Core Tablet",
+            "api": {
+                "name": "Ambroxol Hydrochloride",
+                "mass_mg": 75.0,
+                "percent_w_w": 25.0
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 90.0,
+                    "percent_w_w": 30.0
+                },
+                {
+                    "name": "MCC (Avicel® 054_PH102)",
+                    "mass_mg": 30.0,
+                    "percent_w_w": 10.0
+                },
+                {
+                    "name": "Mannitol (PEARLITOL® 200 SD)",
+                    "mass_mg": 102.0,
+                    "percent_w_w": 34.0
+                },
+                {
+                    "name": "Colloidal silicon dioxide",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                }
+            ],
+            "total_weight_mg": 300.0
+        },
+        {
+            "batch_code": "054_F3 (K15M)",
+            "type": "Uncoated Core Tablet",
+            "api": {
+                "name": "Ambroxol Hydrochloride",
+                "mass_mg": 75.0,
+                "percent_w_w": 25.0
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K15M",
+                    "mass_mg": 90.0,
+                    "percent_w_w": 30.0
+                },
+                {
+                    "name": "MCC (Avicel® 054_PH102)",
+                    "mass_mg": 30.0,
+                    "percent_w_w": 10.0
+                },
+                {
+                    "name": "Mannitol (PEARLITOL® 200 SD)",
+                    "mass_mg": 102.0,
+                    "percent_w_w": 34.0
+                },
+                {
+                    "name": "Colloidal silicon dioxide",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                }
+            ],
+            "total_weight_mg": 300.0
+        },
+        {
+            "batch_code": "054_F4 (25% K4M)",
+            "type": "Uncoated Core Tablet",
+            "api": {
+                "name": "Ambroxol Hydrochloride",
+                "mass_mg": 75.0,
+                "percent_w_w": 25.0
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 75.0,
+                    "percent_w_w": 25.0
+                },
+                {
+                    "name": "MCC (Avicel® 054_PH102)",
+                    "mass_mg": 30.0,
+                    "percent_w_w": 10.0
+                },
+                {
+                    "name": "Mannitol (PEARLITOL® 200 SD)",
+                    "mass_mg": 117.0,
+                    "percent_w_w": 39.0
+                },
+                {
+                    "name": "Colloidal silicon dioxide",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                }
+            ],
+            "total_weight_mg": 300.0,
+            "notes": "Mannitol at 39.0% w/w as per Table I for formulations with lower HPMC content."
+        },
+        {
+            "batch_code": "054_F5 (30% K4M)",
+            "type": "Uncoated Core Tablet",
+            "api": {
+                "name": "Ambroxol Hydrochloride",
+                "mass_mg": 75.0,
+                "percent_w_w": 25.0
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 90.0,
+                    "percent_w_w": 30.0
+                },
+                {
+                    "name": "MCC (Avicel® 054_PH102)",
+                    "mass_mg": 30.0,
+                    "percent_w_w": 10.0
+                },
+                {
+                    "name": "Mannitol (PEARLITOL® 200 SD)",
+                    "mass_mg": 102.0,
+                    "percent_w_w": 34.0
+                },
+                {
+                    "name": "Colloidal silicon dioxide",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                }
+            ],
+            "total_weight_mg": 300.0
+        },
+        {
+            "batch_code": "054_F6 (40% K4M)",
+            "type": "Uncoated Core Tablet",
+            "api": {
+                "name": "Ambroxol Hydrochloride",
+                "mass_mg": 75.0,
+                "percent_w_w": 25.0
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 120.0,
+                    "percent_w_w": 40.0
+                },
+                {
+                    "name": "MCC (Avicel® 054_PH102)",
+                    "mass_mg": 30.0,
+                    "percent_w_w": 10.0
+                },
+                {
+                    "name": "Mannitol (PEARLITOL® 200 SD)",
+                    "mass_mg": 72.0,
+                    "percent_w_w": 24.0
+                },
+                {
+                    "name": "Colloidal silicon dioxide",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                }
+            ],
+            "total_weight_mg": 300.0,
+            "notes": "Mannitol calculated as 39.0 - (40% - 25%) = 24.0% w/w."
+        },
+        {
+            "batch_code": "054_F7 (50% K4M)",
+            "type": "Uncoated Core Tablet",
+            "api": {
+                "name": "Ambroxol Hydrochloride",
+                "mass_mg": 75.0,
+                "percent_w_w": 25.0
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 150.0,
+                    "percent_w_w": 50.0
+                },
+                {
+                    "name": "MCC (Avicel® 054_PH102)",
+                    "mass_mg": 30.0,
+                    "percent_w_w": 10.0
+                },
+                {
+                    "name": "Mannitol (PEARLITOL® 200 SD)",
+                    "mass_mg": 42.0,
+                    "percent_w_w": 14.0
+                },
+                {
+                    "name": "Colloidal silicon dioxide",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 1.5,
+                    "percent_w_w": 0.5
+                }
+            ],
+            "total_weight_mg": 300.0,
+            "notes": "Mannitol at 14.0% w/w as per Table I for formulations with higher HPMC content."
+        },
+        {
+            "batch_code": "054_F8 (80:20 Coated)",
+            "type": "Coated Tablet",
+            "core_batch": "054_F2 (K4M) or 054_F1 (K100LV) based",
+            "coating_composition": {
+                "Surelease": 80.0,
+                "Opadry": 20.0
+            },
+            "coating_weight_gain_percent": 3.5,
+            "notes": "Coated tablets based on both K4M and K100LV cores were prepared with this ratio. This entry represents the general formulation."
+        },
+        {
+            "batch_code": "054_F9 (70:30 Coated)",
+            "type": "Coated Tablet",
+            "coating_composition": {
+                "Surelease": 70.0,
+                "Opadry": 30.0
+            },
+            "notes": "Mentioned in the text as a ratio used, but not graphically presented. Specific core type not specified for this ratio."
+        },
+        {
+            "batch_code": "054_F10 (60:40 Coated)",
+            "type": "Coated Tablet",
+            "core_batch": "054_F2 (K4M) or 054_F1 (K100LV) based",
+            "coating_composition": {
+                "Surelease": 60.0,
+                "Opadry": 40.0
+            },
+            "coating_weight_gain_percent": 3.5,
+            "notes": "Coated tablets based on both K4M and K100LV cores were prepared with this ratio. This entry represents the general formulation."
+        },
+        {
+            "batch_code": "054_F11 (3.5% WG)",
+            "type": "Coated Tablet",
+            "core_batch": "054_F2 (K4M) based",
+            "coating_composition": {
+                "Surelease": 60.0,
+                "Opadry": 40.0
+            },
+            "coating_weight_gain_percent": 3.5
+        },
+        {
+            "batch_code": "054_F12 (5.5% WG)",
+            "type": "Coated Tablet",
+            "core_batch": "054_F2 (K4M) based",
+            "coating_composition": {
+                "Surelease": 60.0,
+                "Opadry": 40.0
+            },
+            "coating_weight_gain_percent": 5.5
+        },
+        {
+            "batch_code": "054_F13 (7.5% WG)",
+            "type": "Coated Tablet",
+            "core_batch": "054_F2 (K4M) based",
+            "coating_composition": {
+                "Surelease": 60.0,
+                "Opadry": 40.0
+            },
+            "coating_weight_gain_percent": 7.5
+        }
+    ],
+    "pre_compression_parameters": "Information not explicitly provided in the article. The text mentions mixing in a three-dimensional blender and lubrication, but no data on powder properties like bulk density, tapped density, Carr's index, or Hausner ratio were reported.",
+    "composition_of_independent_variables": [
+        {
+            "variable": "HPMC Viscosity Grade",
+            "levels": [
+                "K100LV",
+                "K4M",
+                "K15M"
+            ]
+        },
+        {
+            "variable": "HPMC Amount in Core",
+            "levels": [
+                "25%",
+                "30%",
+                "40%",
+                "50% w/w"
+            ]
+        },
+        {
+            "variable": "Surelease:Opadry Ratio in Coating",
+            "levels": [
+                "80:20",
+                "70:30",
+                "60:40 w/w"
+            ]
+        },
+        {
+            "variable": "Coating Weight Gain",
+            "levels": [
+                "3.5%",
+                "5.5%",
+                "7.5% w/w"
+            ]
+        }
+    ],
+    "ftir_spectral_measurements": "Information not provided in the article.",
+    "tablet_fabrications": {
+        "general_method": "Core tablets were fabricated by direct compression using a single punch press (Beijing Gylongli Sci. & Tech. Co., Ltd., Beijing, China). Powders were mixed in a three-dimensional blender (WAB Machinery Co., Ltd., Shenzhen, China). Tablet dimensions were 8.8 mm standard biconvex round.",
+        "hardness": "Measured using a hardness tester (YD-35, Tianda Tianfa Technology Co., Ltd., Tianjin, China) (n=6).",
+        "friability": "Determined using a friabilator (FAB-2, Tianda Tianfa Technology Co., Ltd., Tianjin, China) with 22 tablets at 25 rpm for 4 min (n=3).",
+        "weight_variation": "Tablets were accurately weighed by an electronic balance (BSA223S-CW, Sartorius, Germany). Content uniformity was up to standard.",
+        "thickness_and_diameter": "Not explicitly measured, but tablet size is stated as 8.8 mm diameter.",
+        "density_of_formulation": "Information not provided.",
+        "drug_content": "Determined by UV/Vis spectrophotometry. Content uniformity was reported to be up to standard.",
+        "consolidation_index": "Information not provided."
+    },
+    "process_parameters": {
+        "compression_process": {
+            "device": "Single punch press (Beijing Gylongli Sci. & Tech. Co., Ltd., Beijing, China)",
+            "pressure": "Not specified, but adjusted to achieve a target hardness range of 80-100 N.",
+            "tablet_size": "8.8 mm standard biconvex round"
+        },
+        "coating_process": {
+            "device": "Fully perforated coating pan (LABCOAT I, O'Hara Technologies, Canada)",
+            "nozzle_size": "0.8 mm",
+            "inlet_temperature": "56-58 °C",
+            "exhaust_temperature": "40-43 °C",
+            "bed_temperature": "39-42 °C",
+            "air_flow_velocity": "80 m³/h",
+            "atomization_pressure": "1.2 bar",
+            "spray_rate": "1.4-1.6 g/min",
+            "pan_speed": "9 rpm",
+            "curing_conditions": "60°C for 6 hours in an oven",
+            "coating_solution_solids_content": "10% (w/w)"
+        }
+    },
+    "release_properties": [
+        {
+            "batch_code": "054_F1 (K100LV)",
+            "release_mechanism": "Non-Fickian (anomalous) transport",
+            "release_kinetics": "Power Law",
+            "k_value": 35.4,
+            "n_value": 0.54,
+            "r_squared": 0.9995
+        },
+        {
+            "batch_code": "054_F2 (K4M)",
+            "release_mechanism": "Non-Fickian (anomalous) transport",
+            "release_kinetics": "Power Law",
+            "k_value": 21.54,
+            "n_value": 0.61,
+            "r_squared": 0.9985
+        },
+        {
+            "batch_code": "054_F3 (K15M)",
+            "release_mechanism": "Non-Fickian (anomalous) transport",
+            "release_kinetics": "Power Law",
+            "k_value": 20.65,
+            "n_value": 0.57,
+            "r_squared": 0.991
+        },
+        {
+            "batch_code": "054_F8 (80:20 Coated, K4M core)",
+            "release_mechanism": "Zero-order",
+            "release_kinetics": "Zero-order",
+            "k_value": 6.284,
+            "r_squared": 0.9912,
+            "factors_influencing_release": "No pH dependence observed in USP Apparatus III studies."
+        },
+        {
+            "batch_code": "054_F10 (60:40 Coated, K4M core)",
+            "release_mechanism": "Near Zero-order",
+            "release_kinetics": "Zero-order (R² very close to 0.99)",
+            "k_value": 7.7028,
+            "r_squared": 0.9895,
+            "factors_influencing_release": "Higher pore-former ratio increased release rate compared to F8."
+        },
+        {
+            "batch_code": "054_F8 (80:20 Coated, K100LV core)",
+            "release_mechanism": "Zero-order",
+            "release_kinetics": "Zero-order",
+            "k_value": 9.424,
+            "r_squared": 0.9979
+        },
+        {
+            "batch_code": "054_F10 (60:40 Coated, K100LV core)",
+            "release_mechanism": "Zero-order",
+            "release_kinetics": "Zero-order",
+            "k_value": 11.044,
+            "r_squared": 0.9971
+        },
+        {
+            "batch_code": "054_F13 (7.5% WG, K4M core, 60:40)",
+            "release_mechanism": "Zero-order",
+            "release_kinetics": "Zero-order",
+            "k_value": 7.3927,
+            "r_squared": 0.9912,
+            "notes": "Increased coating weight gain slowed the release rate compared to F11."
+        }
+    ],
+    "tablet_properties": {
+        "general_properties": "All core and coated tablets were white in color. Weight variation and content uniformity were up to standard. Friability for all formulations was less than 1%.",
+        "hardness": "For HPMC K4M-based core tablets, the hardness was set in the range of 80-100 N to ensure robustness for subsequent coating. Individual batch data for other formulations not specified.",
+        "friability": "Less than 1% for all formulations.",
+        "disintegration_time": "Information not provided, as these are extended-release tablets not intended to disintegrate.",
+        "dissolution_profile": "See 'release_properties' for kinetics and 'experimental_data' for parameters.",
+        "stability": "Selected coated tablets (K4M-based, 80:20, 3.5% WG) showed no obvious change in appearance, drug content, or release rate after 10 days at 60°C, 75%±5% RH, and 4500lx±500lx.",
+        "thickness": "Not explicitly measured.",
+        "weight_variation": "Up to standard, but specific data not provided.",
+        "lag_time": "Coated tablets with 80:20 Surelease:Opadry ratio and 3.5% WG exhibited an initial lag time of about 0.5-1 hour in vitro. In vivo, lag time increased as coating permeability decreased."
+    },
+    "experimental_data": {
+        "in_vitro_release_data": {
+            "F1_K100LV_core": "Fastest release rate among viscosity grades.",
+            "F2_K4M_core": "Moderate release rate. Release faster in early stage (0-8h) than late stage (8-20h).",
+            "F3_K15M_core": "Slowest and most robust release.",
+            "F4_25%K4M": "Fastest release among different HPMC amounts.",
+            "F5_30%K4M": "Faster release than 054_F6 and F7.",
+            "F6_40%K4M": "Slower release than F5.",
+            "F7_50%K4M": "Slowest release among K4M amounts.",
+            "F8_80:20_coated": "Initial lag time (0.5-1h) followed by linear release.",
+            "F10_60:40_coated": "Lag time eliminated, but release rate decreased in final period compared to F8.",
+            "F11_3.5%WG": "Less obvious lag time.",
+            "F12_5.5%WG": "Longer lag time and slower release than F11.",
+            "F13_7.5%WG": "Longest lag time and slowest release among weight gains."
+        },
+        "dissolution_profiles_approximated": {
+            "fig_4a": {
+                "K100LV": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 52
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 75
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 94
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 100
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 100
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 100
+                    }
+                ],
+                "K4M": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 33
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 50
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 65
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 78
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 90
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 100
+                    }
+                ],
+                "K15M": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 31
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 45
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 58
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 69
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 79
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 89
+                    },
+                    {
+                        "time_h": 16,
+                        "release_percent": 100
+                    }
+                ]
+            },
+            "fig_4b": {
+                "K4M_25%": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 38
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 60
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 80
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 95
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 100
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 100
+                    }
+                ],
+                "K4M_30%": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 33
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 50
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 65
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 78
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 90
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 100
+                    }
+                ],
+                "K4M_40%": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 25
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 40
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 55
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 68
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 78
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 85
+                    },
+                    {
+                        "time_h": 16,
+                        "release_percent": 95
+                    },
+                    {
+                        "time_h": 20,
+                        "release_percent": 100
+                    }
+                ],
+                "K4M_50%": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 18
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 30
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 42
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 52
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 62
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 70
+                    },
+                    {
+                        "time_h": 16,
+                        "release_percent": 85
+                    },
+                    {
+                        "time_h": 20,
+                        "release_percent": 95
+                    },
+                    {
+                        "time_h": 24,
+                        "release_percent": 100
+                    }
+                ]
+            },
+            "fig_4c": {
+                "hardness_80_100N": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 33
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 50
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 65
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 78
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 90
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 100
+                    }
+                ]
+            },
+            "fig_5a": {
+                "K4M_coated_80_20": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 6.3
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 18.9
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 31.4
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 44.0
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 56.6
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 69.1
+                    },
+                    {
+                        "time_h": 16,
+                        "release_percent": 94.3
+                    },
+                    {
+                        "time_h": 20,
+                        "release_percent": 100
+                    }
+                ],
+                "K4M_coated_60_40": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 13.9
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 29.3
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 44.7
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 60.1
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 75.5
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 90.9
+                    },
+                    {
+                        "time_h": 14,
+                        "release_percent": 100
+                    }
+                ]
+            },
+            "fig_5b": {
+                "K100LV_coated_80_20": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 9.4
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 28.3
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 47.1
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 66.0
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 84.8
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 100
+                    }
+                ],
+                "K100LV_coated_60_40": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 19.9
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 42.0
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 64.1
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 86.1
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 100
+                    }
+                ]
+            },
+            "fig_5c": {
+                "K4M_coated_60_40_WG3.5": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 13.9
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 29.3
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 44.7
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 60.1
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 75.5
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 90.9
+                    },
+                    {
+                        "time_h": 14,
+                        "release_percent": 100
+                    }
+                ],
+                "K4M_coated_60_40_WG5.5": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 9.3
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 21.7
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 34.1
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 46.5
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 58.9
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 71.3
+                    },
+                    {
+                        "time_h": 16,
+                        "release_percent": 96.1
+                    },
+                    {
+                        "time_h": 18,
+                        "release_percent": 100
+                    }
+                ],
+                "K4M_coated_60_40_WG7.5": [
+                    {
+                        "time_h": 0,
+                        "release_percent": 0
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 5.0
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 15.0
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 25.0
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 35.0
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 45.0
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 55.0
+                    },
+                    {
+                        "time_h": 16,
+                        "release_percent": 75.0
+                    },
+                    {
+                        "time_h": 20,
+                        "release_percent": 95.0
+                    },
+                    {
+                        "time_h": 22,
+                        "release_percent": 100
+                    }
+                ]
+            }
+        },
+        "in_vivo_pharmacokinetic_parameters": [
+            {
+                "formulation": "K4M-based core tablets",
+                "tmax_h": "2.67 ± 0.58",
+                "cmax_μg_L": "403.73 ± 167.18",
+                "t1_2_h": "2.64 ± 0.33",
+                "auc0_t_μg_L_h": "1146.36 ± 198.82",
+                "mrt_h": "4.12 ± 0.84"
+            },
+            {
+                "formulation": "K4M-based coated tablets (80:20, 3.5% WG)",
+                "tmax_h": "8.00 ± 1.06",
+                "cmax_μg_L": "153.32 ± 194.27",
+                "t1_2_h": "2.42 ± 1.00",
+                "auc0_t_μg_L_h": "655.17 ± 651.14",
+                "mrt_h": "7.14 ± 2.05"
+            },
+            {
+                "formulation": "K100LV-based core tablets",
+                "tmax_h": "1.67 ± 0.58",
+                "cmax_μg_L": "385.70 ± 120.06",
+                "t1_2_h": "2.12 ± 1.00",
+                "auc0_t_μg_L_h": "1426.00 ± 609.94",
+                "mrt_h": "3.78 ± 0.61"
+            },
+            {
+                "formulation": "K100LV-based coated tablets (80:20, 3.5% WG)",
+                "tmax_h": "7.33 ± 1.15",
+                "cmax_μg_L": "438.77 ± 149.83",
+                "t1_2_h": "1.98 ± 0.08",
+                "auc0_t_μg_L_h": "2252.09 ± 712.65",
+                "mrt_h": "8.49 ± 0.97"
+            },
+            {
+                "formulation": "K100LV-based coated tablets (60:40, 3.5% WG)",
+                "tmax_h": "4.67 ± 1.15",
+                "cmax_μg_L": "310.73 ± 155.87",
+                "t1_2_h": "2.40 ± 0.96",
+                "auc0_t_μg_L_h": "1168.48 ± 268.64",
+                "mrt_h": "5.37 ± 0.57"
+            }
+        ],
+        "ivivc": {
+            "K100LV-based coated (80:20, 3.5% WG)": "y = 0.4476x + 8.9733, R² = 0.9411",
+            "K100LV-based coated (60:40, 3.5% WG)": "y = 0.6963x + 2.1272, R² = 0.9496"
+        },
+        "zero_and_first_order_release": "Zero-order kinetics were observed for coated tablets (R² > 0.99). Uncoated tablets followed Power Law kinetics (non-Fickian), with n values between 0.46 and 0.89."
+    }
+}

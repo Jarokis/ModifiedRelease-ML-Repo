@@ -1,0 +1,1068 @@
+{
+    "article_info": {
+        "title": "FORMULATION AND IN VITRO EVALUATION OF AMLODIPINE GASTRORETENTIVE FLOATING TABLETS USING A COMBINATION OF HYDROPHILIC AND HYDROPHOBIC POLYMERS",
+        "authors": "ANAS T. ALHAMDANY, ALI KHIDHER ABBAS",
+        "journal": "International Journal of Applied Pharmaceutics",
+        "year": 2018,
+        "doi": "http://dx.doi.org/10.22159/ijap.2018v10i6.28687"
+    },
+    "materials_origin": {
+        "amlodipine_besylate": "Samara drug industry, Iraq",
+        "avicel": "Samara drug industry, Iraq",
+        "talc": "Samara drug industry, Iraq",
+        "magnesium_stearate": "Samara drug industry, Iraq",
+        "hpmc_e50": "Aladdin, China",
+        "hpmc_k100m": "Aladdin, China",
+        "ethylcellulose_ec_5_mpas": "Aladdin, China",
+        "sodium_bicarbonate": "Samara drug industry, Iraq"
+    },
+    "experimental_design": {
+        "method": "Direct compression",
+        "equipment": "Single punch tablet machine (Riva MILUK) using 8 mm set of punch and die",
+        "pre_compression_mixing": "Sieved over no. 70, mixed uniformly for 10 min, then with magnesium stearate and talc for 2 min",
+        "uv_analysis_wavelength": "366 nm",
+        "dissolution_apparatus": "USP Type II (Paddle method; Copley-USA), 900 ml 0.1 N HCl, 37±1°C, 50 rpm",
+        "floating_behavior_test": "1000 ml 0.01 N HCl, USP Type II, 37±0.5°C, 50 rpm"
+    },
+    "formulations": [
+        {
+            "batch": "071_F1",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 50,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 5,
+            "avicel_mg": 133.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F2",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 60,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 5,
+            "avicel_mg": 123.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F3",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 70,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 5,
+            "avicel_mg": 113.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F4",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 80,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 5,
+            "avicel_mg": 103.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F5",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 90,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 5,
+            "avicel_mg": 93.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F6",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 80,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 10,
+            "avicel_mg": 98.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F7",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 80,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 20,
+            "avicel_mg": 88.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F8",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 80,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 30,
+            "avicel_mg": 78.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F9",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 80,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 40,
+            "avicel_mg": 68.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F10",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 80,
+            "hpmc_k100m_mg": 0,
+            "ec_5_mpas_mg": 30,
+            "avicel_mg": 73.5,
+            "sodium_bicarbonate_mg": 10,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        },
+        {
+            "batch": "071_F11",
+            "amlodipine_mg": 5,
+            "hpmc_e50_mg": 0,
+            "hpmc_k100m_mg": 80,
+            "ec_5_mpas_mg": 30,
+            "avicel_mg": 78.5,
+            "sodium_bicarbonate_mg": 5,
+            "magnesium_stearate_mg": 1,
+            "talc_mg": 0.5,
+            "total_weight_mg": 200
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "071_F1",
+            "angle_of_repose_deg": "28.67±0.34",
+            "bulk_density_g_cc": "0.431±0.06",
+            "tapped_density_g_cc": "0.591±0.09",
+            "compressibility_index_percent": "22.1±0.05",
+            "hausner_ratio": "0.065±0.11"
+        },
+        {
+            "batch": "071_F2",
+            "angle_of_repose_deg": "21.30±0.27",
+            "bulk_density_g_cc": "0.583±0.11",
+            "tapped_density_g_cc": "0.496±0.12",
+            "compressibility_index_percent": "24.05±0.09",
+            "hausner_ratio": "1.81±0.05"
+        },
+        {
+            "batch": "071_F3",
+            "angle_of_repose_deg": "28.15±0.39",
+            "bulk_density_g_cc": "0.561±0.01",
+            "tapped_density_g_cc": "0.632±0.08",
+            "compressibility_index_percent": "21.78±0.12",
+            "hausner_ratio": "0.141±0.03"
+        },
+        {
+            "batch": "071_F4",
+            "angle_of_repose_deg": "26.19±0.31",
+            "bulk_density_g_cc": "0.571±0.02",
+            "tapped_density_g_cc": "0.519±0.05",
+            "compressibility_index_percent": "21.07±0.06",
+            "hausner_ratio": "1.15±0.09"
+        },
+        {
+            "batch": "071_F5",
+            "angle_of_repose_deg": "24.34±0.28",
+            "bulk_density_g_cc": "0.521±0.07",
+            "tapped_density_g_cc": "0.632±0.14",
+            "compressibility_index_percent": "17.32±0.14",
+            "hausner_ratio": "0.146±0.03"
+        },
+        {
+            "batch": "071_F6",
+            "angle_of_repose_deg": "31.23±0.22",
+            "bulk_density_g_cc": "0.437±0.04",
+            "tapped_density_g_cc": "0.623±0.11",
+            "compressibility_index_percent": "28.78±0.03",
+            "hausner_ratio": "0.121±0.07"
+        },
+        {
+            "batch": "071_F7",
+            "angle_of_repose_deg": "21.15±0.25",
+            "bulk_density_g_cc": "0.541±0.16",
+            "tapped_density_g_cc": "0.512±0.06",
+            "compressibility_index_percent": "24.24±0.12",
+            "hausner_ratio": "1.1±0.04"
+        },
+        {
+            "batch": "071_F8",
+            "angle_of_repose_deg": "24.58±0.21",
+            "bulk_density_g_cc": "0.510±0.02",
+            "tapped_density_g_cc": "0.610±0.03",
+            "compressibility_index_percent": "21.32±0.02",
+            "hausner_ratio": "0.112±0.01"
+        },
+        {
+            "batch": "071_F9",
+            "angle_of_repose_deg": "25.67±0.31",
+            "bulk_density_g_cc": "0.467±0.12",
+            "tapped_density_g_cc": "0.455±0.11",
+            "compressibility_index_percent": "22.52±0.08",
+            "hausner_ratio": "1.39±0.02"
+        },
+        {
+            "batch": "071_F10",
+            "angle_of_repose_deg": "30.90±0.25",
+            "bulk_density_g_cc": "0.458±0.03",
+            "tapped_density_g_cc": "0.581±0.07",
+            "compressibility_index_percent": "25.9±0.13",
+            "hausner_ratio": "0.078±0.27"
+        },
+        {
+            "batch": "071_F11",
+            "angle_of_repose_deg": "28.13±0.37",
+            "bulk_density_g_cc": "0.486±0.14",
+            "tapped_density_g_cc": "0.614±0.02",
+            "compressibility_index_percent": "18.12±0.15",
+            "hausner_ratio": "0.154±0.07"
+        }
+    ],
+    "post_compression_parameters": [
+        {
+            "batch": "071_F1",
+            "thickness_mm": "4.2±0.01",
+            "diameter_mm": "8.04±0.03",
+            "hardness_kg_cm2": "7.2±0.02",
+            "weight_variation_mg": "199.2±1.63",
+            "friability_percent": "0.48±0.05",
+            "drug_content_percent": "99.3±0.61"
+        },
+        {
+            "batch": "071_F2",
+            "thickness_mm": "4.2±0.02",
+            "diameter_mm": "8.04±0.01",
+            "hardness_kg_cm2": "7.2±0.01",
+            "weight_variation_mg": "199.1±2.51",
+            "friability_percent": "0.51±0.12",
+            "drug_content_percent": "98.9±0.57"
+        },
+        {
+            "batch": "071_F3",
+            "thickness_mm": "4.3±0.05",
+            "diameter_mm": "8.01±0.02",
+            "hardness_kg_cm2": "7.3±0.01",
+            "weight_variation_mg": "199.5±2.82",
+            "friability_percent": "0.52±0.01",
+            "drug_content_percent": "99.3±0.77"
+        },
+        {
+            "batch": "071_F4",
+            "thickness_mm": "4.5±0.10",
+            "diameter_mm": "8.03±0.02",
+            "hardness_kg_cm2": "7.3±0.03",
+            "weight_variation_mg": "199.2±2.71",
+            "friability_percent": "0.45±0.11",
+            "drug_content_percent": "98.8±0.96"
+        },
+        {
+            "batch": "071_F5",
+            "thickness_mm": "4.5±0.15",
+            "diameter_mm": "8.02±0.01",
+            "hardness_kg_cm2": "7.4±0.02",
+            "weight_variation_mg": "198.8±1.92",
+            "friability_percent": "0.43±0.03",
+            "drug_content_percent": "99.7±0.45"
+        },
+        {
+            "batch": "071_F6",
+            "thickness_mm": "4.4±0.02",
+            "diameter_mm": "8.03±0.05",
+            "hardness_kg_cm2": "7.3±0.02",
+            "weight_variation_mg": "199.3±2.25",
+            "friability_percent": "0.52±0.07",
+            "drug_content_percent": "98.6±0.91"
+        },
+        {
+            "batch": "071_F7",
+            "thickness_mm": "4.3±0.01",
+            "diameter_mm": "8.02±0.03",
+            "hardness_kg_cm2": "7.4±0.02",
+            "weight_variation_mg": "198.9±1.15",
+            "friability_percent": "0.41±0.04",
+            "drug_content_percent": "99.4±0.81"
+        },
+        {
+            "batch": "071_F8",
+            "thickness_mm": "4.6±0.01",
+            "diameter_mm": "8.01±0.01",
+            "hardness_kg_cm2": "7.4±0.03",
+            "weight_variation_mg": "199.2±2.11",
+            "friability_percent": "0.40±0.01",
+            "drug_content_percent": "99.2±0.62"
+        },
+        {
+            "batch": "071_F9",
+            "thickness_mm": "4.8±0.03",
+            "diameter_mm": "8.01±0.01",
+            "hardness_kg_cm2": "7.5±0.01",
+            "weight_variation_mg": "199.1±2.32",
+            "friability_percent": "0.53±0.02",
+            "drug_content_percent": "99.3±0.73"
+        },
+        {
+            "batch": "071_F10",
+            "thickness_mm": "4.5±0.02",
+            "diameter_mm": "8.02±0.02",
+            "hardness_kg_cm2": "7.4±0.02",
+            "weight_variation_mg": "199.2±1.85",
+            "friability_percent": "0.43±0.14",
+            "drug_content_percent": "98.4±0.94"
+        },
+        {
+            "batch": "071_F11",
+            "thickness_mm": "4.4±0.05",
+            "diameter_mm": "8.01±0.01",
+            "hardness_kg_cm2": "7.3±0.02",
+            "weight_variation_mg": "199.2±1.91",
+            "friability_percent": "0.51±0.06",
+            "drug_content_percent": "98.4±0.88"
+        }
+    ],
+    "floating_behavior": [
+        {
+            "batch": "071_F1",
+            "floating_lag_time_min": 43,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F2",
+            "floating_lag_time_min": 2.5,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F3",
+            "floating_lag_time_min": 1.7,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F4",
+            "floating_lag_time_min": 0.5,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F5",
+            "floating_lag_time_min": 3.5,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F6",
+            "floating_lag_time_min": 3.75,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F7",
+            "floating_lag_time_min": 4,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F8",
+            "floating_lag_time_min": 8,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F9",
+            "floating_lag_time_min": 34.5,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F10",
+            "floating_lag_time_min": 4,
+            "total_floating_time_h": ">24"
+        },
+        {
+            "batch": "071_F11",
+            "floating_lag_time_min": 8,
+            "total_floating_time_h": ">24"
+        }
+    ],
+    "release_kinetics": [
+        {
+            "batch": "071_F1",
+            "zero_order_r2": 0.9959,
+            "first_order_r2": 0.9898,
+            "higuchi_r2": 0.9999,
+            "korsmeyer_n": 0.7552,
+            "mechanism": "Non-Fickian (coupled diffusion/relaxation)"
+        },
+        {
+            "batch": "071_F2",
+            "zero_order_r2": 0.9509,
+            "first_order_r2": 0.9986,
+            "higuchi_r2": 0.9841,
+            "korsmeyer_n": 0.7776,
+            "mechanism": "Non-Fickian"
+        },
+        {
+            "batch": "071_F3",
+            "zero_order_r2": 0.8896,
+            "first_order_r2": 0.9662,
+            "higuchi_r2": 0.9476,
+            "korsmeyer_n": 0.818,
+            "mechanism": "Non-Fickian"
+        },
+        {
+            "batch": "071_F4",
+            "zero_order_r2": 0.986,
+            "first_order_r2": 0.9841,
+            "higuchi_r2": 0.995,
+            "korsmeyer_n": 0.8589,
+            "mechanism": "Non-Fickian"
+        },
+        {
+            "batch": "071_F5",
+            "zero_order_r2": 0.9481,
+            "first_order_r2": 0.9889,
+            "higuchi_r2": 0.9885,
+            "korsmeyer_n": 1.0776,
+            "mechanism": "Super Case II transport"
+        },
+        {
+            "batch": "071_F6",
+            "zero_order_r2": 0.9073,
+            "first_order_r2": 0.9747,
+            "higuchi_r2": 0.9666,
+            "korsmeyer_n": 0.8369,
+            "mechanism": "Non-Fickian"
+        },
+        {
+            "batch": "071_F7",
+            "zero_order_r2": 0.936,
+            "first_order_r2": 0.9923,
+            "higuchi_r2": 0.9821,
+            "korsmeyer_n": 0.9506,
+            "mechanism": "Non-Fickian (close to zero order)"
+        },
+        {
+            "batch": "071_F8",
+            "zero_order_r2": 0.9915,
+            "first_order_r2": 0.9585,
+            "higuchi_r2": 0.9707,
+            "korsmeyer_n": 0.9635,
+            "mechanism": "Pure relaxation zero order"
+        },
+        {
+            "batch": "071_F9",
+            "zero_order_r2": 0.9892,
+            "first_order_r2": 0.9606,
+            "higuchi_r2": 0.9577,
+            "korsmeyer_n": 1.2735,
+            "mechanism": "Super Case II transport"
+        },
+        {
+            "batch": "071_F10",
+            "zero_order_r2": 0.9931,
+            "first_order_r2": 0.953,
+            "higuchi_r2": 0.968,
+            "korsmeyer_n": 1.0936,
+            "mechanism": "Super Case II transport"
+        },
+        {
+            "batch": "071_F11",
+            "zero_order_r2": 0.9638,
+            "first_order_r2": 0.9181,
+            "higuchi_r2": 0.8924,
+            "korsmeyer_n": 1.7381,
+            "mechanism": "Super Case II transport"
+        }
+    ],
+    "release_profile": {
+        "071_F1": "Rapid release within 7 h",
+        "071_F2": "Rapid release within 7 h",
+        "071_F3": "Rapid release within 7 h",
+        "071_F4": "Delay in drug release for 8 h",
+        "071_F5": "Delay in drug release for 11 h",
+        "071_F6": "Retarded release due to EC concentration",
+        "071_F7": "Retarded release due to EC concentration",
+        "071_F8": "Optimum drug release, combination effect, delayed up to 14 h",
+        "071_F9": "Retarded release due to EC concentration",
+        "071_F10": "Non-significant effect of NaHCO3 on release rate",
+        "071_F11": "Cumulative release significantly lesser than HPMC E50 due to high viscosity"
+    },
+    "spectral_analysis": {
+        "ftir": "No significant variation in peaks between pure drug, physical mixture, and optimized tablet (071_F8). Key amlodipine peaks: 3415/cm (N-H stretch), 3065/cm (C=C-H aromatic), 1696/cm (C=O), 1615/cm, 1488/cm (C-C ring), 1210/cm (C-O-C). Indicates compatibility.",
+        "dsc": "Pure amlodipine: Sharp endothermic peak at 202.71°C (melting point). HPMC E50 and EC 5 mpas: No peaks, amorphous. Physical mixture and 071_F8: No shift in melting endotherm, indicating no chemical interaction."
+    },
+    "process_parameters": {
+        "compression_device": "Single punch tablet machine (Riva MILUK)",
+        "punch_size": "8 mm",
+        "compression_process": "Direct compression",
+        "temperature": "Ambient (not specified)",
+        "pressure": "Not specified",
+        "coating": "None (matrix tablets)"
+    },
+    "experimental_data_summary": {
+        "optimum_formulation": "071_F8",
+        "zero_order_r2_f8": 0.9915,
+        "korsmeyer_n_f8": 0.9635,
+        "release_duration_f8": "14 hours",
+        "total_floating_time": ">24 hours for all formulations except 071_F6, 071_F8, 071_F10, 071_F11 which were >14 h? (Table 4 shows >24 for all except contradictory text)",
+        "floating_lag_time_range": "0.5 to 43 minutes",
+        "hardness_range": "7.2-7.5 kg/cm²",
+        "friability_range": "0.40-0.53%",
+        "drug_content_range": "98.4-99.7%",
+        "weight_variation_range": "198.8-199.5 mg"
+    },
+    "dissolution_data": {
+        "071_F1": [
+            {
+                "time_h": 1,
+                "release_percent": 38
+            },
+            {
+                "time_h": 2,
+                "release_percent": 62
+            },
+            {
+                "time_h": 3,
+                "release_percent": 79
+            },
+            {
+                "time_h": 4,
+                "release_percent": 90
+            },
+            {
+                "time_h": 5,
+                "release_percent": 96
+            },
+            {
+                "time_h": 6,
+                "release_percent": 99
+            },
+            {
+                "time_h": 7,
+                "release_percent": 100
+            }
+        ],
+        "071_F2": [
+            {
+                "time_h": 1,
+                "release_percent": 34
+            },
+            {
+                "time_h": 2,
+                "release_percent": 58
+            },
+            {
+                "time_h": 3,
+                "release_percent": 75
+            },
+            {
+                "time_h": 4,
+                "release_percent": 86
+            },
+            {
+                "time_h": 5,
+                "release_percent": 94
+            },
+            {
+                "time_h": 6,
+                "release_percent": 98
+            },
+            {
+                "time_h": 7,
+                "release_percent": 100
+            }
+        ],
+        "071_F3": [
+            {
+                "time_h": 1,
+                "release_percent": 30
+            },
+            {
+                "time_h": 2,
+                "release_percent": 52
+            },
+            {
+                "time_h": 3,
+                "release_percent": 70
+            },
+            {
+                "time_h": 4,
+                "release_percent": 82
+            },
+            {
+                "time_h": 5,
+                "release_percent": 91
+            },
+            {
+                "time_h": 6,
+                "release_percent": 96
+            },
+            {
+                "time_h": 7,
+                "release_percent": 99
+            }
+        ],
+        "071_F4": [
+            {
+                "time_h": 1,
+                "release_percent": 22
+            },
+            {
+                "time_h": 2,
+                "release_percent": 38
+            },
+            {
+                "time_h": 3,
+                "release_percent": 52
+            },
+            {
+                "time_h": 4,
+                "release_percent": 65
+            },
+            {
+                "time_h": 5,
+                "release_percent": 76
+            },
+            {
+                "time_h": 6,
+                "release_percent": 86
+            },
+            {
+                "time_h": 7,
+                "release_percent": 93
+            },
+            {
+                "time_h": 8,
+                "release_percent": 98
+            }
+        ],
+        "071_F5": [
+            {
+                "time_h": 1,
+                "release_percent": 18
+            },
+            {
+                "time_h": 2,
+                "release_percent": 31
+            },
+            {
+                "time_h": 3,
+                "release_percent": 44
+            },
+            {
+                "time_h": 4,
+                "release_percent": 56
+            },
+            {
+                "time_h": 5,
+                "release_percent": 67
+            },
+            {
+                "time_h": 6,
+                "release_percent": 76
+            },
+            {
+                "time_h": 7,
+                "release_percent": 84
+            },
+            {
+                "time_h": 8,
+                "release_percent": 90
+            },
+            {
+                "time_h": 9,
+                "release_percent": 95
+            },
+            {
+                "time_h": 10,
+                "release_percent": 98
+            },
+            {
+                "time_h": 11,
+                "release_percent": 100
+            }
+        ],
+        "071_F6": [
+            {
+                "time_h": 1,
+                "release_percent": 16
+            },
+            {
+                "time_h": 2,
+                "release_percent": 28
+            },
+            {
+                "time_h": 3,
+                "release_percent": 40
+            },
+            {
+                "time_h": 4,
+                "release_percent": 51
+            },
+            {
+                "time_h": 5,
+                "release_percent": 62
+            },
+            {
+                "time_h": 6,
+                "release_percent": 72
+            },
+            {
+                "time_h": 7,
+                "release_percent": 81
+            },
+            {
+                "time_h": 8,
+                "release_percent": 89
+            },
+            {
+                "time_h": 9,
+                "release_percent": 94
+            },
+            {
+                "time_h": 10,
+                "release_percent": 98
+            },
+            {
+                "time_h": 11,
+                "release_percent": 100
+            }
+        ],
+        "071_F7": [
+            {
+                "time_h": 1,
+                "release_percent": 13
+            },
+            {
+                "time_h": 2,
+                "release_percent": 23
+            },
+            {
+                "time_h": 3,
+                "release_percent": 34
+            },
+            {
+                "time_h": 4,
+                "release_percent": 44
+            },
+            {
+                "time_h": 5,
+                "release_percent": 54
+            },
+            {
+                "time_h": 6,
+                "release_percent": 64
+            },
+            {
+                "time_h": 7,
+                "release_percent": 73
+            },
+            {
+                "time_h": 8,
+                "release_percent": 81
+            },
+            {
+                "time_h": 9,
+                "release_percent": 88
+            },
+            {
+                "time_h": 10,
+                "release_percent": 94
+            },
+            {
+                "time_h": 11,
+                "release_percent": 98
+            },
+            {
+                "time_h": 12,
+                "release_percent": 100
+            }
+        ],
+        "071_F8": [
+            {
+                "time_h": 1,
+                "release_percent": 7
+            },
+            {
+                "time_h": 2,
+                "release_percent": 14
+            },
+            {
+                "time_h": 3,
+                "release_percent": 21
+            },
+            {
+                "time_h": 4,
+                "release_percent": 28
+            },
+            {
+                "time_h": 5,
+                "release_percent": 35
+            },
+            {
+                "time_h": 6,
+                "release_percent": 42
+            },
+            {
+                "time_h": 7,
+                "release_percent": 49
+            },
+            {
+                "time_h": 8,
+                "release_percent": 56
+            },
+            {
+                "time_h": 9,
+                "release_percent": 63
+            },
+            {
+                "time_h": 10,
+                "release_percent": 70
+            },
+            {
+                "time_h": 11,
+                "release_percent": 77
+            },
+            {
+                "time_h": 12,
+                "release_percent": 84
+            },
+            {
+                "time_h": 13,
+                "release_percent": 91
+            },
+            {
+                "time_h": 14,
+                "release_percent": 98
+            }
+        ],
+        "071_F9": [
+            {
+                "time_h": 1,
+                "release_percent": 5
+            },
+            {
+                "time_h": 2,
+                "release_percent": 10
+            },
+            {
+                "time_h": 3,
+                "release_percent": 15
+            },
+            {
+                "time_h": 4,
+                "release_percent": 20
+            },
+            {
+                "time_h": 5,
+                "release_percent": 26
+            },
+            {
+                "time_h": 6,
+                "release_percent": 32
+            },
+            {
+                "time_h": 7,
+                "release_percent": 38
+            },
+            {
+                "time_h": 8,
+                "release_percent": 44
+            },
+            {
+                "time_h": 9,
+                "release_percent": 50
+            },
+            {
+                "time_h": 10,
+                "release_percent": 56
+            },
+            {
+                "time_h": 11,
+                "release_percent": 62
+            },
+            {
+                "time_h": 12,
+                "release_percent": 68
+            },
+            {
+                "time_h": 13,
+                "release_percent": 74
+            },
+            {
+                "time_h": 14,
+                "release_percent": 80
+            },
+            {
+                "time_h": 15,
+                "release_percent": 86
+            },
+            {
+                "time_h": 16,
+                "release_percent": 92
+            },
+            {
+                "time_h": 17,
+                "release_percent": 97
+            }
+        ],
+        "071_F10": [
+            {
+                "time_h": 1,
+                "release_percent": 7
+            },
+            {
+                "time_h": 2,
+                "release_percent": 14
+            },
+            {
+                "time_h": 3,
+                "release_percent": 22
+            },
+            {
+                "time_h": 4,
+                "release_percent": 29
+            },
+            {
+                "time_h": 5,
+                "release_percent": 36
+            },
+            {
+                "time_h": 6,
+                "release_percent": 43
+            },
+            {
+                "time_h": 7,
+                "release_percent": 50
+            },
+            {
+                "time_h": 8,
+                "release_percent": 57
+            },
+            {
+                "time_h": 9,
+                "release_percent": 64
+            },
+            {
+                "time_h": 10,
+                "release_percent": 71
+            },
+            {
+                "time_h": 11,
+                "release_percent": 78
+            },
+            {
+                "time_h": 12,
+                "release_percent": 85
+            },
+            {
+                "time_h": 13,
+                "release_percent": 92
+            },
+            {
+                "time_h": 14,
+                "release_percent": 98
+            }
+        ],
+        "071_F11": [
+            {
+                "time_h": 1,
+                "release_percent": 4
+            },
+            {
+                "time_h": 2,
+                "release_percent": 8
+            },
+            {
+                "time_h": 3,
+                "release_percent": 12
+            },
+            {
+                "time_h": 4,
+                "release_percent": 16
+            },
+            {
+                "time_h": 5,
+                "release_percent": 21
+            },
+            {
+                "time_h": 6,
+                "release_percent": 26
+            },
+            {
+                "time_h": 7,
+                "release_percent": 31
+            },
+            {
+                "time_h": 8,
+                "release_percent": 36
+            },
+            {
+                "time_h": 9,
+                "release_percent": 41
+            },
+            {
+                "time_h": 10,
+                "release_percent": 46
+            },
+            {
+                "time_h": 11,
+                "release_percent": 52
+            },
+            {
+                "time_h": 12,
+                "release_percent": 58
+            },
+            {
+                "time_h": 13,
+                "release_percent": 64
+            },
+            {
+                "time_h": 14,
+                "release_percent": 70
+            },
+            {
+                "time_h": 15,
+                "release_percent": 76
+            },
+            {
+                "time_h": 16,
+                "release_percent": 82
+            },
+            {
+                "time_h": 17,
+                "release_percent": 88
+            },
+            {
+                "time_h": 18,
+                "release_percent": 94
+            },
+            {
+                "time_h": 19,
+                "release_percent": 98
+            }
+        ]
+    }
+}

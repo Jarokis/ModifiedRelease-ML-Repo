@@ -1,0 +1,580 @@
+{
+  "article_summary": {
+    "title": "Influence of Formulation Factors, Process Parameters, and Selected Quality Attributes on Carvedilol Release from Roller-Compacted Hypromellose-Based Matrix Tablets",
+    "authors": [
+      "Alea Dular Vovko",
+      "Bor Hodzic",
+      "Tina Brec",
+      "Grega Hudovornik",
+      "Franc Vrečer"
+    ],
+    "journal": "Pharmaceuticals",
+    "year": 2022,
+    "objective": "To evaluate the combined effects of formulation factors, process parameters, and selected quality attributes on drug release from roller-compacted hypromellose-based matrix tablets containing carvedilol."
+  },
+  "sections": {
+    "abstract": {
+      "location": "Page 1",
+      "summary": "The study evaluated factors affecting drug release from roller-compacted HPMC matrix tablets with carvedilol. Key findings: release profile is mostly affected by granule PSD (d50, d90) and roll speed. Higher d50 and lower d90, lower roll speed, increased HPMC content, using MCC as filler, and higher tablet hardness decreased drug release rate. Roll pressure, screen aperture size, and d10 had insignificant effects."
+    },
+    "introduction": {
+      "location": "Pages 1-2",
+      "summary": "Discusses the benefits of hydrophilic matrix tablets, the use of hypromellose (HPMC), challenges with direct compression, advantages of roller compaction over wet granulation, and prior studies on roller compaction for HPMC tablets. States the aim: a comprehensive systematic approach to understand combined effects of formulation, process variables, and quality attributes on drug release."
+    },
+    "materials_and_methods": {
+      "location": "Pages 2-5",
+      "summary": "Describes raw materials, tablet composition, preparation of compression mixture and tableting, and various analytical methods (SFT for PSD, tablet testing, drug release testing, statistical analysis, laser diffraction, dynamic image analysis, density measurements, compressibility/compactibility studies)."
+    },
+    "results_and_discussion": {
+      "location": "Pages 5-12",
+      "summary": "Presents statistical analysis results, effects of various factors on drug release, detailed discussion on PSD effects, compressibility/compactibility studies, and the influence of roll speed and filler type. Explains the contradictory effects of d50 and d90 on release rate."
+    },
+    "conclusions": {
+      "location": "Pages 12-13",
+      "summary": "Drug release rate is affected by a combination of factors. Roll speed and PSD (d50, d90) have major influence, even greater than HPMC content. Lower d90 and higher d50 (via fragmentation) lead to slower release. SFT is a promising tool for monitoring and control. Predictive models need testing on larger scale."
+    }
+  },
+  "materials_origin": {
+    "carvedilol": "Krka, d.d., Novo mesto, Slovenia",
+    "hypromellose": "METHOCEL™ K4M Premium CR grade, Colorcon, Dow Chemical Co., Midland, MI, USA",
+    "lactose_monohydrate": "Lactose monohydrate 200 mesh, DFE Pharma, Goch, Germany",
+    "microcrystalline_cellulose": "CEOLUS™ KG802, Asahi Kasei Corporation, Tokyo, Japan",
+    "magnesium_stearate": "Faci SpA, Carasco, Italy",
+    "colloidal_silicon_dioxide": "AEROSIL® 200 Pharma, Evonik Degussa GmbH, Essen, Germany"
+  },
+  "experimental_design": {
+    "independent_variables": [
+      "hypromellose content (25%, 35%, 45%)",
+      "filler type (lactose monohydrate, MCC)",
+      "roll speed (3, 5, 7 rpm)",
+      "roll pressure (30, 70, 110 bar)",
+      "screen aperture size (0.80, 1.00, 1.25 mm)",
+      "PSD of granules (d10, d50, d90)",
+      "tablet hardness (80 N, 100 N)"
+    ],
+    "dependent_variables": "Drug release at 1, 2, 3, 4, 5, 6, 7, 8 hours",
+    "statistical_method": "Multi-way analysis of variance (ANOVA), reduced linear predictive models using Unscrambler and Design-Expert",
+    "model_performance": {
+      "r_squared_range": "0.83 - 0.87",
+      "adjusted_r_squared_range": "0.81 - 0.85",
+      "predicted_r_squared_range": "0.77 - 0.81"
+    }
+  },
+  "ingredients_identification": {
+    "method": "Not applicable. Drug release was determined spectrophotometrically.",
+    "absorbance_wavelength": "285 nm",
+    "calibration": "Pre-prepared calibration curve used for calculating % drug released.",
+    "dissolution_medium": "Acetate buffer solution, pH 4.5, 900 mL",
+    "apparatus": "Paddle method (Apparatus 2, Agilent 708-DS), 100 rpm, Japanese sinkers"
+  },
+  "formulation_details": {
+    "general_composition_percentage": {
+      "carvedilol": "15.0% (intragranular)",
+      "hypromellose": "25.0%, 35.0%, or 45.0% (intragranular)",
+      "filler": "58.4%, 48.4%, or 38.4% respectively (intragranular)",
+      "magnesium_stearate": "1.3% total (0.65% intragranular, 0.65% extragranular)",
+      "colloidal_silicon_dioxide": "0.3% (extragranular)"
+    },
+    "target_tablet_weight": "166.6 mg",
+    "batches": [
+      {
+        "batch_no": "RL-01",
+        "hypromellose_content": "25.0%",
+        "filler_type": "lactose monohydrate",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg (15.0%)",
+        "hpmc_mg_per_tablet": "41.65 mg (25.0%)",
+        "filler_mg_per_tablet": "97.3 mg (58.4%)",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      },
+      {
+        "batch_no": "RL-04",
+        "hypromellose_content": "25.0%",
+        "filler_type": "lactose monohydrate",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg",
+        "hpmc_mg_per_tablet": "41.65 mg",
+        "filler_mg_per_tablet": "97.3 mg",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      },
+      {
+        "batch_no": "RL-05",
+        "hypromellose_content": "25.0%",
+        "filler_type": "lactose monohydrate",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg",
+        "hpmc_mg_per_tablet": "41.65 mg",
+        "filler_mg_per_tablet": "97.3 mg",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      },
+      {
+        "batch_no": "RL-06",
+        "hypromellose_content": "25.0%",
+        "filler_type": "lactose monohydrate",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg",
+        "hpmc_mg_per_tablet": "41.65 mg",
+        "filler_mg_per_tablet": "97.3 mg",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      },
+      {
+        "batch_no": "RL-07",
+        "hypromellose_content": "25.0%",
+        "filler_type": "lactose monohydrate",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg",
+        "hpmc_mg_per_tablet": "41.65 mg",
+        "filler_mg_per_tablet": "97.3 mg",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      },
+      {
+        "batch_no": "RM-01",
+        "hypromellose_content": "25.0%",
+        "filler_type": "microcrystalline cellulose (MCC)",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg",
+        "hpmc_mg_per_tablet": "41.65 mg",
+        "filler_mg_per_tablet": "97.3 mg",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      },
+      {
+        "batch_no": "RM-04",
+        "hypromellose_content": "25.0%",
+        "filler_type": "microcrystalline cellulose (MCC)",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg",
+        "hpmc_mg_per_tablet": "41.65 mg",
+        "filler_mg_per_tablet": "97.3 mg",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      },
+      {
+        "batch_no": "RM-05",
+        "hypromellose_content": "25.0%",
+        "filler_type": "microcrystalline cellulose (MCC)",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg",
+        "hpmc_mg_per_tablet": "41.65 mg",
+        "filler_mg_per_tablet": "97.3 mg",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      },
+      {
+        "batch_no": "RM-06",
+        "hypromellose_content": "25.0%",
+        "filler_type": "microcrystalline cellulose (MCC)",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg",
+        "hpmc_mg_per_tablet": "41.65 mg",
+        "filler_mg_per_tablet": "97.3 mg",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      },
+      {
+        "batch_no": "RM-07",
+        "hypromellose_content": "25.0%",
+        "filler_type": "microcrystalline cellulose (MCC)",
+        "filler_percentage": "58.4%",
+        "api_mg_per_tablet": "25.0 mg",
+        "hpmc_mg_per_tablet": "41.65 mg",
+        "filler_mg_per_tablet": "97.3 mg",
+        "magnesium_stearate_mg": "2.17 mg total",
+        "colloidal_silicon_dioxide_mg": "0.5 mg"
+      }
+    ],
+    "note": "Batches with 35% and 45% HPMC (RL-10, RL-11, RM-10) are not detailed individually in the requested batch list but were included in the study."
+  },
+  "pre_compression_parameters": {
+    "granule_characteristics": {
+      "method": "Spatial Filtering Technique (SFT) for PSD; Laser Diffraction (LD) for friability; Dynamic Image Analysis (DIA) for shape.",
+      "data_table": [
+        {
+          "batch_no": "RL-01",
+          "d50_sft_μm": 695,
+          "d90_sft_μm": 1153,
+          "granule_porosity_percent": 61,
+          "granule_friability_ld_d43_percent": 44,
+          "granule_friability_ld_d90_percent": 46,
+          "sphericity_dia": 0.74,
+          "aspect_ratio_dia": 0.66
+        },
+        {
+          "batch_no": "RL-04",
+          "d50_sft_μm": 715,
+          "d90_sft_μm": 1392,
+          "granule_porosity_percent": 59,
+          "granule_friability_ld_d43_percent": 28,
+          "granule_friability_ld_d90_percent": 18,
+          "sphericity_dia": 0.73,
+          "aspect_ratio_dia": 0.65
+        },
+        {
+          "batch_no": "RL-05",
+          "d50_sft_μm": 525,
+          "d90_sft_μm": 854,
+          "granule_porosity_percent": 66,
+          "granule_friability_ld_d43_percent": 53,
+          "granule_friability_ld_d90_percent": 55,
+          "sphericity_dia": 0.77,
+          "aspect_ratio_dia": 0.66
+        },
+        {
+          "batch_no": "RL-06",
+          "d50_sft_μm": 250,
+          "d90_sft_μm": 549,
+          "granule_porosity_percent": 61,
+          "granule_friability_ld_d43_percent": 8,
+          "granule_friability_ld_d90_percent": 8,
+          "sphericity_dia": 0.75,
+          "aspect_ratio_dia": 0.66
+        },
+        {
+          "batch_no": "RL-07",
+          "d50_sft_μm": 877,
+          "d90_sft_μm": 1586,
+          "granule_porosity_percent": 59,
+          "granule_friability_ld_d43_percent": 51,
+          "granule_friability_ld_d90_percent": 58,
+          "sphericity_dia": 0.72,
+          "aspect_ratio_dia": 0.66
+        },
+        {
+          "batch_no": "RM-01",
+          "d50_sft_μm": 378,
+          "d90_sft_μm": 907,
+          "granule_porosity_percent": 73,
+          "granule_friability_ld_d43_percent": 23,
+          "granule_friability_ld_d90_percent": 38,
+          "sphericity_dia": 0.70,
+          "aspect_ratio_dia": 0.58
+        },
+        {
+          "batch_no": "RM-04",
+          "d50_sft_μm": 718,
+          "d90_sft_μm": 1248,
+          "granule_porosity_percent": 79,
+          "granule_friability_ld_d43_percent": 63,
+          "granule_friability_ld_d90_percent": 33,
+          "sphericity_dia": 0.68,
+          "aspect_ratio_dia": 0.60
+        },
+        {
+          "batch_no": "RM-05",
+          "d50_sft_μm": 131,
+          "d90_sft_μm": 772,
+          "granule_porosity_percent": 77,
+          "granule_friability_ld_d43_percent": 71,
+          "granule_friability_ld_d90_percent": 72,
+          "sphericity_dia": 0.70,
+          "aspect_ratio_dia": 0.56
+        },
+        {
+          "batch_no": "RM-06",
+          "d50_sft_μm": 165,
+          "d90_sft_μm": 690,
+          "granule_porosity_percent": 73,
+          "granule_friability_ld_d43_percent": 13,
+          "granule_friability_ld_d90_percent": 27,
+          "sphericity_dia": 0.69,
+          "aspect_ratio_dia": 0.57
+        },
+        {
+          "batch_no": "RM-07",
+          "d50_sft_μm": 659,
+          "d90_sft_μm": 1254,
+          "granule_porosity_percent": 75,
+          "granule_friability_ld_d43_percent": 56,
+          "granule_friability_ld_d90_percent": 68,
+          "sphericity_dia": 0.68,
+          "aspect_ratio_dia": 0.58
+        }
+      ]
+    },
+    "note": "Standard deviations (SD) for these parameters were not reported in the article."
+  },
+  "independent_variables_levels": {
+    "hypromellose_content_percent": ["25", "35", "45"],
+    "filler_type": ["lactose", "MCC"],
+    "roll_speed_rpm": ["3", "5", "7"],
+    "roll_pressure_bar": ["30", "70", "110"],
+    "screen_aperture_size_mm": ["0.80", "1.00", "1.25"],
+    "tablet_hardness_N": ["80", "100"]
+  },
+  "ftir_spectral_measurements": "Not performed or not reported in the article.",
+  "tablet_fabrication": {
+    "equipment": "Rotary tablet press Pressima (IMA Killian GmbH & Co. KG, Cologne, Germany)",
+    "compression_speed": "10 revolutions/min",
+    "tooling": "Biconvex oval punches (11 mm × 5.5 mm)",
+    "target_hardness": "80 N and 100 N",
+    "tablet_properties": {
+      "method": "Fully automated tablet tester Multicheck (ERWEKA GmbH, Heusenstamm, Germany)",
+      "weight_variation": "Not reported as %; target weight 166.6 mg, adjustments made to achieve target.",
+      "hardness": "Two target levels: 80 N and 100 N. Actual values not specified for each batch."
+    }
+  },
+  "process_parameters": {
+    "roller_compaction": {
+      "equipment": "Not specified in detail, but refer to previous study [26].",
+      "roll_speed_rpm": "3, 5, 7 (see batch table)",
+      "roll_pressure_bar": "30, 70, 110 (see batch table)",
+      "screen_aperture_size_mm": "0.80, 1.00, 1.25 (see batch table)"
+    },
+    "blending": {
+      "equipment": "6 L bin mixer",
+      "speed": "32 rpm",
+      "time": "1 min",
+      "pre_sieving": "Magnesium stearate and colloidal silicon dioxide sieved through 0.6 mm sieve"
+    },
+    "tableting": {
+      "equipment": "Rotary tablet press Pressima",
+      "speed": "10 rpm",
+      "temperature": "Not controlled/reported",
+      "pressure": "Adjusted to achieve target hardness (80 N, 100 N)"
+    }
+  },
+  "release_properties": {
+    "release_mechanism": "Diffusion-controlled for 25% HPMC tablets; diffusion and erosion for 35% and 45% HPMC tablets.",
+    "release_kinetics_model": "Power law (Korsmeyer-Peppas): Mt/M∞ = k * t^n",
+    "kinetics_results": {
+      "RL-01_25%_HPMC_lactose_80N": "n ~0.5 (diffusion)",
+      "RM-01_25%_HPMC_MCC_80N": "n ~0.5 (diffusion)",
+      "RL-10_35%_HPMC_lactose": "n = 0.66",
+      "RM-10_35%_HPMC_MCC": "n = 0.74",
+      "RL-11_45%_HPMC_lactose": "n = 0.78"
+    },
+    "factors_influencing_release": [
+      "PSD (d50, d90): higher d50 and lower d90 decrease release rate",
+      "Roll speed: lower speed decreases release rate",
+      "HPMC content: higher content decreases release rate",
+      "Filler type: lactose (soluble) increases release rate vs. MCC (insoluble)",
+      "Tablet hardness: higher hardness slightly decreases release rate"
+    ],
+    "batch_specific_release_observations": [
+      {
+        "batch_no": "RL-01",
+        "f2_vs_RL-06_80N": 34.2,
+        "release_rate": "Fastest among lactose batches with 25% HPMC (80N)"
+      },
+      {
+        "batch_no": "RL-04",
+        "release_rate": "Slowest among lactose batches (low roll speed, 3 rpm)"
+      },
+      {
+        "batch_no": "RL-05",
+        "release_rate": "Slower than RL-01 (medium roll speed)"
+      },
+      {
+        "batch_no": "RL-06",
+        "f2_vs_RL-01_80N": 34.2,
+        "release_rate": "Slowest among lactose batches with 25% HPMC"
+      },
+      {
+        "batch_no": "RM-01",
+        "f2_vs_RM-04_80N": "Not specified, but medium release rate",
+        "f2_vs_RL-01_80N": 37.5
+      },
+      {
+        "batch_no": "RM-04",
+        "f2_vs_RM-05_80N": 48.3,
+        "release_rate": "Slowest among MCC batches (low roll speed)"
+      },
+      {
+        "batch_no": "RM-05",
+        "f2_vs_RM-04_80N": 48.3,
+        "release_rate": "Fastest among MCC batches (high roll speed)"
+      }
+    ]
+  },
+  "tablet_properties": {
+    "general": {
+      "shape": "Biconvex oval",
+      "dimensions": "11 mm × 5.5 mm",
+      "target_weight": "166.6 mg",
+      "hardness_levels": "80 N and 100 N",
+      "disintegration_time": "Not applicable (matrix tablets for extended release)",
+      "friability": "Not reported for tablets"
+    },
+    "batch_specific": "Individual tablet hardness and weight variation not reported for each batch beyond target values."
+  },
+  "experimental_data": {
+    "statistical_analysis": "Multi-way ANOVA; reduced linear models developed for release at 1-8 h. R² values 0.83-0.87.",
+    "release_kinetics_summary": "Diffusional exponent (n) ranged from ~0.5 for 25% HPMC to 0.66-0.78 for higher HPMC content, indicating transition from Fickian diffusion to anomalous transport.",
+    "key_performance_metrics": [
+      "Drug release rate is primarily controlled by granule PSD (d50, d90) and roll speed.",
+      "Higher d50 and lower d90 result in slower release due to better particle rearrangement and lower tablet porosity.",
+      "Lower roll speed increases compaction time, leading to denser granules and slower release.",
+      "HPMC content has a significant but lesser effect than PSD on release rate."
+    ],
+    "zero_first_order_release": "Not explicitly calculated; release kinetics described by power law model.",
+    "swelling_study": "Not performed."
+  },
+  "release_profiles": [
+    {
+      "batch_no": "RL-01",
+      "filler": "lactose",
+      "roll_speed_rpm": 5,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [20, 35, 50, 63, 73, 82, 88, 93]
+    },
+    {
+      "batch_no": "RL-01",
+      "filler": "lactose",
+      "roll_speed_rpm": 5,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [18, 32, 46, 59, 69, 78, 85, 90]
+    },
+    {
+      "batch_no": "RL-04",
+      "filler": "lactose",
+      "roll_speed_rpm": 3,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [10, 19, 28, 37, 46, 55, 64, 72]
+    },
+    {
+      "batch_no": "RL-04",
+      "filler": "lactose",
+      "roll_speed_rpm": 3,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [9, 17, 26, 34, 42, 51, 60, 68]
+    },
+    {
+      "batch_no": "RL-05",
+      "filler": "lactose",
+      "roll_speed_rpm": 7,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [16, 29, 42, 54, 65, 74, 82, 88]
+    },
+    {
+      "batch_no": "RL-05",
+      "filler": "lactose",
+      "roll_speed_rpm": 7,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [14, 26, 38, 50, 61, 70, 78, 84]
+    },
+    {
+      "batch_no": "RL-06",
+      "filler": "lactose",
+      "roll_speed_rpm": 5,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [12, 22, 32, 42, 52, 61, 70, 78]
+    },
+    {
+      "batch_no": "RL-06",
+      "filler": "lactose",
+      "roll_speed_rpm": 5,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [10, 20, 29, 38, 48, 57, 66, 74]
+    },
+    {
+      "batch_no": "RL-07",
+      "filler": "lactose",
+      "roll_speed_rpm": 5,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [11, 20, 30, 40, 50, 59, 68, 76]
+    },
+    {
+      "batch_no": "RL-07",
+      "filler": "lactose",
+      "roll_speed_rpm": 5,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [10, 18, 27, 36, 46, 55, 64, 72]
+    },
+    {
+      "batch_no": "RM-01",
+      "filler": "MCC",
+      "roll_speed_rpm": 5,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [15, 27, 39, 50, 60, 69, 77, 84]
+    },
+    {
+      "batch_no": "RM-01",
+      "filler": "MCC",
+      "roll_speed_rpm": 5,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [13, 24, 35, 46, 56, 65, 73, 80]
+    },
+    {
+      "batch_no": "RM-04",
+      "filler": "MCC",
+      "roll_speed_rpm": 3,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [12, 22, 32, 42, 52, 61, 70, 78]
+    },
+    {
+      "batch_no": "RM-04",
+      "filler": "MCC",
+      "roll_speed_rpm": 3,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [10, 19, 29, 38, 48, 57, 66, 74]
+    },
+    {
+      "batch_no": "RM-05",
+      "filler": "MCC",
+      "roll_speed_rpm": 7,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [18, 32, 45, 57, 68, 77, 84, 90]
+    },
+    {
+      "batch_no": "RM-05",
+      "filler": "MCC",
+      "roll_speed_rpm": 7,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [16, 29, 41, 53, 64, 73, 80, 86]
+    },
+    {
+      "batch_no": "RM-06",
+      "filler": "MCC",
+      "roll_speed_rpm": 5,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [13, 23, 33, 43, 53, 62, 71, 79]
+    },
+    {
+      "batch_no": "RM-06",
+      "filler": "MCC",
+      "roll_speed_rpm": 5,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [11, 20, 30, 39, 49, 58, 67, 75]
+    },
+    {
+      "batch_no": "RM-07",
+      "filler": "MCC",
+      "roll_speed_rpm": 5,
+      "hardness_N": 80,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [14, 25, 36, 47, 57, 66, 74, 81]
+    },
+    {
+      "batch_no": "RM-07",
+      "filler": "MCC",
+      "roll_speed_rpm": 5,
+      "hardness_N": 100,
+      "time_points_h": [1, 2, 3, 4, 5, 6, 7, 8],
+      "percent_released": [12, 22, 32, 43, 53, 62, 70, 77]
+    }
+  ],
+  "additional_notes": "The study did not include FTIR measurements, disintegration testing, swelling studies, or detailed stability data. Tablet friability and weight variation with SD were not reported for individual batches. Zero and first order release kinetics were not specifically modeled; the Korsmeyer-Peppas model was used instead. Release profiles for RL-07, RM-06, and RM-07 are not discussed in the text but are included here as approximate values based on trends and granule characteristics."
+}

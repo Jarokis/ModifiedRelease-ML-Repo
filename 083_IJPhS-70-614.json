@@ -1,0 +1,465 @@
+{
+    "article_sections": {
+        "abstract": "Pages 1-2",
+        "introduction": "Pages 1-2",
+        "materials_and_methods": "Pages 2-3",
+        "results_and_discussion": "Pages 3-5",
+        "conclusion": "Pages 5 (implied in discussion and references)"
+    },
+    "materials_origin": {
+        "propranolol_hcl": "Ajanta Pharma, Mumbai, India",
+        "gum_moringa_oleifera": "Isolated in laboratory per previously reported procedure (Panda et al., 2006)",
+        "calcium_sulphate_dihydrate": "SD fine Chemicals Ltd, Mumbai, India",
+        "lactose": "SD fine Chemicals Ltd, Mumbai, India",
+        "magnesium_stearate": "SD fine Chemicals Ltd, Mumbai, India"
+    },
+    "experimental_design": {
+        "optimization_purpose": "Evaluate gum as binder (083_F1-083_F4) and release retardant (083_F5-083_F10) using wet granulation",
+        "independent_variables": {
+            "binder_concentration": "4%, 6%, 8%, 10% w/v gum solution (for 083_F1-083_F4)",
+            "gum_content_as_release_retardant": "10%, 20%, 30% w/w (for 083_F5-083_F10)",
+            "diluent_type": "Calcium sulphate dihydrate (water insoluble) and Lactose (water soluble)"
+        },
+        "differential_scanning_calorimetry": {
+            "equipment": "DSC 220C, SEIKO, Japan",
+            "heating_rate": "10°C/min",
+            "temperature_range": "60-280°C",
+            "results": "No chemical interaction; drug melting point 167.51°C, gum broad peak 153.02°C"
+        }
+    },
+    "formulation_details": {
+        "binder_tablets_f1_f4": {
+            "target_weight": "250 mg",
+            "diameter": "5.5 mm",
+            "gum_solution_volume": "2 ml per batch",
+            "083_F1": {
+                "propranolol_hcl_mg": 40,
+                "calcium_sulphate_dihydrate_mg": "q.s. to 250",
+                "gum_solution_concentration": "10% w/v",
+                "magnesium_stearate_percent": "1%"
+            },
+            "083_F2": {
+                "propranolol_hcl_mg": 40,
+                "calcium_sulphate_dihydrate_mg": "q.s. to 250",
+                "gum_solution_concentration": "8% w/v",
+                "magnesium_stearate_percent": "1%"
+            },
+            "083_F3": {
+                "propranolol_hcl_mg": 40,
+                "calcium_sulphate_dihydrate_mg": "q.s. to 250",
+                "gum_solution_concentration": "6% w/v",
+                "magnesium_stearate_percent": "1%"
+            },
+            "083_F4": {
+                "propranolol_hcl_mg": 40,
+                "calcium_sulphate_dihydrate_mg": "q.s. to 250",
+                "gum_solution_concentration": "4% w/v",
+                "magnesium_stearate_percent": "1%"
+            }
+        },
+        "release_retardant_tablets_f5_f10": {
+            "target_weight": "250 mg",
+            "diameter": "5.5 mm",
+            "gum_percent": "based on total weight (w/w)",
+            "083_F5": {
+                "propranolol_hcl_mg": 40,
+                "calcium_sulphate_dihydrate_mg": "q.s. to 250",
+                "gum_percent": "10% w/w",
+                "magnesium_stearate_percent": "1%"
+            },
+            "083_F6": {
+                "propranolol_hcl_mg": 40,
+                "calcium_sulphate_dihydrate_mg": "q.s. to 250",
+                "gum_percent": "20% w/w",
+                "magnesium_stearate_percent": "1%"
+            },
+            "083_F7": {
+                "propranolol_hcl_mg": 40,
+                "calcium_sulphate_dihydrate_mg": "q.s. to 250",
+                "gum_percent": "30% w/w",
+                "magnesium_stearate_percent": "1%"
+            },
+            "083_F8": {
+                "propranolol_hcl_mg": 40,
+                "lactose_mg": "q.s. to 250",
+                "gum_percent": "10% w/w",
+                "magnesium_stearate_percent": "1%"
+            },
+            "083_F9": {
+                "propranolol_hcl_mg": 40,
+                "lactose_mg": "q.s. to 250",
+                "gum_percent": "20% w/w",
+                "magnesium_stearate_percent": "1%"
+            },
+            "083_F10": {
+                "propranolol_hcl_mg": 40,
+                "lactose_mg": "q.s. to 250",
+                "gum_percent": "30% w/w",
+                "magnesium_stearate_percent": "1%"
+            }
+        }
+    },
+    "pre_compression_parameters": {
+        "granule_properties": {
+            "mesh_sizes": "250 μm before use, 500 μm for wet mass, 300 μm for dried granules",
+            "drying_conditions": "temperature not exceeding 60°C for 1 hour"
+        },
+        "083_F1": {
+            "flow_rate_g_s": 7.3,
+            "carr_index_percent": 11.2,
+            "hausner_ratio": 1.03,
+            "angle_of_repose": 17
+        },
+        "083_F2": {
+            "flow_rate_g_s": 6.9,
+            "carr_index_percent": 7.5,
+            "hausner_ratio": 1.12,
+            "angle_of_repose": 18
+        },
+        "083_F3": {
+            "flow_rate_g_s": 6.2,
+            "carr_index_percent": 12.4,
+            "hausner_ratio": 1.09,
+            "angle_of_repose": 22
+        },
+        "083_F4": {
+            "flow_rate_g_s": 8.9,
+            "carr_index_percent": 7.1,
+            "hausner_ratio": 1.07,
+            "angle_of_repose": 21
+        }
+    },
+    "tablet_fabrication": {
+        "compression_device": "Cadmach Machinery Co. Pvt. Ltd. India tablet punching machine",
+        "process_conditions": "No specific pressure or temperature reported",
+        "lubrication": "1% w/w magnesium stearate added before compression",
+        "binder_tablets_f1_f4_properties": {
+            "083_F1": {
+                "hardness_kg": 7,
+                "friability_percent": 0.6,
+                "disintegration_time_min": 4.6
+            },
+            "083_F2": {
+                "hardness_kg": 7,
+                "friability_percent": 0.6,
+                "disintegration_time_min": 4.4
+            },
+            "083_F3": {
+                "hardness_kg": 8,
+                "friability_percent": 0.3,
+                "disintegration_time_min": 5.8
+            },
+            "083_F4": {
+                "hardness_kg": 7,
+                "friability_percent": 0.2,
+                "disintegration_time_min": 5.8
+            }
+        },
+        "release_retardant_tablets_f5_f10_properties": {
+            "hardness_range_kg": "6-8 (reported for all tablets in study)",
+            "friability_range": "less than 1% for all formulations",
+            "disintegration_time_range_min": "4-6 for binder tablets; matrix tablets not individually detailed"
+        }
+    },
+    "release_properties": {
+        "dissolution_method": "USP XXII paddle method, Electrolab, 37±0.5°C, pH 7.2 phosphate buffer, 100±1 rpm, 12 hours",
+        "analysis_method": "UV/Vis spectrophotometer at 290 nm, Shimadzu, Japan",
+        "release_kinetics_f5_f10": {
+            "model": "Korsmeyer-Peppas (M_t/M_inf = k*t^n)",
+            "release_mechanism": "Fickian diffusion (n values between 0.37 and 0.54)",
+            "083_F5": {
+                "n": "0.41 ± 0.003",
+                "r_squared": "0.94 ± 0.006",
+                "t50_percent_relative": "Reference (calcium sulphate)"
+            },
+            "083_F6": {
+                "n": "0.37 ± 0.007",
+                "r_squared": "0.93 ± 0.008"
+            },
+            "083_F7": {
+                "n": "0.41 ± 0.002",
+                "r_squared": "0.95 ± 0.012"
+            },
+            "083_F8": {
+                "n": "0.47 ± 0.006",
+                "r_squared": "0.95 ± 0.002"
+            },
+            "083_F9": {
+                "n": "0.54 ± 0.004",
+                "r_squared": "0.97 ± 0.003"
+            },
+            "083_F10": {
+                "n": "0.39 ± 0.005",
+                "r_squared": "0.94 ± 0.003"
+            }
+        },
+        "release_profile_observations": {
+            "effect_of_diluent": "t50% for calcium sulphate tablets was 10-15% longer than lactose tablets",
+            "effect_of_gum_content": "Lower gum content increased drug release; gum content was major factor controlling release",
+            "effect_of_excipient_solubility": "Minor role; release profiles similar despite opposite solubility characteristics"
+        }
+    },
+    "experimental_data": {
+        "statistical_analysis": "Student's t-test used to compare release from calcium sulphate vs lactose tablets; P<0.05 considered significant",
+        "calibration_curve": "Propranolol HCl in pH 7.2 phosphate buffer at 290 nm, concentrations 10-60 μg/ml",
+        "key_findings": {
+            "binder_evaluation": "Gum effective as binder with acceptable flow, hardness (6-8 kg), friability (<1%), disintegration (4-6 min)",
+            "release_retardant_evaluation": "Gum effectively retarded drug release; Fickian diffusion mechanism; excipient type had minor influence",
+            "t50_percent_comparison": "Calcium sulphate tablets had 10-15% longer t50% than lactose tablets"
+        },
+        "release_data": {
+            "083_F5": {
+                "gum_percent": 10,
+                "diluent": "calcium sulphate dihydrate",
+                "time_vs_release": [
+                    {
+                        "time_h": 1,
+                        "release_percent": 22
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 35
+                    },
+                    {
+                        "time_h": 3,
+                        "release_percent": 46
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 56
+                    },
+                    {
+                        "time_h": 5,
+                        "release_percent": 65
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 73
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 85
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 93
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 98
+                    }
+                ]
+            },
+            "083_F6": {
+                "gum_percent": 20,
+                "diluent": "calcium sulphate dihydrate",
+                "time_vs_release": [
+                    {
+                        "time_h": 1,
+                        "release_percent": 15
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 26
+                    },
+                    {
+                        "time_h": 3,
+                        "release_percent": 36
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 46
+                    },
+                    {
+                        "time_h": 5,
+                        "release_percent": 55
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 63
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 76
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 86
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 94
+                    }
+                ]
+            },
+            "083_F7": {
+                "gum_percent": 30,
+                "diluent": "calcium sulphate dihydrate",
+                "time_vs_release": [
+                    {
+                        "time_h": 1,
+                        "release_percent": 9
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 17
+                    },
+                    {
+                        "time_h": 3,
+                        "release_percent": 25
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 33
+                    },
+                    {
+                        "time_h": 5,
+                        "release_percent": 41
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 49
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 62
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 73
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 82
+                    }
+                ]
+            },
+            "083_F8": {
+                "gum_percent": 10,
+                "diluent": "lactose",
+                "time_vs_release": [
+                    {
+                        "time_h": 1,
+                        "release_percent": 27
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 42
+                    },
+                    {
+                        "time_h": 3,
+                        "release_percent": 54
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 64
+                    },
+                    {
+                        "time_h": 5,
+                        "release_percent": 73
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 80
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 90
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 96
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 99
+                    }
+                ]
+            },
+            "083_F9": {
+                "gum_percent": 20,
+                "diluent": "lactose",
+                "time_vs_release": [
+                    {
+                        "time_h": 1,
+                        "release_percent": 18
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 30
+                    },
+                    {
+                        "time_h": 3,
+                        "release_percent": 41
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 52
+                    },
+                    {
+                        "time_h": 5,
+                        "release_percent": 62
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 70
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 82
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 91
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 97
+                    }
+                ]
+            },
+            "083_F10": {
+                "gum_percent": 30,
+                "diluent": "lactose",
+                "time_vs_release": [
+                    {
+                        "time_h": 1,
+                        "release_percent": 11
+                    },
+                    {
+                        "time_h": 2,
+                        "release_percent": 20
+                    },
+                    {
+                        "time_h": 3,
+                        "release_percent": 29
+                    },
+                    {
+                        "time_h": 4,
+                        "release_percent": 38
+                    },
+                    {
+                        "time_h": 5,
+                        "release_percent": 47
+                    },
+                    {
+                        "time_h": 6,
+                        "release_percent": 56
+                    },
+                    {
+                        "time_h": 8,
+                        "release_percent": 69
+                    },
+                    {
+                        "time_h": 10,
+                        "release_percent": 80
+                    },
+                    {
+                        "time_h": 12,
+                        "release_percent": 88
+                    }
+                ]
+            }
+        }
+    }
+}

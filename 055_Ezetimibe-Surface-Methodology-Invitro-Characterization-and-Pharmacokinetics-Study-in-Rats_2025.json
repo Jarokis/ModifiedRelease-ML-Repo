@@ -1,0 +1,373 @@
+{
+    "materials_origin": {
+        "ezetimibe": "Gift from Marcyrl Pharmaceutical Co. (El-Obour City, Cairo, Egypt)",
+        "oleic_acid": "Purchased from Alpha Chemicals (Cairo, Egypt)",
+        "stearic_acid": "Purchased from Adwic, El-Nasr Pharmaceutical Co. (Cairo, Egypt)",
+        "tween_80": "Purchased from Adwic, El-Nasr Pharmaceutical Co. (Cairo, Egypt)",
+        "sodium_lauryl_sulphate": "Purchased from Adwic, El-Nasr Pharmaceutical Co. (Cairo, Egypt)",
+        "poloxamer_188": "Purchased from Sigma-Aldrich Chemical Co, (St. Louis, USA)",
+        "mannitol": "Purchased from Piochem (Giza, Egypt)",
+        "avicel_ph_102": "Purchased from Piochem (Giza, Egypt)",
+        "magnesium_stearate": "Purchased from Piochem (Giza, Egypt)",
+        "talc": "Purchased from Piochem (Giza, Egypt)",
+        "crosscarmelose_sodium": "Purchased from Piochem (Giza, Egypt)",
+        "ezetrol_market_product": "Obtained from MSD Pharmaceutical Co. (Cairo, Egypt)"
+    },
+    "experimental_design_for_optimization": {
+        "software": "Design-Expert 10.1.1 (Stat-Ease Inc., Minneapolis, MN)",
+        "design_type": "Response Surface Methodology (I-Optimal design)",
+        "independent_variables": [
+            {
+                "variable": "A: Amount of super-disintegrant (CCS)",
+                "low_level": 15,
+                "high_level": 30,
+                "unit": "mg"
+            },
+            {
+                "variable": "B: Avicel: Mannitol (A:M) ratio",
+                "levels": [
+                    "2.5:5",
+                    "5:2.5",
+                    "7.5:0",
+                    "5:0"
+                ],
+                "unit": "ratio"
+            }
+        ],
+        "dependent_responses": [
+            {
+                "response": "R1: Disintegration time",
+                "aim": "Minimize",
+                "unit": "min"
+            },
+            {
+                "response": "R2: Percentage of drug released after 24 h",
+                "aim": "Maximize",
+                "unit": "%"
+            }
+        ],
+        "model_equation_r1": "R1 = +9.35 – 3.85*A + 0.93*B1 – 2.22*B2 – 2.97*B3 – 1.25*AB1 + 1.93*AB2 + 0.85*AB3",
+        "model_equation_r2": "R2 = +94.44 + 2.58*A – 1.72*B1 – 0.32*B2 + 2.41*B3 + 1.19*AB1 + 0.92*AB2 – 0.53*AB3",
+        "model_fit_r1": "2FI, R²=0.9995, Adjusted R²=0.9989",
+        "model_fit_r2": "2FI, R²=0.9628, Adjusted R²=0.9107",
+        "optimized_composition": {
+            "ccs_amount_mg": 30,
+            "avicel_mannitol_ratio": "7.5:0",
+            "desirability": 0.967
+        }
+    },
+    "ingredients_identification": {
+        "ez_nlc_preparation_method": "The oily phase (stearic acid and oleic acid, 30%) was melted at 348°K. The aqueous phase (1% Tween 80 and 2% poloxamer 188 in distilled water) was heated to the same temperature. 10mg EZ was added to the molten lipid. The aqueous phase was added dropwise to the oily phase under magnetic stirring at 1400rpm and 333°K for 15min. The pre-emulsion was ultrasonicated using a probe sonicator at 100% amplitude for 5min. The dispersion was mixed with drying excipients (Avicel alone or with mannitol) (5-7.5 w/%) until a homogeneous paste was formed. The paste was frozen at 253°K overnight and lyophilized (pre-freezing at 193°K for 15min, ramp 20min, main drying at 3 mbar for 6h). The resulting powder was mixed with 10mg magnesium stearate, 10mg talc, and CCS.",
+        "absorbance_wavelength_nm": 231
+    },
+    "formulation_details": {
+        "batch_prefix": "EZ-NLC Tablet",
+        "batch_count": 13,
+        "per_batch_details": [
+            {
+                "batch_id": "EZ-055_NLC1",
+                "api": "Ezetimibe",
+                "api_mass_mg": 10,
+                "drying_excipients_total_mg": "500-750",
+                "drying_excipients_composition": "Based on A:M ratio",
+                "ccs_mass_mg": "15 or 30",
+                "magnesium_stearate_mg": 10,
+                "talc_mg": 10
+            }
+        ],
+        "note": "The specific mass of drying excipients and CCS for each of the 13 individual batches were not listed separately in the text but were varied according to the experimental design levels."
+    },
+    "pre_compression_parameters": {
+        "summary_statistics": "All formulations showed good flowability according to USP 39/NF 34. ANOVA showed no significant difference between formulations.",
+        "hausner_ratio_range": "1.21 ± 0.004 to 1.24 ± 0.029",
+        "carr_index_range_percent": "17.19 ± 1.455 to 22.52 ± 1.297",
+        "angle_of_repose_range_degrees": "22.67 ± 1.102 to 29.93 ± 1.901"
+    },
+    "fourier_transform_infrared_spectral_measurements": {
+        "instrument": "IRAffinity-1 S A219654 SHIMADZU",
+        "resolution": "0.04 m⁻¹",
+        "range": "40 - 4 m⁻¹",
+        "scans": 50,
+        "ez_characteristic_peaks_cm": [
+            3266.51,
+            2916.42,
+            1727.28,
+            1511,
+            1359.84,
+            1102.34
+        ],
+        "findings": "Characteristic peaks of EZ were seen in the EZ-NLCs tablet spectrum and disappeared in the blank NLCs tablet spectrum, confirming encapsulation and lack of interaction."
+    },
+    "tablet_fabrications": {
+        "machine": "Tablet compression machine (P.O. BOX 404, MUMBAI, INDIA)",
+        "punch_diameter_m": 0.012,
+        "punch_thickness_m": 0.008,
+        "hardness_range_target_N": "30 to 50",
+        "compression_method": "Direct compression",
+        "tablet_weight_mg": "Approx. 500mg powder + 500-750mg drying excipients + 15-30mg CCS + 10mg talc + 10mg mag stearate",
+        "coating": "None",
+        "temperature_K": "Room temperature ( implied)"
+    },
+    "release_properties": {
+        "summary": "The release profiles showed a biphasic pattern. Tablets with 30mg CCS followed First-Order kinetics. Tablets with 15mg CCS followed Higuchi kinetics.",
+        "release_mechanism": "Quasi-Fickian diffusion (n < 0.45 for all formulations)",
+        "dissolution_medium": "Buffer transition system: 650mL 0.1N HCl (pH 1.2) for 2h, then 250mL disodium hydrogen orthophosphate added to achieve pH 6.8 for remaining 22h. 1% SLS added to maintain sink conditions.",
+        "apparatus": "USP standard dissolution tester, Apparatus II (paddle)",
+        "temperature_K": "310 ± 0.5",
+        "rpm": 100,
+        "per_batch_kinetics": [
+            {
+                "batch_id": "EZ-055_NLC1",
+                "zero_order_r2": 0.7303,
+                "first_order_r2": 0.9631,
+                "higuchi_r2": 0.8365,
+                "korsmeyer_peppas_r2": 0.8519,
+                "korsmeyer_peppas_n": 0.41,
+                "best_fit_model": "First Order (assumed based on 15mg CCS description, needs confirmation)"
+            },
+            {
+                "batch_id": "EZ-055_NLC3",
+                "zero_order_r2": 0.9711,
+                "first_order_r2": 0.9231,
+                "higuchi_r2": 0.9755,
+                "korsmeyer_peppas_r2": 0.9695,
+                "korsmeyer_peppas_n": 0.23,
+                "best_fit_model": "Higuchi"
+            },
+            {
+                "batch_id": "EZ-055_NLC5",
+                "zero_order_r2": 0.9503,
+                "first_order_r2": 0.9617,
+                "higuchi_r2": 0.9851,
+                "korsmeyer_peppas_r2": 0.9803,
+                "korsmeyer_peppas_n": 0.26,
+                "best_fit_model": "Higuchi"
+            },
+            {
+                "batch_id": "EZ-055_NLC6",
+                "zero_order_r2": 0.7272,
+                "first_order_r2": 0.9509,
+                "higuchi_r2": 0.8407,
+                "korsmeyer_peppas_r2": 0.8659,
+                "korsmeyer_peppas_n": 0.48,
+                "best_fit_model": "First Order (assumed based on 15mg CCS description, needs confirmation)"
+            },
+            {
+                "batch_id": "EZ-055_NLC8",
+                "zero_order_r2": 0.9561,
+                "first_order_r2": 0.9739,
+                "higuchi_r2": 0.9923,
+                "korsmeyer_peppas_r2": 0.9868,
+                "korsmeyer_peppas_n": 0.22,
+                "best_fit_model": "Higuchi"
+            },
+            {
+                "batch_id": "EZ-055_NLC9",
+                "zero_order_r2": 0.9735,
+                "first_order_r2": 0.9809,
+                "higuchi_r2": 0.9918,
+                "korsmeyer_peppas_r2": 0.9884,
+                "korsmeyer_peppas_n": 0.25,
+                "best_fit_model": "Higuchi"
+            },
+            {
+                "batch_id": "EZ-055_NLC11",
+                "zero_order_r2": 0.6769,
+                "first_order_r2": 0.9723,
+                "higuchi_r2": 0.8045,
+                "korsmeyer_peppas_r2": 0.8653,
+                "korsmeyer_peppas_n": 0.66,
+                "best_fit_model": "First Order (assumed based on 15mg CCS description, needs confirmation)"
+            },
+            {
+                "batch_id": "EZ-055_NLC12",
+                "zero_order_r2": 0.7019,
+                "first_order_r2": 0.9468,
+                "higuchi_r2": 0.8209,
+                "korsmeyer_peppas_r2": 0.8576,
+                "korsmeyer_peppas_n": 0.45,
+                "best_fit_model": "First Order (assumed based on 15mg CCS description, needs confirmation)"
+            }
+        ],
+        "note": "The paper states that tablets with 30mg CCS followed First-Order kinetics, and those with 15mg CCS followed Higuchi. Batch IDs 1,6,11,12 likely contain 15mg CCS; Batches 3,5,8,9 likely contain 30mg CCS."
+    },
+    "tablet_properties": {
+        "summary": "All findings complied with pharmacopeial standards.",
+        "hardness_range_N": "30-50 (targeted)",
+        "friability_range_percent": "0.36 ± 0.06 to 0.68 ± 0.07 (from Table 2)",
+        "weight_variation": "Conforms to pharmacopeial standards (individual data not provided)",
+        "content_uniformity": "Conforms to pharmacopeial standards (individual data not provided)",
+        "disintegration_time_range": "3:35 ± 0.02 to 19:00 ± 0.08 min (from Table 2)",
+        "thickness": "Not specified",
+        "diameter": "0.012m (punch size)"
+    },
+    "experimental_data": {
+        "in_vitro_release_findings": "EZ-NLCs tablets showed higher release than ezetrol®. In first 2h (pH 1.2), release ranged from 53.84% to 90.6% (vs 48.3% for ezetrol). At 24h, release ranged from 87.4% to 99% (vs 67.17% for ezetrol). Optimized tablet released 98.3 ± 3.95% in 24h.",
+        "in_vitro_release_approximated": {
+            "ez_nlc_15mg_ccs": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 40
+                },
+                {
+                    "time_h": 1.5,
+                    "release_percent": 48
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 57
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 65
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 72
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 83
+                },
+                {
+                    "time_h": 24,
+                    "release_percent": 93
+                }
+            ],
+            "ez_nlc_30mg_ccs": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 65
+                },
+                {
+                    "time_h": 1.5,
+                    "release_percent": 75
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 84
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 90
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 94
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 96
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 97
+                },
+                {
+                    "time_h": 24,
+                    "release_percent": 98
+                }
+            ],
+            "ezetrol": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 20
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 1.5,
+                    "release_percent": 40
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 48
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 56
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 60
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 63
+                },
+                {
+                    "time_h": 24,
+                    "release_percent": 67
+                }
+            ]
+        },
+        "in_vivo_pharmacokinetics": {
+            "study_design": "Parallel, single oral dose of 25mg/kg in Sprague Dawley male rats (n=3 per group).",
+            "test_item": "Optimized EZ-NLCs tablet (crushed and redispersed)",
+            "reference_item": "Ezetrol® tablet (crushed and redispersed)",
+            "parameters": {
+                "cmax_ng_ml": {
+                    "ez_nlc": "3.57 ± 0.27",
+                    "ezetrol": "2.79 ± 0.15",
+                    "p_value": 0.0214
+                },
+                "tmax_hr": {
+                    "ez_nlc": "1.5 ± 0",
+                    "ezetrol": "1.5 ± 0"
+                },
+                "auc_0_t_ng_hr_ml": {
+                    "ez_nlc": "22.44 ± 2.68",
+                    "ezetrol": "15.36 ± 0.86",
+                    "p_value": 0.0345
+                },
+                "auc_0_inf_ng_hr_ml": {
+                    "ez_nlc": "18.66 ± 2.02",
+                    "ezetrol": "11.99 ± 1.19",
+                    "p_value": 0.0133
+                },
+                "mrt_hr": {
+                    "ez_nlc": "5.33 ± 0.14",
+                    "ezetrol": "5.92 ± 0.37",
+                    "p_value": 0.0945
+                },
+                "t1_2_hr": {
+                    "ez_nlc": "7.49 ± 0.26",
+                    "ezetrol": "8.32 ± 0.578",
+                    "p_value": 0.1179
+                }
+            },
+            "relative_bioavailability_percent": 155.5,
+            "conclusion": "EZ-NLCs tablet showed 1.5-fold improvement in oral bioavailability compared to ezetrol®."
+        },
+        "ps_pdi_zp_data": {
+            "ez_nlc_dispersion": {
+                "ps_nm": "228.5 ± 5.87",
+                "pdi": "0.36 ± 0.02",
+                "zp_mv": "-28.8 ± 0.71"
+            },
+            "ez_nlc_tablet_after_redispersion": {
+                "ps_nm": "261.9 ± 5.27",
+                "pdi": "0.41 ± 0.03",
+                "zp_mv": "-21.2 ± 0.97"
+            }
+        }
+    }
+}

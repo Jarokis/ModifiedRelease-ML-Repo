@@ -1,0 +1,642 @@
+{
+  "article_summary": {
+    "title": "Effect of a Pharmaceutical Cationic Exchange Resin on the Properties of Controlled Release Diphenhydramine Hydrochloride Matrices Using Methocel K4M or Ethocel 7cP as Matrix Formers",
+    "authors": ["Prasert Akkaramongkolporn", "Tanasait Ngawhirunpat", "Jurairat Nunthanid", "Praneet Opanasopit"],
+    "journal": "AAPS PharmSciTech",
+    "year": 2008,
+    "doi": "10.1208/s12249-008-9129-6"
+  },
+  "materials_origin": {
+    "Amberlite_IRP_69": "Sigma Chemical Co., USA",
+    "Diphenhydramine_hydrochloride": "Beijing Shuanglao Pharmaceutical Co., China",
+    "Potassium_chloride": "Ajax Finechem, Australia",
+    "Methocel_K4M_HPMC": "Colorcon Ltd., UK",
+    "Ethocel_7cP_EC": "Colorcon Ltd., UK",
+    "Magnesium_stearate": "Glaxo Wellcome Vidhyasom, Thailand (BP grade)",
+    "Deionized_water": "Prepared by Barnstead/Thermolyne D 4745 water purifier, USA"
+  },
+  "experimental_design": {
+    "type": "Factorial evaluation of resin concentration and polymer type",
+    "independent_variables": [
+      {
+        "name": "Resin (Amberlite IRP-69) concentration",
+        "levels_percent_w_w": [0, 5, 10, 20, 30, 40]
+      },
+      {
+        "name": "Polymer type",
+        "levels": ["Methocel K4M (HPMC)", "Ethocel 7cP (EC)"]
+      }
+    ],
+    "response_variables": [
+      "Tablet diameter", "thickness", "hardness", "friability", "surface morphology",
+      "drug release in deionized water and ionic solutions", "disintegration time"
+    ]
+  },
+  "ingredients_identification": {
+    "preparation_method": "Direct compression using hydraulic hand press. Blending for 10 min, then 100 mg portions compressed with 5 tons force for 5 s dwelling time.",
+    "absorbance": "UV spectrophotometry at 218 nm",
+    "equation": "Ion exchange reaction: RSO3Na + DPH+ ⇌ RSO3DPH + Na+; also competition with K+"
+  },
+  "formulation_details": {
+    "total_tablet_weight_mg": 100,
+    "common_excipients": {
+      "magnesium_stearate": { "percent_w_w": 1, "mass_mg": 1 }
+    },
+    "api": {
+      "name": "Diphenhydramine hydrochloride (DPH)",
+      "percent_w_w": 30,
+      "mass_mg": 30
+    },
+    "batches": [
+      {
+        "batch_id": "HPMC/0",
+        "polymer_type": "HPMC (Methocel K4M)",
+        "resin_percent": 0,
+        "resin_mass_mg": 0,
+        "polymer_mass_mg": 69,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "HPMC/5",
+        "polymer_type": "HPMC",
+        "resin_percent": 5,
+        "resin_mass_mg": 5,
+        "polymer_mass_mg": 64,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "HPMC/10",
+        "polymer_type": "HPMC",
+        "resin_percent": 10,
+        "resin_mass_mg": 10,
+        "polymer_mass_mg": 59,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "HPMC/20",
+        "polymer_type": "HPMC",
+        "resin_percent": 20,
+        "resin_mass_mg": 20,
+        "polymer_mass_mg": 49,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "HPMC/30",
+        "polymer_type": "HPMC",
+        "resin_percent": 30,
+        "resin_mass_mg": 30,
+        "polymer_mass_mg": 39,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "HPMC/40",
+        "polymer_type": "HPMC",
+        "resin_percent": 40,
+        "resin_mass_mg": 40,
+        "polymer_mass_mg": 29,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "EC/0",
+        "polymer_type": "EC (Ethocel 7cP)",
+        "resin_percent": 0,
+        "resin_mass_mg": 0,
+        "polymer_mass_mg": 69,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "EC/5",
+        "polymer_type": "EC",
+        "resin_percent": 5,
+        "resin_mass_mg": 5,
+        "polymer_mass_mg": 64,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "EC/10",
+        "polymer_type": "EC",
+        "resin_percent": 10,
+        "resin_mass_mg": 10,
+        "polymer_mass_mg": 59,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "EC/20",
+        "polymer_type": "EC",
+        "resin_percent": 20,
+        "resin_mass_mg": 20,
+        "polymer_mass_mg": 49,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "EC/30",
+        "polymer_type": "EC",
+        "resin_percent": 30,
+        "resin_mass_mg": 30,
+        "polymer_mass_mg": 39,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      },
+      {
+        "batch_id": "EC/40",
+        "polymer_type": "EC",
+        "resin_percent": 40,
+        "resin_mass_mg": 40,
+        "polymer_mass_mg": 29,
+        "api_mass_mg": 30,
+        "magnesium_stearate_mg": 1
+      }
+    ]
+  },
+  "pre_compression_parameters": {
+    "note": "Data derived from text and figures; some values estimated or ranges given. All tablets 100 mg total weight, weight variation %CV ≤ 1.",
+    "batches": [
+      {
+        "batch_id": "HPMC/0",
+        "diameter_mm_mean": 6.405,
+        "diameter_SD_mm": 0.102,
+        "diameter_CV_percent": 1.59,
+        "thickness_mm_mean": 2.89,
+        "thickness_SD_mm": 0.073,
+        "thickness_CV_percent": 2.54,
+        "hardness_N": 39.1,
+        "friability_percent": 0.88
+      },
+      {
+        "batch_id": "HPMC/5",
+        "diameter_mm_mean": 6.405,
+        "diameter_SD_mm": 0.102,
+        "thickness_mm_mean": 2.89,
+        "thickness_SD_mm": 0.073,
+        "hardness_N": "Not explicitly given; between 39.1 and 16.7 N",
+        "friability_percent": "Between 0.88 and 3.94%"
+      },
+      {
+        "batch_id": "HPMC/10",
+        "diameter_mm_mean": 6.405,
+        "diameter_SD_mm": 0.102,
+        "thickness_mm_mean": 2.89,
+        "thickness_SD_mm": 0.073,
+        "hardness_N": "Not explicitly given; between 39.1 and 16.7 N",
+        "friability_percent": "Between 0.88 and 3.94%"
+      },
+      {
+        "batch_id": "HPMC/20",
+        "diameter_mm_mean": 6.405,
+        "diameter_SD_mm": 0.102,
+        "thickness_mm_mean": 2.89,
+        "thickness_SD_mm": 0.073,
+        "hardness_N": 16.7,
+        "friability_percent": 3.94
+      },
+      {
+        "batch_id": "HPMC/30",
+        "diameter_mm_mean": 6.405,
+        "diameter_SD_mm": 0.102,
+        "thickness_mm_mean": 2.89,
+        "thickness_SD_mm": 0.073,
+        "hardness_N": "Between 16.7 and 3.7 N",
+        "friability_percent": "Between 3.94 and 92%"
+      },
+      {
+        "batch_id": "HPMC/40",
+        "diameter_mm_mean": 6.405,
+        "diameter_SD_mm": 0.102,
+        "thickness_mm_mean": 2.89,
+        "thickness_SD_mm": 0.073,
+        "hardness_N": 3.7,
+        "friability_percent": 92
+      },
+      {
+        "batch_id": "EC/0",
+        "diameter_mm_mean": 6.40,
+        "diameter_SD_mm": 0,
+        "diameter_CV_percent": 0,
+        "thickness_mm_mean": 2.74,
+        "thickness_SD_mm": 0.026,
+        "thickness_CV_percent": 0.96,
+        "hardness_N": 120,
+        "friability_percent": 0.21
+      },
+      {
+        "batch_id": "EC/5",
+        "diameter_mm_mean": 6.40,
+        "diameter_SD_mm": 0,
+        "thickness_mm_mean": 2.74,
+        "thickness_SD_mm": 0.026,
+        "hardness_N": "Between 120 and 76 N",
+        "friability_percent": "Between 0.21 and 0.45%"
+      },
+      {
+        "batch_id": "EC/10",
+        "diameter_mm_mean": 6.40,
+        "diameter_SD_mm": 0,
+        "thickness_mm_mean": 2.74,
+        "thickness_SD_mm": 0.026,
+        "hardness_N": "Between 120 and 76 N",
+        "friability_percent": "Between 0.21 and 0.45%"
+      },
+      {
+        "batch_id": "EC/20",
+        "diameter_mm_mean": 6.40,
+        "diameter_SD_mm": 0,
+        "thickness_mm_mean": 2.74,
+        "thickness_SD_mm": 0.026,
+        "hardness_N": "Between 120 and 76 N",
+        "friability_percent": "Between 0.21 and 0.45%"
+      },
+      {
+        "batch_id": "EC/30",
+        "diameter_mm_mean": 6.40,
+        "diameter_SD_mm": 0,
+        "thickness_mm_mean": 2.74,
+        "thickness_SD_mm": 0.026,
+        "hardness_N": "Between 120 and 76 N",
+        "friability_percent": "Between 0.21 and 0.45%"
+      },
+      {
+        "batch_id": "EC/40",
+        "diameter_mm_mean": 6.40,
+        "diameter_SD_mm": 0,
+        "thickness_mm_mean": 2.74,
+        "thickness_SD_mm": 0.026,
+        "hardness_N": 76,
+        "friability_percent": 0.45
+      }
+    ]
+  },
+  "ftir_measurements": null,
+  "tablet_fabrications": {
+    "common_parameters": {
+      "compression_device": "Hydraulic hand press machine (Specac P/N 15011/25011, UK)",
+      "punch_diameter_mm": 6.35,
+      "compression_force_tons": 5,
+      "dwelling_time_sec": 5,
+      "no_coating": true,
+      "temperature": "Ambient (not specified)",
+      "pressure": "Not specified beyond force"
+    },
+    "determinations_per_batch": {
+      "hardness": "Texture analyzer (Stable Micro Systems TA.XT plus, UK) with 6 mm flat-faced cylindrical probe, speed 1 mm/s",
+      "friability": "Roche friabilator, 100 revolutions in 4 min",
+      "weight_variation": "%CV ≤ 1 (uniform)",
+      "thickness_and_diameter": "Micrometer (S229, Sylvac, Switzerland)",
+      "density": "Not reported",
+      "drug_content": "Not measured (assumed 30 mg per tablet based on formulation)",
+      "consolidation_index": "Not reported"
+    }
+  },
+  "release_properties": {
+    "common_conditions": {
+      "apparatus": "USP release testing apparatus I (Prolabo Dissolutet, France)",
+      "volume_ml": 900,
+      "temperature_C": 37,
+      "rotation_rpm": 50,
+      "sampling": "5 ml withdrawn and replaced, assayed by UV at 218 nm"
+    },
+    "batches": [
+      {
+        "batch_id": "HPMC/0",
+        "medium": "Deionized water",
+        "release_mechanism": "Diffusion through gelled HPMC matrix",
+        "release_profile_description": "Rapid initial release, sustained, faster than EC/0. Gel formation persists after 100% release.",
+        "factors_influencing": "Gelling property of HPMC; no resin effect",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 45 },
+          { "time_hr": 1, "percent_released": 68 },
+          { "time_hr": 2, "percent_released": 85 },
+          { "time_hr": 4, "percent_released": 96 },
+          { "time_hr": 6, "percent_released": 100 },
+          { "time_hr": 8, "percent_released": 100 },
+          { "time_hr": 10, "percent_released": 100 },
+          { "time_hr": 12, "percent_released": 100 }
+        ]
+      },
+      {
+        "batch_id": "HPMC/5",
+        "medium": "Deionized water",
+        "release_mechanism": "Diffusion through gelled matrix + ion exchange with resin",
+        "release_profile_description": "Further retarded compared to HPMC/0. Release decreases with increasing resin.",
+        "factors_influencing": "Ion exchange (drug-resin complex formation) and gelling",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 35 },
+          { "time_hr": 1, "percent_released": 55 },
+          { "time_hr": 2, "percent_released": 72 },
+          { "time_hr": 4, "percent_released": 85 },
+          { "time_hr": 6, "percent_released": 92 },
+          { "time_hr": 8, "percent_released": 96 },
+          { "time_hr": 10, "percent_released": 98 },
+          { "time_hr": 12, "percent_released": 99 }
+        ]
+      },
+      {
+        "batch_id": "HPMC/10",
+        "medium": "Deionized water",
+        "release_mechanism": "Diffusion + ion exchange",
+        "release_profile_description": "Further retarded compared to lower resin",
+        "factors_influencing": "Increased complex formation",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 28 },
+          { "time_hr": 1, "percent_released": 45 },
+          { "time_hr": 2, "percent_released": 60 },
+          { "time_hr": 4, "percent_released": 74 },
+          { "time_hr": 6, "percent_released": 83 },
+          { "time_hr": 8, "percent_released": 89 },
+          { "time_hr": 10, "percent_released": 93 },
+          { "time_hr": 12, "percent_released": 95 }
+        ]
+      },
+      {
+        "batch_id": "HPMC/20",
+        "medium": "Deionized water",
+        "release_mechanism": "Diffusion + ion exchange",
+        "release_profile_description": "Sustained release, plateau. Tested also in KCl solutions, SGF, SIF – release increased with ionic strength due to competition of K+, Na+, H+.",
+        "factors_influencing": "Ion concentration, cation selectivity (K > Na > H)",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 20 },
+          { "time_hr": 1, "percent_released": 34 },
+          { "time_hr": 2, "percent_released": 48 },
+          { "time_hr": 4, "percent_released": 62 },
+          { "time_hr": 6, "percent_released": 72 },
+          { "time_hr": 8, "percent_released": 78 },
+          { "time_hr": 10, "percent_released": 82 },
+          { "time_hr": 12, "percent_released": 84 }
+        ]
+      },
+      {
+        "batch_id": "HPMC/30",
+        "medium": "Deionized water",
+        "release_mechanism": "Diffusion + ion exchange",
+        "release_profile_description": "Post-plateau decline, possibly due to back-diffusion and binding of released drug",
+        "factors_influencing": "Excessive resin binds drug returning into gel",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 15 },
+          { "time_hr": 1, "percent_released": 27 },
+          { "time_hr": 2, "percent_released": 40 },
+          { "time_hr": 4, "percent_released": 55 },
+          { "time_hr": 6, "percent_released": 66 },
+          { "time_hr": 8, "percent_released": 70 },
+          { "time_hr": 10, "percent_released": 68 },
+          { "time_hr": 12, "percent_released": 65 }
+        ]
+      },
+      {
+        "batch_id": "HPMC/40",
+        "medium": "Deionized water",
+        "release_mechanism": "Diffusion + ion exchange",
+        "release_profile_description": "Further decline, more pronounced than HPMC/30",
+        "factors_influencing": "Excessive resin",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 12 },
+          { "time_hr": 1, "percent_released": 22 },
+          { "time_hr": 2, "percent_released": 34 },
+          { "time_hr": 4, "percent_released": 48 },
+          { "time_hr": 6, "percent_released": 56 },
+          { "time_hr": 8, "percent_released": 58 },
+          { "time_hr": 10, "percent_released": 55 },
+          { "time_hr": 12, "percent_released": 52 }
+        ]
+      },
+      {
+        "batch_id": "EC/0",
+        "medium": "Deionized water",
+        "release_mechanism": "Diffusion through water-filled pores of intact hydrophobic EC matrix",
+        "release_profile_description": "Slowest release among all, matrix remains intact",
+        "factors_influencing": "Hydrophobicity of EC, no disintegration",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 5 },
+          { "time_hr": 1, "percent_released": 10 },
+          { "time_hr": 2, "percent_released": 18 },
+          { "time_hr": 4, "percent_released": 30 },
+          { "time_hr": 6, "percent_released": 40 },
+          { "time_hr": 8, "percent_released": 48 },
+          { "time_hr": 10, "percent_released": 54 },
+          { "time_hr": 12, "percent_released": 58 }
+        ]
+      },
+      {
+        "batch_id": "EC/5",
+        "medium": "Deionized water",
+        "release_mechanism": "Disintegration (resin swelling) followed by diffusion from fragments; ion exchange later",
+        "release_profile_description": "Release higher than EC/0, almost complete by 1-2 h. Disintegration time ~46 min.",
+        "factors_influencing": "Disintegrant property of resin",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 65 },
+          { "time_hr": 1, "percent_released": 92 },
+          { "time_hr": 2, "percent_released": 98 },
+          { "time_hr": 4, "percent_released": 99 },
+          { "time_hr": 6, "percent_released": 99 },
+          { "time_hr": 8, "percent_released": 99 },
+          { "time_hr": 10, "percent_released": 99 },
+          { "time_hr": 12, "percent_released": 99 }
+        ]
+      },
+      {
+        "batch_id": "EC/10",
+        "medium": "Deionized water",
+        "release_mechanism": "Disintegration + ion exchange",
+        "release_profile_description": "Biphasic: initial rapid increase then decline. Disintegration time ~22 min.",
+        "factors_influencing": "Faster disintegration and drug-resin complex formation",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 80 },
+          { "time_hr": 1, "percent_released": 92 },
+          { "time_hr": 2, "percent_released": 85 },
+          { "time_hr": 4, "percent_released": 74 },
+          { "time_hr": 6, "percent_released": 68 },
+          { "time_hr": 8, "percent_released": 64 },
+          { "time_hr": 10, "percent_released": 62 },
+          { "time_hr": 12, "percent_released": 61 }
+        ]
+      },
+      {
+        "batch_id": "EC/20",
+        "medium": "Deionized water",
+        "release_mechanism": "Disintegration + ion exchange",
+        "release_profile_description": "Biphasic release. Disintegration time ~12 min. Tested in ionic solutions: release increases with [KCl], SGF, SIF.",
+        "factors_influencing": "Swelling-induced disintegration, cation competition",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 85 },
+          { "time_hr": 1, "percent_released": 88 },
+          { "time_hr": 2, "percent_released": 75 },
+          { "time_hr": 4, "percent_released": 62 },
+          { "time_hr": 6, "percent_released": 55 },
+          { "time_hr": 8, "percent_released": 51 },
+          { "time_hr": 10, "percent_released": 49 },
+          { "time_hr": 12, "percent_released": 48 }
+        ]
+      },
+      {
+        "batch_id": "EC/30",
+        "medium": "Deionized water",
+        "release_mechanism": "Disintegration + ion exchange",
+        "release_profile_description": "Biphasic, faster initial release. Disintegration time ~8 min.",
+        "factors_influencing": "Greater disintegration",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 90 },
+          { "time_hr": 1, "percent_released": 82 },
+          { "time_hr": 2, "percent_released": 65 },
+          { "time_hr": 4, "percent_released": 50 },
+          { "time_hr": 6, "percent_released": 42 },
+          { "time_hr": 8, "percent_released": 38 },
+          { "time_hr": 10, "percent_released": 36 },
+          { "time_hr": 12, "percent_released": 35 }
+        ]
+      },
+      {
+        "batch_id": "EC/40",
+        "medium": "Deionized water",
+        "release_mechanism": "Disintegration + ion exchange",
+        "release_profile_description": "Biphasic, fastest initial release but marked decline. Disintegration time ~5 min.",
+        "factors_influencing": "Extensive disintegration and complex formation",
+        "approx_release_profile": [
+          { "time_hr": 0, "percent_released": 0 },
+          { "time_hr": 0.5, "percent_released": 95 },
+          { "time_hr": 1, "percent_released": 78 },
+          { "time_hr": 2, "percent_released": 58 },
+          { "time_hr": 4, "percent_released": 42 },
+          { "time_hr": 6, "percent_released": 34 },
+          { "time_hr": 8, "percent_released": 30 },
+          { "time_hr": 10, "percent_released": 28 },
+          { "time_hr": 12, "percent_released": 27 }
+        ]
+      }
+    ],
+    "release_kinetics_models": "Not formally modeled (zero order, first order, Hixson-Crowell, Korsmeyer-Peppas not applied in this paper)"
+  },
+  "tablet_properties": {
+    "batches": [
+      {
+        "batch_id": "HPMC/0",
+        "hardness_N": 39.1,
+        "friability_percent": 0.88,
+        "disintegration_time": "Not applicable (HPMC matrices do not disintegrate; form gel)",
+        "dissolution_profile": "See release_properties.HPMC/0.approx_release_profile",
+        "thickness_mm": 2.89,
+        "diameter_mm": 6.405,
+        "weight_variation_percent": "≤1% CV"
+      },
+      {
+        "batch_id": "HPMC/20",
+        "hardness_N": 16.7,
+        "friability_percent": 3.94,
+        "disintegration_time": null,
+        "dissolution_profile": "See release_properties.HPMC/20.approx_release_profile",
+        "thickness_mm": 2.89,
+        "diameter_mm": 6.405,
+        "weight_variation_percent": "≤1% CV"
+      },
+      {
+        "batch_id": "HPMC/40",
+        "hardness_N": 3.7,
+        "friability_percent": 92,
+        "disintegration_time": null,
+        "dissolution_profile": "See release_properties.HPMC/40.approx_release_profile",
+        "thickness_mm": 2.89,
+        "diameter_mm": 6.405,
+        "weight_variation_percent": "≤1% CV"
+      },
+      {
+        "batch_id": "EC/0",
+        "hardness_N": 120,
+        "friability_percent": 0.21,
+        "disintegration_time_min": "> 10 h (no disintegration)",
+        "dissolution_profile": "See release_properties.EC/0.approx_release_profile",
+        "thickness_mm": 2.74,
+        "diameter_mm": 6.40,
+        "weight_variation_percent": "≤1% CV"
+      },
+      {
+        "batch_id": "EC/5",
+        "hardness_N": "~100 (est.)",
+        "friability_percent": 0.21,
+        "disintegration_time_min": 46,
+        "dissolution_profile": "See release_properties.EC/5.approx_release_profile",
+        "thickness_mm": 2.74,
+        "diameter_mm": 6.40,
+        "weight_variation_percent": "≤1% CV"
+      },
+      {
+        "batch_id": "EC/10",
+        "hardness_N": "~90 (est.)",
+        "friability_percent": 0.21,
+        "disintegration_time_min": 22,
+        "dissolution_profile": "See release_properties.EC/10.approx_release_profile",
+        "thickness_mm": 2.74,
+        "diameter_mm": 6.40,
+        "weight_variation_percent": "≤1% CV"
+      },
+      {
+        "batch_id": "EC/20",
+        "hardness_N": "~85 (est.)",
+        "friability_percent": 0.21,
+        "disintegration_time_min": 12,
+        "dissolution_profile": "See release_properties.EC/20.approx_release_profile",
+        "thickness_mm": 2.74,
+        "diameter_mm": 6.40,
+        "weight_variation_percent": "≤1% CV"
+      },
+      {
+        "batch_id": "EC/30",
+        "hardness_N": "~80 (est.)",
+        "friability_percent": 0.45,
+        "disintegration_time_min": 8,
+        "dissolution_profile": "See release_properties.EC/30.approx_release_profile",
+        "thickness_mm": 2.74,
+        "diameter_mm": 6.40,
+        "weight_variation_percent": "≤1% CV"
+      },
+      {
+        "batch_id": "EC/40",
+        "hardness_N": 76,
+        "friability_percent": 0.45,
+        "disintegration_time_min": 5,
+        "dissolution_profile": "See release_properties.EC/40.approx_release_profile",
+        "thickness_mm": 2.74,
+        "diameter_mm": 6.40,
+        "weight_variation_percent": "≤1% CV"
+      }
+    ],
+    "swelling_study": "Not performed; no lag time, floating time, or swelling index reported."
+  },
+  "experimental_data": {
+    "key_results": [
+      "Resin incorporation decreases hardness of both HPMC and EC matrices; HPMC matrices become more friable above critical hardness (~16-17 N), while EC matrices maintain low friability due to higher baseline hardness.",
+      "In deionized water, resin further retards release from HPMC matrices via ion exchange; release decreases with increasing resin.",
+      "In EC matrices, resin causes disintegration leading to initial rapid release, followed by decline due to drug-resin complex formation.",
+      "In ionic solutions (KCl, SGF, SIF), release increases due to competition of cations (K+ > Na+ > H+) with DPH+ for exchange sites.",
+      "Disintegration time of EC matrices decreases with higher resin content (from 46 min at 5% to 5 min at 40%)."
+    ],
+    "performance_metrics": {
+      "hardness_range_HPMC_N": "3.7 - 39.1",
+      "friability_range_HPMC_percent": "0.88 - 92",
+      "hardness_range_EC_N": "76 - 120",
+      "friability_range_EC_percent": "0.21 - 0.45",
+      "disintegration_time_range_EC_min": "5 - 46"
+    },
+    "statistical_analysis": "None reported; descriptive statistics (%CV, ranges) provided.",
+    "zero_first_order_release": "Not calculated.",
+    "in_vitro_results": "Release profiles provided as approx_release_profile for each batch in release_properties.",
+    "swelling_water_uptake": "Not studied."
+  }
+}

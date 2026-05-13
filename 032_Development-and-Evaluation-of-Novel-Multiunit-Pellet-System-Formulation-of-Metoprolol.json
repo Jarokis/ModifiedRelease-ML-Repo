@@ -1,0 +1,733 @@
+{
+    "materials_origin": {
+        "Metoprolol_succinate": "Sun Pharmaceutical Industries Ltd. India",
+        "Sugar_pellets_50_60": "Shiva Shakthi Pharma",
+        "Sucrose_Blend": "Shiva Shakthi Pharma",
+        "Aerosil_200_Pharma": "Evonik",
+        "HPMC_6cps_Hypromellose": "ShinEtsu",
+        "Ethylcellulose_N50": "Aqualon Hercules",
+        "Kollicoat_SR_30D": "Colorcon",
+        "Surelease": "Colorcon",
+        "Stearic_acid": "Oleo Chemicals",
+        "PEG_6000": "Clarient Chemicals",
+        "Isopropyl_Alcohol": "R.A. Chem Pharma Ltd."
+    },
+    "experimental_design_for_optimization": {
+        "pellets_preparation": "Drug loading was done in a conventional coating pan. Sugar pellets (50-60#) were coated by alternating cycles of spraying binder solution (Sucrose and HPMC 032_E5 in purified water) and drug powder (Metoprolol succinate, Aerosil, Sucrose) to achieve desired loading. Drug-loaded pellets were dried and sifted. They were then coated with polymer solutions (Surelease, Ethyl cellulose, Kollicoat SR 30D) using a Fluidised Bed Coater (Wurster bottom spray) to achieve different coating levels (7.5%, 10%, 12.5%, 15%). Coated pellets were sifted.",
+        "tablets_preparation": "MUPS tablets were prepared by direct compression. Coated pellets were mixed with excipients (MCC pH102, Aerosil, Magnesium stearate, Lubritab) in a Double cone blender and compressed using an 8-station tablet compression machine (Karnavati Mini Press II).",
+        "results": "Formulation 032_F10 (pellets with 7.5% Kollicoat SR 30D coating) was found to be the best pellet formulation. Formulation 032_T4 (tablets with 15% Lubritab) was found to be the most promising MUPS formulation with acceptable physicochemical properties and dissolution profile similar to the innovator product.",
+        "equation_absorbance": "Drug release was analyzed by UV Spectrophotometric method at a wavelength of 223 nm.\\nWater content by K.F. titration: % Water Content = (V × F × 100) / W, where V = Volume of K.F. reagent, F = Factor for K.F. reagent, W = Weight of sample in grams.\\nSimilarity factor (f2) and dissimilarity factor (f1) were calculated to compare dissolution profiles."
+    },
+    "formulation_details": [
+        {
+            "batch": "032_F1",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "4 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": null,
+                "Coating_Ethyl cellulose": null,
+                "Coating_Kollicoat SR 30D": null,
+                "Coating_Stearic acid": null,
+                "Coating_PEG 6000": null,
+                "Coating_Talc": null,
+                "Coating_IPA": null,
+                "Coating_Purified water": null
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F2",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "7.8 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": null,
+                "Coating_Ethyl cellulose": null,
+                "Coating_Kollicoat SR 30D": null,
+                "Coating_Stearic acid": null,
+                "Coating_PEG 6000": null,
+                "Coating_Talc": null,
+                "Coating_IPA": null,
+                "Coating_Purified water": null
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F3",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "4.8 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": "7.5 parts",
+                "Coating_Ethyl cellulose": null,
+                "Coating_Kollicoat SR 30D": null,
+                "Coating_Stearic acid": "1.5 parts",
+                "Coating_PEG 6000": "0.9 parts",
+                "Coating_Talc": null,
+                "Coating_IPA": null,
+                "Coating_Purified water": "Q.S."
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F4",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "1.8 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": "10 parts",
+                "Coating_Ethyl cellulose": null,
+                "Coating_Kollicoat SR 30D": null,
+                "Coating_Stearic acid": "2.5 parts",
+                "Coating_PEG 6000": "1.0 parts",
+                "Coating_Talc": "0.9 parts",
+                "Coating_IPA": null,
+                "Coating_Purified water": "NIL"
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F5",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.6 parts",
+                "Sucrose": "7.05 parts",
+                "Binder solution_Sugar": "0.5 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": "12.5 parts",
+                "Coating_Ethyl cellulose": null,
+                "Coating_Kollicoat SR 30D": null,
+                "Coating_Stearic acid": "2.5 parts",
+                "Coating_PEG 6000": "1.25 parts",
+                "Coating_Talc": "0.9 parts",
+                "Coating_IPA": null,
+                "Coating_Purified water": "NIL"
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F6",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "3.8 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": null,
+                "Coating_Ethyl cellulose": "7.5 parts",
+                "Coating_Kollicoat SR 30D": null,
+                "Coating_Stearic acid": "1.5 parts",
+                "Coating_PEG 6000": "0.9 parts",
+                "Coating_Talc": "0.9 parts",
+                "Coating_IPA": "Q.S.",
+                "Coating_Purified water": "Q.S."
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F7",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "0.5 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": null,
+                "Coating_Ethyl cellulose": "10 parts",
+                "Coating_Kollicoat SR 30D": null,
+                "Coating_Stearic acid": "2.0 parts",
+                "Coating_PEG 6000": "1.0 parts",
+                "Coating_Talc": "0.9 parts",
+                "Coating_IPA": "Q.S.",
+                "Coating_Purified water": "NIL"
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F8",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "11.5 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "5 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": null,
+                "Coating_Ethyl cellulose": "12.5 parts",
+                "Coating_Kollicoat SR 30D": null,
+                "Coating_Stearic acid": "2.5 parts",
+                "Coating_PEG 6000": "1.25 parts",
+                "Coating_Talc": "0.9 parts",
+                "Coating_IPA": "Q.S.",
+                "Coating_Purified water": "NIL"
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F9",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.8 parts",
+                "Sucrose": "7.05 parts",
+                "Binder solution_Sugar": "0.4 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": null,
+                "Coating_Ethyl cellulose": "15 parts",
+                "Coating_Kollicoat SR 30D": null,
+                "Coating_Stearic acid": "2.5 parts",
+                "Coating_PEG 6000": "1.25 parts",
+                "Coating_Talc": "0.8 parts",
+                "Coating_IPA": "Q.S.",
+                "Coating_Purified water": "Q.S."
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F10",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "3.8 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": null,
+                "Coating_Ethyl cellulose": null,
+                "Coating_Kollicoat SR 30D": "7.5 parts",
+                "Coating_Stearic acid": "2.5 parts",
+                "Coating_PEG 6000": "0.9 parts",
+                "Coating_Talc": "0.9 parts",
+                "Coating_IPA": "Nil",
+                "Coating_Purified water": "Q.S."
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F11",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "0.55 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": null,
+                "Coating_Ethyl cellulose": null,
+                "Coating_Kollicoat SR 30D": "10 parts",
+                "Coating_Stearic acid": "5 parts",
+                "Coating_PEG 6000": "1.0 parts",
+                "Coating_Talc": "0.9 parts",
+                "Coating_IPA": "Nil",
+                "Coating_Purified water": "Q.S."
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_F12",
+            "type": "Pellet",
+            "ingredients": {
+                "Metoprolol Succinate": "6 parts",
+                "Sugar spheres (#50 - #60)": "13 parts",
+                "Aerosil": "0.7 parts",
+                "Sucrose": "5 parts",
+                "Binder solution_Sugar": "0.6 parts",
+                "Binder solution_HPMC 032_E5": "2 parts",
+                "Binder solution_Purified water": "Q.S.",
+                "Coating_Surelease": null,
+                "Coating_Ethyl cellulose": null,
+                "Coating_Kollicoat SR 30D": "12.5 parts",
+                "Coating_Stearic acid": "5 parts",
+                "Coating_PEG 6000": "1.25 parts",
+                "Coating_Talc": "0.9 parts",
+                "Coating_IPA": "Nil",
+                "Coating_Purified water": "Q.S."
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_T1",
+            "type": "Tablet MUPS",
+            "ingredients": {
+                "Metoprolol succinate E.R. Coated pellets": "151.50 mg/tablet",
+                "MCC pH 102": "244.50 mg/tablet",
+                "Aerosil": "2.00 mg/tablet",
+                "Lubritab": "0.00 mg/tablet",
+                "Magnesium stearate": "2.00 mg/tablet"
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_T2",
+            "type": "Tablet MUPS",
+            "ingredients": {
+                "Metoprolol succinate E.R. Coated pellets": "151.50 mg/tablet",
+                "MCC pH 102": "234.50 mg/tablet",
+                "Aerosil": "2.00 mg/tablet",
+                "Lubritab": "10.00 mg/tablet",
+                "Magnesium stearate": "2.00 mg/tablet"
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_T3",
+            "type": "Tablet MUPS",
+            "ingredients": {
+                "Metoprolol succinate E.R. Coated pellets": "151.50 mg/tablet",
+                "MCC pH 102": "229.50 mg/tablet",
+                "Aerosil": "2.00 mg/tablet",
+                "Lubritab": "15.00 mg/tablet",
+                "Magnesium stearate": "2.00 mg/tablet"
+            },
+            "percent_pellets": null
+        },
+        {
+            "batch": "032_T4",
+            "type": "Tablet MUPS",
+            "ingredients": {
+                "Metoprolol succinate E.R. Coated pellets": "151.50 mg/tablet",
+                "MCC pH 102": "224.50 mg/tablet",
+                "Aerosil": "2.00 mg/tablet",
+                "Lubritab": "20.00 mg/tablet",
+                "Magnesium stearate": "2.00 mg/tablet"
+            },
+            "percent_pellets": null
+        }
+    ],
+    "pre_compression_parameters_pellets": [
+        {
+            "batch": "032_F3",
+            "angle_of_repose": "29.2°",
+            "bulk_density": "0.703 gm/mL",
+            "tapped_density": "0.792 gm/mL",
+            "compressibility_index": "11.1%",
+            "hausner_ratio": "1.15",
+            "loss_on_drying": "1.02%",
+            "friability": "2.1%",
+            "assay": "97.78%"
+        },
+        {
+            "batch": "032_F4",
+            "angle_of_repose": "25.6°",
+            "bulk_density": "0.627 gm/mL",
+            "tapped_density": "0.777 gm/mL",
+            "compressibility_index": "19.2%",
+            "hausner_ratio": "1.23",
+            "loss_on_drying": "1.25%",
+            "friability": "1.2%",
+            "assay": "99.45%"
+        },
+        {
+            "batch": "032_F5",
+            "angle_of_repose": "29.0°",
+            "bulk_density": "0.621 gm/mL",
+            "tapped_density": "0.727 gm/mL",
+            "compressibility_index": "14.6%",
+            "hausner_ratio": "1.17",
+            "loss_on_drying": "1.30%",
+            "friability": "1.1%",
+            "assay": "101.49%"
+        },
+        {
+            "batch": "032_F6",
+            "angle_of_repose": "31.7°",
+            "bulk_density": "0.614 gm/mL",
+            "tapped_density": "0.712 gm/mL",
+            "compressibility_index": "13.7%",
+            "hausner_ratio": "1.15",
+            "loss_on_drying": "1.43%",
+            "friability": "2.3%",
+            "assay": "98.86%"
+        },
+        {
+            "batch": "032_F7",
+            "angle_of_repose": "27.7°",
+            "bulk_density": "0.614 gm/mL",
+            "tapped_density": "0.712 gm/mL",
+            "compressibility_index": "13.06%",
+            "hausner_ratio": "1.15",
+            "loss_on_drying": "1.24%",
+            "friability": "1.82%",
+            "assay": "97.7%"
+        },
+        {
+            "batch": "032_F8",
+            "angle_of_repose": "27.7°",
+            "bulk_density": "0.655 gm/mL",
+            "tapped_density": "0.742 gm/mL",
+            "compressibility_index": "11.7%",
+            "hausner_ratio": "1.13",
+            "loss_on_drying": "1.34%",
+            "friability": "1.0%",
+            "assay": "99.6%"
+        },
+        {
+            "batch": "032_F9",
+            "angle_of_repose": "27.4°",
+            "bulk_density": "0.694 gm/mL",
+            "tapped_density": "0.775 gm/mL",
+            "compressibility_index": "11.5%",
+            "hausner_ratio": "1.13",
+            "loss_on_drying": "1.49%",
+            "friability": "0.6%",
+            "assay": "104.6%"
+        },
+        {
+            "batch": "032_F10",
+            "angle_of_repose": "24.3°",
+            "bulk_density": "0.697 gm/mL",
+            "tapped_density": "0.702 gm/mL",
+            "compressibility_index": "10.1%",
+            "hausner_ratio": "1.11",
+            "loss_on_drying": "1.32%",
+            "friability": "0.8%",
+            "assay": "99.95%"
+        },
+        {
+            "batch": "032_F11",
+            "angle_of_repose": "29.77°",
+            "bulk_density": "0.66 gm/mL",
+            "tapped_density": "0.703 gm/mL",
+            "compressibility_index": "6.11%",
+            "hausner_ratio": "1.16",
+            "loss_on_drying": "1.20%",
+            "friability": "1.0%",
+            "assay": "98.65%"
+        },
+        {
+            "batch": "032_F12",
+            "angle_of_repose": "30.2°",
+            "bulk_density": "0.621 gm/mL",
+            "tapped_density": "0.727 gm/mL",
+            "compressibility_index": "19.2%",
+            "hausner_ratio": "1.17",
+            "loss_on_drying": "1.45%",
+            "friability": "1.0%",
+            "assay": "102.3%"
+        }
+    ],
+    "pre_compression_parameters_tablets": [
+        {
+            "batch": "032_T1",
+            "hardness": "3.6 Kg/cm2",
+            "thickness": "5.19 mm",
+            "weight": "397.6 mg",
+            "friability": "1.22%",
+            "drug_content": "98.5%",
+            "disintegration_time": "2.3 min"
+        },
+        {
+            "batch": "032_T2",
+            "hardness": "3.9 Kg/cm2",
+            "thickness": "5.35 mm",
+            "weight": "401.2 mg",
+            "friability": "1.03%",
+            "drug_content": "98%",
+            "disintegration_time": "5.30 min"
+        },
+        {
+            "batch": "032_T3",
+            "hardness": "4.5 Kg/cm2",
+            "thickness": "5.80 mm",
+            "weight": "399.9 mg",
+            "friability": "0.54%",
+            "drug_content": "100.1%",
+            "disintegration_time": "7.45 min"
+        },
+        {
+            "batch": "032_T4",
+            "hardness": "5.0 Kg/cm2",
+            "thickness": "5.44 mm",
+            "weight": "404.5 mg",
+            "friability": "0.12%",
+            "drug_content": "99.5%",
+            "disintegration_time": "10.20 min"
+        }
+    ],
+    "composition_of_independent_variables": "The independent variables were the type of polymer coating (Surelease, Ethyl cellulose N50, Kollicoat SR 30D) and the percentage of coating (7.5%, 10%, 12.5%, 15%) for pellets. For tablets, the independent variable was the concentration of Lubritab (0, 10, 15, 20 mg/tablet).",
+    "ftir_spectral_measurements": {
+        "method": "About 2 mg of sample was mixed with dried KBr, pressed into a pellet, and scanned from 4000 to 400 cm-1 in a spectrophotometer.",
+        "findings": "FT-IR spectra showed typical peaks for Metoprolol succinate, confirming its purity. No significant interactions or instability were observed between the drug and excipients (Ethyl cellulose N50, Kollicoat SR30D). Major peaks for functional groups (C-N, C-H Alkane, N-H Bending, OCH3-stretching, C=C) showed no significant change in physical mixtures.",
+        "peaks_table": [
+            {
+                "functional_group": "C-N",
+                "peak_MS": "1215 cm-1",
+                "peak_MS_ECN50": "1217 cm-1",
+                "peak_MS_KSR30D": "1219 cm-1"
+            },
+            {
+                "functional_group": "C-H Alkane",
+                "peak_MS": "2847 cm-1",
+                "peak_MS_ECN50": "2850 cm-1",
+                "peak_MS_KSR30D": "2850 cm-1"
+            },
+            {
+                "functional_group": "N-H Bending",
+                "peak_MS": "1630 cm-1",
+                "peak_MS_ECN50": "1646 cm-1",
+                "peak_MS_KSR30D": "1639 cm-1"
+            },
+            {
+                "functional_group": "OCH3-stretching",
+                "peak_MS": "1159 cm-1",
+                "peak_MS_ECN50": "1212 cm-1",
+                "peak_MS_KSR30D": "1219 cm-1"
+            },
+            {
+                "functional_group": "C=C",
+                "peak_MS": "3306 cm-1",
+                "peak_MS_ECN50": "3312 cm-1",
+                "peak_MS_KSR30D": "3318 cm-1"
+            }
+        ]
+    },
+    "tablet_fabrication_properties": [
+        {
+            "batch": "032_T1",
+            "hardness": "3.6 Kg/cm2",
+            "friability": "1.22%",
+            "weight_variation": "397.6 mg",
+            "thickness": "5.19 mm",
+            "density": null,
+            "drug_content": "98.5%",
+            "consolidation_index": null
+        },
+        {
+            "batch": "032_T2",
+            "hardness": "3.9 Kg/cm2",
+            "friability": "1.03%",
+            "weight_variation": "401.2 mg",
+            "thickness": "5.35 mm",
+            "density": null,
+            "drug_content": "98%",
+            "consolidation_index": null
+        },
+        {
+            "batch": "032_T3",
+            "hardness": "4.5 Kg/cm2",
+            "friability": "0.54%",
+            "weight_variation": "399.9 mg",
+            "thickness": "5.80 mm",
+            "density": null,
+            "drug_content": "100.1%",
+            "consolidation_index": null
+        },
+        {
+            "batch": "032_T4",
+            "hardness": "5.0 Kg/cm2",
+            "friability": "0.12%",
+            "weight_variation": "404.5 mg",
+            "thickness": "5.44 mm",
+            "density": null,
+            "drug_content": "99.5%",
+            "consolidation_index": null
+        }
+    ],
+    "process_parameters": {
+        "drug_loading": {
+            "equipment": "Conventional coating pan",
+            "conditions": {
+                "bed_temperature": "~45°C",
+                "compressed_air_pressure": "1.0 - 2.0 kg/cm2",
+                "peristaltic_pump_speed": "10 - 40 rpm",
+                "gun_distance": "15 - 20 cm from pellet bed"
+            }
+        },
+        "drying": {
+            "equipment": "Tray drier",
+            "conditions": {
+                "inlet_temperature": "50±5°C",
+                "bed_temperature": "40 - 45°C"
+            }
+        },
+        "coating": {
+            "equipment": "Fluidised Bed Coater (FBC) with bottom spray Wurster",
+            "conditions": {
+                "inlet_temperature": "45 - 50°C",
+                "bed_temperature": "40 - 45°C",
+                "application_rate": "1 - 3 mL/min",
+                "atomizing_air_pressure": "0.8 - 1 Kg/cm2"
+            }
+        },
+        "compression": {
+            "equipment": "8 station tablet compression machine (Karnavati Mini Press II)",
+            "conditions": "Direct compression method. Blend mixed in Double cone blender for 2-4 minutes."
+        }
+    },
+    "release_properties": [
+        {
+            "batch": "032_T1",
+            "release_mechanism": null,
+            "release_profile": "Dissolution profile not super-imposable with marketed preparation. Showed faster release initially? (from Fig 7)",
+            "factors_influencing_release": "pH 6.8 phosphate buffer",
+            "release_kinetics": null,
+            "f1": "12.5",
+            "f2": "59.3"
+        },
+        {
+            "batch": "032_T2",
+            "release_mechanism": null,
+            "release_profile": "Dissolution profile not super-imposable with marketed preparation. Showed faster release initially? (from Fig 7)",
+            "factors_influencing_release": "pH 6.8 phosphate buffer",
+            "release_kinetics": null,
+            "f1": "9.8",
+            "f2": "58.9"
+        },
+        {
+            "batch": "032_T3",
+            "release_mechanism": null,
+            "release_profile": "Similar drug release pattern to marketed preparation, but 032_T4 was more similar.",
+            "factors_influencing_release": "pH 6.8 phosphate buffer",
+            "release_kinetics": null,
+            "f1": "6.3",
+            "f2": "79.2"
+        },
+        {
+            "batch": "032_T4",
+            "release_mechanism": "Super case-II transport (anomalous diffusion) by erosion and diffusion mechanism.",
+            "release_profile": "Most similar to innovator (TOPROL-XL). Extended release over 20 hours.",
+            "factors_influencing_release": "pH 6.8 phosphate buffer",
+            "release_kinetics": {
+                "zero_order_r2": "0.9712",
+                "first_order_r2": "0.9769",
+                "higuchi_r2": "0.9880",
+                "korsmeyer_peppas_r2": "0.9928",
+                "korsmeyer_peppas_n": "0.9928",
+                "best_fit_model": "Korsmeyer-Peppas"
+            },
+            "f1": "2.8",
+            "f2": "87.4"
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "032_T1",
+            "hardness": "3.6 Kg/cm2",
+            "friability": "1.22%",
+            "disintegration_time": "2.3 min",
+            "dissolution_profile": "At 20 hrs: not specified, but f2 with innovator is 59.3.",
+            "stability": "Not evaluated for 032_T1",
+            "thickness": "5.19 mm",
+            "weight_variation": "397.6 mg",
+            "lag_time": null,
+            "total_floating_time": null,
+            "swelling_index": null
+        },
+        {
+            "batch": "032_T2",
+            "hardness": "3.9 Kg/cm2",
+            "friability": "1.03%",
+            "disintegration_time": "5.30 min",
+            "dissolution_profile": "At 20 hrs: not specified, but f2 with innovator is 58.9.",
+            "stability": "Not evaluated for 032_T2",
+            "thickness": "5.35 mm",
+            "weight_variation": "401.2 mg",
+            "lag_time": null,
+            "total_floating_time": null,
+            "swelling_index": null
+        },
+        {
+            "batch": "032_T3",
+            "hardness": "4.5 Kg/cm2",
+            "friability": "0.54%",
+            "disintegration_time": "7.45 min",
+            "dissolution_profile": "At 20 hrs: not specified, but f2 with innovator is 79.2.",
+            "stability": "Not evaluated for 032_T3",
+            "thickness": "5.80 mm",
+            "weight_variation": "399.9 mg",
+            "lag_time": null,
+            "total_floating_time": null,
+            "swelling_index": null
+        },
+        {
+            "batch": "032_T4",
+            "hardness": "5.0 Kg/cm2",
+            "friability": "0.12%",
+            "disintegration_time": "10.20 min",
+            "dissolution_profile": "At 20 hrs: ~91.5% (from Fig 12), f2=87.4, f1=2.8. Most similar to innovator.",
+            "stability": "Stable at 25°C/60% RH and 40°C/75% RH for 3 months. No significant change in dissolution profile or physicochemical parameters.",
+            "thickness": "5.44 mm",
+            "weight_variation": "404.5 mg",
+            "lag_time": null,
+            "total_floating_time": null,
+            "swelling_index": null
+        }
+    ],
+    "experimental_data": {
+        "in_vitro_dissolution": {
+            "method": "USP type II (Paddle) apparatus, 500 mL pH 6.8 phosphate buffer, 50 rpm, 37±0.5°C, samples withdrawn at 1,4,8,12,20 hours, analyzed at 223 nm.",
+            "pellet_dissolution": {
+                "F3_Surelease_7.5%": "90.6% at 20 hrs",
+                "F4_Surelease_10%": "84.2% at 20 hrs",
+                "F5_Surelease_12.5%": "80.9% at 20 hrs",
+                "F6_ECN50_7.5%": "95.6% at 20 hrs",
+                "F7_ECN50_10%": "93.1% at 20 hrs",
+                "F8_ECN50_12.5%": "90.6% at 20 hrs",
+                "F9_ECN50_15%": "88.6% at 20 hrs",
+                "F10_Kollicoat_7.5%": "92.1% at 20 hrs",
+                "F11_Kollicoat_10%": "83.9% at 20 hrs",
+                "F12_Kollicoat_12.5%": "67.8% at 20 hrs"
+            },
+            "tablet_dissolution": {
+                "032_T1": "f2=59.3, not super-imposable with innovator",
+                "032_T2": "f2=58.9, not super-imposable with innovator",
+                "032_T3": "f2=79.2, similar to innovator",
+                "032_T4": "f2=87.4, most similar to innovator"
+            }
+        },
+        "statistical_analysis": "Similarity factor (f2) and dissimilarity factor (f1) were used to compare dissolution profiles of test formulations with the marketed product (innovator).",
+        "performance_metrics": {
+            "best_pellet_formulation": "032_F10 (7.5% Kollicoat SR 30D coating) with good flow, compressibility, and dissolution profile similar to innovator.",
+            "best_tablet_formulation": "032_T4 (20 mg Lubritab) with hardness 5.0 Kg/cm2, friability 0.12%, disintegration time 10.20 min, drug content 99.5%, and dissolution profile most similar to innovator (f2=87.4)."
+        },
+        "release_kinetics_summary": {
+            "032_T4": {
+                "zero_order_r2": 0.9712,
+                "first_order_r2": 0.9769,
+                "higuchi_r2": 0.988,
+                "korsmeyer_peppas_r2": 0.9928,
+                "korsmeyer_peppas_n": 0.9928,
+                "mechanism": "Super case-II transport (anomalous diffusion) by erosion and diffusion"
+            }
+        },
+        "stability_summary": "032_T4 formulation was stable for 3 months at 25°C/60% RH and 40°C/75% RH. No significant changes in description, weight, hardness, thickness, friability, or dissolution profile."
+    }
+}

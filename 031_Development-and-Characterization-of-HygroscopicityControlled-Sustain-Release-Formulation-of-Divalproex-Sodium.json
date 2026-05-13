@@ -1,0 +1,727 @@
+{
+    "materials_origin": {
+        "divalproex_sodium": "ROAQ Chemicals Pvt. Ltd. (India)",
+        "polyethylene_glycol_8000": "LAR-CHEM Industries (India)",
+        "hydroxypropyl_methylcellulose_K100M": "The Dow Chemical Company (USA)",
+        "lactose_monohydrate": "Modern Dairy (China)",
+        "colloidal_silicon_dioxide": "Evonic Industries (Germany)"
+    },
+    "experimental_design_for_optimization": {
+        "design_type": "Box-Behnken",
+        "software": "Minitab 17",
+        "factors": [
+            {
+                "name": "PEG-8000",
+                "unit": "mg/Tab",
+                "low": 42,
+                "middle": 84,
+                "high": 126
+            },
+            {
+                "name": "Intragranular HPMC K100M",
+                "unit": "mg/Tab",
+                "low": 66,
+                "middle": 83,
+                "high": 100
+            },
+            {
+                "name": "Extragranular HPMC K100M",
+                "unit": "mg/Tab",
+                "low": 117,
+                "middle": 133,
+                "high": 150
+            }
+        ]
+    },
+    "ingredients_identification": {
+        "preparation_method": "Melt granulation technique",
+        "process_steps": [
+            "Step 1: PEG-8000 was melted in a stainless steel vessel. DS was gradually added with continuous stirring.",
+            "Step 2: At 97-98°C, DS dissolved completely. Intragranular HPMC K100M was gradually added with continuous stirring to obtain a translucent hot homogeneous mixture.",
+            "Step 3: The hot homogeneous phase was poured into stainless steel trays and allowed to cool gradually at room temperature (25°C) to form a solid dispersion block."
+        ],
+        "results": {
+            "thermal_stability_of_DS": "Assay of 99.579% after heating at 110°C for 30 minutes; chromatogram showed no secondary peak, indicating excellent thermal stability.",
+            "phase_behavior": "PEG-8000 and DS alone showed phase separation upon cooling. With all three components (PEG-8000, HPMC K100M, DS), a monophasic homogeneous mixture without phase separation was obtained."
+        },
+        "ftir_absorbance_data": [
+            {
+                "wavenumber_cm1": 2957,
+                "ds_transmittance": "87.74%",
+                "solid_dispersion_transmittance": "82.26%",
+                "remarks": "Asymmetric C-H stretch of CH3."
+            },
+            {
+                "wavenumber_cm1": 2933,
+                "ds_transmittance": "88.50%",
+                "solid_dispersion_transmittance": "83.76%",
+                "remarks": "Asymmetric C-H stretch of CH2."
+            },
+            {
+                "wavenumber_cm1": 2873,
+                "ds_transmittance": "91.15%",
+                "solid_dispersion_transmittance": "86.29%",
+                "remarks": "Symmetric C-H stretch of CH3."
+            },
+            {
+                "wavenumber_cm1": 1689,
+                "ds_transmittance": "87.75%",
+                "solid_dispersion_transmittance": "83.63%",
+                "remarks": "C=O stretch of valproic acid. No significant shift, indicating absence of carbonyl interaction."
+            },
+            {
+                "wavenumber_cm1": 1555,
+                "ds_transmittance": "84.09%",
+                "solid_dispersion_transmittance": "79.64%",
+                "remarks": "C=O stretch of valproate ion. No significant shift, indicating absence of carbonyl interaction."
+            },
+            {
+                "wavenumber_cm1": 1465,
+                "ds_transmittance": "88.73%",
+                "solid_dispersion_transmittance": "84.59%",
+                "remarks": "C-H bend/scissoring in CH2."
+            },
+            {
+                "wavenumber_cm1": 1379,
+                "ds_transmittance": "84.39%",
+                "solid_dispersion_transmittance": "79.99%",
+                "remarks": "C-H rocking in -CH3."
+            },
+            {
+                "wavenumber_cm1": 1256,
+                "ds_transmittance": "82.28%",
+                "solid_dispersion_transmittance": "77.38%",
+                "remarks": null
+            },
+            {
+                "wavenumber_cm1": 1217,
+                "ds_transmittance": "81.69%",
+                "solid_dispersion_transmittance": "77.07%",
+                "remarks": null
+            },
+            {
+                "wavenumber_cm1": 1107,
+                "ds_transmittance": "85.60%",
+                "solid_dispersion_transmittance": "73.37%",
+                "remarks": "C-O stretching vibrations in C-O-C bond of PEG. Higher absorption in solid dispersion suggests involvement in hydrogen bonding, possibly with water."
+            }
+        ]
+    },
+    "formulation_details": [
+        {
+            "batch": "031_R1",
+            "ingredients": {
+                "PEG8000_mg": 84,
+                "intragranular_HPMC_K100M_mg": 100,
+                "extragranular_HPMC_K100M_mg": 150,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 25,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "R2",
+            "ingredients": {
+                "PEG8000_mg": 126,
+                "intragranular_HPMC_K100M_mg": 100,
+                "extragranular_HPMC_K100M_mg": 133,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 0,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R3",
+            "ingredients": {
+                "PEG8000_mg": 126,
+                "intragranular_HPMC_K100M_mg": 83,
+                "extragranular_HPMC_K100M_mg": 150,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 0,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R4",
+            "ingredients": {
+                "PEG8000_mg": 42,
+                "intragranular_HPMC_K100M_mg": 83,
+                "extragranular_HPMC_K100M_mg": 150,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 84,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R5",
+            "ingredients": {
+                "PEG8000_mg": 126,
+                "intragranular_HPMC_K100M_mg": 66,
+                "extragranular_HPMC_K100M_mg": 133,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 34,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R6",
+            "ingredients": {
+                "PEG8000_mg": 42,
+                "intragranular_HPMC_K100M_mg": 66,
+                "extragranular_HPMC_K100M_mg": 133,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 118,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R7",
+            "ingredients": {
+                "PEG8000_mg": 126,
+                "intragranular_HPMC_K100M_mg": 83,
+                "extragranular_HPMC_K100M_mg": 117,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 33,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R8",
+            "ingredients": {
+                "PEG8000_mg": 84,
+                "intragranular_HPMC_K100M_mg": 83,
+                "extragranular_HPMC_K100M_mg": 133,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 59,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R9",
+            "ingredients": {
+                "PEG8000_mg": 42,
+                "intragranular_HPMC_K100M_mg": 100,
+                "extragranular_HPMC_K100M_mg": 133,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 84,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R10",
+            "ingredients": {
+                "PEG8000_mg": 84,
+                "intragranular_HPMC_K100M_mg": 66,
+                "extragranular_HPMC_K100M_mg": 117,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 92,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R11",
+            "ingredients": {
+                "PEG8000_mg": 84,
+                "intragranular_HPMC_K100M_mg": 66,
+                "extragranular_HPMC_K100M_mg": 150,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 59,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R12",
+            "ingredients": {
+                "PEG8000_mg": 84,
+                "intragranular_HPMC_K100M_mg": 83,
+                "extragranular_HPMC_K100M_mg": 133,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 59,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R13",
+            "ingredients": {
+                "PEG8000_mg": 42,
+                "intragranular_HPMC_K100M_mg": 83,
+                "extragranular_HPMC_K100M_mg": 117,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 117,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R14",
+            "ingredients": {
+                "PEG8000_mg": 84,
+                "intragranular_HPMC_K100M_mg": 100,
+                "extragranular_HPMC_K100M_mg": 117,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 58,
+                "final_weight_mg": 615
+            }
+        },
+        {
+            "batch": "031_R15",
+            "ingredients": {
+                "PEG8000_mg": 84,
+                "intragranular_HPMC_K100M_mg": 83,
+                "extragranular_HPMC_K100M_mg": 133,
+                "divalproex_sodium_mg": 250,
+                "aerosil_mg": 6,
+                "lactose_monohydrate_mg": 59,
+                "final_weight_mg": 615
+            }
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "031_R1",
+            "bulk_density_g_ml": 0.417,
+            "tapped_density_g_ml": 0.5,
+            "carr_index": 16.67,
+            "hausner_ratio": 1.2
+        },
+        {
+            "batch": "R2",
+            "bulk_density_g_ml": 0.449,
+            "tapped_density_g_ml": 0.522,
+            "carr_index": 14.0,
+            "hausner_ratio": 1.163
+        },
+        {
+            "batch": "031_R3",
+            "bulk_density_g_ml": 0.435,
+            "tapped_density_g_ml": 0.53,
+            "carr_index": 18.0,
+            "hausner_ratio": 1.22
+        },
+        {
+            "batch": "031_R4",
+            "bulk_density_g_ml": 0.426,
+            "tapped_density_g_ml": 0.519,
+            "carr_index": 18.0,
+            "hausner_ratio": 1.22
+        },
+        {
+            "batch": "031_R5",
+            "bulk_density_g_ml": 0.45,
+            "tapped_density_g_ml": 0.536,
+            "carr_index": 16.0,
+            "hausner_ratio": 1.19
+        },
+        {
+            "batch": "031_R6",
+            "bulk_density_g_ml": 0.439,
+            "tapped_density_g_ml": 0.535,
+            "carr_index": 18.0,
+            "hausner_ratio": 1.22
+        },
+        {
+            "batch": "031_R7",
+            "bulk_density_g_ml": 0.447,
+            "tapped_density_g_ml": 0.545,
+            "carr_index": 18.0,
+            "hausner_ratio": 1.22
+        },
+        {
+            "batch": "031_R8",
+            "bulk_density_g_ml": 0.453,
+            "tapped_density_g_ml": 0.526,
+            "carr_index": 14.0,
+            "hausner_ratio": 1.163
+        },
+        {
+            "batch": "031_R9",
+            "bulk_density_g_ml": 0.449,
+            "tapped_density_g_ml": 0.535,
+            "carr_index": 16.0,
+            "hausner_ratio": 1.19
+        },
+        {
+            "batch": "031_R10",
+            "bulk_density_g_ml": 0.433,
+            "tapped_density_g_ml": 0.528,
+            "carr_index": 18.0,
+            "hausner_ratio": 1.22
+        },
+        {
+            "batch": "031_R11",
+            "bulk_density_g_ml": 0.427,
+            "tapped_density_g_ml": 0.508,
+            "carr_index": 16.0,
+            "hausner_ratio": 1.19
+        },
+        {
+            "batch": "031_R12",
+            "bulk_density_g_ml": 0.448,
+            "tapped_density_g_ml": 0.534,
+            "carr_index": 16.0,
+            "hausner_ratio": 1.19
+        },
+        {
+            "batch": "031_R13",
+            "bulk_density_g_ml": 0.442,
+            "tapped_density_g_ml": 0.514,
+            "carr_index": 14.0,
+            "hausner_ratio": 1.163
+        },
+        {
+            "batch": "031_R14",
+            "bulk_density_g_ml": 0.443,
+            "tapped_density_g_ml": 0.527,
+            "carr_index": 16.0,
+            "hausner_ratio": 1.19
+        },
+        {
+            "batch": "031_R15",
+            "bulk_density_g_ml": 0.444,
+            "tapped_density_g_ml": 0.528,
+            "carr_index": 16.0,
+            "hausner_ratio": 1.19
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "031_R1",
+            "weight_variation_mg": "614.4 ± 4.55",
+            "hardness_kg_cm2": "11.04 ± 0.91",
+            "thickness_mm": "6.891 ± 0.034",
+            "friability_percent": 0.0005,
+            "drug_content_assay_percent": 99.76
+        },
+        {
+            "batch": "R2",
+            "weight_variation_mg": "615.2 ± 3.45",
+            "hardness_kg_cm2": "13.57 ± 0.49",
+            "thickness_mm": "6.873 ± 0.066",
+            "friability_percent": 0.0008,
+            "drug_content_assay_percent": 100.59
+        },
+        {
+            "batch": "031_R3",
+            "weight_variation_mg": "617.95 ± 2.69",
+            "hardness_kg_cm2": "13.25 ± 0.57",
+            "thickness_mm": "6.864 ± 0.075",
+            "friability_percent": 0.003,
+            "drug_content_assay_percent": 99.57
+        },
+        {
+            "batch": "031_R4",
+            "weight_variation_mg": "618.55 ± 3.82",
+            "hardness_kg_cm2": "13.22 ± 0.48",
+            "thickness_mm": "6.943 ± 0.043",
+            "friability_percent": 0.0012,
+            "drug_content_assay_percent": 99.35
+        },
+        {
+            "batch": "031_R5",
+            "weight_variation_mg": "615.6 ± 2.61",
+            "hardness_kg_cm2": "11.81 ± 0.48",
+            "thickness_mm": "6.795 ± 0.026",
+            "friability_percent": 0.0012,
+            "drug_content_assay_percent": 98.93
+        },
+        {
+            "batch": "031_R6",
+            "weight_variation_mg": "616.9 ± 3.25",
+            "hardness_kg_cm2": "11.84 ± 0.46",
+            "thickness_mm": "6.965 ± 0.034",
+            "friability_percent": 0.0017,
+            "drug_content_assay_percent": 99.41
+        },
+        {
+            "batch": "031_R7",
+            "weight_variation_mg": "615.95 ± 2.26",
+            "hardness_kg_cm2": "12.39 ± 0.42",
+            "thickness_mm": "6.932 ± 0.044",
+            "friability_percent": 0.0005,
+            "drug_content_assay_percent": 100.83
+        },
+        {
+            "batch": "031_R8",
+            "weight_variation_mg": "617.1 ± 3.98",
+            "hardness_kg_cm2": "11.72 ± 0.84",
+            "thickness_mm": "6.995 ± 0.034",
+            "friability_percent": 0.0014,
+            "drug_content_assay_percent": 99.67
+        },
+        {
+            "batch": "031_R9",
+            "weight_variation_mg": "615.05 ± 1.8",
+            "hardness_kg_cm2": "12.12 ± 0.66",
+            "thickness_mm": "6.82 ± 0.058",
+            "friability_percent": 0.0021,
+            "drug_content_assay_percent": 100.46
+        },
+        {
+            "batch": "031_R10",
+            "weight_variation_mg": "616.45 ± 2.59",
+            "hardness_kg_cm2": "12.17 ± 0.35",
+            "thickness_mm": "6.866 ± 0.035",
+            "friability_percent": 0.0015,
+            "drug_content_assay_percent": 100.59
+        },
+        {
+            "batch": "031_R11",
+            "weight_variation_mg": "615.2 ± 2.31",
+            "hardness_kg_cm2": "12.83 ± 0.32",
+            "thickness_mm": "6.897 ± 0.046",
+            "friability_percent": 0.0011,
+            "drug_content_assay_percent": 99.85
+        },
+        {
+            "batch": "031_R12",
+            "weight_variation_mg": "615.6 ± 2.38",
+            "hardness_kg_cm2": "11.87 ± 0.59",
+            "thickness_mm": "6.947 ± 0.027",
+            "friability_percent": 0.0017,
+            "drug_content_assay_percent": 99.53
+        },
+        {
+            "batch": "031_R13",
+            "weight_variation_mg": "616.75 ± 2.56",
+            "hardness_kg_cm2": "11.86 ± 0.48",
+            "thickness_mm": "6.884 ± 0.046",
+            "friability_percent": 0.0015,
+            "drug_content_assay_percent": 101.26
+        },
+        {
+            "batch": "031_R14",
+            "weight_variation_mg": "617.05 ± 2.65",
+            "hardness_kg_cm2": "12.62 ± 0.38",
+            "thickness_mm": "6.908 ± 0.047",
+            "friability_percent": 0.0018,
+            "drug_content_assay_percent": 100.79
+        },
+        {
+            "batch": "031_R15",
+            "weight_variation_mg": "615.85 ± 1.93",
+            "hardness_kg_cm2": "12.07 ± 0.35",
+            "thickness_mm": "6.944 ± 0.032",
+            "friability_percent": 0.0014,
+            "drug_content_assay_percent": 100.38
+        }
+    ],
+    "release_properties": [
+        {
+            "batch": "031_R1",
+            "dissolution_profile": {
+                "3h_percent": "29.69 ± 0.25",
+                "9h_percent": "68.65 ± 1.88",
+                "12h_percent": "79.99 ± 4.29",
+                "21h_percent": "99.18 ± 4.42"
+            }
+        },
+        {
+            "batch": "R2",
+            "dissolution_profile": {
+                "3h_percent": "29.41 ± 1.09",
+                "9h_percent": "76.04 ± 2.69",
+                "12h_percent": "83.95 ± 2.18",
+                "21h_percent": "101.58 ± 1.97"
+            }
+        },
+        {
+            "batch": "031_R3",
+            "dissolution_profile": {
+                "3h_percent": "20.79 ± 1.84",
+                "9h_percent": "70.12 ± 2.86",
+                "12h_percent": "81.8 ± 4.94",
+                "21h_percent": "92.65 ± 1.21"
+            }
+        },
+        {
+            "batch": "031_R4",
+            "dissolution_profile": {
+                "3h_percent": "21.61 ± 1.04",
+                "9h_percent": "69.03 ± 2.42",
+                "12h_percent": "77.97 ± 2.96",
+                "21h_percent": "92.59 ± 1.43"
+            }
+        },
+        {
+            "batch": "031_R5",
+            "dissolution_profile": {
+                "3h_percent": "28.08 ± 1.31",
+                "9h_percent": "67.38 ± 3.56",
+                "12h_percent": "76.17 ± 3.39",
+                "21h_percent": "96.37 ± 0.38"
+            }
+        },
+        {
+            "batch": "031_R6",
+            "dissolution_profile": {
+                "3h_percent": "28.22 ± 1.25",
+                "9h_percent": "71.54 ± 1.77",
+                "12h_percent": "84.8 ± 2.05",
+                "21h_percent": "95.43 ± 4.24"
+            }
+        },
+        {
+            "batch": "031_R7",
+            "dissolution_profile": {
+                "3h_percent": "31.7 ± 4.43",
+                "9h_percent": "77.28 ± 2.36",
+                "12h_percent": "86.3 ± 0.61",
+                "21h_percent": "99.15 ± 2.16"
+            }
+        },
+        {
+            "batch": "031_R8",
+            "dissolution_profile": {
+                "3h_percent": "29.14 ± 1.27",
+                "9h_percent": "72.33 ± 0.49",
+                "12h_percent": "83.14 ± 1.8",
+                "21h_percent": "99.28 ± 0.85"
+            }
+        },
+        {
+            "batch": "031_R9",
+            "dissolution_profile": {
+                "3h_percent": "27.19 ± 1.48",
+                "9h_percent": "68.32 ± 3.76",
+                "12h_percent": "80.69 ± 2.89",
+                "21h_percent": "104.11 ± 2.11"
+            }
+        },
+        {
+            "batch": "031_R10",
+            "dissolution_profile": {
+                "3h_percent": "33.94 ± 1.33",
+                "9h_percent": "78.37 ± 2.31",
+                "12h_percent": "93.74 ± 4.6",
+                "21h_percent": "107.12 ± 3.13"
+            }
+        },
+        {
+            "batch": "031_R11",
+            "dissolution_profile": {
+                "3h_percent": "26.61 ± 1.44",
+                "9h_percent": "71.68 ± 2.65",
+                "12h_percent": "87.04 ± 2.19",
+                "21h_percent": "103.13 ± 2.19"
+            }
+        },
+        {
+            "batch": "031_R12",
+            "dissolution_profile": {
+                "3h_percent": "29.3 ± 2.09",
+                "9h_percent": "72.01 ± 1.03",
+                "12h_percent": "82.55 ± 1.84",
+                "21h_percent": "99.57 ± 2.48"
+            }
+        },
+        {
+            "batch": "031_R13",
+            "dissolution_profile": {
+                "3h_percent": "28.24 ± 0.68",
+                "9h_percent": "72.43 ± 1.25",
+                "12h_percent": "83.42 ± 0.8",
+                "21h_percent": "105.0 ± 2.1"
+            }
+        },
+        {
+            "batch": "031_R14",
+            "dissolution_profile": {
+                "3h_percent": "25.72 ± 1.21",
+                "9h_percent": "70.63 ± 1.77",
+                "12h_percent": "82.62 ± 1.65",
+                "21h_percent": "98.09 ± 2.63"
+            }
+        },
+        {
+            "batch": "031_R15",
+            "dissolution_profile": {
+                "3h_percent": "29.16 ± 2.29",
+                "9h_percent": "72.27 ± 0.59",
+                "12h_percent": "83.32 ± 2.11",
+                "21h_percent": "99.64 ± 2.39"
+            }
+        }
+    ],
+    "optimized_formulation": {
+        "composition_mg": {
+            "divalproex_sodium": 250,
+            "PEG8000": 42,
+            "intragranular_HPMC_K100M": 88.66,
+            "extragranular_HPMC_K100M": 150,
+            "aerosil": 6,
+            "lactose_monohydrate": 78.34,
+            "total": 615
+        },
+        "target_release_profile": {
+            "3h": "24% release",
+            "9h": "65% release",
+            "12h": "78% release",
+            "21h": "95% release"
+        },
+        "hygroscopicity": "1.71% weight gain at 52% RH after 48h (28.15% less hygroscopic than DS, which gained 2.38%)",
+        "physical_observation": "Solid dispersion remained free-flowing granules; DS clumped into a single mass."
+    },
+    "release_kinetics_optimized": {
+        "zero_order": {
+            "regression_equation": "y = 4.6439x + 2.5423",
+            "r_squared": 0.995
+        },
+        "first_order": {
+            "regression_equation": "y = -0.0727x + 2.1873",
+            "r_squared": 0.876
+        },
+        "higuchi_model": {
+            "regression_equation": "y = 21.087x - 9.5554",
+            "r_squared": 0.938
+        },
+        "korsmeyer_peppas": {
+            "k": 5.689,
+            "n": 0.9573,
+            "r_squared": 0.9999,
+            "mechanism": "Non-Fickian (anomalous transport), approaching zero-order (n close to 1)"
+        },
+        "hixson_crowell": {
+            "regression_equation": "y = -0.1526x + 4.8832",
+            "r_squared": 0.952
+        }
+    },
+    "ftir_spectral_measurements": {
+        "instrument_conditions": "Not specified in text.",
+        "key_findings": "No significant shift in carbonyl peaks (1689 cm⁻¹, 1555 cm⁻¹) of DS in the solid dispersion, indicating absence of chemical interaction between drug and polymers. Increased absorption at 1107 cm⁻¹ suggests hydrogen bonding of PEG's C-O bond, possibly with water."
+    },
+    "dsc_analysis": {
+        "instrument_conditions": "Not specified in text.",
+        "key_findings": {
+            "DS": "Endothermic peak at 100.25°C (evaporation of valproic acid).",
+            "DS_solid_dispersion": "Endothermic peak at 99.95°C, indicating no significant molecular interaction with valproic acid.",
+            "PEG8000": "Melting endotherm at 61.62°C.",
+            "PEG_in_solid_dispersion": "Tm decreased to 57.41°C, suggesting interaction with water molecules."
+        }
+    },
+    "process_parameters": {
+        "granulation": "Multi Mill fitted with a 1 mm screen.",
+        "compression": {
+            "device": "Not specified.",
+            "target_weight_mg": 615,
+            "target_thickness_mm": "6.78 ± 0.2",
+            "tablet_shape": "Oval, 7mm long"
+        },
+        "environmental_conditions": {
+            "dispensing": "25°C, 40% RH",
+            "manufacturing": "25 ± 2°C, 50 ± 5% RH"
+        }
+    }
+}

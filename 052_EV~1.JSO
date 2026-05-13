@@ -1,0 +1,391 @@
+{
+    "article_overview": {
+        "title": "Lipid-Based Co-Processed Excipients for Modified-Release Ibuprofen Tablets",
+        "authors": "Ivana Aleksic et al.",
+        "sections_identified": [
+            "Abstract",
+            "Introduction",
+            "Materials and Methods",
+            "Results and Discussion",
+            "Conclusions"
+        ]
+    },
+    "extracted_data": {
+        "materials_origin": {
+            "glyceryl_palmitostearate": "Precirol ATOS, Gattefosse S.A.S, Saint-Priest Cedex, France",
+            "lactose_monohydrate": "Carlo Erba Reagents, Milan, Italy",
+            "ibuprofen": "Fagron, Rotterdam, The Netherlands",
+            "sodium_hydroxide": "Fisher Scientific, Loughborough, UK",
+            "potassium_phosphate_monobasic": "Sigma-Aldrich Chemie GmbH, Steinheim, Germany",
+            "hydrochloric_acid": "Avantor Performance Materials Poland S.A., Gliwice, Poland"
+        },
+        "experimental_design_for_optimization": {
+            "design_type": "Full factorial design",
+            "independent_variables": [
+                {
+                    "name": "Binder particle size (μm)",
+                    "symbol": "X1",
+                    "low_level": 150,
+                    "high_level": 655
+                },
+                {
+                    "name": "Ibuprofen content (%)",
+                    "symbol": "X2",
+                    "low_level": 30,
+                    "high_level": 70
+                },
+                {
+                    "name": "Compression speed (mm/min)",
+                    "symbol": "X3",
+                    "low_level": 60,
+                    "high_level": 120
+                },
+                {
+                    "name": "Compression load (kg)",
+                    "symbol": "X4",
+                    "low_level": 200,
+                    "high_level": 500
+                }
+            ],
+            "response_variables": [
+                "Network of compression (NW)",
+                "Detachment stress (DS)",
+                "Ejection stress (ES)",
+                "Elastic recovery (ER)",
+                "Tensile strength (TS)"
+            ]
+        },
+        "ingredients_identification": {
+            "preparation_method": "In situ fluidized bed melt granulation",
+            "equipment": "Mycrolab fluid bed processor (OYSTAR Huttlin, Schopfheim, Germany)",
+            "process_conditions": {
+                "batch_size": "200 g",
+                "composition": "85% lactose monohydrate, 15% Precirol particles",
+                "granulation_temperature": "65°C",
+                "inlet_air_flow_rate": "30 m³/h",
+                "granulation_time": "10 minutes",
+                "cooling_temperature": "Below 30°C"
+            },
+            "absorbance": "UV spectrophotometrically at 221 nm (for dissolution samples)"
+        },
+        "formulation_details": [
+            {
+                "batch": "052_C150-30",
+                "excipients": {
+                    "lactose_monohydrate": "85% of excipient",
+                    "glyceryl_palmitostearate": "15% of excipient (particle size ≈150 μm)"
+                },
+                "active_ingredient": "Ibuprofen",
+                "formulation_composition": "30% ibuprofen, 70% co-processed excipient",
+                "mass_per_tablet": "100 mg total compact mass"
+            },
+            {
+                "batch": "052_C150-70",
+                "excipients": {
+                    "lactose_monohydrate": "85% of excipient",
+                    "glyceryl_palmitostearate": "15% of excipient (particle size ≈150 μm)"
+                },
+                "active_ingredient": "Ibuprofen",
+                "formulation_composition": "70% ibuprofen, 30% co-processed excipient",
+                "mass_per_tablet": "100 mg total compact mass"
+            },
+            {
+                "batch": "052_C655-30",
+                "excipients": {
+                    "lactose_monohydrate": "85% of excipient",
+                    "glyceryl_palmitostearate": "15% of excipient (particle size ≈655 μm)"
+                },
+                "active_ingredient": "Ibuprofen",
+                "formulation_composition": "30% ibuprofen, 70% co-processed excipient",
+                "mass_per_tablet": "100 mg total compact mass"
+            },
+            {
+                "batch": "052_C655-70",
+                "excipients": {
+                    "lactose_monohydrate": "85% of excipient",
+                    "glyceryl_palmitostearate": "15% of excipient (particle size ≈655 μm)"
+                },
+                "active_ingredient": "Ibuprofen",
+                "formulation_composition": "70% ibuprofen, 30% co-processed excipient",
+                "mass_per_tablet": "100 mg total compact mass"
+            }
+        ],
+        "pre_compression_parameters": {
+            "ibuprofen_properties": {
+                "carr_index": "26.24 ± 0.61%",
+                "flowability": "Poor",
+                "particle_size_d10": "11.7 μm",
+                "particle_size_d50": "26.5 μm",
+                "particle_size_d90": "122.0 μm",
+                "span": "21.698"
+            },
+            "co_processed_excipients": [
+                {
+                    "batch": "052_C150",
+                    "aspect_ratio": "1.33 ± 0.20",
+                    "circularity": "0.81 ± 0.05",
+                    "roundness": "0.77 ± 0.11",
+                    "projected_diameter_dA": "204.4 ± 49.5 μm",
+                    "carr_index": "8.33 ± 0.72%",
+                    "flowability": "Excellent"
+                },
+                {
+                    "batch": "052_C655",
+                    "aspect_ratio": "1.14 ± 0.11",
+                    "circularity": "0.86 ± 0.03",
+                    "roundness": "0.88 ± 0.07",
+                    "projected_diameter_dA": "498.7 ± 131.7 μm",
+                    "carr_index": "4.17 ± 0.00%",
+                    "flowability": "Excellent"
+                }
+            ],
+            "mixture_flowability": {
+                "052_C150-30": "Excellent",
+                "052_C150-70": "Passable",
+                "052_C655-30": "Excellent",
+                "052_C655-70": "Fair"
+            }
+        },
+        "composition_of_independent_variables": "Refer to 'experimental_design_for_optimization' section (Table 1 in the article)",
+        "ftir_information": "Not reported in the provided text",
+        "tablet_fabrication": {
+            "equipment": "Instrumented single-punch tablet press (GTP D-series, Gammen Tableting Ltd., Nottingham, UK)",
+            "tooling": "6 mm flat-faced punches",
+            "compact_mass": "100 mg",
+            "process_parameters": {
+                "compression_pressure_range": "200-500 kg (load)",
+                "compression_speed_range": "60-120 mm/min"
+            }
+        },
+        "tablet_properties": [
+            {
+                "batch": "052_C150-30",
+                "compression_conditions": {
+                    "load": "200-500 kg",
+                    "speed": "60-120 mm/min"
+                },
+                "properties": {
+                    "tensile_strength_range": "1.21 - 1.33 MPa",
+                    "detachment_stress_range": "0.43 - 0.74 MPa",
+                    "ejection_stress_range": "0.33 - 0.63 MPa",
+                    "elastic_recovery_range": "17.2 - 25.8%",
+                    "network_of_compression_range": "0.43 - 0.67 J",
+                    "thickness": "Not explicitly reported (calculated from tensile strength equation)",
+                    "diameter": "6 mm",
+                    "weight_variation": "Not reported (target mass 100 mg)",
+                    "drug_content": "30% (30 mg per 100 mg tablet)",
+                    "consolidation_index": "Not explicitly reported (Carr index for mixtures given in pre-compression)"
+                }
+            },
+            {
+                "batch": "052_C150-70",
+                "compression_conditions": {
+                    "load": "200-500 kg",
+                    "speed": "60-120 mm/min"
+                },
+                "properties": {
+                    "tensile_strength_range": "0.86 - 1.18 MPa",
+                    "detachment_stress_range": "0.40 - 1.34 MPa",
+                    "ejection_stress_range": "0.66 - 1.14 MPa",
+                    "elastic_recovery_range": "11.4 - 25.1%",
+                    "network_of_compression_range": "0.40 - 0.63 J",
+                    "thickness": "Not explicitly reported",
+                    "diameter": "6 mm",
+                    "weight_variation": "Not reported",
+                    "drug_content": "70% (70 mg per 100 mg tablet)",
+                    "consolidation_index": "Not explicitly reported"
+                }
+            },
+            {
+                "batch": "052_C655-30",
+                "compression_conditions": {
+                    "load": "200-500 kg",
+                    "speed": "60-120 mm/min"
+                },
+                "properties": {
+                    "tensile_strength_range": "1.09 - 1.50 MPa",
+                    "detachment_stress_range": "0.39 - 1.12 MPa",
+                    "ejection_stress_range": "0.34 - 0.90 MPa",
+                    "elastic_recovery_range": "12.9 - 25.0%",
+                    "network_of_compression_range": "0.40 - 0.61 J",
+                    "thickness": "Not explicitly reported",
+                    "diameter": "6 mm",
+                    "weight_variation": "Not reported",
+                    "drug_content": "30% (30 mg per 100 mg tablet)",
+                    "consolidation_index": "Not explicitly reported"
+                }
+            },
+            {
+                "batch": "052_C655-70",
+                "compression_conditions": {
+                    "load": "200-500 kg",
+                    "speed": "60-120 mm/min"
+                },
+                "properties": {
+                    "tensile_strength_range": "0.86 - 1.09 MPa",
+                    "detachment_stress_range": "0.83 - 1.52 MPa",
+                    "ejection_stress_range": "0.62 - 1.25 MPa",
+                    "elastic_recovery_range": "13.3 - 27.4%",
+                    "network_of_compression_range": "0.40 - 0.62 J",
+                    "thickness": "Not explicitly reported",
+                    "diameter": "6 mm",
+                    "weight_variation": "Not reported",
+                    "drug_content": "70% (70 mg per 100 mg tablet)",
+                    "consolidation_index": "Not explicitly reported"
+                }
+            }
+        ],
+        "process_parameters": {
+            "compression_device": "Instrumented single-punch tablet press (GTP D-series, Gammen Tableting Ltd., Nottingham, UK)",
+            "pressure_range": "Corresponds to 200-500 kg load on 6 mm flat-faced punches",
+            "coating": "Not applicable (direct compression of powders)",
+            "equipment_for_granulation": "Mycrolab fluid bed processor (OYSTAR Huttlin, Schopfheim, Germany)",
+            "process_conditions_for_granulation": {
+                "temperature": "65°C (granulation), cooled to <30°C",
+                "air_flow_rate": "30 m³/h",
+                "time": "10 minutes"
+            }
+        },
+        "release_properties": [
+            {
+                "batch": "052_C150-70",
+                "release_profile": "Prolonged release over 10 hours",
+                "dissolution_medium": "Media change: 0.1M HCl (2h), phosphate buffer pH 6.8 (6h)",
+                "release_kinetics": {
+                    "zero_order_r2": 0.9741,
+                    "first_order_r2": 0.838,
+                    "higuchi_r2": 0.8689,
+                    "korsmeyer_peppas_r2": 0.9467,
+                    "best_fit_model": "Zero-order",
+                    "release_mechanism": "Surface erosion of lipid matrix"
+                },
+                "factors_influencing_release": "pH change (acidic to phosphate buffer), lipid matrix formation",
+                "dissolution_profile_data": [
+                    {
+                        "time_h": 1,
+                        "percent_dissolved": 8
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_dissolved": 15
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_dissolved": 25
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_dissolved": 35
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_dissolved": 45
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_dissolved": 55
+                    },
+                    {
+                        "time_h": 7,
+                        "percent_dissolved": 65
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_dissolved": 75
+                    },
+                    {
+                        "time_h": 9,
+                        "percent_dissolved": 85
+                    },
+                    {
+                        "time_h": 10,
+                        "percent_dissolved": 95
+                    }
+                ]
+            },
+            {
+                "batch": "052_C655-70",
+                "release_profile": "Prolonged release over 10 hours",
+                "dissolution_medium": "Media change: 0.1M HCl (2h), phosphate buffer pH 6.8 (6h)",
+                "release_kinetics": {
+                    "zero_order_r2": 0.9742,
+                    "first_order_r2": 0.8432,
+                    "higuchi_r2": 0.8762,
+                    "korsmeyer_peppas_r2": 0.9504,
+                    "best_fit_model": "Zero-order",
+                    "release_mechanism": "Surface erosion of lipid matrix"
+                },
+                "factors_influencing_release": "pH change (acidic to phosphate buffer), lipid matrix formation",
+                "dissolution_profile_data": [
+                    {
+                        "time_h": 1,
+                        "percent_dissolved": 8
+                    },
+                    {
+                        "time_h": 2,
+                        "percent_dissolved": 15
+                    },
+                    {
+                        "time_h": 3,
+                        "percent_dissolved": 25
+                    },
+                    {
+                        "time_h": 4,
+                        "percent_dissolved": 35
+                    },
+                    {
+                        "time_h": 5,
+                        "percent_dissolved": 45
+                    },
+                    {
+                        "time_h": 6,
+                        "percent_dissolved": 55
+                    },
+                    {
+                        "time_h": 7,
+                        "percent_dissolved": 65
+                    },
+                    {
+                        "time_h": 8,
+                        "percent_dissolved": 75
+                    },
+                    {
+                        "time_h": 9,
+                        "percent_dissolved": 85
+                    },
+                    {
+                        "time_h": 10,
+                        "percent_dissolved": 95
+                    }
+                ]
+            }
+        ],
+        "experimental_data": {
+            "key_results": {
+                "flowability": "Co-processed excipients provided excellent flow; mixtures with up to 70% ibuprofen showed acceptable (fair/passable) flow.",
+                "lubrication": "No additional lubricant needed; detachment and ejection stresses <1.7 MPa (below 5 MPa threshold).",
+                "mechanical_strength": "Tensile strength >1 MPa for most formulations, especially at higher compression loads.",
+                "strain_rate_sensitivity": "Low SRS (<12%), indicating robustness to compression speed changes.",
+                "drug_release": "Zero-order release over 10 hours, indicating prolonged release."
+            },
+            "statistical_analysis": {
+                "model_r2_values": {
+                    "NW": 0.9978,
+                    "DS": 0.9474,
+                    "ES": 0.9406,
+                    "ER": 0.921,
+                    "TS": 0.9274
+                },
+                "significant_factors": {
+                    "NW": "X1, X2, X3, X4, X1X2, X1X3, X3X4",
+                    "DS": "X2, X3, X4",
+                    "ES": "X2, X3, X4, X1X4, X1X2X4",
+                    "ER": "X3, X4, X2X3",
+                    "TS": "X2, X4, X1X2X4"
+                }
+            },
+            "swelling_study": "Not reported",
+            "floating_study": "Not reported (tablets are not floating systems)"
+        }
+    }
+}

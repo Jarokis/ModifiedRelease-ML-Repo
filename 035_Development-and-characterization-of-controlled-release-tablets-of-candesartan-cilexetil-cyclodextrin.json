@@ -1,0 +1,1079 @@
+{
+    "materials_origin": {
+        "candesartan_cilexetil": "Micro labs, Bangalore, India",
+        "2_hydroxyethyl_beta_cyclodextrin": "Lobachem Pvt. Ltd., India",
+        "hpmc_k100": "Sammara Drug Industries (SDI), Iraq",
+        "ethylcellulose": "Sigma Chemical Co., USA",
+        "peg_6000": "Merck Pvt. Ltd., Mumbai, India",
+        "talc": "Afco., India",
+        "pvp_k30": "Riedel De Haen AG Seelze, Hannover, Germany",
+        "microcrystalline_cellulose": "Sigma Aldrich Co., USA (Avecil® pH 102)",
+        "lactose": "Riedel-delta, Germany",
+        "magnesium_stearate": "HiMedia Laboratories, India",
+        "disodium_hydrogen_orthophosphate": "S D Fine Chem Ltd., Mumbai, India",
+        "potassium_dihydrogen_orthophosphate": "S D Fine Chem Ltd., Mumbai, India"
+    },
+    "experimental_design_for_optimization": "The study evaluates the effect of different ratios of polymers (HPMC K100 and Ethylcellulose) at 1:1, 1:2, and 1:3 drug-to-polymer ratios, and different ratios of drug-to-β-cyclodextrin complex (1:1, 1:0.75, 1:0.5) on the release profile of Candesartan Cilexetil from matrix tablets.",
+    "ingredients_identification": {
+        "preparation_method": "Kneading method for inclusion complex; Dry granulation by slugging for tablets.",
+        "results": "FTIR and DSC studies showed no interaction between drug and excipients, confirming compatibility.",
+        "equation_for_drug_content": "Content determined spectrophotometrically at λmax 255 nm using UV-visible spectrophotometer.",
+        "absorbance": "Samples analyzed at 255 nm for CC."
+    },
+    "formulation_details": [
+        {
+            "batch": "035_F1",
+            "type": "without complex",
+            "ingredients": {
+                "HPMC K100": 16,
+                "Ethylcellulose": 0,
+                "PEG 6000": 10,
+                "Talc": 5,
+                "PVP K30": 10,
+                "MCC": 10,
+                "Lactose": 71,
+                "Mg stearate": 8
+            },
+            "api_mass_mg": 0,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "035_F2",
+            "type": "without complex",
+            "ingredients": {
+                "HPMC K100": 32,
+                "Ethylcellulose": 0,
+                "PEG 6000": 10,
+                "Talc": 5,
+                "PVP K30": 10,
+                "MCC": 10,
+                "Lactose": 55,
+                "Mg stearate": 8
+            },
+            "api_mass_mg": 0,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "035_F3",
+            "type": "without complex",
+            "ingredients": {
+                "HPMC K100": 48,
+                "Ethylcellulose": 0,
+                "PEG 6000": 10,
+                "Talc": 5,
+                "PVP K30": 10,
+                "MCC": 10,
+                "Lactose": 39,
+                "Mg stearate": 8
+            },
+            "api_mass_mg": 0,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "035_F4",
+            "type": "without complex",
+            "ingredients": {
+                "HPMC K100": 0,
+                "Ethylcellulose": 16,
+                "PEG 6000": 10,
+                "Talc": 5,
+                "PVP K30": 10,
+                "MCC": 10,
+                "Lactose": 71,
+                "Mg stearate": 8
+            },
+            "api_mass_mg": 0,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "035_F5",
+            "type": "without complex",
+            "ingredients": {
+                "HPMC K100": 0,
+                "Ethylcellulose": 32,
+                "PEG 6000": 10,
+                "Talc": 5,
+                "PVP K30": 10,
+                "MCC": 10,
+                "Lactose": 55,
+                "Mg stearate": 8
+            },
+            "api_mass_mg": 0,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "035_F6",
+            "type": "without complex",
+            "ingredients": {
+                "HPMC K100": 0,
+                "Ethylcellulose": 48,
+                "PEG 6000": 10,
+                "Talc": 5,
+                "PVP K30": 10,
+                "MCC": 10,
+                "Lactose": 39,
+                "Mg stearate": 8
+            },
+            "api_mass_mg": 0,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F1x",
+            "type": "with complex (1:1 drug:CD)",
+            "polymer_ratio": "1:1",
+            "polymer_type": "HPMC K100",
+            "cd_ratio": "1:1",
+            "api_complex_mass_mg": 16,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F2x",
+            "type": "with complex (1:1 drug:CD)",
+            "polymer_ratio": "1:2",
+            "polymer_type": "HPMC K100",
+            "cd_ratio": "1:1",
+            "api_complex_mass_mg": 16,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F3x",
+            "type": "with complex (1:1 drug:CD)",
+            "polymer_ratio": "1:3",
+            "polymer_type": "HPMC K100",
+            "cd_ratio": "1:1",
+            "api_complex_mass_mg": 16,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F4x",
+            "type": "with complex (1:1 drug:CD)",
+            "polymer_ratio": "1:1",
+            "polymer_type": "Ethylcellulose",
+            "cd_ratio": "1:1",
+            "api_complex_mass_mg": 16,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F5x",
+            "type": "with complex (1:1 drug:CD)",
+            "polymer_ratio": "1:2",
+            "polymer_type": "Ethylcellulose",
+            "cd_ratio": "1:1",
+            "api_complex_mass_mg": 16,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F6x",
+            "type": "with complex (1:1 drug:CD)",
+            "polymer_ratio": "1:3",
+            "polymer_type": "Ethylcellulose",
+            "cd_ratio": "1:1",
+            "api_complex_mass_mg": 16,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F7y",
+            "type": "with complex (1:0.75 drug:CD)",
+            "polymer_ratio": "1:1",
+            "polymer_type": "HPMC K100",
+            "cd_ratio": "1:0.75",
+            "api_complex_mass_mg": 14,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F8y",
+            "type": "with complex (1:0.75 drug:CD)",
+            "polymer_ratio": "1:2",
+            "polymer_type": "HPMC K100",
+            "cd_ratio": "1:0.75",
+            "api_complex_mass_mg": 14,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F9y",
+            "type": "with complex (1:0.75 drug:CD)",
+            "polymer_ratio": "1:3",
+            "polymer_type": "HPMC K100",
+            "cd_ratio": "1:0.75",
+            "api_complex_mass_mg": 14,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F10y",
+            "type": "with complex (1:0.75 drug:CD)",
+            "polymer_ratio": "1:1",
+            "polymer_type": "Ethylcellulose",
+            "cd_ratio": "1:0.75",
+            "api_complex_mass_mg": 14,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F11y",
+            "type": "with complex (1:0.75 drug:CD)",
+            "polymer_ratio": "1:2",
+            "polymer_type": "Ethylcellulose",
+            "cd_ratio": "1:0.75",
+            "api_complex_mass_mg": 14,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F12y",
+            "type": "with complex (1:0.75 drug:CD)",
+            "polymer_ratio": "1:3",
+            "polymer_type": "Ethylcellulose",
+            "cd_ratio": "1:0.75",
+            "api_complex_mass_mg": 14,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F13z",
+            "type": "with complex (1:0.5 drug:CD)",
+            "polymer_ratio": "1:1",
+            "polymer_type": "HPMC K100",
+            "cd_ratio": "1:0.5",
+            "api_complex_mass_mg": 12,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F14z",
+            "type": "with complex (1:0.5 drug:CD)",
+            "polymer_ratio": "1:2",
+            "polymer_type": "HPMC K100",
+            "cd_ratio": "1:0.5",
+            "api_complex_mass_mg": 12,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F15z",
+            "type": "with complex (1:0.5 drug:CD)",
+            "polymer_ratio": "1:3",
+            "polymer_type": "HPMC K100",
+            "cd_ratio": "1:0.5",
+            "api_complex_mass_mg": 12,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F16z",
+            "type": "with complex (1:0.5 drug:CD)",
+            "polymer_ratio": "1:1",
+            "polymer_type": "Ethylcellulose",
+            "cd_ratio": "1:0.5",
+            "api_complex_mass_mg": 12,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F17z",
+            "type": "with complex (1:0.5 drug:CD)",
+            "polymer_ratio": "1:2",
+            "polymer_type": "Ethylcellulose",
+            "cd_ratio": "1:0.5",
+            "api_complex_mass_mg": 12,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        },
+        {
+            "batch": "F18z",
+            "type": "with complex (1:0.5 drug:CD)",
+            "polymer_ratio": "1:3",
+            "polymer_type": "Ethylcellulose",
+            "cd_ratio": "1:0.5",
+            "api_complex_mass_mg": 12,
+            "api_mass_mg": 8,
+            "total_weight_mg": 130
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "035_F1",
+            "angle_of_repose_mean_sd": "30 ± 1.2",
+            "flow_type": "Excellent",
+            "bulk_density_g_ml_mean_sd": "0.026 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.027 ± 0.01",
+            "compressibility_index_percent_mean_sd": "3.7 ± 0.01",
+            "flow_type_ci": "Excellent",
+            "hausner_ratio_mean_sd": "1.06 ± 0.01"
+        },
+        {
+            "batch": "035_F2",
+            "angle_of_repose_mean_sd": "30 ± 1.4",
+            "flow_type": "Excellent",
+            "bulk_density_g_ml_mean_sd": "0.023 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.025 ± 0.01",
+            "compressibility_index_percent_mean_sd": "8 ± 0.01",
+            "flow_type_ci": "Excellent",
+            "hausner_ratio_mean_sd": "1.08 ± 0.01"
+        },
+        {
+            "batch": "035_F3",
+            "angle_of_repose_mean_sd": "31 ± 1.4",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.026 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.03 ± 0.01",
+            "compressibility_index_percent_mean_sd": "13 ± 0.01",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.13 ± 0.01"
+        },
+        {
+            "batch": "035_F4",
+            "angle_of_repose_mean_sd": "31 ± 1.9",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.023 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.027 ± 0.01",
+            "compressibility_index_percent_mean_sd": "14.8 ± 0.01",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.16 ± 0.01"
+        },
+        {
+            "batch": "035_F5",
+            "angle_of_repose_mean_sd": "30 ± 1.1",
+            "flow_type": "Excellent",
+            "bulk_density_g_ml_mean_sd": "0.021 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.023 ± 0.01",
+            "compressibility_index_percent_mean_sd": "8.7 ± 0.01",
+            "flow_type_ci": "Excellent",
+            "hausner_ratio_mean_sd": "1.08 ± 0.01"
+        },
+        {
+            "batch": "035_F6",
+            "angle_of_repose_mean_sd": "31 ± 1.1",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.023 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.027 ± 0.01",
+            "compressibility_index_percent_mean_sd": "14.8 ± 0.01",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.15 ± 0.01"
+        },
+        {
+            "batch": "F1x",
+            "angle_of_repose_mean_sd": "33 ± 1.3",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.018 ± 0.09",
+            "tapped_density_g_ml_mean_sd": "0.021 ± 0.03",
+            "compressibility_index_percent_mean_sd": "16.4 ± 0.03",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.16 ± 0.2"
+        },
+        {
+            "batch": "F2x",
+            "angle_of_repose_mean_sd": "32 ± 1.4",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.017 ± 0.02",
+            "tapped_density_g_ml_mean_sd": "0.02 ± 0.03",
+            "compressibility_index_percent_mean_sd": "16.8 ± 0.06",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.18 ± 0.1"
+        },
+        {
+            "batch": "F3x",
+            "angle_of_repose_mean_sd": "32 ± 1.2",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.015 ± 0.02",
+            "tapped_density_g_ml_mean_sd": "0.017 ± 0.02",
+            "compressibility_index_percent_mean_sd": "13.9 ± 0.02",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.14 ± 0.9"
+        },
+        {
+            "batch": "F4x",
+            "angle_of_repose_mean_sd": "33 ± 1.3",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.017 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.019 ± 0.01",
+            "compressibility_index_percent_mean_sd": "14.7 ± 0.07",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.15 ± 0.4"
+        },
+        {
+            "batch": "F5x",
+            "angle_of_repose_mean_sd": "34 ± 1.5",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.014 ± 0.03",
+            "tapped_density_g_ml_mean_sd": "0.016 ± 0.06",
+            "compressibility_index_percent_mean_sd": "14.9 ± 0.05",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.14 ± 0.2"
+        },
+        {
+            "batch": "F6x",
+            "angle_of_repose_mean_sd": "37 ± 1.7",
+            "flow_type": "Fair",
+            "bulk_density_g_ml_mean_sd": "0.013 ± 0.09",
+            "tapped_density_g_ml_mean_sd": "0.016 ± 0.01",
+            "compressibility_index_percent_mean_sd": "22.1 ± 0.09",
+            "flow_type_ci": "Fair",
+            "hausner_ratio_mean_sd": "1.22 ± 0.1"
+        },
+        {
+            "batch": "F7y",
+            "angle_of_repose_mean_sd": "32 ± 1.2",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.017 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.019 ± 0.05",
+            "compressibility_index_percent_mean_sd": "13.2 ± 0.01",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.13 ± 0.7"
+        },
+        {
+            "batch": "F8y",
+            "angle_of_repose_mean_sd": "33 ± 1.1",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.016 ± 0.06",
+            "tapped_density_g_ml_mean_sd": "0.018 ± 0.05",
+            "compressibility_index_percent_mean_sd": "14.3 ± 0.01",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.15 ± 0.6"
+        },
+        {
+            "batch": "F9y",
+            "angle_of_repose_mean_sd": "32 ± 1.4",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.014 ± 0.07",
+            "tapped_density_g_ml_mean_sd": "0.016 ± 0.02",
+            "compressibility_index_percent_mean_sd": "13.4 ± 0.07",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.12 ± 0.4"
+        },
+        {
+            "batch": "F10y",
+            "angle_of_repose_mean_sd": "33 ± 1.5",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.014 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.015 ± 0.01",
+            "compressibility_index_percent_mean_sd": "12.3 ± 0.06",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.13 ± 0.4"
+        },
+        {
+            "batch": "F11y",
+            "angle_of_repose_mean_sd": "34 ± 1.1",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.014 ± 0.07",
+            "tapped_density_g_ml_mean_sd": "0.016 ± 0.09",
+            "compressibility_index_percent_mean_sd": "14.9 ± 0.02",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.14 ± 0.8"
+        },
+        {
+            "batch": "F12y",
+            "angle_of_repose_mean_sd": "32 ± 1.1",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.014 ± 0.04",
+            "tapped_density_g_ml_mean_sd": "0.016 ± 0.03",
+            "compressibility_index_percent_mean_sd": "11.1 ± 0.03",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.12 ± 0.1"
+        },
+        {
+            "batch": "F13z",
+            "angle_of_repose_mean_sd": "31 ± 1.2",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.021 ± 0.06",
+            "tapped_density_g_ml_mean_sd": "0.024 ± 0.03",
+            "compressibility_index_percent_mean_sd": "13.4 ± 0.03",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.12 ± 0.3"
+        },
+        {
+            "batch": "F14z",
+            "angle_of_repose_mean_sd": "31 ± 1.4",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.02 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.023 ± 0.06",
+            "compressibility_index_percent_mean_sd": "13 ± 0.04",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.15 ± 0.1"
+        },
+        {
+            "batch": "F15z",
+            "angle_of_repose_mean_sd": "31 ± 1.4",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.018 ± 0.02",
+            "tapped_density_g_ml_mean_sd": "0.02 ± 0.09",
+            "compressibility_index_percent_mean_sd": "13.4 ± 0.07",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.12 ± 0.1"
+        },
+        {
+            "batch": "F16z",
+            "angle_of_repose_mean_sd": "32 ± 1.6",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.018 ± 0.01",
+            "tapped_density_g_ml_mean_sd": "0.021 ± 0.08",
+            "compressibility_index_percent_mean_sd": "14.9 ± 0.06",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.14 ± 0.2"
+        },
+        {
+            "batch": "F17z",
+            "angle_of_repose_mean_sd": "31 ± 1.1",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.02 ± 0.02",
+            "tapped_density_g_ml_mean_sd": "0.023 ± 0.07",
+            "compressibility_index_percent_mean_sd": "13.7 ± 0.07",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.16 ± 0.8"
+        },
+        {
+            "batch": "F18z",
+            "angle_of_repose_mean_sd": "31 ± 1.1",
+            "flow_type": "Good",
+            "bulk_density_g_ml_mean_sd": "0.016 ± 0.03",
+            "tapped_density_g_ml_mean_sd": "0.018 ± 0.02",
+            "compressibility_index_percent_mean_sd": "13.6 ± 0.02",
+            "flow_type_ci": "Good",
+            "hausner_ratio_mean_sd": "1.14 ± 0.7"
+        }
+    ],
+    "composition_of_independent_variables": {
+        "polymer_type": [
+            "HPMC K100",
+            "Ethylcellulose"
+        ],
+        "polymer_to_drug_ratio": [
+            "1:1",
+            "1:2",
+            "1:3"
+        ],
+        "drug_to_cyclodextrin_ratio": [
+            "1:1",
+            "1:0.75",
+            "1:0.5"
+        ]
+    },
+    "ftir_spectral_measurements": "FTIR spectra were performed for CC pure powder, β-cyclodextrin pure powder, CC/HPMC K100 (1:1) physical mixture, and CC/β-cyclodextrin complex (1:1) physical mixture. Results showed characteristic peaks of CC with no shifts or new bands, indicating good compatibility and no interaction. The inclusion complex showed peaks at corresponding wavenumbers of both pure CC and β-cyclodextrin.",
+    "tablet_fabrications": [
+        {
+            "batch": "035_F1",
+            "hardness_kg_cm2_mean_sd": "3.1 ± 0.3",
+            "friability_percent_mean_sd": "0.2 ± 0.33",
+            "weight_mg_mean_sd": "129.3 ± 2.3",
+            "thickness_mm_mean_sd": "3.1 ± 0.04",
+            "drug_content_percent": "N/A (placebo)"
+        },
+        {
+            "batch": "035_F2",
+            "hardness_kg_cm2_mean_sd": "3.4 ± 0.8",
+            "friability_percent_mean_sd": "0.4 ± 0.1",
+            "weight_mg_mean_sd": "129.9 ± 1.8",
+            "thickness_mm_mean_sd": "3.2 ± 0.06",
+            "drug_content_percent": "N/A (placebo)"
+        },
+        {
+            "batch": "035_F3",
+            "hardness_kg_cm2_mean_sd": "3.2 ± 0.4",
+            "friability_percent_mean_sd": "0.35 ± 0.1",
+            "weight_mg_mean_sd": "131.4 ± 2.4",
+            "thickness_mm_mean_sd": "3.4 ± 0.05",
+            "drug_content_percent": "N/A (placebo)"
+        },
+        {
+            "batch": "035_F4",
+            "hardness_kg_cm2_mean_sd": "3.1 ± 0.1",
+            "friability_percent_mean_sd": "0.5 ± 0.6",
+            "weight_mg_mean_sd": "128.4 ± 1.2",
+            "thickness_mm_mean_sd": "3.6 ± 0.06",
+            "drug_content_percent": "N/A (placebo)"
+        },
+        {
+            "batch": "035_F5",
+            "hardness_kg_cm2_mean_sd": "2.2 ± 0.5",
+            "friability_percent_mean_sd": "0.3 ± 0.7",
+            "weight_mg_mean_sd": "129.6 ± 2.7",
+            "thickness_mm_mean_sd": "3.4 ± 0.03",
+            "drug_content_percent": "N/A (placebo)"
+        },
+        {
+            "batch": "035_F6",
+            "hardness_kg_cm2_mean_sd": "2.3 ± 0.7",
+            "friability_percent_mean_sd": "0.4 ± 0.2",
+            "weight_mg_mean_sd": "130.5 ± 1.7",
+            "thickness_mm_mean_sd": "2.8 ± 0.05",
+            "drug_content_percent": "N/A (placebo)"
+        },
+        {
+            "batch": "F1x",
+            "hardness_kg_cm2_mean_sd": "5.1 ± 0.6",
+            "friability_percent_mean_sd": "0.5 ± 0.75",
+            "weight_mg_mean_sd": "132.4 ± 1.3",
+            "thickness_mm_mean_sd": "4.2 ± 0.07",
+            "drug_content_percent_mean_sd": "99.2 ± 0.4"
+        },
+        {
+            "batch": "F2x",
+            "hardness_kg_cm2_mean_sd": "4.6 ± 0.4",
+            "friability_percent_mean_sd": "0.55 ± 0.24",
+            "weight_mg_mean_sd": "131.1 ± 1.6",
+            "thickness_mm_mean_sd": "4.1 ± 0.01",
+            "drug_content_percent_mean_sd": "98.9 ± 0.1"
+        },
+        {
+            "batch": "F3x",
+            "hardness_kg_cm2_mean_sd": "5.8 ± 0.2",
+            "friability_percent_mean_sd": "0.75 ± 0.4",
+            "weight_mg_mean_sd": "132.6 ± 1.2",
+            "thickness_mm_mean_sd": "4.2 ± 0.03",
+            "drug_content_percent_mean_sd": "100.1 ± 0.3"
+        },
+        {
+            "batch": "F4x",
+            "hardness_kg_cm2_mean_sd": "5.9 ± 0.7",
+            "friability_percent_mean_sd": "0.9 ± 0.4",
+            "weight_mg_mean_sd": "133.4 ± 1.1",
+            "thickness_mm_mean_sd": "4.5 ± 0.08",
+            "drug_content_percent_mean_sd": "99.8 ± 0.3"
+        },
+        {
+            "batch": "F5x",
+            "hardness_kg_cm2_mean_sd": "6.1 ± 0.5",
+            "friability_percent_mean_sd": "0.8 ± 0.1",
+            "weight_mg_mean_sd": "133.3 ± 1.5",
+            "thickness_mm_mean_sd": "4.1 ± 0.01",
+            "drug_content_percent_mean_sd": "101.1 ± 0.4"
+        },
+        {
+            "batch": "F6x",
+            "hardness_kg_cm2_mean_sd": "5.5 ± 0.4",
+            "friability_percent_mean_sd": "0.9 ± 0.1",
+            "weight_mg_mean_sd": "134.7 ± 1.2",
+            "thickness_mm_mean_sd": "3.9 ± 0.07",
+            "drug_content_percent_mean_sd": "100.2 ± 0.5"
+        },
+        {
+            "batch": "F7y",
+            "hardness_kg_cm2_mean_sd": "6.5 ± 0.1",
+            "friability_percent_mean_sd": "0.9 ± 0.2",
+            "weight_mg_mean_sd": "131.8 ± 1.5",
+            "thickness_mm_mean_sd": "4.3 ± 0.02",
+            "drug_content_percent_mean_sd": "98.1 ± 0.1"
+        },
+        {
+            "batch": "F8y",
+            "hardness_kg_cm2_mean_sd": "3.9 ± 0.6",
+            "friability_percent_mean_sd": "0.9 ± 0.1",
+            "weight_mg_mean_sd": "130.5 ± 1.6",
+            "thickness_mm_mean_sd": "4.1 ± 0.03",
+            "drug_content_percent_mean_sd": "100.5 ± 0.2"
+        },
+        {
+            "batch": "F9y",
+            "hardness_kg_cm2_mean_sd": "4.9 ± 0.3",
+            "friability_percent_mean_sd": "0.8 ± 0.3",
+            "weight_mg_mean_sd": "135.1 ± 2.5",
+            "thickness_mm_mean_sd": "4.1 ± 0.05",
+            "drug_content_percent_mean_sd": "100.4 ± 0.2"
+        },
+        {
+            "batch": "F10y",
+            "hardness_kg_cm2_mean_sd": "4.7 ± 0.1",
+            "friability_percent_mean_sd": "0.5 ± 0.1",
+            "weight_mg_mean_sd": "134.5 ± 1.6",
+            "thickness_mm_mean_sd": "4.1 ± 0.04",
+            "drug_content_percent_mean_sd": "99.8 ± 0.4"
+        },
+        {
+            "batch": "F11y",
+            "hardness_kg_cm2_mean_sd": "5.7 ± 0.1",
+            "friability_percent_mean_sd": "0.4 ± 0.1",
+            "weight_mg_mean_sd": "133.6 ± 1.6",
+            "thickness_mm_mean_sd": "4.1 ± 0.07",
+            "drug_content_percent_mean_sd": "99.7 ± 0.4"
+        },
+        {
+            "batch": "F12y",
+            "hardness_kg_cm2_mean_sd": "6.0 ± 0.1",
+            "friability_percent_mean_sd": "0.7 ± 0.4",
+            "weight_mg_mean_sd": "136.8 ± 1.2",
+            "thickness_mm_mean_sd": "4.1 ± 0.08",
+            "drug_content_percent_mean_sd": "99.6 ± 0.2"
+        },
+        {
+            "batch": "F13z",
+            "hardness_kg_cm2_mean_sd": "3.7 ± 0.4",
+            "friability_percent_mean_sd": "0.3 ± 0.1",
+            "weight_mg_mean_sd": "131.4 ± 1.3",
+            "thickness_mm_mean_sd": "4.1 ± 0.04",
+            "drug_content_percent_mean_sd": "99.5 ± 0.3"
+        },
+        {
+            "batch": "F14z",
+            "hardness_kg_cm2_mean_sd": "4.1 ± 0.1",
+            "friability_percent_mean_sd": "0.4 ± 0.7",
+            "weight_mg_mean_sd": "131.5 ± 1.2",
+            "thickness_mm_mean_sd": "4.2 ± 0.02",
+            "drug_content_percent_mean_sd": "99.6 ± 0.1"
+        },
+        {
+            "batch": "F15z",
+            "hardness_kg_cm2_mean_sd": "3.9 ± 0.9",
+            "friability_percent_mean_sd": "0.6 ± 0.4",
+            "weight_mg_mean_sd": "130.6 ± 1.2",
+            "thickness_mm_mean_sd": "4.1 ± 0.02",
+            "drug_content_percent_mean_sd": "100.2 ± 0.2"
+        },
+        {
+            "batch": "F16z",
+            "hardness_kg_cm2_mean_sd": "3.9 ± 0.5",
+            "friability_percent_mean_sd": "0.7 ± 0.1",
+            "weight_mg_mean_sd": "134.2 ± 1.8",
+            "thickness_mm_mean_sd": "4.1 ± 0.01",
+            "drug_content_percent_mean_sd": "98.5 ± 0.6"
+        },
+        {
+            "batch": "F17z",
+            "hardness_kg_cm2_mean_sd": "4.9 ± 0.5",
+            "friability_percent_mean_sd": "0.6 ± 0.8",
+            "weight_mg_mean_sd": "133.8 ± 1.2",
+            "thickness_mm_mean_sd": "4.4 ± 0.02",
+            "drug_content_percent_mean_sd": "99.2 ± 0.5"
+        },
+        {
+            "batch": "F18z",
+            "hardness_kg_cm2_mean_sd": "5.8 ± 0.1",
+            "friability_percent_mean_sd": "0.8 ± 0.2",
+            "weight_mg_mean_sd": "132.9 ± 1.2",
+            "thickness_mm_mean_sd": "4.2 ± 0.05",
+            "drug_content_percent_mean_sd": "99.9 ± 0.5"
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "Korsch EKO, Germany (single punch tablet machine)",
+        "compression_process": "Dry granulation technique by slugging",
+        "coating": "No coating applied",
+        "equipment_used": [
+            "Tablet machine (Korsch EKO, Germany)",
+            "Manual hardness tester (Stokes Monsanto Co. Ltd.)",
+            "Friabilator (Roche, Germany)",
+            "UV-visible spectrophotometer (Carry win UV, Varian, Australia)",
+            "pH meter (Hanna, Italy)",
+            "FTIR spectrophotometer (FTIR-8400 Shimadzu, Japan)",
+            "DSC (Shimadzu, Japan)"
+        ],
+        "process_conditions": "Tablets compressed at room temperature. Dissolution studies conducted at 37±0.5°C."
+    },
+    "release_properties": [
+        {
+            "batches": [
+                "F1x",
+                "F2x",
+                "F3x"
+            ],
+            "polymer": "HPMC K100",
+            "cd_ratio": "1:1",
+            "release_profile_8hr": "F1x (1:1 polymer): 95%; F3x (1:3 polymer): 85%",
+            "release_mechanism": "Zero-order",
+            "factors_influencing": "Polymer amount, cyclodextrin ratio"
+        },
+        {
+            "batches": [
+                "F4x",
+                "F5x",
+                "F6x"
+            ],
+            "polymer": "Ethylcellulose",
+            "cd_ratio": "1:1",
+            "release_profile_8hr": "F4x (1:1 polymer): ~100% in 8 hours",
+            "release_mechanism": "Zero-order (implied)",
+            "factors_influencing": "Polymer type and amount, cyclodextrin ratio"
+        },
+        {
+            "batches": [
+                "F7y",
+                "F8y",
+                "F9y"
+            ],
+            "polymer": "HPMC K100",
+            "cd_ratio": "1:0.75",
+            "release_profile_8hr": "F7y (1:1 polymer): 85%",
+            "release_mechanism": "Zero-order",
+            "factors_influencing": "Polymer amount, cyclodextrin ratio"
+        },
+        {
+            "batches": [
+                "F10y",
+                "F11y",
+                "F12y"
+            ],
+            "polymer": "Ethylcellulose",
+            "cd_ratio": "1:0.75",
+            "release_profile_8hr": "Not specified numerically, but slower than 1:1 CD ratio",
+            "release_mechanism": "Zero-order (implied)",
+            "factors_influencing": "Polymer amount, cyclodextrin ratio"
+        },
+        {
+            "batches": [
+                "F13z",
+                "F14z",
+                "F15z"
+            ],
+            "polymer": "HPMC K100",
+            "cd_ratio": "1:0.5",
+            "release_profile_8hr": "F13z (1:1 polymer): 71%",
+            "release_mechanism": "Zero-order",
+            "factors_influencing": "Polymer amount, cyclodextrin ratio"
+        },
+        {
+            "batches": [
+                "F16z",
+                "F17z",
+                "F18z"
+            ],
+            "polymer": "Ethylcellulose",
+            "cd_ratio": "1:0.5",
+            "release_profile_8hr": "Not specified numerically, but slower than higher CD ratios",
+            "release_mechanism": "Zero-order (implied)",
+            "factors_influencing": "Polymer amount, cyclodextrin ratio"
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "F1x",
+            "hardness_kg_cm2_mean_sd": "5.1 ± 0.6",
+            "friability_percent_mean_sd": "0.5 ± 0.75",
+            "disintegration_time": "Not specified (matrix tablet, not designed to disintegrate)",
+            "thickness_mm_mean_sd": "4.2 ± 0.07",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "34.6 ± 1.3",
+            "release_kinetics": "Zero-order, non-Fickian diffusion"
+        },
+        {
+            "batch": "F2x",
+            "hardness_kg_cm2_mean_sd": "4.6 ± 0.4",
+            "friability_percent_mean_sd": "0.55 ± 0.24",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.01",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "39.2 ± 2.1",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F3x",
+            "hardness_kg_cm2_mean_sd": "5.8 ± 0.2",
+            "friability_percent_mean_sd": "0.75 ± 0.4",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.2 ± 0.03",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "58.4 ± 2.7",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F4x",
+            "hardness_kg_cm2_mean_sd": "5.9 ± 0.7",
+            "friability_percent_mean_sd": "0.9 ± 0.4",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.5 ± 0.08",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "37.2 ± 2.8",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F5x",
+            "hardness_kg_cm2_mean_sd": "6.1 ± 0.5",
+            "friability_percent_mean_sd": "0.8 ± 0.1",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.01",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "38.7 ± 2.1",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F6x",
+            "hardness_kg_cm2_mean_sd": "5.5 ± 0.4",
+            "friability_percent_mean_sd": "0.9 ± 0.1",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "3.9 ± 0.07",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "48.2 ± 1.1",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F7y",
+            "hardness_kg_cm2_mean_sd": "6.5 ± 0.1",
+            "friability_percent_mean_sd": "0.9 ± 0.2",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.3 ± 0.02",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "33.3 ± 1.3",
+            "release_kinetics": "Zero-order, non-Fickian diffusion"
+        },
+        {
+            "batch": "F8y",
+            "hardness_kg_cm2_mean_sd": "3.9 ± 0.6",
+            "friability_percent_mean_sd": "0.9 ± 0.1",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.03",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "40.3 ± 2.5",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F9y",
+            "hardness_kg_cm2_mean_sd": "4.9 ± 0.3",
+            "friability_percent_mean_sd": "0.8 ± 0.3",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.05",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "45.4 ± 3.0",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F10y",
+            "hardness_kg_cm2_mean_sd": "4.7 ± 0.1",
+            "friability_percent_mean_sd": "0.5 ± 0.1",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.04",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "32.4 ± 3.6",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F11y",
+            "hardness_kg_cm2_mean_sd": "5.7 ± 0.1",
+            "friability_percent_mean_sd": "0.4 ± 0.1",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.07",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "38.4 ± 1.3",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F12y",
+            "hardness_kg_cm2_mean_sd": "6.0 ± 0.1",
+            "friability_percent_mean_sd": "0.7 ± 0.4",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.08",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "48.7 ± 1.9",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F13z",
+            "hardness_kg_cm2_mean_sd": "3.7 ± 0.4",
+            "friability_percent_mean_sd": "0.3 ± 0.1",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.04",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "35.0 ± 2.4",
+            "release_kinetics": "Zero-order, non-Fickian diffusion (R²=0.9856)"
+        },
+        {
+            "batch": "F14z",
+            "hardness_kg_cm2_mean_sd": "4.1 ± 0.1",
+            "friability_percent_mean_sd": "0.4 ± 0.7",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.2 ± 0.02",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "44.2 ± 2.5",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F15z",
+            "hardness_kg_cm2_mean_sd": "3.9 ± 0.9",
+            "friability_percent_mean_sd": "0.6 ± 0.4",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.02",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "59.5 ± 1.4",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F16z",
+            "hardness_kg_cm2_mean_sd": "3.9 ± 0.5",
+            "friability_percent_mean_sd": "0.7 ± 0.1",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.1 ± 0.01",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "30.5 ± 1.6",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F17z",
+            "hardness_kg_cm2_mean_sd": "4.9 ± 0.5",
+            "friability_percent_mean_sd": "0.6 ± 0.8",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.4 ± 0.02",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "39.0 ± 1.8",
+            "release_kinetics": "Zero-order (implied)"
+        },
+        {
+            "batch": "F18z",
+            "hardness_kg_cm2_mean_sd": "5.8 ± 0.1",
+            "friability_percent_mean_sd": "0.8 ± 0.2",
+            "disintegration_time": "Not specified",
+            "thickness_mm_mean_sd": "4.2 ± 0.05",
+            "weight_variation_percent": "Within USP limits",
+            "swelling_index_percent_8hr_mean_sd": "45.4 ± 1.3",
+            "release_kinetics": "Zero-order (implied)"
+        }
+    ],
+    "experimental_data": {
+        "key_results": "Inclusion complex with β-cyclodextrin improved solubility and modified release. Higher polymer ratios resulted in more sustained release. HPMC K100 showed higher swelling and more sustained release compared to ethylcellulose. F15z (HPMC K100 1:3, CD 1:0.5) showed most sustained release.",
+        "performance_metrics": {
+            "friability": "All < 1%",
+            "drug_content": "98.1% - 101.1%",
+            "hardness": "2.2 - 6.5 kg/cm²",
+            "swelling_index_8hr": "30.5% - 59.5%"
+        },
+        "statistical_analysis": "One-way ANOVA used with significance level set at α=0.05.",
+        "release_kinetics_summary": {
+            "zero_order_R2_f1x": 0.9693,
+            "first_order_R2_f1x": 0.9692,
+            "korsmeyer_peppas_R2_f1x": 0.9644,
+            "higuchi_R2_f1x": 0.8001,
+            "hixson_crowell_R2_f1x": 0.9692,
+            "zero_order_R2_f7y": 0.9769,
+            "first_order_R2_f7y": 0.9769,
+            "korsmeyer_peppas_R2_f7y": 0.9754,
+            "higuchi_R2_f7y": 0.8231,
+            "hixson_crowell_R2_f7y": 0.9769,
+            "zero_order_R2_f13z": 0.9856,
+            "first_order_R2_f13z": 0.9854,
+            "korsmeyer_peppas_R2_f13z": 0.9893,
+            "higuchi_R2_f13z": 0.7687,
+            "hixson_crowell_R2_f13z": 0.9855,
+            "mechanism": "Non-Fickian diffusion (anomalous transport) for all tested formulations"
+        },
+        "saturation_solubility_data": [
+            {
+                "media": "HCl medium (pH 1.2)",
+                "solubility_mg_ml_mean_sd": "0.009 ± 0.0006"
+            },
+            {
+                "media": "Buffer medium (pH 6.8)",
+                "solubility_mg_ml_mean_sd": "0.02 ± 0.004"
+            },
+            {
+                "media": "HCl medium (pH 1.2) with 2-HeβCD",
+                "solubility_mg_ml_mean_sd": "0.28 ± 0.01"
+            },
+            {
+                "media": "Buffer medium (pH 6.8) with 2-HeβCD",
+                "solubility_mg_ml_mean_sd": "0.32 ± 0.04"
+            },
+            {
+                "media": "HCl medium (pH 1.2) with 0.35% polysorbate 20",
+                "solubility_mg_ml_mean_sd": "0.093 ± 0.008"
+            },
+            {
+                "media": "Buffer medium (pH 6.8) with 0.35% polysorbate 20",
+                "solubility_mg_ml_mean_sd": "0.416 ± 0.012"
+            }
+        ]
+    }
+}

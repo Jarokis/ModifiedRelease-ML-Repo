@@ -1,0 +1,413 @@
+{
+    "sections_identified": {
+        "abstract": "Pages 1",
+        "introduction": "Pages 1-2",
+        "materials_and_methods": "Pages 2-6",
+        "results": "Pages 7-11",
+        "discussion": "Pages 9-13",
+        "conclusion": "Pages 13-14"
+    },
+    "materials_origin": {
+        "poly_D_L_lactate": "Aldrich (Sigma-Aldrich Inc., St. Louis, USA)",
+        "Kollidon_SR": "Aldrich (Sigma-Aldrich Inc., St. Louis, USA)",
+        "magnesium_stearate": "Aldrich (Sigma-Aldrich Inc., St. Louis, USA)",
+        "porcine_gastric_mucin": "Aldrich (Sigma-Aldrich Inc., St. Louis, USA)",
+        "polyethylene_glycol_400": "Aldrich (Sigma-Aldrich Inc., St. Louis, USA)",
+        "barium_sulfate": "Aldrich (Sigma-Aldrich Inc., St. Louis, USA)",
+        "acetonitrile": "Aldrich (Sigma-Aldrich Inc., St. Louis, USA)",
+        "formic_acid": "Aldrich (Sigma-Aldrich Inc., St. Louis, USA)",
+        "Carbopol_974P_NF": "Noveon Inc., Cleveland, OH, USA",
+        "pectin (GENU pectin USP/100, DE 55-65%)": "CP Kelco ApS, Lille Skensved, Denmark",
+        "zidovudine (AZT)": "GlaxoSmithKline, Middlesex, UK",
+        "lamivudine (3TC)": "GlaxoSmithKline, Middlesex, UK",
+        "UPLC_grade_water": "Milli-Q gradient water purification system (Millipore SAS, Molsheim, France)",
+        "other_excipients": "Analytical grade, used as obtained"
+    },
+    "experimental_design_for_optimization": {
+        "design_type": "Box-Behnken statistical design, three-factor three-level",
+        "independent_variables_and_levels": {
+            "mass_of_poly_D_L_lactide_mg": {
+                "lower": 937.5,
+                "upper": 1102.5
+            },
+            "mass_of_magnesium_stearate_mg": {
+                "lower": 7.5,
+                "upper": 22.5
+            },
+            "mass_of_Kollidon_SR_mg": {
+                "lower": 75.0,
+                "upper": 225.0
+            }
+        },
+        "responses": {
+            "fractional_mass_increase_FMI_after_7_days_in_SVF": "Minimize",
+            "hardness_H_N": "Maximize",
+            "fractional_drug_release_FDR_after_7_days_in_SVF": "Minimize"
+        },
+        "number_of_formulations": 15,
+        "optimization_software": "MINITAB V15",
+        "composite_desirability_D": 0.997,
+        "optimized_independent_variables": {
+            "mass_of_PDLL_mg": 937.5,
+            "mass_of_MS_mg": 7.5,
+            "mass_of_KSR_mg": 75.0
+        },
+        "optimized_predicted_responses": {
+            "FMI": 0.279,
+            "hardness_N": 21.8,
+            "FDR": 0.401
+        },
+        "regression_equations": {
+            "FMI": "FMI = 1.616 - 0.002[PDLL] + 0.668[MS] - 0.001[KSR] (R²=87.3%)",
+            "Hardness": "H = -14.465 + 0.101[PDLL] - 0.706[MS] - 0.109[KSR] - 0.005[MS×MS] + 0.001[PDLL×MS] + 0.001[MS×KSR] (R²=61.7%)",
+            "FDR": "FDR = 3.964 - 0.008[PDLL] + 0.009[MS] + 0.007[KSR] (R²=77.9%)"
+        }
+    },
+    "ingredients_identification": {
+        "preparation_of_AZT_loaded_SMMs": {
+            "method": "Cross-linking emulsion technique",
+            "aqueous_phase": "Ca²⁺ (0.01 M, 3.89 mL), pectin (270 mg), porcine gastric mucin (30 mg), PEG 400 (0.1 mL), AZT (300 mg)",
+            "oil_phase": "Cyclohexane",
+            "optimized_parameters": {
+                "ultrasonication_time_min": 6.28,
+                "drug_polymer_ratio": "1:1",
+                "surfactant_Span_85_concentration_percent_v_v": 1.64
+            }
+        },
+        "composite_polymeric_caplet_preparation": {
+            "blending": "PDLL, KSR, MS, AZT-loaded SMMs (20% w/w), Carbopol 974P NF (1% w/w) blended for 5 min",
+            "compression": "Direct compression on hydraulic Carver press at 2.5 tons force",
+            "caplet_dimensions_optimized": {
+                "length_mm": 25,
+                "width_mm": 10,
+                "thickness_mm": 6
+            }
+        },
+        "absorbance_for_drug_release": {
+            "wavelength_nm": 267,
+            "instrument": "Nanophotometer"
+        },
+        "equations_used": {
+            "mean_dissolution_time_MDT": "MDT = Σ(t_t * M_t) / M_e",
+            "dissolution_efficiency_DE": "DE = (∫₀ᵗ y dt / y₁₀₀) × 100%",
+            "difference_factor_f1": "f1 = (Σ|R_t - T_t| / ΣR_t) × 100%",
+            "similarity_factor_f2": "f2 = 50 log { [1 + (1/n) Σ W_t (R_t - T_t)²]⁻⁰·⁵ × 100 }",
+            "percent_dimensional_increase": "% dimensional increase = ((D₂ - D₁)/D₁) × 100",
+            "matrix_resilience": "Resilience(%) = (∫₁³ f(t)dt_descending / ∫₁³ f(t)dt_ascending) × 100"
+        }
+    },
+    "formulation_details_for_each_batch": {
+        "note": "Only independent variables (PDLL, MS, KSR masses) are reported per batch. The masses of Carbopol 974P NF and AZT-loaded SMMs are not given per batch; they were kept at constant percentages (1% w/w and 20% w/w respectively) of the total caplet mass, but total mass varied. The table below shows the available data.",
+        "batches": [
+            {
+                "batch": "113_F1",
+                "PDLL_mg": 1102.5,
+                "MS_mg": 15.0,
+                "KSR_mg": 225.0,
+                "FMI_7d": 0.32,
+                "hardness_N": 20.2,
+                "FDR_7d": 0.227
+            },
+            {
+                "batch": "113_F2",
+                "PDLL_mg": 1102.5,
+                "MS_mg": 7.5,
+                "KSR_mg": 150.0,
+                "FMI_7d": 0.314,
+                "hardness_N": 18.4,
+                "FDR_7d": 0.245
+            },
+            {
+                "batch": "113_F3",
+                "PDLL_mg": 1020.0,
+                "MS_mg": 22.5,
+                "KSR_mg": 225.0,
+                "FMI_7d": 0.678,
+                "hardness_N": 21.6,
+                "FDR_7d": 0.346
+            },
+            {
+                "batch": "113_F4",
+                "PDLL_mg": 937.5,
+                "MS_mg": 15.0,
+                "KSR_mg": 225.0,
+                "FMI_7d": 0.502,
+                "hardness_N": 18.4,
+                "FDR_7d": 0.376
+            },
+            {
+                "batch": "113_F5",
+                "PDLL_mg": 1020.0,
+                "MS_mg": 7.5,
+                "KSR_mg": 225.0,
+                "FMI_7d": 0.474,
+                "hardness_N": 19.8,
+                "FDR_7d": 0.369
+            },
+            {
+                "batch": "113_F6",
+                "PDLL_mg": 1102.5,
+                "MS_mg": 22.5,
+                "KSR_mg": 75.0,
+                "FMI_7d": 0.358,
+                "hardness_N": 19.6,
+                "FDR_7d": 0.332
+            },
+            {
+                "batch": "113_F7",
+                "PDLL_mg": 1020.0,
+                "MS_mg": 22.5,
+                "KSR_mg": 75.0,
+                "FMI_7d": 0.394,
+                "hardness_N": 20.0,
+                "FDR_7d": 0.274
+            },
+            {
+                "batch": "113_F8",
+                "PDLL_mg": 937.5,
+                "MS_mg": 22.5,
+                "KSR_mg": 150.0,
+                "FMI_7d": 0.635,
+                "hardness_N": 21.0,
+                "FDR_7d": 0.419
+            },
+            {
+                "batch": "113_F9",
+                "PDLL_mg": 1020.0,
+                "MS_mg": 7.5,
+                "KSR_mg": 225.0,
+                "FMI_7d": 0.314,
+                "hardness_N": 18.6,
+                "FDR_7d": 0.264
+            },
+            {
+                "batch": "113_F10",
+                "PDLL_mg": 937.5,
+                "MS_mg": 7.5,
+                "KSR_mg": 150.0,
+                "FMI_7d": 0.404,
+                "hardness_N": 21.5,
+                "FDR_7d": 0.32
+            },
+            {
+                "batch": "113_F11",
+                "PDLL_mg": 1020.0,
+                "MS_mg": 15.0,
+                "KSR_mg": 150.0,
+                "FMI_7d": 0.386,
+                "hardness_N": 21.4,
+                "FDR_7d": 0.288
+            },
+            {
+                "batch": "113_F12",
+                "PDLL_mg": 1102.5,
+                "MS_mg": 15.0,
+                "KSR_mg": 75.0,
+                "FMI_7d": 0.33,
+                "hardness_N": 20.2,
+                "FDR_7d": 0.33
+            },
+            {
+                "batch": "113_F13",
+                "PDLL_mg": 1020.0,
+                "MS_mg": 15.0,
+                "KSR_mg": 150.0,
+                "FMI_7d": 0.366,
+                "hardness_N": 21.3,
+                "FDR_7d": 0.261
+            },
+            {
+                "batch": "113_F14",
+                "PDLL_mg": 937.5,
+                "MS_mg": 15.0,
+                "KSR_mg": 75.0,
+                "FMI_7d": 0.507,
+                "hardness_N": 21.0,
+                "FDR_7d": 0.328
+            },
+            {
+                "batch": "113_F15",
+                "PDLL_mg": 1020.0,
+                "MS_mg": 7.5,
+                "KSR_mg": 75.0,
+                "FMI_7d": 0.284,
+                "hardness_N": 20.2,
+                "FDR_7d": 0.243
+            }
+        ]
+    },
+    "pre_compression_parameters": {
+        "note": "Not reported in the article. No data on mass distribution, friability, size with SD for individual batches."
+    },
+    "composition_of_independent_variables_and_levels": {
+        "variable_1": {
+            "name": "Mass of poly(D,L-lactide) (mg)",
+            "levels": [
+                937.5,
+                1020.0,
+                1102.5
+            ]
+        },
+        "variable_2": {
+            "name": "Mass of magnesium stearate (mg)",
+            "levels": [
+                7.5,
+                15.0,
+                22.5
+            ]
+        },
+        "variable_3": {
+            "name": "Mass of Kollidon SR (mg)",
+            "levels": [
+                75.0,
+                150.0,
+                225.0
+            ]
+        }
+    },
+    "Fourier_Transform_Infrared_Spectral_Measurements": "Not reported",
+    "tablet_fabrications_for_each_batch": {
+        "note": "Only hardness (N) and fractional drug release are reported per batch (see Table II). Other parameters (friability, weight variation, thickness, diameter, density, drug content, consolidation index) are not reported per batch."
+    },
+    "process_parameters": {
+        "compression_device": "Hydraulic Carver press (Carver Inc., Wabash, IN, USA)",
+        "compression_force": "2.5 tons",
+        "compression_method": "Direct compression",
+        "coating": "None (uncoated caplet)",
+        "equipment_for_blending": "Not specified (dry powder mixture blended for 5 min)",
+        "temperature": "Ambient (not explicitly stated)",
+        "pressure": "Equivalent to 2.5 tons force (actual pressure not calculated)"
+    },
+    "release_properties_for_each_batch": {
+        "note": "Individual batch release profiles not provided. Only the optimized formulation's release kinetics are detailed. The table below summarizes the optimized caplet release in two media.",
+        "optimized_caplet_release_kinetics": {
+            "media_1": {
+                "name": "Simulated Vaginal Fluid (SVF), pH 4.5",
+                "fraction_released_30d": "0.743 ± 0.010",
+                "MDT_days": 10.6,
+                "DE_percent": 48.1,
+                "best_fit_models": "Makoid-Banakar (R²_adj=0.997), Logistic (0.994), Probit (0.990), First order (0.990), Weibull (0.992)",
+                "release_mechanism": "Swelling- and diffusion-controlled"
+            },
+            "media_2": {
+                "name": "Phosphate Buffered Saline (PBS), pH 7.4 (semen simulant)",
+                "fraction_released_30d": "0.806 ± 0.210",
+                "MDT_days": 7.68,
+                "DE_percent": 59.6,
+                "best_fit_models": "Weibull (R²_adj=0.995), Makoid-Banakar (0.989), Logistic (0.992), Probit (0.993)",
+                "release_mechanism": "Increased swelling due to Carbopol ionization, leading to faster release"
+            },
+            "comparison_factors": {
+                "f1": 28.7,
+                "f2": 44.8,
+                "conclusion": "Dissolution profiles are different (pH-responsive)"
+            }
+        }
+    },
+    "tablet_properties": {
+        "optimized_caplet": {
+            "hardness_N": "22.1 ± 0.3 (experimental); 21.8 (predicted)",
+            "matrix_resilience_percent": "62.4 ± 0.6",
+            "friability": "Not reported",
+            "disintegration_time": "Not applicable (extended release over 30 days, no disintegration)",
+            "dissolution_profile": "See release properties",
+            "stability": "Not directly reported; X-ray imaging showed gradual erosion over 28 days in vivo",
+            "thickness_mm": 6,
+            "width_mm": 10,
+            "length_mm": 25,
+            "weight_variation_percent": "Not reported"
+        },
+        "effect_of_Carbopol_content_on_swelling": {
+            "1_percent_w_w": "Dimensional increase: length, width, thickness (see Fig 2b; exact values not tabulated)",
+            "2_percent_w_w": "Greater swelling than 1%",
+            "3_percent_w_w": "Greatest swelling; no significant effect of silk pouch (p<0.005)"
+        }
+    },
+    "experimental_data": {
+        "in_vitro_results": {
+            "fractional_AZT_release": "0.743 ± 0.01 (SVF, 30 days); 0.806 ± 0.21 (PBS, 30 days)",
+            "MDT": "10.6 days (SVF); 7.68 days (PBS)",
+            "dissolution_efficiency": "48.1% (SVF); 59.6% (PBS)",
+            "swelling_study": "Dimensional increase positively correlated with Carbopol 974P NF content; PBS caused more swelling than SVF",
+            "figure_1_approximated_release_data": {
+                "description": "Fractional AZT release from optimized caplet formulation in SVF (pH 4.5) and PBS (pH 7.4) over 30 days. Time points (days): 3, 7, 14, 21, 28.",
+                "SVF_release": [
+                    {
+                        "time_days": 3,
+                        "fraction_released": 0.28
+                    },
+                    {
+                        "time_days": 7,
+                        "fraction_released": 0.4
+                    },
+                    {
+                        "time_days": 14,
+                        "fraction_released": 0.55
+                    },
+                    {
+                        "time_days": 21,
+                        "fraction_released": 0.66
+                    },
+                    {
+                        "time_days": 28,
+                        "fraction_released": 0.74
+                    }
+                ],
+                "PBS_release": [
+                    {
+                        "time_days": 3,
+                        "fraction_released": 0.32
+                    },
+                    {
+                        "time_days": 7,
+                        "fraction_released": 0.46
+                    },
+                    {
+                        "time_days": 14,
+                        "fraction_released": 0.61
+                    },
+                    {
+                        "time_days": 21,
+                        "fraction_released": 0.72
+                    },
+                    {
+                        "time_days": 28,
+                        "fraction_released": 0.81
+                    }
+                ]
+            }
+        },
+        "in_vivo_results_pig_model": {
+            "duration_days": 28,
+            "X_ray_imaging": "Drug-loaded caplet showed gradual fading of contrast (erosion from outside inward); swelling observed",
+            "AZT_concentrations": {
+                "plasma_range_ug_ml": "1.18 ± 0.01 to 1.13 ± 0.02 (decreased over time, Cmax on day 7)",
+                "vaginal_fluid_swab_eluate_range_ug_ml": "5.00 ± 0.98 to 2.87 ± 0.81",
+                "vaginal_tissue_range_ug_ml": "4.22 ± 0.34 to 2.96 ± 0.19"
+            },
+            "comparison_to_EC50_EC95": "Plasma levels effective (above EC50/EC95) but low to limit toxicity; vaginal levels higher for site-specific action",
+            "histopathology": "Scored abnormalities: epithelial erosion/ulceration (minimal to moderate), epithelial proliferation (mild to moderate), subepithelial leukocyte influx (minimal to severe), stromal fibrosis (minimal to mild), perivascular cell cuffing (minimal to moderate), tissue necrosis (isolated case, pig B4). Some abnormalities attributed to device and silk pouch."
+        },
+        "statistical_analysis": {
+            "design_analysis": "Box-Behnken with MINITAB; R² values: FMI 87.3%, Hardness 61.7%, FDR 77.9%",
+            "release_profile_comparison": "f1=28.7, f2=44.8 (profiles different)",
+            "kinetic_model_fitting": "Multiple models with R²_adj values ranging 0.885-0.997 (SVF) and 0.502-0.995 (PBS)"
+        },
+        "zero_and_first_order_release": {
+            "optimized_caplet_SVF": {
+                "zero_order_R2_adj": 0.885,
+                "first_order_R2_adj": 0.99
+            },
+            "optimized_caplet_PBS": {
+                "zero_order_R2_adj": 0.502,
+                "first_order_R2_adj": 0.883
+            }
+        },
+        "swelling_water_uptake_study": {
+            "lag_time_minutes": "Not reported",
+            "total_floating_time_hours": "Not applicable (non-floating device)",
+            "swelling_index_percent": "Reported as percentage dimensional increase (length, width, thickness) for 1%,2%,3% Carbopol; exact values not tabulated but shown in Fig 2b"
+        }
+    },
+    "missing_data_note": "The following requested data were not present in the article: FTIR spectra, friability for any batch, disintegration time, weight variation, thickness/diameter per batch, density, drug content per batch, consolidation index, pre-compression parameters, individual release kinetics for 113_F1-113_F15, and detailed swelling index values. Only the optimized formulation's properties and the Box-Behnken design matrix with three responses are reported."
+}

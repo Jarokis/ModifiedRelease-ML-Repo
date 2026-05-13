@@ -1,0 +1,766 @@
+{
+  "article_summary": {
+    "title": "Design and Development of Atenolol Matrix Tablet Employing Natural and Synthetic Polymers",
+    "authors": "Adity Bhowmik, Rajia Sultana Nijhu, Tajnin Ahmed, Sharmin Sultana",
+    "year": 2013,
+    "objective": "Develop sustained release matrix tablets of Atenolol using natural and synthetic polymers for once-daily administration.",
+    "key_findings": "Formulations containing eudragit+ethyl cellulose (E-2) and gum acacia (GA-1) showed best sustained release over 8 hours. Starch alone caused rapid release."
+  },
+  "materials_origin": {
+    "atenolol": "Midford Hospital, Bangladesh",
+    "eudragit_l100": "Dow Chemical co, USA",
+    "ethyl_cellulose": "Dow Chemical co, USA",
+    "na_cmc": "Dow Chemical co, USA",
+    "hpmc": "Dow Chemical co, USA",
+    "kollidon_sr": "Techno Pharma, Bangladesh",
+    "xanthan_gum": "Koster Keune, USA",
+    "vee_gum": "Koster Keune, USA",
+    "guar_gum": "Koster Keune, USA",
+    "tragacanth": "Koster Keune, USA",
+    "hcl": "Merck, Germany",
+    "naoh": "Merck, Germany",
+    "other_excipients": "Origin not specified (Avicel PH102, Lactose MH, sodium starch glycolate, Aerosil-200, magnesium stearate)"
+  },
+  "experimental_design": {
+    "method": "Direct compression (dry granulation mentioned in abstract but methods state direct compression)",
+    "optimization": "Varying polymer type and combination; single polymer vs binary mixtures",
+    "uv_absorbance": {
+      "wavelength": "275 nm",
+      "standard_curve": "Prepared but no equation provided in text"
+    }
+  },
+  "process_parameters": {
+    "compression_device": "KBR Compress Machine",
+    "punch_size": "10.0 mm round biconvex",
+    "compression_pressure": "Not specified",
+    "coating": "None",
+    "blending": "Polymers and drug sieved through #18, blended 20 min; then lactose, Avicel, SSG added and blended 10 min; then Aerosil-200 and Mg-stearate (#40) blended 3 min",
+    "dissolution_conditions": {
+      "apparatus": "USP-22 paddle type (Pharmatest DT70)",
+      "rpm": 50,
+      "temperature": "37 ± 0.5 °C",
+      "media": "0.1N HCl for first 2 hours, then phosphate buffer pH 7.4 for next 6 hours",
+      "volume": "900 mL",
+      "sampling": "10 mL withdrawn at intervals, replaced with fresh medium",
+      "analysis": "UV spectrophotometer at 275 nm"
+    }
+  },
+  "ftir": {
+    "result": "No drug-polymer interaction observed (Figure 5)"
+  },
+  "sem": {
+    "sample": "Formulation containing HPMC 5cps and Methyl Cellulose (Figure 6)",
+    "description": "Surface morphology imaging; three-dimensional appearance"
+  },
+  "release_profiles": {
+    "natural_starch_based": {
+      "S-1": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [32, 55, 78, 88, 94]
+      },
+      "S-2": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [24, 42, 63, 74, 82]
+      },
+      "S-3": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [18, 31, 48, 59, 68]
+      },
+      "S-4": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [22, 38, 57, 68, 76]
+      }
+    },
+    "synthetic_eudragit_based": {
+      "E-1": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [20, 35, 52, 64, 73]
+      },
+      "E-2": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [14, 25, 40, 51, 59]
+      },
+      "E-3": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [19, 33, 50, 62, 71]
+      },
+      "E-4": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [22, 37, 54, 65, 74]
+      }
+    },
+    "natural_gum_acacia_based": {
+      "GA-1": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [16, 28, 44, 54, 63]
+      },
+      "GA-2": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [25, 43, 62, 72, 80]
+      },
+      "GA-3": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [23, 40, 58, 69, 77]
+      },
+      "GA-4": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [27, 46, 65, 75, 83]
+      },
+      "GA-5": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [21, 37, 55, 66, 74]
+      }
+    },
+    "synthetic_hpmc_based": {
+      "H-1": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [24, 41, 60, 71, 79]
+      },
+      "H-2": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [22, 38, 57, 68, 76]
+      },
+      "H-3": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [20, 36, 54, 65, 74]
+      },
+      "H-4": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [26, 44, 63, 73, 81]
+      },
+      "H-5": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [28, 47, 66, 76, 84]
+      },
+      "H-6": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [30, 50, 69, 79, 86]
+      },
+      "H-7": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [27, 45, 64, 74, 82]
+      },
+      "H-8": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [25, 43, 62, 72, 80]
+      },
+      "H-9": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [17, 29, 45, 56, 65]
+      },
+      "H-10": {
+        "time_hours": [1, 2, 4, 6, 8],
+        "cumulative_release_percent": [23, 39, 57, 68, 76]
+      }
+    }
+  },
+  "batches": [
+    {
+      "batch_code": "UL-1",
+      "type": "Synthetic (Eudragit L100 based)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25, "function": "API"},
+        {"name": "Eudragit L100", "mass_mg": 52, "function": "Polymer"},
+        {"name": "Avicel PH102", "mass_mg": 179.1, "function": "Filler"},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3, "function": "Disintegrant"},
+        {"name": "Mg-stearate", "mass_mg": 1.3, "function": "Lubricant"},
+        {"name": "Aerosil-200", "mass_mg": 1.3, "function": "Glidant"}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "UL-2",
+      "type": "Synthetic (Eudragit L100 + Ethyl Cellulose)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Eudragit L100", "mass_mg": 26},
+        {"name": "Ethyl Cellulose", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 179.1},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "UL-3",
+      "type": "Synthetic (Eudragit L100 + Na-CMC)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Eudragit L100", "mass_mg": 39},
+        {"name": "Na-CMC", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 166.1},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "UL-4",
+      "type": "Synthetic (Eudragit L100 + HPMC)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Eudragit L100", "mass_mg": 52},
+        {"name": "HPMC", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 154.4},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "S-1",
+      "type": "Natural (Starch based)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Starch", "mass_mg": 52},
+        {"name": "Avicel PH102", "mass_mg": 179.1},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 25.234,
+        "tapped_bulk_density": 26,
+        "loose_bulk_density": 29,
+        "compressibility_index": 11.538,
+        "hausner_ratio": 0.897
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 5,
+        "thickness_mm": 0.7,
+        "friability_percent": 0.23,
+        "drug_content_percent": 93,
+        "weight_variation_percent": 0.29
+      }
+    },
+    {
+      "batch_code": "S-2",
+      "type": "Natural (Starch + Xanthan Gum)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Starch", "mass_mg": 26},
+        {"name": "Xanthan Gum", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 179.1},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 27.543,
+        "tapped_bulk_density": 18,
+        "loose_bulk_density": 22,
+        "compressibility_index": 22.222,
+        "hausner_ratio": 0.818
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 7,
+        "thickness_mm": 0.7,
+        "friability_percent": 0.23,
+        "drug_content_percent": 96,
+        "weight_variation_percent": 0.33
+      }
+    },
+    {
+      "batch_code": "S-3",
+      "type": "Natural (Starch + Vee Gum)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Starch", "mass_mg": 39},
+        {"name": "Vee Gum", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 166.1},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 29.987,
+        "tapped_bulk_density": 25,
+        "loose_bulk_density": 28,
+        "compressibility_index": 12.0,
+        "hausner_ratio": 0.892
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 5,
+        "thickness_mm": 0.7,
+        "friability_percent": 0.21,
+        "drug_content_percent": 94,
+        "weight_variation_percent": 0.29
+      }
+    },
+    {
+      "batch_code": "S-4",
+      "type": "Natural (Starch + Guar Gum)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Starch", "mass_mg": 52},
+        {"name": "Guar Gum", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 154.4},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 28.179,
+        "tapped_bulk_density": 24,
+        "loose_bulk_density": 29,
+        "compressibility_index": 20.833,
+        "hausner_ratio": 0.828
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 5,
+        "thickness_mm": 0.7,
+        "friability_percent": 0.28,
+        "drug_content_percent": 93,
+        "weight_variation_percent": 0.33
+      }
+    },
+    {
+      "batch_code": "H-1",
+      "type": "Synthetic (HPMC 5cps)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 5cps", "mass_mg": 52},
+        {"name": "Avicel PH102", "mass_mg": 107.5},
+        {"name": "Lactose MH", "mass_mg": 71.6},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 26.517,
+        "tapped_bulk_density": 21,
+        "loose_bulk_density": 27,
+        "compressibility_index": 28.571,
+        "hausner_ratio": 0.778
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 6.0,
+        "thickness_mm": 2.46,
+        "friability_percent": 0.61,
+        "drug_content_percent": 95,
+        "weight_variation_percent": 0.54
+      }
+    },
+    {
+      "batch_code": "H-2",
+      "type": "Synthetic (HPMC 15cps)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 15cps", "mass_mg": 52},
+        {"name": "Avicel PH102", "mass_mg": 107.5},
+        {"name": "Lactose MH", "mass_mg": 71.6},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 22.345,
+        "tapped_bulk_density": 22,
+        "loose_bulk_density": 27,
+        "compressibility_index": 22.727,
+        "hausner_ratio": 0.815
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 6.3,
+        "thickness_mm": 2.44,
+        "friability_percent": 0.73,
+        "drug_content_percent": 96,
+        "weight_variation_percent": 0.63
+      }
+    },
+    {
+      "batch_code": "H-3",
+      "type": "Synthetic (HPMC 5cps + Methyl Cellulose)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 5cps", "mass_mg": 26},
+        {"name": "Methyl Cellulose", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 107.5},
+        {"name": "Lactose MH", "mass_mg": 71.6},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 26.245,
+        "tapped_bulk_density": 22,
+        "loose_bulk_density": 25,
+        "compressibility_index": 13.636,
+        "hausner_ratio": 0.880
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 6.5,
+        "thickness_mm": 2.38,
+        "friability_percent": 0.58,
+        "drug_content_percent": 92,
+        "weight_variation_percent": 0.59
+      }
+    },
+    {
+      "batch_code": "H-4",
+      "type": "Synthetic (HPMC 5cps + Kollidon SR)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 5cps", "mass_mg": 26},
+        {"name": "Kollidon SR", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 107.5},
+        {"name": "Lactose MH", "mass_mg": 71.6},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 24.966,
+        "tapped_bulk_density": 22,
+        "loose_bulk_density": 25,
+        "compressibility_index": 13.636,
+        "hausner_ratio": 0.880
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 6.8,
+        "thickness_mm": 2.40,
+        "friability_percent": 0.65,
+        "drug_content_percent": 94,
+        "weight_variation_percent": 0.48
+      }
+    },
+    {
+      "batch_code": "H-5",
+      "type": "Synthetic (HPMC 5cps, higher Avicel)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 5cps", "mass_mg": 39},
+        {"name": "Avicel PH102", "mass_mg": 120.5},
+        {"name": "Lactose MH", "mass_mg": 71.6},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "H-6",
+      "type": "Synthetic (HPMC 5cps, no lactose)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 5cps", "mass_mg": 39},
+        {"name": "Avicel PH102", "mass_mg": 192.1},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "H-7",
+      "type": "Synthetic (HPMC 5cps + lactose)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 5cps", "mass_mg": 39},
+        {"name": "Avicel PH102", "mass_mg": 166.1},
+        {"name": "Lactose MH", "mass_mg": 26},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "H-8",
+      "type": "Synthetic (HPMC 15cps + lactose)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 15cps", "mass_mg": 39},
+        {"name": "Avicel PH102", "mass_mg": 166.1},
+        {"name": "Lactose MH", "mass_mg": 26},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "H-9",
+      "type": "Synthetic (HPMC 5cps + Methyl Cellulose, equal)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 5cps", "mass_mg": 19.5},
+        {"name": "Methyl Cellulose", "mass_mg": 19.5},
+        {"name": "Avicel PH102", "mass_mg": 166.1},
+        {"name": "Lactose MH", "mass_mg": 26},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "H-10",
+      "type": "Synthetic (HPMC 5cps + Kollidon SR, equal)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "HPMC 5cps", "mass_mg": 19.5},
+        {"name": "Kollidon SR", "mass_mg": 19.5},
+        {"name": "Avicel PH102", "mass_mg": 166.1},
+        {"name": "Lactose MH", "mass_mg": 26},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "GA-1",
+      "type": "Natural (Gum acacia based)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Gum acacia", "mass_mg": 52},
+        {"name": "Avicel PH102", "mass_mg": 107.5},
+        {"name": "Lactose MH", "mass_mg": 71.6},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 25.234,
+        "tapped_bulk_density": 22,
+        "loose_bulk_density": 25,
+        "compressibility_index": 13.636,
+        "hausner_ratio": 0.880
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 5.7,
+        "thickness_mm": 2.49,
+        "friability_percent": 0.55,
+        "drug_content_percent": 92,
+        "weight_variation_percent": 0.29
+      }
+    },
+    {
+      "batch_code": "GA-2",
+      "type": "Natural (Gum acacia + Starch)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Gum acacia", "mass_mg": 26},
+        {"name": "Starch", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 107.5},
+        {"name": "Lactose MH", "mass_mg": 71.6},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 27.543,
+        "tapped_bulk_density": 18,
+        "loose_bulk_density": 22,
+        "compressibility_index": 22.222,
+        "hausner_ratio": 0.818
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 6.0,
+        "thickness_mm": 2.37,
+        "friability_percent": 0.42,
+        "drug_content_percent": 96,
+        "weight_variation_percent": 0.51
+      }
+    },
+    {
+      "batch_code": "GA-3",
+      "type": "Natural (Gum acacia + Tragacanth)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Gum acacia", "mass_mg": 26},
+        {"name": "Tragacanth", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 107.5},
+        {"name": "Lactose MH", "mass_mg": 71.6},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 29.987,
+        "tapped_bulk_density": 18,
+        "loose_bulk_density": 22,
+        "compressibility_index": 22.222,
+        "hausner_ratio": 0.818
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 5.9,
+        "thickness_mm": 2.41,
+        "friability_percent": 0.29,
+        "drug_content_percent": 93,
+        "weight_variation_percent": 0.54
+      }
+    },
+    {
+      "batch_code": "GA-4",
+      "type": "Natural (Gum acacia + Hupu gum)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Gum acacia", "mass_mg": 26},
+        {"name": "Hupu gum", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 107.5},
+        {"name": "Lactose MH", "mass_mg": 71.6},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 28.179,
+        "tapped_bulk_density": 24,
+        "loose_bulk_density": 29,
+        "compressibility_index": 20.833,
+        "hausner_ratio": 0.828
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 6.4,
+        "thickness_mm": 2.46,
+        "friability_percent": 0.51,
+        "drug_content_percent": 95,
+        "weight_variation_percent": 0.48
+      }
+    },
+    {
+      "batch_code": "GA-5",
+      "type": "Natural (Gum acacia + Tragacanth, equal, different excipients)",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Gum acacia", "mass_mg": 19.5},
+        {"name": "Tragacanth", "mass_mg": 19.5},
+        {"name": "Avicel PH102", "mass_mg": 166.1},
+        {"name": "Lactose MH", "mass_mg": 26},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": null,
+      "post_compression": null
+    },
+    {
+      "batch_code": "E-1",
+      "type": "Synthetic (Eudragit L100 based) - same as UL-1",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Eudragit L100", "mass_mg": 52},
+        {"name": "Avicel PH102", "mass_mg": 179.1},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 29.517,
+        "tapped_bulk_density": 24,
+        "loose_bulk_density": 28,
+        "compressibility_index": 16.667,
+        "hausner_ratio": 0.857
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 3.5,
+        "thickness_mm": 0.7,
+        "friability_percent": 0.22,
+        "drug_content_percent": 92,
+        "weight_variation_percent": 0.25
+      }
+    },
+    {
+      "batch_code": "E-2",
+      "type": "Synthetic (Eudragit L100 + Ethyl Cellulose) - same as UL-2",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Eudragit L100", "mass_mg": 26},
+        {"name": "Ethyl Cellulose", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 179.1},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 22.374,
+        "tapped_bulk_density": 20,
+        "loose_bulk_density": 23,
+        "compressibility_index": 15.0,
+        "hausner_ratio": 0.869
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 3.7,
+        "thickness_mm": 0.7,
+        "friability_percent": 0.25,
+        "drug_content_percent": 94,
+        "weight_variation_percent": 0.33
+      }
+    },
+    {
+      "batch_code": "E-3",
+      "type": "Synthetic (Eudragit L100 + Na-CMC) - same as UL-3",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Eudragit L100", "mass_mg": 39},
+        {"name": "Na-CMC", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 166.1},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 26.454,
+        "tapped_bulk_density": 22,
+        "loose_bulk_density": 25,
+        "compressibility_index": 13.636,
+        "hausner_ratio": 0.880
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 3.8,
+        "thickness_mm": 0.7,
+        "friability_percent": 0.24,
+        "drug_content_percent": 95,
+        "weight_variation_percent": 0.23
+      }
+    },
+    {
+      "batch_code": "E-4",
+      "type": "Synthetic (Eudragit L100 + HPMC) - same as UL-4",
+      "ingredients": [
+        {"name": "Atenolol", "mass_mg": 25},
+        {"name": "Eudragit L100", "mass_mg": 52},
+        {"name": "HPMC", "mass_mg": 26},
+        {"name": "Avicel PH102", "mass_mg": 154.4},
+        {"name": "Na-starch-glycolate", "mass_mg": 1.3},
+        {"name": "Mg-stearate", "mass_mg": 1.3},
+        {"name": "Aerosil-200", "mass_mg": 1.3}
+      ],
+      "pre_compression": {
+        "angle_of_repose": 28.948,
+        "tapped_bulk_density": 20.5,
+        "loose_bulk_density": 24,
+        "compressibility_index": 17.073,
+        "hausner_ratio": 0.854
+      },
+      "post_compression": {
+        "hardness_kg_cm2": 3.9,
+        "thickness_mm": 0.7,
+        "friability_percent": 0.27,
+        "drug_content_percent": 96,
+        "weight_variation_percent": 0.27
+      }
+    }
+  ],
+  "release_properties": {
+    "qualitative_observations": "After 8 hours dissolution test, better sustained release observed from: S-3 (starch+vee gum), E-2 (eudragit+ethyl cellulose), GA-1 (gum acacia alone), H-9 (HPMC 5cps+methyl cellulose). Starch alone (S-1) caused rapid release. E-2 showed best overall sustained release among synthetic; GA-1 among natural.",
+    "release_mechanism": "Not specified; no kinetic modeling (zero order, first order, Hixson-Crowell, Korsmeyer-Peppas) reported.",
+    "factors_influencing": "Polymer type and combination; pH change from 1.2 (0.1N HCl) to 7.4 (phosphate buffer) after 2 hours."
+  },
+  "missing_data": "No numerical dissolution profiles, no swelling index, no lag time, no floating time, no release kinetics equations. Pre-compression and post-compression data missing for H-5 to H-10, GA-5. No standard deviation values provided for any parameters."
+}

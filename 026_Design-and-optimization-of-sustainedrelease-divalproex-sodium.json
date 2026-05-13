@@ -1,0 +1,476 @@
+{
+    "Article_Sections_Identified": {
+        "Abstract": "Study objective, mixture design, excipients, dissolution comparison, release kinetics",
+        "Introduction": "Background on divalproex sodium, sustained release systems, excipient roles",
+        "Materials_and_Methods": "Materials origin, formulation design, tablet preparation, flowability, dissolution, analytical methods",
+        "Results_and_Discussion": "Flowability, physical properties, optimization, release kinetics",
+        "Conclusion": "Summary of optimization outcomes"
+    },
+    "Materials_Origin": {
+        "Active_Pharmaceutical_Ingredient": {
+            "Name": "Divalproex Sodium",
+            "Supplier": "Katwijk Chemie B.V., Netherlands"
+        },
+        "Excipients": {
+            "HPMC_K100M": "Colorcon, England",
+            "Microcrystalline_Cellulose_PH101": "Brussels, Belgium",
+            "Lactose": "Alpavit, Netherlands",
+            "Colloidal_Silicon_Dioxide": "Merck, Germany"
+        },
+        "Analytical_Chemicals": "Merck, Germany"
+    },
+    "Experimental_Design_for_Optimization": {
+        "Design_Type": "Response Surface Methodology – Mixture Design",
+        "Software": "Minitab v16",
+        "Independent_Variables": [
+            "HPMC",
+            "Lactose",
+            "MCC",
+            "Colloidal Silicon Dioxide"
+        ],
+        "Responses_Optimized": [
+            "Carr’s Index",
+            "Tensile Strength",
+            "Drug Release Profile"
+        ],
+        "Tablet_Weight_mg": 750,
+        "Drug_Content_Per_Tablet_mg": 500
+    },
+    "Ingredients_Identification": {
+        "Preparation_Method": "Direct compression",
+        "Drug_Analysis_Method": "HPLC",
+        "Detection_Wavelength_nm": 210,
+        "Absorbance_Detection": "UV detector at 210 nm",
+        "Equation_Used": "Peak area comparison with standard",
+        "Results": "Quantitative drug determination for dissolution samples"
+    },
+    "Formulation_Details_Per_Batch": {
+        "API": {
+            "Name": "Divalproex Sodium",
+            "Amount_mg": 500,
+            "Percent_of_Tablet": 66.67
+        },
+        "Excipients_mg": {
+            "026_F1": {
+                "HPMC": 50,
+                "Lactose": 100,
+                "MCC": 40,
+                "SiO2": 60
+            },
+            "026_F2": {
+                "HPMC": 65,
+                "Lactose": 100,
+                "MCC": 75,
+                "SiO2": 10
+            },
+            "026_F3": {
+                "HPMC": 85.25,
+                "Lactose": 78.25,
+                "MCC": 63.25,
+                "SiO2": 23.25
+            },
+            "026_F4": {
+                "HPMC": 65,
+                "Lactose": 100,
+                "MCC": 25,
+                "SiO2": 60
+            },
+            "026_F5": {
+                "HPMC": 77.75,
+                "Lactose": 60.75,
+                "MCC": 63.25,
+                "SiO2": 48.25
+            },
+            "026_F6": {
+                "HPMC": 160.25,
+                "Lactose": 28.25,
+                "MCC": 38.25,
+                "SiO2": 23.25
+            },
+            "026_F7": {
+                "HPMC": 85.25,
+                "Lactose": 78.25,
+                "MCC": 38.25,
+                "SiO2": 48.25
+            },
+            "026_F8": {
+                "HPMC": 135.25,
+                "Lactose": 28.25,
+                "MCC": 63.25,
+                "SiO2": 23.25
+            },
+            "026_F9": {
+                "HPMC": 50,
+                "Lactose": 100,
+                "MCC": 75,
+                "SiO2": 25
+            },
+            "026_F10": {
+                "HPMC": 115,
+                "Lactose": 100,
+                "MCC": 25,
+                "SiO2": 10
+            },
+            "026_F11": {
+                "HPMC": 165,
+                "Lactose": 0,
+                "MCC": 25,
+                "SiO2": 60
+            },
+            "026_F12": {
+                "HPMC": 115,
+                "Lactose": 0,
+                "MCC": 75,
+                "SiO2": 60
+            },
+            "026_F13": {
+                "HPMC": 215,
+                "Lactose": 0,
+                "MCC": 25,
+                "SiO2": 10
+            },
+            "026_F14": {
+                "HPMC": 105.5,
+                "Lactose": 56.5,
+                "MCC": 51.5,
+                "SiO2": 36.5
+            },
+            "026_F15": {
+                "HPMC": 50,
+                "Lactose": 65,
+                "MCC": 75,
+                "SiO2": 60
+            },
+            "026_F16": {
+                "HPMC": 165,
+                "Lactose": 0,
+                "MCC": 75,
+                "SiO2": 10
+            },
+            "026_F17": {
+                "HPMC": 110.25,
+                "Lactose": 28.25,
+                "MCC": 63.25,
+                "SiO2": 48.25
+            },
+            "026_F18": {
+                "HPMC": 135.25,
+                "Lactose": 28.25,
+                "MCC": 38.25,
+                "SiO2": 48.25
+            },
+            "026_F19": {
+                "HPMC": 77.75,
+                "Lactose": 78.25,
+                "MCC": 63.25,
+                "SiO2": 30.75
+            },
+            "026_F20": {
+                "HPMC": 110.25,
+                "Lactose": 78.25,
+                "MCC": 38.25,
+                "SiO2": 23.25
+            },
+            "026_F21": {
+                "HPMC": 77.75,
+                "Lactose": 78.25,
+                "MCC": 45.75,
+                "SiO2": 48.25
+            }
+        }
+    },
+    "Pre_Compression_Parameters": {
+        "Measured": "Carr’s Index (mean ± SD)",
+        "Other_Parameters": "Mass distribution, hardness, friability, particle size – Not reported pre-compression",
+        "Carr_Index_Range_percent": "18–36"
+    },
+    "Independent_Variables_and_Levels_mg": {
+        "HPMC": "50–215",
+        "Lactose": "0–100",
+        "MCC": "25–75",
+        "SiO2": "10–60"
+    },
+    "FTIR_Spectral_Information": {
+        "Status": "Not reported in article"
+    },
+    "Tablet_Fabrication_Process": {
+        "Compression_Method": "Direct compression",
+        "Equipment": "Hydraulic press",
+        "Punch_Size_cm": "0.86 × 1.9 oblong",
+        "Compression_Pressure_N": 160,
+        "Coating": "None",
+        "Temperature": "Room temperature"
+    },
+    "Tablet_Physical_Properties_Per_Batch": [
+        {
+            "Batch": "026_F9",
+            "Thickness_cm": "0.578±0.0076",
+            "Friability_percent": 0.48,
+            "Tensile_strength_MPa": 0.483,
+            "Hardness_N": "83.32±2.65",
+            "Carrs_Index": "28.00±1.74"
+        },
+        {
+            "Batch": "026_F8",
+            "Thickness_cm": "0.596±0.0058",
+            "Friability_percent": 0.49,
+            "Tensile_strength_MPa": 0.289,
+            "Hardness_N": "51.32±8.89",
+            "Carrs_Index": "26.00±1.20"
+        },
+        {
+            "Batch": "026_F7",
+            "Thickness_cm": "0.590±0.0100",
+            "Friability_percent": 0.47,
+            "Tensile_strength_MPa": 0.329,
+            "Hardness_N": "57.84±5.62",
+            "Carrs_Index": "32.00±1.39"
+        },
+        {
+            "Batch": "026_F6",
+            "Thickness_cm": "0.593±0.0058",
+            "Friability_percent": 0.27,
+            "Tensile_strength_MPa": 0.283,
+            "Hardness_N": "50.13±2.46",
+            "Carrs_Index": "35.71±1.89"
+        },
+        {
+            "Batch": "026_F5",
+            "Thickness_cm": "0.576±0.0058",
+            "Friability_percent": 0.43,
+            "Tensile_strength_MPa": 0.331,
+            "Hardness_N": "56.93±2.46",
+            "Carrs_Index": "30.00±1.74"
+        },
+        {
+            "Batch": "026_F4",
+            "Thickness_cm": "0.580±0.0050",
+            "Friability_percent": 0.28,
+            "Tensile_strength_MPa": 0.313,
+            "Hardness_N": "54.13±2.14",
+            "Carrs_Index": "32.14±1.89"
+        },
+        {
+            "Batch": "026_F3",
+            "Thickness_cm": "0.575±0.0050",
+            "Friability_percent": 0.41,
+            "Tensile_strength_MPa": 0.336,
+            "Hardness_N": "57.63±5.26",
+            "Carrs_Index": "32.14±2.14"
+        },
+        {
+            "Batch": "026_F21",
+            "Thickness_cm": "0.593±0.0076",
+            "Friability_percent": 0.49,
+            "Tensile_strength_MPa": 0.434,
+            "Hardness_N": "66.74±6.51",
+            "Carrs_Index": "22.00±1.83"
+        },
+        {
+            "Batch": "026_F20",
+            "Thickness_cm": "0.600±0.0000",
+            "Friability_percent": 0.52,
+            "Tensile_strength_MPa": 0.309,
+            "Hardness_N": "55.32±8.08",
+            "Carrs_Index": "32.00±0.80"
+        },
+        {
+            "Batch": "026_F2",
+            "Thickness_cm": "0.586±0.0058",
+            "Friability_percent": 0.41,
+            "Tensile_strength_MPa": 0.287,
+            "Hardness_N": "50.13±7.29",
+            "Carrs_Index": "24.00±0.69"
+        },
+        {
+            "Batch": "026_F19",
+            "Thickness_cm": "0.593±0.0058",
+            "Friability_percent": 0.48,
+            "Tensile_strength_MPa": 0.359,
+            "Hardness_N": "63.44±7.74",
+            "Carrs_Index": "28.00±1.44"
+        },
+        {
+            "Batch": "026_F18",
+            "Thickness_cm": "0.600±0.0000",
+            "Friability_percent": 0.37,
+            "Tensile_strength_MPa": 0.287,
+            "Hardness_N": "51.32±8.05",
+            "Carrs_Index": "28.00±2.12"
+        },
+        {
+            "Batch": "026_F17",
+            "Thickness_cm": "0.596±0.0058",
+            "Friability_percent": 0.43,
+            "Tensile_strength_MPa": 0.303,
+            "Hardness_N": "53.92±1.21",
+            "Carrs_Index": "34.00±1.44"
+        },
+        {
+            "Batch": "026_F16",
+            "Thickness_cm": "0.596±0.0058",
+            "Friability_percent": 0.45,
+            "Tensile_strength_MPa": 0.321,
+            "Hardness_N": "57.14±5.96",
+            "Carrs_Index": "36.36±1.82"
+        },
+        {
+            "Batch": "026_F15",
+            "Thickness_cm": "0.573±0.0058",
+            "Friability_percent": 0.42,
+            "Tensile_strength_MPa": 0.344,
+            "Hardness_N": "58.82±3.90",
+            "Carrs_Index": "36.00±1.06"
+        },
+        {
+            "Batch": "026_F14",
+            "Thickness_cm": "0.590±0.0100",
+            "Friability_percent": 0.44,
+            "Tensile_strength_MPa": 0.264,
+            "Hardness_N": "46.42±4.77",
+            "Carrs_Index": "32.00±1.39"
+        },
+        {
+            "Batch": "026_F13",
+            "Thickness_cm": "0.610±0.0100",
+            "Friability_percent": 0.45,
+            "Tensile_strength_MPa": 0.352,
+            "Hardness_N": "64.14±8.87",
+            "Carrs_Index": "18.00±0.69"
+        },
+        {
+            "Batch": "026_F12",
+            "Thickness_cm": "0.596±0.0058",
+            "Friability_percent": 0.39,
+            "Tensile_strength_MPa": 0.262,
+            "Hardness_N": "46.63±8.92",
+            "Carrs_Index": "30.00±1.44"
+        },
+        {
+            "Batch": "026_F11",
+            "Thickness_cm": "0.600±0.0000",
+            "Friability_percent": 0.35,
+            "Tensile_strength_MPa": 0.22,
+            "Hardness_N": "39.42±3.59",
+            "Carrs_Index": "21.43±1.24"
+        },
+        {
+            "Batch": "026_F10",
+            "Thickness_cm": "0.580±0.0100",
+            "Friability_percent": 0.59,
+            "Tensile_strength_MPa": 0.306,
+            "Hardness_N": "52.94±14.69",
+            "Carrs_Index": "33.33±3.00"
+        },
+        {
+            "Batch": "026_F1",
+            "Thickness_cm": "0.593±0.0058",
+            "Friability_percent": 0.46,
+            "Tensile_strength_MPa": 0.493,
+            "Hardness_N": "87.24±12.24",
+            "Carrs_Index": "32.00±1.05"
+        }
+    ],
+    "Release_Properties_Per_Batch": {
+        "Dissolution_Media": [
+            "0.1 N HCl (45 min)",
+            "Phosphate buffer pH 5.5 + 0.5% SLS"
+        ],
+        "Sampling_Times": [
+            "15 min",
+            "45 min",
+            "1, 2, 4, 6, 12, 24 h"
+        ],
+        "Release_Kinetic_Models": [
+            {
+                "Model": "Zero order",
+                "F8_MPE": 16.06,
+                "F8_r2": 0.9472,
+                "F8_K": 8.035,
+                "F8_n": "",
+                "F8_Slope": 8.04,
+                "F8_Intercept": 0.01,
+                "Dep_MPE": 4.17,
+                "Dep_r2": 0.9897,
+                "Dep_K": 7.82,
+                "Dep_n": "",
+                "Dep_Slope": 7.83,
+                "Dep_Intercept": 0.01
+            },
+            {
+                "Model": "First order",
+                "F8_MPE": 25.13,
+                "F8_r2": 0.9853,
+                "F8_K": 0.102,
+                "F8_n": "",
+                "F8_Slope": 0.102,
+                "F8_Intercept": 0.001,
+                "Dep_MPE": 7.95,
+                "Dep_r2": 0.9936,
+                "Dep_K": 0.072,
+                "Dep_n": "",
+                "Dep_Slope": 0.072,
+                "Dep_Intercept": 0.001
+            },
+            {
+                "Model": "Higuchi",
+                "F8_MPE": 42.32,
+                "F8_r2": 0.9601,
+                "F8_K": 18.51,
+                "F8_n": "",
+                "F8_Slope": 18.53,
+                "F8_Intercept": -0.04,
+                "Dep_MPE": 6.89,
+                "Dep_r2": 0.9963,
+                "Dep_K": 23.57,
+                "Dep_n": "",
+                "Dep_Slope": 23.6,
+                "Dep_Intercept": -0.09
+            },
+            {
+                "Model": "Peppas (Power Law)",
+                "F8_MPE": 30.17,
+                "F8_r2": 0.9891,
+                "F8_K": 0.361,
+                "F8_n": 0.697,
+                "F8_Slope": 0.697,
+                "F8_Intercept": 0.034,
+                "Dep_MPE": 3.98,
+                "Dep_r2": 0.9984,
+                "Dep_K": 0.309,
+                "Dep_n": 0.534,
+                "Dep_Slope": 0.534,
+                "Dep_Intercept": 0.03
+            },
+            {
+                "Model": "Hixson-Crowell",
+                "F8_MPE": 36.59,
+                "F8_r2": 0.9879,
+                "F8_K": 10.37,
+                "F8_n": "",
+                "F8_Slope": 0.423,
+                "F8_Intercept": 0.07,
+                "Dep_MPE": 8.6,
+                "Dep_r2": 0.997,
+                "Dep_K": 8.96,
+                "Dep_n": "",
+                "Dep_Slope": 0.46,
+                "Dep_Intercept": 0.07
+            }
+        ],
+        "Similarity_Factor_f2": {
+            "026_F11": 54.7,
+            "026_F21": 58.4
+        },
+        "Difference_Factor_f1": {
+            "026_F11": 15.94,
+            "026_F21": 12.91
+        }
+    },
+    "Experimental_Data": {
+        "In_Vitro_Studies": "USP Apparatus II dissolution",
+        "In_Vivo_Studies": "Not performed",
+        "Statistical_Analysis": "R², MPE, mixture regression models",
+        "Optimized_Formulation": "026_F13 (composite desirability = 1)"
+    }
+}

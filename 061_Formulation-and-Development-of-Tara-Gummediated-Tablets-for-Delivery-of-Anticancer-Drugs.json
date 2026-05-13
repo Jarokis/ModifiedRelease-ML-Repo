@@ -1,0 +1,389 @@
+[
+  {
+    "section": "Materials Origin",
+    "content": {
+      "source": "Materials section",
+      "details": "Tara gum (TG) isolate and other excipients (talc, Aerosil, magnesium stearate, lactose DCL21, sodium starch glycolate) were obtained from Vineet Analytical Research Laboratories Pvt Ltd. (Pioma Chemicals, Mumbai, Maharashtra, India)."
+    }
+  },
+  {
+    "section": "Experimental Design for Optimization",
+    "content": {
+      "source": "Materials and methods section",
+      "details": "Tablets containing imatinib were developed using TG extract. Conventional tablets were made with a variable ratio of excipients to TG utilizing the direct compression process. All excipients were well-mixed except magnesium stearate. Following adequate mixing of the extract and other ingredients, Aerosil and magnesium stearate were added and combined for a further 2-3 min."
+    }
+  },
+  {
+    "section": "Ingredients Identification",
+    "content": {
+      "source": "Materials and methods, Phytochemical screening, Content uniformity sections",
+      "details": {
+        "preparation": "The optimized tablet formulation was used for the initial phytochemical per standard procedures [18]. For content uniformity, 10 tablets from each formulation were ground into a fine powder. Part of the powder (20 mg of imatinib) was dissolved in methanol, filtered, and appropriately diluted.",
+        "results": "Phytochemical screening revealed the presence of saponins, tannins, phenolics, flavonoids, carbohydrates, proteins, and amino acids. Steroids, alkaloids, fats, and oils were absent.",
+        "equation": "% F = {1 - (Wt / W)} × 100 (for friability)",
+        "absorbance": "Absorbance for drug content and dissolution studies was measured at 238 nm using a UV-visible spectrophotometer."
+      }
+    }
+  },
+  {
+    "section": "Formulation Details for Each Batch",
+    "content": {
+      "source": "Table 1",
+      "batches": [
+        {
+          "batch": "F1",
+          "ingredients": {
+            "Imatinib": "50 mg",
+            "TG": "100 mg",
+            "Talc": "10 mg",
+            "Aerosil": "8 mg",
+            "Magnesium stearate": "4 mg",
+            "Lactose DCL-21": "158 mg",
+            "Sodium starch glycolate": "50 mg"
+          },
+          "total_weight": "380 mg",
+          "percent_api": "13.16%"
+        },
+        {
+          "batch": "F2",
+          "ingredients": {
+            "Imatinib": "50 mg",
+            "TG": "120 mg",
+            "Talc": "10 mg",
+            "Aerosil": "8 mg",
+            "Magnesium stearate": "4 mg",
+            "Lactose DCL-21": "98 mg",
+            "Sodium starch glycolate": "60 mg"
+          },
+          "total_weight": "380 mg",
+          "percent_api": "13.16%"
+        },
+        {
+          "batch": "F3",
+          "ingredients": {
+            "Imatinib": "50 mg",
+            "TG": "140 mg",
+            "Talc": "10 mg",
+            "Aerosil": "8 mg",
+            "Magnesium stearate": "4 mg",
+            "Lactose DCL-21": "68 mg",
+            "Sodium starch glycolate": "70 mg"
+          },
+          "total_weight": "380 mg",
+          "percent_api": "13.16%"
+        },
+        {
+          "batch": "F4",
+          "ingredients": {
+            "Imatinib": "50 mg",
+            "TG": "160 mg",
+            "Talc": "10 mg",
+            "Aerosil": "8 mg",
+            "Magnesium stearate": "4 mg",
+            "Lactose DCL-21": "38 mg",
+            "Sodium starch glycolate": "80 mg"
+          },
+          "total_weight": "380 mg",
+          "percent_api": "13.16%"
+        },
+        {
+          "batch": "F5",
+          "ingredients": {
+            "Imatinib": "50 mg",
+            "TG": "180 mg",
+            "Talc": "10 mg",
+            "Aerosil": "8 mg",
+            "Magnesium stearate": "4 mg",
+            "Lactose DCL-21": "8 mg",
+            "Sodium starch glycolate": "90 mg"
+          },
+          "total_weight": "380 mg",
+          "percent_api": "13.16%"
+        },
+        {
+          "batch": "F6",
+          "ingredients": {
+            "Imatinib": "50 mg",
+            "TG": "200 mg",
+            "Talc": "10 mg",
+            "Aerosil": "8 mg",
+            "Magnesium stearate": "4 mg",
+            "Lactose DCL-21": "8 mg",
+            "Sodium starch glycolate": "100 mg"
+          },
+          "total_weight": "380 mg",
+          "percent_api": "13.16%"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Pre-compression Parameters for Each Batch",
+    "content": {
+      "source": "Not explicitly provided in the text",
+      "details": "The document does not contain specific pre-compression parameters (micromeritic properties) for the powder blends of individual batches such as bulk density, tapped density, Carr's index, or Hausner ratio."
+    }
+  },
+  {
+    "section": "Composition of Independent Variables and Their Levels",
+    "content": {
+      "source": "Table 1",
+      "details": "The independent variable was the concentration of Tara Gum (TG) and Sodium starch glycolate. TG levels: 100 mg (F1), 120 mg (F2), 140 mg (F3), 160 mg (F4), 180 mg (F5), 200 mg (F6). Sodium starch glycolate levels: 50 mg (F1), 60 mg (F2), 70 mg (F3), 80 mg (F4), 90 mg (F5), 100 mg (F6)."
+    }
+  },
+  {
+    "section": "Fourier Transform Infrared Spectral Measurements Information",
+    "content": {
+      "source": "Not mentioned in the document",
+      "details": "The document does not contain any information regarding FTIR spectral measurements or compatibility studies."
+    }
+  },
+  {
+    "section": "Tablet Fabrications for Each Batch",
+    "content": {
+      "source": "Table 2",
+      "batches": [
+        {
+          "batch": "F1",
+          "weight_variation": "385.2 ± 9.48 mg",
+          "thickness": "8.5 ± 0.2 mm",
+          "diameter": "6.04 ± 0.03 mm",
+          "friability": "0.85%",
+          "hardness": "5.3 ± 0.9 N",
+          "drug_content": "98.20 ± 1.12%",
+          "disintegration_time": "16 min"
+        },
+        {
+          "batch": "F2",
+          "weight_variation": "382.4 ± 1.52 mg",
+          "thickness": "8.4 ± 0.3 mm",
+          "diameter": "6.00 ± 0.13 mm",
+          "friability": "0.76%",
+          "hardness": "4.9 ± 0.4 N",
+          "drug_content": "98.21 ± 1.80%",
+          "disintegration_time": "14 min"
+        },
+        {
+          "batch": "F3",
+          "weight_variation": "381.8 ± 1.62 mg",
+          "thickness": "8.5 ± 0.1 mm",
+          "diameter": "6.02 ± 0.02 mm",
+          "friability": "0.64%",
+          "hardness": "4.0 ± 0.6 N",
+          "drug_content": "98.41 ± 1.50%",
+          "disintegration_time": "18 min"
+        },
+        {
+          "batch": "F4",
+          "weight_variation": "384.2 ± 1.26 mg",
+          "thickness": "8.4 ± 0.2 mm",
+          "diameter": "6.03 ± 0.01 mm",
+          "friability": "0.86%",
+          "hardness": "4.8 ± 0.5 N",
+          "drug_content": "98.11 ± 1.13%",
+          "disintegration_time": "17 min"
+        },
+        {
+          "batch": "F5",
+          "weight_variation": "380.7 ± 1.64 mg",
+          "thickness": "8.4 ± 0.3 mm",
+          "diameter": "6.02 ± 0.01 mm",
+          "friability": "0.93%",
+          "hardness": "4.6 ± 0.3 N",
+          "drug_content": "98.56 ± 0.99%",
+          "disintegration_time": "23 min"
+        },
+        {
+          "batch": "F6",
+          "weight_variation": "383.4 ± 1.38 mg",
+          "thickness": "8.5 ± 0.1 mm",
+          "diameter": "6.03 ± 0.02 mm",
+          "friability": "0.45%",
+          "hardness": "4.7 ± 0.8 N",
+          "drug_content": "100.20 ± 1.1%",
+          "disintegration_time": "10 min"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Process Parameters",
+    "content": {
+      "source": "Materials and methods section",
+      "details": {
+        "compression_device": "Rotary punching machine",
+        "punch_size": "6-mm flat punch",
+        "compression_process": "Direct compression",
+        "coating": "No coating mentioned (uncoated tablets)",
+        "equipment": "Rotary punching machine, Roche friabilator, Pfizer hardness tester, USP type-II dissolution apparatus",
+        "process_conditions": "Tablets were compressed at room temperature. Dissolution studies were conducted at 37 ± 0.5°C."
+      }
+    }
+  },
+  {
+    "section": "Release Properties for Each Batch",
+    "content": {
+      "source": "Table 3, Figure 1, and Discussion section",
+      "details": {
+        "general_mechanism": "Extended-release behavior due to rate-retarding polymer (TG). Specific release kinetics (zero order, first order, Hixson-Crowell, Korsmeyer-Peppas) were not calculated or discussed.",
+        "factors_influencing_release": "Concentration of Tara Gum (TG). Higher TG concentration (F6) resulted in more sustained release.",
+        "batches": [
+          {
+            "batch": "F1",
+            "release_profile": {
+              "1h": "25%",
+              "2h": "36%",
+              "4h": "48%",
+              "6h": "66%",
+              "8h": "75%",
+              "10h": "85%",
+              "12h": "99%"
+            }
+          },
+          {
+            "batch": "F2",
+            "release_profile": {
+              "1h": "22%",
+              "2h": "32%",
+              "4h": "44%",
+              "6h": "55%",
+              "8h": "71%",
+              "10h": "79%",
+              "12h": "97%"
+            }
+          },
+          {
+            "batch": "F3",
+            "release_profile": {
+              "1h": "20%",
+              "2h": "29%",
+              "4h": "40%",
+              "6h": "59%",
+              "8h": "69%",
+              "10h": "71%",
+              "12h": "93%"
+            }
+          },
+          {
+            "batch": "F4",
+            "release_profile": {
+              "1h": "18%",
+              "2h": "25%",
+              "4h": "37%",
+              "6h": "54%",
+              "8h": "65%",
+              "10h": "67%",
+              "12h": "89%"
+            }
+          },
+          {
+            "batch": "F5",
+            "release_profile": {
+              "1h": "16%",
+              "2h": "20%",
+              "4h": "30%",
+              "6h": "51%",
+              "8h": "59%",
+              "10h": "65%",
+              "12h": "82%"
+            }
+          },
+          {
+            "batch": "F6",
+            "release_profile": {
+              "1h": "12%",
+              "2h": "18%",
+              "4h": "25%",
+              "6h": "41%",
+              "8h": "55%",
+              "10h": "65%",
+              "12h": "72%"
+            },
+            "note": "Exhibited excellent extended-release behavior with 72% release over 12h."
+          }
+        ]
+      }
+    }
+  },
+  {
+    "section": "Tablet Properties for Each Batch",
+    "content": {
+      "source": "Table 2, Table 3, and Discussion section",
+      "batches": [
+        {
+          "batch": "F1",
+          "hardness": "5.3 ± 0.9 N",
+          "friability": "0.85%",
+          "disintegration_time": "16 min",
+          "thickness": "8.5 ± 0.2 mm",
+          "weight_variation_percent": "1.37%",
+          "dissolution_profile_12h": "99%",
+          "stability": "Not explicitly studied"
+        },
+        {
+          "batch": "F2",
+          "hardness": "4.9 ± 0.4 N",
+          "friability": "0.76%",
+          "disintegration_time": "14 min",
+          "thickness": "8.4 ± 0.3 mm",
+          "weight_variation_percent": "0.63%",
+          "dissolution_profile_12h": "97%",
+          "stability": "Not explicitly studied"
+        },
+        {
+          "batch": "F3",
+          "hardness": "4.0 ± 0.6 N",
+          "friability": "0.64%",
+          "disintegration_time": "18 min",
+          "thickness": "8.5 ± 0.1 mm",
+          "weight_variation_percent": "0.68%",
+          "dissolution_profile_12h": "93%",
+          "stability": "Not explicitly studied"
+        },
+        {
+          "batch": "F4",
+          "hardness": "4.8 ± 0.5 N",
+          "friability": "0.86%",
+          "disintegration_time": "17 min",
+          "thickness": "8.4 ± 0.2 mm",
+          "weight_variation_percent": "0.57%",
+          "dissolution_profile_12h": "89%",
+          "stability": "Not explicitly studied"
+        },
+        {
+          "batch": "F5",
+          "hardness": "4.6 ± 0.3 N",
+          "friability": "0.93%",
+          "disintegration_time": "23 min",
+          "thickness": "8.4 ± 0.3 mm",
+          "weight_variation_percent": "0.74%",
+          "dissolution_profile_12h": "82%",
+          "stability": "Not explicitly studied"
+        },
+        {
+          "batch": "F6",
+          "hardness": "4.7 ± 0.8 N",
+          "friability": "0.45%",
+          "disintegration_time": "10 min",
+          "thickness": "8.5 ± 0.1 mm",
+          "weight_variation_percent": "0.62%",
+          "dissolution_profile_12h": "72%",
+          "stability": "Not explicitly studied"
+        }
+      ]
+    }
+  },
+  {
+    "section": "Experimental Data",
+    "content": {
+      "source": "Results and discussion, Table 3",
+      "details": {
+        "key_results": "All formulations showed extended-release behavior. F6 exhibited the best sustained release with 72% drug release over 12 hours. TG tablets are rich in phytoconstituents like saponins, tannins, phenolics, flavonoids, carbohydrates, proteins, and amino acids.",
+        "performance_metrics": "Hardness (4.0-5.3 N), Friability (0.45-0.93%), Drug Content (98.11-100.20%), Disintegration Time (10-23 min).",
+        "statistical_analysis": "Results are presented as mean ± SD (Standard Deviation) where applicable.",
+        "zero_first_order_release": "Zero-order and first-order release kinetics were not calculated for any formulation.",
+        "swelling_study": "Tablet swelling/water uptake study (lag time, total floating time, swelling index) was not conducted or mentioned."
+      }
+    }
+  }
+]

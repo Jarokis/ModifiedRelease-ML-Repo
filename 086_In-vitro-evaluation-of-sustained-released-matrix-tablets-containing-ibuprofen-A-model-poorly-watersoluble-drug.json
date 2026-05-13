@@ -1,0 +1,965 @@
+{
+    "article_sections": {
+        "abstract": "Page 1",
+        "introduction": "Page 1",
+        "materials_and_methods": "Page 2",
+        "results_and_discussion": "Page 3-7",
+        "conclusion": "Page 7"
+    },
+    "materials_origin": {
+        "ibuprofen_api": "Astroquim, S.A. de C.V. (Ecatepec, México)",
+        "ibuprofen_standard": "Sigma-Aldrich",
+        "carbopol_971p": "Lubrizol Advanced Materials (Cleveland OH, USA)",
+        "ethylcellulose_n-50": "Gylsa / Dow Chemical Company (Midland MI, USA)",
+        "hpmc_methocel_e4m": "Gylsa / Dow Chemical Company (Midland MI, USA)",
+        "microcrystalline_cellulose_mcc": "Desarrollo de Especialidades Químicas, S.A. de C.V. (Monterrey, México)",
+        "magnesium_stearate": "Desarrollo de Especialidades Químicas, S.A. de C.V. (Monterrey, México)",
+        "talc": "Desarrollo de Especialidades Químicas, S.A. de C.V. (Monterrey, México)",
+        "colloidal_silicon_dioxide": "Desarrollo de Especialidades Químicas, S.A. de C.V. (Monterrey, México)",
+        "sodium_lauryl_sulfate": "Desarrollo de Especialidades Químicas, S.A. de C.V. (Monterrey, México)"
+    },
+    "experimental_design_for_optimization": {
+        "objective": "To investigate the influence of polymer type (Carbopol, HPMC, Ethylcellulose) and concentration on the release rate of ibuprofen from direct compression matrix tablets.",
+        "independent_variables": [
+            "Polymer type",
+            "Polymer concentration"
+        ],
+        "dependent_variables": [
+            "Drug release rate",
+            "Release kinetics",
+            "Hardness",
+            "Friability",
+            "Drug content"
+        ]
+    },
+    "ingredients_identification": {
+        "preparation": "Tablets were prepared by direct compression.",
+        "results": "All formulations were within acceptable limits for physical and chemical parameters. The 086_C3 formulation (8% Carbopol) showed the best fit for zero-order kinetics.",
+        "absorbance_wavelength": "265 nm",
+        "calibration_curve_equation": "y = 1.786x + 0.012 (R² = 0.9997 over 0.06-0.6 mg/mL)"
+    },
+    "formulation_details": [
+        {
+            "batch": "086_C1",
+            "api_ibuprofen": {
+                "mass_mg": 242.0,
+                "percent": 60.5
+            },
+            "excipients": [
+                {
+                    "name": "Carbopol 971P",
+                    "mass_mg": 20.0,
+                    "percent": 5.0
+                },
+                {
+                    "name": "Microcrystalline Cellulose",
+                    "mass_mg": 120.0,
+                    "percent": 30.0
+                },
+                {
+                    "name": "Colloidal Silicon Dioxide",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 10.0,
+                    "percent": 2.5
+                },
+                {
+                    "name": "Sodium Lauryl Sulfate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                },
+                {
+                    "name": "Magnesium Stearate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                }
+            ],
+            "total_weight_mg": 400.0
+        },
+        {
+            "batch": "086_C2",
+            "api_ibuprofen": {
+                "mass_mg": 236.0,
+                "percent": 59.0
+            },
+            "excipients": [
+                {
+                    "name": "Carbopol 971P",
+                    "mass_mg": 26.0,
+                    "percent": 6.5
+                },
+                {
+                    "name": "Microcrystalline Cellulose",
+                    "mass_mg": 120.0,
+                    "percent": 30.0
+                },
+                {
+                    "name": "Colloidal Silicon Dioxide",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 10.0,
+                    "percent": 2.5
+                },
+                {
+                    "name": "Sodium Lauryl Sulfate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                },
+                {
+                    "name": "Magnesium Stearate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                }
+            ],
+            "total_weight_mg": 400.0
+        },
+        {
+            "batch": "086_C3",
+            "api_ibuprofen": {
+                "mass_mg": 230.0,
+                "percent": 57.5
+            },
+            "excipients": [
+                {
+                    "name": "Carbopol 971P",
+                    "mass_mg": 32.0,
+                    "percent": 8.0
+                },
+                {
+                    "name": "Microcrystalline Cellulose",
+                    "mass_mg": 120.0,
+                    "percent": 30.0
+                },
+                {
+                    "name": "Colloidal Silicon Dioxide",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 10.0,
+                    "percent": 2.5
+                },
+                {
+                    "name": "Sodium Lauryl Sulfate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                },
+                {
+                    "name": "Magnesium Stearate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                }
+            ],
+            "total_weight_mg": 400.0
+        },
+        {
+            "batch": "086_H1",
+            "api_ibuprofen": {
+                "mass_mg": 178.0,
+                "percent": 44.5
+            },
+            "excipients": [
+                {
+                    "name": "Carbopol 971P",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Hydroxypropyl Methylcellulose",
+                    "mass_mg": 120.0,
+                    "percent": 30.0
+                },
+                {
+                    "name": "Microcrystalline Cellulose",
+                    "mass_mg": 80.0,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Colloidal Silicon Dioxide",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 10.0,
+                    "percent": 2.5
+                },
+                {
+                    "name": "Sodium Lauryl Sulfate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                },
+                {
+                    "name": "Magnesium Stearate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                }
+            ],
+            "total_weight_mg": 400.0
+        },
+        {
+            "batch": "086_H2",
+            "api_ibuprofen": {
+                "mass_mg": 198.0,
+                "percent": 49.5
+            },
+            "excipients": [
+                {
+                    "name": "Carbopol 971P",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Hydroxypropyl Methylcellulose",
+                    "mass_mg": 60.0,
+                    "percent": 15.0
+                },
+                {
+                    "name": "Microcrystalline Cellulose",
+                    "mass_mg": 120.0,
+                    "percent": 30.0
+                },
+                {
+                    "name": "Colloidal Silicon Dioxide",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 10.0,
+                    "percent": 2.5
+                },
+                {
+                    "name": "Sodium Lauryl Sulfate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                },
+                {
+                    "name": "Magnesium Stearate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                }
+            ],
+            "total_weight_mg": 400.0
+        },
+        {
+            "batch": "086_H3",
+            "api_ibuprofen": {
+                "mass_mg": 218.0,
+                "percent": 54.5
+            },
+            "excipients": [
+                {
+                    "name": "Carbopol 971P",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Hydroxypropyl Methylcellulose",
+                    "mass_mg": 40.0,
+                    "percent": 10.0
+                },
+                {
+                    "name": "Microcrystalline Cellulose",
+                    "mass_mg": 120.0,
+                    "percent": 30.0
+                },
+                {
+                    "name": "Colloidal Silicon Dioxide",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 10.0,
+                    "percent": 2.5
+                },
+                {
+                    "name": "Sodium Lauryl Sulfate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                },
+                {
+                    "name": "Magnesium Stearate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                }
+            ],
+            "total_weight_mg": 400.0
+        },
+        {
+            "batch": "086_E1",
+            "api_ibuprofen": {
+                "mass_mg": 178.0,
+                "percent": 44.5
+            },
+            "excipients": [
+                {
+                    "name": "Carbopol 971P",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Ethylcellulose",
+                    "mass_mg": 120.0,
+                    "percent": 30.0
+                },
+                {
+                    "name": "Microcrystalline Cellulose",
+                    "mass_mg": 80.0,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Colloidal Silicon Dioxide",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 10.0,
+                    "percent": 2.5
+                },
+                {
+                    "name": "Sodium Lauryl Sulfate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                },
+                {
+                    "name": "Magnesium Stearate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                }
+            ],
+            "total_weight_mg": 400.0
+        },
+        {
+            "batch": "086_E2",
+            "api_ibuprofen": {
+                "mass_mg": 178.0,
+                "percent": 44.5
+            },
+            "excipients": [
+                {
+                    "name": "Carbopol 971P",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Ethylcellulose",
+                    "mass_mg": 80.0,
+                    "percent": 20.0
+                },
+                {
+                    "name": "Microcrystalline Cellulose",
+                    "mass_mg": 120.0,
+                    "percent": 30.0
+                },
+                {
+                    "name": "Colloidal Silicon Dioxide",
+                    "mass_mg": 4.0,
+                    "percent": 1.0
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 10.0,
+                    "percent": 2.5
+                },
+                {
+                    "name": "Sodium Lauryl Sulfate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                },
+                {
+                    "name": "Magnesium Stearate",
+                    "mass_mg": 2.0,
+                    "percent": 0.5
+                }
+            ],
+            "total_weight_mg": 400.0
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "086_C1",
+            "weight_mg_mean_sd": "644.57 ± 6.54",
+            "hardness_kp_mean_sd": "17.68 ± 0.55",
+            "friability_percent": 0.24,
+            "size_mm": "16 mm (punch diameter)"
+        },
+        {
+            "batch": "086_C2",
+            "weight_mg_mean_sd": "671.97 ± 6.37",
+            "hardness_kp_mean_sd": "19.06 ± 0.55",
+            "friability_percent": 0.15,
+            "size_mm": "16 mm (punch diameter)"
+        },
+        {
+            "batch": "086_C3",
+            "weight_mg_mean_sd": "693.97 ± 8.36",
+            "hardness_kp_mean_sd": "21.66 ± 1.08",
+            "friability_percent": 0.17,
+            "size_mm": "16 mm (punch diameter)"
+        },
+        {
+            "batch": "086_H1",
+            "weight_mg_mean_sd": "885.92 ± 5.58",
+            "hardness_kp_mean_sd": "16.22 ± 0.45",
+            "friability_percent": 0.48,
+            "size_mm": "16 mm (punch diameter)"
+        },
+        {
+            "batch": "086_H2",
+            "weight_mg_mean_sd": "806.81 ± 6.80",
+            "hardness_kp_mean_sd": "18.95 ± 0.57",
+            "friability_percent": 0.26,
+            "size_mm": "16 mm (punch diameter)"
+        },
+        {
+            "batch": "086_H3",
+            "weight_mg_mean_sd": "730.56 ± 3.17",
+            "hardness_kp_mean_sd": "16.58 ± 0.47",
+            "friability_percent": 0.24,
+            "size_mm": "16 mm (punch diameter)"
+        },
+        {
+            "batch": "086_E1",
+            "weight_mg_mean_sd": "889.20 ± 9.40",
+            "hardness_kp_mean_sd": "23.17 ± 0.79",
+            "friability_percent": 0.35,
+            "size_mm": "16 mm (punch diameter)"
+        },
+        {
+            "batch": "086_E2",
+            "weight_mg_mean_sd": "892.44 ± 6.64",
+            "hardness_kp_mean_sd": "26.77 ± 1.23",
+            "friability_percent": 0.23,
+            "size_mm": "16 mm (punch diameter)"
+        }
+    ],
+    "independent_variables_and_levels": {
+        "polymer_type": [
+            "Carbopol 971P",
+            "HPMC (Methocel E4M)",
+            "Ethylcellulose (Ethocel N-50)"
+        ],
+        "polymer_concentration_percent": {
+            "Carbopol_971P": [
+                5.0,
+                6.5,
+                8.0
+            ],
+            "HPMC": [
+                10.0,
+                15.0,
+                30.0
+            ],
+            "Ethylcellulose": [
+                20.0,
+                30.0
+            ]
+        }
+    },
+    "ftir_spectral_measurements": "Not discussed in this article.",
+    "tablet_fabrication": {
+        "process": "Direct compression",
+        "equipment": "10-station rotary tablet press (ADEPT 10D mini-press, Mumbai, India)",
+        "punch_size": "16 mm",
+        "determination_methods": {
+            "hardness": "Vankel 200 hardness tester",
+            "friability": "Vankel 41-1200 friabilator (25 rpm for 4 min)",
+            "weight_variation": "Analytical weighing (n=10)",
+            "drug_content": "UV-Vis spectrophotometry at 265 nm after ultrasonication in pH 7.2 buffer"
+        },
+        "density": "Not discussed in this article.",
+        "consolidation_index": "Not discussed in this article."
+    },
+    "process_parameters": {
+        "compression_device": "ADEPT 10D mini-press, 10-station rotary tablet press",
+        "compression_pressure": "Not specified in the article.",
+        "coating": "No coating applied; matrix tablets were uncoated.",
+        "temperature": "Room temperature for manufacturing; dissolution at 37.0 ± 0.5°C.",
+        "process_conditions": "Direct compression of powder blends."
+    },
+    "release_properties": [
+        {
+            "batch": "086_C1",
+            "release_mechanism": "Anomalous diffusion (non-Fickian), based on Korsmeyer-Peppas n=1.031",
+            "release_profile": "~90% release over 6 hours (faster than 086_C2, 086_C3).",
+            "factors_influencing_release": "Polymer concentration (5% CP).",
+            "release_kinetics_best_fit": "First-order (r²=0.973)",
+            "korsmeyer_peppas_n": 1.031,
+            "zero_order_r2": 0.769,
+            "first_order_r2": 0.973,
+            "higuchi_r2": 0.88
+        },
+        {
+            "batch": "086_C2",
+            "release_mechanism": "Anomalous diffusion (non-Fickian), based on Korsmeyer-Peppas n=1.437",
+            "release_profile": "Slower than 086_C1, extended over >12 hours.",
+            "factors_influencing_release": "Polymer concentration (6.5% CP).",
+            "release_kinetics_best_fit": "Zero-order (r²=0.956)",
+            "korsmeyer_peppas_n": 1.437,
+            "zero_order_r2": 0.956,
+            "first_order_r2": 0.89,
+            "higuchi_r2": 0.901
+        },
+        {
+            "batch": "086_C3",
+            "release_mechanism": "Case II transport (polymer relaxation/erosion), based on Korsmeyer-Peppas n=1.101",
+            "release_profile": "Extended release over approximately 18 hours, nearly linear.",
+            "factors_influencing_release": "Polymer concentration (8% CP).",
+            "release_kinetics_best_fit": "Zero-order (r²=0.977)",
+            "korsmeyer_peppas_n": 1.101,
+            "zero_order_r2": 0.977,
+            "first_order_r2": 0.828,
+            "higuchi_r2": 0.926
+        },
+        {
+            "batch": "086_H1",
+            "release_mechanism": "Not specified, but overall HPMC matrices showed slow/incomplete release.",
+            "release_profile": "Very slow and incomplete (<60% release over 12h).",
+            "factors_influencing_release": "High polymer concentration (30% HPMC) and high viscosity grade.",
+            "release_kinetics_best_fit": "Zero-order (r²=0.983)",
+            "korsmeyer_peppas_n": 0.569,
+            "zero_order_r2": 0.983,
+            "first_order_r2": 0.979,
+            "higuchi_r2": 0.945
+        },
+        {
+            "batch": "086_H2",
+            "release_mechanism": "Not specified.",
+            "release_profile": "Slow and incomplete.",
+            "factors_influencing_release": "Polymer concentration (15% HPMC).",
+            "release_kinetics_best_fit": "Korsmeyer-Peppas (r²=0.994)",
+            "korsmeyer_peppas_n": 0.466,
+            "zero_order_r2": 0.94,
+            "first_order_r2": 0.951,
+            "higuchi_r2": 0.988
+        },
+        {
+            "batch": "086_H3",
+            "release_mechanism": "Fickian diffusion, based on Korsmeyer-Peppas n=0.259",
+            "release_profile": "Largest amount released among HPMC batches, but still <60% over 12h.",
+            "factors_influencing_release": "Lowest HPMC concentration (10%).",
+            "release_kinetics_best_fit": "Korsmeyer-Peppas (r²=0.976)",
+            "korsmeyer_peppas_n": 0.259,
+            "zero_order_r2": 0.867,
+            "first_order_r2": 0.909,
+            "higuchi_r2": 0.946
+        },
+        {
+            "batch": "086_E1",
+            "release_mechanism": "Anomalous diffusion (non-Fickian), based on Korsmeyer-Peppas n=0.583",
+            "release_profile": "Bimodal: ~75% release in first 4h, then slow release; ~90% over 8h.",
+            "factors_influencing_release": "Hydrophobic EC, higher MCC (30%) affecting porosity.",
+            "release_kinetics_best_fit": "First-order (r²=0.973)",
+            "korsmeyer_peppas_n": 0.583,
+            "zero_order_r2": 0.784,
+            "first_order_r2": 0.973,
+            "higuchi_r2": 0.893
+        },
+        {
+            "batch": "086_E2",
+            "release_mechanism": "Anomalous diffusion (non-Fickian), based on Korsmeyer-Peppas n=0.612",
+            "release_profile": "Similar to 086_E1 (f2=89), bimodal release.",
+            "factors_influencing_release": "Hydrophobic EC, higher tablet hardness (26.77 kp).",
+            "release_kinetics_best_fit": "First-order (r²=0.961)",
+            "korsmeyer_peppas_n": 0.612,
+            "zero_order_r2": 0.789,
+            "first_order_r2": 0.961,
+            "higuchi_r2": 0.898
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "086_C1",
+            "hardness_kp_mean_sd": "17.68 ± 0.55",
+            "friability_percent": 0.24,
+            "disintegration_time": "Not applicable for sustained release matrix.",
+            "dissolution_profile": "~90% release in 6 hours (Fig. 2).",
+            "drug_content_percent": "102.56 ± 1.36",
+            "weight_variation_rsd": 1.33
+        },
+        {
+            "batch": "086_C2",
+            "hardness_kp_mean_sd": "19.06 ± 0.55",
+            "friability_percent": 0.15,
+            "disintegration_time": "Not applicable for sustained release matrix.",
+            "dissolution_profile": "Slower release, extended over >12 hours (Fig. 2).",
+            "drug_content_percent": "98.90 ± 0.81",
+            "weight_variation_rsd": 0.83
+        },
+        {
+            "batch": "086_C3",
+            "hardness_kp_mean_sd": "21.66 ± 1.08",
+            "friability_percent": 0.17,
+            "disintegration_time": "Not applicable for sustained release matrix.",
+            "dissolution_profile": "Extended over ~18 hours, nearly linear (Fig. 2).",
+            "drug_content_percent": "104.71 ± 1.10",
+            "weight_variation_rsd": 1.06
+        },
+        {
+            "batch": "086_H1",
+            "hardness_kp_mean_sd": "16.22 ± 0.45",
+            "friability_percent": 0.48,
+            "disintegration_time": "Not applicable for sustained release matrix.",
+            "dissolution_profile": "Very slow, <40% release in 12 hours (Fig. 1).",
+            "drug_content_percent": "101.62 ± 0.68",
+            "weight_variation_rsd": 0.68
+        },
+        {
+            "batch": "086_H2",
+            "hardness_kp_mean_sd": "18.95 ± 0.57",
+            "friability_percent": 0.26,
+            "disintegration_time": "Not applicable for sustained release matrix.",
+            "dissolution_profile": "Slow release (Fig. 1).",
+            "drug_content_percent": "101.23 ± 0.55",
+            "weight_variation_rsd": 0.55
+        },
+        {
+            "batch": "086_H3",
+            "hardness_kp_mean_sd": "16.58 ± 0.47",
+            "friability_percent": 0.24,
+            "disintegration_time": "Not applicable for sustained release matrix.",
+            "dissolution_profile": "~60% release in 12 hours (Fig. 1).",
+            "drug_content_percent": "101.48 ± 0.51",
+            "weight_variation_rsd": 0.48
+        },
+        {
+            "batch": "086_E1",
+            "hardness_kp_mean_sd": "23.17 ± 0.79",
+            "friability_percent": 0.35,
+            "disintegration_time": "Not applicable for sustained release matrix.",
+            "dissolution_profile": "Bimodal, ~90% release in 8 hours (Fig. 3).",
+            "drug_content_percent": "101.07 ± 0.79",
+            "weight_variation_rsd": 0.79
+        },
+        {
+            "batch": "086_E2",
+            "hardness_kp_mean_sd": "26.77 ± 1.23",
+            "friability_percent": 0.23,
+            "disintegration_time": "Not applicable for sustained release matrix.",
+            "dissolution_profile": "Similar to 086_E1, ~90% release in 8 hours (Fig. 3).",
+            "drug_content_percent": "101.45 ± 0.61",
+            "weight_variation_rsd": 0.6
+        }
+    ],
+    "experimental_data": {
+        "key_results": "All tablets met USP criteria for hardness (>15 kp), friability (<1%), and content uniformity (RSD <6%). The 086_C3 formulation (8% Carbopol) exhibited the most promising sustained release profile, following zero-order kinetics (r²=0.977) and extending release over 18 hours.",
+        "statistical_analysis": "Dissolution profiles were compared using the f2 similarity factor. All formulations had f2 values <50 compared to the immediate-release reference, indicating dissimilar release profiles. Linear regression was used for kinetic modeling.",
+        "zero_order_release_r2": {
+            "086_C1": 0.769,
+            "086_C2": 0.956,
+            "086_C3": 0.977,
+            "086_H1": 0.983,
+            "086_H2": 0.94,
+            "086_H3": 0.867,
+            "086_E1": 0.784,
+            "086_E2": 0.789
+        },
+        "first_order_release_r2": {
+            "086_C1": 0.973,
+            "086_C2": 0.89,
+            "086_C3": 0.828,
+            "086_H1": 0.979,
+            "086_H2": 0.951,
+            "086_H3": 0.909,
+            "086_E1": 0.973,
+            "086_E2": 0.961
+        },
+        "tablet_swelling_study": "Not discussed in this article."
+    },
+    "dissolution_data_approximated": {
+        "figure_1_hpmc_formulations": {
+            "immediate_release_ir": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 90
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 98
+                }
+            ],
+            "H3_10_percent_HPMC": [
+                {
+                    "time_h": 2,
+                    "release_percent": 20
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 35
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 45
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 57
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 60
+                }
+            ],
+            "H2_15_percent_HPMC": [
+                {
+                    "time_h": 2,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 20
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 28
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 35
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 40
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 44
+                }
+            ],
+            "H1_30_percent_HPMC": [
+                {
+                    "time_h": 2,
+                    "release_percent": 5
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 9
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 13
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 17
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 20
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 23
+                }
+            ]
+        },
+        "figure_2_carbopol_formulations": {
+            "immediate_release_ir": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 90
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 98
+                }
+            ],
+            "C1_5_percent_Carbopol": [
+                {
+                    "time_h": 1,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 35
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 55
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 82
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 90
+                }
+            ],
+            "C2_6.5_percent_Carbopol": [
+                {
+                    "time_h": 2,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 45
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 60
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 72
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 82
+                }
+            ],
+            "C3_8_percent_Carbopol": [
+                {
+                    "time_h": 2,
+                    "release_percent": 8
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 20
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 32
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 44
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 56
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 67
+                },
+                {
+                    "time_h": 14,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 16,
+                    "release_percent": 86
+                },
+                {
+                    "time_h": 18,
+                    "release_percent": 92
+                }
+            ]
+        },
+        "figure_3_ethylcellulose_formulations": {
+            "immediate_release_ir": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 90
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 98
+                }
+            ],
+            "E2_20_percent_EC": [
+                {
+                    "time_h": 1,
+                    "release_percent": 28
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 65
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 74
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 80
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 84
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 87
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 90
+                }
+            ],
+            "E1_30_percent_EC": [
+                {
+                    "time_h": 1,
+                    "release_percent": 25
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 47
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 62
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 72
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 82
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 86
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 89
+                }
+            ]
+        }
+    }
+}

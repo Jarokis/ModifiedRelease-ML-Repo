@@ -1,0 +1,616 @@
+{
+    "article_metadata": {
+        "title": "Denatured Whey Protein Powder as a New Matrix Excipient: Design and Evaluation of Mucoadhesive Tablets for Sustained Drug Release Applications",
+        "authors": [
+            "Hassana Hsein",
+            "Ghislain Garrait",
+            "Fahima Tamani",
+            "Eric Beyssac",
+            "Valerie Hoffart"
+        ],
+        "journal": "Pharmaceutical Research",
+        "year": 2017,
+        "sections_likely_locations": {
+            "materials_origin": "Materials; Preparation of DWP Powders; Characterization of DWP Powders",
+            "experimental_design_for_optimization": "Preparation of Matrix Tablets; Characterization of DWP Matrix Tablets; Evaluation of Drug Release; Analysis of Drug Release Mechanisms; Artificial Digestion of Drug Loaded-Tablets",
+            "ingredients_identification_absorbance": "Materials; Preparation of DWP Powders; Characterization of DWP Powders (solubility by UV at 280 nm; theophylline at 273 nm)",
+            "formulation_details": "Preparation of Matrix Tablets; Table I",
+            "precompression_parameters": "Physical Characteristics and Compressibility of Powders; Powders Flow Properties; Table I",
+            "independent_variables_and_levels": "Preparation of Matrix Tablets; Table I",
+            "ftir": null,
+            "tablet_fabrication": "Preparation of Matrix Tablets; Pharmacotechnical Characterization",
+            "process_parameters": "Preparation of DWP Powders; Preparation of Matrix Tablets; In Vitro Drug Dissolution Tests; Sequential Drug Release Kinetics",
+            "release_properties": "Evaluation of Drug Release (Dissolution Profiles in Enzyme Free Buffers; Influence of pH Shift; Influence of Gastric and Intestinal Enzymes); Analysis of Drug Release Mechanisms",
+            "tablet_properties": "Pharmacotechnical Characterization; Swelling and Erosion Studies; Mucoadhesive Behavior; Evaluation of Drug Release",
+            "experimental_data": "Results and Discussion throughout (Physical Characteristics, Swelling/Erosion, Mucoadhesion, Dissolution, Modeling, Artificial Digestive System)",
+            "conclusion": "CONCLUSION section"
+        }
+    },
+    "materials_origin": {
+        "whey_protein_isolate": {
+            "source": "Fonterra dairy products, France",
+            "description": "Whey protein isolate (WPI 89.5%) used to prepare native and denatured whey protein solutions",
+            "section": "Materials"
+        },
+        "theophylline": {
+            "source": "Cooper, Melun, France",
+            "role": "Model BCS class I drug",
+            "section": "Materials"
+        },
+        "other_excipients": {
+            "microcrystalline_cellulose": {
+                "source": "Cooper, Melun, France",
+                "role": "Diluent with good flow properties"
+            },
+            "magnesium_stearate": {
+                "source": "Cooper, Melun, France",
+                "role": "Lubricant (1% w/w of blend)"
+            },
+            "aerosil": {
+                "source": "Evonik, Essen, Germany",
+                "role": "Glidant (0.5% w/w of blend)"
+            },
+            "enzymes_buffers": {
+                "pepsin_lipase_bile_salts_pancreatin": "Sigma Aldrich, Saint-Quentin-Fallavier, France",
+                "buffers_other_reagents": "Fisher Scientific, Illkirch, France"
+            }
+        },
+        "denatured_whey_protein_powder_preparation": {
+            "starting_material": "WPI powder rehydrated in deionized water to 10% w/w",
+            "rehydration_conditions": "Gentle magnetic stirring 1 h at room temperature, then 2 h rest",
+            "pH_adjustment": "To pH 7.0 with NaOH",
+            "denaturation": "80 °C for 40 min (irreversible denaturation conditions)",
+            "cooling": "Overnight at room temperature",
+            "spray_drying": {
+                "equipment": "Buchi mini-spray dryer B-290",
+                "inlet_temperature": "160 °C",
+                "nozzle_size": "1.5 mm",
+                "spray_gas_flow": "50 mm Hg",
+                "aspirator_rate": "100%",
+                "nozzle_cleaning": "Every 5 s"
+            }
+        }
+    },
+    "experimental_design_for_optimization": {
+        "goal": "Evaluate feasibility of direct compression tablets using DWP powder as matrix/mucoadhesive excipient and study their controlled release behavior with theophylline.",
+        "design_type": "Formulation screening with increasing DWP content in directly compressed matrix tablets; multiple in vitro dissolution conditions and mathematical modeling.",
+        "formulations": {
+            "code_scheme": "017_F0–017_F5 for drug-loaded tablets; F0a–F4a for placebo (no drug) tablets.",
+            "independent_variable": "DWP percentage in the tablet blend (0, 10, 15, 20, 30, 40% nominal for 017_F0–017_F5).",
+            "responses": [
+                "Powder flow and compressibility (bulk/tapped density, CI, HR)",
+                "Tablet hardness, friability, weight, disintegration time",
+                "Swelling and erosion (water uptake, volume change, matrix weight loss)",
+                "Theophylline dissolution in various pH media with/without enzymes",
+                "Release kinetics parameters (Higuchi, Korsmeyer-Peppas, first order, Weibull)",
+                "Mucoadhesion on excised pig intestinal mucosa",
+                "Drug release/absorption in the artificial digestive system TIM-1 for 017_F4"
+            ]
+        }
+    },
+    "ingredients_identification_absorbance": {
+        "proteins": {
+            "method": "Excess NWP or DWP dispersed in water or buffers (pH 1.2, 4.5, 6.8), 24 h equilibration, centrifugation, spectrophotometric assay.",
+            "wavelength_nm": 280,
+            "analysis": "Protein concentration in supernatant from calibration curves to calculate solubility and DWP release."
+        },
+        "theophylline": {
+            "standard_dissolution": {
+                "apparatus": "UV spectrophotometry on dissolution samples from USP 2 paddle tests",
+                "wavelength_nm": 273,
+                "calibration": "Quantification via external calibration curves."
+            },
+            "sequential_media_with_protein": {
+                "method": "RP-HPLC with UV detection",
+                "column": "LiChrospher RP-18, 5 µm, 4 × 250 mm",
+                "mobile_phase": "100% eluent A: 9% acetonitrile in 0.01 M acetate buffer pH 4",
+                "flow_rate_mL_min": 2,
+                "detection_nm": 273,
+                "run_time_min": 5
+            }
+        }
+    },
+    "formulation_details_each_batch": {
+        "note": "Quantitative tablet composition is given in Table I; the article uses 017_F0–017_F5, not 017_F0–017_F6, and 017_F5 (40% DWP) was not successfully tableted for all tests.",
+        "017_F0": {
+            "total_tablet_weight_mg": 530,
+            "theophylline_mg": 300,
+            "dwp_percent_w_w": 0,
+            "dwp_mg_approx": 0,
+            "aerosil_percent_w_w": 0.5,
+            "magnesium_stearate_percent_w_w": 1.0,
+            "mcc_qs": "Balance to 530 mg",
+            "percent_drug_in_tablet_w_w": 56.6
+        },
+        "017_F1": {
+            "total_tablet_weight_mg": 530,
+            "theophylline_mg": 300,
+            "dwp_percent_w_w": 10,
+            "dwp_mg_approx": 53,
+            "aerosil_percent_w_w": 0.5,
+            "magnesium_stearate_percent_w_w": 1.0,
+            "mcc_qs": "Balance after adding the above components"
+        },
+        "017_F2": {
+            "total_tablet_weight_mg": 530,
+            "theophylline_mg": 300,
+            "dwp_percent_w_w": 15,
+            "dwp_mg_approx": 79.5,
+            "aerosil_percent_w_w": 0.5,
+            "magnesium_stearate_percent_w_w": 1.0,
+            "mcc_qs": "Balance"
+        },
+        "017_F3": {
+            "total_tablet_weight_mg": 530,
+            "theophylline_mg": 300,
+            "dwp_percent_w_w": 20,
+            "dwp_mg_approx": 106,
+            "aerosil_percent_w_w": 0.5,
+            "magnesium_stearate_percent_w_w": 1.0,
+            "mcc_qs": "Balance"
+        },
+        "017_F4": {
+            "total_tablet_weight_mg": 530,
+            "theophylline_mg": 300,
+            "dwp_percent_w_w": 30,
+            "dwp_mg_approx": 159,
+            "aerosil_percent_w_w": 0.5,
+            "magnesium_stearate_percent_w_w": 1.0,
+            "mcc_qs": "Balance",
+            "comment": "Selected as optimized; used in mucoadhesion tests and TIM-1."
+        },
+        "017_F5": {
+            "total_tablet_weight_mg": 530,
+            "theophylline_mg": 300,
+            "dwp_percent_w_w": 40,
+            "dwp_mg_approx": 212,
+            "aerosil_percent_w_w": 0.5,
+            "magnesium_stearate_percent_w_w": 1.0,
+            "mcc_qs": "Balance",
+            "comment": "Poor flowability, “prevented tableting” in practice."
+        },
+        "placebo_batches": {
+            "F0a_to_F4a": "Same composition as 017_F0–017_F4 but theophylline replaced by equivalent mass of MCC; used for whey protein release and erosion tests."
+        }
+    },
+    "precompression_parameters_each_batch": {
+        "note": "Reported in Table I as blend properties, not strictly ‘pre-compression’ tablet data.",
+        "017_F0": {
+            "bulk_density_g_mL": 0.58,
+            "tapped_density_g_mL": 0.51,
+            "compressibility_index_CI_percent": 13.04,
+            "hausner_ratio": 1.15,
+            "flow_description": "Good (per Ph. Eur. scale)"
+        },
+        "017_F1": {
+            "bulk_density_g_mL": 0.69,
+            "tapped_density_g_mL": 0.55,
+            "compressibility_index_CI_percent": 20.01,
+            "hausner_ratio": 1.25,
+            "flow_description": "Fair"
+        },
+        "017_F2": {
+            "bulk_density_g_mL": 0.73,
+            "tapped_density_g_mL": 0.59,
+            "compressibility_index_CI_percent": 19.51,
+            "hausner_ratio": 1.24,
+            "flow_description": "Fair"
+        },
+        "017_F3": {
+            "bulk_density_g_mL": 0.71,
+            "tapped_density_g_mL": 0.57,
+            "compressibility_index_CI_percent": 20.58,
+            "hausner_ratio": 1.23,
+            "flow_description": "Fair"
+        },
+        "017_F4": {
+            "bulk_density_g_mL": 0.75,
+            "tapped_density_g_mL": 0.59,
+            "compressibility_index_CI_percent": 20.89,
+            "hausner_ratio": 1.26,
+            "flow_description": "Passable"
+        },
+        "017_F5": {
+            "bulk_density_g_mL": 0.84,
+            "tapped_density_g_mL": 0.59,
+            "compressibility_index_CI_percent": 29.68,
+            "hausner_ratio": 1.42,
+            "flow_description": "Poor; tableting not feasible"
+        },
+        "tablet_mechanical_properties": {
+            "note": "Hardness and friability reported for 017_F0–017_F4 tablets; values are means with SD where provided.",
+            "017_F0": {
+                "crushing_strength_N_mean_SD": "80.21 ± 6.61",
+                "friability_percent_mean_SD": "1.76 ± 0.45",
+                "weight_mg_mean_SD": "532.4 ± 4.25",
+                "disintegration_time_h": "0.08 (approx. 5 min)"
+            },
+            "017_F1": {
+                "crushing_strength_N_mean_SD": "72.35 ± 4.34",
+                "friability_percent_mean_SD": "1.21 ± 0.72",
+                "weight_mg_mean_SD": "535.2 ± 4.41",
+                "disintegration_time_h": "≈ 0.08"
+            },
+            "017_F2": {
+                "crushing_strength_N_mean_SD": "67.53 ± 8.31",
+                "friability_percent_mean_SD": "1.12 ± 0.26",
+                "weight_mg_mean_SD": "531.6 ± 5.22",
+                "disintegration_time_h": "4"
+            },
+            "017_F3": {
+                "crushing_strength_N_mean_SD": "81.07 ± 7.63",
+                "friability_percent_mean_SD": "2.50 ± 0.41",
+                "weight_mg_mean_SD": "532.1 ± 5.28",
+                "disintegration_time_h": "8"
+            },
+            "017_F4": {
+                "crushing_strength_N_mean_SD": "85.27 ± 12.57",
+                "friability_percent_mean_SD": "1.87 ± 0.18",
+                "weight_mg_mean_SD": "537.5 ± 7.13",
+                "disintegration_time_h": "8"
+            },
+            "017_F5": null
+        }
+    },
+    "independent_variables_and_levels": {
+        "independent_variables": [
+            {
+                "name": "DWP content in tablet",
+                "levels_percent": [
+                    0,
+                    10,
+                    15,
+                    20,
+                    30,
+                    40
+                ],
+                "formulations": [
+                    "017_F0",
+                    "017_F1",
+                    "017_F2",
+                    "017_F3",
+                    "017_F4",
+                    "017_F5"
+                ]
+            }
+        ],
+        "controlled_variables": [
+            "Theophylline dose: 300 mg per tablet",
+            "Total tablet mass: 530 mg",
+            "Aerosil: 0.5% w/w; magnesium stearate: 1% w/w",
+            "Compression tooling: 12 mm flat cylindrical punches",
+            "Target hardness: ≥ 60 N; typically around 70–85 N"
+        ]
+    },
+    "ftir_information": null,
+    "tablet_fabrication_and_physical_testing": {
+        "manufacturing_process": {
+            "blend_preparation": [
+                "Mix theophylline with DWP and MCC for 20 min.",
+                "Add magnesium stearate (1% w/w) and Aerosil (0.5% w/w) and mix additional 10 min."
+            ],
+            "compression": {
+                "equipment": "Alternative tableting press machine (Korsch, Berlin, Germany)",
+                "tooling": "12 mm flat cylindrical punches",
+                "mode": "Direct compression of final powder blend",
+                "target_tablet_weight_mg": 530,
+                "target_theophylline_load_mg": 300,
+                "target_hardness_min_N": 60
+            }
+        },
+        "equipment_pharmacotechnical_tests": {
+            "hardness_thickness_diameter": "Pharma Test PTB 311E",
+            "friability": "Pharma Test PTF 10EER",
+            "disintegration": "Pharma Test PTZ Auto",
+            "density_of_powders": "Pharmatest PT-TD200",
+            "swelling_erosion": "USP 2 dissolution vessels with paddle, 1000 mL, 37 °C, 60 rpm"
+        },
+        "batch_specific_tablet_properties": {
+            "note": "Density and consolidation index not explicitly given; CI refers to powder compressibility index, not tablet consolidation index.",
+            "F0_to_F4": "See precompression_parameters_each_batch.tablet_mechanical_properties; disintegration ≥ 4–8 h for DWP ≥ 15%."
+        }
+    },
+    "process_parameters": {
+        "compression_process": {
+            "device": "Korsch single-station/alternative tableting press (type not further specified)",
+            "pressure": "Not explicitly reported; hardness controlled to ≥ 60 N.",
+            "coating": "No coating; uncoated matrix tablets."
+        },
+        "spray_drying_process": {
+            "equipment": "Buchi B-290 mini-spray dryer",
+            "inlet_temperature_degC": 160,
+            "nozzle_size_mm": 1.5,
+            "spray_gas_flow_mmHg": 50,
+            "aspirator_rate_percent": 100,
+            "nozzle_cleaning_interval_s": 5
+        },
+        "dissolution_test_conditions": {
+            "apparatus": "USP 2 paddle (AT7 Sotax)",
+            "media": [
+                "USP pH 1.2 buffer",
+                "USP pH 4.5 buffer",
+                "USP pH 6.8 buffer",
+                "Simulated gastric fluid (SGF) with and without pepsin",
+                "Simulated intestinal fluid (SIF) with and without pancreatin"
+            ],
+            "volume_mL": 1000,
+            "temperature_degC": 37,
+            "paddle_speed_rpm": 60,
+            "sampling": "1 mL, replaced by fresh medium; up to 12 h."
+        },
+        "sequential_dissolution_protocol": {
+            "without_enzymes": [
+                "1 h at pH 1.2 (SGF without enzyme)",
+                "1 h at pH 4.5",
+                "6 h at pH 6.8 (SIF without enzyme)"
+            ],
+            "with_enzymes": [
+                "1 h at pH 1.2 with pepsin",
+                "1 h at pH 4.5 with pepsin",
+                "6 h at pH 6.8 with pancreatin"
+            ],
+            "analysis": "Theophylline quantified by RP-HPLC at 273 nm."
+        },
+        "artificial_digestive_system_TIM1": {
+            "system": "TIM-1 (TNO, Zeist, The Netherlands)",
+            "compartments": "Stomach, duodenum, jejunum, ileum",
+            "temperature_degC": 37,
+            "secretions_flows_mL_min": {
+                "gastric": 0.5,
+                "biliary": 0.5,
+                "pancreatic": 0.25
+            },
+            "pH_control": "Computer-controlled HCl (0.3 M) and NaHCO3 (0.5 M) additions",
+            "dialysis": {
+                "membranes": "Hollow fiber (DICEA 90G)",
+                "dialysis_fluid_flow_mL_min": 10,
+                "sampling_interval_min": "15–30"
+            },
+            "dose_introduced": "One 017_F4 tablet with 200 g of water for fasted conditions."
+        }
+    },
+    "ftir_spectral_measurements": null,
+    "release_properties_each_batch": {
+        "general": {
+            "media": "USP buffers pH 1.2, 4.5, 6.8; SGF/SIF with and without enzymes; TIM-1.",
+            "drug": "Theophylline, BCS class I.",
+            "overall_mechanism_summary": "Primarily diffusion-controlled in enzyme-free media; shifts toward erosion-accelerated release in presence of proteolytic enzymes."
+        },
+        "017_F0": {
+            "release_profile": {
+                "enzyme_free": "Immediate-release: >80% drug in <45 min in all pH; complete release by 2–3 h.",
+                "sequential": "Similar to single pH tests; no pH-shift effects."
+            },
+            "release_kinetics": {
+                "dominant_model": "First-order/Higuchi typical of IR matrix with soluble drug",
+                "mechanism": "Dissolution of theophylline from non-gelling MCC matrix."
+            }
+        },
+        "017_F1": {
+            "release_profile": {
+                "enzyme_free": "Slower than 017_F0 but still relatively fast; incomplete release at pH 4.5 (~70% at 6 h, no disintegration up to 6 h); ~complete in 24 h at pH 1.2 and 6.8.",
+                "sequential_without_enzymes": "Similar shape to single pH but T50 and T80 extended; compacted structure at pH 4.5 impacts subsequent release.",
+                "with_enzymes": "Marked acceleration; release fits Korsmeyer-Peppas with higher kKP, n ≈ 0.66; erosion more prominent."
+            },
+            "release_kinetics": {
+                "enzyme_free_models": {
+                    "weibull": {
+                        "fit_r2": ">0.995",
+                        "shape_parameter_beta": ">1 (sigmoidal curves)",
+                        "comment": "Similar shape across pH values."
+                    },
+                    "korsmeyer_peppas": {
+                        "n_range": "0.52–0.64",
+                        "mechanism": "Anomalous (non-Fickian), diffusion-dominated."
+                    },
+                    "higuchi": {
+                        "fit_r2": ">0.99"
+                    },
+                    "first_order": {
+                        "fit_r2": "≈0.96"
+                    }
+                },
+                "sequential_without_enzymes": {
+                    "table_IIIa": {
+                        "first_order_r2": 0.959,
+                        "higuchi_r2": 0.994,
+                        "korsmeyer_peppas_r2": 0.998,
+                        "korsmeyer_n": 0.564,
+                        "weibull_r2": 1.0
+                    }
+                },
+                "with_enzymes": {
+                    "table_IIIb": {
+                        "first_order_r2": 0.968,
+                        "higuchi_r2": 0.761,
+                        "korsmeyer_peppas_r2": 0.999,
+                        "korsmeyer_n": 0.664,
+                        "comment": "Erosion contribution becomes significant."
+                    }
+                }
+            }
+        },
+        "017_F2": {
+            "release_profile": {
+                "enzyme_free": "Clear sustained release; T50 ~ 6 h, T80 ~ 16 h; complete release by 24 h; similar profiles at pH 1.2 and 6.8, slightly slower at pH 4.5.",
+                "sequential_without_enzymes": "Further retardation vs individual pH; T50 extended to ~8 h.",
+                "with_enzymes": "Faster and more complete release; erosion-driven plus diffusion."
+            },
+            "release_kinetics": {
+                "sequential_without_enzymes": {
+                    "table_IIIa": {
+                        "first_order_r2": 0.956,
+                        "higuchi_r2": 0.994,
+                        "korsmeyer_peppas_r2": 0.998,
+                        "korsmeyer_n": 0.568
+                    }
+                },
+                "with_enzymes": {
+                    "table_IIIb": {
+                        "first_order_r2": 0.954,
+                        "higuchi_r2": 0.912,
+                        "korsmeyer_peppas_r2": 1.0,
+                        "korsmeyer_n": 0.809
+                    }
+                }
+            }
+        },
+        "017_F3": {
+            "release_profile": {
+                "enzyme_free": "Similar to 017_F2 and 017_F4; controlled release with T50 ~ 6 h, T80 ~ 16 h, complete by 24 h across pH.",
+                "sequential_without_enzymes": "T50 ~ 8 h; similar non-Fickian diffusion-controlled behavior.",
+                "with_enzymes": "Faster release; erosion pronounced; complete release by ~8 h."
+            },
+            "release_kinetics": {
+                "sequential_without_enzymes": {
+                    "table_IIIa": {
+                        "first_order_r2": 0.969,
+                        "higuchi_r2": 0.991,
+                        "korsmeyer_peppas_r2": 0.998,
+                        "korsmeyer_n": 0.592
+                    }
+                },
+                "with_enzymes": {
+                    "table_IIIb": {
+                        "first_order_r2": 0.895,
+                        "higuchi_r2": 0.873,
+                        "korsmeyer_peppas_r2": 0.999,
+                        "korsmeyer_n": 0.576
+                    }
+                }
+            }
+        },
+        "017_F4": {
+            "release_profile": {
+                "enzyme_free": "Robust sustained release; T50 ~ 6 h, T80 ~ 16 h, complete release in 24 h; similar profiles at pH 1.2 and 6.8, slightly slower at pH 4.5 due to proximity to protein pI.",
+                "sequential_without_enzymes": "T50 extended to ~8 h due to shrinkage/compaction at pH 4.5 influencing subsequent pH 6.8 stage.",
+                "with_enzymes": "The most resistant among DWP formulations; still accelerated release vs enzyme-free but with slower erosion; complete release by ~8 h."
+            },
+            "release_kinetics": {
+                "sequential_without_enzymes": {
+                    "table_IIIa": {
+                        "first_order_r2": 0.961,
+                        "higuchi_r2": 0.991,
+                        "korsmeyer_peppas_r2": 0.997,
+                        "korsmeyer_n": 0.581
+                    }
+                },
+                "with_enzymes": {
+                    "table_IIIb": {
+                        "first_order_r2": 0.949,
+                        "higuchi_r2": 0.983,
+                        "korsmeyer_peppas_r2": 0.986,
+                        "korsmeyer_n": 0.414,
+                        "comment": "Erosion and diffusion both contribute; kKP increased vs enzyme-free."
+                    }
+                }
+            },
+            "tim1_artificial_digestive_system": {
+                "free_theophylline": {
+                    "T50_absorption_h": "~0.75",
+                    "T80_absorption_h": "~1.5",
+                    "profile": "Fast absorption typical of BCS I."
+                },
+                "drug_loaded_dwp_powder": {
+                    "T50_absorption_h": "≈0.75 (similar to free drug)",
+                    "profile": "Spray-dried powder does not significantly slow release."
+                },
+                "tablet_F4": {
+                    "lag_time_min": 45,
+                    "T50_absorption_h": 2,
+                    "T80_absorption_h": "≈3–3.5",
+                    "profile": "Clear sustained absorption; confirms matrix functionality under dynamic GIT conditions."
+                }
+            }
+        },
+        "017_F5": {
+            "comment": "Not taken forward into tablet dissolution studies due to poor flow and inability to compress robust tablets."
+        }
+    },
+    "tablet_properties_and_swelling": {
+        "swelling_erosion": {
+            "media": [
+                "pH 1.2",
+                "pH 4.5",
+                "pH 6.8"
+            ],
+            "times_h": [
+                1,
+                4,
+                8,
+                12
+            ],
+            "parameters": [
+                "Matrix weight loss (%)",
+                "Water uptake (%)",
+                "Diameter change (%)",
+                "Thickness change (%)",
+                "Volume change (%)"
+            ],
+            "summary_by_DWP_content": {
+                "F1_10_percent": {
+                    "behavior": "High water uptake leading to disintegration and erosion; tablets disintegrated after 4 h at pH 1.2 and 6.8 and after 6 h at pH 4.5.",
+                    "DWP_release": "Pronounced; >65% released by 6 h at pH 1.2 and 6.8; ~50% at pH 4.5."
+                },
+                "F2_to_F4_15_to_30_percent": {
+                    "behavior": "Rapid water uptake (~150% within 30 min) with strong swelling; matrix weight loss limited (DWP release <10% by 12 h); gel layer forms; inner core remains intact up to 4 h then fully gelled.",
+                    "threshold_effect": "Above 20% DWP, water uptake becomes limited and swelling somewhat reduced; 017_F4 shows lower water uptake than 017_F2–F3."
+                }
+            }
+        },
+        "mucoadhesion": {
+            "test": "Wash-off test on porcine intestinal mucosa at 37 °C in pH 6.8 buffer with up-and-down motion (USP disintegration apparatus).",
+            "formulations_evaluated": {
+                "017_F0": "Used as non-mucoadhesive reference.",
+                "017_F2": {
+                    "adhesion_result": "≈33% of tablets still adhered at 15 min; lower mucoadhesion."
+                },
+                "017_F4": {
+                    "adhesion_result": "100% of tablets adhered up to 60 min; strong mucoadhesive properties."
+                }
+            },
+            "mechanism": "Mucoadhesion attributed to DWP denaturation exposing free thiol and hydrophilic groups, enabling hydrogen bonding and disulfide bonds with mucin; higher DWP content increases available functional groups."
+        },
+        "lag_time_floating_time_swelling_index": null,
+        "stability": "No long-term stability study of tablets reported; only in vitro performance and TIM-1 digestion."
+    },
+    "experimental_data_in_vitro_in_vivo": {
+        "in_vitro": {
+            "powder_characterization": {
+                "particle_size_DWP": "Mean diameter ≈ 3 ± 1 µm",
+                "residual_humidity_DWP_percent": 4.5,
+                "solubility_data": {
+                    "NWP_mg_mL": {
+                        "water": 887.7,
+                        "pH_1_2": 723.4,
+                        "pH_4_5": 469.8,
+                        "pH_6_8": 784.4
+                    },
+                    "DWP_mg_mL": {
+                        "water": 12.5,
+                        "pH_1_2": 8.8,
+                        "pH_4_5": 0.0022,
+                        "pH_6_8": 14.4
+                    }
+                }
+            },
+            "tablet_pharmacotechnical": "See precompression_parameters_each_batch.tablet_mechanical_properties.",
+            "dwp_release_from_placebo_tablets": {
+                "formulations": [
+                    "F0a",
+                    "F1a",
+                    "F2a",
+                    "F3a",
+                    "F4a"
+                ],
+                "result": "DWP release almost zero up to 4 h for ≥15% DWP; ~7% after 12 h; no pH influence."
+            },
+            "drug_dissolution": "See release_properties_each_batch.",
+            "kinetic_modeling": "Weibull, Higuchi, Korsmeyer-Peppas, first-order fits; see 017_F1–017_F4 entries and Table III for representative r² and parameters."
+        },
+        "in_vivo_or_ex_vivo": {
+            "mucoadhesion_ex_vivo": "Adhesion percentages for 017_F2 vs 017_F4 on pig intestine; 017_F4 clearly superior.",
+            "tim1_ads": "Level-A style correlation context cited; 017_F4 tablets show extended absorption vs free drug."
+        }
+    }
+}

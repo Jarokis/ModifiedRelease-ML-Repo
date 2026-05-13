@@ -1,0 +1,1063 @@
+{
+    "article_overview": {
+        "title": "Formulation and in vitro evaluation of gastroretentive mucoadhesive ketoconazole tablets",
+        "objective": "To formulate and evaluate mucoadhesive tablets of ketoconazole to prolong gastric residence time and enhance solubility in acidic medium.",
+        "model_drug": "Ketoconazole (KZ)",
+        "materials_origin": {
+            "ketoconazole": "Hefei Meyer Optoelectronic Technology Inc., China",
+            "HPMC_K4M_HPMC_K15M": "Baoji Guokang Bio-Technology Co., Ltd., China",
+            "xanthan_gum_sodium_alginate": "Shanghai Rizheng Chemical Technology Co., Ltd., China",
+            "other_reagents": "analytical grade"
+        },
+        "equipment": {
+            "tablet_press": "single-punch tablet machine (Riva, Germany)",
+            "dissolution_apparatus": "USP apparatus type II (paddle), 50 rpm, 900 mL 0.1N HCl (pH 1.2), 37 ± 0.5 °C",
+            "friabilator": "Guoming CS-2 Roche-type, China, 25 rpm",
+            "hardness_tester": "Monsanto (Coslab, India)",
+            "uv_spectrophotometer": "wavelength 269.5 nm"
+        },
+        "experimental_design": {
+            "independent_variables": [
+                "polymer type",
+                "polymer concentration",
+                "drug-to-polymer ratio"
+            ],
+            "levels": {
+                "drug_to_polymer_ratio": [
+                    "1:0.5",
+                    "1:1",
+                    "1:1.25"
+                ],
+                "polymers": [
+                    "HPMC K4M",
+                    "HPMC K15M",
+                    "Xanthan gum (XG)",
+                    "Sodium alginate (Na-Alg)"
+                ]
+            },
+            "formulations": 14
+        }
+    },
+    "formulations": [
+        {
+            "code": "060_F1",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": 200,
+                "HPMC_K15M": null,
+                "Xanthan_gum": null,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 80,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 26.57,
+                "angle_sd": 0.93,
+                "carrs_index_percent": 20,
+                "carrs_sd": 0.15,
+                "flow_character": "Good/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.42,
+                "weight_mg": 495.97,
+                "weight_sd": 4.42,
+                "thickness_mm": 5.51,
+                "thickness_sd": 0.06,
+                "hardness_kg_cm2": 4.23,
+                "hardness_sd": 0.25,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 70.94,
+                "2hr": 84.57,
+                "4hr": 148.31,
+                "8hr": 94.99
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 18.77,
+                "strength_sd": 0.68,
+                "force_of_adhesion_N": 0.184101,
+                "bond_strength_N_cm2": 0.00163
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 32.5
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 48.2
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 67.8
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 85.4
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 92.1
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 96.5
+                }
+            ],
+            "release_profile": "Compared with 060_F4 (HPMC K15M), 060_F1 showed faster release (similarity factor f2 = 47.563). HPMC K4M provided higher release rate due to lower molecular weight and less viscous gel layer."
+        },
+        {
+            "code": "060_F2",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": 100,
+                "HPMC_K15M": null,
+                "Xanthan_gum": null,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 180,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 24.57,
+                "angle_sd": 0.56,
+                "carrs_index_percent": 20,
+                "carrs_sd": 0.22,
+                "flow_character": "Excellent/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.34,
+                "weight_mg": 492.05,
+                "weight_sd": 6.32,
+                "thickness_mm": 5.32,
+                "thickness_sd": 0.025,
+                "hardness_kg_cm2": 4.13,
+                "hardness_sd": 0.11,
+                "mucoadhesion_time_hr": 5
+            },
+            "swelling_index_percent": {
+                "1hr": 76.28,
+                "2hr": 98.99,
+                "4hr": 116.7,
+                "8hr": null
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 16.92,
+                "strength_sd": 0.55,
+                "force_of_adhesion_N": 0.1659525,
+                "bond_strength_N_cm2": 0.00147
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 41.0
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 59.3
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 78.5
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 93.2
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 97.8
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 99.1
+                }
+            ],
+            "release_profile": "Lower polymer concentration led to faster erosion (mucoadhesion time 5 h) and faster release."
+        },
+        {
+            "code": "060_F3",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": 250,
+                "HPMC_K15M": null,
+                "Xanthan_gum": null,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 30,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 32.66,
+                "angle_sd": 0.35,
+                "carrs_index_percent": 21,
+                "carrs_sd": 0.33,
+                "flow_character": "Fair/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.34,
+                "weight_mg": 491.94,
+                "weight_sd": 8.05,
+                "thickness_mm": 5.45,
+                "thickness_sd": 0.054,
+                "hardness_kg_cm2": 4.16,
+                "hardness_sd": 0.28,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 102.25,
+                "2hr": 111.66,
+                "4hr": 160.74,
+                "8hr": 191.21
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 15.73,
+                "strength_sd": 0.31,
+                "force_of_adhesion_N": 0.154344,
+                "bond_strength_N_cm2": 0.00136
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 28.3
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 42.1
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 60.5
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 78.9
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 87.4
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 92.3
+                }
+            ],
+            "release_profile": "Higher concentration of HPMC K4M gave sustained release compared to 060_F1/F2."
+        },
+        {
+            "code": "060_F4",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": 200,
+                "Xanthan_gum": null,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 80,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 31.45,
+                "angle_sd": 0.66,
+                "carrs_index_percent": 21,
+                "carrs_sd": 0.41,
+                "flow_character": "Fair/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.36,
+                "weight_mg": 492.88,
+                "weight_sd": 6.47,
+                "thickness_mm": 5.4,
+                "thickness_sd": 0.025,
+                "hardness_kg_cm2": 4.64,
+                "hardness_sd": 0.2,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 98.57,
+                "2hr": 103.67,
+                "4hr": 138.7,
+                "8hr": 211.2
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 34.45,
+                "strength_sd": 0.41,
+                "force_of_adhesion_N": 0.3369081,
+                "bond_strength_N_cm2": 0.00298
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 18.5
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 28.9
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 42.3
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 61.7
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 73.5
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 81.2
+                }
+            ],
+            "release_profile": "HPMC K15M matrix gave controlled release. Dissimilar to 060_F5 and 060_F6 (f2 = 35.715 and 46.225 respectively). Slower release than 060_F1 (f2 = 47.563) due to higher molecular weight."
+        },
+        {
+            "code": "060_F5",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": 100,
+                "Xanthan_gum": null,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 180,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 26.57,
+                "angle_sd": 0.9,
+                "carrs_index_percent": 16,
+                "carrs_sd": 0.28,
+                "flow_character": "good/good"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.44,
+                "weight_mg": 492.64,
+                "weight_sd": 6.33,
+                "thickness_mm": 5.41,
+                "thickness_sd": 0.052,
+                "hardness_kg_cm2": 4.5,
+                "hardness_sd": 0.4,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 106.23,
+                "2hr": 122.49,
+                "4hr": 168.07,
+                "8hr": 194.38
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 32.81,
+                "strength_sd": 0.27,
+                "force_of_adhesion_N": 0.3218334,
+                "bond_strength_N_cm2": 0.00285
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 24.7
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 38.2
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 56.4
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 79.3
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 89.1
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 94.5
+                }
+            ],
+            "release_profile": "Lower HPMC K15M concentration gave faster release compared to 060_F4 and F6."
+        },
+        {
+            "code": "060_F6",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": 250,
+                "Xanthan_gum": null,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 30,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 31.66,
+                "angle_sd": 0.44,
+                "carrs_index_percent": 21,
+                "carrs_sd": 0.21,
+                "flow_character": "Fair/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.4,
+                "weight_mg": 493.59,
+                "weight_sd": 6.33,
+                "thickness_mm": 5.47,
+                "thickness_sd": 0.06,
+                "hardness_kg_cm2": 4.77,
+                "hardness_sd": 0.2,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 99.2,
+                "2hr": 158.14,
+                "4hr": 200.6,
+                "8hr": 248.21
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 38.09,
+                "strength_sd": 0.4,
+                "force_of_adhesion_N": 0.373434,
+                "bond_strength_N_cm2": 0.0033
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 15.2
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 23.6
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 36.8
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 54.3
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 66.1
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 74.8
+                }
+            ],
+            "release_profile": "Highest HPMC K15M concentration gave slowest release among 060_F4–F6."
+        },
+        {
+            "code": "060_F7",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": null,
+                "Xanthan_gum": 200,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 80,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 32.25,
+                "angle_sd": 0.85,
+                "carrs_index_percent": 19,
+                "carrs_sd": 0.15,
+                "flow_character": "Fair/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.38,
+                "weight_mg": 492.8,
+                "weight_sd": 5.62,
+                "thickness_mm": 5.15,
+                "thickness_sd": 0.083,
+                "hardness_kg_cm2": 4.6,
+                "hardness_sd": 0.17,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 91.68,
+                "2hr": 143.61,
+                "4hr": 175.86,
+                "8hr": 260.1
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 31.5,
+                "strength_sd": 0.5,
+                "force_of_adhesion_N": 0.309445,
+                "bond_strength_N_cm2": 0.00273
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 27.3
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 42.6
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 62.4
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 82.1
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 91.5
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 96.3
+                }
+            ],
+            "release_profile": "Faster release than 060_F4 (HPMC K15M) with similarity factor f2 = 46.225 (dissimilar). XG showed initial burst in acidic medium."
+        },
+        {
+            "code": "060_F8",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": null,
+                "Xanthan_gum": 100,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 180,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 31.57,
+                "angle_sd": 0.73,
+                "carrs_index_percent": 19,
+                "carrs_sd": 0.35,
+                "flow_character": "Fair/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.36,
+                "weight_mg": 492.89,
+                "weight_sd": 4.97,
+                "thickness_mm": 5.19,
+                "thickness_sd": 0.03,
+                "hardness_kg_cm2": 4.23,
+                "hardness_sd": 0.25,
+                "mucoadhesion_time_hr": 6
+            },
+            "swelling_index_percent": {
+                "1hr": 128.89,
+                "2hr": 151.92,
+                "4hr": 167.88,
+                "8hr": null
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 30.89,
+                "strength_sd": 0.67,
+                "force_of_adhesion_N": 0.3030309,
+                "bond_strength_N_cm2": 0.00268
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 34.2
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 52.7
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 74.9
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 91.3
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 97.2
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 99.0
+                }
+            ],
+            "release_profile": "Lower XG concentration led to faster erosion (mucoadhesion time 6 h) and faster release compared to F7."
+        },
+        {
+            "code": "060_F9",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": null,
+                "Xanthan_gum": 250,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 30,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 31.6,
+                "angle_sd": 0.34,
+                "carrs_index_percent": 16,
+                "carrs_sd": 0.41,
+                "flow_character": "Fair/good"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.32,
+                "weight_mg": 490.94,
+                "weight_sd": 5.94,
+                "thickness_mm": 5.21,
+                "thickness_sd": 0.035,
+                "hardness_kg_cm2": 4.27,
+                "hardness_sd": 0.25,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 74.95,
+                "2hr": 112.63,
+                "4hr": 152.91,
+                "8hr": 209.02
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 34.88,
+                "strength_sd": 0.31,
+                "force_of_adhesion_N": 0.34008,
+                "bond_strength_N_cm2": 0.00301
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 23.1
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 37.8
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 56.3
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 75.9
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 86.2
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 92.4
+                }
+            ],
+            "release_profile": "Higher XG concentration gave higher mucoadhesion and more sustained release than 060_F7 and F8."
+        },
+        {
+            "code": "060_F10",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": null,
+                "Xanthan_gum": null,
+                "Sodium_alginate": 200,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 80,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 24.0,
+                "angle_sd": 0.22,
+                "carrs_index_percent": 20,
+                "carrs_sd": 0.34,
+                "flow_character": "Excellent/fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.38,
+                "weight_mg": 491.34,
+                "weight_sd": 5.27,
+                "thickness_mm": 5.33,
+                "thickness_sd": 0.02,
+                "hardness_kg_cm2": 4.233,
+                "hardness_sd": 0.25,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 87.83,
+                "2hr": 93.1,
+                "4hr": 128.41,
+                "8hr": 196.96
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 31.55,
+                "strength_sd": 0.5,
+                "force_of_adhesion_N": 0.309342,
+                "bond_strength_N_cm2": 0.00274
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 26.4
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 42.9
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 64.7
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 85.3
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 93.6
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 97.2
+                }
+            ],
+            "release_profile": "Sodium alginate with mannitol gave higher drug release compared to 060_F11; similar to 060_F2 (f2 = 58.391 and 52.572)."
+        },
+        {
+            "code": "060_F11",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": null,
+                "Xanthan_gum": null,
+                "Sodium_alginate": 200,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": null,
+                "Lactose": 180,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 26.4,
+                "angle_sd": 0.65,
+                "carrs_index_percent": 21,
+                "carrs_sd": 0.18,
+                "flow_character": "Good/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.42,
+                "weight_mg": 493.21,
+                "weight_sd": 6.35,
+                "thickness_mm": 5.21,
+                "thickness_sd": 0.028,
+                "hardness_kg_cm2": 4.34,
+                "hardness_sd": 0.15,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 103.83,
+                "2hr": 140.73,
+                "4hr": 177.82,
+                "8hr": 209.07
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 29.34,
+                "strength_sd": 0.55,
+                "force_of_adhesion_N": 0.259965,
+                "bond_strength_N_cm2": 0.0023
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 28.9
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 46.5
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 68.2
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 87.8
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 95.3
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 98.4
+                }
+            ],
+            "release_profile": "Lactose as diluent increased drug release due to pore formation; dissolution similar to 060_F2 and 060_F10 (f2 = 58.391, 52.572)."
+        },
+        {
+            "code": "060_F12",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": null,
+                "Xanthan_gum": 200,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 80,
+                "Lactose": null,
+                "MCC": null
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 30.4,
+                "angle_sd": 0.82,
+                "carrs_index_percent": 21,
+                "carrs_sd": 0.36,
+                "flow_character": "Fair/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.34,
+                "weight_mg": 492.33,
+                "weight_sd": 5.45,
+                "thickness_mm": 5.2,
+                "thickness_sd": 0.015,
+                "hardness_kg_cm2": 4.37,
+                "hardness_sd": 0.24,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 105.47,
+                "2hr": 164.78,
+                "4hr": 209.51,
+                "8hr": 228.22
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 28.2,
+                "strength_sd": 0.25,
+                "force_of_adhesion_N": 0.276642,
+                "bond_strength_N_cm2": 0.00245
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 26.1
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 41.3
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 60.8
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 80.4
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 90.2
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 95.1
+                }
+            ],
+            "release_profile": "Wet granulation gave slightly faster release than 060_F7 but not statistically significant (f2 = 53.394)."
+        },
+        {
+            "code": "060_F13",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": 100,
+                "HPMC_K15M": null,
+                "Xanthan_gum": null,
+                "Sodium_alginate": null,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 80,
+                "Lactose": null,
+                "MCC": 200
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 22.4,
+                "angle_sd": 0.31,
+                "carrs_index_percent": 19,
+                "carrs_sd": 0.61,
+                "flow_character": "Excellent/Fair"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.42,
+                "weight_mg": 495.7,
+                "weight_sd": 4.07,
+                "thickness_mm": 5.3,
+                "thickness_sd": 0.025,
+                "hardness_kg_cm2": 4.33,
+                "hardness_sd": 0.18,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 99.39,
+                "2hr": 111.99,
+                "4hr": 160.16,
+                "8hr": 191.67
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 22.97,
+                "strength_sd": 0.55,
+                "force_of_adhesion_N": 0.225303,
+                "bond_strength_N_cm2": 0.00199
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 18.2
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 27.5
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 40.9
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 57.3
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 68.4
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 76.9
+                }
+            ],
+            "release_profile": "Slower release than 060_F7 (f2 = 39.169). Combination of HPMC K4M and MCC gave controlled release."
+        },
+        {
+            "code": "060_F14",
+            "composition_mg": {
+                "Ketoconazole": 200,
+                "HPMC_K4M": null,
+                "HPMC_K15M": null,
+                "Xanthan_gum": null,
+                "Sodium_alginate": 100,
+                "Talc": 10,
+                "Magnesium_stearate": 10,
+                "Mannitol": 50,
+                "Lactose": null,
+                "MCC": 80
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 23.8,
+                "angle_sd": 0.8,
+                "carrs_index_percent": 17,
+                "carrs_sd": 0.44,
+                "flow_character": "Excellent/Good"
+            },
+            "tablet_properties": {
+                "friability_percent": 0.42,
+                "weight_mg": 493.21,
+                "weight_sd": 5.91,
+                "thickness_mm": 5.41,
+                "thickness_sd": 0.052,
+                "hardness_kg_cm2": 4.23,
+                "hardness_sd": 0.25,
+                "mucoadhesion_time_hr": ">8"
+            },
+            "swelling_index_percent": {
+                "1hr": 104.3,
+                "2hr": 163.93,
+                "4hr": 213.12,
+                "8hr": 241.6
+            },
+            "mucoadhesion_strength": {
+                "strength_gm": 25.08,
+                "strength_sd": 0.36,
+                "force_of_adhesion_N": 0.246231,
+                "bond_strength_N_cm2": 0.00218
+            },
+            "release_data": [
+                {
+                    "time_hr": 0.5,
+                    "cumulative_release_percent": 20.5
+                },
+                {
+                    "time_hr": 1,
+                    "cumulative_release_percent": 32.1
+                },
+                {
+                    "time_hr": 2,
+                    "cumulative_release_percent": 48.6
+                },
+                {
+                    "time_hr": 4,
+                    "cumulative_release_percent": 68.9
+                },
+                {
+                    "time_hr": 6,
+                    "cumulative_release_percent": 81.2
+                },
+                {
+                    "time_hr": 8,
+                    "cumulative_release_percent": 88.5
+                }
+            ],
+            "release_profile": "Slower release compared to 060_F7 (f2 = 48.750). Sodium alginate in acidic medium became protonated, reducing drug release."
+        }
+    ],
+    "release_kinetics_summary": {
+        "general_mechanism": "For HPMC matrices, drug release follows diffusion-controlled mechanism, likely Korsmeyer-Peppas model with n value indicating anomalous transport. XG matrices show initial burst in acidic pH. Sodium alginate matrices show reduced release due to protonation.",
+        "similarity_factors_mentioned": {
+            "F4_vs_F5": 35.715,
+            "F4_vs_F6": 46.225,
+            "F1_vs_F4": 47.563,
+            "F4_vs_F7": 46.225,
+            "F2_vs_F10_vs_F11": "58.391 and 52.572 (dissolution profiles similar)",
+            "F7_vs_F12": 53.394,
+            "F7_vs_F13": 39.169,
+            "F7_vs_F14": 48.75
+        },
+        "factors_influencing_release": [
+            "Polymer molecular weight (higher HPMC MW reduces release)",
+            "Polymer concentration (higher concentration reduces release)",
+            "Polymer type (XG gives faster initial release; HPMC gives more controlled)",
+            "Diluent type (lactose increases release due to pore formation)",
+            "pH (acidic medium affects XG and Na-Alg behavior)",
+            "Compression method (wet granulation vs direct compression slightly affects release)"
+        ]
+    },
+    "swelling_and_mucoadhesion_analysis": {
+        "highest_swelling": "060_F7 (XG) with 260.07% at 8 h",
+        "highest_mucoadhesion_strength": "060_F6 (HPMC K15M 250 mg) with 38.09 gm",
+        "mucoadhesion_correlation": "Increased polymer concentration and higher molecular weight increase mucoadhesion strength (p < 0.0001)."
+    }
+}

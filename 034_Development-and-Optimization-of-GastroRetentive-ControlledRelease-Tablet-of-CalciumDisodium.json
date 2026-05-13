@@ -1,0 +1,1396 @@
+{
+    "materials_origin": {
+        "calcium_disodium_edta": "Merck India Ltd. (Mumbai, India)",
+        "hpmc_k4m": "Otto Chemie Pvt. Ltd., Mumbai, India",
+        "carbopol_940": "John Baker Inc. (CO, USA)",
+        "stannous_chloride": "Sigma Chemical Company, St. Louis, MO, USA",
+        "technetium_99m_pertechnetate": "BRIT, BARC, India",
+        "other_chemicals": "Laboratory grade"
+    },
+    "experimental_design_for_optimization": {
+        "preparation_method": "Direct compression method",
+        "ingredients_identification": "HPMC-K4M, sodium chloride, carbopol-934, sodium bicarbonate, citric acid, Avicel PH-102, magnesium stearate, talc",
+        "results": "Formula 034_F8 was found to be optimum in terms of excellent floating properties and sustained drug release.",
+        "equation": "Korsmeyer-Peppas equation with an R² value of 0.9930",
+        "absorbance_wavelength": "270 nm"
+    },
+    "formulation_details": [
+        {
+            "batch_code": "034_F1",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": null,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 135,
+            "hpmc_mg": 90
+        },
+        {
+            "batch_code": "034_F2",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": null,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 90,
+            "hpmc_mg": 135
+        },
+        {
+            "batch_code": "034_F3",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": null,
+            "sodium_chloride_mg": 145,
+            "hpmc_mg": 120
+        },
+        {
+            "batch_code": "034_F4",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": null,
+            "sodium_chloride_mg": 120,
+            "hpmc_mg": 145
+        },
+        {
+            "batch_code": "034_F5",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 80,
+            "hpmc_mg": 115
+        },
+        {
+            "batch_code": "034_F6",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 85,
+            "hpmc_mg": 110
+        },
+        {
+            "batch_code": "034_F7",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 95,
+            "hpmc_mg": 100
+        },
+        {
+            "batch_code": "034_F8",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 100,
+            "hpmc_mg": 95
+        },
+        {
+            "batch_code": "034_F9",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 115,
+            "hpmc_mg": 80
+        },
+        {
+            "batch_code": "034_F10",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 90,
+            "hpmc_mg": 105
+        },
+        {
+            "batch_code": "034_F11",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 100,
+            "hpmc_mg": 85
+        },
+        {
+            "batch_code": "034_F12",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 130,
+            "hpmc_mg": 65
+        },
+        {
+            "batch_code": "034_F13",
+            "active_ingredient": "Ca-Na2EDTA",
+            "api_mass_mg": 200,
+            "carbopol_mg": 100,
+            "avicel_mg": 55,
+            "citric_acid_mg": 30,
+            "sodium_bicarbonate_mg": 70,
+            "sodium_chloride_mg": 65,
+            "hpmc_mg": 130
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch_code": "034_F1",
+            "mass_distribution_mg": "648 ± 2.5",
+            "hardness_kg_per_cm2": "4.50 ± 0.24",
+            "friability_percent": "0.53 ± 0.08",
+            "thickness_mm": "6.28 ± 0.22"
+        },
+        {
+            "batch_code": "034_F2",
+            "mass_distribution_mg": "651 ± 2.8",
+            "hardness_kg_per_cm2": "3.80 ± 0.16",
+            "friability_percent": "0.42 ± 0.10",
+            "thickness_mm": "6.18 ± 0.13"
+        },
+        {
+            "batch_code": "034_F3",
+            "mass_distribution_mg": "652 ± 3.5",
+            "hardness_kg_per_cm2": "4.15 ± 0.22",
+            "friability_percent": "0.48 ± 0.05",
+            "thickness_mm": "6.16 ± 0.18"
+        },
+        {
+            "batch_code": "034_F4",
+            "mass_distribution_mg": "654 ± 2.8",
+            "hardness_kg_per_cm2": "5.21 ± 0.26",
+            "friability_percent": "0.54 ± 0.05",
+            "thickness_mm": "6.22 ± 0.33"
+        },
+        {
+            "batch_code": "034_F5",
+            "mass_distribution_mg": "654 ± 4.2",
+            "hardness_kg_per_cm2": "5.02 ± 0.25",
+            "friability_percent": "0.64 ± 0.09",
+            "thickness_mm": "6.11 ± 0.38"
+        },
+        {
+            "batch_code": "034_F6",
+            "mass_distribution_mg": "652 ± 3.8",
+            "hardness_kg_per_cm2": "5.54 ± 0.22",
+            "friability_percent": "0.60 ± 0.07",
+            "thickness_mm": "6.30 ± 0.48"
+        },
+        {
+            "batch_code": "034_F7",
+            "mass_distribution_mg": "655 ± 3.6",
+            "hardness_kg_per_cm2": "4.08 ± 0.20",
+            "friability_percent": "0.55 ± 0.04",
+            "thickness_mm": "6.14 ± 0.32"
+        },
+        {
+            "batch_code": "034_F8",
+            "mass_distribution_mg": "650 ± 3.0",
+            "hardness_kg_per_cm2": "3.90 ± 0.32",
+            "friability_percent": "0.41 ± 0.05",
+            "thickness_mm": "6.23 ± 0.36"
+        },
+        {
+            "batch_code": "034_F9",
+            "mass_distribution_mg": "651 ± 2.8",
+            "hardness_kg_per_cm2": "3.52 ± 0.18",
+            "friability_percent": "0.52 ± 0.07",
+            "thickness_mm": "6.24 ± 0.32"
+        },
+        {
+            "batch_code": "034_F10",
+            "mass_distribution_mg": "652 ± 2.9",
+            "hardness_kg_per_cm2": "4.36 ± 0.21",
+            "friability_percent": "0.32 ± 0.03",
+            "thickness_mm": "6.25 ± 0.18"
+        },
+        {
+            "batch_code": "034_F11",
+            "mass_distribution_mg": "653 ± 4.5",
+            "hardness_kg_per_cm2": "4.22 ± 0.21",
+            "friability_percent": "0.51 ± 0.02",
+            "thickness_mm": "6.26 ± 0.24"
+        },
+        {
+            "batch_code": "034_F12",
+            "mass_distribution_mg": "648 ± 4.4",
+            "hardness_kg_per_cm2": "3.98 ± 0.19",
+            "friability_percent": "0.46 ± 0.08",
+            "thickness_mm": "6.29 ± 0.25"
+        },
+        {
+            "batch_code": "034_F13",
+            "mass_distribution_mg": "652 ± 4.8",
+            "hardness_kg_per_cm2": "4.11 ± 0.21",
+            "friability_percent": "0.53 ± 0.05",
+            "thickness_mm": "6.20 ± 0.11"
+        }
+    ],
+    "composition_of_independent_variables": {
+        "polymers": [
+            "HPMC-K4M",
+            "Carbopol-934"
+        ],
+        "effervescing_agents": [
+            "Sodium bicarbonate",
+            "Citric acid"
+        ],
+        "diluent": "Sodium chloride",
+        "filler": "Avicel PH-102",
+        "lubricant": "Magnesium stearate",
+        "glidant": "Talc"
+    },
+    "ftir_spectral_measurements": "Not mentioned in the provided text",
+    "tablet_fabrications": [
+        {
+            "batch_code": "034_F1",
+            "hardness_kg_per_cm2": "4.50 ± 0.24",
+            "friability_percent": "0.53 ± 0.08",
+            "weight_variation_mg": "648 ± 2.5",
+            "thickness_mm": "6.28 ± 0.22",
+            "diameter_mm": "12 (from methodology, for all tablets)",
+            "drug_content_percent": "97.01 ± 1.80",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F2",
+            "hardness_kg_per_cm2": "3.80 ± 0.16",
+            "friability_percent": "0.42 ± 0.10",
+            "weight_variation_mg": "651 ± 2.8",
+            "thickness_mm": "6.18 ± 0.13",
+            "diameter_mm": "12",
+            "drug_content_percent": "99.51 ± 2.40",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F3",
+            "hardness_kg_per_cm2": "4.15 ± 0.22",
+            "friability_percent": "0.48 ± 0.05",
+            "weight_variation_mg": "652 ± 3.5",
+            "thickness_mm": "6.16 ± 0.18",
+            "diameter_mm": "12",
+            "drug_content_percent": "98.01 ± 2.54",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F4",
+            "hardness_kg_per_cm2": "5.21 ± 0.26",
+            "friability_percent": "0.54 ± 0.05",
+            "weight_variation_mg": "654 ± 2.8",
+            "thickness_mm": "6.22 ± 0.33",
+            "diameter_mm": "12",
+            "drug_content_percent": "98.21 ± 2.02",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F5",
+            "hardness_kg_per_cm2": "5.02 ± 0.25",
+            "friability_percent": "0.64 ± 0.09",
+            "weight_variation_mg": "654 ± 4.2",
+            "thickness_mm": "6.11 ± 0.38",
+            "diameter_mm": "12",
+            "drug_content_percent": "99.05 ± 1.98",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F6",
+            "hardness_kg_per_cm2": "5.54 ± 0.22",
+            "friability_percent": "0.60 ± 0.07",
+            "weight_variation_mg": "652 ± 3.8",
+            "thickness_mm": "6.30 ± 0.48",
+            "diameter_mm": "12",
+            "drug_content_percent": "99.42 ± 2.65",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F7",
+            "hardness_kg_per_cm2": "4.08 ± 0.20",
+            "friability_percent": "0.55 ± 0.04",
+            "weight_variation_mg": "655 ± 3.6",
+            "thickness_mm": "6.14 ± 0.32",
+            "diameter_mm": "12",
+            "drug_content_percent": "98.41 ± 2.28",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F8",
+            "hardness_kg_per_cm2": "3.90 ± 0.32",
+            "friability_percent": "0.41 ± 0.05",
+            "weight_variation_mg": "650 ± 3.0",
+            "thickness_mm": "6.23 ± 0.36",
+            "diameter_mm": "12",
+            "drug_content_percent": "99.25 ± 1.53",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F9",
+            "hardness_kg_per_cm2": "3.52 ± 0.18",
+            "friability_percent": "0.52 ± 0.07",
+            "weight_variation_mg": "651 ± 2.8",
+            "thickness_mm": "6.24 ± 0.32",
+            "diameter_mm": "12",
+            "drug_content_percent": "99.05 ± 2.04",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F10",
+            "hardness_kg_per_cm2": "4.36 ± 0.21",
+            "friability_percent": "0.32 ± 0.03",
+            "weight_variation_mg": "652 ± 2.9",
+            "thickness_mm": "6.25 ± 0.18",
+            "diameter_mm": "12",
+            "drug_content_percent": "98.46 ± 2.32",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F11",
+            "hardness_kg_per_cm2": "4.22 ± 0.21",
+            "friability_percent": "0.51 ± 0.02",
+            "weight_variation_mg": "653 ± 4.5",
+            "thickness_mm": "6.26 ± 0.24",
+            "diameter_mm": "12",
+            "drug_content_percent": "99.82 ± 2.12",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F12",
+            "hardness_kg_per_cm2": "3.98 ± 0.19",
+            "friability_percent": "0.46 ± 0.08",
+            "weight_variation_mg": "648 ± 4.4",
+            "thickness_mm": "6.29 ± 0.25",
+            "diameter_mm": "12",
+            "drug_content_percent": "98.45 ± 2.34",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        },
+        {
+            "batch_code": "034_F13",
+            "hardness_kg_per_cm2": "4.11 ± 0.21",
+            "friability_percent": "0.53 ± 0.05",
+            "weight_variation_mg": "652 ± 4.8",
+            "thickness_mm": "6.20 ± 0.11",
+            "diameter_mm": "12",
+            "drug_content_percent": "98.75 ± 2.72",
+            "density": "Not mentioned",
+            "consolidation_index": "Not mentioned"
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "Ten-station rotary tablet punching machine (lab press; CIP Machinery Pvt Ltd, Ahmedabad, India)",
+        "pressure": "Not specified",
+        "coating": "None (direct compression)",
+        "equipment_used": "Ten-station rotary tablet punching machine",
+        "process_conditions": "Ambient temperature"
+    },
+    "release_properties": [
+        {
+            "batch_code": "034_F1",
+            "release_mechanism": "Not determined for 034_F1 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 6.23
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 9.24
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 18.34
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 25.24
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 58.65
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 71.23
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 81.21
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 90.18
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 94.23
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.23
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.43
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F2",
+            "release_mechanism": "Not determined for 034_F2 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 5.78
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 9.38
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 16.79
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 24.2
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 46.46
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 56.59
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 69.97
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 91.16
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 97.43
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.81
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.88
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F3",
+            "release_mechanism": "Not determined for 034_F3 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 6.28
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 7.48
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 15.34
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 20.12
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 47.51
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 58.32
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 70.65
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 92.48
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 99.23
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.8
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.9
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F4",
+            "release_mechanism": "Not determined for 034_F4 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 7.21
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 9.28
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 16.28
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 32.28
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 48.65
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 68.24
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 87.25
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 98.34
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 99.93
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.87
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.87
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F5",
+            "release_mechanism": "Not determined for 034_F5 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 1.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 5.46
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 8.28
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 18.28
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 38.42
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 49.63
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 60.23
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 72.21
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 80.28
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 91.37
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.82
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.98
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F6",
+            "release_mechanism": "Not determined for 034_F6 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 5.32
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 8.42
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 16.48
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 32.54
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 49.57
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 62.29
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 74.51
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 83.38
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 90.6
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.24
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.82
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F7",
+            "release_mechanism": "Not determined for 034_F7 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 4.98
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 8.04
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 19.26
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 29.42
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 48.81
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 58.32
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 70.65
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 82.21
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 92.05
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.21
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.65
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F8",
+            "release_mechanism": "Korsmeyer-Peppas (R²=0.9930)",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": {
+                "zero_order_R2": 0.8747,
+                "first_order_R2": 0.934,
+                "higuchi_matrix_R2": 0.9799,
+                "korsmeyer_peppas_R2": 0.993,
+                "korsmeyer_peppas_slope_n": 0.662
+            },
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 4.28
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 7.24
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 15.38
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 24.28
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 44.41
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 52.12
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 64.81
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 76.24
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 83.25
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.61
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.81
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F9",
+            "release_mechanism": "Not determined for 034_F9 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 5.28
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 11.28
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 18.24
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 28.28
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 46.31
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 54.86
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 69.28
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 79.22
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 87.11
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.81
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.85
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F10",
+            "release_mechanism": "Not determined for 034_F10 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 5.86
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 10.24
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 20.32
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 26.42
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 49.56
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 62.12
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 72.89
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 86.32
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 90.22
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.34
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.82
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F11",
+            "release_mechanism": "Not determined for 034_F11 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 4.42
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 8.82
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 18.2
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 32.34
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 50.31
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 65.29
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 73.36
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 89.42
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 91.26
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.42
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.68
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F12",
+            "release_mechanism": "Not determined for 034_F12 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 5.88
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 11.48
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 19.42
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 38.45
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 49.74
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 68.23
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 82.42
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 86.42
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 91.48
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.34
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.56
+                }
+            ]
+        },
+        {
+            "batch_code": "034_F13",
+            "release_mechanism": "Not determined for 034_F13 individually",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.0
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 5.64
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 12.62
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 28.26
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 35.28
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 51.6
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 66.26
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 78.36
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 84.54
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 93.4
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.35
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.89
+                }
+            ]
+        },
+        {
+            "batch_code": "Control",
+            "release_mechanism": "Not determined",
+            "factors_influencing_release": "pH 1.2",
+            "release_kinetics": null,
+            "dissolution_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0.25
+                },
+                {
+                    "time_h": 0.25,
+                    "release_percent": 10.28
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 20.58
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 42.25
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 65.28
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 99.28
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 99.38
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 99.89
+                },
+                {
+                    "time_h": 10.0,
+                    "release_percent": 99.9
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 99.91
+                },
+                {
+                    "time_h": 20.0,
+                    "release_percent": 99.92
+                },
+                {
+                    "time_h": 24.0,
+                    "release_percent": 99.92
+                }
+            ]
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch_code": "034_F1",
+            "hardness_kg_per_cm2": "4.50 ± 0.24",
+            "friability_percent": "0.53 ± 0.08",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 8h",
+            "stability": "Not tested for 034_F1",
+            "thickness_mm": "6.28 ± 0.22",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "35 ± 2",
+            "total_floating_time_hours": "≤8",
+            "swelling_index": "Not measured for 034_F1"
+        },
+        {
+            "batch_code": "034_F2",
+            "hardness_kg_per_cm2": "3.80 ± 0.16",
+            "friability_percent": "0.42 ± 0.10",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 8h",
+            "stability": "Not tested for 034_F2",
+            "thickness_mm": "6.18 ± 0.13",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "44 ± 4",
+            "total_floating_time_hours": "≤8",
+            "swelling_index": "Not measured for 034_F2"
+        },
+        {
+            "batch_code": "034_F3",
+            "hardness_kg_per_cm2": "4.15 ± 0.22",
+            "friability_percent": "0.48 ± 0.05",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 18h",
+            "stability": "Not tested for 034_F3",
+            "thickness_mm": "6.16 ± 0.18",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "56 ± 5",
+            "total_floating_time_hours": "≤18",
+            "swelling_index": "Not measured for 034_F3"
+        },
+        {
+            "batch_code": "034_F4",
+            "hardness_kg_per_cm2": "5.21 ± 0.26",
+            "friability_percent": "0.54 ± 0.05",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 18h",
+            "stability": "Not tested for 034_F4",
+            "thickness_mm": "6.22 ± 0.33",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "72 ± 4",
+            "total_floating_time_hours": "≤18",
+            "swelling_index": "Not measured for 034_F4"
+        },
+        {
+            "batch_code": "034_F5",
+            "hardness_kg_per_cm2": "5.02 ± 0.25",
+            "friability_percent": "0.64 ± 0.09",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 24h",
+            "stability": "Not tested for 034_F5",
+            "thickness_mm": "6.11 ± 0.38",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "19 ± 2",
+            "total_floating_time_hours": "≤24",
+            "swelling_index": "Not measured for 034_F5"
+        },
+        {
+            "batch_code": "034_F6",
+            "hardness_kg_per_cm2": "5.54 ± 0.22",
+            "friability_percent": "0.60 ± 0.07",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 24h",
+            "stability": "Not tested for 034_F6",
+            "thickness_mm": "6.30 ± 0.48",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "11 ± 4",
+            "total_floating_time_hours": ">24",
+            "swelling_index": "Measured (see Fig. 1)"
+        },
+        {
+            "batch_code": "034_F7",
+            "hardness_kg_per_cm2": "4.08 ± 0.20",
+            "friability_percent": "0.55 ± 0.04",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 24h",
+            "stability": "Not tested for 034_F7",
+            "thickness_mm": "6.14 ± 0.32",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "19 ± 3",
+            "total_floating_time_hours": ">24",
+            "swelling_index": "Not measured for 034_F7"
+        },
+        {
+            "batch_code": "034_F8",
+            "hardness_kg_per_cm2": "3.90 ± 0.32",
+            "friability_percent": "0.41 ± 0.05",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 24h",
+            "stability": "Stable for 6 months; shelf-life 56.3 months",
+            "thickness_mm": "6.23 ± 0.36",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "19 ± 4",
+            "total_floating_time_hours": ">24",
+            "swelling_index": "Measured (see Fig. 1)"
+        },
+        {
+            "batch_code": "034_F9",
+            "hardness_kg_per_cm2": "3.52 ± 0.18",
+            "friability_percent": "0.52 ± 0.07",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 24h",
+            "stability": "Not tested for 034_F9",
+            "thickness_mm": "6.24 ± 0.32",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "25 ± 4",
+            "total_floating_time_hours": ">24",
+            "swelling_index": "Not measured for 034_F9"
+        },
+        {
+            "batch_code": "034_F10",
+            "hardness_kg_per_cm2": "4.36 ± 0.21",
+            "friability_percent": "0.32 ± 0.03",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 24h",
+            "stability": "Not tested for 034_F10",
+            "thickness_mm": "6.25 ± 0.18",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "10 ± 4",
+            "total_floating_time_hours": ">24",
+            "swelling_index": "Measured (see Fig. 1)"
+        },
+        {
+            "batch_code": "034_F11",
+            "hardness_kg_per_cm2": "4.22 ± 0.21",
+            "friability_percent": "0.51 ± 0.02",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 24h",
+            "stability": "Not tested for 034_F11",
+            "thickness_mm": "6.26 ± 0.24",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "18 ± 4",
+            "total_floating_time_hours": ">24",
+            "swelling_index": "Not measured for 034_F11"
+        },
+        {
+            "batch_code": "034_F12",
+            "hardness_kg_per_cm2": "3.98 ± 0.19",
+            "friability_percent": "0.46 ± 0.08",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 24h",
+            "stability": "Not tested for 034_F12",
+            "thickness_mm": "6.29 ± 0.25",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "19 ± 5",
+            "total_floating_time_hours": ">24",
+            "swelling_index": "Not measured for 034_F12"
+        },
+        {
+            "batch_code": "034_F13",
+            "hardness_kg_per_cm2": "4.11 ± 0.21",
+            "friability_percent": "0.53 ± 0.05",
+            "disintegration_time": "Not mentioned",
+            "dissolution_profile": "Controlled release up to 24h",
+            "stability": "Not tested for 034_F13",
+            "thickness_mm": "6.20 ± 0.11",
+            "weight_variation_percent": "Within IP limits (±5%)",
+            "lag_time_seconds": "24 ± 3",
+            "total_floating_time_hours": ">24",
+            "swelling_index": "Not measured for 034_F13"
+        }
+    ],
+    "experimental_data": {
+        "key_results": "Formula 034_F8 was optimum with excellent floating properties and sustained drug release. Mean gastric retention in humans was 6h.",
+        "performance_metrics": "034_F8 showed >24h floating time in vitro, 44.41% release at 4h, 99.81% at 24h. Radiolabeling efficiency >93%.",
+        "statistical_analysis": "Paired Student's t-test for stability (p<0.05 considered significant). Unpaired t-test for other comparisons.",
+        "zero_first_order_release": "For 034_F8: Zero order R²=0.8747, First order R²=0.934",
+        "swelling_index_data": "Measured for 034_F6, 034_F8, 034_F10 (see Fig. 1 in article)",
+        "lag_time": "Ranged from 10±4 s (034_F10) to 72±4 s (034_F4)",
+        "total_floating_time": "Ranged from ≤8h (034_F1, 034_F2) to >24h (034_F6-034_F13)",
+        "in_vivo_results": "Rabbit: GRT >4h. Human: GRT ~6h for 034_F8 vs 1h for conventional tablet.",
+        "stability_results": "034_F8: 1.07% degradation at 6 months, shelf-life 56.3 months"
+    }
+}

@@ -1,0 +1,833 @@
+{
+    "sections_locations": {
+        "materials_origin": [
+            "Materials and Methods – Materials",
+            "Introduction (drug background)"
+        ],
+        "experimental_design_for_optimization": [
+            "Materials and Methods – Bilayer Tablet Preparation",
+            "Materials and Methods – Variable Parameters Affecting the Dissolution Profile",
+            "Results and Discussion – Variable Parameters Affecting the Dissolution Profile",
+            "Results and Discussion – Selection of the Best Optimized Formula"
+        ],
+        "ingredients_identification_and_assay": [
+            "Materials and Methods – Materials",
+            "Materials and Methods – Solubility Study of Oxcarbazepine",
+            "Materials and Methods – Assay for Total Oxcarbazepine",
+            "Results and Discussion – Solubility Study of Oxcarbazepine"
+        ],
+        "formulation_details": [
+            "Materials and Methods – Bilayer Tablet Preparation",
+            "Materials and Methods – Preparation of Immediate Release (IR) Layer",
+            "Materials and Methods – Preparation of Sustained Release (SR) Layer",
+            "Materials and Methods – Preparation of Oxcarbazepine Bilayer Tablet",
+            "Table 1, Table 2, Table 3"
+        ],
+        "pre_compression_parameters": [
+            "Not explicitly reported as pre-compression parameters; only tablet hardness/friability etc. are given post-compression in Table 6."
+        ],
+        "independent_variables_and_levels": [
+            "Materials and Methods – Variable Parameters Affecting the Dissolution Profile of OXC Bilayer Tablets",
+            "Results and Discussion – corresponding subsections on polymer type, concentration, ratio, diluent, binder, pH"
+        ],
+        "ftir": [
+            "Materials and Methods – Fourier Transform Infrared (FTIR) Studies",
+            "Results and Discussion – FTIR Studies"
+        ],
+        "tablet_evaluation": [
+            "Materials and Methods – Evaluation of Bilayer Oxcarbazepine Tablet",
+            "Materials and Methods – Evaluation of Compressed Immediate Release",
+            "Materials and Methods – Disintegration Test",
+            "Materials and Methods – Dissolution Behavior",
+            "Materials and Methods – Determination of Swelling–Eroding Behavior",
+            "Results and Discussion – Evaluation of Bilayer OXC Tablets",
+            "Table 4, Table 5, Table 6, dissolution figures",
+            "Results and Discussion – Kinetics of Drug Release Profile"
+        ],
+        "process_parameters": [
+            "Materials and Methods – Preparation of Oxcarbazepine Bilayer Tablet",
+            "Materials and Methods – Dissolution Behavior",
+            "Materials and Methods – Assay for Total Oxcarbazepine",
+            "Materials and Methods – Stability Study"
+        ],
+        "release_properties_and_kinetics": [
+            "Materials and Methods – Dissolution Behavior",
+            "Materials and Methods – Kinetics of Drug Release Profile",
+            "Results and Discussion – Variable Parameters Affecting the Dissolution Profile",
+            "Results and Discussion – Selection of the Best Optimized Formula",
+            "Results and Discussion – Kinetics of Drug Release Profile",
+            "Table 8 and dissolution figures"
+        ],
+        "stability_and_swelling": [
+            "Materials and Methods – Determination of Swelling–Eroding Behavior",
+            "Materials and Methods – Stability Study",
+            "Results and Discussion – Stability Study",
+            "Results and Discussion – Determination of Swelling–Eroding behavior (for selected formula only)"
+        ],
+        "conclusion": [
+            "Conclusions section at the end"
+        ]
+    },
+    "materials_origin": {
+        "drug_and_apis": {
+            "oxcarbazepine_standard": "Oxcarbazepine standard (OXC) procured from Pharmasyr Drug Industry, Syria. [file:1]"
+        },
+        "excipients": {
+            "disintegrants_and_surfactant": [
+                "Croscarmellose sodium (CCS) – Sigma-Aldrich, Germany. [file:1]",
+                "Crospovidone (cross-linked polyvinylpyrrolidone) – Sigma-Aldrich, Germany. [file:1]",
+                "Sodium starch glycolate (SSG) – Sigma-Aldrich, Germany. [file:1]",
+                "Sodium lauryl sulfate (SLS) – Sigma-Aldrich, Germany. [file:1]"
+            ],
+            "polymers_and_fillers": [
+                "Polymethacrylate Eudragit RLPO – Ninevah Drug Industry (NDI), Iraq. [file:1]",
+                "Polymethacrylate Eudragit RSPO – Ninevah Drug Industry (NDI), Iraq. [file:1]",
+                "Ethyl cellulose (EC) – Ninevah Drug Industry (NDI), Iraq. [file:1]",
+                "Di‑calcium phosphate (DCP) – Ninevah Drug Industry (NDI), Iraq. [file:1]"
+            ],
+            "other_excipients": [
+                "Microcrystalline cellulose Avicel PH 102 – source not separately specified, pharmaceutical grade. [file:1]",
+                "Microcrystalline cellulose Avicel PH 101 – source not separately specified. [file:1]",
+                "Mannitol – analytical grade. [file:1]",
+                "Tartaric acid – analytical grade. [file:1]",
+                "Talc – analytical grade. [file:1]",
+                "Magnesium stearate – analytical grade. [file:1]"
+            ]
+        },
+        "solvent_and_media": {
+            "solubility_media": [
+                "Water, 0.1 N HCl pH 1.2, acetate buffer pH 4.6, phosphate buffer pH 6.8. [file:1]"
+            ],
+            "hplc_mobile_phase": "Acetonitrile : water : potassium phosphate buffer pH 6.8 in the ratio 36:56:8 (v/v), flow 1 ml/min, 256.5 nm, 30 °C. [file:1]"
+        }
+    },
+    "experimental_design_for_optimization": {
+        "overall_strategy": {
+            "objective": "Modify oxcarbazepine release via a bilayer tablet (IR + SR) using direct compression with dual compression. [file:1]",
+            "design_elements": [
+                "IR layer: screen 4 disintegrants (SSG, CCS, crospovidone, starch) at fixed OXC dose and tablet weight (formulas 019_IR1–019_IR5). [file:1]",
+                "SR layer: screen polymer type (EC, Eudragit RSPO, Eudragit RLPO), polymer concentration, polymer–polymer ratio, diluent type, and binder type (formulas 019_SR1–019_SR17). [file:1]",
+                "Bilayer products F1–F17: each combines 019_IR1 with one SR formula according to Table 3. [file:1]"
+            ],
+            "optimization_criterion": [
+                "Dissolution profile similarity to a calculated reference curve based on maintenance and loading dose equation \\(DT = D_0 (1 + 0.693 t / t_{0.5})\\) and similarity factor f2. [file:1]",
+                "Best optimized formula: F15, containing Eudragit RLPO:RSPO at 2:1 with mannitol as diluent and Avicel 102 as binder, f2 ≈ 87.1 vs reference. [file:1]"
+            ]
+        }
+    },
+    "ingredients_identification": {
+        "solubility_and_absorbance": {
+            "solubility_method": "Higuchi and Connors shake‑flask; excess OXC in each medium, shaken 72 h at 25 °C, filtered, diluted, and measured at 256.5 nm by UV. [file:1]",
+            "wavelength": "256.5 nm for OXC quantification in solubility and dissolution studies. [file:1]",
+            "solubility_results_mg_per_ml": {
+                "water": 0.11,
+                "0.1N_HCl_pH1.2": 0.089,
+                "acetate_buffer_pH4.6": 0.081,
+                "phosphate_buffer_pH6.8": 0.081
+            },
+            "interpretation": "OXC is practically insoluble in water and dissolution media, confirming BCS class II behaviour. [file:1]"
+        },
+        "assay_and_calibration": {
+            "hplc_assay": {
+                "column": "Eurospher 100, C18, 5 µm, 250 × 4.6 mm. [file:1]",
+                "mobile_phase": "Acetonitrile : water : potassium phosphate buffer pH 6.8 = 36:56:8, 1 ml/min. [file:1]",
+                "detection": "256.5 nm, 30 °C, injection volume 20 µl. [file:1]",
+                "calibration_range": "5–35 µg/ml, triplicate at each level. [file:1]",
+                "retention_time": "≈ 4.85 min for OXC. [file:1]",
+                "tablet_assay": "Powder equivalent to 300 mg OXC in 100 ml mobile phase, filtered and diluted; F15 contained about 96% label claim. [file:1]"
+            }
+        }
+    },
+    "formulation_details": {
+        "IR_layers": {
+            "general": "All IR batches aimed for total IR layer weight 200 mg with 100 mg OXC per tablet. [file:1]",
+            "batches": {
+                "019_IR1": {
+                    "layer_weight_mg": 200,
+                    "components_mg": {
+                        "Oxcarbazepine": 100,
+                        "Sodium_starch_glycolate": 4,
+                        "Avicel_PH_102": 63,
+                        "Mannitol": 28,
+                        "Tartaric_acid": 1,
+                        "Talc": 2,
+                        "Magnesium_stearate": 2
+                    },
+                    "notes": "Selected for further work due to shortest disintegration time (135 s). [file:1]"
+                },
+                "019_IR2": {
+                    "layer_weight_mg": 200,
+                    "components_mg": {
+                        "Oxcarbazepine": 100,
+                        "Crospovidone": 4,
+                        "Avicel_PH_102": 63,
+                        "Mannitol": 28,
+                        "Tartaric_acid": 1,
+                        "Talc": 2,
+                        "Magnesium_stearate": 2
+                    }
+                },
+                "019_IR3": {
+                    "layer_weight_mg": 200,
+                    "components_mg": {
+                        "Oxcarbazepine": 100,
+                        "Croscarmellose_sodium": 4,
+                        "Avicel_PH_102": 63,
+                        "Mannitol": 28,
+                        "Tartaric_acid": 1,
+                        "Talc": 2,
+                        "Magnesium_stearate": 2
+                    }
+                },
+                "019_IR4": {
+                    "layer_weight_mg": 200,
+                    "components_mg": {
+                        "Oxcarbazepine": 100,
+                        "Starch": 4,
+                        "Avicel_PH_102": 63,
+                        "Mannitol": 28,
+                        "Tartaric_acid": 1,
+                        "Talc": 2,
+                        "Magnesium_stearate": 2
+                    }
+                },
+                "019_IR5": {
+                    "layer_weight_mg": 200,
+                    "components_mg": {
+                        "Oxcarbazepine": 100,
+                        "Disintegrant": 4,
+                        "Avicel_PH_102": 63,
+                        "Mannitol": 28,
+                        "Tartaric_acid": 1,
+                        "Talc": 2,
+                        "Magnesium_stearate": 2
+                    },
+                    "note": "The specific disintegrant for 019_IR5 is not clearly labelled in the text snippet but represents the fourth screened option. [file:1]"
+                }
+            }
+        },
+        "SR_layers": {
+            "general": "All SR batches target 400 mg layer weight with 200 mg OXC. [file:1]",
+            "formulas": [
+                {
+                    "Formula": "019_SR1",
+                    "OXC": 200,
+                    "HPMC": 20,
+                    "PLO": 30,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR2",
+                    "OXC": 300,
+                    "HPMC": 60,
+                    "PLO": 30,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR3",
+                    "OXC": 200,
+                    "HPMC": 60,
+                    "PLO": 30,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR4",
+                    "OXC": 100,
+                    "HPMC": 40,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR5",
+                    "OXC": 200,
+                    "HPMC": 40,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR6",
+                    "OXC": 300,
+                    "HPMC": 60,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR7",
+                    "OXC": 200,
+                    "HPMC": 60,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR8",
+                    "OXC": 200,
+                    "HPMC": 40,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR9",
+                    "OXC": 100,
+                    "HPMC": 20,
+                    "PLO": 64,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR10",
+                    "OXC": 200,
+                    "HPMC": 20,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR11",
+                    "OXC": 300,
+                    "HPMC": 40,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR12",
+                    "OXC": 200,
+                    "HPMC": 30,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR13",
+                    "OXC": 100,
+                    "HPMC": 20,
+                    "PLO": 64,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR14",
+                    "OXC": 200,
+                    "HPMC": 20,
+                    "PLO": 64,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR15",
+                    "OXC": 300,
+                    "HPMC": 40,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR16",
+                    "OXC": 200,
+                    "HPMC": 30,
+                    "PLO": 44,
+                    "MCC": 80,
+                    "DCP": 4,
+                    "Aerosil": 4,
+                    "SLS": 4,
+                    "Tartaric": 4,
+                    "Mg_stearate": 4,
+                    "Total": 400
+                },
+                {
+                    "Formula": "019_SR17",
+                    "OXC": 200,
+                    "HPMC": 30,
+                    "PLO": 40,
+                    "MCC": 44,
+                    "DCP": 80,
+                    "Aerosil": 80,
+                    "SLS": 80,
+                    "Tartaric": 400,
+                    "Mg_stearate": 400,
+                    "Total": 400
+                }
+            ]
+        }
+    },
+    "pre_compression_parameters": {
+        "note": "The article does not report bulk density, tapped density, Carr’s index, Hausner ratio, flow angle, or pre‑compression hardness/friability per batch. Only final tablet hardness, friability, and content are given. [file:1]",
+        "available_data": {
+            "hardness_and_friability": {
+                "table_source": "Table 6. [file:1]",
+                "batches": {
+                    "F1": {
+                        "hardness_kp": "15.3 ± 0.01",
+                        "friability_percent": 0.6,
+                        "OXC_content_percent": "92 ± 1.2"
+                    },
+                    "F2": {
+                        "hardness_kp": "15.7 ± 0.36",
+                        "friability_percent": 0.56,
+                        "OXC_content_percent": "95 ± 4.2"
+                    },
+                    "F3": {
+                        "hardness_kp": "16.2 ± 0.01",
+                        "friability_percent": 0.57,
+                        "OXC_content_percent": "95 ± 1.9"
+                    },
+                    "F4": {
+                        "hardness_kp": "15.6 ± 0.35",
+                        "friability_percent": 0.58,
+                        "OXC_content_percent": "95 ± 2.2"
+                    },
+                    "F5": {
+                        "hardness_kp": "16.8 ± 0.36",
+                        "friability_percent": 0.52,
+                        "OXC_content_percent": "99 ± 1.1"
+                    },
+                    "F6": {
+                        "hardness_kp": "17.5 ± 0.36",
+                        "friability_percent": 0.4,
+                        "OXC_content_percent": "93 ± 4.9"
+                    },
+                    "F7": {
+                        "hardness_kp": "15.1 ± 0.34",
+                        "friability_percent": 0.62,
+                        "OXC_content_percent": "96 ± 2.1"
+                    },
+                    "F8": {
+                        "hardness_kp": "15.7 ± 0.32",
+                        "friability_percent": 0.56,
+                        "OXC_content_percent": "96 ± 4.2"
+                    },
+                    "F9": {
+                        "hardness_kp": "17.3 ± 0.36",
+                        "friability_percent": 0.43,
+                        "OXC_content_percent": "93 ± 2.1"
+                    },
+                    "F10": {
+                        "hardness_kp": "14.3 ± 0.36",
+                        "friability_percent": 0.79,
+                        "OXC_content_percent": "98 ± 2.9"
+                    },
+                    "F11": {
+                        "hardness_kp": "14.9 ± 0.33",
+                        "friability_percent": 0.7,
+                        "OXC_content_percent": "97 ± 2.9"
+                    },
+                    "F12": {
+                        "hardness_kp": "15.8 ± 0.32",
+                        "friability_percent": 0.56,
+                        "OXC_content_percent": "99 ± 1.3"
+                    },
+                    "F13": {
+                        "hardness_kp": "16.3 ± 0.36",
+                        "friability_percent": 0.55,
+                        "OXC_content_percent": "92 ± 3.2"
+                    },
+                    "F14": {
+                        "hardness_kp": "15.2 ± 0.22",
+                        "friability_percent": 0.62,
+                        "OXC_content_percent": "94 ± 3.6"
+                    },
+                    "F15": {
+                        "hardness_kp": "17.0 ± 0.36",
+                        "friability_percent": 0.45,
+                        "OXC_content_percent": "99 ± 1.1"
+                    },
+                    "F16": {
+                        "hardness_kp": "13.1 ± 0.34",
+                        "friability_percent": 0.8,
+                        "OXC_content_percent": "96 ± 1.3"
+                    },
+                    "F17": {
+                        "hardness_kp": "15.5 ± 0.35",
+                        "friability_percent": 0.58,
+                        "OXC_content_percent": "94 ± 1.7"
+                    }
+                }
+            },
+            "disintegration_ir_layer": {
+                "table_source": "Table 5, IR layers compressed as single‑layer tablets. [file:1]",
+                "batches": {
+                    "Plain_marketed_tablet": {
+                        "disintegration_time_sec": 240
+                    },
+                    "019_IR1": {
+                        "disintegration_time_sec": 135
+                    },
+                    "019_IR2": {
+                        "disintegration_time_sec": 160
+                    },
+                    "019_IR3": {
+                        "disintegration_time_sec": 145
+                    },
+                    "019_IR4": {
+                        "disintegration_time_sec": 192
+                    },
+                    "019_IR5": {
+                        "disintegration_time_sec": 164
+                    }
+                }
+            }
+        }
+    },
+    "independent_variables_and_levels": {
+        "factors": {
+            "polymer_type": {
+                "levels": [
+                    "Ethyl cellulose",
+                    "Eudragit RSPO",
+                    "Eudragit RLPO"
+                ],
+                "tested_formulas": [
+                    "F2 (EC 10%)",
+                    "F5 (RSPO 10%)",
+                    "F8 (RLPO 10%)"
+                ],
+                "effect_summary": "At equal nominal 10% polymer, Eudragit RSPO produced slowest release (≈ 44.8% at 12 h), EC intermediate (≈ 54% at 12 h), RLPO fastest (100% by 5 h). [file:1]"
+            },
+            "polymer_concentration": {
+                "levels_percent_of_tablet": [
+                    5,
+                    10,
+                    15
+                ],
+                "tested_for": [
+                    "EC (F1–F3)",
+                    "Eudragit RSPO (F4–F6)",
+                    "Eudragit RLPO (F7–F9)"
+                ],
+                "trend": "Increasing hydrophobic polymer fraction decreased release rate and increased MDT for all three polymers. [file:1]"
+            },
+            "polymer_polymer_ratio": {
+                "combinations": [
+                    "Eudragit RLPO : EC = 1:2, 1:1, 2:1",
+                    "Eudragit RLPO : Eudragit RSPO = 1:2, 1:1, 2:1"
+                ],
+                "tested_formulas": [
+                    "F10–F15"
+                ],
+                "observation": "Higher RLPO fraction increased release rate; F15 (RLPO:RSPO = 2:1) yielded desired sustained profile with MDT ≈ 6.5 h. [file:1]"
+            },
+            "diluent_type": {
+                "levels": [
+                    "Mannitol",
+                    "DCP"
+                ],
+                "comparison": "F15 (mannitol) vs F16 (DCP). [file:1]",
+                "result": "Replacing mannitol with DCP decreased cumulative release at 12 h from 66.7% to 52.5% and slightly increased MDT from 6.5 to 6.9 h. [file:1]"
+            },
+            "binder_type": {
+                "levels": [
+                    "Avicel PH 102",
+                    "Avicel PH 101"
+                ],
+                "comparison": "F15 (Avicel 102) vs F17 (Avicel 101). [file:1]",
+                "result": "Replacing Avicel 102 with Avicel 101 slightly reduced release (66.7% vs 63.43%) and increased MDT from 6.5 to 6.7 h. [file:1]"
+            },
+            "dissolution_pH": {
+                "media": [
+                    "0.1 N HCl pH 1.2",
+                    "Acetate buffer pH 4.6",
+                    "Phosphate buffer pH 6.8",
+                    "Two‑stage medium: 2 h at pH 1.2 then pH 6.8 for remaining 12 h"
+                ],
+                "tested_formula": "F15 only. [file:1]",
+                "finding": "Release profiles across pH 1.2, 4.6, and 6.8 were similar, with f2 values 58–90, indicating pH‑independent behaviour for this poorly soluble drug in these matrices. [file:1]"
+            }
+        }
+    },
+    "ftir": {
+        "method": {
+            "sample_prep": "KBr disc method; spectra from 400–4000 cm⁻¹. [file:1]",
+            "samples": [
+                "Pure oxcarbazepine",
+                "Physical mixture of IR layer components",
+                "Physical mixture of SR layer components"
+            ]
+        },
+        "key_bands_cm_minus1": {
+            "NH_stretch": 3334,
+            "carbonyl_C_O": [
+                1693,
+                1645
+            ],
+            "aromatic_rings": [
+                1556,
+                1568
+            ]
+        },
+        "interpretation": "Physical mixtures showed no significant shifts of characteristic OXC peaks, indicating absence of chemical interaction between OXC and excipients. [file:1]"
+    },
+    "tablet_fabrication_and_process_parameters": {
+        "powder_blending": {
+            "IR_and_SR_layers": "All powders except lubricant were weighed for 50 tablets, passed through 40‑mesh sieve, and manually mixed for 12 min; magnesium stearate (1% w/w) was added after 60‑mesh sieving and mixed for 3 min. [file:1]"
+        },
+        "compression": {
+            "equipment": "Single‑punch tableting machine equipped with 10 mm round, plain punches. [file:1]",
+            "sequence": "SR powder first lightly compressed to form base; IR powder then added on top and final compression applied. [file:1]",
+            "compression_force": "Final compression at 40 kN, targeting hardness 9–25 kp; achieved hardness per batch reported in Table 6. [file:1]",
+            "coating": "No film coating; uncoated bilayer compressed tablets. [file:1]"
+        },
+        "in_process_and_post_compression_tests": {
+            "weight_variation": "20 tablets weighed individually; acceptance limit ±5% (BP criteria) and no more than two tablets beyond ±5% and none beyond ±15%. [file:1]",
+            "hardness_test": "3 tablets per formula measured by hardness tester; mean hardness in kp reported in Table 6. [file:1]",
+            "friability": "10 tablets per formula in friabilator, 100 revolutions (≈ 4 min); acceptance limit not more than 1% weight loss; all batches met this. [file:1]",
+            "content_uniformity": "Five tablets from each formula; powder equivalent to 10 mg OXC extracted in acetonitrile, filtered, diluted, and assayed at 256.5 nm; contents 92–99% of label. [file:1]"
+        },
+        "dissolution_test_conditions": {
+            "apparatus": "USP paddle (Apparatus II), 75 rpm. [file:1]",
+            "media": "900 ml 0.1 N HCl pH 1.2 for first 2 h, then 900 ml phosphate buffer pH 6.8 for remaining 12 h (medium replaced or adjusted). [file:1]",
+            "temperature": "37 ± 0.2 °C. [file:1]",
+            "sampling_schedule": "5, 10, 15 min; 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 h; 10 ml withdrawn each time and replaced with fresh medium. [file:1]",
+            "analysis": "Samples filtered, diluted, measured at 256.5 nm; cumulative % OXC release vs time plotted. [file:1]"
+        },
+        "stability_study_conditions": {
+            "accelerated_temperature": {
+                "temperatures": [
+                    40,
+                    50,
+                    60
+                ],
+                "duration": "4 months. [file:1]",
+                "sampling": "Weekly; OXC content measured by UV; physical properties and dissolution re‑evaluated at study end. [file:1]"
+            },
+            "light_effect": {
+                "conditions": "Daylight exposure at room temperature for 4 months. [file:1]",
+                "assessments": "OXC content (first‑order degradation), physical appearance, capping/lamination, dissolution. [file:1]"
+            }
+        }
+    },
+    "release_properties_and_kinetics": {
+        "ir_layer_release": {
+            "comparison": "IR layer of F15 vs marketed Trileptal 300 mg tablet. [file:1]",
+            "finding": "019_IR1 (in F15) with SSG showed faster disintegration and more rapid initial release than conventional tablet. [file:1]"
+        },
+        "sr_layer_release_profiles": {
+            "by_polymer_type_at_10_percent": {
+                "F2_EC_10": {
+                    "percent_released_12h": 54
+                },
+                "F5_RSPO_10": {
+                    "percent_released_12h": 44.8
+                },
+                "F8_RLPO_10": {
+                    "percent_released_5h": 100
+                }
+            },
+            "by_polymer_concentration": {
+                "EC_formulas": {
+                    "F1_EC_5": {
+                        "percent_released_12h": 61,
+                        "trend": "fastest among EC matrices"
+                    },
+                    "F2_EC_10": {
+                        "percent_released_12h": 54
+                    },
+                    "F3_EC_15": {
+                        "percent_released_12h": 45
+                    }
+                },
+                "RSPO_formulas": {
+                    "F4_RSPO_5": {
+                        "percent_released_12h": 51
+                    },
+                    "F5_RSPO_10": {
+                        "percent_released_12h": 44.8
+                    },
+                    "F6_RSPO_15": {
+                        "percent_released_12h": 40.3
+                    }
+                },
+                "RLPO_formulas": {
+                    "F7_RLPO_5": {
+                        "percent_released_time": "100% by 5 h"
+                    },
+                    "F8_RLPO_10": {
+                        "percent_released_time": "100% by 7 h"
+                    },
+                    "F9_RLPO_15": {
+                        "percent_released_time": "100% by 8 h"
+                    }
+                }
+            },
+            "by_polymer_polymer_ratio": {
+                "combinations": "F10–F15; increasing RLPO fraction increased release rate; F15 RLPO:RSPO = 2:1 selected. [file:1]"
+            },
+            "diluent_and_binder_effects": {
+                "diluent": "F15 mannitol vs F16 DCP; DCP slowed release and increased MDT. [file:1]",
+                "binder": "F15 Avicel 102 vs F17 Avicel 101; Avicel 101 produced slightly slower release (larger particles, more channel formation). [file:1]"
+            },
+            "pH_effect": {
+                "F15_in_different_media": "Release profiles at pH 1.2, 4.6, 6.8 and in two‑stage medium were similar; f2 values >50 in most combinations, confirming pH‑independent release within tested range. [file:1]"
+            }
+        },
+        "kinetic_fitting_for_F15": {
+            "models": [
+                "Zero‑order: \\(M_t = M_0 + K_0 t\\).",
+                "First‑order: \\(\\log M_t = \\log M_0 - K_1 t / 2.303\\).",
+                "Higuchi: \\(M_t/M_0 = K_H \\sqrt{t}\\).",
+                "Korsmeyer–Peppas: \\(\\log(M_t/M_f) = \\log K_{kp} + n \\log t\\)."
+            ],
+            "correlation_coefficients": {
+                "zero_order_R2": 0.985,
+                "first_order_R2": 0.992,
+                "Higuchi_R2": 0.994,
+                "Korsmeyer_Peppas_R2": 0.997,
+                "Korsmeyer_Peppas_n": 0.718
+            },
+            "mechanism_interpretation": "Best fit to Higuchi and Korsmeyer–Peppas (n≈0.718) indicates anomalous (non‑Fickian) transport with diffusion‑controlled release dominating, plus matrix erosion. [file:1]",
+            "mean_dissolution_time_MDT": {
+                "examples": {
+                    "F2": 7.5,
+                    "F5": 8.0,
+                    "F8": 3.8,
+                    "F10": 6.3,
+                    "F11": 5.8,
+                    "F12": 5.3,
+                    "F13": 7.8,
+                    "F14": 7.0,
+                    "F15": 6.5,
+                    "F16": 6.9,
+                    "F17": 6.7
+                },
+                "note": "MDT was calculated only for the SR layer (matrix portion). [file:1]"
+            }
+        }
+    },
+    "tablet_properties_and_experimental_data": {
+        "tablet_properties_per_batch": {
+            "available": [
+                "Hardness, friability, OXC content per F1–F17 (Table 6). [file:1]",
+                "Disintegration time for 019_IR1–019_IR5 when compressed alone (Table 5). [file:1]",
+                "Observation of no capping, lamination, or layer separation after 1 week for all bilayer tablets. [file:1]"
+            ],
+            "missing": [
+                "Batch‑wise thickness, diameter, density, swelling index, lag time, floating time, and detailed dissolution percentage at every time point for all IR/SR and F batches are not fully tabulated in the text snippet. [file:1]"
+            ]
+        },
+        "swelling_and_erosion": {
+            "method": "Selected matrix tablets tested under standard dissolution conditions; swollen tablets weighed, then dried at 40 °C for 48 h to determine erosion. [file:1]",
+            "equations": {
+                "swelling_percent": "S = (Swollen_weight – Initial_weight) / Initial_weight × 100",
+                "erosion_percent": "Erosion = (Initial_weight – Dried_weight) / Initial_weight × 100"
+            },
+            "data": "Quantitative swelling/erosion values are reported only for the selected optimized formula in the full article; these numeric values are not clearly visible in the provided snippet. [file:1]"
+        },
+        "stability_results": {
+            "accelerated_temperature": {
+                "kinetics": "Degradation followed first‑order kinetics at 40, 50, 60 °C. [file:1]",
+                "rate_constants_per_month": {
+                    "40C": 0.00375,
+                    "50C": 0.00478,
+                    "60C": 0.006
+                },
+                "arrhenius": "Arrhenius plot used to extrapolate K25 ≈ 2.5×10⁻³ month⁻¹. [file:1]",
+                "shelf_life_t10_25C_years": 3.5,
+                "physical_changes": "No significant change in dissolution profile and no capping, lamination, or layer separation after 4 months. [file:1]"
+            },
+            "light_effect": {
+                "kinetics": "First‑order degradation under daylight at room temperature. [file:1]",
+                "rate_constant_per_month": 0.0045,
+                "t10_years": 1.9,
+                "appearance": "Orange spots on tablet surface indicating oxidation of OXC; no capping or lamination observed. [file:1]",
+                "storage_recommendation": "Store in tight, light‑resistant containers due to photosensitivity. [file:1]"
+            }
+        }
+    },
+    "limitations_and_missing_data": {
+        "not_reported_or_not_clearly_visible": [
+            "Complete numeric composition (mg) for 019_SR4–019_SR17 beyond the partially visible table; only patterns and example rows are available. [file:1]",
+            "Batch‑wise detailed dissolution time–percent profiles for every IR, SR, and F batch; only key points and trends are described, with figures showing curves but not full numerical tables. [file:1]",
+            "Pre‑compression flow properties (bulk density, tapped density, angle of repose, etc.). [file:1]",
+            "Tablet thickness, diameter, true/bulk density, water uptake or swelling index %, lag time, floating time for each batch. [file:1]"
+        ]
+    },
+    "conclusion_summary": {
+        "key_points": [
+            "OXC bilayer tablets (IR + SR) can be prepared via simple direct compression with dual compression, providing modified release suitable for chronic therapy. [file:1]",
+            "019_IR1 (with SSG) was the best immediate‑release layer; F15 (RLPO:RSPO 2:1 with mannitol, Avicel 102) provided the most desirable sustained profile with diffusion‑controlled, anomalous kinetics and acceptable stability. [file:1]",
+            "No FTIR‑detectable drug–excipient interaction and acceptable shelf‑life (~3.5 years at 25 °C) were demonstrated, though the product is photosensitive. [file:1]"
+        ]
+    }
+}

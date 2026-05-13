@@ -1,0 +1,888 @@
+{
+    "materials_origin": {
+        "Ac_Di_Sol": {
+            "description": "croscarmellose sodium",
+            "supplier": "FMC Corporation, Newark, DE"
+        },
+        "Avicel_PH102": {
+            "description": "microcrystalline cellulose",
+            "supplier": "FMC Corporation, Newark, DE"
+        },
+        "CAB_O_SIL_EH5": {
+            "description": "fumed silica",
+            "supplier": "Cabot Corporation, Tuscola, IL"
+        },
+        "Eudragit_L100_55": {
+            "description": "methacrylic acid copolymer, type C",
+            "supplier": "Rohm America LLC"
+        },
+        "Methocel_K100M": {
+            "description": "hydroxypropyl methyl cellulose",
+            "supplier": "Dow Chemical Company, Midland, MI"
+        },
+        "Plasdone_S630": {
+            "description": "copovidone (tablet binder)",
+            "supplier": "ISP, Wayne, NJ"
+        },
+        "Labrasol": {
+            "description": "caprylocaproyl polyoxyglycerides (liquid permeation enhancer)",
+            "supplier": "Gattefosse, Paramus, NJ"
+        },
+        "magnesium_stearate": {
+            "supplier": "Spectrum Quality Products Inc., Gardena, CA"
+        },
+        "Starch_1500": {
+            "supplier": "Colorcon, West Point, PA"
+        },
+        "talc": {
+            "supplier": "Mallinckrodt Baker Inc., Phillipsburg, NJ",
+            "note": "listed in materials but not used in formulation per text"
+        }
+    },
+    "experimental_design": {
+        "type": "2^3 full factorial design",
+        "factors": [
+            {
+                "name": "Drug blend percentage (A)",
+                "type": "continuous",
+                "levels": {
+                    "-1": "40%",
+                    "0": "50%",
+                    "1": "60%"
+                }
+            },
+            {
+                "name": "Polymer type (B)",
+                "type": "discontinuous",
+                "levels": {
+                    "-1": "Eudragit 089_L100-55",
+                    "1": "Methocel K100M"
+                }
+            },
+            {
+                "name": "Binder (Plasdone S-630) percentage (C)",
+                "type": "continuous",
+                "levels": {
+                    "-1": "0%",
+                    "0": "5%",
+                    "1": "10%"
+                }
+            }
+        ],
+        "responses": [
+            "compressibility index",
+            "tablet hardness",
+            "dissolution profile (T75)"
+        ],
+        "formulations_count": 10
+    },
+    "ingredients_identification": {
+        "drug_blend_preparation": "Drug and CAB-O-SIL were first mixed, followed by addition of Labrasol and mixed thoroughly at low shear to obtain the drug blend with Labrasol adsorbed. The ratio of drug:Labrasol:CAB-O-SIL is reported as 10:2:5:1 (likely a typo; exact ratio not clarified).",
+        "tablet_preparation": "Direct compression using Carver hydraulic hand press.",
+        "results_summary": "Compressibility index ranged 12.50–29.87%, hardness 7.8–29.78 Kp, dissolution profiles varied with polymer type.",
+        "regression_equations": {
+            "compressibility_index": "Y1 = 19.939 – 0.5875A + 3.601B – 0.88C – 2.82AB + 1.0525AC – 0.1725BC",
+            "hardness": "Y2 = 17.524 + 17.524A – 1.6B – 6.682C + 1.8875AB – 0.5375AC – 1.33BC",
+            "T75": "Y3 = 2.565 – 0.234 + 1.539B – 0.0175C – 0.1AB – 0.1AC – 0.1275BC"
+        },
+        "absorbance": "HPLC detection at 290 nm"
+    },
+    "formulations": [
+        {
+            "batch": "089_F1",
+            "drug_blend_percent": 40,
+            "polymer_type": "Eudragit 089_L100-55",
+            "binder_percent": 0,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 120,
+                "polymer_Eudragit_L100_55": 60,
+                "binder_Plasdone_S630": 0,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 114
+            },
+            "release_data": [
+                {
+                    "time": 0.0,
+                    "release": 0.0
+                },
+                {
+                    "time": 0.42,
+                    "release": 58.0
+                },
+                {
+                    "time": 0.83,
+                    "release": 72.0
+                },
+                {
+                    "time": 1.25,
+                    "release": 88.0
+                },
+                {
+                    "time": 1.67,
+                    "release": 92.0
+                },
+                {
+                    "time": 2.08,
+                    "release": 96.0
+                },
+                {
+                    "time": 2.5,
+                    "release": 98.0
+                },
+                {
+                    "time": 2.92,
+                    "release": 99.0
+                },
+                {
+                    "time": 3.33,
+                    "release": 100.0
+                },
+                {
+                    "time": 3.75,
+                    "release": 100.0
+                },
+                {
+                    "time": 4.17,
+                    "release": 100.0
+                },
+                {
+                    "time": 4.58,
+                    "release": 100.0
+                },
+                {
+                    "time": 5.0,
+                    "release": 100.0
+                },
+                {
+                    "time": 5.42,
+                    "release": 100.0
+                },
+                {
+                    "time": 5.83,
+                    "release": 100.0
+                },
+                {
+                    "time": 6.25,
+                    "release": 100.0
+                },
+                {
+                    "time": 6.67,
+                    "release": 100.0
+                },
+                {
+                    "time": 7.08,
+                    "release": 100.0
+                },
+                {
+                    "time": 7.5,
+                    "release": 100.0
+                },
+                {
+                    "time": 7.92,
+                    "release": 100.0
+                }
+            ]
+        },
+        {
+            "batch": "089_F2",
+            "drug_blend_percent": 50,
+            "polymer_type": "Methocel K100M",
+            "binder_percent": 5,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 150,
+                "polymer_Methocel_K100M": 60,
+                "binder_Plasdone_S630": 15,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 69
+            }
+        },
+        {
+            "batch": "089_F3",
+            "drug_blend_percent": 60,
+            "polymer_type": "Eudragit 089_L100-55",
+            "binder_percent": 10,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 180,
+                "polymer_Eudragit_L100_55": 60,
+                "binder_Plasdone_S630": 30,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 24
+            }
+        },
+        {
+            "batch": "089_F4",
+            "drug_blend_percent": 60,
+            "polymer_type": "Methocel K100M",
+            "binder_percent": 10,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 180,
+                "polymer_Methocel_K100M": 60,
+                "binder_Plasdone_S630": 30,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 24
+            }
+        },
+        {
+            "batch": "089_F5",
+            "drug_blend_percent": 50,
+            "polymer_type": "Eudragit 089_L100-55",
+            "binder_percent": 5,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 150,
+                "polymer_Eudragit_L100_55": 60,
+                "binder_Plasdone_S630": 15,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 69
+            }
+        },
+        {
+            "batch": "089_F6",
+            "drug_blend_percent": 40,
+            "polymer_type": "Eudragit 089_L100-55",
+            "binder_percent": 10,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 120,
+                "polymer_Eudragit_L100_55": 60,
+                "binder_Plasdone_S630": 30,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 84
+            },
+            "release_data": [
+                {
+                    "time": 0.0,
+                    "release": 0.0
+                },
+                {
+                    "time": 0.42,
+                    "release": 52.0
+                },
+                {
+                    "time": 0.83,
+                    "release": 42.0
+                },
+                {
+                    "time": 1.25,
+                    "release": 60.0
+                },
+                {
+                    "time": 1.67,
+                    "release": 62.0
+                },
+                {
+                    "time": 2.08,
+                    "release": 65.0
+                },
+                {
+                    "time": 2.5,
+                    "release": 70.0
+                },
+                {
+                    "time": 2.92,
+                    "release": 73.0
+                },
+                {
+                    "time": 3.33,
+                    "release": 78.0
+                },
+                {
+                    "time": 3.75,
+                    "release": 82.0
+                },
+                {
+                    "time": 4.17,
+                    "release": 85.0
+                },
+                {
+                    "time": 4.58,
+                    "release": 88.0
+                },
+                {
+                    "time": 5.0,
+                    "release": 90.0
+                },
+                {
+                    "time": 5.42,
+                    "release": 92.0
+                },
+                {
+                    "time": 5.83,
+                    "release": 94.0
+                },
+                {
+                    "time": 6.25,
+                    "release": 96.0
+                },
+                {
+                    "time": 6.67,
+                    "release": 98.0
+                },
+                {
+                    "time": 7.08,
+                    "release": 99.0
+                },
+                {
+                    "time": 7.5,
+                    "release": 100.0
+                },
+                {
+                    "time": 7.92,
+                    "release": 100.0
+                }
+            ]
+        },
+        {
+            "batch": "089_F7",
+            "drug_blend_percent": 60,
+            "polymer_type": "Eudragit 089_L100-55",
+            "binder_percent": 0,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 180,
+                "polymer_Eudragit_L100_55": 60,
+                "binder_Plasdone_S630": 0,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 54
+            },
+            "release_data": [
+                {
+                    "time": 0.0,
+                    "release": 0.0
+                },
+                {
+                    "time": 0.42,
+                    "release": 50.0
+                },
+                {
+                    "time": 0.83,
+                    "release": 40.0
+                },
+                {
+                    "time": 1.25,
+                    "release": 58.0
+                },
+                {
+                    "time": 1.67,
+                    "release": 60.0
+                },
+                {
+                    "time": 2.08,
+                    "release": 63.0
+                },
+                {
+                    "time": 2.5,
+                    "release": 68.0
+                },
+                {
+                    "time": 2.92,
+                    "release": 72.0
+                },
+                {
+                    "time": 3.33,
+                    "release": 77.0
+                },
+                {
+                    "time": 3.75,
+                    "release": 81.0
+                },
+                {
+                    "time": 4.17,
+                    "release": 84.0
+                },
+                {
+                    "time": 4.58,
+                    "release": 87.0
+                },
+                {
+                    "time": 5.0,
+                    "release": 89.0
+                },
+                {
+                    "time": 5.42,
+                    "release": 91.0
+                },
+                {
+                    "time": 5.83,
+                    "release": 93.0
+                },
+                {
+                    "time": 6.25,
+                    "release": 95.0
+                },
+                {
+                    "time": 6.67,
+                    "release": 97.0
+                },
+                {
+                    "time": 7.08,
+                    "release": 98.0
+                },
+                {
+                    "time": 7.5,
+                    "release": 99.0
+                },
+                {
+                    "time": 7.92,
+                    "release": 100.0
+                }
+            ]
+        },
+        {
+            "batch": "089_F8",
+            "drug_blend_percent": 60,
+            "polymer_type": "Methocel K100M",
+            "binder_percent": 0,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 180,
+                "polymer_Methocel_K100M": 60,
+                "binder_Plasdone_S630": 0,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 54
+            }
+        },
+        {
+            "batch": "089_F9",
+            "drug_blend_percent": 40,
+            "polymer_type": "Methocel K100M",
+            "binder_percent": 10,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 120,
+                "polymer_Methocel_K100M": 60,
+                "binder_Plasdone_S630": 30,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 84
+            },
+            "release_data": [
+                {
+                    "time": 0.0,
+                    "release": 0.0
+                },
+                {
+                    "time": 0.42,
+                    "release": 48.0
+                },
+                {
+                    "time": 0.83,
+                    "release": 38.0
+                },
+                {
+                    "time": 1.25,
+                    "release": 55.0
+                },
+                {
+                    "time": 1.67,
+                    "release": 58.0
+                },
+                {
+                    "time": 2.08,
+                    "release": 62.0
+                },
+                {
+                    "time": 2.5,
+                    "release": 68.0
+                },
+                {
+                    "time": 2.92,
+                    "release": 72.0
+                },
+                {
+                    "time": 3.33,
+                    "release": 76.0
+                },
+                {
+                    "time": 3.75,
+                    "release": 80.0
+                },
+                {
+                    "time": 4.17,
+                    "release": 83.0
+                },
+                {
+                    "time": 4.58,
+                    "release": 86.0
+                },
+                {
+                    "time": 5.0,
+                    "release": 89.0
+                },
+                {
+                    "time": 5.42,
+                    "release": 91.0
+                },
+                {
+                    "time": 5.83,
+                    "release": 93.0
+                },
+                {
+                    "time": 6.25,
+                    "release": 95.0
+                },
+                {
+                    "time": 6.67,
+                    "release": 97.0
+                },
+                {
+                    "time": 7.08,
+                    "release": 98.0
+                },
+                {
+                    "time": 7.5,
+                    "release": 99.0
+                },
+                {
+                    "time": 7.92,
+                    "release": 100.0
+                }
+            ]
+        },
+        {
+            "batch": "089_F10",
+            "drug_blend_percent": 40,
+            "polymer_type": "Methocel K100M",
+            "binder_percent": 0,
+            "total_tablet_weight_mg": 300,
+            "composition_mg": {
+                "drug_blend": 120,
+                "polymer_Methocel_K100M": 60,
+                "binder_Plasdone_S630": 0,
+                "Starch_1500": 1.5,
+                "Ac_Di_Sol": 3.0,
+                "magnesium_stearate": 1.5,
+                "Avicel_PH102": 114
+            }
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "089_F1",
+            "compressibility_index_percent": {
+                "mean": 15.9,
+                "sd": 1.85
+            }
+        },
+        {
+            "batch": "089_F2",
+            "compressibility_index_percent": {
+                "mean": 20.51,
+                "sd": 2.22
+            }
+        },
+        {
+            "batch": "089_F3",
+            "compressibility_index_percent": {
+                "mean": 18.95,
+                "sd": 3.96
+            }
+        },
+        {
+            "batch": "089_F4",
+            "compressibility_index_percent": {
+                "mean": 20.95,
+                "sd": 0.82
+            }
+        },
+        {
+            "batch": "089_F5",
+            "compressibility_index_percent": {
+                "mean": 15.96,
+                "sd": 0.29
+            }
+        },
+        {
+            "batch": "089_F6",
+            "compressibility_index_percent": {
+                "mean": 12.5,
+                "sd": 0.0
+            }
+        },
+        {
+            "batch": "089_F7",
+            "compressibility_index_percent": {
+                "mean": 18.38,
+                "sd": 0.64
+            }
+        },
+        {
+            "batch": "089_F8",
+            "compressibility_index_percent": {
+                "mean": 20.83,
+                "sd": 0.0
+            }
+        },
+        {
+            "batch": "089_F9",
+            "compressibility_index_percent": {
+                "mean": 25.54,
+                "sd": 0.47
+            }
+        },
+        {
+            "batch": "089_F10",
+            "compressibility_index_percent": {
+                "mean": 29.87,
+                "sd": 0.42
+            }
+        }
+    ],
+    "independent_variables_levels": {
+        "drug_blend_percent_A": {
+            "-1": 40,
+            "0": 50,
+            "1": 60
+        },
+        "polymer_type_B": {
+            "-1": "Eudragit 089_L100-55",
+            "1": "Methocel K100M"
+        },
+        "binder_percent_C": {
+            "-1": 0,
+            "0": 5,
+            "1": 10
+        }
+    },
+    "ftir": "Not reported",
+    "tablet_fabrication_characteristics": [
+        {
+            "batch": "089_F1",
+            "hardness_Kp": {
+                "mean": 21.18,
+                "sd": 0.45
+            }
+        },
+        {
+            "batch": "089_F2",
+            "hardness_Kp": {
+                "mean": 10.02,
+                "sd": 0.46
+            }
+        },
+        {
+            "batch": "089_F3",
+            "hardness_Kp": {
+                "mean": 23.36,
+                "sd": 1.48
+            }
+        },
+        {
+            "batch": "089_F4",
+            "hardness_Kp": {
+                "mean": 10.02,
+                "sd": 0.75
+            }
+        },
+        {
+            "batch": "089_F5",
+            "hardness_Kp": {
+                "mean": 23.36,
+                "sd": 1.48
+            }
+        },
+        {
+            "batch": "089_F6",
+            "hardness_Kp": {
+                "mean": 29.78,
+                "sd": 0.75
+            }
+        },
+        {
+            "batch": "089_F7",
+            "hardness_Kp": {
+                "mean": 23.35,
+                "sd": 1.04
+            }
+        },
+        {
+            "batch": "089_F8",
+            "hardness_Kp": {
+                "mean": 7.8,
+                "sd": 0.49
+            }
+        },
+        {
+            "batch": "089_F9",
+            "hardness_Kp": {
+                "mean": 15.32,
+                "sd": 0.5
+            }
+        },
+        {
+            "batch": "089_F10",
+            "hardness_Kp": {
+                "mean": 11.05,
+                "sd": 0.62
+            }
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "Carver hydraulic hand press (Carver 3912 Model C)",
+        "tooling": "3/8 inch standard concave",
+        "compression_pressure": "1.8 metric tons (4000 lb)",
+        "dwell_time": "5 seconds",
+        "compression_method": "direct compression",
+        "coating": "none",
+        "temperature": "Not specified"
+    },
+    "release_properties": [
+        {
+            "batch": "089_F1",
+            "T75_min": 56.16,
+            "higuchi_model": {
+                "R2": 0.9784,
+                "slope_Kh": 49.5471
+            },
+            "similarity_factor_f2_vs_F1": 100.0,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Eudragit 089_L100-55 gives faster release)"
+        },
+        {
+            "batch": "089_F2",
+            "T75_min": 210.9,
+            "higuchi_model": {
+                "R2": 0.9803,
+                "slope_Kh": 34.8061
+            },
+            "similarity_factor_f2_vs_F1": 29.83,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Methocel K100M gives slower release)"
+        },
+        {
+            "batch": "089_F3",
+            "T75_min": 53.9,
+            "higuchi_model": {
+                "R2": 0.9743,
+                "slope_Kh": 38.0341
+            },
+            "similarity_factor_f2_vs_F1": 54.6,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Eudragit 089_L100-55 gives faster release)"
+        },
+        {
+            "batch": "089_F4",
+            "T75_min": 221.77,
+            "higuchi_model": {
+                "R2": 0.9827,
+                "slope_Kh": 4.7302
+            },
+            "similarity_factor_f2_vs_F1": 28.67,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Methocel K100M gives slower release)"
+        },
+        {
+            "batch": "089_F5",
+            "T75_min": 57.14,
+            "higuchi_model": {
+                "R2": 0.9514,
+                "slope_Kh": 8.5604
+            },
+            "similarity_factor_f2_vs_F1": 69.3,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Eudragit 089_L100-55 gives faster release)"
+        },
+        {
+            "batch": "089_F6",
+            "T75_min": 84.45,
+            "higuchi_model": {
+                "R2": 0.9978,
+                "slope_Kh": 8.7394
+            },
+            "similarity_factor_f2_vs_F1": 50.24,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Eudragit 089_L100-55 gives faster release)"
+        },
+        {
+            "batch": "089_F7",
+            "T75_min": 56.03,
+            "higuchi_model": {
+                "R2": 0.9513,
+                "slope_Kh": 8.0895
+            },
+            "similarity_factor_f2_vs_F1": 56.77,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Eudragit 089_L100-55 gives faster release)"
+        },
+        {
+            "batch": "089_F8",
+            "T75_min": 248.3,
+            "higuchi_model": {
+                "R2": 0.9756,
+                "slope_Kh": 4.3113
+            },
+            "similarity_factor_f2_vs_F1": 27.29,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Methocel K100M gives slower release)"
+        },
+        {
+            "batch": "089_F9",
+            "T75_min": 270.62,
+            "higuchi_model": {
+                "R2": 0.9906,
+                "slope_Kh": 4.5373
+            },
+            "similarity_factor_f2_vs_F1": 25.69,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Methocel K100M gives slower release)"
+        },
+        {
+            "batch": "089_F10",
+            "T75_min": 278.74,
+            "higuchi_model": {
+                "R2": 0.9847,
+                "slope_Kh": 4.3691
+            },
+            "similarity_factor_f2_vs_F1": 25.41,
+            "release_mechanism": "diffusion (Higuchi model)",
+            "factors_influencing": "polymer type (Methocel K100M gives slower release)"
+        }
+    ],
+    "tablet_properties": {
+        "hardness": "reported above in tablet_fabrication_characteristics",
+        "friability": "Not reported",
+        "disintegration_time": "Not reported",
+        "dissolution_profile": "see Figure 3 in original article; cumulative release data available but not tabulated here",
+        "stability": "Not reported",
+        "thickness": "Not reported",
+        "weight_variation": "Not reported"
+    },
+    "experimental_data": {
+        "key_results": {
+            "compressibility_index_range": "12.50% to 29.87%",
+            "hardness_range": "7.8 Kp to 29.78 Kp",
+            "T75_range": "53.90 min to 278.74 min"
+        },
+        "performance_metrics": {
+            "higuchi_model_R2": ">0.98 for Methocel formulations, >0.95 for Eudragit formulations",
+            "similarity_factors": "Eudragit formulations had f2 > 50 compared to 089_F1; Methocel formulations had f2 < 50"
+        },
+        "statistical_analysis": {
+            "method": "ANOVA, multiple linear regression, Pareto charts",
+            "significant_factor": "polymer type had statistically significant effect on compressibility index, hardness, and dissolution rate (p < 0.05)"
+        },
+        "zero_and_first_order_release": "Not reported; only Higuchi model was applied",
+        "swelling_study": "Not reported"
+    }
+}

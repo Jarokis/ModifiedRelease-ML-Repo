@@ -1,0 +1,1204 @@
+{
+    "article_info": {
+        "title": "Development and in Vitro/In Vivo Evaluation of Itopride Hydrochloride Expanding Tablets",
+        "authors": "Walaa Ahmed, Riham I. El-Gogary, Maha Nasr, Omaima A. Sammour",
+        "journal": "Journal of Pharmaceutical Innovation",
+        "year": "2023",
+        "volume": "18",
+        "pages": "1350-1361",
+        "doi": "10.1007/s12247-023-09729-2"
+    },
+    "materials_origin": {
+        "Itopride Hydrochloride (ITOP)": "Mash pharmaceutical Company, Egypt",
+        "High Methoxy Pectin (HM Pectin)": "CP Kelco, Denmark",
+        "Low Acyl Gellan Gum (LAGG)": "CP Kelco, Denmark",
+        "Sodium Alginate (SA)": "Memphis pharmaceutical company, Egypt",
+        "Xanthan Gum (XG)": "EGY PHAR pharmaceutical company, Egypt",
+        "Microcrystalline Cellulose (Avicel 102)": "EGY PHAR pharmaceutical company, Egypt",
+        "Polyvinylpyrrolidone (PVP k30)": "EGY PHAR pharmaceutical company, Egypt",
+        "Magnesium Stearate": "EGY PHAR pharmaceutical company, Egypt",
+        "Hydrochloric Acid (HCL)": "El Nasr Company, Egypt",
+        "Barium Sulfate": "El Nasr Company, Egypt"
+    },
+    "experimental_design": {
+        "optimization_factors": [
+            "Polymer type (XG, SA, LAGG, HM Pectin)",
+            "Polymer amount (45% w/w or 72% w/w of total tablet weight)",
+            "Excipient ratio (Avicel 102 : PVP k30 in proportions 100:0, 75:25, 50:50, 25:75, 0:100)"
+        ],
+        "response_variables": [
+            "Hardness",
+            "Friability",
+            "Thickness",
+            "Diameter",
+            "Weight variation",
+            "Swelling",
+            "In vitro drug dissolution"
+        ]
+    },
+    "ingredients_identification": {
+        "preparation_method": "Direct compression method. Components mixed by geometric dilution with mortar and pestle for 15 min, passed through sieve number 20, then magnesium stearate added as lubricant.",
+        "dsc_results": "ITOP showed sharp endothermic peak at 192.84°C. No significant changes with pectin, LAGG, XG, Avicel 102. Slight non-significant shift with PVP k30 and SA, not indicating incompatibility.",
+        "absorbance_wavelength": "258 nm",
+        "drug_content_equation": "Content uniformity: Three tablets crushed, dissolved in 50 ml 0.1N HCl, stirred for 10 min, centrifuged, supernatant diluted and measured.",
+        "swelling_index_equation": "% Water uptake = ((W2 - W1) / W1) × 100, where W1 = initial weight, W2 = weight after swelling."
+    },
+    "formulation_details": [
+        {
+            "batch": "040_G1",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 100,
+            "pvp_k30_mg": 0,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_G2",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 75,
+            "pvp_k30_mg": 25,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_G3",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 50,
+            "pvp_k30_mg": 50,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_G4",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 25,
+            "pvp_k30_mg": 75,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_G5",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 0,
+            "pvp_k30_mg": 100,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_G6",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 250,
+            "pvp_k30_mg": 0,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_G7",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 187.5,
+            "pvp_k30_mg": 62.5,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_G8",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 125,
+            "pvp_k30_mg": 125,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_G9",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 62.5,
+            "pvp_k30_mg": 187.5,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_G10",
+            "polymer_type": "LAGG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 0,
+            "pvp_k30_mg": 250,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P1",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 100,
+            "pvp_k30_mg": 0,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P2",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 75,
+            "pvp_k30_mg": 25,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P3",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 50,
+            "pvp_k30_mg": 50,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P4",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 25,
+            "pvp_k30_mg": 75,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P5",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 0,
+            "pvp_k30_mg": 100,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P6",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 250,
+            "pvp_k30_mg": 0,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P7",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 187.5,
+            "pvp_k30_mg": 62.5,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P8",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 125,
+            "pvp_k30_mg": 125,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P9",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 187.5,
+            "pvp_k30_mg": 62.5,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_P10",
+            "polymer_type": "HM Pectin",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 0,
+            "pvp_k30_mg": 250,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A1",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 100,
+            "pvp_k30_mg": 0,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A2",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 75,
+            "pvp_k30_mg": 25,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A3",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 50,
+            "pvp_k30_mg": 50,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A4",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 25,
+            "pvp_k30_mg": 75,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A5",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 0,
+            "pvp_k30_mg": 100,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A6",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 250,
+            "pvp_k30_mg": 0,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A7",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 187.5,
+            "pvp_k30_mg": 62.5,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A8",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 125,
+            "pvp_k30_mg": 125,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A9",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 62.5,
+            "pvp_k30_mg": 187.5,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_A10",
+            "polymer_type": "SA",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 0,
+            "pvp_k30_mg": 250,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X1",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 100,
+            "pvp_k30_mg": 0,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X2",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 75,
+            "pvp_k30_mg": 25,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X3",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 50,
+            "pvp_k30_mg": 50,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X4",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 25,
+            "pvp_k30_mg": 75,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X5",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 400,
+            "avicel_102_mg": 0,
+            "pvp_k30_mg": 100,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X6",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 250,
+            "pvp_k30_mg": 0,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X7",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 187.5,
+            "pvp_k30_mg": 62.5,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X8",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 125,
+            "pvp_k30_mg": 125,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X9",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 62.5,
+            "pvp_k30_mg": 187.5,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        },
+        {
+            "batch": "040_X10",
+            "polymer_type": "XG",
+            "api_mg": 50,
+            "polymer_mg": 250,
+            "avicel_102_mg": 0,
+            "pvp_k30_mg": 250,
+            "total_weight_mg": 550,
+            "magnesium_stearate": "1%"
+        }
+    ],
+    "pre_compression_parameters": {
+        "flow_properties": {
+            "angle_of_repose": "21.8° to 28.39°",
+            "carrs_index": "≤ 18%",
+            "hausners_ratio": "< 1.25 (except pectin powders which exhibited fair flowability)"
+        },
+        "dsc_compatibility": "No major incompatibility detected between ITOP and excipients."
+    },
+    "post_compression_parameters": [
+        {
+            "batch": "040_G1",
+            "friability_percent": ">1%",
+            "hardness_kp": 4.45,
+            "hardness_sd": 0.61,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_G2",
+            "friability_percent": ">1%",
+            "hardness_kp": 10.7,
+            "hardness_sd": 0.46,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_G3",
+            "friability_percent": 0.48,
+            "hardness_kp": 17.22,
+            "hardness_sd": 0.5,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9765,
+                "zero_order_r2": 0.9149,
+                "first_order_r2": null,
+                "higuchi_r2": 0.9556,
+                "korsmeyer_peppas_r2": 0.9765
+            },
+            "release_profile": {
+                "2h": 60,
+                "4h": 85,
+                "6h": 100,
+                "8h": 100,
+                "12h": 100,
+                "24h": 100
+            },
+            "comments": "Passed friability test"
+        },
+        {
+            "batch": "040_G4",
+            "friability_percent": 0.58,
+            "hardness_kp": 14.48,
+            "hardness_sd": 0.58,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "N/A",
+                "r_squared": null,
+                "zero_order_r2": null,
+                "first_order_r2": null,
+                "higuchi_r2": null,
+                "korsmeyer_peppas_r2": null
+            },
+            "release_profile": {
+                "2h": 65,
+                "4h": 90,
+                "6h": 100,
+                "8h": 100,
+                "12h": 100,
+                "24h": 100
+            },
+            "comments": "Passed friability test"
+        },
+        {
+            "batch": "040_G5",
+            "friability_percent": 0.6,
+            "hardness_kp": 15.93,
+            "hardness_sd": 0.58,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9197,
+                "zero_order_r2": 0.8448,
+                "first_order_r2": null,
+                "higuchi_r2": 0.8979,
+                "korsmeyer_peppas_r2": 0.9197
+            },
+            "release_profile": {
+                "2h": 55,
+                "4h": 80,
+                "6h": 100,
+                "8h": 100,
+                "12h": 100,
+                "24h": 100
+            },
+            "comments": "Passed friability test"
+        },
+        {
+            "batch": "040_G6",
+            "friability_percent": 0.75,
+            "hardness_kp": 14.75,
+            "hardness_sd": 0.65,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9906,
+                "zero_order_r2": 0.9655,
+                "first_order_r2": null,
+                "higuchi_r2": 0.9824,
+                "korsmeyer_peppas_r2": 0.9906
+            },
+            "release_profile": {
+                "2h": 50,
+                "4h": 75,
+                "6h": 95,
+                "8h": 100,
+                "12h": 100,
+                "24h": 100
+            },
+            "comments": "Passed friability test"
+        },
+        {
+            "batch": "040_G7",
+            "friability_percent": 0.67,
+            "hardness_kp": 15.47,
+            "hardness_sd": 0.67,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.979,
+                "zero_order_r2": 0.956,
+                "first_order_r2": null,
+                "higuchi_r2": 0.9713,
+                "korsmeyer_peppas_r2": 0.979
+            },
+            "release_profile": {
+                "2h": 45,
+                "4h": 70,
+                "6h": 90,
+                "8h": 98,
+                "12h": 100,
+                "24h": 100
+            },
+            "comments": "Passed friability test"
+        },
+        {
+            "batch": "040_G8",
+            "friability_percent": 0.52,
+            "hardness_kp": 17.65,
+            "hardness_sd": 0.48,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9863,
+                "zero_order_r2": 0.9661,
+                "first_order_r2": null,
+                "higuchi_r2": 0.9808,
+                "korsmeyer_peppas_r2": 0.9863
+            },
+            "release_profile": {
+                "2h": 40,
+                "4h": 65,
+                "6h": 85,
+                "8h": 95,
+                "12h": 100,
+                "24h": 100
+            },
+            "comments": "Passed friability test"
+        },
+        {
+            "batch": "040_G9",
+            "friability_percent": 0.3,
+            "hardness_kp": 22.39,
+            "hardness_sd": 0.47,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9974,
+                "zero_order_r2": 0.9945,
+                "first_order_r2": 0.9737,
+                "higuchi_r2": 0.9898,
+                "korsmeyer_peppas_r2": 0.9974
+            },
+            "release_profile": {
+                "2h": 35,
+                "4h": 60,
+                "6h": 80,
+                "8h": 92,
+                "12h": 98,
+                "24h": 100
+            },
+            "comments": "Passed friability test"
+        },
+        {
+            "batch": "040_G10",
+            "friability_percent": 0.2,
+            "hardness_kp": 23.85,
+            "hardness_sd": 0.58,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9952,
+                "zero_order_r2": 0.9889,
+                "first_order_r2": 0.9699,
+                "higuchi_r2": 0.9793,
+                "korsmeyer_peppas_r2": 0.9952
+            },
+            "release_profile": {
+                "2h": 30,
+                "4h": 55,
+                "6h": 75,
+                "8h": 88,
+                "12h": 96,
+                "24h": 100
+            },
+            "comments": "Passed friability test"
+        },
+        {
+            "batch": "040_P1",
+            "friability_percent": ">1%",
+            "hardness_kp": 2.56,
+            "hardness_sd": 0.43,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_P2",
+            "friability_percent": ">1%",
+            "hardness_kp": 2.95,
+            "hardness_sd": 0.66,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_P3",
+            "friability_percent": ">1%",
+            "hardness_kp": 9.4,
+            "hardness_sd": 0.71,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_P4",
+            "friability_percent": ">1%",
+            "hardness_kp": 8.43,
+            "hardness_sd": 0.69,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_P5",
+            "friability_percent": ">1%",
+            "hardness_kp": 7.06,
+            "hardness_sd": 0.45,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_P6",
+            "friability_percent": ">1%",
+            "hardness_kp": 10.39,
+            "hardness_sd": 0.82,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_P7",
+            "friability_percent": ">1%",
+            "hardness_kp": 11.91,
+            "hardness_sd": 0.49,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_P8",
+            "friability_percent": 0.8,
+            "hardness_kp": 11.26,
+            "hardness_sd": 0.68,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9309,
+                "zero_order_r2": 0.9271,
+                "first_order_r2": 0.8907,
+                "higuchi_r2": 0.8928,
+                "korsmeyer_peppas_r2": 0.9309
+            },
+            "release_profile": {
+                "2h": 70,
+                "4h": 85,
+                "6h": 92,
+                "8h": 95,
+                "12h": 97,
+                "24h": 98
+            },
+            "comments": "Passed friability test but exhibited early disintegration"
+        },
+        {
+            "batch": "040_P9",
+            "friability_percent": 0.73,
+            "hardness_kp": 23.3,
+            "hardness_sd": 0.71,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.944,
+                "zero_order_r2": 0.9325,
+                "first_order_r2": 0.9476,
+                "higuchi_r2": 0.9408,
+                "korsmeyer_peppas_r2": 0.944
+            },
+            "release_profile": {
+                "2h": 65,
+                "4h": 80,
+                "6h": 88,
+                "8h": 92,
+                "12h": 95,
+                "24h": 97
+            },
+            "comments": "Passed friability test but exhibited early disintegration"
+        },
+        {
+            "batch": "040_P10",
+            "friability_percent": 0.5,
+            "hardness_kp": 24.0,
+            "hardness_sd": 0.61,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Higuchi (R²=0.9975) or Korsmeyer-Peppas (R²=1)",
+                "r_squared": 0.9975,
+                "zero_order_r2": 0.9892,
+                "first_order_r2": null,
+                "higuchi_r2": 0.9975,
+                "korsmeyer_peppas_r2": 1
+            },
+            "release_profile": {
+                "2h": 60,
+                "4h": 75,
+                "6h": 85,
+                "8h": 90,
+                "12h": 94,
+                "24h": 96
+            },
+            "comments": "Passed friability test but exhibited early disintegration"
+        },
+        {
+            "batch": "040_A1",
+            "friability_percent": ">1%",
+            "hardness_kp": 3.19,
+            "hardness_sd": 0.42,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_A2",
+            "friability_percent": ">1%",
+            "hardness_kp": 7.9,
+            "hardness_sd": 0.59,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_A3",
+            "friability_percent": 0.77,
+            "hardness_kp": 16.93,
+            "hardness_sd": 0.51,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.989,
+                "zero_order_r2": 0.9249,
+                "first_order_r2": 0.946,
+                "higuchi_r2": 0.986,
+                "korsmeyer_peppas_r2": 0.989
+            },
+            "release_profile": {
+                "2h": 30,
+                "4h": 50,
+                "6h": 65,
+                "8h": 75,
+                "12h": 88,
+                "24h": 100
+            },
+            "swelling_duration_h": 3.5,
+            "comments": "Passed friability test, sustained release, further characterized"
+        },
+        {
+            "batch": "040_A4",
+            "friability_percent": 0.71,
+            "hardness_kp": 16.9,
+            "hardness_sd": 0.52,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.991,
+                "zero_order_r2": 0.9115,
+                "first_order_r2": 0.9935,
+                "higuchi_r2": 0.9798,
+                "korsmeyer_peppas_r2": 0.991
+            },
+            "release_profile": {
+                "2h": 30,
+                "4h": 50,
+                "6h": 65,
+                "8h": 75,
+                "12h": 88,
+                "24h": 100
+            },
+            "swelling_duration_h": 3.5,
+            "comments": "Passed friability test, sustained release, further characterized"
+        },
+        {
+            "batch": "040_A5",
+            "friability_percent": 0.63,
+            "hardness_kp": 14.8,
+            "hardness_sd": 0.62,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9815,
+                "zero_order_r2": 0.8834,
+                "first_order_r2": 0.9962,
+                "higuchi_r2": 0.9681,
+                "korsmeyer_peppas_r2": 0.9815
+            },
+            "release_profile": {
+                "2h": 30,
+                "4h": 50,
+                "6h": 65,
+                "8h": 75,
+                "12h": 88,
+                "24h": 100
+            },
+            "swelling_duration_h": 3.5,
+            "comments": "Passed friability test, sustained release, further characterized"
+        },
+        {
+            "batch": "040_A6",
+            "friability_percent": ">1%",
+            "hardness_kp": 13.0,
+            "hardness_sd": 0.92,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_A7",
+            "friability_percent": 0.62,
+            "hardness_kp": 16.65,
+            "hardness_sd": 0.81,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9845,
+                "zero_order_r2": 0.8821,
+                "first_order_r2": 0.9931,
+                "higuchi_r2": 0.9661,
+                "korsmeyer_peppas_r2": 0.9845
+            },
+            "release_profile": {
+                "2h": 30,
+                "4h": 50,
+                "6h": 65,
+                "8h": 75,
+                "12h": 88,
+                "24h": 100
+            },
+            "swelling_duration_h": 3.5,
+            "comments": "Passed friability test, sustained release, further characterized"
+        },
+        {
+            "batch": "040_A8",
+            "friability_percent": 0.58,
+            "hardness_kp": 16.24,
+            "hardness_sd": 0.62,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9883,
+                "zero_order_r2": 0.9003,
+                "first_order_r2": 0.9961,
+                "higuchi_r2": 0.9769,
+                "korsmeyer_peppas_r2": 0.9883
+            },
+            "release_profile": {
+                "2h": 30,
+                "4h": 50,
+                "6h": 65,
+                "8h": 75,
+                "12h": 88,
+                "24h": 100
+            },
+            "swelling_duration_h": 3.5,
+            "comments": "Passed friability test, sustained release, further characterized"
+        },
+        {
+            "batch": "040_A9",
+            "friability_percent": 0.63,
+            "hardness_kp": 12.15,
+            "hardness_sd": 0.45,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9899,
+                "zero_order_r2": 0.9052,
+                "first_order_r2": 0.9898,
+                "higuchi_r2": 0.9775,
+                "korsmeyer_peppas_r2": 0.9899
+            },
+            "release_profile": {
+                "2h": 30,
+                "4h": 50,
+                "6h": 65,
+                "8h": 75,
+                "12h": 88,
+                "24h": 100
+            },
+            "swelling_duration_h": 3.5,
+            "comments": "Passed friability test, sustained release, further characterized"
+        },
+        {
+            "batch": "040_A10",
+            "friability_percent": ">1%",
+            "hardness_kp": 10.7,
+            "hardness_sd": 0.87,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_X1",
+            "friability_percent": ">1%",
+            "hardness_kp": 3.94,
+            "hardness_sd": 0.42,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_X2",
+            "friability_percent": ">1%",
+            "hardness_kp": 4.2,
+            "hardness_sd": 0.26,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_X3",
+            "friability_percent": ">1%",
+            "hardness_kp": 5.03,
+            "hardness_sd": 0.32,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_X4",
+            "friability_percent": ">1%",
+            "hardness_kp": 5.4,
+            "hardness_sd": 0.31,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_X5",
+            "friability_percent": ">1%",
+            "hardness_kp": 7.51,
+            "hardness_sd": 0.26,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_X6",
+            "friability_percent": ">1%",
+            "hardness_kp": 5.13,
+            "hardness_sd": 0.4,
+            "comments": "Excluded due to high friability"
+        },
+        {
+            "batch": "040_X7",
+            "friability_percent": 0.6,
+            "hardness_kp": 9.01,
+            "hardness_sd": 0.52,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9992,
+                "zero_order_r2": 0.9859,
+                "first_order_r2": 0.9386,
+                "higuchi_r2": 0.9948,
+                "korsmeyer_peppas_r2": 0.9992
+            },
+            "release_profile": {
+                "2h": 15,
+                "4h": 25,
+                "6h": 35,
+                "8h": 45,
+                "12h": 58.53,
+                "24h": 94.37
+            },
+            "swelling_percent_3.5h": 245,
+            "swelling_diameter_mm_24h": 17.45,
+            "drug_content_percent": 100.06,
+            "stability_f1": 4.58,
+            "stability_f2": 68.28,
+            "in_vivo_gastric_residence_fed_h": 6,
+            "comments": "Optimized formulation. Sustained release: 58.53% at 12h, 94.37% in 24h. Maintained integrity for 24h."
+        },
+        {
+            "batch": "040_X8",
+            "friability_percent": 0.8,
+            "hardness_kp": 10.29,
+            "hardness_sd": 0.43,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9958,
+                "zero_order_r2": 0.9933,
+                "first_order_r2": 0.9483,
+                "higuchi_r2": 0.9875,
+                "korsmeyer_peppas_r2": 0.9958
+            },
+            "release_profile": {
+                "2h": 15,
+                "4h": 25,
+                "6h": 35,
+                "8h": 45,
+                "12h": 51,
+                "24h": 95
+            },
+            "comments": "Passed friability test, further characterized"
+        },
+        {
+            "batch": "040_X9",
+            "friability_percent": 0.35,
+            "hardness_kp": 15.04,
+            "hardness_sd": 0.51,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9969,
+                "zero_order_r2": 0.9889,
+                "first_order_r2": 0.9669,
+                "higuchi_r2": 0.9913,
+                "korsmeyer_peppas_r2": 0.9969
+            },
+            "release_profile": {
+                "2h": 15,
+                "4h": 25,
+                "6h": 35,
+                "8h": 45,
+                "12h": 51,
+                "24h": 95
+            },
+            "comments": "Passed friability test, further characterized"
+        },
+        {
+            "batch": "040_X10",
+            "friability_percent": 0.53,
+            "hardness_kp": 11.05,
+            "hardness_sd": 0.48,
+            "thickness_mm": "3.90-4.26",
+            "diameter_mm": "12.05-12.26",
+            "weight_variation": "550mg ±5%",
+            "release_kinetics": {
+                "best_fit_model": "Korsmeyer-Peppas",
+                "r_squared": 0.9968,
+                "zero_order_r2": 0.9919,
+                "first_order_r2": 0.9609,
+                "higuchi_r2": 0.9805,
+                "korsmeyer_peppas_r2": 0.9968
+            },
+            "release_profile": {
+                "2h": 15,
+                "4h": 25,
+                "6h": 35,
+                "8h": 45,
+                "12h": 51,
+                "24h": 95
+            },
+            "comments": "Passed friability test, further characterized"
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "Single compression machine, model Karishma Pharma Machines 4040, Mumbai, India",
+        "compression_force": "20 kN",
+        "punch_size": "12 mm flat face punch",
+        "equipment_used": {
+            "friabilator": "Copley, UK",
+            "hardness_tester": "Copley, UK",
+            "dissolution_apparatus": "USP paddle apparatus type II (SR8 Plus, USA)",
+            "uv_spectrophotometer": "Not specified by model",
+            "dsc": "Not specified by model",
+            "x_ray": "Genesis 50, Switzerland"
+        },
+        "dissolution_conditions": {
+            "medium": "900 ml 0.1N HCl",
+            "temperature": "37°C ± 0.5",
+            "rpm": 50,
+            "duration_h": 24,
+            "sampling_volume_ml": 5
+        },
+        "stability_conditions": {
+            "temperature_c": 40,
+            "relative_humidity_percent": 75,
+            "duration_months": 3
+        }
+    },
+    "release_properties_summary": {
+        "release_mechanism": "Diffusion-controlled (Korsmeyer-Peppas fitting for most formulations)",
+        "polymer_release_rate_order": "LAGG > HM Pectin > SA > XG",
+        "factors_influencing_release": "Polymer type, polymer concentration, presence of binder/diluent, swelling behavior, erosion"
+    },
+    "experimental_data": {
+        "swelling_study": {
+            "xg_tablets": "Rapid swelling, maintained integrity up to 24h. Water uptake ~245% at 3.5h for 45% w/w XG.",
+            "sa_tablets": "Swelling till 3.5-4h, then lost integrity. Water uptake ~116% at 3.5h for 45% w/w SA.",
+            "x7_diameter_progression_mm": {
+                "0h": 12.01,
+                "6h": 16.66,
+                "8h": 17.08,
+                "12h": 17.57,
+                "24h": 17.45
+            }
+        },
+        "stability_study_x7": {
+            "drug_content_initial_percent": 100.06,
+            "drug_content_3months_percent": 98.82,
+            "f1": 4.58,
+            "f2": 68.28,
+            "conclusion": "Stable, no significant change"
+        },
+        "in_vivo_study_x7": {
+            "fasting_state": "Tablet in stomach at 0.5h, small intestine at 1.5h, disappeared by 4h.",
+            "fed_state": "Tablet in stomach at 0.5, 1.5, 4, and 6h. Expansion observed at 4h and 6h.",
+            "conclusion": "Gastric retention enhanced in fed state due to slower motility."
+        }
+    }
+}

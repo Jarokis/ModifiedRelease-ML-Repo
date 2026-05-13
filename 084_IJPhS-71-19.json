@@ -1,0 +1,1040 @@
+{
+    "article_title": "Studies on Formulation and In Vitro Evaluation of Floating Matrix Tablets of Domperidone",
+    "authors": "S. T. Prajapati, L. D. Patel, D. M. Patel",
+    "journal": "Indian Journal of Pharmaceutical Sciences, 2009, 71(1): 19-23",
+    "extracted_data": {
+        "materials_origin": {
+            "domperidone": "Gift sample from Mann Pharmaceutical Ltd., Mehsana, India",
+            "hydroxypropylmethylcellulose_K4M_HPMC_K4M": "Gift sample from Torrent Research Center, Gandhinagar, India",
+            "carbopol_934P": "Gift sample from Torrent Research Center, Gandhinagar, India",
+            "sodium_alginate": "Purchased from S. D. Fine Chemicals, Mumbai, India",
+            "sodium_bicarbonate": "Purchased from S. D. Fine Chemicals, Mumbai, India",
+            "lactose": "Purchased from S. D. Fine Chemicals, Mumbai, India",
+            "other_excipients": "Isopropyl alcohol (granulation), talc, magnesium stearate (commercially obtained)"
+        },
+        "experimental_design": {
+            "approach": "Wet granulation technique to prepare floating matrix tablets",
+            "polymers_evaluated": [
+                "HPMC K4M",
+                "Carbopol 934P",
+                "Sodium alginate"
+            ],
+            "combinations": "Single polymers at varying concentrations, binary combinations (T series), and ternary with PEG 4000 (S series)",
+            "gas_forming_agent": "Sodium bicarbonate (20 mg per tablet)",
+            "diluent": "Lactose (adjusted to maintain total weight 180 mg)",
+            "solubilizer": "Polyethylene glycol 4000 (PEG 4000) in S series"
+        },
+        "ingredients_identification": {
+            "preparation_method": "Domperidone mixed with polymer(s), sodium bicarbonate, and lactose in mortar for 5 min. Granulated with isopropyl alcohol, passed through sieve #40, dried at room temperature (35°C) for 1 h. Blended with talc and magnesium stearate, compressed using 10-station rotary tablet machine with 8 mm flat-face punches.",
+            "absorbance_wavelength": "284 nm (UV spectrophotometry in 0.1N HCl)"
+        },
+        "formulation_details": [
+            {
+                "batch": "084_MH1",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 36,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 88.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MH2",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 54,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 70.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MH3",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 72,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 52.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MH4",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 90,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 34.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MH5",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 108,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 16.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MC1",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 18,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 106.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MC2",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 36,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 88.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MC3",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 45,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 79.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MC4",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 54,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 70.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MC5",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 72,
+                "sodium_alginate_mg": 0,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 52.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MS1",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 18,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 106.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MS2",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 36,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 88.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MS3",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 45,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 79.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MS4",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 54,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 70.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_MS5",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 0,
+                "carbopol_934p_mg": 0,
+                "sodium_alginate_mg": 72,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 52.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_T1",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 36,
+                "carbopol_934p_mg": 9,
+                "sodium_alginate_mg": 45,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 34.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_T2",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 36,
+                "carbopol_934p_mg": 18,
+                "sodium_alginate_mg": 45,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 25.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_T3",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 36,
+                "carbopol_934p_mg": 27,
+                "sodium_alginate_mg": 45,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 16.6,
+                "peg_4000_mg": 0,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_S1",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 36,
+                "carbopol_934p_mg": 9,
+                "sodium_alginate_mg": 45,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 25.6,
+                "peg_4000_mg": 9,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_S2",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 36,
+                "carbopol_934p_mg": 9,
+                "sodium_alginate_mg": 45,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 21.1,
+                "peg_4000_mg": 13.5,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            },
+            {
+                "batch": "084_S3",
+                "api_domperidone_mg": 30,
+                "hpmc_k4m_mg": 36,
+                "carbopol_934p_mg": 9,
+                "sodium_alginate_mg": 45,
+                "sodium_bicarbonate_mg": 20,
+                "lactose_mg": 16.6,
+                "peg_4000_mg": 18,
+                "magnesium_stearate_mg": 1.8,
+                "talc_mg": 3.6,
+                "total_weight_mg": 180
+            }
+        ],
+        "pre_compression_parameters": [
+            {
+                "batch": "084_MH1",
+                "hardness_kg_cm2": "4.3 ± 0.4",
+                "friability_percent": 0.07,
+                "weight_mg": "183 ± 2.5",
+                "content_percent": 99.24,
+                "floating_lag_time_s": 45,
+                "total_floating_time_h": ">12"
+            },
+            {
+                "batch": "084_MH2",
+                "hardness_kg_cm2": "4.8 ± 0.5",
+                "friability_percent": 0.04,
+                "weight_mg": "185 ± 2.7",
+                "content_percent": 98.64,
+                "floating_lag_time_s": 11,
+                "total_floating_time_h": ">12"
+            },
+            {
+                "batch": "084_MH3",
+                "hardness_kg_cm2": "4.6 ± 0.6",
+                "friability_percent": 0.13,
+                "weight_mg": "178 ± 1.4",
+                "content_percent": 100.17,
+                "floating_lag_time_s": 13,
+                "total_floating_time_h": ">12"
+            },
+            {
+                "batch": "084_MH4",
+                "hardness_kg_cm2": "4.7 ± 0.5",
+                "friability_percent": 0.04,
+                "weight_mg": "181 ± 1.4",
+                "content_percent": 99.12,
+                "floating_lag_time_s": 18,
+                "total_floating_time_h": ">12"
+            },
+            {
+                "batch": "084_MH5",
+                "hardness_kg_cm2": "3.5 ± 0.3",
+                "friability_percent": 0.11,
+                "weight_mg": "182 ± 2.9",
+                "content_percent": 100.46,
+                "floating_lag_time_s": 40,
+                "total_floating_time_h": ">12"
+            },
+            {
+                "batch": "084_MC1",
+                "hardness_kg_cm2": "4.5 ± 0.4",
+                "friability_percent": 0.08,
+                "weight_mg": "177 ± 2.3",
+                "content_percent": 99.39,
+                "floating_lag_time_s": 54,
+                "total_floating_time_h": "<7 (estimated from text)"
+            },
+            {
+                "batch": "084_MC2",
+                "hardness_kg_cm2": "4.6 ± 0.6",
+                "friability_percent": 0.06,
+                "weight_mg": "179 ± 1.3",
+                "content_percent": 98.53,
+                "floating_lag_time_s": 90,
+                "total_floating_time_h": "<7 (estimated)"
+            },
+            {
+                "batch": "084_MC3",
+                "hardness_kg_cm2": "4.1 ± 0.1",
+                "friability_percent": 0.13,
+                "weight_mg": "180 ± 1.2",
+                "content_percent": 100.31,
+                "floating_lag_time_s": 120,
+                "total_floating_time_h": "<7 (estimated)"
+            },
+            {
+                "batch": "084_MC4",
+                "hardness_kg_cm2": "4.1 ± 0.2",
+                "friability_percent": 0.04,
+                "weight_mg": "177 ± 3.6",
+                "content_percent": 99.52,
+                "floating_lag_time_s": 138,
+                "total_floating_time_h": "<7 (estimated)"
+            },
+            {
+                "batch": "084_MC5",
+                "hardness_kg_cm2": "4.3 ± 0.3",
+                "friability_percent": 0.11,
+                "weight_mg": "182 ± 2.8",
+                "content_percent": 100.16,
+                "floating_lag_time_s": 140,
+                "total_floating_time_h": "<7 (estimated)"
+            },
+            {
+                "batch": "084_MS1",
+                "hardness_kg_cm2": "4.3 ± 0.1",
+                "friability_percent": 0.08,
+                "weight_mg": "178 ± 3.2",
+                "content_percent": 99.34,
+                "floating_lag_time_s": 52,
+                "total_floating_time_h": "not specified"
+            },
+            {
+                "batch": "084_MS2",
+                "hardness_kg_cm2": "4.5 ± 0.4",
+                "friability_percent": 0.07,
+                "weight_mg": "184 ± 3.5",
+                "content_percent": 99.13,
+                "floating_lag_time_s": 135,
+                "total_floating_time_h": "not specified"
+            },
+            {
+                "batch": "084_MS3",
+                "hardness_kg_cm2": "4.3 ± 0.4",
+                "friability_percent": 0.11,
+                "weight_mg": "183 ± 2.5",
+                "content_percent": 101.01,
+                "floating_lag_time_s": 18,
+                "total_floating_time_h": ">12"
+            },
+            {
+                "batch": "084_MS4",
+                "hardness_kg_cm2": "4.4 ± 0.2",
+                "friability_percent": 0.24,
+                "weight_mg": "175 ± 1.3",
+                "content_percent": 99.23,
+                "floating_lag_time_s": 19,
+                "total_floating_time_h": ">12"
+            },
+            {
+                "batch": "084_MS5",
+                "hardness_kg_cm2": "4.3 ± 0.3",
+                "friability_percent": 0.13,
+                "weight_mg": "182 ± 2.4",
+                "content_percent": 100.43,
+                "floating_lag_time_s": 22,
+                "total_floating_time_h": ">12"
+            },
+            {
+                "batch": "084_T1",
+                "hardness_kg_cm2": "4.4 ± 0.3",
+                "friability_percent": 0.08,
+                "weight_mg": "181 ± 2.7",
+                "content_percent": 99.46,
+                "floating_lag_time_s": 55,
+                "total_floating_time_h": "not specified"
+            },
+            {
+                "batch": "084_T2",
+                "hardness_kg_cm2": "4.5 ± 0.6",
+                "friability_percent": 0.06,
+                "weight_mg": "183 ± 2.9",
+                "content_percent": 99.75,
+                "floating_lag_time_s": 103,
+                "total_floating_time_h": "not specified"
+            },
+            {
+                "batch": "084_T3",
+                "hardness_kg_cm2": "4.3 ± 0.4",
+                "friability_percent": 0.13,
+                "weight_mg": "184 ± 3.1",
+                "content_percent": 101.01,
+                "floating_lag_time_s": 133,
+                "total_floating_time_h": "not specified"
+            },
+            {
+                "batch": "084_S1",
+                "hardness_kg_cm2": "4.5 ± 0.3",
+                "friability_percent": 0.23,
+                "weight_mg": "182 ± 2.6",
+                "content_percent": 99.34,
+                "floating_lag_time_s": 62,
+                "total_floating_time_h": ">24 (text indicates prolonged buoyancy with PEG)"
+            },
+            {
+                "batch": "084_S2",
+                "hardness_kg_cm2": "4.3 ± 0.6",
+                "friability_percent": 0.07,
+                "weight_mg": "180 ± 3.2",
+                "content_percent": 99.31,
+                "floating_lag_time_s": 82,
+                "total_floating_time_h": ">24"
+            },
+            {
+                "batch": "084_S3",
+                "hardness_kg_cm2": "4.7 ± 0.3",
+                "friability_percent": 0.21,
+                "weight_mg": "184 ± 2.4",
+                "content_percent": 101.41,
+                "floating_lag_time_s": 141,
+                "total_floating_time_h": ">24"
+            }
+        ],
+        "independent_variables_levels": {
+            "hpmc_k4m_mg": [
+                0,
+                36,
+                54,
+                72,
+                90,
+                108
+            ],
+            "carbopol_934p_mg": [
+                0,
+                9,
+                18,
+                27,
+                36,
+                45,
+                54,
+                72
+            ],
+            "sodium_alginate_mg": [
+                0,
+                18,
+                36,
+                45,
+                54,
+                72
+            ],
+            "peg_4000_mg": [
+                0,
+                9,
+                13.5,
+                18
+            ],
+            "sodium_bicarbonate_mg": "constant 20 mg",
+            "total_tablet_weight_mg": "constant 180 mg"
+        },
+        "ftir_info": "Not reported in the article",
+        "tablet_fabrication": {
+            "granulation_method": "Wet granulation with isopropyl alcohol",
+            "drying": "Room temperature (35°C) for 1 h",
+            "compression_machine": "10-station rotary tablet compression machine (Rimek, Kadi, India)",
+            "die_punch": "8 mm standard flat-face",
+            "compression_force": "Not specified",
+            "hardness_tester": "Monsanto hardness tester",
+            "friabilator": "Roche friabilator (Electrolab, Mumbai)",
+            "thickness_measurement": "Screw-gauge micrometer (Campbell Electronics, Mumbai)",
+            "dissolution_apparatus": "USP Apparatus 2 (paddle), 50 rpm, 37±0.5°C, medium 0.1N HCl (900 mL)"
+        },
+        "release_properties": [
+            {
+                "batch_group": "084_MH1-084_MH5",
+                "release_characteristics": "Increasing HPMC K4M concentration decreased drug release rate. 084_MH1 showed ~40% release in 1 h; higher HPMC gave more sustained release. Release profiles shown in Fig. 1.",
+                "mechanism_evaluation": "Linear regression analysis used but numerical results not provided in article."
+            },
+            {
+                "batch_group": "084_MC1-084_MC5",
+                "release_characteristics": "Increasing Carbopol 934P concentration decreased release rate (Fig. 2). Carbopol's high water affinity forms a gel layer that retards drug dissolution.",
+                "mechanism_evaluation": "Linear regression analysis used but numerical results not provided."
+            },
+            {
+                "batch_group": "084_MS1-084_MS5",
+                "release_characteristics": "Sodium alginate concentration increase decreased release rate. 084_MS1-084_MS3 showed high initial release (30-36% at 1 h). 084_MS4 and 084_MS5 more sustained (Fig. 3).",
+                "mechanism_evaluation": "Linear regression analysis used but numerical results not provided."
+            },
+            {
+                "batch_group": "084_T1-084_T3",
+                "release_characteristics": "Combination of three polymers; increased Carbopol reduced release rate (Fig. 4).",
+                "mechanism_evaluation": "Linear regression analysis used but numerical results not provided."
+            },
+            {
+                "batch_group": "084_S1-084_S3",
+                "release_characteristics": "PEG 4000 increased dissolution rate by creating pores; above 9 mg PEG effect was insignificant (Fig. 5).",
+                "mechanism_evaluation": "Linear regression analysis used but numerical results not provided."
+            }
+        ],
+        "release_data_from_figures": {
+            "figure_1_effect_of_HPMC_K4M": [
+                {
+                    "batch": "084_MH1",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        40,
+                        65,
+                        82,
+                        92,
+                        97,
+                        100,
+                        100
+                    ]
+                },
+                {
+                    "batch": "084_MH2",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        25,
+                        45,
+                        65,
+                        78,
+                        86,
+                        96,
+                        100
+                    ]
+                },
+                {
+                    "batch": "084_MH3",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        18,
+                        32,
+                        52,
+                        68,
+                        78,
+                        92,
+                        100
+                    ]
+                },
+                {
+                    "batch": "084_MH4",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        12,
+                        24,
+                        42,
+                        58,
+                        70,
+                        86,
+                        98
+                    ]
+                },
+                {
+                    "batch": "084_MH5",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        8,
+                        16,
+                        32,
+                        46,
+                        58,
+                        76,
+                        94
+                    ]
+                }
+            ],
+            "figure_2_effect_of_Carbopol_934P": [
+                {
+                    "batch": "084_MC1",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        10,
+                        18,
+                        32,
+                        44,
+                        54,
+                        70,
+                        88
+                    ]
+                },
+                {
+                    "batch": "084_MC2",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        8,
+                        15,
+                        28,
+                        38,
+                        48,
+                        62,
+                        80
+                    ]
+                },
+                {
+                    "batch": "084_MC3",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        6,
+                        12,
+                        24,
+                        34,
+                        43,
+                        56,
+                        74
+                    ]
+                },
+                {
+                    "batch": "084_MC4",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        5,
+                        10,
+                        20,
+                        30,
+                        39,
+                        51,
+                        68
+                    ]
+                },
+                {
+                    "batch": "084_MC5",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        4,
+                        8,
+                        16,
+                        25,
+                        33,
+                        44,
+                        60
+                    ]
+                }
+            ],
+            "figure_3_effect_of_Sodium_alginate": [
+                {
+                    "batch": "084_MS1",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        36,
+                        52,
+                        70,
+                        82,
+                        90,
+                        98,
+                        100
+                    ]
+                },
+                {
+                    "batch": "084_MS2",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        34,
+                        48,
+                        64,
+                        76,
+                        85,
+                        94,
+                        100
+                    ]
+                },
+                {
+                    "batch": "084_MS3",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        32,
+                        44,
+                        58,
+                        70,
+                        79,
+                        88,
+                        97
+                    ]
+                },
+                {
+                    "batch": "084_MS4",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        22,
+                        36,
+                        52,
+                        64,
+                        74,
+                        84,
+                        94
+                    ]
+                },
+                {
+                    "batch": "084_MS5",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        15,
+                        26,
+                        42,
+                        54,
+                        64,
+                        76,
+                        88
+                    ]
+                }
+            ],
+            "figure_4_effect_of_three_polymers_combination_T_series": [
+                {
+                    "batch": "084_T1",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        12,
+                        22,
+                        38,
+                        50,
+                        60,
+                        74,
+                        90
+                    ]
+                },
+                {
+                    "batch": "084_T2",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        10,
+                        18,
+                        32,
+                        44,
+                        54,
+                        68,
+                        86
+                    ]
+                },
+                {
+                    "batch": "084_T3",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        8,
+                        14,
+                        26,
+                        38,
+                        48,
+                        62,
+                        82
+                    ]
+                }
+            ],
+            "figure_5_effect_of_PEG_4000_S_series": [
+                {
+                    "batch": "084_S1",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        14,
+                        24,
+                        42,
+                        54,
+                        64,
+                        78,
+                        94
+                    ]
+                },
+                {
+                    "batch": "084_S2",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        18,
+                        30,
+                        48,
+                        62,
+                        72,
+                        86,
+                        98
+                    ]
+                },
+                {
+                    "batch": "084_S3",
+                    "time_h": [
+                        1,
+                        2,
+                        4,
+                        6,
+                        8,
+                        12,
+                        24
+                    ],
+                    "percent_released": [
+                        22,
+                        36,
+                        54,
+                        68,
+                        78,
+                        92,
+                        100
+                    ]
+                }
+            ]
+        },
+        "tablet_properties_summary": {
+            "hardness_range_kg_cm2": "3.5±0.3 to 4.8±0.5",
+            "friability_percent": "all below 1%",
+            "thickness_range_mm": "2.80±0.42 to 2.92±0.46",
+            "weight_variation": "within acceptable limits",
+            "drug_content_uniformity": "95-105%",
+            "floating_lag_time_range_s": "11 to 141 s",
+            "total_floating_time": "MH, 084_MS3-5, S series >12 h; MC series <7 h; others variable"
+        },
+        "experimental_data": {
+            "in_vitro_release": "Graphical data only; no tabulated release profiles. All batches evaluated for 24 h. Sustained release achieved with higher polymer concentrations. Combination of HPMC K4M, Carbopol 934P, and sodium alginate with PEG 4000 provided desired floating and prolonged release.",
+            "statistical_analysis": "Linear regression for release kinetics mentioned but not presented numerically. Standard deviations reported in Table 2 for physical parameters.",
+            "zero_first_order_kinetics": "Not reported numerically in the article."
+        }
+    }
+}

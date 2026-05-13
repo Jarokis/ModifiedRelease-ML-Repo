@@ -1,0 +1,1027 @@
+{
+    "article_info": {
+        "title": "FORMULATION AND IN VITRO EVALUATION OF RAMLETON TABLETS FOR COLON DRUG DELIVERY SYSTEM BY COMPRESSION COATING",
+        "authors": "TRINADHA RAO M., PARIMALA Y., YAMINI M., PHANINDRA CVS, SRINIVASA RAO Y.",
+        "journal": "International Journal of Applied Pharmaceutics",
+        "year": 2021,
+        "doi": "https://dx.doi.org/10.22159/ijap.2021v13i2.40396"
+    },
+    "materials_origin": {
+        "ramleton": "Gift sample from Dr. Reddy's Laboratories, Hyderabad, Andhra Pradesh, India",
+        "excipients": "Cross carmellose sodium, Microcrystalline cellulose (MCC pH 102), Talc, Magnesium stearate, Ethyl cellulose, Eudragit RLP0, Eudragit L100 – sources not specified"
+    },
+    "experimental_design": {
+        "approach": "Compression coating technology. Core tablets containing drug and superdisintegrant were prepared, then compression coated with pH‑dependent polymers (ethylcellulose, Eudragit RLP0, Eudragit L100).",
+        "batches": "Nine formulations (072_F1–072_F9) with varying polymer compositions in the coating layer.",
+        "optimization": "072_F4 identified as optimized based on drug release retardation up to 18 h (99.25% release)."
+    },
+    "ingredients_identification": {
+        "preparation": "Core tablets prepared by direct compression; coating layer applied by compression coating using 9 mm flat punch. Pre‑compression blends tested for flow properties (all passed).",
+        "results": "FTIR showed no interaction between drug and excipients.",
+        "equation": "Release kinetics evaluated using zero‑order, first‑order, Higuchi, and Korsmeyer‑Peppas models.",
+        "absorbance": "UV‑Vis analysis at 254 nm (pH 1.2), 256 nm (pH 7.4), and 257 nm (pH 6.8). Calibration curves linear (r² > 0.99)."
+    },
+    "formulation_details": {
+        "core_tablet_composition": {
+            "ramleton": 8,
+            "cross_carmellose_sodium": 32,
+            "talc": 3,
+            "magnesium_stearate": 3,
+            "MCC_pH102": 34,
+            "total_weight_mg": 80
+        },
+        "coating_layer_compositions": [
+            {
+                "batch": "072_F1",
+                "ethylcellulose_mg": 40,
+                "eudragit_RLP0_mg": 0,
+                "eudragit_L100_mg": 0,
+                "magnesium_stearate_mg": 3,
+                "talc_mg": 3,
+                "MCC_pH102_mg": 174,
+                "total_coating_weight_mg": 220
+            },
+            {
+                "batch": "072_F2",
+                "ethylcellulose_mg": 80,
+                "eudragit_RLP0_mg": 0,
+                "eudragit_L100_mg": 0,
+                "magnesium_stearate_mg": 3,
+                "talc_mg": 3,
+                "MCC_pH102_mg": 134,
+                "total_coating_weight_mg": 220
+            },
+            {
+                "batch": "072_F3",
+                "ethylcellulose_mg": 0,
+                "eudragit_RLP0_mg": 40,
+                "eudragit_L100_mg": 0,
+                "magnesium_stearate_mg": 3,
+                "talc_mg": 3,
+                "MCC_pH102_mg": 174,
+                "total_coating_weight_mg": 220
+            },
+            {
+                "batch": "072_F4",
+                "ethylcellulose_mg": 0,
+                "eudragit_RLP0_mg": 80,
+                "eudragit_L100_mg": 0,
+                "magnesium_stearate_mg": 3,
+                "talc_mg": 3,
+                "MCC_pH102_mg": 134,
+                "total_coating_weight_mg": 220
+            },
+            {
+                "batch": "072_F5",
+                "ethylcellulose_mg": 40,
+                "eudragit_RLP0_mg": 0,
+                "eudragit_L100_mg": 40,
+                "magnesium_stearate_mg": 3,
+                "talc_mg": 3,
+                "MCC_pH102_mg": 174,
+                "total_coating_weight_mg": 220
+            },
+            {
+                "batch": "072_F6",
+                "ethylcellulose_mg": 0,
+                "eudragit_RLP0_mg": 0,
+                "eudragit_L100_mg": 80,
+                "magnesium_stearate_mg": 3,
+                "talc_mg": 3,
+                "MCC_pH102_mg": 134,
+                "total_coating_weight_mg": 220
+            },
+            {
+                "batch": "072_F7",
+                "ethylcellulose_mg": 0,
+                "eudragit_RLP0_mg": 40,
+                "eudragit_L100_mg": 0,
+                "magnesium_stearate_mg": 3,
+                "talc_mg": 3,
+                "MCC_pH102_mg": 174,
+                "total_coating_weight_mg": 220
+            },
+            {
+                "batch": "072_F8",
+                "ethylcellulose_mg": 40,
+                "eudragit_RLP0_mg": 40,
+                "eudragit_L100_mg": 0,
+                "magnesium_stearate_mg": 3,
+                "talc_mg": 3,
+                "MCC_pH102_mg": 134,
+                "total_coating_weight_mg": 220
+            },
+            {
+                "batch": "072_F9",
+                "ethylcellulose_mg": 40,
+                "eudragit_RLP0_mg": 0,
+                "eudragit_L100_mg": 40,
+                "magnesium_stearate_mg": 3,
+                "talc_mg": 3,
+                "MCC_pH102_mg": 134,
+                "total_coating_weight_mg": 220
+            }
+        ]
+    },
+    "post_compression_parameters": [
+        {
+            "batch": "072_F1",
+            "weight_variation_mg": "303.1±2.03",
+            "hardness_kg_cm2": "4.5±0.26",
+            "friability_percent_loss": "0.51±0.11",
+            "thickness_mm": 4.8,
+            "drug_content_percent": "99.77±0.58"
+        },
+        {
+            "batch": "072_F2",
+            "weight_variation_mg": "304.2±3.04",
+            "hardness_kg_cm2": "4.2±0.19",
+            "friability_percent_loss": "0.53±0.19",
+            "thickness_mm": 4.9,
+            "drug_content_percent": "99.47±0.61"
+        },
+        {
+            "batch": "072_F3",
+            "weight_variation_mg": "299.1±2.98",
+            "hardness_kg_cm2": "4.4±0.23",
+            "friability_percent_loss": "0.52±0.15",
+            "thickness_mm": 4.9,
+            "drug_content_percent": "99.35±0.78"
+        },
+        {
+            "batch": "072_F4",
+            "weight_variation_mg": "309.3±3.47",
+            "hardness_kg_cm2": "4.5±0.17",
+            "friability_percent_loss": "0.56±0.17",
+            "thickness_mm": 4.9,
+            "drug_content_percent": "99.89±0.45"
+        },
+        {
+            "batch": "072_F5",
+            "weight_variation_mg": "310.3±2.87",
+            "hardness_kg_cm2": "4.4±0.24",
+            "friability_percent_loss": "0.57±0.16",
+            "thickness_mm": 4.7,
+            "drug_content_percent": "99.15±0.54"
+        },
+        {
+            "batch": "072_F6",
+            "weight_variation_mg": "311.5±1.99",
+            "hardness_kg_cm2": "4.2±0.31",
+            "friability_percent_loss": "0.46±0.11",
+            "thickness_mm": 4.5,
+            "drug_content_percent": "98.57±0.49"
+        },
+        {
+            "batch": "072_F7",
+            "weight_variation_mg": "303.4±3.75",
+            "hardness_kg_cm2": "4.1±0.17",
+            "friability_percent_loss": "0.53±0.19",
+            "thickness_mm": 4.4,
+            "drug_content_percent": "98.45±0.48"
+        },
+        {
+            "batch": "072_F8",
+            "weight_variation_mg": "304.6±4.12",
+            "hardness_kg_cm2": "4.3±0.19",
+            "friability_percent_loss": "0.48±0.18",
+            "thickness_mm": 4.7,
+            "drug_content_percent": "99.66±0.51"
+        },
+        {
+            "batch": "072_F9",
+            "weight_variation_mg": "199.4±3.75",
+            "hardness_kg_cm2": "4.5±0.21",
+            "friability_percent_loss": "0.56±0.19",
+            "thickness_mm": 4.6,
+            "drug_content_percent": "99.15±0.61"
+        }
+    ],
+    "independent_variables": {
+        "polymers": [
+            "Ethyl cellulose",
+            "Eudragit RLP0",
+            "Eudragit L100"
+        ],
+        "levels_mg": [
+            40,
+            80
+        ],
+        "combinations": "Nine batches with single polymer, binary mixtures, or varying amounts"
+    },
+    "ftir_info": {
+        "purpose": "Drug‑excipient compatibility",
+        "result": "No significant interaction observed between ramleton and excipients (spectra shown in Fig. 1 and Fig. 2)."
+    },
+    "tablet_fabrication": {
+        "equipment": "8‑station tablet punching machine",
+        "punches": "6 mm flat punch for core; 9 mm flat punch for compression coating",
+        "hardness_target": "4–4.5 kg/cm²",
+        "coating_method": "Compression coating: half of coating blend placed in die, core tablet centered, remaining blend added and compressed."
+    },
+    "release_properties": {
+        "general": {
+            "dissolution_apparatus": "USP paddle type, 50 rpm, 37±0.5 °C",
+            "media": "SGF pH 1.2 (2 h) → SIF pH 7.4 (3 h) → SIF pH 6.8 (up to 18 h)",
+            "analysis_wavelengths": "254 nm (pH 1.2), 256 nm (pH 7.4), 257 nm (pH 6.8)"
+        },
+        "batches": [
+            {
+                "batch": "072_F1",
+                "release_data": [
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 4.76
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 10.55
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 10.47
+                    },
+                    {
+                        "time_h": 3,
+                        "cumulative_percent": 30.68
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 43.75
+                    },
+                    {
+                        "time_h": 5,
+                        "cumulative_percent": 49.79
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 50.06
+                    },
+                    {
+                        "time_h": 7,
+                        "cumulative_percent": 55.65
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 58.39
+                    },
+                    {
+                        "time_h": 9,
+                        "cumulative_percent": 67.98
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 68.79
+                    },
+                    {
+                        "time_h": 11,
+                        "cumulative_percent": 70.35
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 73.36
+                    },
+                    {
+                        "time_h": 13,
+                        "cumulative_percent": 77.57
+                    },
+                    {
+                        "time_h": 14,
+                        "cumulative_percent": 81.64
+                    },
+                    {
+                        "time_h": 15,
+                        "cumulative_percent": 84.55
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 86.69
+                    },
+                    {
+                        "time_h": 17,
+                        "cumulative_percent": 88.89
+                    },
+                    {
+                        "time_h": 18,
+                        "cumulative_percent": 90.16
+                    }
+                ],
+                "kinetics": {
+                    "zero_order_R2": 0.917,
+                    "first_order_R2": 0.988,
+                    "higuchi_R2": 0.975,
+                    "korsmeyer_peppas_R2_or_n": 16.117,
+                    "mechanism": "Non‑Fickian diffusion (n ≈ 0.540–0.818 overall)"
+                }
+            },
+            {
+                "batch": "072_F2",
+                "release_data": [
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 5.98
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 11.55
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 17.48
+                    },
+                    {
+                        "time_h": 3,
+                        "cumulative_percent": 25.44
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 36.55
+                    },
+                    {
+                        "time_h": 5,
+                        "cumulative_percent": 38.62
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 42.29
+                    },
+                    {
+                        "time_h": 7,
+                        "cumulative_percent": 46.72
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 53.57
+                    },
+                    {
+                        "time_h": 9,
+                        "cumulative_percent": 58.85
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 65.45
+                    },
+                    {
+                        "time_h": 11,
+                        "cumulative_percent": 70.89
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 72.35
+                    },
+                    {
+                        "time_h": 13,
+                        "cumulative_percent": 76.36
+                    },
+                    {
+                        "time_h": 14,
+                        "cumulative_percent": 82.69
+                    },
+                    {
+                        "time_h": 15,
+                        "cumulative_percent": 85.93
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 86.32
+                    },
+                    {
+                        "time_h": 17,
+                        "cumulative_percent": 89.87
+                    },
+                    {
+                        "time_h": 18,
+                        "cumulative_percent": 90.98
+                    }
+                ],
+                "kinetics": {
+                    "zero_order_R2": 0.975,
+                    "first_order_R2": 0.974,
+                    "higuchi_R2": 0.981,
+                    "korsmeyer_peppas_R2_or_n": 12.48
+                }
+            },
+            {
+                "batch": "072_F3",
+                "release_data": [
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 6.89
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 15.66
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 22.69
+                    },
+                    {
+                        "time_h": 3,
+                        "cumulative_percent": 35.63
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 48.87
+                    },
+                    {
+                        "time_h": 5,
+                        "cumulative_percent": 52.45
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 54.98
+                    },
+                    {
+                        "time_h": 7,
+                        "cumulative_percent": 57.72
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 59.93
+                    },
+                    {
+                        "time_h": 9,
+                        "cumulative_percent": 65.53
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 67.56
+                    },
+                    {
+                        "time_h": 11,
+                        "cumulative_percent": 72.83
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 75.48
+                    },
+                    {
+                        "time_h": 13,
+                        "cumulative_percent": 77.15
+                    },
+                    {
+                        "time_h": 14,
+                        "cumulative_percent": 82.36
+                    },
+                    {
+                        "time_h": 15,
+                        "cumulative_percent": 84.78
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 87.99
+                    },
+                    {
+                        "time_h": 17,
+                        "cumulative_percent": 89.43
+                    },
+                    {
+                        "time_h": 18,
+                        "cumulative_percent": 93.19
+                    }
+                ],
+                "kinetics": {
+                    "zero_order_R2": 0.925,
+                    "first_order_R2": 0.971,
+                    "higuchi_R2": 0.988,
+                    "korsmeyer_peppas_R2_or_n": 19.72
+                }
+            },
+            {
+                "batch": "072_F4",
+                "release_data": [
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 7.58
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 16.98
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 25.23
+                    },
+                    {
+                        "time_h": 3,
+                        "cumulative_percent": 33.64
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 34.39
+                    },
+                    {
+                        "time_h": 5,
+                        "cumulative_percent": 45.85
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 46.54
+                    },
+                    {
+                        "time_h": 7,
+                        "cumulative_percent": 56.77
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 59.48
+                    },
+                    {
+                        "time_h": 9,
+                        "cumulative_percent": 62.75
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 65.18
+                    },
+                    {
+                        "time_h": 11,
+                        "cumulative_percent": 70.57
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 74.38
+                    },
+                    {
+                        "time_h": 13,
+                        "cumulative_percent": 79.97
+                    },
+                    {
+                        "time_h": 14,
+                        "cumulative_percent": 85.28
+                    },
+                    {
+                        "time_h": 15,
+                        "cumulative_percent": 90.96
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 93.55
+                    },
+                    {
+                        "time_h": 17,
+                        "cumulative_percent": 95.18
+                    },
+                    {
+                        "time_h": 18,
+                        "cumulative_percent": 99.25
+                    }
+                ],
+                "kinetics": {
+                    "zero_order_R2": 0.978,
+                    "first_order_R2": 0.851,
+                    "higuchi_R2": 0.986,
+                    "korsmeyer_peppas_R2_or_n": 15.37
+                }
+            },
+            {
+                "batch": "072_F5",
+                "release_data": [
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 3.89
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 12.55
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 19.77
+                    },
+                    {
+                        "time_h": 3,
+                        "cumulative_percent": 26.76
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 32.85
+                    },
+                    {
+                        "time_h": 5,
+                        "cumulative_percent": 38.75
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 43.38
+                    },
+                    {
+                        "time_h": 7,
+                        "cumulative_percent": 45.23
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 50.55
+                    },
+                    {
+                        "time_h": 9,
+                        "cumulative_percent": 57.28
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 63.49
+                    },
+                    {
+                        "time_h": 11,
+                        "cumulative_percent": 67.76
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 79.66
+                    },
+                    {
+                        "time_h": 13,
+                        "cumulative_percent": 83.76
+                    },
+                    {
+                        "time_h": 14,
+                        "cumulative_percent": 85.18
+                    },
+                    {
+                        "time_h": 15,
+                        "cumulative_percent": 88.67
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 90.32
+                    },
+                    {
+                        "time_h": 17,
+                        "cumulative_percent": 91.86
+                    },
+                    {
+                        "time_h": 18,
+                        "cumulative_percent": 90.98
+                    }
+                ],
+                "kinetics": {
+                    "zero_order_R2": 0.973,
+                    "first_order_R2": 0.956,
+                    "higuchi_R2": 0.971,
+                    "korsmeyer_peppas_R2_or_n": 1.744
+                }
+            },
+            {
+                "batch": "072_F6",
+                "release_data": [
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 4.98
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 12.55
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 22.57
+                    },
+                    {
+                        "time_h": 3,
+                        "cumulative_percent": 30.86
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 36.28
+                    },
+                    {
+                        "time_h": 5,
+                        "cumulative_percent": 38.12
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 45.99
+                    },
+                    {
+                        "time_h": 7,
+                        "cumulative_percent": 48.37
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 55.85
+                    },
+                    {
+                        "time_h": 9,
+                        "cumulative_percent": 57.93
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 59.35
+                    },
+                    {
+                        "time_h": 11,
+                        "cumulative_percent": 69.78
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 73.75
+                    },
+                    {
+                        "time_h": 13,
+                        "cumulative_percent": 76.45
+                    },
+                    {
+                        "time_h": 14,
+                        "cumulative_percent": 78.57
+                    },
+                    {
+                        "time_h": 15,
+                        "cumulative_percent": 82.18
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 85.36
+                    },
+                    {
+                        "time_h": 17,
+                        "cumulative_percent": 87.13
+                    },
+                    {
+                        "time_h": 18,
+                        "cumulative_percent": 90.18
+                    }
+                ],
+                "kinetics": {
+                    "zero_order_R2": 0.969,
+                    "first_order_R2": 0.978,
+                    "higuchi_R2": 0.987,
+                    "korsmeyer_peppas_R2_or_n": 14.11
+                }
+            },
+            {
+                "batch": "072_F7",
+                "release_data": [
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 6.85
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 14.82
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 21.03
+                    },
+                    {
+                        "time_h": 3,
+                        "cumulative_percent": 28.6
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 33.35
+                    },
+                    {
+                        "time_h": 5,
+                        "cumulative_percent": 45.26
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 46.27
+                    },
+                    {
+                        "time_h": 7,
+                        "cumulative_percent": 54.25
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 60.93
+                    },
+                    {
+                        "time_h": 9,
+                        "cumulative_percent": 65.33
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 66.09
+                    },
+                    {
+                        "time_h": 11,
+                        "cumulative_percent": 69.37
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 70.45
+                    },
+                    {
+                        "time_h": 13,
+                        "cumulative_percent": 73.26
+                    },
+                    {
+                        "time_h": 14,
+                        "cumulative_percent": 77.25
+                    },
+                    {
+                        "time_h": 15,
+                        "cumulative_percent": 80.8
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 85.36
+                    },
+                    {
+                        "time_h": 17,
+                        "cumulative_percent": 87.85
+                    },
+                    {
+                        "time_h": 18,
+                        "cumulative_percent": 89.26
+                    }
+                ],
+                "kinetics": {
+                    "zero_order_R2": 0.95,
+                    "first_order_R2": 0.982,
+                    "higuchi_R2": 0.989,
+                    "korsmeyer_peppas_R2_or_n": 15.91
+                }
+            },
+            {
+                "batch": "072_F8",
+                "release_data": [
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 7.65
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 10.76
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 18.19
+                    },
+                    {
+                        "time_h": 3,
+                        "cumulative_percent": 20.98
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 23.65
+                    },
+                    {
+                        "time_h": 5,
+                        "cumulative_percent": 27.05
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 36.48
+                    },
+                    {
+                        "time_h": 7,
+                        "cumulative_percent": 42.68
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 49.19
+                    },
+                    {
+                        "time_h": 9,
+                        "cumulative_percent": 55.82
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 59.89
+                    },
+                    {
+                        "time_h": 11,
+                        "cumulative_percent": 65.55
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 69.45
+                    },
+                    {
+                        "time_h": 13,
+                        "cumulative_percent": 72.85
+                    },
+                    {
+                        "time_h": 14,
+                        "cumulative_percent": 78.98
+                    },
+                    {
+                        "time_h": 15,
+                        "cumulative_percent": 84.53
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 85.75
+                    },
+                    {
+                        "time_h": 17,
+                        "cumulative_percent": 88.74
+                    },
+                    {
+                        "time_h": 18,
+                        "cumulative_percent": 89.05
+                    }
+                ],
+                "kinetics": {
+                    "zero_order_R2": 0.987,
+                    "first_order_R2": 0.96,
+                    "higuchi_R2": 0.956,
+                    "korsmeyer_peppas_R2_or_n": 8.86
+                }
+            },
+            {
+                "batch": "072_F9",
+                "release_data": [
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 4.25
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 8.95
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 14.3
+                    },
+                    {
+                        "time_h": 3,
+                        "cumulative_percent": 19.88
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 24.89
+                    },
+                    {
+                        "time_h": 5,
+                        "cumulative_percent": 28.18
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 35.67
+                    },
+                    {
+                        "time_h": 7,
+                        "cumulative_percent": 45.35
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 48.93
+                    },
+                    {
+                        "time_h": 9,
+                        "cumulative_percent": 52.08
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 58.15
+                    },
+                    {
+                        "time_h": 11,
+                        "cumulative_percent": 63.65
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 65.09
+                    },
+                    {
+                        "time_h": 13,
+                        "cumulative_percent": 69.71
+                    },
+                    {
+                        "time_h": 14,
+                        "cumulative_percent": 73.38
+                    },
+                    {
+                        "time_h": 15,
+                        "cumulative_percent": 76.45
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 80.27
+                    },
+                    {
+                        "time_h": 17,
+                        "cumulative_percent": 82.89
+                    },
+                    {
+                        "time_h": 18,
+                        "cumulative_percent": 85.99
+                    }
+                ],
+                "kinetics": {
+                    "zero_order_R2": 0.984,
+                    "first_order_R2": 0.981,
+                    "higuchi_R2": 0.987,
+                    "korsmeyer_peppas_R2_or_n": 9.05
+                }
+            }
+        ],
+        "overall_mechanism": "First‑order kinetics with non‑Fickian diffusion (n = 0.540–0.818)."
+    },
+    "experimental_data": {
+        "key_results": "072_F4 showed 99.25% drug release at 18 h with first‑order kinetics. All formulations passed quality control tests.",
+        "statistical_analysis": "Data expressed as mean±SD (n=3). Correlation coefficients (R²) used for release kinetics.",
+        "performance_metrics": {
+            "hardness_range_kg_cm2": "4.1–4.5",
+            "friability_percent": "< 0.6",
+            "drug_content_percent": "98.45–99.89",
+            "weight_variation_percent": "within ±5%"
+        },
+        "zero_first_order_R2": "See release_properties.batches.kinetics"
+    }
+}

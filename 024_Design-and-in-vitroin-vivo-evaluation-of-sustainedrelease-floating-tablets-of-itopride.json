@@ -1,0 +1,487 @@
+{
+    "Materials Origin": [
+        {
+            "Material": "Itopride (ITO) HCl",
+            "Source": "Hangzhou Uniwise International Co., Ltd. (Shanghai, China) [cite: 64]"
+        },
+        {
+            "Material": "Hydroxypropyl methylcellulose (HPMC) 15000",
+            "Source": "Sigma-Aldrich Co. (St Louis, MO, USA) [cite: 64, 66]"
+        },
+        {
+            "Material": "Ethylcellulose (EC)",
+            "Source": "EMD Millipore (Billerica, MA, USA) [cite: 67]"
+        },
+        {
+            "Material": "Microcrystalline cellulose (Avicel PH 101)",
+            "Source": "FMC BioPolymer International Co. (Philadelphia, PA, USA) [cite: 68]"
+        },
+        {
+            "Material": "Eudragit RSPM",
+            "Source": "Rhom Pharma GmbH (Darmstadt, Germany) [cite: 69]"
+        },
+        {
+            "Material": "Sodium bicarbonate",
+            "Source": "El Gomhoria Co. (Assuit, Egypt) [cite: 70]"
+        },
+        {
+            "Material": "Citric acid",
+            "Source": "El Gomhoria Co. (Assuit, Egypt) [cite: 70]"
+        },
+        {
+            "Material": "Magnesium stearate",
+            "Source": "Alba Chemical Company (Alexandria, Egypt) [cite: 71]"
+        },
+        {
+            "Material": "HPLC-grade methanol",
+            "Source": "Sigma-Aldrich Co. [cite: 72]"
+        },
+        {
+            "Material": "Chloroform",
+            "Source": "El-Nasr Pharmaceutical Chemicals Company (Cairo, Egypt) [cite: 72]"
+        },
+        {
+            "Material": "Dibasic ammonium phosphate",
+            "Source": "BDH Chemicals Ltd. Co. (Poole, England) [cite: 73]"
+        }
+    ],
+    "Experimental Design for Optimization": {
+        "Ingredients Identification": {
+            "Matrix Polymers": "HPMC 15000, EC, and Eudragit RSPM [cite: 77]",
+            "Gas-generating agent": "Sodium bicarbonate (to maintain buoyancy by producing CO2) [cite: 78]",
+            "Effervescent mixture": "Sodium bicarbonate and anhydrous citric acid (1:1 mol/mol) [cite: 24]",
+            "Lubricant": "Magnesium stearate [cite: 77]",
+            "Direct compression agent": "Microcrystalline cellulose (Avicel) [cite: 410]"
+        },
+        "Preparation Method": "Direct compression technique [cite: 77]",
+        "Analytical Absorbance": "UV spectrophotometrically at lambda max 258 nm [cite: 109, 126]",
+        "Equations Used": [
+            {
+                "Type": "Resultant Weight (RW)",
+                "Equation": "RW = F_buoy - F_grav = (Df - Dt)gV [cite: 101]"
+            },
+            {
+                "Type": "Friability Percent (%F)",
+                "Equation": "%F = [1 - (W / Wi)] * 100 [cite: 118]"
+            },
+            {
+                "Type": "Relative Bioavailability (FR)",
+                "Equation": "FR(%) = [AUC0-24 (tested) / AUC0-24 (commercial)] * 100 [cite: 175]"
+            }
+        ]
+    },
+    "Formulation Details": [
+        {
+            "Batch ID": "024_F1",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 100,
+                "EC": 0,
+                "Eudragit RSPM": 0,
+                "Avicel": 60,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        },
+        {
+            "Batch ID": "024_F2",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 120,
+                "EC": 0,
+                "Eudragit RSPM": 0,
+                "Avicel": 40,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        },
+        {
+            "Batch ID": "024_F3",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 150,
+                "EC": 0,
+                "Eudragit RSPM": 0,
+                "Avicel": 10,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        },
+        {
+            "Batch ID": "024_F4",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 0,
+                "EC": 100,
+                "Eudragit RSPM": 0,
+                "Avicel": 60,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        },
+        {
+            "Batch ID": "024_F5",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 0,
+                "EC": 120,
+                "Eudragit RSPM": 0,
+                "Avicel": 40,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        },
+        {
+            "Batch ID": "024_F6",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 0,
+                "EC": 150,
+                "Eudragit RSPM": 0,
+                "Avicel": 10,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        },
+        {
+            "Batch ID": "024_F7",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 0,
+                "EC": 0,
+                "Eudragit RSPM": 100,
+                "Avicel": 60,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        },
+        {
+            "Batch ID": "024_F8",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 0,
+                "EC": 0,
+                "Eudragit RSPM": 120,
+                "Avicel": 40,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        },
+        {
+            "Batch ID": "024_F9",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 0,
+                "EC": 0,
+                "Eudragit RSPM": 150,
+                "Avicel": 10,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        },
+        {
+            "Batch ID": "024_F10",
+            "Composition (mg)": {
+                "ITO": 150,
+                "HPMC 15000": 0,
+                "EC": 50,
+                "Eudragit RSPM": 100,
+                "Avicel": 10,
+                "Citric Acid": 24.35,
+                "NaHCO3": 10.65,
+                "Magnesium Stearate": 5,
+                "Total Weight": 350
+            },
+            "Cite": "[cite: 81]"
+        }
+    ],
+    "Pre-compression parameters": {
+        "Note": "Specific pre-compression data (e.g., Angle of Repose, Carr's Index) for individual batches is not provided in the text. The text mentions that flow properties were improved by adding lubricants and microcrystalline cellulose. [cite: 410]"
+    },
+    "Composition of Independent Variables": {
+        "Variable 1": "Polymer Type (HPMC 15000, Ethylcellulose, Eudragit RSPM) [cite: 77]",
+        "Variable 2": "Polymer Concentration (ranging from approximately 28.5% to 42.8%) [cite: 414]"
+    },
+    "Fourier Transform Infrared Spectral Measurements": {
+        "Note": "Data regarding FTIR spectral measurements is not provided in the source content."
+    },
+    "Tablet Fabrications": [
+        {
+            "Batch ID": "024_F1",
+            "Mean Weight": "351.7 ± 1.7 mg [cite: 217]",
+            "Mean Thickness": "3.6 ± 0.029 mm [cite: 217]",
+            "Friability": "0.57% [cite: 217]",
+            "Mean Hardness": "7.0 ± 0.77 kg [cite: 217]",
+            "Drug Content": "96.92 ± 2.42 mg% [cite: 217]"
+        },
+        {
+            "Batch ID": "024_F2",
+            "Mean Weight": "350.8 ± 2.4 mg [cite: 217]",
+            "Mean Thickness": "3.6 ± 0.035 mm [cite: 217]",
+            "Friability": "0.68% [cite: 217]",
+            "Mean Hardness": "7.0 ± 0.62 kg [cite: 217]",
+            "Drug Content": "78.41 ± 2.85 mg% [cite: 217]"
+        },
+        {
+            "Batch ID": "024_F3",
+            "Mean Weight": "352.3 ± 1.9 mg [cite: 217]",
+            "Mean Thickness": "3.6 ± 0.017 mm [cite: 217]",
+            "Friability": "0.73% [cite: 217]",
+            "Mean Hardness": "6.8 ± 0.77 kg [cite: 217]",
+            "Drug Content": "100.12 ± 1.97 mg% [cite: 217]"
+        },
+        {
+            "Batch ID": "024_F4",
+            "Mean Weight": "350.6 ± 2.3 mg [cite: 217]",
+            "Mean Thickness": "3.6 ± 0.011 mm [cite: 217]",
+            "Friability": "0.95% [cite: 217]",
+            "Mean Hardness": "4.7 ± 0.69 kg [cite: 217]",
+            "Drug Content": "97.15 ± 2.78 mg% [cite: 217]"
+        },
+        {
+            "Batch ID": "024_F5",
+            "Mean Weight": "350.5 ± 2.4 mg [cite: 217]",
+            "Mean Thickness": "3.6 ± 0.004 mm [cite: 217]",
+            "Friability": "0.94% [cite: 217]",
+            "Mean Hardness": "4.5 ± 1.04 kg [cite: 217]",
+            "Drug Content": "100.44 ± 2.85 mg% [cite: 217]"
+        },
+        {
+            "Batch ID": "024_F6",
+            "Mean Weight": "350.8 ± 2.8 mg [cite: 217]",
+            "Mean Thickness": "3.6 ± 0.021 mm [cite: 217]",
+            "Friability": "0.63% [cite: 217]",
+            "Mean Hardness": "5.7 ± 0.85 kg [cite: 217]",
+            "Drug Content": "100.71 ± 3.05 mg% [cite: 217]"
+        },
+        {
+            "Batch ID": "024_F7",
+            "Mean Weight": "350.7 ± 2.7 mg [cite: 217]",
+            "Mean Thickness": "3.5 ± 0.024 mm [cite: 217]",
+            "Friability": "0.35% [cite: 217]",
+            "Mean Hardness": "7.0 ± 0.65 kg [cite: 217]",
+            "Drug Content": "99.58 ± 1.89 mg% [cite: 217]"
+        },
+        {
+            "Batch ID": "024_F8",
+            "Mean Weight": "351.6 ± 2.3 mg [cite: 217]",
+            "Mean Thickness": "3.6 ± 0.009 mm [cite: 217]",
+            "Friability": "0.45% [cite: 217]",
+            "Mean Hardness": "6.7 ± 0.87 kg [cite: 217]",
+            "Drug Content": "96.12 ± 1.75 mg% [cite: 217]"
+        },
+        {
+            "Batch ID": "024_F9",
+            "Mean Weight": "350.5 ± 3.2 mg [cite: 217]",
+            "Mean Thickness": "3.6 ± 0.001 mm [cite: 217]",
+            "Friability": "0.54% [cite: 217]",
+            "Mean Hardness": "7.0 ± 0.67 kg [cite: 217]",
+            "Drug Content": "100.81 ± 2.24 mg% [cite: 217]"
+        },
+        {
+            "Batch ID": "024_F10",
+            "Mean Weight": "350.1 ± 1.7 mg [cite: 217]",
+            "Mean Thickness": "3.6 ± 0.009 mm [cite: 217]",
+            "Friability": "0.87% [cite: 217]",
+            "Mean Hardness": "7.5 ± 1.67 kg [cite: 217]",
+            "Drug Content": "100.06 ± 1.19 mg% [cite: 217]"
+        }
+    ],
+    "Process Parameters": {
+        "Equipment": "Single die punch machine (EK/0; Korsch, Berlin, Germany) [cite: 80]",
+        "Tooling": "Flat-faced punches (12 mm diameter) [cite: 80]",
+        "Mixing": "Drug and polymers mixed well; magnesium stearate added by geometrical mixing [cite: 79]",
+        "Dissolution Apparatus": "USP Dissolution Apparatus II (paddle type) [cite: 134]",
+        "Dissolution Speed": "75 rpm [cite: 134]",
+        "Dissolution Temperature": "37°C ± 1°C [cite: 135]"
+    },
+    "Release Properties": [
+        {
+            "Batch ID": "024_F1",
+            "Release Profile": "97.33% ± 2.11% at 6 hours [cite: 235]",
+            "Higuchi Correlation (r)": "0.9926 [cite: 308]"
+        },
+        {
+            "Batch ID": "024_F2",
+            "Release Profile": "99.57% ± 2.42% at 8 hours [cite: 235]",
+            "Higuchi Correlation (r)": "0.9876 [cite: 308]"
+        },
+        {
+            "Batch ID": "024_F3",
+            "Release Profile": "99.05% ± 3.04% at 12 hours [cite: 235]",
+            "Higuchi Correlation (r)": "0.9776 [cite: 308]"
+        },
+        {
+            "Batch ID": "024_F4",
+            "Release Profile": "96.81% ± 2.92% at 8 hours [cite: 299]",
+            "Higuchi Correlation (r)": "0.9957 [cite: 308]"
+        },
+        {
+            "Batch ID": "024_F5",
+            "Release Profile": "95.44% ± 1.07% at 12 hours [cite: 299]",
+            "Higuchi Correlation (r)": "0.9986 [cite: 308]"
+        },
+        {
+            "Batch ID": "024_F6",
+            "Release Profile": "96.73% ± 2.34% at 16 hours [cite: 299]",
+            "Higuchi Correlation (r)": "0.9949 [cite: 308]"
+        },
+        {
+            "Batch ID": "024_F7",
+            "Release Profile": "98.01% ± 2.45% at 12 hours [cite: 300]",
+            "Higuchi Correlation (r)": "0.9920 [cite: 308]"
+        },
+        {
+            "Batch ID": "024_F8",
+            "Release Profile": "99.07% ± 2.42% at 24 hours [cite: 300]",
+            "Higuchi Correlation (r)": "0.9986 [cite: 308]"
+        },
+        {
+            "Batch ID": "024_F9",
+            "Release Profile": "95.06% ± 1.71% at 24 hours [cite: 300]",
+            "Higuchi Correlation (r)": "0.9953 [cite: 308]"
+        },
+        {
+            "Batch ID": "024_F10",
+            "Release Profile": "96.51% ± 2.91% at 24 hours [cite: 300]",
+            "Higuchi Correlation (r)": "0.9875 [cite: 308]",
+            "Mechanism": "Diffusion-controlled release mechanism (Higuchi model fit) [cite: 426, 304]",
+            "Best Fit Model": "Higuchi diffusion model was fit for the formulations [cite: 304]"
+        }
+    ],
+    "Tablet Properties (Floating & Stability)": [
+        {
+            "Batch ID": "024_F1",
+            "Floating Lag Time": "2.20 min [cite: 226]",
+            "Floating Duration": ">20 h [cite: 226]",
+            "Floating Force": "+9.5 ± 0.92 dyne [cite: 226]"
+        },
+        {
+            "Batch ID": "024_F2",
+            "Floating Lag Time": "4.38 min [cite: 226]",
+            "Floating Duration": ">20 h [cite: 226]",
+            "Floating Force": "+8.3 ± 0.65 dyne [cite: 226]"
+        },
+        {
+            "Batch ID": "024_F3",
+            "Floating Lag Time": "6.20 min [cite: 226]",
+            "Floating Duration": ">18 h [cite: 226]",
+            "Floating Force": "+8.8 ± 0.78 dyne [cite: 226]"
+        },
+        {
+            "Batch ID": "024_F4",
+            "Floating Lag Time": "No floating occurs [cite: 226]",
+            "Floating Duration": "No floating occurs [cite: 226]",
+            "Floating Force": "-1.8 ± 0.04 dyne [cite: 226]"
+        },
+        {
+            "Batch ID": "024_F5",
+            "Floating Lag Time": "No floating occurs [cite: 226]",
+            "Floating Duration": "No floating occurs [cite: 226]",
+            "Floating Force": "-2.3 ± 0.08 dyne [cite: 226]"
+        },
+        {
+            "Batch ID": "024_F6",
+            "Floating Lag Time": "No floating occurs [cite: 226]",
+            "Floating Duration": "No floating occurs [cite: 226]",
+            "Floating Force": "-1.6 ± 0.11 dyne [cite: 226]"
+        },
+        {
+            "Batch ID": "024_F7",
+            "Floating Lag Time": "3.50 min [cite: 226]",
+            "Floating Duration": ">20 h [cite: 226]",
+            "Floating Force": "+10.3 ± 0.97 dyne [cite: 226]"
+        },
+        {
+            "Batch ID": "024_F8",
+            "Floating Lag Time": "4.12 min [cite: 226]",
+            "Floating Duration": ">20 h [cite: 226]",
+            "Floating Force": "+9.7 ± 0.85 dyne [cite: 226]"
+        },
+        {
+            "Batch ID": "024_F9",
+            "Floating Lag Time": "5.10 min [cite: 226]",
+            "Floating Duration": ">16 h [cite: 226]",
+            "Floating Force": "+8.4 ± 0.67 dyne [cite: 226]"
+        },
+        {
+            "Batch ID": "024_F10",
+            "Floating Lag Time": "20 min (Note: Table 3 says 20, but text says optimum is 3-6) [cite: 226]",
+            "Floating Duration": ">12 h [cite: 226]",
+            "Floating Force": "+7.9 ± 0.59 dyne [cite: 226]",
+            "Stability": "No change in color; Drug content 99.42% after 6 months shelf storage; chemically stable [cite: 320, 360]"
+        }
+    ],
+    "Experimental Data": {
+        "In Vivo Pharmacokinetics (024_F10 vs Commercial)": [
+            {
+                "Parameter": "Tmax (h)",
+                "024_F10": "8",
+                "Commercial": "2",
+                "Significance": "Significant [cite: 363]"
+            },
+            {
+                "Parameter": "Cmax (µg/mL)",
+                "024_F10": "5.310",
+                "Commercial": "7.299",
+                "Significance": "Significant [cite: 363]"
+            },
+            {
+                "Parameter": "AUC_0-inf (µg·h/mL)",
+                "024_F10": "93.698",
+                "Commercial": "49.894",
+                "Significance": "Significant [cite: 363]"
+            },
+            {
+                "Parameter": "MRT (h)",
+                "024_F10": "15.186",
+                "Commercial": "8.745",
+                "Significance": "Significant [cite: 363]"
+            },
+            {
+                "Parameter": "Relative Bioavailability (FR)",
+                "024_F10": "189.910%",
+                "Commercial": "NA",
+                "Significance": "NA [cite: 363]"
+            }
+        ],
+        "Stability Study Results": [
+            {
+                "Condition": "Shelf storage (6 months)",
+                "Results": "Physical properties stable; release rate slightly decreased but not significantly [cite: 359, 362]"
+            },
+            {
+                "Condition": "Accelerated (30°C, 40°C, 50°C)",
+                "Degradation Mechanism": "First-order kinetics [cite: 404]",
+                "Predicted Shelf Life": "3.07 years at 25°C [cite: 397]"
+            }
+        ]
+    }
+}

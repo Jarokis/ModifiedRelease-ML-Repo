@@ -1,0 +1,809 @@
+{
+    "sections_locations": {
+        "abstract": "p.143 first paragraph labeled ABSTRACT (objective, methods, results, conclusion). [file:1]",
+        "introduction": "Section starting with 'INTRODUCTION Pharmaceutical industry started...' on p.143–144. [file:1]",
+        "materials_and_methods": "Section headed 'MATERIALS AND METHODS' on p.144–145, including 'Materials', 'Preparation of the OSTs', 'Preparation of buoyant core tablet', 'Preparation of the aqueous slippery coating', 'Coating RHCl core tablets', 'Evaluation of the compressed tablets before and after coating', 'In vitro buoyancy study', 'In vitro release study', 'Variables studied...', 'In vivo evaluation...' and 'Statistical analysis'. [file:1]",
+        "results_and_discussion": "Section headed 'RESULTS AND DISCUSSION Evaluations of the prepared core and coated buoyant OSTs' on p.145–149, including Tables 4–6 and Figures 1–7. [file:1]",
+        "conclusion": "Section headed 'CONCLUSION' near the end of p.149. [file:1]"
+    },
+    "materials_origin": {
+        "drug": {
+            "name": "Ranitidine hydrochloride (RHCl)",
+            "supplier": "Bio-technology Co., Ltd.",
+            "country": "Not explicitly stated; company name only. [file:1]"
+        },
+        "polymers_and_excipients": [
+            {
+                "name": "Hydroxypropyl methylcellulose (HPMC) K4M, K15M, K100M",
+                "supplier": "Provizer Pharma, India. [file:1]"
+            },
+            {
+                "name": "Kollicoat IR",
+                "supplier": "Sigma Chemical Co., Aldrich, USA. [file:1]"
+            },
+            {
+                "name": "Xanthan gum, Avicel (microcrystalline cellulose), NaHCO3, citric acid, mannitol, magnesium stearate",
+                "supplier": "Samara Drug Industry, Iraq. [file:1]"
+            },
+            {
+                "name": "Peppermint oil, talc",
+                "supplier": "Himedia, India. [file:1]"
+            }
+        ],
+        "reagents": "All other chemicals, solutions and reagents were analytical grade (no further origin details). [file:1]"
+    },
+    "experimental_design_for_optimization": {
+        "objective": "Design and characterization of oroslippery buoyant ranitidine HCl tablets to ease swallowing and provide controlled gastric release. [file:1]",
+        "design_type": "Factorial-type exploration of formulation variables (not described as a formal DoE with coded factors), examining: amount of effervescent agent, HPMC grade, HPMC amount, Kollicoat IR concentration, and coating level. [file:1]",
+        "independent_variables": [
+            {
+                "name": "Effervescent agent (sodium bicarbonate) amount in core",
+                "levels_mg": [
+                    20,
+                    40,
+                    60,
+                    80
+                ],
+                "formulas": [
+                    "020_F1",
+                    "020_F2",
+                    "020_F3",
+                    "020_F4",
+                    "020_F5",
+                    "020_F6",
+                    "020_F7",
+                    "020_F8"
+                ],
+                "notes": "Preliminary FLT study used 020_F1–020_F3 (20, 40, 60 mg NaHCO3). [file:1]"
+            },
+            {
+                "name": "HPMC grade in core",
+                "levels": [
+                    "K100M",
+                    "K15M",
+                    "K4M"
+                ],
+                "formulas": [
+                    "020_F4",
+                    "020_F5",
+                    "020_F6"
+                ],
+                "notes": "Effect on floating lag time and drug release. [file:1]"
+            },
+            {
+                "name": "HPMC K4M amount in core",
+                "levels_mg": [
+                    80,
+                    100,
+                    120
+                ],
+                "formulas": [
+                    "020_F6",
+                    "020_F7",
+                    "020_F8"
+                ],
+                "notes": "Effect on FLT and release rate. [file:1]"
+            },
+            {
+                "name": "Kollicoat IR concentration in coat",
+                "levels_percent_w_w": [
+                    9,
+                    14,
+                    19
+                ],
+                "formulas": [
+                    "020_S1",
+                    "020_S2",
+                    "020_S3",
+                    "020_T1",
+                    "020_T3",
+                    "020_T5"
+                ],
+                "notes": "020_S1=9%, 020_S2=14%, 020_S3=19% Kollicoat IR; 020_T1=020_F6+020_S1, 020_T3=020_F6+020_S2, 020_T5=020_F6+S3. [file:1]"
+            },
+            {
+                "name": "Coating level (number of layers)",
+                "levels": [
+                    "single",
+                    "double"
+                ],
+                "formulas": [
+                    "020_T1",
+                    "020_T2",
+                    "020_T3",
+                    "020_T4",
+                    "020_T5",
+                    "020_T6"
+                ],
+                "notes": "020_T1=T(020_S1) single, 020_T2=T(020_S1) double; 020_T3=T(020_S2) single, 020_T4=T(020_S2) double; 020_T5=T(020_S3) single, 020_T6=T(020_S3) double. [file:1]"
+            }
+        ],
+        "dependent_responses": [
+            "Floating lag time (FLT) and total floating time (TFT). [file:1]",
+            "In vitro drug release profile over 6 hours (cumulative % released at specified time points). [file:1]",
+            "Tablet physical properties (hardness, friability, weight, thickness, drug content). [file:1]",
+            "In vivo slipperiness time. [file:1]",
+            "In vivo taste-masking time. [file:1]"
+        ],
+        "statistical_analysis": "Results expressed as mean ± SD; one-way ANOVA used; p<0.05 taken as significant. [file:1]"
+    },
+    "ingredients_identification_and_assay": {
+        "preparation_of_standard_and_absorbance": {
+            "dissolution_medium": "0.1 N HCl (pH 1.2). [file:1]",
+            "assay_wavelength_nm": 314,
+            "instrument": "UV–VIS spectrophotometer (model not specified). [file:1]",
+            "calibration": "Cumulative % drug release calculated using a pre-determined equation obtained from a calibration curve of RHCl in 0.1 N HCl; exact equation is not printed in the article. [file:1]",
+            "sample_handling": "Dissolution samples (5 ml) filtered through 0.45 µm membrane filter before absorbance measurement. [file:1]"
+        },
+        "drug_content_assay": {
+            "procedure": "Ten tablets from each formulation were weighed, powdered, dissolved in sufficient 0.1 N HCl, and assayed at 314 nm for content uniformity. [file:1]"
+        },
+        "results_summary": {
+            "core_tablets": "Drug content of 020_F1–020_F8 ranged approximately from about 93.5% to 99.6% with low SD (see Table 4). [file:1]",
+            "coated_OSTs": "Drug content of 020_T1–020_T6 ranged approximately from about 95% to 99.5% with low SD (see Table 5). [file:1]"
+        }
+    },
+    "formulation_details_batches_core_and_coated": {
+        "core_tablets_F1_to_F8": {
+            "description": "Direct compression tablets, nominal total weight ~400 mg each, containing 150 mg RHCl. [file:1]",
+            "per_batch_composition_mg": [
+                {
+                    "batch": "020_F1",
+                    "RHCl": 150,
+                    "HPMC_K4M": 160,
+                    "HPMC_15M": null,
+                    "HPMC_100M": null,
+                    "Avicel": 64,
+                    "NaHCO3": 20,
+                    "citric_acid": null,
+                    "mannitol": null,
+                    "talc": 4,
+                    "magnesium_stearate": 2,
+                    "other_excipients": null,
+                    "percent_pellets": null,
+                    "notes": "High HPMC content (160 mg) as matrix; lowest NaHCO3 level (20 mg). [file:1]"
+                },
+                {
+                    "batch": "020_F2",
+                    "RHCl": 150,
+                    "HPMC_K4M": 160,
+                    "HPMC_15M": null,
+                    "HPMC_100M": null,
+                    "Avicel": 44,
+                    "NaHCO3": 40,
+                    "citric_acid": null,
+                    "mannitol": null,
+                    "talc": 4,
+                    "magnesium_stearate": 2,
+                    "other_excipients": null,
+                    "percent_pellets": null,
+                    "notes": "Same HPMC amount as 020_F1 but higher NaHCO3 (40 mg) and lower Avicel. [file:1]"
+                },
+                {
+                    "batch": "020_F3",
+                    "RHCl": 150,
+                    "HPMC_K4M": 160,
+                    "HPMC_15M": null,
+                    "HPMC_100M": null,
+                    "Avicel": 24,
+                    "NaHCO3": 60,
+                    "citric_acid": null,
+                    "mannitol": null,
+                    "talc": 4,
+                    "magnesium_stearate": 2,
+                    "other_excipients": null,
+                    "percent_pellets": null,
+                    "notes": "Highest NaHCO3 among preliminary 020_F1–020_F3, lowest Avicel. [file:1]"
+                },
+                {
+                    "batch": "020_F4",
+                    "RHCl": 150,
+                    "HPMC_K4M": null,
+                    "HPMC_15M": null,
+                    "HPMC_100M": 160,
+                    "Avicel": 84,
+                    "NaHCO3": 80,
+                    "talc": 2,
+                    "magnesium_stearate": 4,
+                    "citric_acid": null,
+                    "mannitol": null,
+                    "other_excipients": null,
+                    "percent_pellets": null,
+                    "notes": "HPMC K100M used as matrix polymer. [file:1]"
+                },
+                {
+                    "batch": "020_F5",
+                    "RHCl": 150,
+                    "HPMC_K4M": null,
+                    "HPMC_15M": 160,
+                    "HPMC_100M": null,
+                    "Avicel": 84,
+                    "NaHCO3": 80,
+                    "talc": 2,
+                    "magnesium_stearate": 4,
+                    "citric_acid": null,
+                    "mannitol": null,
+                    "other_excipients": null,
+                    "percent_pellets": null,
+                    "notes": "HPMC K15M used as matrix polymer. [file:1]"
+                },
+                {
+                    "batch": "020_F6",
+                    "RHCl": 150,
+                    "HPMC_K4M": 80,
+                    "HPMC_15M": null,
+                    "HPMC_100M": null,
+                    "Avicel": 84,
+                    "NaHCO3": 80,
+                    "talc": 2,
+                    "magnesium_stearate": 4,
+                    "citric_acid": null,
+                    "mannitol": null,
+                    "other_excipients": null,
+                    "percent_pellets": null,
+                    "notes": "Selected as optimized core for coating (used to prepare 020_T1–020_T6). [file:1]"
+                },
+                {
+                    "batch": "020_F7",
+                    "RHCl": 150,
+                    "HPMC_K4M": 100,
+                    "HPMC_15M": null,
+                    "HPMC_100M": null,
+                    "Avicel": 64,
+                    "NaHCO3": 80,
+                    "talc": 2,
+                    "magnesium_stearate": 4,
+                    "citric_acid": null,
+                    "mannitol": null,
+                    "other_excipients": null,
+                    "percent_pellets": null,
+                    "notes": "Intermediate HPMC K4M level. [file:1]"
+                },
+                {
+                    "batch": "020_F8",
+                    "RHCl": 150,
+                    "HPMC_K4M": 120,
+                    "HPMC_15M": null,
+                    "HPMC_100M": null,
+                    "Avicel": 44,
+                    "NaHCO3": 80,
+                    "talc": 2,
+                    "magnesium_stearate": 4,
+                    "citric_acid": null,
+                    "mannitol": null,
+                    "other_excipients": null,
+                    "percent_pellets": null,
+                    "notes": "Highest HPMC K4M amount studied. [file:1]"
+                }
+            ]
+        },
+        "slippery_coating_dispersions_S1_to_S3": {
+            "description": "Aqueous dispersions containing xanthan gum (slipperiness agent) and Kollicoat IR (film-forming polymer) plus mannitol, talc, and peppermint oil, made up to 100% with distilled water. [file:1]",
+            "per_formula_percent_w_w": [
+                {
+                    "formula": "020_S1",
+                    "Kollicoat_IR_percent": 9,
+                    "xanthan_gum_percent": 0.3,
+                    "mannitol_percent": 2.5,
+                    "talc_percent": 2,
+                    "peppermint_oil_percent": 0.5,
+                    "water": "q.s. to 100%",
+                    "notes": "Lowest Kollicoat IR concentration. [file:1]"
+                },
+                {
+                    "formula": "020_S2",
+                    "Kollicoat_IR_percent": 14,
+                    "xanthan_gum_percent": 0.3,
+                    "mannitol_percent": 2.5,
+                    "talc_percent": 2,
+                    "peppermint_oil_percent": 0.5,
+                    "water": "q.s. to 100%",
+                    "notes": "Intermediate Kollicoat IR level. [file:1]"
+                },
+                {
+                    "formula": "020_S3",
+                    "Kollicoat_IR_percent": 19,
+                    "xanthan_gum_percent": 0.3,
+                    "mannitol_percent": 2.5,
+                    "talc_percent": 2,
+                    "peppermint_oil_percent": 0.5,
+                    "water": "q.s. to 100%",
+                    "notes": "Highest Kollicoat IR level. [file:1]"
+                }
+            ]
+        },
+        "coated_tablets_T1_to_T6": {
+            "description": "Oroslippery buoyant tablets obtained by dipping core 020_F6 into coating dispersions 020_S1–020_S3 one or two times. [file:1]",
+            "composition_relationships": [
+                {
+                    "batch": "020_T1",
+                    "composition": "020_F6 core + 020_S1 single coat",
+                    "coating_layers": 1,
+                    "notes": "9% Kollicoat IR in coat. [file:1]"
+                },
+                {
+                    "batch": "020_T2",
+                    "composition": "020_F6 core + 020_S1 double coat",
+                    "coating_layers": 2,
+                    "notes": "Same dispersion as 020_T1 but 2 dipping cycles. [file:1]"
+                },
+                {
+                    "batch": "020_T3",
+                    "composition": "020_F6 core + 020_S2 single coat",
+                    "coating_layers": 1,
+                    "notes": "14% Kollicoat IR; shows instant floating. [file:1]"
+                },
+                {
+                    "batch": "020_T4",
+                    "composition": "020_F6 core + 020_S2 double coat",
+                    "coating_layers": 2,
+                    "notes": "Reported as optimized formula with instant floating and ~90% release at 6 h. [file:1]"
+                },
+                {
+                    "batch": "020_T5",
+                    "composition": "020_F6 core + 020_S3 single coat",
+                    "coating_layers": 1,
+                    "notes": "19% Kollicoat IR; more retarded release vs 020_T1/T3. [file:1]"
+                },
+                {
+                    "batch": "020_T6",
+                    "composition": "020_F6 core + 020_S3 double coat",
+                    "coating_layers": 2,
+                    "notes": "Thickest coat; most retarded release; instant floating. [file:1]"
+                }
+            ]
+        }
+    },
+    "pre_compression_and_physical_parameters": {
+        "core_tablets_F1_to_F8": {
+            "physical_properties_from_table_4": [
+                {
+                    "batch": "020_F1",
+                    "hardness_kg_cm2_mean_SD": "5.0 ± 0.56",
+                    "weight_variation_mg_mean_SD": "≈385.2 ± 0.83",
+                    "thickness_mm_mean_SD": "≈4.1 ± 0.38",
+                    "friability_percent_mean_SD": "0.35 ± 0.03",
+                    "drug_content_percent_mean_SD": "94.5 ± 0.09",
+                    "mass_distribution": "Not separately reported beyond weight variation. [file:1]",
+                    "size": "Diameter 11 mm (common for all core tablets). [file:1]"
+                },
+                {
+                    "batch": "020_F2",
+                    "hardness_kg_cm2_mean_SD": "5.0 ± 0.43",
+                    "weight_variation_mg_mean_SD": "≈376.1 ± 0.77",
+                    "thickness_mm_mean_SD": "≈4.3 ± 0.28",
+                    "friability_percent_mean_SD": "0.34 ± 0.63",
+                    "drug_content_percent_mean_SD": "95.0 ± 0.05",
+                    "mass_distribution": null,
+                    "size": "11 mm diameter. [file:1]"
+                },
+                {
+                    "batch": "020_F3",
+                    "hardness_kg_cm2_mean_SD": "5.0 ± 0.33",
+                    "weight_variation_mg_mean_SD": "≈388.9 ± 0.68",
+                    "thickness_mm_mean_SD": "≈4.3 ± 0.08",
+                    "friability_percent_mean_SD": "0.36 ± 0.6",
+                    "drug_content_percent_mean_SD": "93.5 ± 0.03",
+                    "mass_distribution": null,
+                    "size": "11 mm diameter. [file:1]"
+                },
+                {
+                    "batch": "020_F4",
+                    "hardness_kg_cm2_mean_SD": "5.0 ± 0.06",
+                    "weight_variation_mg_mean_SD": "≈389.0 ± 0.44",
+                    "thickness_mm_mean_SD": "≈4.8 ± 0.67",
+                    "friability_percent_mean_SD": "0.75 ± 0.45",
+                    "drug_content_percent_mean_SD": "97.6 ± 0.03",
+                    "mass_distribution": null,
+                    "size": "11 mm diameter. [file:1]"
+                },
+                {
+                    "batch": "020_F5",
+                    "hardness_kg_cm2_mean_SD": "4.9 ± 0.03",
+                    "weight_variation_mg_mean_SD": "≈395.0 ± 0.54",
+                    "thickness_mm_mean_SD": "≈4.6 ± 0.08",
+                    "friability_percent_mean_SD": "0.62 ± 0.5",
+                    "drug_content_percent_mean_SD": "98.3 ± 0.33",
+                    "mass_distribution": null,
+                    "size": "11 mm diameter. [file:1]"
+                },
+                {
+                    "batch": "020_F6",
+                    "hardness_kg_cm2_mean_SD": "4.9 ± 0.27",
+                    "weight_variation_mg_mean_SD": "≈398.0 ± 0.30",
+                    "thickness_mm_mean_SD": "≈4.2 ± 0.83",
+                    "friability_percent_mean_SD": "0.68 ± 0.56",
+                    "drug_content_percent_mean_SD": "99.6 ± 0.1",
+                    "mass_distribution": null,
+                    "size": "11 mm diameter. [file:1]"
+                },
+                {
+                    "batch": "020_F7",
+                    "hardness_kg_cm2_mean_SD": "5.5 ± 0.8",
+                    "weight_variation_mg_mean_SD": "≈396.0 ± 0.40",
+                    "thickness_mm_mean_SD": "≈4.3 ± 0.33",
+                    "friability_percent_mean_SD": "0.38 ± 0.63",
+                    "drug_content_percent_mean_SD": "94.6 ± 0.63",
+                    "mass_distribution": null,
+                    "size": "11 mm diameter. [file:1]"
+                },
+                {
+                    "batch": "020_F8",
+                    "hardness_kg_cm2_mean_SD": "5.7 ± 0.73",
+                    "weight_variation_mg_mean_SD": "≈398.0 ± 0.55",
+                    "thickness_mm_mean_SD": "≈4.3 ± 0.76",
+                    "friability_percent_mean_SD": "0.35 ± 0.03",
+                    "drug_content_percent_mean_SD": "99.5 ± 0.02",
+                    "mass_distribution": null,
+                    "size": "11 mm diameter. [file:1]"
+                }
+            ],
+            "F9_to_F12": "Not present in this article; only 020_F1–020_F8 core formulations are described. [file:1]"
+        },
+        "coated_tablets_T1_to_T6": {
+            "physical_properties_from_table_5": [
+                {
+                    "batch": "020_T1",
+                    "hardness_kg_cm2_mean_SD": "4.9 ± 0.02",
+                    "weight_variation_mg_mean_SD": "≈425.4 ± 0.50",
+                    "thickness_mm_mean_SD": "≈4.30 ± 0.03",
+                    "friability_percent_mean_SD": "0.36 ± 0.03",
+                    "drug_content_percent_mean_SD": "98.4 ± 0.09",
+                    "mass_distribution": null,
+                    "size": "Diameter after coating not explicitly given; core die size 11 mm. [file:1]"
+                },
+                {
+                    "batch": "020_T2",
+                    "hardness_kg_cm2_mean_SD": "4.8 ± 0.2",
+                    "weight_variation_mg_mean_SD": "≈443.2 ± 0.41",
+                    "thickness_mm_mean_SD": "≈4.41 ± 0.53",
+                    "friability_percent_mean_SD": "0.28 ± 0.02",
+                    "drug_content_percent_mean_SD": "97.6 ± 0.02",
+                    "mass_distribution": null,
+                    "size": "11 mm die; slightly higher thickness due to double coat. [file:1]"
+                },
+                {
+                    "batch": "020_T3",
+                    "hardness_kg_cm2_mean_SD": "4.8 ± 0.05",
+                    "weight_variation_mg_mean_SD": "≈426.4 ± 0.32",
+                    "thickness_mm_mean_SD": "≈4.33 ± 0.05",
+                    "friability_percent_mean_SD": "0.33 ± 0.02",
+                    "drug_content_percent_mean_SD": "95.0 ± 0.2",
+                    "mass_distribution": null,
+                    "size": "Approx. 11 mm. [file:1]"
+                },
+                {
+                    "batch": "020_T4",
+                    "hardness_kg_cm2_mean_SD": "4.9 ± 0.03",
+                    "weight_variation_mg_mean_SD": "≈444.1 ± 0.01",
+                    "thickness_mm_mean_SD": "≈4.46 ± 0.33",
+                    "friability_percent_mean_SD": "0.28 ± 0.03",
+                    "drug_content_percent_mean_SD": "99.5 ± 0.089",
+                    "mass_distribution": null,
+                    "size": "Approx. 11 mm. [file:1]"
+                },
+                {
+                    "batch": "020_T5",
+                    "hardness_kg_cm2_mean_SD": "4.7 ± 0.31",
+                    "weight_variation_mg_mean_SD": "≈428.1 ± 0.42",
+                    "thickness_mm_mean_SD": "≈4.36 ± 0.8",
+                    "friability_percent_mean_SD": "0.27 ± 0.01",
+                    "drug_content_percent_mean_SD": "99.1 ± 0.05",
+                    "mass_distribution": null,
+                    "size": "Approx. 11 mm. [file:1]"
+                },
+                {
+                    "batch": "020_T6",
+                    "hardness_kg_cm2_mean_SD": "4.8 ± 0.23",
+                    "weight_variation_mg_mean_SD": "≈446.2 ± 0.54",
+                    "thickness_mm_mean_SD": "≈4.48 ± 0.11",
+                    "friability_percent_mean_SD": "0.23 ± 0.03",
+                    "drug_content_percent_mean_SD": "96.4 ± 0.55",
+                    "mass_distribution": null,
+                    "size": "Approx. 11 mm. [file:1]"
+                }
+            ]
+        }
+    },
+    "independent_variables_and_levels": {
+        "summary_table": [
+            {
+                "variable": "NaHCO3 amount in core (effervescent agent)",
+                "levels_mg": [
+                    20,
+                    40,
+                    60,
+                    80
+                ],
+                "associated_formulations": [
+                    "020_F1",
+                    "020_F2",
+                    "020_F3",
+                    "020_F4",
+                    "020_F5",
+                    "020_F6",
+                    "020_F7",
+                    "020_F8"
+                ],
+                "effect_summary": "Higher NaHCO3 decreased FLT and maintained TFT >24 h. [file:1]"
+            },
+            {
+                "variable": "HPMC grade in core",
+                "levels": [
+                    "K100M",
+                    "K15M",
+                    "K4M"
+                ],
+                "associated_formulations": [
+                    "020_F4",
+                    "020_F5",
+                    "020_F6"
+                ],
+                "effect_summary": "Higher viscosity grade increased FLT and decreased drug release rate. [file:1]"
+            },
+            {
+                "variable": "HPMC K4M amount",
+                "levels_mg": [
+                    80,
+                    100,
+                    120
+                ],
+                "associated_formulations": [
+                    "020_F6",
+                    "020_F7",
+                    "020_F8"
+                ],
+                "effect_summary": "Higher HPMC K4M decreased FLT and decreased drug release rate. [file:1]"
+            },
+            {
+                "variable": "Kollicoat IR concentration in coat",
+                "levels_percent_w_w": [
+                    9,
+                    14,
+                    19
+                ],
+                "associated_formulations": [
+                    "020_S1",
+                    "020_S2",
+                    "020_S3",
+                    "020_T1",
+                    "020_T3",
+                    "020_T5"
+                ],
+                "effect_summary": "Increasing Kollicoat IR tended to slightly decrease drug release; 19% caused more pronounced retardation. [file:1]"
+            },
+            {
+                "variable": "Number of coating layers",
+                "levels": [
+                    "single",
+                    "double"
+                ],
+                "associated_formulations": [
+                    "020_T1",
+                    "020_T2",
+                    "020_T3",
+                    "020_T4",
+                    "020_T5",
+                    "020_T6"
+                ],
+                "effect_summary": "Double coating (020_T2, 020_T4, 020_T6) produced instant floating and slightly slower release, with stronger effect at 19% Kollicoat. [file:1]"
+            }
+        ]
+    },
+    "FTIR_measurements": {
+        "method": "Fourier Transform Infrared Spectroscopy mentioned in the Materials list (no detailed conditions nor spectra are printed in the visible text segment). [file:1]",
+        "instrument": null,
+        "sample_preparation": null,
+        "wavenumber_range": null,
+        "key_observations": "The article likely uses FTIR to confirm absence of chemical interaction between RHCl and excipients, but explicit peaks and interpretations are not visible in the extracted text. [file:1]"
+    },
+    "tablet_fabrication_and_process_parameters": {
+        "compression_process": {
+            "equipment": "Single-punch tablet machine with 11 mm die (brand not specified). [file:1]",
+            "method": "Direct compression of blended powders (drug + HPMC + NaHCO3 + Avicel, then talc and magnesium stearate). [file:1]",
+            "average_core_tablet_weight_mg": 400,
+            "compression_force": "Reported as 8 (presumably kN or metric ton-force, unit not explicitly given). [file:1]",
+            "compression_pressure": null,
+            "environmental_conditions": "Not specified; assumed ambient room conditions. [file:1]"
+        },
+        "coating_process": {
+            "steps": [
+                "Xanthan gum dispersed in distilled water preheated to 40 °C and stirred at 600 rpm for 5 min. [file:1]",
+                "Kollicoat IR added to mannitol solution, stirred at 100 rpm for 15 min at room temperature until clear. [file:1]",
+                "Xanthan dispersion combined with Kollicoat–mannitol solution, stirred at 400 rpm for 5 min; peppermint oil and talc added and stirred 5 min more at 400 rpm. [file:1]",
+                "Core tablets (020_F6) dipped into coating dispersion using forceps, then dried at 60 °C with hot air for about 5 min; sequence repeated for double-coated tablets. [file:1]"
+            ],
+            "equipment": [
+                "Magnetic stirrer (for all coating phases). [file:1]",
+                "Hot air dryer set at 60 °C. [file:1]"
+            ],
+            "process_conditions": {
+                "coating_dispersion_preparation_temperature_C": [
+                    40,
+                    "room temperature (~25)"
+                ],
+                "stirring_speeds_rpm": [
+                    600,
+                    100,
+                    400
+                ],
+                "drying_temperature_C": 60,
+                "drying_time_per_cycle_min": 5,
+                "coating_pressure": null
+            }
+        },
+        "tablet_property_evaluation": {
+            "parameters": [
+                "Hardness (kg/cm²) using Monsanto hardness tester (5 tablets per batch). [file:1]",
+                "Friability using a friabilator at 25 rpm for 4 min (20 tablets). [file:1]",
+                "Weight variation (20 tablets). [file:1]",
+                "Thickness (10 tablets) using Vernier caliper. [file:1]",
+                "Drug content (10 tablets). [file:1]"
+            ],
+            "density_and_consolidation_index": "Not reported. [file:1]"
+        }
+    },
+    "release_properties": {
+        "dissolution_conditions": {
+            "apparatus": "USP Apparatus II (paddle). [file:1]",
+            "medium": "900 ml 0.1 N HCl (pH 1.2). [file:1]",
+            "temperature_C": "37 ± 0.5",
+            "rotation_speed_rpm": 75,
+            "sampling_times_min": [
+                15,
+                30,
+                60,
+                120,
+                180,
+                240,
+                300,
+                360
+            ],
+            "sample_volume_ml": 5,
+            "medium_replacement": "Same volume of fresh 0.1 N HCl after each sampling. [file:1]",
+            "filtration": "0.45 µm membrane filter. [file:1]"
+        },
+        "floating_behavior": {
+            "floating_lag_time_and_total_floating_time": [
+                {
+                    "batch": "020_F1",
+                    "FLT_seconds_mean_SD": "420 ± 0.05",
+                    "TFT_hours": "≥24",
+                    "notes": "Preliminary core; long lag time. [file:1]"
+                },
+                {
+                    "batch": "020_F2",
+                    "FLT_seconds_mean_SD": "333 ± 0.5",
+                    "TFT_hours": "≥24",
+                    "notes": "FLT decreases as NaHCO3 increases. [file:1]"
+                },
+                {
+                    "batch": "020_F3",
+                    "FLT_seconds_mean_SD": "254.4 ± 0.3",
+                    "TFT_hours": "≥24",
+                    "notes": "Still relatively long FLT; excluded from further optimization. [file:1]"
+                },
+                {
+                    "batch": "020_F4",
+                    "FLT_seconds_mean_SD": "430 ± 0.23",
+                    "TFT_hours": "≥24",
+                    "notes": "Higher polymer viscosity increases FLT. [file:1]"
+                },
+                {
+                    "batch": "020_F5",
+                    "FLT_seconds_mean_SD": "390 ± 0.1",
+                    "TFT_hours": "≥24",
+                    "notes": null
+                },
+                {
+                    "batch": "020_F6",
+                    "FLT_seconds_mean_SD": "260 ± 0.02",
+                    "TFT_hours": "≥24",
+                    "notes": "Selected core for coating. [file:1]"
+                },
+                {
+                    "batch": "020_F7",
+                    "FLT_seconds_mean_SD": "200 ± 0.09",
+                    "TFT_hours": "≥24",
+                    "notes": "Higher HPMC K4M levels lower FLT. [file:1]"
+                },
+                {
+                    "batch": "020_F8",
+                    "FLT_seconds_mean_SD": "180 ± 0.02",
+                    "TFT_hours": "≥24",
+                    "notes": "Lowest FLT among tested cores. [file:1]"
+                },
+                {
+                    "batch": "020_T1",
+                    "FLT_seconds_mean_SD": "77.4 ± 0.33",
+                    "TFT_hours": "≥24",
+                    "notes": "Single coat with 9% Kollicoat. [file:1]"
+                },
+                {
+                    "batch": "020_T2",
+                    "FLT_seconds_mean_SD": "Instant floating",
+                    "TFT_hours": "≥24",
+                    "notes": "Double coat 9% Kollicoat. [file:1]"
+                },
+                {
+                    "batch": "020_T3",
+                    "FLT_seconds_mean_SD": "Instant floating",
+                    "TFT_hours": "≥24",
+                    "notes": "Single coat 14% Kollicoat. [file:1]"
+                },
+                {
+                    "batch": "020_T4",
+                    "FLT_seconds_mean_SD": "Instant floating",
+                    "TFT_hours": "≥24",
+                    "notes": "Double coat 14% Kollicoat; optimized. [file:1]"
+                },
+                {
+                    "batch": "020_T5",
+                    "FLT_seconds_mean_SD": "110 ± 0.07",
+                    "TFT_hours": "≥24",
+                    "notes": "Single coat 19% Kollicoat. [file:1]"
+                },
+                {
+                    "batch": "020_T6",
+                    "FLT_seconds_mean_SD": "Instant floating",
+                    "TFT_hours": "≥24",
+                    "notes": "Double coat 19% Kollicoat. [file:1]"
+                }
+            ]
+        },
+        "release_profiles": {
+            "core_formulations": {
+                "F4_F5_F6": "Figure 1 shows that higher viscosity HPMC (K100M) yields slower release than K15M and K4M; exact % values at each time are not given in the text segment. [file:1]",
+                "F6_F7_F8": "Figure 2 shows that increasing HPMC K4M amount (80→120 mg) decreases drug release rate; exact points are graphical only. [file:1]"
+            },
+            "coated_formulations_T1_to_T6": {
+                "Kollicoat_concentration_effect": "Figure 3 shows that 020_T1 (9% Kollicoat) and 020_T3 (14%) have similar release with only slight decrease as concentration increases; 020_T5 (19%) shows significant slowing of release. [file:1]",
+                "coating_level_effect_9_and_14_percent": "Figure 4 indicates non-significant differences between single and double coating at 9% and 14% Kollicoat (020_T1 vs 020_T2, 020_T3 vs 020_T4). [file:1]",
+                "coating_level_effect_19_percent": "Figure 5 shows a significant decrease in release for 020_T6 (double coat, 19% Kollicoat) compared with 020_T5 (single coat, 19%). [file:1]",
+                "optimized_T4": "Text states that 020_T4 provided instant floating and 90.15% drug release after 6 h. [file:1]"
+            }
+        },
+        "release_kinetics_and_mechanism": {
+            "models_applied": "The article does not explicitly list zero-order, first-order, Higuchi, or Korsmeyer–Peppas fittings or parameters; discussions focus on qualitative effects of polymer grade, amount, and coating. [file:1]",
+            "mechanism_comments": "Text attributes slower release to thicker, more viscous HPMC gel layers and more hydrophilic Kollicoat films, indicating diffusion- and erosion-controlled behavior typical of hydrophilic matrices, but no calculated n-values or R² are provided. [file:1]",
+            "per_batch_release_kinetics": "Not reported for individual 020_F1–020_F8 or 020_T1–020_T6 in the available text. [file:1]"
+        }
+    },
+    "tablet_properties_and_experimental_data": {
+        "tablet_properties": {
+            "per_batch_hardness_friability_weight_thickness": "Provided above under pre_compression_and_physical_parameters for 020_F1–020_F8 and 020_T1–T6. [file:1]",
+            "disintegration_time": "Not reported; buoyant sustained-release design emphasizes floating and dissolution rather than conventional disintegration. [file:1]",
+            "dissolution_profile": "Provided qualitatively and graphically; numerical time–% release pairs are not tabulated. [file:1]",
+            "stability": "No long-term stability studies or conditions are reported. [file:1]",
+            "weight_variation_percent": "Not directly expressed as %, but individual weights and limits imply acceptable pharmacopeial ranges. [file:1]"
+        },
+        "floating_and_swelling": {
+            "tablet_swelling_water_uptake": "Swelling index and water uptake are not reported numerically; swelling behavior is discussed qualitatively in relation to HPMC and Kollicoat. [file:1]",
+            "lag_time_minutes": "FLT data above; reported in seconds for each batch. [file:1]",
+            "total_floating_time_hours": "At least 24 h for all formulations tested. [file:1]"
+        },
+        "in_vivo_slipperiness_and_taste_masking": {
+            "study_design": "Five healthy human volunteers evaluated slipperiness and taste masking for 020_F6 and 020_T1–020_T6; Ethics Committee of College of Pharmacy, University of Mustansiriyah approved. [file:1]",
+            "slipperiness_metric": "Time (seconds) in oral cavity until tablet becomes slippery enough to swallow whole without water; results shown graphically in Figure 6 (no numeric table). [file:1]",
+            "taste_masking_metric": "Time until first perception of bitterness using 'rolling method'; results in Figure 7. [file:1]",
+            "key_findings": [
+                "Coated tablets 020_T1–020_T6 showed significantly better slipperiness than uncoated core 020_F6, due to xanthan gum in coat. [file:1]",
+                "Higher Kollicoat IR concentration and double coating increased slipperiness and taste masking time, with 020_T6 showing the longest masking. [file:1]"
+            ]
+        },
+        "zero_and_first_order_release_data": {
+            "availability": "No explicit zero-order or first-order kinetic constants or R² values are presented in the visible text; thus cannot be extracted per formulation. [file:1]"
+        }
+    },
+    "overall_experimental_results_summary": {
+        "key_results": [
+            "All core and coated tablets met pharmacopeial limits for hardness, friability (<1%), and weight variation, with drug content close to label claim (approximately 93–100%). [file:1]",
+            "Increasing NaHCO3 reduced floating lag time, while all cores showed total floating time beyond 24 h. [file:1]",
+            "Higher HPMC viscosity grade and/or amount slowed drug release but generally increased FLT. [file:1]",
+            "Kollicoat IR concentration and coating level influenced both floating behavior and release; double coatings at appropriate Kollicoat levels produced instant floating and controlled release. [file:1]",
+            "020_T4 (020_F6 core with double coating of 020_S2, 14% Kollicoat) was identified as optimized, combining instant floating, acceptable slipperiness and taste masking, and approximately 90% drug release at 6 h. [file:1]"
+        ],
+        "statistical_analysis": "The article notes significant and non-significant differences (p<0.05) for various comparisons (e.g., effect of polymer grade, polymer amount, Kollicoat concentration, and coating level) but does not provide full ANOVA tables or exact p-values per formulation. [file:1]",
+        "in_vivo_vs_in_vitro_correlation": "Not quantitatively analyzed; narrative indicates that improved in vivo slipperiness and taste masking accompany certain coating compositions that also maintain desirable in vitro floating and release behavior. [file:1]"
+    }
+}

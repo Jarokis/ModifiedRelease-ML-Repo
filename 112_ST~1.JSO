@@ -1,0 +1,268 @@
+{
+  "article_sections": {
+    "abstract": "Pages 1-2",
+    "introduction": "Pages 2-3",
+    "materials_and_methods": "Pages 3-4",
+    "results": "Pages 5-6",
+    "discussion": "Pages 6-7",
+    "conclusions": "Page 8"
+  },
+  "materials_origin": {
+    "ornidazole": "Gift sample from Aristo Pharmaceuticals, Daman, India (98-100.2% pure)",
+    "mebendazole": "Gift sample from CIPLA, Bangalore, India (internal standard)",
+    "guar_gum": "Dabar Research Foundation, New Delhi, India; USP/NF quality; viscosity of 1% aqueous dispersion is 125 cps at 25°C",
+    "hpmc": "Hydroxypropylmethyl cellulose (15 cps), USP/NF quality",
+    "lactose": "Directly compressible lactose, USP/NF quality",
+    "sodium_starch_glycolate": "USP/NF quality",
+    "starch": "USP/NF quality",
+    "magnesium_stearate": "USP/NF quality",
+    "talc": "USP/NF quality",
+    "methanol_acetonitrile": "HPLC grade (Qualigens)",
+    "rat_caecal_contents": "Male albino rats (105-115 g) from Ghosh Enterprises, Kolkata, India; maintained on normal diet"
+  },
+  "experimental_design_for_optimization": {
+    "approach": "Comparison of three compression-coated formulations with varying guar gum content in coat (65%, 75%, 85%) to minimize drug release in stomach/small intestine and maximize release in colon",
+    "independent_variable": "Percentage of guar gum in coat",
+    "dependent_variables": [
+      "Drug release in simulated gastric fluid (0.1M HCl, 2 hr)",
+      "Drug release in simulated intestinal fluid (pH 7.4 phosphate buffer, 3 hr)",
+      "Drug release in rat caecal content medium (4% w/v, up to 24 hr)"
+    ]
+  },
+  "hplc_conditions": {
+    "preparation": "Samples added with internal standard (mebendazole 4 μg/mL), diluted, filtered through 0.2 μm membrane",
+    "results": "Linear relationship between concentration and peak area ratio (r=0.9999)",
+    "equation": "Not specified",
+    "absorbance_wavelength": "254 nm",
+    "mobile_phase": "Acetonitrile : water (38:62) with 0.4% triethylamine, pH adjusted to 3.6 with 0.1% orthophosphoric acid",
+    "flow_rate": "0.8 mL/min",
+    "column": "RP C-18 (150 mm × 4.6 mm I.D., 5 μm particle size)",
+    "column_temperature": "40°C",
+    "detector": "UV/VIS",
+    "internal_standard": "Mebendazole (4 μg/mL)"
+  },
+  "formulation_details": {
+    "core_tablet_composition": {
+      "ornidazole": "250 mg",
+      "spray_dried_lactose": "11 mg",
+      "sodium_starch_glycolate": "30 mg",
+      "talc": "6 mg",
+      "magnesium_stearate": "3 mg",
+      "average_weight": "300 mg"
+    },
+    "coat_formulations": {
+      "OLV-65": {
+        "guar_gum": "260 mg (65% of coat)",
+        "hpmc": "8 mg",
+        "starch": "40 mg (added as paste)",
+        "talc": "8 mg",
+        "magnesium_stearate": "4 mg",
+        "total_coat_weight": "400 mg"
+      },
+      "OLV-75": {
+        "guar_gum": "300 mg (75% of coat)",
+        "hpmc": "8 mg",
+        "starch": "40 mg (added as paste)",
+        "talc": "8 mg",
+        "magnesium_stearate": "4 mg",
+        "total_coat_weight": "400 mg"
+      },
+      "OLV-85": {
+        "guar_gum": "340 mg (85% of coat)",
+        "hpmc": "8 mg",
+        "starch": "40 mg (added as paste)",
+        "talc": "8 mg",
+        "magnesium_stearate": "4 mg",
+        "total_coat_weight": "400 mg"
+      }
+    }
+  },
+  "pre_compression_parameters": {
+    "core_tablets": {
+      "hardness": "2.5 - 3.0 kg (no SD given)",
+      "friability": "Weight loss < 0.6% (no SD given)",
+      "disintegration_time": "< 30 sec (< 1 min)",
+      "diameter": "9 mm",
+      "weight_variation": "Not specified, but content uniformity performed"
+    },
+    "compression_coated_tablets": {
+      "hardness": "Not specified (only stated that it was determined)",
+      "friability": "Not specified",
+      "diameter": "12 mm",
+      "weight_variation": "Not specified"
+    }
+  },
+  "independent_variables_and_levels": {
+    "independent_variable": "Guar gum amount in coat (mg and % of coat)",
+    "levels": {
+      "OLV-65": "260 mg (65%)",
+      "OLV-75": "300 mg (75%)",
+      "OLV-85": "340 mg (85%)"
+    }
+  },
+  "ftir_measurements": "Not performed / not mentioned in the article",
+  "tablet_fabrications": {
+    "core_tablets": {
+      "method": "Direct compression",
+      "equipment": "Single station tablet machine (Cadmach Machinery, India)",
+      "punches": "9 mm round, flat, plain",
+      "compression_force": "4000 kg",
+      "hardness": "2.5-3.0 kg",
+      "friability": "< 0.6% weight loss",
+      "drug_content": "Uniformity confirmed, numeric values not specified"
+    },
+    "compression_coated_tablets": {
+      "method": "Compression coating (dry)",
+      "equipment": "Single station tablet machine (Cadmach Machinery, India)",
+      "die_diameter": "12 mm",
+      "punches": "12 mm round, concave",
+      "compression_force": "5000 kg",
+      "hardness": "Not specified",
+      "friability": "Not specified",
+      "drug_content": "Tested, no numeric values given; no change after stability"
+    }
+  },
+  "process_parameters": {
+    "compression_device": "Single station tablet machine (Cadmach Machinery, India)",
+    "core_compression_pressure": "4000 kg",
+    "coating_compression_pressure": "5000 kg",
+    "coating_method": "Compression coating (dry granules)",
+    "dissolution_temperature": "37°C",
+    "stability_conditions": "40°C / 75% relative humidity for 6 months"
+  },
+  "release_properties": {
+    "OLV-65": {
+      "release_mechanism": "Colonic bacterial degradation of guar gum coat",
+      "release_profile": {
+        "0.1M HCl (2 hr) + pH 7.4 buffer (3 hr)": "8.14% released (cumulative at 5 hr)",
+        "In rat caecal content medium (4% w/v) at 24 hr": "96.84 ± 1.9%",
+        "Without caecal contents at 24 hr (pH 6.8 PBS)": "73.42 ± 1.2%"
+      },
+      "release_profile_figure_data": {
+        "with_rat_caecal_contents": [
+          {"time_hr": 2, "percent_released": 3.4},
+          {"time_hr": 5, "percent_released": 7.2},
+          {"time_hr": 12, "percent_released": 31.7},
+          {"time_hr": 18, "percent_released": 87.4},
+          {"time_hr": 24, "percent_released": 96.8}
+        ],
+        "without_rat_caecal_contents": [
+          {"time_hr": 2, "percent_released": 3.3},
+          {"time_hr": 5, "percent_released": 7.1},
+          {"time_hr": 12, "percent_released": 18.0},
+          {"time_hr": 18, "percent_released": 45.0},
+          {"time_hr": 24, "percent_released": 73.4}
+        ]
+      },
+      "factors_influencing_release": "pH (minimal release in stomach/intestine), enzymes from rat caecal contents (colonic bacteria)",
+      "release_kinetics": "Not analyzed"
+    },
+    "OLV-75": {
+      "release_mechanism": "Colonic bacterial degradation of guar gum coat",
+      "release_profile": {
+        "0.1M HCl (2 hr) + pH 7.4 buffer (3 hr)": "7.12% released (cumulative at 5 hr)",
+        "In rat caecal content medium (4% w/v) at 24 hr": "93.83 ± 1.4%",
+        "Without caecal contents at 24 hr (pH 6.8 PBS)": "38.38 ± 0.9%"
+      },
+      "release_profile_figure_data": {
+        "with_rat_caecal_contents": [
+          {"time_hr": 2, "percent_released": 2.1},
+          {"time_hr": 5, "percent_released": 4.5},
+          {"time_hr": 12, "percent_released": 17.3},
+          {"time_hr": 18, "percent_released": 28.5},
+          {"time_hr": 24, "percent_released": 93.8}
+        ],
+        "without_rat_caecal_contents": [
+          {"time_hr": 2, "percent_released": 2.0},
+          {"time_hr": 5, "percent_released": 4.5},
+          {"time_hr": 12, "percent_released": 10.0},
+          {"time_hr": 18, "percent_released": 20.0},
+          {"time_hr": 24, "percent_released": 38.4}
+        ]
+      },
+      "factors_influencing_release": "pH, enzymes from rat caecal contents",
+      "release_kinetics": "Not analyzed"
+    },
+    "OLV-85": {
+      "release_mechanism": "Partial degradation; high guar gum content prevents complete erosion",
+      "release_profile": {
+        "0.1M HCl (2 hr) + pH 7.4 buffer (3 hr)": "2.23% released (cumulative at 5 hr)",
+        "In rat caecal content medium (4% w/v) at 24 hr": "34.75 ± 1.4%",
+        "Without caecal contents at 24 hr (pH 6.8 PBS)": "20.99 ± 1.1%"
+      },
+      "release_profile_figure_data": {
+        "with_rat_caecal_contents": [
+          {"time_hr": 2, "percent_released": 2.2},
+          {"time_hr": 5, "percent_released": 2.5},
+          {"time_hr": 12, "percent_released": 12.0},
+          {"time_hr": 18, "percent_released": 22.0},
+          {"time_hr": 24, "percent_released": 34.8}
+        ],
+        "without_rat_caecal_contents": [
+          {"time_hr": 2, "percent_released": 2.2},
+          {"time_hr": 5, "percent_released": 2.3},
+          {"time_hr": 12, "percent_released": 8.0},
+          {"time_hr": 18, "percent_released": 14.0},
+          {"time_hr": 24, "percent_released": 21.0}
+        ]
+      },
+      "factors_influencing_release": "pH, insufficient enzymatic degradation due to high gel strength",
+      "release_kinetics": "Not analyzed"
+    }
+  },
+  "tablet_properties": {
+    "core_tablets": {
+      "hardness": "2.5-3.0 kg",
+      "friability": "< 0.6% weight loss",
+      "disintegration_time": "< 30 sec",
+      "thickness": "Not specified",
+      "diameter": "9 mm",
+      "weight_variation_percent": "Not specified"
+    },
+    "compression_coated_tablets": {
+      "hardness": "Not specified",
+      "friability": "Not specified",
+      "disintegration_time": "Not applicable (coat designed to remain intact in stomach/small intestine)",
+      "dissolution_profile": "See release_properties",
+      "stability": "No change in physical appearance, drug content, or dissolution profile after 6 months at 40°C/75% RH for OLV-65 and OLV-75 (data in Table 3)",
+      "thickness": "Not specified",
+      "diameter": "12 mm",
+      "weight_variation_percent": "Not specified",
+      "swelling_water_uptake": {
+        "lag_time": "OLV-65: ~12 hr (release increase from 12 hr onward); OLV-75: ~18 hr; OLV-85: no complete degradation",
+        "total_floating_time": "Not applicable (tablets likely sink)",
+        "swelling_index_percent": "Not specified"
+      }
+    }
+  },
+  "experimental_data": {
+    "in_vitro_studies": {
+      "simulated_gastric_intestinal_fluids": {
+        "OLV-65": "8.14% released at 5 hr",
+        "OLV-75": "7.12% released at 5 hr",
+        "OLV-85": "2.23% released at 5 hr"
+      },
+      "rat_caecal_content_medium_24hr": {
+        "OLV-65": "96.84 ± 1.9%",
+        "OLV-75": "93.83 ± 1.4%",
+        "OLV-85": "34.75 ± 1.4%"
+      },
+      "without_caecal_contents_24hr": {
+        "OLV-65": "73.42 ± 1.2%",
+        "OLV-75": "38.38 ± 0.9%",
+        "OLV-85": "20.99 ± 1.1%"
+      }
+    },
+    "statistical_analysis": {
+      "test": "Student's t-test",
+      "significance_level": "p < 0.05 considered significant",
+      "results": "For OLV-65 and OLV-75, significant difference (p < 0.001) between release with and without rat caecal contents at 24 hr"
+    },
+    "performance_metrics": {
+      "minimal_release_in_upper_git": "< 8% at 5 hr for all formulations",
+      "maximal_release_in_colon": "> 93% for OLV-65 and OLV-75 in presence of caecal contents",
+      "stability": "OLV-65 and OLV-75 stable for 6 months at 40°C/75% RH (equivalent to 2 years shelf life)"
+    },
+    "zero_and_first_order_release_kinetics": "Not reported"
+  }
+}

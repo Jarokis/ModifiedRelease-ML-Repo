@@ -1,0 +1,866 @@
+{
+  "article_metadata": {
+    "title": "Development and Evaluation of a Monolithic Floating Drug Delivery System for Acyclovir",
+    "authors": "Naser Tavakoli, Jaleh Varshosaz, Farid Dorkoosh, Sedigheh Motaghi, Lana Tamaddon",
+    "journal": "Chemical and Pharmaceutical Bulletin",
+    "volume": "60",
+    "issue": "2",
+    "pages": "172-177",
+    "year": "2012",
+    "sections_identified": [
+      "Abstract",
+      "Introduction",
+      "Experimental",
+      "Results and Discussion",
+      "Conclusion",
+      "References"
+    ]
+  },
+  "materials_origin": {
+    "acyclovir": "Arastou, Iran",
+    "hydroxypropyl methylcellulose (HPMC K4M)": "Fluka, Switzerland",
+    "sodium carboxymethyl cellulose (Na CMC, Nymcel)": "Colorcon, England",
+    "carbopol 934P": "BFG, U.S.A.",
+    "polyvinylpyrrolidone (PVP K30)": "Fluka, Switzerland",
+    "sodium alginate": "Fluka, Switzerland",
+    "guar gum": "Hercules, U.S.A.",
+    "xanthan": "Arthur Branwell, U.K.",
+    "sodium bicarbonate": "Merck, Germany",
+    "citric acid": "Merck, Germany",
+    "magnesium stearate": "Merck, Germany",
+    "sodium hydroxide": "Merck, Germany",
+    "hydrochloric acid": "Merck, Germany"
+  },
+  "experimental_design_for_optimization": {
+    "preparation_method": "Direct compression method. All components were powdered, mixed for 20 minutes, and lubricated with 1% magnesium stearate.",
+    "key_results": "Tablets with 15% effervescent base, 20-30% HPMC, 30% Na CMC (or 20% PVP or 20% sodium alginate) showed good floating and drug release properties.",
+    "equations_used": [
+      "Zero order kinetics",
+      "First order kinetics",
+      "Higuchi model",
+      "Korsmeyer-Peppas equation (Mt/M∞ = kt^n) for release mechanism analysis",
+      "Dissolution efficiency (DE%)",
+      "T50% (time to release 50% of drug content)"
+    ],
+    "absorbance_wavelengths": {
+      "drug_release_study": "259 nm",
+      "assay_and_content_uniformity": "259 nm (and 295 nm for assay in 0.1N NaOH)"
+    }
+  },
+  "formulation_details": [
+    {
+      "batch_code": "H50G12",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 199.0,
+          "percent": "38%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 261.5,
+          "percent": "50%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 31.4,
+          "percent": "6%"
+        },
+        "citric acid": {
+          "mass_mg": 31.4,
+          "percent": "6%"
+        }
+      },
+      "total_tablet_weight_mg": 523.3,
+      "excipients": [
+        "HPMC K4M",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H40C10G12",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 200.4,
+          "percent": "38%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 210.9,
+          "percent": "40%"
+        },
+        "carbopol 934P": {
+          "mass_mg": 52.7,
+          "percent": "10%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 31.6,
+          "percent": "6%"
+        },
+        "citric acid": {
+          "mass_mg": 31.6,
+          "percent": "6%"
+        }
+      },
+      "total_tablet_weight_mg": 527.2,
+      "excipients": [
+        "HPMC K4M",
+        "carbopol 934P",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H30C20G12",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 197.0,
+          "percent": "38%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 155.5,
+          "percent": "30%"
+        },
+        "carbopol 934P": {
+          "mass_mg": 103.7,
+          "percent": "20%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 31.1,
+          "percent": "6%"
+        },
+        "citric acid": {
+          "mass_mg": 31.1,
+          "percent": "6%"
+        }
+      },
+      "total_tablet_weight_mg": 518.4,
+      "excipients": [
+        "HPMC K4M",
+        "carbopol 934P",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H20N30G12",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 210.1,
+          "percent": "38%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 110.6,
+          "percent": "20%"
+        },
+        "Na CMC": {
+          "mass_mg": 165.9,
+          "percent": "30%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 33.2,
+          "percent": "6%"
+        },
+        "citric acid": {
+          "mass_mg": 33.2,
+          "percent": "6%"
+        }
+      },
+      "total_tablet_weight_mg": 552.9,
+      "excipients": [
+        "HPMC K4M",
+        "Na CMC",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H40N10G15",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 213.1,
+          "percent": "35%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 243.5,
+          "percent": "40%"
+        },
+        "Na CMC": {
+          "mass_mg": 60.9,
+          "percent": "10%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 45.6,
+          "percent": "7.5%"
+        },
+        "citric acid": {
+          "mass_mg": 45.6,
+          "percent": "7.5%"
+        }
+      },
+      "total_tablet_weight_mg": 608.7,
+      "excipients": [
+        "HPMC K4M",
+        "Na CMC",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H30N20G12",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 217.2,
+          "percent": "38%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 171.5,
+          "percent": "30%"
+        },
+        "Na CMC": {
+          "mass_mg": 114.3,
+          "percent": "20%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 34.3,
+          "percent": "6%"
+        },
+        "citric acid": {
+          "mass_mg": 34.3,
+          "percent": "6%"
+        }
+      },
+      "total_tablet_weight_mg": 571.6,
+      "excipients": [
+        "HPMC K4M",
+        "Na CMC",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H30N20G15",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 200.3,
+          "percent": "35%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 171.7,
+          "percent": "30%"
+        },
+        "Na CMC": {
+          "mass_mg": 114.5,
+          "percent": "20%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 42.9,
+          "percent": "7.5%"
+        },
+        "citric acid": {
+          "mass_mg": 42.9,
+          "percent": "7.5%"
+        }
+      },
+      "total_tablet_weight_mg": 572.3,
+      "excipients": [
+        "HPMC K4M",
+        "Na CMC",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H30P20G12",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 190.2,
+          "percent": "38%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 150.2,
+          "percent": "30%"
+        },
+        "PVP K30": {
+          "mass_mg": 100.1,
+          "percent": "20%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 30.0,
+          "percent": "6%"
+        },
+        "citric acid": {
+          "mass_mg": 30.0,
+          "percent": "6%"
+        }
+      },
+      "total_tablet_weight_mg": 500.5,
+      "excipients": [
+        "HPMC K4M",
+        "PVP K30",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H30P20G9",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 186.4,
+          "percent": "41%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 136.4,
+          "percent": "30%"
+        },
+        "PVP K30": {
+          "mass_mg": 90.9,
+          "percent": "20%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 20.5,
+          "percent": "4.5%"
+        },
+        "citric acid": {
+          "mass_mg": 20.5,
+          "percent": "4.5%"
+        }
+      },
+      "total_tablet_weight_mg": 454.7,
+      "excipients": [
+        "HPMC K4M",
+        "PVP K30",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H30P20G15",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 195.5,
+          "percent": "35%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 167.6,
+          "percent": "30%"
+        },
+        "PVP K30": {
+          "mass_mg": 111.7,
+          "percent": "20%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 41.9,
+          "percent": "7.5%"
+        },
+        "citric acid": {
+          "mass_mg": 41.9,
+          "percent": "7.5%"
+        }
+      },
+      "total_tablet_weight_mg": 558.6,
+      "excipients": [
+        "HPMC K4M",
+        "PVP K30",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H30A20G12",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 209.9,
+          "percent": "38%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 165.7,
+          "percent": "30%"
+        },
+        "sodium alginate": {
+          "mass_mg": 110.5,
+          "percent": "20%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 33.1,
+          "percent": "6%"
+        },
+        "citric acid": {
+          "mass_mg": 33.1,
+          "percent": "6%"
+        }
+      },
+      "total_tablet_weight_mg": 552.3,
+      "excipients": [
+        "HPMC K4M",
+        "sodium alginate",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    },
+    {
+      "batch_code": "H10A40G12",
+      "ingredients": {
+        "acyclovir (API)": {
+          "mass_mg": 188.1,
+          "percent": "38%"
+        },
+        "HPMC K4M": {
+          "mass_mg": 49.5,
+          "percent": "10%"
+        },
+        "sodium alginate": {
+          "mass_mg": 198.0,
+          "percent": "40%"
+        },
+        "sodium bicarbonate": {
+          "mass_mg": 29.7,
+          "percent": "6%"
+        },
+        "citric acid": {
+          "mass_mg": 29.7,
+          "percent": "6%"
+        }
+      },
+      "total_tablet_weight_mg": 495.0,
+      "excipients": [
+        "HPMC K4M",
+        "sodium alginate",
+        "sodium bicarbonate",
+        "citric acid"
+      ]
+    }
+  ],
+  "pre_compression_parameters": [
+    {
+      "batch_code": "H50G12",
+      "mass_distribution_mg": "499.5 ± 10.55",
+      "hardness_N": "64.5 ± 6.1",
+      "friability_percent": "0.51",
+      "size_diameter_mm": "Not specified in text"
+    },
+    {
+      "batch_code": "H40C10G12",
+      "mass_distribution_mg": "501.05 ± 13.51",
+      "hardness_N": "64.3 ± 5.5",
+      "friability_percent": "0.83",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H30C20G12",
+      "mass_distribution_mg": "500 ± 15.65",
+      "hardness_N": "69.8 ± 4.2",
+      "friability_percent": "0.57",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H20N30G12",
+      "mass_distribution_mg": "496.35 ± 13.78",
+      "hardness_N": "63 ± 7.1",
+      "friability_percent": "0.47",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H40N10G15",
+      "mass_distribution_mg": "507.05 ± 17.32",
+      "hardness_N": "67.3 ± 7.3",
+      "friability_percent": "0.51",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H30N20G12",
+      "mass_distribution_mg": "503.7 ± 11.05",
+      "hardness_N": "66.5 ± 5.8",
+      "friability_percent": "0.66",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H30N20G15",
+      "mass_distribution_mg": "505 ± 12.47",
+      "hardness_N": "62 ± 4.7",
+      "friability_percent": "0.38",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H30P20G12",
+      "mass_distribution_mg": "501.95 ± 8.89",
+      "hardness_N": "71.2 ± 5.9",
+      "friability_percent": "0.42",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H30P20G9",
+      "mass_distribution_mg": "497.7 ± 11.91",
+      "hardness_N": "69.5 ± 3.8",
+      "friability_percent": "0.45",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H30P20G15",
+      "mass_distribution_mg": "505.31 ± 13.31",
+      "hardness_N": "60.7 ± 6.7",
+      "friability_percent": "0.48",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H30A20G12",
+      "mass_distribution_mg": "501.95 ± 8.89",
+      "hardness_N": "68.9 ± 4.3",
+      "friability_percent": "0.84",
+      "size_diameter_mm": "Not specified"
+    },
+    {
+      "batch_code": "H10A40G12",
+      "mass_distribution_mg": "497.7 ± 11.92",
+      "hardness_N": "63.4 ± 6.5",
+      "friability_percent": "0.85",
+      "size_diameter_mm": "Not specified"
+    }
+  ],
+  "independent_variables_levels": {
+    "polymers": [
+      "HPMC K4M",
+      "Carbopol 934P",
+      "Na CMC",
+      "PVP K30",
+      "Sodium Alginate"
+    ],
+    "polymer_concentration_range_percent": "10% to 50%",
+    "effervescent_base_total_percent": "9%, 12%, 15% (1:1 ratio of sodium bicarbonate to citric acid)"
+  },
+  "fourier_transform_infrared_spectral_measurements": "Not mentioned in the provided text.",
+  "tablet_fabrication_process": {
+    "method": "Direct compression",
+    "equipment": "Rotary tablet press (Killian and Co., Germany)",
+    "process_conditions": {
+      "temperature": "Room temperature (implied)",
+      "pressure": "Not specified",
+      "coating": "None (monolithic tablets)"
+    },
+    "evaluation_parameters": [
+      "Hardness (Erweka TB324, Germany)",
+      "Friability (rotated at 25 rpm for 4 min)",
+      "Weight variation",
+      "Density (weight/volume)",
+      "Drug content (UV spectrophotometry at 259 nm in 0.1N HCl, and at 295 nm in 0.1N NaOH for assay)",
+      "Content uniformity"
+    ]
+  },
+  "process_parameters": {
+    "compression_device": "Rotary tablet press (Killian and Co., Germany)",
+    "compression_pressure": "Not specified",
+    "coating": "None",
+    "temperature_conditions": "Ambient",
+    "equipment_used_for_evaluation": {
+      "hardness_tester": "Erweka TB324, Germany",
+      "friability_tester": "Tablet friability test apparatus (unspecified model)",
+      "dissolution_apparatus": "USP type II (paddle), 50 rpm, 37±0.5°C",
+      "uv_spectrophotometer": "Unspecified model"
+    }
+  },
+  "release_properties": [
+    {
+      "batch_code": "H50G12",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Sustained release, ~26.6% DE at 12h",
+      "factors_influencing_release": "Polymer matrix hydration, pH of medium (1.2)",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.77 ± 0.03",
+      "T50_percent_h": "10 ± 0.25",
+      "DE12_percent": "26.6 ± 2.21"
+    },
+    {
+      "batch_code": "H40C10G12",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Sustained release, ~34.3% DE at 12h",
+      "factors_influencing_release": "Carbopol content (pH-dependent swelling)",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.71 ± 0.01",
+      "T50_percent_h": "6.25 ± 0.12",
+      "DE12_percent": "34.29 ± 1.89"
+    },
+    {
+      "batch_code": "H30C20G12",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Slower release due to higher carbopol, ~30.7% DE at 12h",
+      "factors_influencing_release": "Carbopol content",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.74 ± 0.02",
+      "T50_percent_h": "8.33 ± 0.21",
+      "DE12_percent": "30.66 ± 2.01"
+    },
+    {
+      "batch_code": "H20N30G12",
+      "release_mechanism": "Close to Fickian diffusion (n=0.52)",
+      "release_profile": "Burst release, highest DE (53.3%)",
+      "factors_influencing_release": "High Na CMC content, rapid water uptake",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.52 ± 0.05",
+      "T50_percent_h": "4.50 ± 0.61",
+      "DE12_percent": "53.28 ± 3.51"
+    },
+    {
+      "batch_code": "H40N10G15",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Sustained release, ~28.1% DE at 12h",
+      "factors_influencing_release": "Effervescent base content, Na CMC/HPMC ratio",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.74 ± 0.02",
+      "T50_percent_h": "10 ± 0.16",
+      "DE12_percent": "28.07 ± 1.44"
+    },
+    {
+      "batch_code": "H30N20G12",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Faster release than H40N10G12, ~37.0% DE at 12h",
+      "factors_influencing_release": "Na CMC/HPMC ratio",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.66 ± 0.01",
+      "T50_percent_h": "6.25 ± 0.01",
+      "DE12_percent": "37.02 ± 1.12"
+    },
+    {
+      "batch_code": "H30N20G15",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Sustained release, ~34.4% DE at 12h",
+      "factors_influencing_release": "Higher effervescent base slows release",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.67 ± 0.04",
+      "T50_percent_h": "7.14 ± 0.45",
+      "DE12_percent": "34.35 ± 2.37"
+    },
+    {
+      "batch_code": "H30P20G12",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Sustained release, ~34.6% DE at 12h",
+      "factors_influencing_release": "PVP content",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.80 ± 0.02",
+      "T50_percent_h": "6.25 ± 0.29",
+      "DE12_percent": "34.55 ± 1.72"
+    },
+    {
+      "batch_code": "H30P20G9",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Faster release, ~40.7% DE at 12h",
+      "factors_influencing_release": "Lower effervescent base content",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.73 ± 0.03",
+      "T50_percent_h": "4.51 ± 0.42",
+      "DE12_percent": "40.67 ± 4.12"
+    },
+    {
+      "batch_code": "H30P20G15",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Sustained release, ~37.4% DE at 12h",
+      "factors_influencing_release": "Higher effervescent base slows release",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.62 ± 0.02",
+      "T50_percent_h": "6.25 ± 0.18",
+      "DE12_percent": "37.38 ± 2.16"
+    },
+    {
+      "batch_code": "H30A20G12",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Sustained release, ~32.4% DE at 12h",
+      "factors_influencing_release": "Sodium alginate content",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.73 ± 0.01",
+      "T50_percent_h": "8.33 ± 0.19",
+      "DE12_percent": "32.44 ± 1.51"
+    },
+    {
+      "batch_code": "H10A40G12",
+      "release_mechanism": "Non-Fickian (anomalous) transport",
+      "release_profile": "Sustained release, ~33.8% DE at 12h",
+      "factors_influencing_release": "High sodium alginate content",
+      "release_kinetics": "First order",
+      "korsmeyer_peppas_exponent_n": "0.68 ± 0.03",
+      "T50_percent_h": "8.33 ± 0.2",
+      "DE12_percent": "33.75 ± 2.35"
+    }
+  ],
+  "tablet_properties": [
+    {
+      "batch_code": "H50G12",
+      "hardness_N": "64.5 ± 6.1",
+      "friability_percent": "0.51",
+      "disintegration_time": "Not applicable (floating sustained release)",
+      "dissolution_profile": "Sustained, ~26.6% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Based on SD (10.55 mg), approx. 2.1%",
+      "density_g_per_cm3": "1.13 ± 0.01",
+      "floating_lag_time_min": "5.3 ± 3.05",
+      "total_floating_time_h": "24.2 ± 4.5",
+      "mucoadhesion_g": "13.6 ± 1.53"
+    },
+    {
+      "batch_code": "H40C10G12",
+      "hardness_N": "64.3 ± 5.5",
+      "friability_percent": "0.83",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Sustained, ~34.3% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 2.7%",
+      "density_g_per_cm3": "1.12 ± 0.02",
+      "floating_lag_time_min": "9.3 ± 1.15",
+      "total_floating_time_h": "7.3 ± 1.15",
+      "mucoadhesion_g": "11.3 ± 1.52"
+    },
+    {
+      "batch_code": "H30C20G12",
+      "hardness_N": "69.8 ± 4.2",
+      "friability_percent": "0.57",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Slower release, ~30.7% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 3.1%",
+      "density_g_per_cm3": "1.13 ± 0.01",
+      "floating_lag_time_min": "0.4 ± 0.13",
+      "total_floating_time_h": "7.8 ± 1.5",
+      "mucoadhesion_g": "15.6 ± 2.08"
+    },
+    {
+      "batch_code": "H20N30G12",
+      "hardness_N": "63 ± 7.1",
+      "friability_percent": "0.47",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Burst release, ~53.3% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 2.8%",
+      "density_g_per_cm3": "1.13 ± 0.02",
+      "floating_lag_time_min": "0.12 ± 0.07",
+      "total_floating_time_h": "24 ± 0.5",
+      "mucoadhesion_g": "Not specified"
+    },
+    {
+      "batch_code": "H40N10G15",
+      "hardness_N": "67.3 ± 7.3",
+      "friability_percent": "0.51",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Sustained, ~28.1% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 3.4%",
+      "density_g_per_cm3": "1.15 ± 0.02",
+      "floating_lag_time_min": "18 ± 2",
+      "total_floating_time_h": "7.3 ± 1.5",
+      "mucoadhesion_g": "Not specified"
+    },
+    {
+      "batch_code": "H30N20G12",
+      "hardness_N": "66.5 ± 5.8",
+      "friability_percent": "0.66",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Faster release, ~37.0% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 2.2%",
+      "density_g_per_cm3": "1.14 ± 0.02",
+      "floating_lag_time_min": "32.6 ± 3.02",
+      "total_floating_time_h": "8.7 ± 1.1",
+      "mucoadhesion_g": "20.1 ± 4.05"
+    },
+    {
+      "batch_code": "H30N20G15",
+      "hardness_N": "62 ± 4.7",
+      "friability_percent": "0.38",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Sustained, ~34.4% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 2.5%",
+      "density_g_per_cm3": "1.16 ± 0.03",
+      "floating_lag_time_min": "0.24 ± 0.16",
+      "total_floating_time_h": "8.6 ± 1.15",
+      "mucoadhesion_g": "Not specified"
+    },
+    {
+      "batch_code": "H30P20G12",
+      "hardness_N": "71.2 ± 5.9",
+      "friability_percent": "0.42",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Sustained, ~34.6% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 1.8%",
+      "density_g_per_cm3": "1.11 ± 0.01",
+      "floating_lag_time_min": "0.75 ± 0.22",
+      "total_floating_time_h": "9.1 ± 1.2",
+      "mucoadhesion_g": "Not specified"
+    },
+    {
+      "batch_code": "H30P20G9",
+      "hardness_N": "69.5 ± 3.8",
+      "friability_percent": "0.45",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Faster release, ~40.7% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 2.4%",
+      "density_g_per_cm3": "1.10 ± 0.01",
+      "floating_lag_time_min": "0.9 ± 0.35",
+      "total_floating_time_h": "8.9 ± 0.7",
+      "mucoadhesion_g": "Not specified"
+    },
+    {
+      "batch_code": "H30P20G15",
+      "hardness_N": "60.7 ± 6.7",
+      "friability_percent": "0.48",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Sustained, ~37.4% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 2.6%",
+      "density_g_per_cm3": "1.10 ± 0.02",
+      "floating_lag_time_min": "0.28 ± 0.19",
+      "total_floating_time_h": "23.2 ± 2.1",
+      "mucoadhesion_g": "17 ± 2.3"
+    },
+    {
+      "batch_code": "H30A20G12",
+      "hardness_N": "68.9 ± 4.3",
+      "friability_percent": "0.84",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Sustained, ~32.4% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 1.8%",
+      "density_g_per_cm3": "1.14 ± 0.03",
+      "floating_lag_time_min": "21.6 ± 2.88",
+      "total_floating_time_h": "24.5 ± 1.7",
+      "mucoadhesion_g": "22.6 ± 4.1"
+    },
+    {
+      "batch_code": "H10A40G12",
+      "hardness_N": "63.4 ± 6.5",
+      "friability_percent": "0.85",
+      "disintegration_time": "N/A",
+      "dissolution_profile": "Sustained, ~33.8% DE at 12h",
+      "stability": "Not specified",
+      "thickness_mm": "Not specified",
+      "weight_variation_percent": "Approx. 2.4%",
+      "density_g_per_cm3": "1.16 ± 0.02",
+      "floating_lag_time_min": "21.6 ± 5.4",
+      "total_floating_time_h": "8.2 ± 0.3",
+      "mucoadhesion_g": "Not specified"
+    }
+  ],
+  "experimental_data": {
+    "in_vitro_studies": [
+      "Drug release in 0.1N HCl (pH 1.2) at 37±0.5°C using USP apparatus II (paddle, 50 rpm)",
+      "Floating lag time and duration determined visually",
+      "Mucoadhesion measured using shear testing machine (DARTEC HC-10) on cow tongue mucosa"
+    ],
+    "statistical_analysis": "SPSS software version 12, one-way ANOVA and Duncan tests, significance level p < 0.05",
+    "performance_metrics": [
+      "Floating lag time: 5 seconds to 32 minutes",
+      "Total floating time: 7 to 24 hours",
+      "Drug release over 12 hours: 60-90%",
+      "T50%: 4.5 to 10 hours",
+      "DE12%: 26.6% to 53.3%"
+    ],
+    "release_kinetics_summary": "All formulations best fitted first-order release model. Korsmeyer-Peppas exponent n values between 0.5 and 1, indicating non-Fickian (anomalous) transport, coupling diffusion and erosion."
+  }
+}

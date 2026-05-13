@@ -1,0 +1,984 @@
+{
+    "article_overview": {
+        "title": "Formulation and evaluation of simvastatin gastro retentive drug delivery system",
+        "journal": "International Journal of Applied Pharmaceutics",
+        "year": 2017,
+        "objective": "To develop and optimize a gastro retentive drug delivery system (GRRDS) containing simvastatin as a gastric floating dosage form."
+    },
+    "materials_origin": [
+        {
+            "material": "Simvastatin USP",
+            "source": "Krebs biochemicals and industries Ltd, Visakhapatnam, India",
+            "type": "Gift sample"
+        },
+        {
+            "material": "Carbopol 71G, HPMC K100M, HPMC K4M, Citric Acid Anhydrous",
+            "source": "Colorcon Asia Pvt. Ltd",
+            "type": "Gift sample"
+        },
+        {
+            "material": "Sodium CMC",
+            "source": "SD Fine- chem Ltd., Mumbai",
+            "type": "Purchased"
+        },
+        {
+            "material": "Avicel PH 102, DCP anhydrous, Aerosil 200, Sodium Bicarbonate, Magnesium stearate, Talc",
+            "source": "Signet Chemical Corp",
+            "type": "Purchased"
+        }
+    ],
+    "experimental_design_for_optimization": {
+        "independent_variables": [
+            "Drug to total polymer ratio",
+            "Polymer to polymer ratio",
+            "Viscosity grades of HPMC (K4M, K100M), Carbopol and NaCMC"
+        ],
+        "dependent_variables": [
+            "Floating time",
+            "Release profile",
+            "Hardness",
+            "Kinetics and mechanism of drug release"
+        ]
+    },
+    "ingredients_identification": {
+        "preparation_method": "Direct compression technique",
+        "results": "Formulation 068_F8 was identified as the optimized batch.",
+        "equation_for_release_kinetics": "M_t / M_∞ = K t^n (Korsmeyer-Peppas equation)",
+        "absorbance_wavelength": "239.1 nm"
+    },
+    "formulation_details": [
+        {
+            "batch": "068_F1",
+            "api": {
+                "name": "Simvastatin",
+                "mass_mg": 60
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 80
+                },
+                {
+                    "name": "Carbopol 71G",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Citric acid anhydrous",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Avicel PH 102",
+                    "mass_mg": 42.8
+                },
+                {
+                    "name": "Aerosil 200",
+                    "mass_mg": 5.6
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2.8
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 2.8
+                }
+            ],
+            "total_mass_mg": 280,
+            "punch_size_mm": 9
+        },
+        {
+            "batch": "068_F2",
+            "api": {
+                "name": "Simvastatin",
+                "mass_mg": 60
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K100M",
+                    "mass_mg": 80
+                },
+                {
+                    "name": "Sodium CMC",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Citric acid anhydrous",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Avicel PH 102",
+                    "mass_mg": 42.8
+                },
+                {
+                    "name": "Aerosil 200",
+                    "mass_mg": 5.6
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2.8
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 2.8
+                }
+            ],
+            "total_mass_mg": 280,
+            "punch_size_mm": 9
+        },
+        {
+            "batch": "068_F3",
+            "api": {
+                "name": "Simvastatin",
+                "mass_mg": 60
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 30
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Citric acid anhydrous",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Avicel PH 102",
+                    "mass_mg": 36
+                },
+                {
+                    "name": "Aerosil 200",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 2.5
+                }
+            ],
+            "total_mass_mg": 200,
+            "punch_size_mm": 7
+        },
+        {
+            "batch": "068_F4",
+            "api": {
+                "name": "Simvastatin",
+                "mass_mg": 60
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 60
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Citric acid anhydrous",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Avicel PH 102",
+                    "mass_mg": 54
+                },
+                {
+                    "name": "DCP Anhydrous",
+                    "mass_mg": 54
+                },
+                {
+                    "name": "Aerosil 200",
+                    "mass_mg": 5
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2.5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 2.5
+                }
+            ],
+            "total_mass_mg": 250,
+            "punch_size_mm": 8
+        },
+        {
+            "batch": "068_F5",
+            "api": {
+                "name": "Simvastatin",
+                "mass_mg": 60
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 60
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Citric acid anhydrous",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Avicel PH 102",
+                    "mass_mg": 62.8
+                },
+                {
+                    "name": "Aerosil 200",
+                    "mass_mg": 5.6
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2.8
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 2.8
+                }
+            ],
+            "total_mass_mg": 250,
+            "punch_size_mm": 8
+        },
+        {
+            "batch": "068_F6",
+            "api": {
+                "name": "Simvastatin",
+                "mass_mg": 60
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 60
+                },
+                {
+                    "name": "Sodium CMC",
+                    "mass_mg": 80
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Citric acid anhydrous",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Avicel PH 102",
+                    "mass_mg": 62.8
+                },
+                {
+                    "name": "Aerosil 200",
+                    "mass_mg": 5.6
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2.8
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 2.8
+                }
+            ],
+            "total_mass_mg": 280,
+            "punch_size_mm": 9
+        },
+        {
+            "batch": "068_F7",
+            "api": {
+                "name": "Simvastatin",
+                "mass_mg": 60
+            },
+            "excipients": [
+                {
+                    "name": "Sodium CMC",
+                    "mass_mg": 80
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Citric acid anhydrous",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Avicel PH 102",
+                    "mass_mg": 42.8
+                },
+                {
+                    "name": "Aerosil 200",
+                    "mass_mg": 5.6
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2.8
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 2.8
+                }
+            ],
+            "total_mass_mg": 280,
+            "punch_size_mm": 9
+        },
+        {
+            "batch": "068_F8",
+            "api": {
+                "name": "Simvastatin",
+                "mass_mg": 60
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 80
+                },
+                {
+                    "name": "Sodium CMC",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Citric acid anhydrous",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Avicel PH 102",
+                    "mass_mg": 42.8
+                },
+                {
+                    "name": "Aerosil 200",
+                    "mass_mg": 5.6
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2.8
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 2.8
+                }
+            ],
+            "total_mass_mg": 280,
+            "punch_size_mm": 9
+        },
+        {
+            "batch": "068_F9",
+            "api": {
+                "name": "Simvastatin",
+                "mass_mg": 60
+            },
+            "excipients": [
+                {
+                    "name": "HPMC K4M",
+                    "mass_mg": 100
+                },
+                {
+                    "name": "Sodium CMC",
+                    "mass_mg": 20
+                },
+                {
+                    "name": "NaHCO3",
+                    "mass_mg": 50
+                },
+                {
+                    "name": "Citric acid anhydrous",
+                    "mass_mg": 16
+                },
+                {
+                    "name": "Avicel PH 102",
+                    "mass_mg": 22.8
+                },
+                {
+                    "name": "Aerosil 200",
+                    "mass_mg": 5.6
+                },
+                {
+                    "name": "Talc",
+                    "mass_mg": 2.8
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mass_mg": 2.8
+                }
+            ],
+            "total_mass_mg": 280,
+            "punch_size_mm": 9
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "068_F1",
+            "bulk_density_g_per_cm3": 0.462,
+            "tapped_density_g_per_cm3": 0.552,
+            "angle_of_repose_degrees": 26.61,
+            "carrs_consolidation_index": 11.83,
+            "hausner_ratio": 1.17
+        },
+        {
+            "batch": "068_F2",
+            "bulk_density_g_per_cm3": 0.503,
+            "tapped_density_g_per_cm3": 0.563,
+            "angle_of_repose_degrees": 28.86,
+            "carrs_consolidation_index": 9.9,
+            "hausner_ratio": 1.11
+        },
+        {
+            "batch": "068_F3",
+            "bulk_density_g_per_cm3": 0.455,
+            "tapped_density_g_per_cm3": 0.535,
+            "angle_of_repose_degrees": 24.31,
+            "carrs_consolidation_index": 13.59,
+            "hausner_ratio": 1.15
+        },
+        {
+            "batch": "068_F4",
+            "bulk_density_g_per_cm3": 0.486,
+            "tapped_density_g_per_cm3": 0.531,
+            "angle_of_repose_degrees": 26.77,
+            "carrs_consolidation_index": 9.51,
+            "hausner_ratio": 1.11
+        },
+        {
+            "batch": "068_F5",
+            "bulk_density_g_per_cm3": 0.408,
+            "tapped_density_g_per_cm3": 0.482,
+            "angle_of_repose_degrees": 26.56,
+            "carrs_consolidation_index": 9.96,
+            "hausner_ratio": 0.84
+        },
+        {
+            "batch": "068_F6",
+            "bulk_density_g_per_cm3": 0.433,
+            "tapped_density_g_per_cm3": 0.478,
+            "angle_of_repose_degrees": 26.85,
+            "carrs_consolidation_index": 10.96,
+            "hausner_ratio": 0.84
+        },
+        {
+            "batch": "068_F7",
+            "bulk_density_g_per_cm3": 0.512,
+            "tapped_density_g_per_cm3": 0.662,
+            "angle_of_repose_degrees": 32.6,
+            "carrs_consolidation_index": 13.2,
+            "hausner_ratio": 1.33
+        },
+        {
+            "batch": "068_F8",
+            "bulk_density_g_per_cm3": 0.536,
+            "tapped_density_g_per_cm3": 0.677,
+            "angle_of_repose_degrees": 29.86,
+            "carrs_consolidation_index": 6.02,
+            "hausner_ratio": 1.26
+        },
+        {
+            "batch": "068_F9",
+            "bulk_density_g_per_cm3": 0.451,
+            "tapped_density_g_per_cm3": 0.516,
+            "angle_of_repose_degrees": 28.66,
+            "carrs_consolidation_index": 9.1,
+            "hausner_ratio": 0.9
+        }
+    ],
+    "composition_of_independent_variables": {
+        "polymers": [
+            "HPMC K100M",
+            "HPMC K4M",
+            "Carbopol 71G",
+            "NaCMC"
+        ],
+        "drug_to_polymer_ratio_range": "Varies across batches",
+        "polymer_to_polymer_ratio_range": "Varies across batches",
+        "gas_generating_agent": {
+            "name": "Sodium bicarbonate",
+            "mass_mg": 50
+        },
+        "gas_generating_agent_adjuvant": {
+            "name": "Citric acid anhydrous",
+            "mass_mg": 16
+        }
+    },
+    "ftir_spectral_measurements": {
+        "instrument": "JASCO-FTIR 5300",
+        "sample_preparation": "KBr press",
+        "key_peaks_for_simvastatin_cm_minus1": [
+            {
+                "wavelength": 3553,
+                "assignment": "alcohol O-H stretching vibration"
+            },
+            {
+                "wavelength": 3011,
+                "assignment": "olefinic C-H stretching vibration"
+            },
+            {
+                "wavelength": "2957 and 2878",
+                "assignment": "methyl and methylene C-H asymmetric and symmetric stretching vibration"
+            },
+            {
+                "wavelength": "1719 and 1701",
+                "assignment": "Lactone C=0 and ester C=0 stretch"
+            },
+            {
+                "wavelength": "1453, 1406, and 1383",
+                "assignment": "methyl and methylene bending vibration"
+            },
+            {
+                "wavelength": "1267, 1222, 1178, and 1080",
+                "assignment": "lactone and ester C-O-C bending vibration"
+            },
+            {
+                "wavelength": 1060,
+                "assignment": "secondary alcohol C-O stretching vibration"
+            },
+            {
+                "wavelength": 879,
+                "assignment": "trisubstituted olefinic C-H wag"
+            }
+        ],
+        "compatibility_conclusion": "Drug was compatible with formulation components."
+    },
+    "tablet_fabrication": {
+        "method": "Direct compression",
+        "equipment": "10-station tablet machine (Cadmach, Ahmedabad, India)",
+        "punch_size_mm": "7, 8, or 9 as per formulation",
+        "hardness_range_kg_per_cm2": "Studied for 068_F8: 4, 5, 7, 8",
+        "optimum_hardness_kg_per_cm2": "4-5",
+        "process_parameters": {
+            "compression_process": "Direct compression",
+            "device": "10-station tablet machine (Cadmach, Ahmedabad, India)",
+            "pressure": "Adjusted to achieve target hardness (4-8 kg/cm²)",
+            "coating": "None",
+            "temperature": "Ambient"
+        }
+    },
+    "release_properties": [
+        {
+            "batch": "068_F1",
+            "release_mechanism": "Non-Fickian diffusion (anomalous transport)",
+            "release_kinetics": "Korsmeyer-Peppas n=0.990",
+            "zero_order_r2": 0.991,
+            "first_order_r2": 0.989,
+            "higuchi_r2": 0.986,
+            "peppas_n": 0.767,
+            "factors_influencing_release": "Polymer viscosity (HPMC K100M high viscosity)",
+            "dissolution_time_points": [
+                {
+                    "time_h": 1,
+                    "percent_released": 12
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 20
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 35
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 48
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 60
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 70
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 78
+                }
+            ]
+        },
+        {
+            "batch": "068_F2",
+            "release_mechanism": "Non-Fickian diffusion (anomalous transport)",
+            "release_kinetics": "Korsmeyer-Peppas n=0.991",
+            "zero_order_r2": 0.99,
+            "first_order_r2": 0.988,
+            "higuchi_r2": 0.988,
+            "peppas_n": 0.679,
+            "dissolution_time_points": [
+                {
+                    "time_h": 1,
+                    "percent_released": 15
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 25
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 42
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 55
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 67
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 77
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 85
+                }
+            ]
+        },
+        {
+            "batch": "068_F3",
+            "release_mechanism": "Non-Fickian diffusion (anomalous transport)",
+            "release_kinetics": "Korsmeyer-Peppas n=0.981",
+            "zero_order_r2": 0.99,
+            "first_order_r2": 0.975,
+            "higuchi_r2": 0.987,
+            "peppas_n": 0.627,
+            "dissolution_time_points": [
+                {
+                    "time_h": 1,
+                    "percent_released": 30
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 48
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 72
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 88
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 96
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 99
+                }
+            ]
+        },
+        {
+            "batch": "068_F4",
+            "release_mechanism": "Non-Fickian diffusion (anomalous transport)",
+            "release_kinetics": "Korsmeyer-Peppas n=0.995",
+            "zero_order_r2": 0.994,
+            "first_order_r2": 0.954,
+            "higuchi_r2": 0.986,
+            "peppas_n": 0.648,
+            "dissolution_time_points": [
+                {
+                    "time_h": 1,
+                    "percent_released": 25
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 42
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 65
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 82
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 93
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 98
+                }
+            ]
+        },
+        {
+            "batch": "068_F5",
+            "release_mechanism": "Non-Fickian diffusion (anomalous transport)",
+            "release_kinetics": "Korsmeyer-Peppas n=0.994",
+            "zero_order_r2": 0.995,
+            "first_order_r2": 0.965,
+            "higuchi_r2": 0.983,
+            "peppas_n": 0.743,
+            "dissolution_time_points": [
+                {
+                    "time_h": 1,
+                    "percent_released": 28
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 45
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 68
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 84
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 94
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 99
+                }
+            ]
+        },
+        {
+            "batch": "068_F6",
+            "release_mechanism": "Non-Fickian diffusion (anomalous transport)",
+            "release_kinetics": "Korsmeyer-Peppas n=0.995",
+            "zero_order_r2": 0.996,
+            "first_order_r2": 0.975,
+            "higuchi_r2": 0.98,
+            "peppas_n": 0.804,
+            "dissolution_time_points": [
+                {
+                    "time_h": 1,
+                    "percent_released": 22
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 38
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 60
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 78
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 90
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 97
+                }
+            ]
+        },
+        {
+            "batch": "068_F7",
+            "release_mechanism": "Fickian diffusion (n=0.432 < 0.5)",
+            "release_kinetics": "Korsmeyer-Peppas n=0.977",
+            "zero_order_r2": 0.997,
+            "first_order_r2": 0.905,
+            "higuchi_r2": 0.997,
+            "peppas_n": 0.432,
+            "dissolution_time_points": [
+                {
+                    "time_h": 1,
+                    "percent_released": 45
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 68
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 92
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 99
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 100
+                }
+            ]
+        },
+        {
+            "batch": "068_F8",
+            "release_mechanism": "Near zero-order (anomalous transport, approaching Case II)",
+            "release_kinetics": "Korsmeyer-Peppas n=0.999",
+            "zero_order_r2": 0.998,
+            "first_order_r2": 0.877,
+            "higuchi_r2": 0.993,
+            "peppas_n": 0.593,
+            "dissolution_time_points": [
+                {
+                    "time_h": 1,
+                    "percent_released": 18
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 32
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 52
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 68
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 82
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 94
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 99
+                }
+            ]
+        },
+        {
+            "batch": "068_F9",
+            "release_mechanism": "Non-Fickian diffusion (anomalous transport)",
+            "release_kinetics": "Korsmeyer-Peppas n=0.996",
+            "zero_order_r2": 0.998,
+            "first_order_r2": 0.943,
+            "higuchi_r2": 0.992,
+            "peppas_n": 0.664,
+            "dissolution_time_points": [
+                {
+                    "time_h": 1,
+                    "percent_released": 15
+                },
+                {
+                    "time_h": 2,
+                    "percent_released": 28
+                },
+                {
+                    "time_h": 4,
+                    "percent_released": 48
+                },
+                {
+                    "time_h": 6,
+                    "percent_released": 64
+                },
+                {
+                    "time_h": 8,
+                    "percent_released": 78
+                },
+                {
+                    "time_h": 10,
+                    "percent_released": 90
+                },
+                {
+                    "time_h": 12,
+                    "percent_released": 96
+                }
+            ]
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "068_F1",
+            "buoyancy_lag_time_sec": 82,
+            "total_floating_time_h": 11.32,
+            "hardness_kg_per_cm2": "Not specified per batch",
+            "friability": "Not specified",
+            "disintegration_time": "Tablets remained buoyant without disintegration",
+            "dissolution_profile": "Slow release",
+            "weight_variation_percent": "Not specified"
+        },
+        {
+            "batch": "068_F2",
+            "buoyancy_lag_time_sec": 92,
+            "total_floating_time_h": 11.45,
+            "hardness_kg_per_cm2": "Not specified per batch"
+        },
+        {
+            "batch": "068_F3",
+            "buoyancy_lag_time_sec": 28,
+            "total_floating_time_h": 6.15,
+            "hardness_kg_per_cm2": "Not specified per batch"
+        },
+        {
+            "batch": "068_F4",
+            "buoyancy_lag_time_sec": 36,
+            "total_floating_time_h": 8.52,
+            "hardness_kg_per_cm2": "Not specified per batch"
+        },
+        {
+            "batch": "068_F5",
+            "buoyancy_lag_time_sec": 40,
+            "total_floating_time_h": 8.33,
+            "hardness_kg_per_cm2": "Not specified per batch"
+        },
+        {
+            "batch": "068_F6",
+            "buoyancy_lag_time_sec": 58,
+            "total_floating_time_h": 9.15,
+            "hardness_kg_per_cm2": "Not specified per batch"
+        },
+        {
+            "batch": "068_F7",
+            "buoyancy_lag_time_sec": 126,
+            "total_floating_time_h": 5.27,
+            "hardness_kg_per_cm2": "Not specified per batch"
+        },
+        {
+            "batch": "068_F8",
+            "buoyancy_lag_time_sec": 72,
+            "total_floating_time_h": 9.16,
+            "hardness_kg_per_cm2": "4-5 (optimum)",
+            "friability": "Not specified",
+            "disintegration_time": "Remained buoyant without disintegration",
+            "dissolution_profile": "Sustained release, near zero-order",
+            "weight_variation_percent": "Not specified",
+            "stability": "Not specified",
+            "thickness": "Not specified"
+        },
+        {
+            "batch": "068_F9",
+            "buoyancy_lag_time_sec": 80,
+            "total_floating_time_h": 10.21,
+            "hardness_kg_per_cm2": "Not specified per batch"
+        }
+    ],
+    "experimental_data": {
+        "in_vitro_dissolution_medium": "900 ml 0.1N HCl containing 0.5% SLS",
+        "dissolution_apparatus": "USP XXIII Type II (paddle), 50 rpm",
+        "temperature_celsius": 37,
+        "analysis_wavelength_nm": 239.1,
+        "buoyancy_test_medium": "0.1N HCl (pH 1.2), 0.5% SLS",
+        "effect_of_hardness_on_blt": "As hardness increases, buoyancy lag time increases linearly. Optimum hardness: 4-5 kg/cm².",
+        "zero_order_r2_range": "0.990 to 0.998",
+        "first_order_r2_range": "0.877 to 0.989",
+        "higuchi_r2_range": "0.980 to 0.997",
+        "peppas_n_range": "0.432 to 0.804",
+        "overall_release_mechanism": "Non-Fickian diffusion (anomalous transport) for most batches, Fickian for 068_F7, near zero-order for 068_F8",
+        "optimized_batch": "068_F8",
+        "optimized_batch_release_kinetics": "Korsmeyer-Peppas n=0.593, Zero-order r²=0.998, release approaching zero-order",
+        "optimized_batch_buoyancy": "BLT 72 sec, TFT 9.16 h",
+        "statistical_analysis": "Data presented as mean ± SD, n=3 for flow properties, buoyancy, and dissolution"
+    }
+}

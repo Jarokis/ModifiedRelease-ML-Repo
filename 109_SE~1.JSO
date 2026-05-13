@@ -1,0 +1,314 @@
+{
+    "article_summary": {
+        "title": "Self-assembled polyelectrolyte complexes films as efficient compression coating layers for controlled-releasing tablets",
+        "objective": "Develop zero-order releasing compression-coated tablets using chitosan (CS) and sodium alginate (SA) as outer layer coating material, with paracetamol (APAP) as model drug."
+    },
+    "sections_identification": {
+        "abstract": "Pages 1",
+        "introduction": "Pages 1-2",
+        "materials_and_methods": "Pages 2-4 (sections 2.1 to 2.8)",
+        "results": "Pages 5-10 (section 3)",
+        "discussion": "Pages 10-11 (section 4)",
+        "conclusion": "Page 11 (section 5)"
+    },
+    "materials_origin": {
+        "paracetamol_APAP": "Aladdin Biological Technology co., LTD. (Shanghai, China)",
+        "chitosan_300_kDa": "Aoxing Biotechnology co., LTD. (Zhejiang, China)",
+        "sodium_alginate_386_mPa_s": "Huanghai Biopharmaceutical co., LTD. (Qingdao, China)",
+        "theophylline_internal_standard": "Yitai Technology co., LTD. (Wuhan, China)",
+        "microcrystalline_cellulose_MCC_Avicel_PH101": "Asahi Kasei. Co., Ltd. (Tokyo, Japan)",
+        "lactose": "Meggle Co., LTD (Germany)",
+        "starch": "Colorcon Coating Technology co., LTD (Shanghai, China)",
+        "marketed_reference_tablets_Jinfuning": "Jinshi General Pharmaceutical Factory (Shantou, China)"
+    },
+    "experimental_design_for_optimization": {
+        "design_type": "Screening of CS/SA weight ratios for PEC film formation and compression coating",
+        "independent_variables": [
+            "CS/SA weight ratio",
+            "core/coating weight ratio",
+            "filler type and ratio"
+        ],
+        "response_variables": [
+            "Swelling ratio",
+            "Film integrity",
+            "Drug release kinetics (zero-order R²)",
+            "In vivo Tmax, Cmax, AUC"
+        ],
+        "optimal_formulation": {
+            "core_tablet": "APAP 40 mg, MCC 15 mg, lactose 45 mg",
+            "coating_layer": "CS 60 mg, SA 60 mg",
+            "total_weight_per_tablet": "220 mg"
+        }
+    },
+    "formulation_details_for_each_batch_F1_F5": {
+        "description": "These are APAP-containing PEC matrix tablets (not compression-coated) used for film property investigation. Total weight per tablet = 150 mg. Hardness adjusted to 40-60 N.",
+        "109_F1": {
+            "APAP_mg": 50.0,
+            "chitosan_CS_mg": 100.0,
+            "sodium_alginate_SA_mg": 0,
+            "CS_SA_weight_ratio": "1:0"
+        },
+        "109_F2": {
+            "APAP_mg": 50.0,
+            "chitosan_CS_mg": 90.91,
+            "sodium_alginate_SA_mg": 9.09,
+            "CS_SA_weight_ratio": "10:1"
+        },
+        "109_F3": {
+            "APAP_mg": 50.0,
+            "chitosan_CS_mg": 50.0,
+            "sodium_alginate_SA_mg": 50.0,
+            "CS_SA_weight_ratio": "1:1"
+        },
+        "109_F4": {
+            "APAP_mg": 50.0,
+            "chitosan_CS_mg": 9.09,
+            "sodium_alginate_SA_mg": 90.91,
+            "CS_SA_weight_ratio": "1:10"
+        },
+        "109_F5": {
+            "APAP_mg": 50.0,
+            "chitosan_CS_mg": 0,
+            "sodium_alginate_SA_mg": 100.0,
+            "CS_SA_weight_ratio": "0:1"
+        }
+    },
+    "pre_compression_parameters_for_each_batch": {
+        "note": "Not reported per batch. The following general parameters apply to all 109_F1-109_F5 matrix tablets.",
+        "mass_distribution": "Total weight 150 mg per tablet (not specified as mean ± SD)",
+        "hardness_range": "40-60 N (measured by Monsanto hardness tester)",
+        "friability": "Not reported",
+        "size_diameter": "8 mm (diameter notching punch)",
+        "SD": "Not reported"
+    },
+    "composition_of_independent_variables_and_levels": {
+        "variable": "CS/SA weight ratio",
+        "levels": [
+            "1:0 (109_F1)",
+            "10:1 (109_F2)",
+            "1:1 (109_F3)",
+            "1:10 (109_F4)",
+            "0:1 (109_F5)"
+        ],
+        "other_variables": {
+            "core_to_coating_weight_ratio_for_compression_coated_tablets": [
+                "1:0",
+                "4:1",
+                "4:2",
+                "4:3"
+            ],
+            "filler_types": [
+                "MCC",
+                "lactose",
+                "starch"
+            ],
+            "MCC_lactose_ratios_in_core": [
+                "1:1",
+                "1:2",
+                "1:3",
+                "1:4"
+            ]
+        }
+    },
+    "fourier_transform_infrared_spectral_measurements": {
+        "instrument": "IFS 113 v FT-IR spectrophotometer (Brucker, Karlsruhe) with DTGS detector",
+        "range": "4000-400 cm⁻¹",
+        "temperature": "25±1°C",
+        "sample_preparation": "Simple powder of CS, SA, physical mixture, and lyophilized film after 12h dissolution",
+        "key_bands": {
+            "SA": "1621 cm⁻¹ (asymmetric COO⁻ stretch), 1423 cm⁻¹ (symmetric COO⁻ stretch)",
+            "CS": "1659 cm⁻¹ (amide I), 1597 cm⁻¹ (amino group), 1486 cm⁻¹ (C-N amide)",
+            "physical_mixture": "No new bands",
+            "PEC_film": "Single broad band at 1609 cm⁻¹ (shift from 1659 cm⁻¹), indicating ionic interaction between NH₃⁺ (CS) and COO⁻ (SA)"
+        },
+        "conclusion": "Formation of CS-SA polyelectrolyte complex confirmed."
+    },
+    "tablet_fabrications_for_each_batch_F1_F5": {
+        "method": "Direct compression using single punch tablet machine (Shanghai Pharmaceutical Machinery Factory, China)",
+        "punch_diameter": "8 mm (notching punch)",
+        "hardness_determination": "Monsanto hardness tester, adjusted to 40-60 N",
+        "friability": "Not reported",
+        "weight_variation": "Not reported, but total weight target 150 mg",
+        "thickness_and_diameter": "Diameter 8 mm; thickness not reported",
+        "density": "Not reported",
+        "drug_content": "APAP 50 mg per tablet (33.3% w/w for 109_F1-109_F5)",
+        "consolidation_index": "Not reported"
+    },
+    "process_parameters": {
+        "compression_device": "Single punch tableting machine (Shanghai Pharmaceutical Machinery Factory, China)",
+        "pressure": "Not specified (hardness used as control, 40-60 N)",
+        "coating_process": "Compression coating: half of coating powder filled into die, core tablet centered, remaining coating powder added, then compressed to 8 mm diameter tablets",
+        "equipment_used": "USP dissolution apparatus I (basket) and II (paddle); HPLC (LC-10AT, Shimadzu); SEM (SU8010, HITACHI); DSC-204 (Netzsch); FT-IR (IFS 113 v)",
+        "process_conditions": {
+            "dissolution_temperature": "37±0.5°C",
+            "rotation_speed": "100 rpm",
+            "dissolution_media": "SGF pH 1.2 (2h) then SIF pH 6.8 (10h)",
+            "HPLC_conditions": "Column ODS-3C18 (4.6×250 mm, 5 μm), 35°C; mobile phase methanol/water 80:20 v/v; flow rate 1.0 mL/min; UV detection 243 nm"
+        }
+    },
+    "release_properties_for_F1_F5": {
+        "note": "Release properties for 109_F1-109_F5 matrix tablets are not reported as drug release profiles; instead, swelling ratios and film formation were studied. Drug release studies were performed on compression-coated tablets (not 109_F1-109_F5).",
+        "swelling_behavior": {
+            "F1_CS_SA_1_0": "Fast initial swelling, then plateau from 4-12h",
+            "F2_10_1": "Similar to 109_F1",
+            "F3_1_1": "Continuous increase in swelling ratio over 12h (fast first 4h, slower 4-12h)",
+            "F4_1_10": "Rapid descent after transfer to SIF (disintegration)",
+            "F5_0_1": "Rapid descent after transfer to SIF (complete dissolution)"
+        },
+        "release_mechanism_for_compression_coated_tablets_optimal": {
+            "zero_order_R2": 0.997,
+            "first_order_R2": 0.927,
+            "higuchi_R2": 0.971,
+            "korsmeyer_peppas_R2": 0.993,
+            "release_exponent_n": 0.852,
+            "mechanism": "Anomalous transport (non-Fickian), controlled by diffusion and erosion"
+        },
+        "factors_influencing_release": "pH-dependent PEC film formation; swelling and erosion of CS/SA; coating layer weight; core filler type and ratio"
+    },
+    "tablet_properties_for_compression_coated_tablets_optimal": {
+        "hardness": "40-60 N",
+        "friability": "Not reported",
+        "disintegration_time": "Not directly reported; lag time of ~2h in vivo",
+        "dissolution_profile": "Zero-order release over 12h (see dissolution_profile_fig_7a below)",
+        "stability": "Not reported",
+        "thickness": "Not reported",
+        "weight_variation_percent": "Not reported"
+    },
+    "dissolution_profile_fig_7a": {
+        "description": "Approximated values from Figure 7a (mean cumulative percent release ± SD, n=6). Test = optimal compression-coated tablets (APAP 40 mg core, CS/SA 60/60 mg coating). Marketed = Jinfuning rapid release tablets.",
+        "conditions": "SGF pH 1.2 for 2h, then SIF pH 6.8 for 10h at 37°C, 100 rpm basket method.",
+        "time_points_h": [
+            0,
+            1,
+            2,
+            4,
+            6,
+            8,
+            10,
+            12,
+            14
+        ],
+        "test_tablet_percent_released_mean_SD": [
+            {
+                "time": 0,
+                "mean": 0,
+                "SD": 0
+            },
+            {
+                "time": 1,
+                "mean": 2,
+                "SD": 1
+            },
+            {
+                "time": 2,
+                "mean": 5,
+                "SD": 1.5
+            },
+            {
+                "time": 4,
+                "mean": 18,
+                "SD": 2
+            },
+            {
+                "time": 6,
+                "mean": 32,
+                "SD": 2.5
+            },
+            {
+                "time": 8,
+                "mean": 48,
+                "SD": 3
+            },
+            {
+                "time": 10,
+                "mean": 65,
+                "SD": 3
+            },
+            {
+                "time": 12,
+                "mean": 82,
+                "SD": 3.5
+            },
+            {
+                "time": 14,
+                "mean": 94,
+                "SD": 3
+            }
+        ],
+        "marketed_tablet_percent_released_mean_SD": [
+            {
+                "time": 0,
+                "mean": 0,
+                "SD": 0
+            },
+            {
+                "time": 1,
+                "mean": 45,
+                "SD": 5
+            },
+            {
+                "time": 2,
+                "mean": 78,
+                "SD": 4
+            },
+            {
+                "time": 4,
+                "mean": 96,
+                "SD": 2
+            },
+            {
+                "time": 6,
+                "mean": 99,
+                "SD": 1
+            },
+            {
+                "time": 8,
+                "mean": 100,
+                "SD": 0.5
+            },
+            {
+                "time": 10,
+                "mean": 100,
+                "SD": 0.5
+            },
+            {
+                "time": 12,
+                "mean": 100,
+                "SD": 0
+            },
+            {
+                "time": 14,
+                "mean": 100,
+                "SD": 0
+            }
+        ]
+    },
+    "experimental_data": {
+        "swelling_study_equation": "SR = (Wt - W0)/W0 × 100%",
+        "zero_order_equation": "Mt/M∞ = kt",
+        "first_order_equation": "ln(1 - Mt/M∞) = -kt",
+        "korsmeyer_peppas_equation": "Mt/M∞ = k tⁿ",
+        "uv_absorbance_wavelength": "243 nm",
+        "in_vitro_results_optimal_compression_coated_tablets": {
+            "release_model_fitting": "Zero-order (R²=0.997) with release rate constant k=0.063 h⁻¹",
+            "comparison_with_marketed_Jinfuning": "Marketed tablets showed rapid release (100% within ~4h), test tablets showed sustained zero-order release over 12h (see dissolution_profile_fig_7a)"
+        },
+        "in_vivo_results_rabbits": {
+            "parameter": {
+                "Cmax_test_ng_per_mL": "728.54 ± 112.85",
+                "Cmax_marketed_ng_per_mL": "2071.74 ± 192.58",
+                "Tmax_test_h": "12.32 ± 1.05",
+                "Tmax_marketed_h": "0.89 ± 0.26",
+                "AUC0_t_test_h_ng_per_mL": "7129.96 ± 751.36",
+                "AUC0_t_marketed_h_ng_per_mL": "7365.48 ± 170.17",
+                "MRT0_t_test_h": "10.89 ± 0.23",
+                "MRT0_t_marketed_h": "3.01 ± 0.03",
+                "relative_bioavailability_percent": "96.80 ± 1.56"
+            },
+            "statistical_significance": "p < 0.01 for Tmax and Cmax compared to marketed tablets",
+            "lag_time": "~2 h (in vivo)"
+        },
+        "performance_metrics": "Compression-coated tablets achieved zero-order release, prolonged Tmax, and bioequivalent relative bioavailability (within 80-125%) compared to Jinfuning."
+    },
+    "missing_data_note": "The following requested parameters were not reported in the article: friability, weight variation % with SD, thickness, diameter (except 8 mm for matrix tablets), density, consolidation index, disintegration time, stability, pre-compression parameters (mass distribution, etc.) per batch 109_F1-109_F5, and individual release profiles for 109_F1-109_F5 (only swelling ratios are given graphically)."
+}

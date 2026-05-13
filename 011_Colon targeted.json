@@ -1,0 +1,408 @@
+{
+  "sections": {
+    "abstract": {
+      "contains": [
+        "Study aim, overview of three formulations (F-1: 40% guar gum, F-2: 50% guar gum, F-3: control without guar), 50 mg curcumin per tablet, wet granulation method, evaluation metrics (hardness, friability, content uniformity), in vitro mouth-to-colon release design, and key result that F-1 released 91.1% at 24 h with rat caecal contents vs 82.1% for F-2"
+      ],
+      "notes": "Summarizes formulation strategy and comparative release outcomes in simulated GI conditions with/without rat caecal contents"
+    },
+    "introduction": {
+      "contains": [
+        "Rationale for colon-targeted delivery, advantages of colon as a site, curcumin background and therapeutic relevance, and justification for using degradable polysaccharides such as guar gum for colon targeting"
+      ],
+      "notes": "Frames need for matrix systems that protect in stomach/small intestine and release in colon"
+    },
+    "materials": {
+      "contains": [
+        "Chemicals and sources (guar gum and curcumin), characterization of guar gum (particle traits, angle of repose, densities, pH, ash, LOD, solubility), and formulation components/percentages (Table 2)"
+      ],
+      "notes": "Vendor information and excipient profiles; guar gum quality parameters in Table 1"
+    },
+    "methods": {
+      "contains": [
+        "Wet granulation process steps, sieving sizes, drying conditions, tableting equipment, evaluation tests (weight variation, hardness, friability, content uniformity), dissolution media sequence, USP Apparatus 1 settings, UV analysis at 421 nm, and rat caecal content preparation for microbiota-susceptibility testing"
+      ],
+      "notes": "Full preparation and test conditions to replicate in vitro mouth-to-colon release and microbiota-mediated degradation"
+    },
+    "results_and_discussion": {
+      "contains": [
+        "Physical evaluation (weight, hardness, friability, content uniformity in Table 3), dissolution profiles without rat caecal contents (Table 4), dissolution profiles with rat caecal contents (Table 5), and interpretation that guar gum protects in upper GI and enhances colonic release via enzymatic degradation"
+      ],
+      "notes": "Comparative performance across F-1/F-2/F-3 and effect of rat caecal enzymes on release"
+    },
+    "conclusion": {
+      "contains": [
+        "Guar gum matrices protect curcumin in stomach/small intestine and enable colonic release, potentially reducing dose while increasing bioavailability for colon cancer therapy"
+      ],
+      "notes": "Positions guar gum as a promising carrier for colon-specific curcumin delivery"
+    }
+  },
+  "materials_origin": {
+    "actives_and_excipients": [
+      "Curcumin and guar gum purchased from National Chemical, Vadodara, Gujarat, India"
+    ],
+    "guar_gum_characterization": {
+      "particle_characters": "White to off-white powder, nearly neutral flavor, odor, color",
+      "angle_of_repose_deg": 35.5,
+      "bulk_density_g_per_cm3": 0.588,
+      "tap_density_g_per_cm3": 0.769,
+      "percent_compressibility": 23.5,
+      "hausner_ratio": 1.3,
+      "loss_on_drying_percent": 11,
+      "pH": "7.1 ± 0.2",
+      "total_ash_percent": 0.85,
+      "solubility": "Soluble in hot and cold water"
+    }
+  },
+  "experimental_design_for_optimization": {
+    "design_type": "Comparative formulations with varying guar gum levels (no formal DOE or optimization model reported)",
+    "formulations_compared": [
+      "F-1: 40% guar gum matrix tablets with 10% curcumin",
+      "F-2: 50% guar gum matrix tablets with 10% curcumin",
+      "F-3: Control without guar gum (85% lactose) with 10% curcumin"
+    ],
+    "primary_endpoint": "Cumulative curcumin release over time across GI-mimicking media with and without rat caecal contents"
+  },
+  "ingredients_identification": {
+    "how_prepared": [
+      "Curcumin, guar gum (<250 µm), and lactose (<250 µm) were sieved; drug was sieved <150 µm; powders blended and wet granulated with 8% starch paste; wet mass passed through sieve #18, dried at 50°C for 2 h, sized through #22, lubricated with talc:Mg stearate (2:1), and compressed on eight-station tabletting machine"
+    ],
+    "analytical_details": {
+      "uv_detection_wavelength_nm": 421,
+      "absorbance_notes": "Quantified by UV method at 421 nm using standard curves in each dissolution medium; pre-filtering not applied prior to sampling",
+      "calibration_equation": "Not reported"
+    },
+    "results_summary": [
+      "F-1 and F-2 minimized release in upper GI media and showed enhanced release with rat caecal contents, indicating enzymatic degradation of guar gum in colonic conditions"
+    ]
+  },
+  "formulation_details_by_batch": {
+    "F-1": {
+      "tablet_weight_mg": 508,
+      "composition_percent_w_w": {
+        "Curcumin": 10,
+        "Guar gum": 40,
+        "Lactose": 45,
+        "Magnesium stearate": 1,
+        "Talc": 2,
+        "SLS": 2,
+        "Starch paste (8%)": "q.s. for granulation (binder solution concentration; not part of % w/w totals)"
+      },
+      "composition_mass_mg": {
+        "Curcumin": 50.8,
+        "Guar gum": 203.2,
+        "Lactose": 228.6,
+        "Magnesium stearate": 5.08,
+        "Talc": 10.16,
+        "SLS": 10.16
+      },
+      "notes": "Percentages sum to 100% excluding binder solution; per abstract each tablet contains ~50 mg curcumin"
+    },
+    "F-2": {
+      "tablet_weight_mg": 507,
+      "composition_percent_w_w": {
+        "Curcumin": 10,
+        "Guar gum": 50,
+        "Lactose": 35,
+        "Magnesium stearate": 1,
+        "Talc": 2,
+        "SLS": 2,
+        "Starch paste (8%)": "q.s. for granulation (binder solution concentration; not part of % w/w totals)"
+      },
+      "composition_mass_mg": {
+        "Curcumin": 50.7,
+        "Guar gum": 253.5,
+        "Lactose": 177.45,
+        "Magnesium stearate": 5.07,
+        "Talc": 10.14,
+        "SLS": 10.14
+      },
+      "notes": "Higher guar gum content reduces release in upper GI and modestly reduces total 24 h release compared to F-1"
+    },
+    "F-3": {
+      "tablet_weight_mg": 503,
+      "composition_percent_w_w": {
+        "Curcumin": 10,
+        "Guar gum": 0,
+        "Lactose": 85,
+        "Magnesium stearate": 1,
+        "Talc": 2,
+        "SLS": 2,
+        "Starch paste (8%)": "q.s. for granulation (binder solution concentration; not part of % w/w totals)"
+      },
+      "composition_mass_mg": {
+        "Curcumin": 50.3,
+        "Guar gum": 0,
+        "Lactose": 427.55,
+        "Magnesium stearate": 5.03,
+        "Talc": 10.06,
+        "SLS": 10.06
+      },
+      "notes": "Control tablets without guar gum show rapid release in upper GI media (63.2% by 5 h)"
+    }
+  },
+  "pre_compression_parameters_by_batch": {
+    "F-1": {
+      "mass_distribution": "Not reported",
+      "granule_flow": "Not reported (only guar gum powder properties reported)",
+      "hardness": "Not applicable pre-compression; see tablet properties",
+      "friability": "Not applicable pre-compression; see tablet properties",
+      "size": "Sieved: drug <150 µm; guar gum and lactose <250 µm; granules sized via #18 then #22",
+      "standard_deviation": "Not reported"
+    },
+    "F-2": {
+      "mass_distribution": "Not reported",
+      "granule_flow": "Not reported (only guar gum powder properties reported)",
+      "hardness": "Not applicable pre-compression; see tablet properties",
+      "friability": "Not applicable pre-compression; see tablet properties",
+      "size": "Sieved: drug <150 µm; guar gum and lactose <250 µm; granules sized via #18 then #22",
+      "standard_deviation": "Not reported"
+    },
+    "F-3": {
+      "mass_distribution": "Not reported",
+      "granule_flow": "Not reported (only guar gum powder properties reported)",
+      "hardness": "Not applicable pre-compression; see tablet properties",
+      "friability": "Not applicable pre-compression; see tablet properties",
+      "size": "Sieved: drug <150 µm; lactose <250 µm; granules sized via #18 then #22",
+      "standard_deviation": "Not reported"
+    }
+  },
+  "independent_variables_and_levels": {
+    "primary_factor": "Guar gum content in matrix",
+    "levels_percent": [],
+    "controlled_factors": [
+      "Curcumin fixed at 10% w/w per tablet (~50 mg)",
+      "SLS fixed at 2% w/w as solubilizer",
+      "Magnesium stearate 1% w/w and talc 2% w/w as lubricant/glidant",
+      "Lactose q.s. to balance formulation (35–85% depending on batch)"
+    ],
+    "dissolution_media_sequence": [
+      "0.1N HCl (900 mL) for 2 h at 37°C, 100 rpm (USP Apparatus 1)",
+      "pH 7.4 phosphate buffer (900 mL) for 3 h at 37°C, 100 rpm",
+      "pH 6.8 phosphate buffer (900 mL) up to 24 h at 37°C, 100 rpm"
+    ]
+  },
+  "ftir_measurements": "Not reported; no FTIR analysis described in this study",
+  "tablet_fabrications_by_batch": {
+    "F-1": {
+      "hardness_kg_per_cm2": 6.3,
+      "friability_percent": 0.85,
+      "weight_mg": 508,
+      "thickness_mm": "Not reported",
+      "diameter_mm": "Not reported",
+      "formulation_density": "Not reported",
+      "drug_content_uniformity_percent": 99.2,
+      "consolidation_index": "Not reported"
+    },
+    "F-2": {
+      "hardness_kg_per_cm2": 6.4,
+      "friability_percent": 0.83,
+      "weight_mg": 507,
+      "thickness_mm": "Not reported",
+      "diameter_mm": "Not reported",
+      "formulation_density": "Not reported",
+      "drug_content_uniformity_percent": 99.3,
+      "consolidation_index": "Not reported"
+    },
+    "F-3": {
+      "hardness_kg_per_cm2": 5.3,
+      "friability_percent": 0.33,
+      "weight_mg": 503,
+      "thickness_mm": "Not reported",
+      "diameter_mm": "Not reported",
+      "formulation_density": "Not reported",
+      "drug_content_uniformity_percent": 98.9,
+      "consolidation_index": "Not reported"
+    },
+    "measurement_methods": [
+      "Evaluation per standard tablet tests: weight variation, hardness, friability, and content uniformity"
+    ]
+  },
+  "process_parameters": {
+    "granulation": [
+      "Wet granulation with 8% w/w starch paste as binder; powders blended then granulated"
+    ],
+    "sieving_and_sizing": [
+      "Curcumin <150 µm; guar gum and lactose <250 µm before blending; wet mass passed through sieve #18; dried granules re-sized through sieve #22"
+    ],
+    "drying": [
+      "Tray drying at 50°C for 2 hours"
+    ],
+    "lubrication": [
+      "Talc–magnesium stearate mixture (2:1) used as lubricant prior to compression"
+    ],
+    "compression": [
+      "Eight-station tabletting machine; compression pressure not reported; no coating applied"
+    ],
+    "dissolution_testing": [
+      "USP Apparatus 1 (basket), 100 rpm, 37°C; media sequence: 0.1N HCl 2 h, pH 7.4 buffer 3 h, pH 6.8 buffer to 24 h; 900 mL each stage"
+    ],
+    "analysis": [
+      "UV spectrophotometry at 421 nm; samples 5 mL withdrawn at intervals, replaced with fresh buffer; analyzed using standard curves per medium"
+    ],
+    "rat_caecal_preparation": [
+      "Male albino rats pre-dosed with 1% guar gum dispersion (4 mL/day) for 7 days; caecal contents harvested, 4% w/v in pH 6.8 buffer, CO2 bubbled; used to simulate colonic enzymatic environment"
+    ]
+  },
+  "release_properties_by_batch": {
+    "without_rat_caecal_contents": {
+      "F-1": {
+        "release_profile_percent": [
+          {"time_h": 2, "cumulative_percent": 1.4},
+          {"time_h": 5, "cumulative_percent": 3.1},
+          {"time_h": 6, "cumulative_percent": 6.9},
+          {"time_h": 7, "cumulative_percent": 24.2},
+          {"time_h": 9, "cumulative_percent": 41.2},
+          {"time_h": 18, "cumulative_percent": 67.1},
+          {"time_h": 24, "cumulative_percent": 68.7}
+        ],
+        "release_mechanism_model": "Not modeled/reported (no zero-order/first-order/Higuchi/Korsmeyer–Peppas fits)",
+        "influencing_factors": [
+          "Minimal release in acidic (pH ~1.2) and upper GI buffer stages; matrix integrity attributed to guar gum gel formation"
+        ]
+      },
+      "F-2": {
+        "release_profile_percent": [
+          {"time_h": 2, "cumulative_percent": 1.1},
+          {"time_h": 5, "cumulative_percent": 2.4},
+          {"time_h": 6, "cumulative_percent": 5.3},
+          {"time_h": 7, "cumulative_percent": 13.5},
+          {"time_h": 9, "cumulative_percent": 18.7},
+          {"time_h": 18, "cumulative_percent": 53.3},
+          {"time_h": 24, "cumulative_percent": 55.7}
+        ],
+        "release_mechanism_model": "Not modeled/reported (no zero-order/first-order/Higuchi/Korsmeyer–Peppas fits)",
+        "influencing_factors": [
+          "Higher guar gum content further retards release in upper GI media"
+        ]
+      },
+      "F-3": {
+        "release_profile_percent": [
+          {"time_h": 2, "cumulative_percent": 51.5},
+          {"time_h": 5, "cumulative_percent": 63.2}
+        ],
+        "release_mechanism_model": "Not modeled/reported",
+        "influencing_factors": [
+          "Absence of guar gum leads to rapid release in upper GI conditions"
+        ]
+      }
+    },
+    "with_rat_caecal_contents": {
+      "F-1": {
+        "release_profile_percent": [
+          {"time_h": 2, "cumulative_percent": 1.1},
+          {"time_h": 5, "cumulative_percent": 3.1},
+          {"time_h": 6, "cumulative_percent": 8.7},
+          {"time_h": 7, "cumulative_percent": 23.5},
+          {"time_h": 9, "cumulative_percent": 49.8},
+          {"time_h": 18, "cumulative_percent": 77.1},
+          {"time_h": 24, "cumulative_percent": 91.1}
+        ],
+        "release_mechanism_model": "Not modeled/reported",
+        "influencing_factors": [
+          "Enhanced release due to enzymatic degradation of guar gum by caecal microflora"
+        ]
+      },
+      "F-2": {
+        "release_profile_percent": [
+          {"time_h": 2, "cumulative_percent": 1.1},
+          {"time_h": 5, "cumulative_percent": 2.4},
+          {"time_h": 6, "cumulative_percent": 7.8},
+          {"time_h": 7, "cumulative_percent": 20},
+          {"time_h": 9, "cumulative_percent": 38.8},
+          {"time_h": 18, "cumulative_percent": 68.2},
+          {"time_h": 24, "cumulative_percent": 82.1}
+        ],
+        "release_mechanism_model": "Not modeled/reported",
+        "influencing_factors": [
+          "Enzymatic susceptibility of guar gum increases release in simulated colonic environment"
+        ]
+      }
+    }
+  },
+  "tablet_properties_by_batch": {
+    "F-1": {
+      "hardness_kg_per_cm2": 6.3,
+      "friability_percent": 0.85,
+      "disintegration_time_min": "Not reported (matrix tablet; dissolution-driven)",
+      "dissolution_profile_reference": "See release_properties_by_batch.without_rat_caecal_contents and with_rat_caecal_contents",
+      "stability": "Not reported",
+      "thickness_mm": "Not reported",
+      "weight_variation": "Mean 508 mg; SD not reported",
+      "swelling_water_uptake": {
+        "lag_time_min": "Not reported",
+        "total_floating_time_h": "Not applicable/not reported",
+        "swelling_index_percent": "Not reported"
+      },
+      "release_kinetics": {
+        "zero_order": "Not reported",
+        "first_order": "Not reported",
+        "Higuchi": "Not reported",
+        "Hixson_Crowell": "Not reported",
+        "Korsmeyer_Peppas": "Not reported",
+        "mechanism_interpretation": "Qualitative: diffusion/erosion via guar gum degradation in colonic conditions; no model fitting reported"
+      }
+    },
+    "F-2": {
+      "hardness_kg_per_cm2": 6.4,
+      "friability_percent": 0.83,
+      "disintegration_time_min": "Not reported (matrix tablet; dissolution-driven)",
+      "dissolution_profile_reference": "See release_properties_by_batch.without_rat_caecal_contents and with_rat_caecal_contents",
+      "stability": "Not reported",
+      "thickness_mm": "Not reported",
+      "weight_variation": "Mean 507 mg; SD not reported",
+      "swelling_water_uptake": {
+        "lag_time_min": "Not reported",
+        "total_floating_time_h": "Not applicable/not reported",
+        "swelling_index_percent": "Not reported"
+      },
+      "release_kinetics": {
+        "zero_order": "Not reported",
+        "first_order": "Not reported",
+        "Higuchi": "Not reported",
+        "Hixson_Crowell": "Not reported",
+        "Korsmeyer_Peppas": "Not reported",
+        "mechanism_interpretation": "Qualitative: higher polymer fraction increases matrix integrity and slows release; no model fitting reported"
+      }
+    },
+    "F-3": {
+      "hardness_kg_per_cm2": 5.3,
+      "friability_percent": 0.33,
+      "disintegration_time_min": "Not reported",
+      "dissolution_profile_reference": "See release_properties_by_batch.without_rat_caecal_contents",
+      "stability": "Not reported",
+      "thickness_mm": "Not reported",
+      "weight_variation": "Mean 503 mg; SD not reported",
+      "swelling_water_uptake": {
+        "lag_time_min": "Not reported",
+        "total_floating_time_h": "Not applicable/not reported",
+        "swelling_index_percent": "Not reported"
+      },
+      "release_kinetics": {
+        "zero_order": "Not reported",
+        "first_order": "Not reported",
+        "Higuchi": "Not reported",
+        "Hixson_Crowell": "Not reported",
+        "Korsmeyer_Peppas": "Not reported",
+        "mechanism_interpretation": "Rapid dissolution due to absence of matrix-forming polymer; no model fitting reported"
+      }
+    }
+  },
+  "experimental_data": {
+    "in_vitro": [
+      "Dissolution profiles in staged GI media (0.1N HCl → pH 7.4 → pH 6.8) without rat caecal contents for F-1/F-2/F-3 (Table 4)",
+      "Dissolution profiles in pH 6.8 buffer with 4% w/v rat caecal contents for F-1/F-2 (Table 5)"
+    ],
+    "in_vivo": "Not reported",
+    "statistics": "Not reported (no SD/SE or model fits shown for dissolution kinetics)",
+    "performance_metrics": [
+      "24 h cumulative release without caecal contents: F-1 68.7%, F-2 55.7%",
+      "24 h cumulative release with caecal contents: F-1 91.1%, F-2 82.1%"
+    ],
+    "zero_and_first_order_fits": "Not reported"
+  },
+  "notes": [
+    "No FTIR characterization, kinetic modeling, disintegration time, stability studies, thickness/diameter, formulation density, SD for tests, or compression force were reported in this article"
+  ],
+  "source": "attached_file:1"
+}

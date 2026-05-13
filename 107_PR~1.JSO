@@ -1,0 +1,366 @@
+{
+    "article_sections": {
+        "abstract": "Pages 1-2",
+        "introduction": "Pages 1-2",
+        "materials_and_methods": "Pages 2-3",
+        "results_and_discussion": "Pages 3-6",
+        "conclusion": "Page 6 (implied)"
+    },
+    "materials_origin": {
+        "ibuprofen": "Strides Acro Labs, Bangalore, India",
+        "chitosan": "Alembic Pharma, Baroda, India",
+        "microcrystalline_cellulose": "Spectrochem Pvt. Ltd. Mumbai",
+        "sodium_starch_glycolate": "Spectrochem Pvt. Ltd. Mumbai",
+        "potassium_dihydrogen_phosphate": "Spectrochem Pvt. Ltd. Mumbai",
+        "magnesium_stearate": "Spectrochem Pvt. Ltd. Mumbai",
+        "sodium_hydroxide": "Sd fine chem. Ltd., Mumbai, India",
+        "talc": "Leo chem. Bangalore, India",
+        "potassium_chloride": "Thomas Baker, Mumbai, India",
+        "potassium_bromide": "Merck specialties Pvt. Ltd., Germany",
+        "hydrochloride": "Swastik Pharmaceuticals, Mumbai, India"
+    },
+    "experimental_design": {
+        "type": "Direct compression of core tablets followed by compression coating with chitosan",
+        "optimization_factors": "Amount of chitosan in coat (300, 250, 200, 175, 150 mg)",
+        "response_variables": "Drug release in presence/absence of rat caecal contents, hardness, friability, weight variation"
+    },
+    "ingredients_identification": {
+        "core_tablet_composition": {
+            "ibuprofen": "100 mg",
+            "microcrystalline_cellulose": "46 mg",
+            "dried_starch": "4 mg",
+            "total_weight": "150 mg"
+        },
+        "coat_composition_general": {
+            "chitosan": "varies by batch",
+            "microcrystalline_cellulose": "varies (to adjust hardness)",
+            "magnesium_stearate": "2 mg (from text: 25? Actually need clarity)",
+            "talc": "3 mg? Based on typical pattern"
+        },
+        "preparation_method": "Materials weighed, mixed, passed through 250 μm mesh, compressed using 7 mm round flat punches on single station tablet machine (Cadmach, India)",
+        "results_equation_not_applicable": "No equation for preparation",
+        "absorbance_wavelength": "223 nm for UV analysis"
+    },
+    "formulation_details": [
+        {
+            "batch": "107_F1",
+            "chitosan_mg": 270,
+            "mcc_mg": 25,
+            "mg_stearate_mg": 2,
+            "talc_mg": 3,
+            "coat_weight_mg": 300,
+            "core_weight_mg": 150
+        },
+        {
+            "batch": "107_F2",
+            "chitosan_mg": 220,
+            "mcc_mg": 25,
+            "mg_stearate_mg": 2,
+            "talc_mg": 3,
+            "coat_weight_mg": 250,
+            "core_weight_mg": 150
+        },
+        {
+            "batch": "107_F3",
+            "chitosan_mg": 170,
+            "mcc_mg": 25,
+            "mg_stearate_mg": 2,
+            "talc_mg": 3,
+            "coat_weight_mg": 200,
+            "core_weight_mg": 150
+        },
+        {
+            "batch": "107_F4",
+            "chitosan_mg": 145,
+            "mcc_mg": 25,
+            "mg_stearate_mg": 2,
+            "talc_mg": 3,
+            "coat_weight_mg": 175,
+            "core_weight_mg": 150
+        },
+        {
+            "batch": "107_F5",
+            "chitosan_mg": 120,
+            "mcc_mg": 25,
+            "mg_stearate_mg": 2,
+            "talc_mg": 3,
+            "coat_weight_mg": 150,
+            "core_weight_mg": 150
+        }
+    ],
+    "pre_compression_parameters": {
+        "powder_blend": "Passed through 250 μm mesh, direct compression, no granulation",
+        "core_tablet_properties": {
+            "hardness_kg_cm2": "4.58 ± 0.42",
+            "friability_percent": "0.20 ± 0.02",
+            "weight_variation_percent": "11.403 ± 0.012 (likely typo, should be ~1.4?)",
+            "drug_content_percent": "97.84 ± 0.15",
+            "disintegration_sec": "60",
+            "thickness_mm": "0.2 mm (stated: thickness of core tablet was 0.2mm, but that seems very thin; possibly error)",
+            "diameter_mm": "7 mm (punch size)"
+        }
+    },
+    "independent_variables_levels": {
+        "chitosan_amount_mg": [
+            300,
+            250,
+            200,
+            175,
+            150
+        ],
+        "compression_force_kg": "5000 for coating",
+        "core_compression_force": "Not specified, but crushing strength 3 kg/cm²"
+    },
+    "ftir_measurements": {
+        "instrument": "Shimadzu FT-IR spectrophotometer",
+        "wavenumber_range": "4000 cm⁻¹ to 400 cm⁻¹",
+        "sample_preparation": "10 mg sample + 400 mg KBr, triturated, compressed at 10 kg/cm² into pellet using hydraulic press",
+        "samples_analyzed": "Ibuprofen, chitosan, physical mixture",
+        "result": "No drug-polymer interaction, characteristic bands unchanged"
+    },
+    "tablet_fabrication": {
+        "core_tablets": {
+            "equipment": "Single station tablet machine (Cadmach, India)",
+            "punch_size": "7 mm round, flat, plain",
+            "compression_force": "Not specified, but hardness ~4.58 kg/cm²"
+        },
+        "compression_coated_tablets": {
+            "equipment": "12 Station tablet compression machine (Karnavati Engineering)",
+            "punch_size": "10 mm round, flat, plain",
+            "compression_force": "5000 kg",
+            "coating_method": "Half coating material placed in die, core positioned centrally, other half added, compressed",
+            "target_hardness": "5 kg/cm² (stated strength of compression coat tablet)"
+        },
+        "determined_properties": {
+            "hardness": "See tablet properties",
+            "friability": "See tablet properties",
+            "weight_variation": "See tablet properties",
+            "thickness": "Not reported",
+            "diameter": "10 mm (coated tablet)",
+            "density": "Not reported",
+            "drug_content": "Core drug content 97.84%, coated tablet drug content not separately reported",
+            "consolidation_index": "Not reported"
+        }
+    },
+    "process_parameters": {
+        "compression_process": "Direct compression for cores; compression coating using 5000 kg force",
+        "equipment_used": {
+            "core": "Cadmach single station",
+            "coating": "Karnavati 12 station"
+        },
+        "process_conditions": {
+            "temperature": "37°C for dissolution studies",
+            "pressure": "5000 kg for coating, 10 kg/cm² for FTIR pellet"
+        }
+    },
+    "release_properties": [
+        {
+            "batch": "107_F1",
+            "release_mechanism": "Non-Fickian (anomalous)",
+            "kinetics_model": "Korsmeyer-Peppas",
+            "release_profile_with_caecal_contents_26h_percent": "31.94 ± 0.59 (also reported 39.91% elsewhere)",
+            "release_profile_without_caecal_contents_26h_percent": "10.37",
+            "release_profile_without_caecal_contents_figure3_approximated": {
+                "time_points_h": [
+                    0,
+                    2,
+                    5,
+                    8,
+                    11,
+                    14,
+                    17,
+                    20,
+                    23,
+                    26
+                ],
+                "cumulative_release_percent": [
+                    0,
+                    0.5,
+                    1.2,
+                    2.5,
+                    4,
+                    5.8,
+                    7.2,
+                    8.6,
+                    9.7,
+                    10.37
+                ]
+            },
+            "factors_influencing": "Chitosan amount (300 mg) slows release; requires enzymatic degradation"
+        },
+        {
+            "batch": "107_F2",
+            "release_mechanism": "Non-Fickian",
+            "kinetics_model": "Korsmeyer-Peppas",
+            "release_profile_with_caecal_contents_26h_percent": "67.89 ± 0.45",
+            "release_profile_without_caecal_contents_26h_percent": "16.63",
+            "release_profile_without_caecal_contents_figure3_approximated": {
+                "time_points_h": [
+                    0,
+                    2,
+                    5,
+                    8,
+                    11,
+                    14,
+                    17,
+                    20,
+                    23,
+                    26
+                ],
+                "cumulative_release_percent": [
+                    0,
+                    0.8,
+                    2,
+                    4,
+                    6.5,
+                    9.2,
+                    11.8,
+                    13.5,
+                    15.2,
+                    16.63
+                ]
+            },
+            "factors_influencing": "250 mg chitosan, intermediate release"
+        },
+        {
+            "batch": "107_F3",
+            "release_mechanism": "Non-Fickian",
+            "kinetics_model": "Korsmeyer-Peppas",
+            "release_profile_with_caecal_contents_26h_percent": "55.87 ± 0.45 (also 67.89% in text conflict)",
+            "release_profile_without_caecal_contents_26h_percent": "30.25",
+            "release_profile_without_caecal_contents_figure3_approximated": {
+                "time_points_h": [
+                    0,
+                    2,
+                    5,
+                    8,
+                    11,
+                    14,
+                    17,
+                    20,
+                    23,
+                    26
+                ],
+                "cumulative_release_percent": [
+                    0,
+                    1.5,
+                    3.8,
+                    7.2,
+                    11.5,
+                    16,
+                    20.5,
+                    24.8,
+                    28,
+                    30.25
+                ]
+            },
+            "factors_influencing": "200 mg chitosan, coat broken at one point"
+        },
+        {
+            "batch": "107_F4",
+            "release_mechanism": "Non-Fickian",
+            "kinetics_model": "Korsmeyer-Peppas",
+            "release_profile_with_caecal_contents_26h_percent": "82.52 ± 0.92 (also 94.46% reported)",
+            "release_profile_without_caecal_contents_26h_percent": "32",
+            "release_profile_without_caecal_contents_figure3_approximated": {
+                "time_points_h": [
+                    0,
+                    2,
+                    5,
+                    8,
+                    11,
+                    14,
+                    17,
+                    20,
+                    23,
+                    26
+                ],
+                "cumulative_release_percent": [
+                    0,
+                    1.6,
+                    4.2,
+                    8,
+                    12.5,
+                    17.5,
+                    22.5,
+                    27,
+                    30,
+                    32
+                ]
+            },
+            "factors_influencing": "175 mg chitosan, complete degradation"
+        },
+        {
+            "batch": "107_F5",
+            "release_mechanism": "Not applicable",
+            "kinetics_model": "Not applicable",
+            "release_profile": "Not tested; coat insufficient to cover core",
+            "factors_influencing": "150 mg chitosan unable to cover core"
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "107_F1",
+            "hardness_kg_cm2": "5.06 ± 0.18",
+            "friability_percent": "0.065 ± 0.014",
+            "weight_variation_percent": "0.51 ± 0.016",
+            "disintegration_time": "Not reported (coat remains intact without enzymes)",
+            "dissolution_profile": "See release properties",
+            "stability": "Not reported",
+            "thickness_mm": "Not reported",
+            "swelling_index": "Not reported",
+            "lag_time": "Not reported",
+            "total_floating_time": "Not applicable (non-floating)"
+        },
+        {
+            "batch": "107_F2",
+            "hardness_kg_cm2": "4.8 ± 0.09",
+            "friability_percent": "0.14 ± 0.034",
+            "weight_variation_percent": "0.67 ± 0.038",
+            "disintegration_time": "Not reported",
+            "dissolution_profile": "See release properties"
+        },
+        {
+            "batch": "107_F3",
+            "hardness_kg_cm2": "4.7 ± 0.12",
+            "friability_percent": "0.11 ± 0.017",
+            "weight_variation_percent": "0.96 ± 0.052",
+            "disintegration_time": "Not reported"
+        },
+        {
+            "batch": "107_F4",
+            "hardness_kg_cm2": "4.6 ± 0.35",
+            "friability_percent": "0.13 ± 0.015",
+            "weight_variation_percent": "0.57 ± 0.034",
+            "disintegration_time": "Not reported"
+        },
+        {
+            "batch": "107_F5",
+            "hardness_kg_cm2": "4.82 ± 0.12",
+            "friability_percent": "0.062 ± 0.029",
+            "weight_variation_percent": "0.73 ± 0.056",
+            "disintegration_time": "Not reported",
+            "note": "Coat insufficient to cover core"
+        }
+    ],
+    "experimental_data": {
+        "in_vitro_studies": {
+            "conditions": "USP apparatus I, 100 rpm, 37°C; 0.1N HCl for 2h, pH 7.4 buffer for 3h, then pH 6.8 buffer with/without 2% w/v rat caecal contents up to 26h",
+            "rat_caecal_preparation": "Wistar rats (200-300g) intubated with chitosan dispersion for 7 days; caecum isolated, contents suspended in CO₂-bubbled PBS",
+            "key_results": {
+                "without_caecal_contents": "107_F1:10.37%, 107_F2:16.63%, 107_F3:30.25%, 107_F4:32% at 26h; coats intact, slight swelling",
+                "with_caecal_contents": "107_F1:31.94% (or 39.91%), 107_F2:67.89%, 107_F3:55.87%, 107_F4:82.52% (or 94.46%); 107_F4 completely disintegrated"
+            }
+        },
+        "statistical_analysis": "Standard deviation reported for release (e.g., ±0.59, ±0.45, ±0.92) and tablet properties",
+        "release_kinetics_fitting": {
+            "zero_order_r2": "Not reported",
+            "first_order_r2": "Not reported",
+            "higuchi_r2": "Not reported",
+            "korsmeyer_peppas": "Best fit for all formulations",
+            "diffusion_exponent_n": "Between 0.5 and 1.0 (non-Fickian), exact values not reported per batch"
+        },
+        "swelling_water_uptake": "Not reported; only noted slight swelling without enzymes"
+    },
+    "missing_data_note": "Thickness, diameter, density, consolidation index, lag time, swelling index, and exact coat compositions (MCC, MgSt, talc amounts per batch) were not reported in the provided text. Some release percentages show inconsistencies between different parts of the results section."
+}

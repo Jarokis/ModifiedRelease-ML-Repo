@@ -1,0 +1,754 @@
+{
+    "article_metadata": {
+        "title": "DESIGN EXPERT SUPPORTED FORMULATION DEVELOPMENT, MATHEMATICAL OPTIMIZATION AND PREDICTABILITY STUDY OF FLOATING TABLETS OF BISOPROLOL FUMARATE",
+        "sections_sources": {
+            "abstract": "Objective, Methods, Results, Conclusion, Keywords section on first page [file:1].",
+            "introduction": "From heading INTRODUCTION to before heading MATERIALS AND METHODS [file:1].",
+            "materials_and_methods": "From heading MATERIALS AND METHODS through subheadings Materials, Methods, Drug–excipient compatibility, Fabrication of floating tablets, Characterization, In vitro studies, Stability study [file:1].",
+            "results_and_discussion": "From heading RESULTS AND DISCUSSION including FT-IR studies, Physical properties, Effect of independent variables, Water uptake, In vitro drug release, Optimization data analysis [file:1].",
+            "conclusion": "Section headed CONCLUSION near end of paper [file:1].",
+            "references": "Numbered list after CONCLUSION, ACKNOWLEDGEMENT, FUNDING, AUTHORS CONTRIBUTIONS, CONFLICT OF INTERESTS [file:1]."
+        }
+    },
+    "materials_origin": {
+        "api": {
+            "name": "Bisoprolol Fumarate",
+            "source": "Mehta API Pvt. Ltd., Tarapur Biosar, India (gift sample) [file:1]."
+        },
+        "polymers": [
+            {
+                "name": "Polyox N 12 K (polyethylene oxide)",
+                "source": "Colorcon Asia Pvt. Ltd., Goa, India (gift) [file:1]."
+            },
+            {
+                "name": "Carbopol 940P",
+                "source": "Research Lab Fine Chem. Ltd., Mumbai, India [file:1]."
+            }
+        ],
+        "other_excipients": [
+            "Sodium bicarbonate [file:1]",
+            "Citric acid [file:1]",
+            "PVP K‑30 [file:1]",
+            "Talc [file:1]",
+            "Magnesium stearate [file:1]",
+            "Dicalcium phosphate [file:1]"
+        ],
+        "excipients_source": "All excipients except Polyox N 12 K and Bisoprolol fumarate were purchased from Research Lab Fine Chem. Ltd., Mumbai, India [file:1]."
+    },
+    "experimental_design_for_optimization": {
+        "design_type": "3^2 full factorial design [file:1].",
+        "independent_variables": {
+            "X1": {
+                "name": "Polyox N 12 K concentration",
+                "levels_mg": {
+                    "0": 90,
+                    "-1": 70,
+                    "+1": 110
+                },
+                "description": "Polyoxyethylene oxide Polyox N 12 K [file:1]."
+            },
+            "X2": {
+                "name": "Carbopol 940 P concentration",
+                "levels_mg": {
+                    "0": 20,
+                    "-1": 15,
+                    "+1": 25
+                },
+                "description": "Carbopol 940 P as matrix polymer [file:1]."
+            }
+        },
+        "design_layout_batches": [
+            {
+                "batch": "029_A1",
+                "X1": -1,
+                "X2": -1
+            },
+            {
+                "batch": "029_A2",
+                "X1": -1,
+                "X2": 0
+            },
+            {
+                "batch": "029_A3",
+                "X1": -1,
+                "X2": 1
+            },
+            {
+                "batch": "029_A4",
+                "X1": 0,
+                "X2": -1
+            },
+            {
+                "batch": "029_A5",
+                "X1": 0,
+                "X2": 0
+            },
+            {
+                "batch": "029_A6",
+                "X1": 0,
+                "X2": 1
+            },
+            {
+                "batch": "029_A7",
+                "X1": 1,
+                "X2": -1
+            },
+            {
+                "batch": "029_A8",
+                "X1": 1,
+                "X2": 0
+            },
+            {
+                "batch": "029_A9",
+                "X1": 1,
+                "X2": 1
+            }
+        ],
+        "dependent_variables": {
+            "Y1": "Floating lag time (minutes) [file:1].",
+            "Y2": "% drug release at 10 h (% CDR at 10 h) [file:1]."
+        },
+        "software": "Design‑Expert software (version not specified) [file:1].",
+        "polynomial_models": {
+            "floating_lag_time_Y1": {
+                "equation_coded_factors": "FLT = +2.07 − 0.43*A − 0.16*B + 0.21*A*B − 0.41*A^2 − 0.038*B^2 (A = Polyox N 12 K coded, B = Carbopol 940 P coded) [file:1]."
+            },
+            "percent_drug_release_Y2": {
+                "equation_coded_factors": "%DR = +85.75 − 4.7*A − 2.23*B + 4.63*A*B [file:1]."
+            }
+        },
+        "anova_summary": {
+            "floating_lag_time": {
+                "sum_of_squares": 2.05,
+                "df": 5,
+                "mean_square": 0.41,
+                "F_value": 9.89,
+                "p_value": 0.0045,
+                "R_squared": 0.8759,
+                "adequate_precision": 9.263
+            },
+            "percent_drug_release": {
+                "sum_of_squares": 250.96,
+                "df": 3,
+                "mean_square": 83.65,
+                "F_value": 3.87,
+                "p_value": 0.0496,
+                "R_squared": 0.9636,
+                "adequate_precision": 7.281
+            }
+        }
+    },
+    "ingredients_identification_and_assay": {
+        "drug_excipients_compatibility": {
+            "method": "Fourier Transform Infrared Spectroscopy (FT‑IR), KBr pellet technique, 600–4000 cm⁻¹ [file:1].",
+            "samples": [
+                "Pure Bisoprolol Fumarate [file:1]",
+                "Optimized formulation blend containing drug + polymers [file:1]"
+            ],
+            "key_observation": "All characteristic peaks of Bisoprolol Fumarate present in formulation spectra, indicating no significant drug–excipient interaction and preserved chemical integrity [file:1]."
+        },
+        "drug_content_assay": {
+            "sample_preparation": "Five tablets weighed and powdered; quantity equivalent to one dose transferred to 100 ml volumetric flask and dissolved in 0.1 N HCl with sonication (10 min) [file:1].",
+            "dilution": "1 ml from stock diluted to 10 ml with 0.1 N HCl to obtain 50 μg/ml [file:1].",
+            "measurement": {
+                "instrument": "UV–Visible spectrophotometer [file:1].",
+                "wavelength_nm": 222
+            },
+            "replicates": "Each sample analyzed in triplicate [file:1].",
+            "results_summary": "Drug content for all batches between 97.73±2.14% and 99.23±3.20%, complying with pharmacopoeial content uniformity [file:1]."
+        },
+        "absorbance_related_info": {
+            "medium": "0.1 N HCl, pH 1.2 (dissolution and assay medium) [file:1].",
+            "lambda_max_nm": 222,
+            "calibration_equation": null,
+            "note": "The paper does not explicitly print the calibration curve equation; only wavelength and assay concentration are given [file:1]."
+        }
+    },
+    "formulation_details_batches": {
+        "common_tablet_target": {
+            "total_weight_mg": 260,
+            "dosage_strength_mg_bisoprolol_fumarate": 20,
+            "tablet_shape": "Standard biconvex (described as standard concave surfaces) circular, white [file:1]."
+        },
+        "batches": {
+            "029_A1": {
+                "composition_mg": {
+                    "bisoprolol_fumarate": 20,
+                    "polyox_N12K": 70,
+                    "carbopol_940P": 15,
+                    "PVP_K30": 10,
+                    "sodium_bicarbonate": 45,
+                    "citric_acid": 15,
+                    "talc": 5,
+                    "magnesium_stearate": 5,
+                    "dicalcium_phosphate_QS": "QS to 260 mg",
+                    "total_weight": 260
+                },
+                "percent_of_pellets_or_matrix": null
+            },
+            "029_A2": {
+                "composition_mg": {
+                    "bisoprolol_fumarate": 20,
+                    "polyox_N12K": 70,
+                    "carbopol_940P": 20,
+                    "PVP_K30": 10,
+                    "sodium_bicarbonate": 45,
+                    "citric_acid": 15,
+                    "talc": 5,
+                    "magnesium_stearate": 5,
+                    "dicalcium_phosphate_QS": "QS to 260 mg",
+                    "total_weight": 260
+                },
+                "percent_of_pellets_or_matrix": null
+            },
+            "029_A3": {
+                "composition_mg": {
+                    "bisoprolol_fumarate": 20,
+                    "polyox_N12K": 70,
+                    "carbopol_940P": 25,
+                    "PVP_K30": 10,
+                    "sodium_bicarbonate": 45,
+                    "citric_acid": 15,
+                    "talc": 5,
+                    "magnesium_stearate": 5,
+                    "dicalcium_phosphate_QS": "QS to 260 mg",
+                    "total_weight": 260
+                },
+                "percent_of_pellets_or_matrix": null,
+                "note": "029_A3 identified as optimized batch in results and stability sections [file:1]."
+            },
+            "029_A4": {
+                "composition_mg": {
+                    "bisoprolol_fumarate": 20,
+                    "polyox_N12K": 90,
+                    "carbopol_940P": 15,
+                    "PVP_K30": 10,
+                    "sodium_bicarbonate": 45,
+                    "citric_acid": 15,
+                    "talc": 5,
+                    "magnesium_stearate": 5,
+                    "dicalcium_phosphate_QS": "QS to 260 mg",
+                    "total_weight": 260
+                },
+                "percent_of_pellets_or_matrix": null
+            },
+            "029_A5": {
+                "composition_mg": {
+                    "bisoprolol_fumarate": 20,
+                    "polyox_N12K": 90,
+                    "carbopol_940P": 20,
+                    "PVP_K30": 10,
+                    "sodium_bicarbonate": 45,
+                    "citric_acid": 15,
+                    "talc": 5,
+                    "magnesium_stearate": 5,
+                    "dicalcium_phosphate_QS": "QS to 260 mg",
+                    "total_weight": 260
+                },
+                "percent_of_pellets_or_matrix": null
+            },
+            "029_A6": {
+                "composition_mg": {
+                    "bisoprolol_fumarate": 20,
+                    "polyox_N12K": 90,
+                    "carbopol_940P": 25,
+                    "PVP_K30": 10,
+                    "sodium_bicarbonate": 45,
+                    "citric_acid": 15,
+                    "talc": 5,
+                    "magnesium_stearate": 5,
+                    "dicalcium_phosphate_QS": "QS to 260 mg",
+                    "total_weight": 260
+                },
+                "percent_of_pellets_or_matrix": null
+            },
+            "029_A7": {
+                "composition_mg": {
+                    "bisoprolol_fumarate": 20,
+                    "polyox_N12K": 110,
+                    "carbopol_940P": 15,
+                    "PVP_K30": 10,
+                    "sodium_bicarbonate": 45,
+                    "citric_acid": 15,
+                    "talc": 5,
+                    "magnesium_stearate": 5,
+                    "dicalcium_phosphate_QS": "QS to 260 mg",
+                    "total_weight": 260
+                },
+                "percent_of_pellets_or_matrix": null
+            },
+            "029_A8": {
+                "composition_mg": {
+                    "bisoprolol_fumarate": 20,
+                    "polyox_N12K": 110,
+                    "carbopol_940P": 20,
+                    "PVP_K30": 10,
+                    "sodium_bicarbonate": 45,
+                    "citric_acid": 15,
+                    "talc": 5,
+                    "magnesium_stearate": 5,
+                    "dicalcium_phosphate_QS": "QS to 260 mg",
+                    "total_weight": 260
+                },
+                "percent_of_pellets_or_matrix": null
+            },
+            "029_A9": {
+                "composition_mg": {
+                    "bisoprolol_fumarate": 20,
+                    "polyox_N12K": 110,
+                    "carbopol_940P": 25,
+                    "PVP_K30": 10,
+                    "sodium_bicarbonate": 45,
+                    "citric_acid": 15,
+                    "talc": 5,
+                    "magnesium_stearate": 5,
+                    "dicalcium_phosphate_QS": "QS to 260 mg",
+                    "total_weight": 260
+                },
+                "percent_of_pellets_or_matrix": null
+            }
+        }
+    },
+    "pre_compression_parameters": {
+        "note": "The paper evaluates physical properties after compression (tablet hardness, thickness, friability, weight variation, drug content) but does not report bulk/tapped density, angle of repose, or flow properties of powder blends as pre‑compression parameters [file:1].",
+        "post_compression_physical_properties_table4": {
+            "029_A1": {
+                "hardness_kg_per_cm2": 5.9,
+                "thickness_mm": "4.5±0.04",
+                "friability_percent": "0.52±0.11",
+                "weight_mg": "260±0.25",
+                "drug_content_percent": "98.64±2.45"
+            },
+            "029_A2": {
+                "hardness_kg_per_cm2": 5.8,
+                "thickness_mm": "4.5±0.02",
+                "friability_percent": "0.42±0.01",
+                "weight_mg": "260±1.25",
+                "drug_content_percent": "98.85±1.80"
+            },
+            "029_A3": {
+                "hardness_kg_per_cm2": 5.9,
+                "thickness_mm": "4.7±0.08",
+                "friability_percent": "0.41±0.00",
+                "weight_mg": "257±1.75",
+                "drug_content_percent": "99.05±2.51"
+            },
+            "029_A4": {
+                "hardness_kg_per_cm2": 6,
+                "thickness_mm": "4.3±0.07",
+                "friability_percent": "0.50±0.09",
+                "weight_mg": "261±1.25",
+                "drug_content_percent": "98.75±3.66"
+            },
+            "029_A5": {
+                "hardness_kg_per_cm2": 6.2,
+                "thickness_mm": "4.2±0.01",
+                "friability_percent": "0.48±0.07",
+                "weight_mg": "253±0.25",
+                "drug_content_percent": "99.10±1.82"
+            },
+            "029_A6": {
+                "hardness_kg_per_cm2": 6.5,
+                "thickness_mm": "4.8±0.09",
+                "friability_percent": "0.43±0.02",
+                "weight_mg": "255±2.25",
+                "drug_content_percent": "97.95±2.17"
+            },
+            "029_A7": {
+                "hardness_kg_per_cm2": 6.3,
+                "thickness_mm": "4.6±0.02",
+                "friability_percent": "0.41±0.00",
+                "weight_mg": "256±2.75",
+                "drug_content_percent": "99.23±3.20"
+            },
+            "029_A8": {
+                "hardness_kg_per_cm2": 6.4,
+                "thickness_mm": "4.4±0.02",
+                "friability_percent": "0.45±0.04",
+                "weight_mg": "263±1.75",
+                "drug_content_percent": "98.86±2.12"
+            },
+            "029_A9": {
+                "hardness_kg_per_cm2": 6.5,
+                "thickness_mm": "4.5±0.06",
+                "friability_percent": "0.47±0.06",
+                "weight_mg": "261±2.75",
+                "drug_content_percent": "97.73±2.14"
+            }
+        }
+    },
+    "independent_variables_composition_and_levels": {
+        "summary": "See experimental_design_for_optimization.independent_variables and design_layout_batches for coded and actual levels [file:1].",
+        "coded_to_actual_table": {
+            "X1_polyox_N12K_mg": {
+                "0": 90,
+                "-1": 70,
+                "+1": 110
+            },
+            "X2_carbopol_940P_mg": {
+                "0": 20,
+                "-1": 15,
+                "+1": 25
+            }
+        }
+    },
+    "ftir_measurements": {
+        "instrument": "FT‑IR spectrometer (brand not specified) [file:1].",
+        "mode": "KBr pellet method [file:1].",
+        "scan_range_cm_minus1": "600–4000 [file:1].",
+        "samples_analyzed": [
+            "Pure Bisoprolol Fumarate [file:1]",
+            "Formulation blend (optimized) with polymers [file:1]"
+        ],
+        "key_functional_groups": "Paper states that all characteristic peaks of Bisoprolol Fumarate appear in blend spectra, but does not list specific wavenumbers in text; reference is made to Indian Pharmacopoeia standard spectrum [file:1].",
+        "interaction_conclusion": "No significant change in major functional groups; no drug–excipient interaction detected [file:1]."
+    },
+    "tablet_fabrication_and_process_parameters": {
+        "manufacturing_method": "Direct compression technique [file:1].",
+        "blend_preparation": {
+            "steps": [
+                "Drug, Polyox N 12 K, Carbopol 940, PVP K‑30, and Dicalcium phosphate blended homogeneously in mortar [file:1].",
+                "Blend passed through sieve #60 [file:1].",
+                "Sodium bicarbonate, magnesium stearate, and talc added and blended [file:1]."
+            ]
+        },
+        "compression": {
+            "equipment": "9‑station rotary tablet machine (Rimek Mini Press–II, Karnavati, Ahmedabad, India) [file:1].",
+            "punches": "9‑mm round plain punches [file:1].",
+            "compression_pressure": null,
+            "speed_or_force_details": null,
+            "process_conditions": {
+                "temperature": "Not specified (ambient) [file:1].",
+                "humidity": "Not specified [file:1].",
+                "coating": "Tablets were uncoated; no coating step described [file:1]."
+            }
+        },
+        "tablet_tests_common_to_all_batches": {
+            "shape_and_appearance": "Random tablets from each batch examined visually; all showed standard concave circular shape and white color [file:1].",
+            "hardness_test": {
+                "instrument": "Monsanto hardness tester [file:1].",
+                "units": "kg/cm²",
+                "replicates": "Three tablets per batch [file:1]."
+            },
+            "thickness_measurement": {
+                "instrument": "Vernier caliper [file:1].",
+                "replicates": "Five tablets per batch [file:1]."
+            },
+            "friability_test": {
+                "instrument": "Roche friabilator, 25 rpm for 4 min, 20 tablets per batch [file:1].",
+                "formula": "%F = (W − Wt) / W × 100 (W = initial weight, Wt = final weight) [file:1].",
+                "acceptance_criterion": "<1% friability considered acceptable [file:1]."
+            },
+            "weight_variation": {
+                "method": "As per Indian Pharmacopoeia; 20 tablets individually weighed, mean ± SD calculated [file:1].",
+                "acceptance_criterion": "Not more than two tablets deviating beyond specified percentage from mean [file:1]."
+            },
+            "density_of_formulation": {
+                "note": "No separate bulk, tapped, or true density is reported for each batch [file:1]."
+            },
+            "consolidation_index": null
+        }
+    },
+    "release_properties_and_kinetics": {
+        "in_vitro_buoyancy": {
+            "medium": "0.1 N HCl, 100 ml in glass beaker [file:1].",
+            "temperature_C": "37±0.5 [file:1].",
+            "parameters": [
+                "Floating lag time (FLT): time required to rise to surface and float [file:1].",
+                "Total floating time (TFT): duration tablet remained buoyant [file:1]."
+            ],
+            "results_table5": {
+                "029_A1": {
+                    "floating_lag_time_min": "2.30±1.24",
+                    "total_floating_time_h": ">12"
+                },
+                "029_A2": {
+                    "floating_lag_time_min": "2.43±1.6",
+                    "total_floating_time_h": ">12"
+                },
+                "029_A3": {
+                    "floating_lag_time_min": "1.45±1.8",
+                    "total_floating_time_h": ">12"
+                },
+                "029_A4": {
+                    "floating_lag_time_min": "2.24±1.7",
+                    "total_floating_time_h": ">12"
+                },
+                "029_A5": {
+                    "floating_lag_time_min": "2.1±1.4",
+                    "total_floating_time_h": ">12"
+                },
+                "029_A6": {
+                    "floating_lag_time_min": "2.14±2.0",
+                    "total_floating_time_h": ">12"
+                },
+                "029_A7": {
+                    "floating_lag_time_min": "1.20±1.5",
+                    "total_floating_time_h": ">12"
+                },
+                "029_A8": {
+                    "floating_lag_time_min": "1.20±1.2",
+                    "total_floating_time_h": ">12"
+                },
+                "029_A9": {
+                    "floating_lag_time_min": "1.18±2.0",
+                    "total_floating_time_h": ">12"
+                }
+            },
+            "factors_influencing_buoyancy": {
+                "sodium_bicarbonate": "Produces CO₂ in acidic medium, responsible for buoyancy [file:1].",
+                "carbopol_940P_effect": "Negative effect on FLT; increasing Carbopol 940 P reduces FLT due to hydrophilicity and faster medium penetration and gel formation [file:1]."
+            }
+        },
+        "water_uptake_swelling": {
+            "method": "One tablet per batch placed in 200 ml of 0.1 N HCl, removed and weighed periodically up to 12 h; swelling index calculated [file:1].",
+            "swelling_index_formula": "SI = {(Wt − W0) / W0} × 100, where Wt is weight at time t, W0 initial weight [file:1].",
+            "results": "Graphical % swelling index vs time shown (Fig. 5) for optimized batches; numerical data not tabulated [file:1].",
+            "mechanistic_notes": [
+                "Swelling increases with higher polymer concentration, especially Carbopol 940 P [file:1].",
+                "Hydration of functional groups leads to polymer network expansion [file:1].",
+                "At longer times, erosion of matrix can dominate over water uptake, decreasing tablet weight [file:1].",
+                "Polyox N 12 K is a highly swelling hydrophilic polymer absorbing about 7 times its weight of water [file:1]."
+            ]
+        },
+        "dissolution_testing": {
+            "apparatus": "USP Apparatus II (paddle) [file:1].",
+            "medium": "900 ml of 0.1 N HCl, pH 1.2 [file:1].",
+            "temperature_C": "37±0.5 [file:1].",
+            "rotation_speed_rpm": 75,
+            "sampling": {
+                "volume_ml": 1,
+                "interval": "Every hour up to 12 h [file:1].",
+                "replacement": "Fresh dissolution medium added after each sampling [file:1].",
+                "filtration": "Through Whatman filter paper [file:1].",
+                "measurement": "Absorbance at 222 nm [file:1]."
+            },
+            "release_profiles": {
+                "A1_to_A5_note": "Cumulative % drug release vs time shown graphically in Fig. 6 [file:1].",
+                "A6_to_A9_note": "Cumulative % drug release vs time shown graphically in Fig. 7 [file:1].",
+                "optimized_A3": "In vitro dissolution profile showed sustained drug release of 99.25% up to 12 h with FLT 1.45 min [file:1].",
+                "data_A1_to_A5": {
+                    "time_h": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        5,
+                        6,
+                        7,
+                        8,
+                        9,
+                        10,
+                        11,
+                        12
+                    ],
+                    "029_A1": [
+                        0,
+                        22,
+                        30,
+                        38,
+                        46,
+                        52,
+                        60,
+                        70,
+                        78,
+                        88,
+                        98,
+                        96,
+                        98
+                    ],
+                    "029_A2": [
+                        0,
+                        20,
+                        24,
+                        26,
+                        32,
+                        40,
+                        64,
+                        72,
+                        80,
+                        86,
+                        90,
+                        96,
+                        100
+                    ],
+                    "029_A3": [
+                        0,
+                        24,
+                        32,
+                        40,
+                        48,
+                        54,
+                        58,
+                        68,
+                        76,
+                        82,
+                        86,
+                        92,
+                        100
+                    ],
+                    "029_A4": [
+                        0,
+                        30,
+                        34,
+                        42,
+                        50,
+                        58,
+                        66,
+                        70,
+                        74,
+                        80,
+                        84,
+                        88,
+                        90
+                    ],
+                    "029_A5": [
+                        0,
+                        18,
+                        28,
+                        36,
+                        44,
+                        50,
+                        56,
+                        64,
+                        72,
+                        80,
+                        82,
+                        88,
+                        96
+                    ]
+                },
+                "data_A6_to_A9": {
+                    "time_h": [
+                        0,
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12
+                    ],
+                    "029_A6": [
+                        0,
+                        18,
+                        36,
+                        40,
+                        46,
+                        56,
+                        72,
+                        84,
+                        96
+                    ],
+                    "029_A7": [
+                        0,
+                        20,
+                        28,
+                        45,
+                        60,
+                        68,
+                        88,
+                        94,
+                        98
+                    ],
+                    "029_A8": [
+                        0,
+                        14,
+                        16,
+                        30,
+                        48,
+                        56,
+                        58,
+                        82,
+                        94
+                    ],
+                    "029_A9": [
+                        0,
+                        15,
+                        22,
+                        32,
+                        50,
+                        64,
+                        74,
+                        86,
+                        92
+                    ]
+                }
+            },
+            "release_kinetics": {
+                "models_applied": "The paper discusses percent release and uses factorial design to model %DR at 10 h, but does not present fitted zero‑order, first‑order, Higuchi, Hixson–Crowell, or Korsmeyer–Peppas parameters numerically [file:1].",
+                "zero_order_constants": null,
+                "first_order_constants": null,
+                "Higuchi_constants": null,
+                "Hixson_Crowell_constants": null,
+                "Korsmeyer_Peppas_n": null,
+                "mechanism_of_drug_release": "Qualitatively described as controlled/sustained release from hydrophilic matrix; numeric kinetic parameters not tabulated [file:1]."
+            }
+        }
+    },
+    "tablet_properties_by_batch": {
+        "hardness_thickness_friability_weight_content": "See pre_compression_parameters.post_compression_physical_properties_table4 [file:1].",
+        "disintegration_time": null,
+        "dissolution_profile": {
+            "note": "Time–release curves for each batch (029_A1–029_A9) are graphically given in Fig. 6 and Fig. 7. Numerical values have been merged into release_properties_and_kinetics.dissolution_testing.release_profiles."
+        },
+        "stability": {
+            "conditions": "40±2 °C and 75±5% RH up to 3 months [file:1].",
+            "packaging": "Aluminium packaging coated inside with polyethylene; samples stored in stability chamber [file:1].",
+            "evaluated_parameters": [
+                "Hardness [file:1]",
+                "Friability [file:1]",
+                "Drug content [file:1]",
+                "Floating lag time [file:1]",
+                "Physical appearance [file:1]"
+            ],
+            "results_optimized_A3_table7": {
+                "initial": {
+                    "hardness_kg_per_cm2": "5.9±2.1",
+                    "friability_percent": "0.41±0.00",
+                    "drug_content_percent": "99.05±2.51",
+                    "floating_lag_time_min": "1.45±1.8"
+                },
+                "after_3_months": {
+                    "hardness_kg_per_cm2": "5.7±1.8",
+                    "friability_percent": "0.54±0.41",
+                    "drug_content_percent": "98.65±1.04",
+                    "floating_lag_time_min": "2.43±1.2"
+                },
+                "stability_conclusion": "No physical changes; 029_A3 considered stable after stability study [file:1]."
+            }
+        },
+        "thickness_and_weight_variation": "Batch‑wise values are in pre_compression_parameters.post_compression_physical_properties_table4 [file:1].",
+        "swelling_water_uptake": {
+            "lag_time_minutes": null,
+            "total_floating_time_hours": ">12 for all batches (see in_vitro_buoyancy) [file:1].",
+            "swelling_index_percent": "Reported graphically, values not numerically tabulated [file:1]."
+        }
+    },
+    "experimental_data_summary": {
+        "in_vitro_results": {
+            "buoyancy": "All formulations exhibited FLT between approximately 1.18 and 2.43 min, with TFT >12 h [file:1].",
+            "drug_release": "Optimized formulation 029_A3 achieved about 99.25% drug release over 12 h, while varying Polyox and Carbopol concentrations reduced or modified % release as modeled by factorial design [file:1].",
+            "mechanistic_findings": [
+                "Higher Carbopol 940 P levels decreased FLT and % drug release due to hydrophilicity and possible saturation of interstitial space between gel particles [file:1].",
+                "Combination of prolonged gastric residence and sustained release expected to improve Bisoprolol Fumarate bioavailability and patient compliance [file:1]."
+            ]
+        },
+        "in_vivo_studies": null,
+        "statistical_analysis": {
+            "software": "Design‑Expert [file:1].",
+            "analysis": "Response surface methodology for optimization; ANOVA for model significance on FLT and %DR at 10 h [file:1]."
+        },
+        "zero_and_first_order_release_constants_all_formulations": null,
+        "performance_metrics": {
+            "acceptance_criteria": [
+                "Friability <1% for all batches [file:1].",
+                "Weight variation within ±10% pharmacopoeial limits [file:1].",
+                "Drug content within approximately 98–99% on average [file:1]."
+            ],
+            "optimized_formulation": "Batch 029_A3 chosen as optimized based on floating behavior, dissolution profile, and statistical optimization [file:1]."
+        }
+    }
+}

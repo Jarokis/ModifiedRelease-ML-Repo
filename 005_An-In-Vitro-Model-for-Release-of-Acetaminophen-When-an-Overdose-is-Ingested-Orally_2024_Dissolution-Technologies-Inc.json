@@ -1,0 +1,227 @@
+{
+  "Materials origin": {
+    "Formulations": [
+      "IR tablets (paracetamol STADA 500 mg, STADA Arzneimittel AG, Germany)",
+      "Hard capsules (ben-u-ron 500 mg, bene-Arzneimittel GmbH, Germany)",
+      "Soft capsules (APAPcaps 500 mg, US Pharmacia Sp. z o.o., Poland)",
+      "Modified release bi-layer (ER) tablets (Osteomol 665 mg, Pharmacor Pty Ltd., Australia)"
+    ],
+    "Chemicals": [
+      "Hydrochloric acid 1 M (VWR Chemicals)",
+      "Maleic acid (Merck)",
+      "Sodium chloride (Carl Roth)",
+      "Sodium hydroxide pellets (VWR Prolabo)",
+      "Sodium phosphate monobasic dihydrate (Merck)",
+      "Tris base (Sigma-Aldrich)",
+      "Acetonitrile, methanol, trifluoroacetic acid (VWR International)",
+      "Paracetamol Chemical Reference Standard (Eur. Pharm.)"
+    ]
+  },
+  "Experimental Design for Optimization": {
+    "Dissolution Model": "Novel in vitro dissolution method using USP apparatus 3 (reciprocating cylinder) to compare four commercially available acetaminophen formulations under single and overdose conditions.",
+    "Experimental Groups": [
+      "Single dose (1 tablet/capsule)",
+      "Overdose (10, 20, and 50 tablets/capsules for IR; 10 and 20 for ER)"
+    ],
+    "Buffers": [
+      "FaSSGF (pH 1.6)",
+      "FaSSIF-V2 (pH 6.5)",
+      "FaSSIFmidgut (pH 6.8)",
+      "SIFileum (pH 7.5)",
+      "FeSSCoF (pH 6.0)"
+    ]
+  },
+  "ingredients identification": {
+    "Preparation": "Tablets and capsules were purchased commercially. IR tablets were crushed and pulverized for solubility testing.",
+    "Results": {
+      "Solubility": {
+        "FaSSGF": "23.98 ± 0.21 mg/mL",
+        "FaSSIF-V2": "23.68 ± 0.95 mg/mL",
+        "FaSSIFmidgut": "23.60 ± 0.32 mg/mL",
+        "SIFileum": "23.62 ± 0.31 mg/mL",
+        "FeSSCoF": "24.82 ± 0.96 mg/mL"
+      }
+    },
+    "Equation": "Standard calibration curve (Concentration vs Absorbance) was used for HPLC quantification (detection at 240 nm, R² > 0.999).",
+    "Absorbance": "Peak detection for acetaminophen at 240 nm in HPLC analysis."
+  },
+  "Pre-compression parameters of acetaminophen (for extended release tablets)": {
+    "Tapped density (g/mL)": "0.506 ± 0.013 to 0.569 ± 0.015",
+    "Bulk density (g/mL)": "0.43 ± 0.004 to 0.5 ± 0.009",
+    "Carr's index (%)": "11.49 ± 1.06 to 14.89 ± 1.23",
+    "Hausner ratio": "Not explicitly stated for this study, but typically calculated as tapped/bulk density",
+    "Angle of repose (°)": "22–26"
+  },
+  "Formulation Details for each batch (for extended release tablets)": {
+    "Osteomol 665 mg ER tablets": {
+      "Active": "Paracetamol (acetaminophen) 665 mg",
+      "Excipients": "Not detailed in this article, but typical ER formulations include hydrophilic matrix polymers (e.g., HPMC), fillers, binders, and lubricants."
+    }
+  },
+  "Composition of independent variables and their levels for the preparation": {
+    "Dose levels tested": [
+      "1 tablet (665 mg acetaminophen)",
+      "10 tablets (6.65 g total)",
+      "20 tablets (13.3 g total)"
+    ],
+    "Media pH levels": [
+      "FaSSGF (1.6)",
+      "FaSSIF-V2 (6.5)",
+      "FaSSIFmidgut (6.8)",
+      "SIFileum (7.5)",
+      "FeSSCoF (6.0)"
+    ]
+  },
+  "Fourier Transform Infrared Spectral Measurements information": {
+    "Method": "Not performed in this study. (Other studies confirm FTIR is used for compatibility, showing no interaction between acetaminophen and excipients.)"
+  },
+  "Tablet fabrications (for extended release tablets)": {
+    "Parameters": {
+      "Hardness": "Not reported in this article.",
+      "Friability": "Not reported in this article.",
+      "Weight variation": "Not reported in this article.",
+      "Thickness and diameter": "Not reported in this article.",
+      "Density of formulation": "Not reported in this article.",
+      "Drug content in tablet": "Labeled as 665 mg acetaminophen per ER tablet.",
+      "Consolidation index": "Not reported in this article."
+    }
+  },
+  "Process Parameters": {
+    "Compression process": "Not detailed for commercial tablets in this study.",
+    "Equipment used": [
+      "USP apparatus 2 (PTDT 820D, Pharma Test Apparatebau AG, Germany) for preliminary dissolution",
+      "USP apparatus 3 (RRT 10 Caleva, ERWEKA, Germany) for main dissolution studies",
+      "HPLC system (Chromaster VWR/HITACHI) for analysis"
+    ],
+    "Process conditions": {
+      "Temperature": "37 ± 1 °C (incubation and dissolution)",
+      "Pressure": "Not specified",
+      "Coating": "Not specified"
+    }
+  },
+  "Release Properties (formulations for extended release tablets)": {
+    "Release mechanism": "Initial burst (IR fraction) followed by sustained release (ER fraction); release slowed at higher doses due to clumping and limited media access.",
+    "Release profile": {
+      "Single ER tablet": [
+        "50.6 ± 1.5% released in 10 min (IR fraction)",
+        "67.3 ± 1.5% at 60 min (FaSSGF)",
+        "92.2 ± 2.0% at 6 hrs (FeSSCoF)"
+      ],
+      "10 ER tablets": [
+        "25.1 ± 5.6% at 60 min (FaSSGF)",
+        "60.7 ± 12% at 6 hrs (FeSSCoF)"
+      ],
+      "20 ER tablets": [
+        "7.4 ± 0.8% at 60 min (FaSSGF)",
+        "25.3 ± 12.7% at 6 hrs (FeSSCoF)"
+      ]
+    },
+    "Factors influencing release": [
+      "Dose (higher dose = slower, less extensive release due to clumping)",
+      "GI pH (media changes simulate GI tract)",
+      "Physical obstruction (clumping, pharmacobezoar formation at high dose)"
+    ],
+    "Release kinetics": "Not explicitly modeled in this article; sustained release profile observed."
+  },
+  "Tablet Properties (for extended release tablets)": {
+    "Hardness": "Not reported",
+    "Friability": "Not reported",
+    "Disintegration time": "Outer layer disintegrates rapidly; core persists for several hours",
+    "Dissolution profile": "See release properties above",
+    "Stability": "Not reported",
+    "Thickness": "Not reported",
+    "Weight variation (%)": "Not reported"
+  },
+  "Experimental Data": {
+    "Key results": [
+      "Single ER tablet: nearly complete release over 6 hours",
+      "Higher doses: significant reduction in release due to clumping"
+    ],
+    "Results from in vitro studies (Summary)": [
+      "Single ER tablet: 50.6 ± 1.5% release in 10 min (FaSSGF), 67.3 ± 1.5% at 60 min, 92.2 ± 2.0% at 6 hrs",
+      "10 ER tablets: 25.1 ± 5.6% at 60 min, 60.7 ± 12% at 6 hrs",
+      "20 ER tablets: 7.4 ± 0.8% at 60 min, 25.3 ± 12.7% at 6 hrs"
+    ],
+    "DissolutionProfiles_ER_Acetaminophen": [
+      {
+        "Dose": "1 tablet (triangle)",
+        "Time_min": [0, 10, 60, 100, 160, 220, 280, 360],
+        "Percent_Dissolved_mean_SD": [
+          {"mean": 0, "SD": 0},
+          {"mean": 50.6, "SD": 1.5},
+          {"mean": 67.3, "SD": 1.5},
+          {"mean": 73.7, "SD": 2.2},
+          {"mean": 81.4, "SD": 1.5},
+          {"mean": 86.0, "SD": 1.3},
+          {"mean": 92.2, "SD": 2.0},
+          {"mean": 92.2, "SD": 2.0}
+        ],
+        "Media": [
+          "FaSSGF",
+          "FaSSGF",
+          "FaSSGF",
+          "FaSSIF-V2",
+          "FaSSIFmidgut",
+          "SIFileum",
+          "FeSSCoF",
+          "FeSSCoF"
+        ]
+      },
+      {
+        "Dose": "10 tablets (circle)",
+        "Time_min": [0, 10, 60, 100, 160, 220, 280, 360],
+        "Percent_Dissolved_mean_SD": [
+          {"mean": 0, "SD": 0},
+          {"mean": "n/a", "SD": "n/a"},
+          {"mean": 25.1, "SD": 5.6},
+          {"mean": 32.8, "SD": 9.4},
+          {"mean": 40.9, "SD": 13.0},
+          {"mean": 44.7, "SD": 13.5},
+          {"mean": 60.7, "SD": 12.0},
+          {"mean": 60.7, "SD": 12.0}
+        ],
+        "Media": [
+          "FaSSGF",
+          "FaSSGF",
+          "FaSSGF",
+          "FaSSIF-V2",
+          "FaSSIFmidgut",
+          "SIFileum",
+          "FeSSCoF",
+          "FeSSCoF"
+        ]
+      },
+      {
+        "Dose": "20 tablets (diamond)",
+        "Time_min": [0, 10, 60, 100, 160, 220, 280, 360],
+        "Percent_Dissolved_mean_SD": [
+          {"mean": 0, "SD": 0},
+          {"mean": "n/a", "SD": "n/a"},
+          {"mean": 7.4, "SD": 0.8},
+          {"mean": 10.1, "SD": 2.5},
+          {"mean": 12.5, "SD": 3.7},
+          {"mean": 16.7, "SD": 5.8},
+          {"mean": 25.3, "SD": 12.7},
+          {"mean": 25.3, "SD": 12.7}
+        ],
+        "Media": [
+          "FaSSGF",
+          "FaSSGF",
+          "FaSSGF",
+          "FaSSIF-V2",
+          "FaSSIFmidgut",
+          "SIFileum",
+          "FeSSCoF",
+          "FeSSCoF"
+        ]
+      }
+    ],
+    "Performance metrics": [
+      "Percent released at each time point (mean ± SD, n=3)",
+      "Similarity factor f2 (FDA guideline: f2 ≥ 50 indicates similar profiles)"
+    ],
+    "Statistical analysis": "Data presented as mean ± SD; ANOVA and Holm-Sidak post-hoc tests applied; similarity factor f2 calculated for dissolution profile comparison.",
+    "Zero and first order release": "Not specifically reported; release profile suggests non-linear (complex) kinetics at high dose",
+    "Tablet swelling/water uptake study": "Not performed"
+  }
+}

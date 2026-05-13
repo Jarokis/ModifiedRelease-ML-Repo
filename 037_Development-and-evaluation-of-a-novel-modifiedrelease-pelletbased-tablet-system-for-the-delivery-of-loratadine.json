@@ -1,0 +1,400 @@
+{
+    "article_metadata": {
+        "title": "Development and Evaluation of a Novel Modified-Release Pellet-Based Tablet System for the Delivery of Loratadine and Pseudoephedrine Hydrochloride as Model Drugs",
+        "authors": [
+            "Farrukh Zeeshan",
+            "Nadeem Irfan Bukhari"
+        ],
+        "journal": "AAPS PharmSciTech",
+        "publication_date": {
+            "received": "2010-02-18",
+            "accepted": "2010-04-27",
+            "published": "2010-05-22"
+        },
+        "sections": {
+            "abstract": "Page 1",
+            "introduction": "Pages 1-2",
+            "materials_and_methods": "Pages 2-4",
+            "results_and_discussion": "Pages 4-6",
+            "conclusion": "Page 6"
+        }
+    },
+    "materials_origin": [
+        {
+            "material": "Microcrystalline Cellulose (MCC; Ceolus KG-801)",
+            "origin": "Asahi Chemicals, Japan"
+        },
+        {
+            "material": "Pseudoephedrine Hydrochloride (PHCl)",
+            "origin": "Emmellen Biotech and Pharmaceuticals Limited, Mumbai, India"
+        },
+        {
+            "material": "Loratadine",
+            "origin": "Emmellen Biotech and Pharmaceuticals Limited, Mumbai, India"
+        },
+        {
+            "material": "Lactose Monohydrate (Impalpable Grade)",
+            "origin": "HMS, Holland"
+        },
+        {
+            "material": "Kollicoat SR-30D aqueous dispersion (30% w/v)",
+            "origin": "BASF, Ludwigshafen, Germany"
+        },
+        {
+            "material": "Hydroxypropyl Methylcellulose (HPMC; Metolose-90SH, 100,000SR)",
+            "origin": "Shin-Etsu Chemicals, Japan"
+        },
+        {
+            "material": "Triethyl Citrate (TEC)",
+            "origin": "Merck-Schuchardt, Germany"
+        },
+        {
+            "material": "Polyethylene Glycol 4000 (PEG 4000)",
+            "origin": "Merck-Schuchardt, Germany"
+        },
+        {
+            "material": "Hydrochloric Acid 12.06 M",
+            "origin": "Lab-Scan Asia, Bangkok, Thailand"
+        },
+        {
+            "material": "Acetonitrile (HPLC grade)",
+            "origin": "J.T.Baker, Mexico"
+        },
+        {
+            "material": "Ammonium Dihydrogen Orthophosphate",
+            "origin": "BDH Limited, Poole, England"
+        },
+        {
+            "material": "Phosphoric Acid",
+            "origin": "Ajax Chemicals, Sydney, Australia"
+        }
+    ],
+    "experimental_design": {
+        "preparation_methods": {
+            "immediate_release_pellets": "Extrusion-spheronization method. Wet mass prepared in planetary mixer (160 rpm, 10 min), extruded at 1000 rpm (rotary gear extruder, Caleva model 40, 1.00 mm die), spheronized at 1000 rpm for 10 min (Caleva model 380), dried in fluidized bed dryer (Burkard, FBD 350S) at 60°C for 30 min.",
+            "prolonged_release_coated_pellets": "Fluidized bed coating (Aromatic-Fielder AG, Switzerland) with Wurster insert. Inner HPMC coat (2.5% w/w), outer Kollicoat SR-30D coat (15%, 17.5%, 20% w/w), and final HPMC overcoat (1% w/w).",
+            "multiple_unit_capsules": "Manual filling of 037_F1 (150 mg) and 037_F4 (185 mg) pellets into size '0' hard gelatin capsules.",
+            "multiple_unit_tablets": "Compression of 037_F1 pellets (150 mg), 037_F4 pellets (185 mg), and inert Ceolus KG-801 granules (150 mg) using single punch tableting machine (Manesty, England) with 10 mm flat-faced punches."
+        },
+        "equations": {
+            "yield": "Yield(%) = (Weight of pellets / Weight of powder ingredients fed initially) × 100%",
+            "geometric_mean_diameter": "Method from Schaefer & Worts (1977) [Reference 14]"
+        },
+        "absorbance_wavelengths": {
+            "pseudoephedrine_hcl_uv": "215 nm",
+            "hplc_detection": "265 nm"
+        }
+    },
+    "formulation_details": {
+        "037_F1": {
+            "type": "Immediate-release pellets",
+            "drugs": [
+                "Loratadine",
+                "Pseudoephedrine HCl"
+            ],
+            "api_masses_mg_per_batch": {
+                "loratadine": 5000,
+                "pseudoephedrine_hcl": 60000
+            },
+            "excipients": [
+                {
+                    "name": "Microcrystalline Cellulose (Ceolus KG-801)",
+                    "mass_mg": 85000
+                }
+            ],
+            "batch_size_g": 150,
+            "pellet_percent_yield": "92.5 ± 1.40%",
+            "size_range_mm": "0.80 - 1.25",
+            "notes": "Contains both drugs"
+        },
+        "037_F2": {
+            "type": "Immediate-release pellets",
+            "drugs": [
+                "Pseudoephedrine HCl"
+            ],
+            "api_masses_mg_per_batch": {
+                "pseudoephedrine_hcl": 60000
+            },
+            "excipients": [
+                {
+                    "name": "Microcrystalline Cellulose (Ceolus KG-801)",
+                    "mass_mg": 90000
+                }
+            ],
+            "batch_size_g": 150,
+            "pellet_percent_yield": "91.76 ± 1.45%",
+            "size_range_mm": "0.80 - 1.25",
+            "notes": "Contains only pseudoephedrine HCl, core for coating"
+        },
+        "037_F3": {
+            "type": "Prolonged-release coated pellets",
+            "drugs": [
+                "Pseudoephedrine HCl"
+            ],
+            "core_pellets": "037_F2",
+            "coating": {
+                "inner_hpmc": "2.5% w/w",
+                "outer_kollicoat_sr30d": "15% w/w"
+            },
+            "notes": "Coated 037_F2 pellets"
+        },
+        "037_F4": {
+            "type": "Prolonged-release coated pellets",
+            "drugs": [
+                "Pseudoephedrine HCl"
+            ],
+            "core_pellets": "037_F2",
+            "coating": {
+                "inner_hpmc": "2.5% w/w",
+                "outer_kollicoat_sr30d": "17.5% w/w"
+            },
+            "notes": "Coated 037_F2 pellets, selected for final formulations"
+        },
+        "037_F5": {
+            "type": "Prolonged-release coated pellets",
+            "drugs": [
+                "Pseudoephedrine HCl"
+            ],
+            "core_pellets": "037_F2",
+            "coating": {
+                "inner_hpmc": "2.5% w/w",
+                "outer_kollicoat_sr30d": "20% w/w"
+            },
+            "notes": "Coated 037_F2 pellets"
+        },
+        "037_F6": {
+            "type": "Multiple-unit capsule",
+            "drugs": [
+                "Loratadine",
+                "Pseudoephedrine HCl"
+            ],
+            "composition_mg_per_unit": [
+                {
+                    "component": "037_F1 pellets",
+                    "mass_mg": 150,
+                    "contains": "5 mg loratadine, 60 mg pseudoephedrine HCl"
+                },
+                {
+                    "component": "037_F4 pellets",
+                    "mass_mg": 185,
+                    "contains": "approx. 60 mg pseudoephedrine HCl"
+                }
+            ],
+            "capsule_size": "0",
+            "total_mass_mg": 335,
+            "drug_content_per_unit": "5 mg loratadine, 120 mg pseudoephedrine HCl"
+        },
+        "037_F7": {
+            "type": "Multiple-unit tablet",
+            "drugs": [
+                "Loratadine",
+                "Pseudoephedrine HCl"
+            ],
+            "composition_mg_per_unit": [
+                {
+                    "component": "037_F1 pellets",
+                    "mass_mg": 150,
+                    "contains": "5 mg loratadine, 60 mg pseudoephedrine HCl"
+                },
+                {
+                    "component": "037_F4 pellets",
+                    "mass_mg": 185,
+                    "contains": "approx. 60 mg pseudoephedrine HCl"
+                },
+                {
+                    "component": "Inert Ceolus KG-801 granules",
+                    "mass_mg": 150
+                }
+            ],
+            "total_mass_mg": 485,
+            "drug_content_per_unit": "5 mg loratadine, 120 mg pseudoephedrine HCl"
+        }
+    },
+    "pre_compression_parameters": {
+        "037_F1": {
+            "mass_distribution": "~75% within 0.80-1.25 mm",
+            "geometric_mean_diameter": "Not explicitly given, but characterized per Ref 14",
+            "size_analysis": "Sieves: 0.40, 0.63, 0.80, 1.25, 1.70, 2.00 mm"
+        },
+        "037_F2": {
+            "mass_distribution": "~75% within 0.80-1.25 mm",
+            "geometric_mean_diameter": "Not explicitly given, but characterized per Ref 14"
+        },
+        "037_F3": "Not specified (coated pellets)",
+        "037_F4": "Not specified (coated pellets)",
+        "037_F5": "Not specified (coated pellets)",
+        "037_F6": "Not applicable (capsule)",
+        "037_F7": "Not applicable (tablet compression of pellets)"
+    },
+    "ftir_information": "Not reported in the study.",
+    "tablet_fabrication_parameters_F7": {
+        "hardness_kg": "5.35 ± 0.62",
+        "friability_percent": "0.50 ± 0.06",
+        "disintegration_time_min": "6.44 ± 0.53",
+        "weight_variation": "Within BP specifications (implied)",
+        "thickness_mm": "Not specified (10 mm diameter punches used)",
+        "diameter_mm": "10",
+        "drug_content_uniformity": "Performed and within limits [Ref 16]",
+        "consolidation_index": "Not reported"
+    },
+    "process_parameters": {
+        "extrusion": {
+            "device": "Rotary gear extruder (Caleva, model 40, UK)",
+            "speed_rpm": 1000,
+            "die_perforations_mm": 1.0
+        },
+        "spheronization": {
+            "device": "Spheronizer (Caleva, model 380)",
+            "speed_rpm": 1000,
+            "time_min": 10
+        },
+        "fluidized_bed_drying": {
+            "device": "Burkard, FBD 350S, UK",
+            "temperature_c": 60,
+            "time_min": 30
+        },
+        "coating_process": {
+            "device": "Bottom spray fluidized bed coater (Aromatic-Fielder AG, Switzerland) with Wurster insert",
+            "batch_size_g": 150,
+            "inlet_temperature_c": {
+                "kollicoat_sr30d": 45,
+                "hpmc": 60
+            },
+            "outlet_temperature_c": {
+                "kollicoat_sr30d": "42-43",
+                "hpmc": "56-57"
+            },
+            "atomizing_air_bar": 1,
+            "flow_rate_ml_min": "5.5-6",
+            "fluidized_air_m3_h": "90-110",
+            "spray_nozzle_diameter_mm": 0.8,
+            "center_pipe_diameter_mm": 47,
+            "center_pipe_length_mm": 180,
+            "coating_sequence": "HPMC inner coat (2.5%) → Kollicoat SR-30D outer coat (15, 17.5, 20%) → HPMC overcoat (1%)"
+        },
+        "tablet_compression_F7": {
+            "device": "Single punch tableting machine (Manesty, England)",
+            "punch_diameter_mm": 10,
+            "punch_shape": "round, flat-faced",
+            "compression_force": "Not specified"
+        }
+    },
+    "release_properties": {
+        "037_F1": {
+            "type": "Immediate-release",
+            "profile": "Complete loratadine release within 2h; complete pseudoephedrine HCl IR portion within 10 min (when in final dosage form)"
+        },
+        "037_F2": {
+            "type": "Immediate-release",
+            "profile": "Immediate release of pseudoephedrine HCl (core for coating)"
+        },
+        "037_F3": {
+            "type": "Prolonged-release",
+            "release_kinetics": "Higuchi (R² = 0.990)",
+            "t50_min": "239.35 ± 1.56",
+            "release_rate": "Slower than intended",
+            "medium": "Distilled water, 37°C, USP I basket, 100 rpm"
+        },
+        "037_F4": {
+            "type": "Prolonged-release",
+            "release_kinetics": "Zero-order (R² = 0.998)",
+            "t50_min": "318.57 ± 2.43",
+            "release_rate_mg_h": "5-6 (intended)",
+            "medium": "Distilled water, 37°C, USP I basket, 100 rpm"
+        },
+        "037_F5": {
+            "type": "Prolonged-release",
+            "release_kinetics": "Zero-order (R² = 0.999)",
+            "t50_min": "385.58 ± 3.23",
+            "release_rate": "Slowest",
+            "medium": "Distilled water, 37°C, USP I basket, 100 rpm"
+        },
+        "037_F6": {
+            "type": "Modified-release (IR + PR)",
+            "drug_release": {
+                "loratadine": {
+                    "profile": "Complete within 2h",
+                    "t50_min": "39.74 ± 1.23"
+                },
+                "pseudoephedrine_hcl": {
+                    "ir_portion": "Complete within 10 min (approx. 60 mg)",
+                    "pr_portion": "Gradual over 12h",
+                    "t75_min": "307.46 ± 14.20"
+                }
+            },
+            "medium": "pH 1.2, 37°C, USP I basket, 100 rpm",
+            "analysis": "HPLC"
+        },
+        "037_F7": {
+            "type": "Modified-release (IR + PR)",
+            "drug_release": {
+                "loratadine": {
+                    "profile": "Complete within 2h",
+                    "t50_min": "38.14 ± 1.44"
+                },
+                "pseudoephedrine_hcl": {
+                    "ir_portion": "Complete within 10 min (approx. 60 mg)",
+                    "pr_portion": "Gradual over 12h",
+                    "t75_min": "302.50 ± 10.95"
+                }
+            },
+            "medium": "pH 1.2, 37°C, USP I basket, 100 rpm",
+            "analysis": "HPLC",
+            "factors_influencing_release": "Compression process did not significantly alter release (p > 0.05) due to cushioning effect of Ceolus KG-801 and 037_F1 pellets."
+        }
+    },
+    "tablet_properties_F7": {
+        "hardness_kg": "5.35 ± 0.62",
+        "friability_percent": "0.50 ± 0.06",
+        "disintegration_time_min": "6.44 ± 0.53",
+        "dissolution_profile": "Closely similar to 037_F6 capsules",
+        "stability": "Not explicitly reported, but all parameters within BP specifications",
+        "thickness": "Not specified (10 mm diameter punches used)",
+        "weight_variation_percent": "Within BP specifications (implied)",
+        "swelling_study": "Not reported",
+        "lag_time": "Not applicable (not floating system)"
+    },
+    "experimental_data": {
+        "key_results": {
+            "yield": "037_F1: 92.5±1.40%, 037_F2: 91.76±1.45%",
+            "size_distribution": "~75% of pellets in 0.80-1.25 mm range for 037_F1 and 037_F2",
+            "coating_effect": "Increased Kollicoat coating level significantly decreased drug release (p<0.05)",
+            "t50_comparison_F3_F4_F5": "239.35±1.56 min (037_F3), 318.57±2.43 min (037_F4), 385.58±3.23 min (037_F5); p<0.05",
+            "t50_loratadine_F6_vs_F7": "39.74±1.23 min vs 38.14±1.44 min; p>0.05",
+            "t75_pseudoephedrine_F6_vs_F7": "307.46±14.20 min vs 302.50±10.95 min; p>0.05",
+            "tablet_quality_F7": "Friability 0.50±0.06%, Hardness 5.35±0.62 kg, Disintegration 6.44±0.53 min; all within BP limits"
+        },
+        "statistical_analysis": {
+            "methods": [
+                "Independent samples t-test",
+                "One-way ANOVA with post hoc Tukey HSD"
+            ],
+            "software": "SPSS version 11.5",
+            "significance_level": "p < 0.05"
+        },
+        "release_kinetics_summary": {
+            "037_F3": "Higuchi (R²=0.990)",
+            "037_F4": "Zero-order (R²=0.998)",
+            "037_F5": "Zero-order (R²=0.999)"
+        },
+        "hplc_method_validation": {
+            "retention_times_min": {
+                "pseudoephedrine_hcl": 1.31,
+                "loratadine": 3.45
+            },
+            "linearity_range_mcg_ml": {
+                "pseudoephedrine_hcl": "5-200",
+                "loratadine": "0.25-10.00"
+            },
+            "limit_of_detection": {
+                "pseudoephedrine_hcl": "1.25 mcg/ml",
+                "loratadine": "62.50 ng/ml"
+            },
+            "limit_of_quantification": {
+                "pseudoephedrine_hcl": "5 mcg/ml",
+                "loratadine": "0.25 mcg/ml"
+            },
+            "precision_accuracy": "Within acceptable limits [Ref 25]"
+        }
+    }
+}

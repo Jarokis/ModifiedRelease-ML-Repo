@@ -1,0 +1,551 @@
+{
+    "article_sections_where_data_are_found": {
+        "abstract": [
+            "Materials origin (mangiferin, polymers, diluent).",
+            "High-level formulation approach (wet granulation with HPMC K100M, Kollidon SR, Keltone LVCR, lactose).",
+            "Key release result (best formulation and release duration, release model mentioned)."
+        ],
+        "introduction": [
+            "General background on sustained-release tablets and advantages.",
+            "Process overview for sustained-release tablets (direct compression, wet granulation)."
+        ],
+        "materials_and_methods": [
+            "Materials origin and isolation of mangiferin.",
+            "Experimental design for preparation of tablets 018_F1–F12.",
+            "Formulation compositions (Tables 1–3).",
+            "Tablet fabrication process (wet granulation procedure, equipment, punch size, target hardness).",
+            "Pre-compression and post-compression evaluation methods (angle of repose, bulk/tapped density, Carr’s index, Hausner ratio, hardness, friability, weight variation, thickness, content uniformity, dissolution conditions).",
+            "FTIR measurement section (spectra of mangiferin)."
+        ],
+        "results_and_discussion": [
+            "FTIR spectroscopy qualitative description.",
+            "Pre-compression parameters statement and resulting Table 5 (thickness, hardness, friability, assay).",
+            "In-vitro release profiles (Figures 2–4).",
+            "Statement of optimized formulation (018_F5) and its performance including release kinetics model and mechanism."
+        ],
+        "conclusion": [
+            "Optimized polymer level in core to control mangiferin release.",
+            "Identification of optimized formulation (018_F5).",
+            "Qualitative description of pH-independent release and compliance with USP acceptance.",
+            "General statement on effect of polymer concentration on release."
+        ]
+    },
+    "materials_origin": {
+        "active_pharmaceutical_ingredient": {
+            "name": "Mangiferin",
+            "origin": "Isolated in the laboratory as described in the Materials and Method section (no further numerical details visible). [file:1]"
+        },
+        "polymers": [
+            "HPMC K100M (hydrophilic matrix former). [file:1]",
+            "Kollidon SR (sustained-release polymer). [file:1]",
+            "Keltone LVCR (likely a polysaccharide/alginate-type polymer used for sustained release). [file:1]"
+        ],
+        "other_excipients": [
+            "Microcrystalline cellulose (filler/diluent). [file:1]",
+            "Polyvinyl pyrrolidone K90 (PVP K90, binder). [file:1]",
+            "Iso-propyl alcohol (granulating fluid, quantity sufficient). [file:1]",
+            "Magnesium stearate (lubricant). [file:1]",
+            "Talc (glidant). [file:1]",
+            "Lactose (diluent used in the general method description, though Tables 1–3 specifically list microcrystalline cellulose as the main filler). [file:1]"
+        ]
+    },
+    "experimental_design_for_optimization": {
+        "design_overview": {
+            "description": "A series of matrix tablet formulations 018_F1–018_F12 were prepared by wet granulation, varying the type and level of a single sustained-release polymer (Kollidon SR, HPMC K100M, or Keltone LVCR) while keeping the mangiferin dose and total tablet weight constant. [file:1]",
+            "goal": "To identify a sustained-release matrix tablet formulation of mangiferin capable of extending release up to 12–24 hours and to determine the optimal polymer type and level. [file:1]"
+        },
+        "factor_structure": {
+            "independent_variables": [
+                {
+                    "name": "Polymer type",
+                    "levels": [
+                        "Kollidon SR (018_F1–018_F4). [file:1]",
+                        "HPMC K100M (018_F5–018_F8). [file:1]",
+                        "Keltone LVCR (018_F9–018_F12). [file:1]"
+                    ]
+                },
+                {
+                    "name": "Polymer concentration within each type",
+                    "description": "Within each polymer type series, the polymer amount increased stepwise, with complementary decrease in microcrystalline cellulose so that tablet weight remained 670 mg. [file:1]"
+                }
+            ],
+            "responses": [
+                "Tablet hardness, thickness, friability, weight variation, assay. [file:1]",
+                "In-vitro dissolution profile over 24 hours. [file:1]",
+                "Model-fitting to release kinetics (Hixson-Crowell, zero-order, erosion mechanism for selected formulation). [file:1]"
+            ],
+            "optimized_formulation": {
+                "code": "018_F5",
+                "reported_reason": "Described as the optimized formulation that was taken forward for more in-depth investigation and reported to provide sustained release of mangiferin with desirable properties and stability, irrespective of pH. [file:1]"
+            }
+        }
+    },
+    "ingredients_identification_and_assay": {
+        "identification_method": {
+            "general": "Mangiferin identification is consistent with FTIR spectral characterization (FTIR spectra of pure mangiferin are presented in Figure 1). [file:1]"
+        },
+        "assay_and_absorbance": {
+            "spectrophotometric_assay": "Drug content in tablets and dissolution samples was quantified using UV-visible spectrophotometry. [file:1]",
+            "wavelength": "244 nm for mangiferin in dissolution samples (phosphate buffer / 0.1N HCl medium). [file:1]",
+            "solution_preparation_for_content_uniformity": "Twenty tablets were powdered; powder equivalent to 12 mg of mangiferin was weighed and dissolved in 500 mL of water, sonicated for 2 hours, filtered through 0.45 µm nylon filter, and analyzed by the validated method. [file:1]",
+            "equations": "Explicit calibration equation (e.g., A = kC + b) is not visible in the provided text; only the wavelength and qualitative analytical description are present. [file:1]"
+        }
+    },
+    "formulation_details_each_batch": {
+        "general_notes": {
+            "tablet_weight": "All formulations 018_F1–018_F12 have a reported total tablet weight of 670 mg. [file:1]",
+            "mangiferin_dose": "Each formulation 018_F1–018_F12 contains 600 mg of mangiferin per tablet. [file:1]"
+        },
+        "batches": {
+            "018_F1": {
+                "polymer_series": "Kollidon SR based formulation. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "kollidon_SR": 10,
+                    "microcrystalline_cellulose": 43,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs (quantity sufficient for granulation, not numerically specified). [file:1]",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F2": {
+                "polymer_series": "Kollidon SR. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "kollidon_SR": 20,
+                    "microcrystalline_cellulose": 33,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F3": {
+                "polymer_series": "Kollidon SR. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "kollidon_SR": 30,
+                    "microcrystalline_cellulose": 23,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F4": {
+                "polymer_series": "Kollidon SR. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "kollidon_SR": 40,
+                    "microcrystalline_cellulose": 13,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F5": {
+                "polymer_series": "HPMC K100M based formulation. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "HPMC_K100M": 15,
+                    "microcrystalline_cellulose": 38,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F6": {
+                "polymer_series": "HPMC K100M. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "HPMC_K100M": 25,
+                    "microcrystalline_cellulose": 28,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F7": {
+                "polymer_series": "HPMC K100M. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "HPMC_K100M": 35,
+                    "microcrystalline_cellulose": 18,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F8": {
+                "polymer_series": "HPMC K100M. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "HPMC_K100M": 45,
+                    "microcrystalline_cellulose": 8,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F9": {
+                "polymer_series": "Keltone LVCR based formulation. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "Keltone_LVCR": 15,
+                    "microcrystalline_cellulose": 38,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F10": {
+                "polymer_series": "Keltone LVCR. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "Keltone_LVCR": 25,
+                    "microcrystalline_cellulose": 28,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F11": {
+                "polymer_series": "Keltone LVCR. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "Keltone_LVCR": 35,
+                    "microcrystalline_cellulose": 18,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            },
+            "018_F12": {
+                "polymer_series": "Keltone LVCR. [file:1]",
+                "components_mg_per_tablet": {
+                    "mangiferin": 600,
+                    "Keltone_LVCR": 45,
+                    "microcrystalline_cellulose": 8,
+                    "PVP_K90": 6,
+                    "iso_propyl_alcohol_mL": "qs",
+                    "magnesium_stearate": 5,
+                    "talc": 6,
+                    "total_weight": 670
+                }
+            }
+        }
+    },
+    "pre_compression_parameters_each_batch": {
+        "notes": "The article explicitly tabulates post-compression parameters (Table 5) including thickness, hardness, friability, and assay for 018_F1–018_F12; classical pre-compression flow parameters such as angle of repose, bulk density, tapped density, Carr’s index, and Hausner ratio are described methodologically but individual numerical values per batch are not visible in the provided text. [file:1]",
+        "table_5_post_compression_summary": {
+            "weight_variation": "All formulations 018_F1–018_F12: \"within limits\" as per pharmacopoeial specifications (n = 20 tablets per batch). [file:1]",
+            "batches": {
+                "018_F1": {
+                    "thickness_mm_mean_SD": "4.31 ± 0.31 (n = 10). [file:1]",
+                    "hardness_Kp_mean_SD": "6.6 ± 0.24 (n = 6). [file:1]",
+                    "friability": "Pass (within acceptable limits, 0.5–1% weight loss). [file:1]",
+                    "assay_percent_mean_SD": "98.7 ± 0.2 (n = 3). [file:1]"
+                },
+                "018_F2": {
+                    "thickness_mm_mean_SD": "4.22 ± 0.30 (n = 10). [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40 (n = 6). [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "100.7 ± 0.6 (n = 3). [file:1]"
+                },
+                "018_F3": {
+                    "thickness_mm_mean_SD": "4.52 ± 0.30 (n = 10). [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "99.5 ± 0.2. [file:1]"
+                },
+                "018_F4": {
+                    "thickness_mm_mean_SD": "4.40 ± 0.20. [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "100.1 ± 0.2. [file:1]"
+                },
+                "018_F5": {
+                    "thickness_mm_mean_SD": "4.42 ± 0.30. [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "99.8 ± 0.2. [file:1]"
+                },
+                "018_F6": {
+                    "thickness_mm_mean_SD": "4.34 ± 0.30. [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "96.6 ± 0.6. [file:1]"
+                },
+                "018_F7": {
+                    "thickness_mm_mean_SD": "4.24 ± 0.30. [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "94.7 ± 0.2. [file:1]"
+                },
+                "018_F8": {
+                    "thickness_mm_mean_SD": "4.42 ± 0.20. [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "101.1 ± 0.2. [file:1]"
+                },
+                "018_F9": {
+                    "thickness_mm_mean_SD": "4.31 ± 0.31. [file:1]",
+                    "hardness_Kp_mean_SD": "6.6 ± 0.24. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "98.7 ± 0.2. [file:1]"
+                },
+                "018_F10": {
+                    "thickness_mm_mean_SD": "4.40 ± 0.20. [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "95.1 ± 0.2. [file:1]"
+                },
+                "018_F11": {
+                    "thickness_mm_mean_SD": "4.22 ± 0.30. [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "96.7 ± 0.6. [file:1]"
+                },
+                "018_F12": {
+                    "thickness_mm_mean_SD": "4.52 ± 0.30. [file:1]",
+                    "hardness_Kp_mean_SD": "6.7 ± 0.40. [file:1]",
+                    "friability": "Pass. [file:1]",
+                    "assay_percent_mean_SD": "99.5 ± 0.2. [file:1]"
+                }
+            }
+        }
+    },
+    "composition_of_independent_variables_and_levels": {
+        "tablet_core_design": {
+            "constant_factors": [
+                "Mangiferin dose: 600 mg per tablet in all formulations 018_F1–F12. [file:1]",
+                "Total tablet weight: 670 mg for each formulation 018_F1–F12. [file:1]",
+                "PVP K90: 6 mg per tablet. [file:1]",
+                "Magnesium stearate: 5 mg per tablet. [file:1]",
+                "Talc: 6 mg per tablet. [file:1]",
+                "Granulating fluid (iso-propyl alcohol): qs, non-quantified. [file:1]"
+            ],
+            "variable_factors": [
+                {
+                    "series": "Kollidon SR (018_F1–018_F4)",
+                    "polymer_levels_mg": [
+                        {
+                            "018_F1": 10
+                        },
+                        {
+                            "018_F2": 20
+                        },
+                        {
+                            "018_F3": 30
+                        },
+                        {
+                            "018_F4": 40
+                        }
+                    ],
+                    "microcrystalline_cellulose_level_mg": [
+                        {
+                            "018_F1": 43
+                        },
+                        {
+                            "018_F2": 33
+                        },
+                        {
+                            "018_F3": 23
+                        },
+                        {
+                            "018_F4": 13
+                        }
+                    ]
+                },
+                {
+                    "series": "HPMC K100M (018_F5–018_F8)",
+                    "polymer_levels_mg": [
+                        {
+                            "018_F5": 15
+                        },
+                        {
+                            "018_F6": 25
+                        },
+                        {
+                            "018_F7": 35
+                        },
+                        {
+                            "018_F8": 45
+                        }
+                    ],
+                    "microcrystalline_cellulose_level_mg": [
+                        {
+                            "018_F5": 38
+                        },
+                        {
+                            "018_F6": 28
+                        },
+                        {
+                            "018_F7": 18
+                        },
+                        {
+                            "018_F8": 8
+                        }
+                    ]
+                },
+                {
+                    "series": "Keltone LVCR (018_F9–018_F12)",
+                    "polymer_levels_mg": [
+                        {
+                            "018_F9": 15
+                        },
+                        {
+                            "018_F10": 25
+                        },
+                        {
+                            "018_F11": 35
+                        },
+                        {
+                            "018_F12": 45
+                        }
+                    ],
+                    "microcrystalline_cellulose_level_mg": [
+                        {
+                            "018_F9": 38
+                        },
+                        {
+                            "018_F10": 28
+                        },
+                        {
+                            "018_F11": 18
+                        },
+                        {
+                            "018_F12": 8
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "ftir_measurements_information": {
+        "section_location": "Results and Discussion (FTIR spectroscopy subsection) and Figure 1. [file:1]",
+        "description": "FTIR spectra of pure mangiferin are displayed, confirming characteristic functional group peaks consistent with its structure, supporting identity confirmation before formulation. [file:1]",
+        "sample_preparation": "The specific sample preparation for FTIR (e.g., KBr pellet, solid dispersion) is not described explicitly in the visible text; the paper only notes that the spectrum was obtained for mangiferin. [file:1]",
+        "interpretation": "Authors state the spectrum is consistent with mangiferin and use it as evidence for compatibility; individual peak positions and assignments are not detailed in the provided excerpt. [file:1]"
+    },
+    "tablet_fabrication_process_and_post_compression": {
+        "fabrication_method": {
+            "approach": "Wet granulation was used for all batches 018_F1–F12. [file:1]",
+            "steps": [
+                "Mangiferin, selected polymer (HPMC K100M, Kollidon SR, or Keltone LVCR), and excipients (excluding lubricant and glidant) were passed through #40 mesh and mixed for about 10 minutes in a mortar and pestle. [file:1]",
+                "Granulation was performed by adding a PVP K90 binder solution in iso-propyl alcohol until a suitable consistency was obtained, and the wet mass was then passed through #40 mesh. [file:1]",
+                "The resulting granules were dried (conditions not numerically specified in the visible text) and mixed with lactose or microcrystalline cellulose where applicable. [file:1]",
+                "Dried granules were passed through #60 mesh and lubricated with magnesium stearate and talc. [file:1]",
+                "Granules were compressed into tablets using a rotary tablet machine fitted with 10 mm flat punches, targeting a hardness between 6 and 8 kg/cm². [file:1]"
+            ]
+        },
+        "post_compression_evaluation": {
+            "parameters": [
+                "Weight variation (20 tablets, analytical balance, calculation of mean, SD, %RSD). [file:1]",
+                "Thickness (10 tablets, Vernier caliper). [file:1]",
+                "Hardness (6 tablets, Pfizer hardness tester, Kilo Pascal or Kp units). [file:1]",
+                "Friability (Roche or similar friabilator, 25 revolutions, acceptable range 0.5–1% weight loss). [file:1]",
+                "Content uniformity (20 tablets, UV analysis at 244 nm after sonication and filtration). [file:1]"
+            ]
+        },
+        "density_and_consolidation": {
+            "information_availability": "Bulk and tapped densities, Carr’s index, and Hausner ratio methods are described in the methods section but batch-specific numerical density values and consolidation index are not visible in the provided excerpt. [file:1]"
+        }
+    },
+    "process_parameters": {
+        "compression_process": {
+            "equipment": "Rotary tablet press (exact make/model not specified). [file:1]",
+            "tooling": "10 mm flat punches. [file:1]",
+            "target_hardness": "6–8 kg/cm² as the specified range during compression. [file:1]",
+            "pressure": "Exact compression pressure (kN or MPa) is not reported in the visible text; only hardness is controlled. [file:1]"
+        },
+        "coating": {
+            "coating_status": "The paper mentions evaluation of coating thickness and comparison with uncoated tablets, but detailed coating composition and parameters are not provided in the visible part; it appears tablets may have been evaluated both before and after any coating, but core formulation data are explicitly given. [file:1]"
+        },
+        "dissolution_conditions": {
+            "apparatus": "USP Type II (paddle) dissolution apparatus. [file:1]",
+            "volume": "900 mL dissolution medium. [file:1]",
+            "media_and_schedule": [
+                "0.1N HCl for the first 2 hours. [file:1]",
+                "pH 6.8 phosphate buffer for the remaining 22 hours (total 24 h). [file:1]"
+            ],
+            "sampling": {
+                "aliquot_volume": "5 mL withdrawn at each sampling time point. [file:1]",
+                "replacement_volume": "5 mL of fresh medium added after each withdrawal to maintain sink conditions. [file:1]"
+            },
+            "temperature": "37 ± 0.5 °C. [file:1]",
+            "rotation_speed": "100 rpm for phosphate buffer stage, 50 rpm for 0.1N HCl stage. [file:1]",
+            "analysis": "UV spectrophotometry at 244 nm. [file:1]"
+        },
+        "temperature_and_other_conditions": {
+            "tablet_drying": "Drying conditions are not numerically specified; only the general wet granulation workflow is described. [file:1]"
+        }
+    },
+    "release_properties_each_batch": {
+        "overall_observations": {
+            "media": "Two-stage dissolution (acid then phosphate buffer) for 24 hours. [file:1]",
+            "reported_best_kollidon_batch": "The abstract states that 018_F2, containing 20 mg Kollidon SR and 600 mg mangiferin (plus excipients), sustained mangiferin release for 12 hours with the highest regression coefficient (R value) for the Hixson-Crowell model and zero-order kinetics with erosion mechanism. [file:1]",
+            "reported_finally_optimized_batch": "In the conclusion, 018_F5 (HPMC K100M-based) is described as the optimized formulation, stable, and capable of providing pH-independent sustained release consistent with USP acceptance criteria. [file:1]"
+        },
+        "kinetic_modeling": {
+            "available_details": "The paper explicitly mentions that the formulation labeled 018_F2 showed the highest correlation with the Hixson-Crowell model and followed zero-order kinetics with an erosion-controlled release mechanism; detailed model parameters (rate constants and regression coefficients for each model and each formulation) for all 018_F1–018_F12 are not present in the visible text. [file:1]",
+            "zero_first_order_data": "Zero and first-order rate constants and regression coefficients per formulation are not fully visible; only qualitative statements for 018_F2 and 018_F5 are available. [file:1]"
+        },
+        "batch_level_data_visibility": {
+            "note": "Figures 2–4 present in-vitro drug release profiles of sustained release tablets for other sets (F13–F24) rather than only 018_F1–018_F12, and high-resolution numerical release data for each formulation are not accessible in the text segment; thus, complete time–% release tables and explicit release rates per batch 018_F1–018_F12 cannot be extracted. [file:1]"
+        }
+    },
+    "tablet_properties_each_batch": {
+        "mechanical_and_physical": {
+            "properties_reported": [
+                "Thickness, hardness, friability, weight variation, assay for each formulation 018_F1–018_F12 (summarized above from Table 5). [file:1]"
+            ],
+            "missing_data": [
+                "Disintegration time is not explicitly reported for 018_F1–F12. [file:1]",
+                "Detailed dissolution profile (exact percentage release at each time point) per formulation 018_F1–018_F12 is not available in the visible text. [file:1]",
+                "Stability study conditions and results (e.g., accelerated conditions, % assay, % release over time) are not explicitly shown in the provided portion, though the text mentions that the optimized formulation was stable. [file:1]",
+                "Tablet density and consolidation index are referenced conceptually (bulk/tapped density, Carr’s index, Hausner ratio) but not numerically per batch. [file:1]"
+            ]
+        },
+        "swelling_water_uptake": {
+            "availability": "Tablet swelling or water uptake data (lag time, total floating time, swelling index) are not reported in the visible sections for these sustained-release matrix tablets; this appears to be a non-floating matrix design. [file:1]"
+        }
+    },
+    "experimental_data_and_statistics": {
+        "in_vitro_data": {
+            "description": "In-vitro dissolution studies for mangiferin sustained-release tablets were conducted over 24 hours in bi-phasic medium with sampling as above; release profiles are plotted in Figures 2–4 for various sets of formulations. [file:1]",
+            "performance_metric_examples": [
+                "Duration of release (018_F2 extended release up to 12 h; general goal up to 24 h depending on polymer). [file:1]",
+                "Hardness maintained around 6.6–6.7 Kp, friability within 0.5–1%. [file:1]",
+                "Assay for all formulations within pharmacopoeial limits (approximately mid 90s–101%). [file:1]"
+            ],
+            "statistical_analysis": "The article references correlation coefficients (R values) for different kinetic models in describing 018_F2 and indicates kinetic model fitting; however, full statistical tables (R² for zero order, first order, Higuchi, Hixson-Crowell, Korsmeyer-Peppas) for all formulations are not visible. [file:1]"
+        },
+        "in_vivo_data": {
+            "availability": "No in-vivo study data are presented in the provided sections; the work appears to be limited to in-vitro characterization. [file:1]"
+        },
+        "zero_and_first_order_data_all_formulations": {
+            "availability": "Detailed zero- and first-order kinetic parameters (rate constants and R² values) for 018_F1–018_F12 are not included in the visible text, so they cannot be extracted. Only qualitative statements that 018_F2 best fits Hixson-Crowell and follows zero-order kinetics with erosion mechanism are available. [file:1]"
+        }
+    }
+}

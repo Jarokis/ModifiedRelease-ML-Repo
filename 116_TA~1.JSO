@@ -1,0 +1,656 @@
+{
+    "materials_origin": {
+        "Metformin_HCl_MEH": "Sinbitokit (source not specified)",
+        "Hydroxypropyl_methylcellulose_HPMC_90_SH_100000": "SHIN-ETSU Chemical (Japan)",
+        "Compritol_ATO_888": "GATTEFOSSE (France)",
+        "Polyvinylpyrrolidone_PVP_K_30": "Cosmopolitan Drugstore (source not specified)",
+        "Sodium_bicarbonate": "J.T Baker (USA)",
+        "Magnesium_stearate": "Lufra Chemistry (source not specified)"
+    },
+    "experimental_design": {
+        "type": "Taguchi L4 2^3 design",
+        "factors": [
+            "HPMC",
+            "Compritol_ATO_888",
+            "sodium_bicarbonate_SB"
+        ],
+        "levels": {
+            "HPMC": {
+                "low_g": 0.2,
+                "high_g": 0.25
+            },
+            "Compritol": {
+                "low_g": 0.1,
+                "high_g": 0.2
+            },
+            "SB": {
+                "low_g": 0.1,
+                "high_g": 0.15
+            }
+        },
+        "constant_components": {
+            "Metformin_HCl_g": 0.75,
+            "Magnesium_stearate_g": 0.01,
+            "PVP_K_30_g": 0.015
+        },
+        "formulations": [
+            "116_F1",
+            "116_F2",
+            "116_F3",
+            "116_F4"
+        ],
+        "statistical_software": "Statgraphics Centurion XVII, ANOVA"
+    },
+    "ingredients_identification": {
+        "preparation_method": "Wet granulation",
+        "results": "Granules with acceptable to excellent flow properties (angle of repose 16-19°, Hausner ratio 1.11-1.28, Carr index 10-21)",
+        "equations": {
+            "zero_order": "Mt/M∞ = k0*t",
+            "first_order": "Mt/M∞ = 1 - (1 - k1*t)^2",
+            "higuchi": "Mt/M∞ = kn*t^{1/2}",
+            "korsmeyer_peppas": "Mt/M∞ = kp*t^n",
+            "peppas_sahlin": "Mt/M∞ = kp*t^{n} + kp*t^{2m}",
+            "swelling": "% swelling = (W2 - W1)/W1 * 100",
+            "erosion": "% erosion = (W1 - W2)/W1 * 100"
+        },
+        "absorbance": {
+            "drug_content_wavelength_nm": 232,
+            "calibration_curve_water": "1-20 μg/mL",
+            "calibration_curve_HCl": "1-50 μg/mL"
+        }
+    },
+    "formulation_details": [
+        {
+            "batch": "116_F1",
+            "api": "Metformin HCl",
+            "api_mg": 750,
+            "excipients": [
+                {
+                    "name": "HPMC",
+                    "mg": 200,
+                    "percent": 17.02
+                },
+                {
+                    "name": "Compritol_ATO_888",
+                    "mg": 100,
+                    "percent": 8.51
+                },
+                {
+                    "name": "Sodium_bicarbonate",
+                    "mg": 100,
+                    "percent": 8.51
+                },
+                {
+                    "name": "PVP_K_30",
+                    "mg": 15,
+                    "percent": 1.28
+                },
+                {
+                    "name": "Magnesium_stearate",
+                    "mg": 10,
+                    "percent": 0.85
+                }
+            ],
+            "total_mg": 1175
+        },
+        {
+            "batch": "116_F2",
+            "api": "Metformin HCl",
+            "api_mg": 750,
+            "excipients": [
+                {
+                    "name": "HPMC",
+                    "mg": 200,
+                    "percent": 15.09
+                },
+                {
+                    "name": "Compritol_ATO_888",
+                    "mg": 200,
+                    "percent": 15.09
+                },
+                {
+                    "name": "Sodium_bicarbonate",
+                    "mg": 150,
+                    "percent": 11.32
+                },
+                {
+                    "name": "PVP_K_30",
+                    "mg": 15,
+                    "percent": 1.13
+                },
+                {
+                    "name": "Magnesium_stearate",
+                    "mg": 10,
+                    "percent": 0.75
+                }
+            ],
+            "total_mg": 1325
+        },
+        {
+            "batch": "116_F3",
+            "api": "Metformin HCl",
+            "api_mg": 750,
+            "excipients": [
+                {
+                    "name": "HPMC",
+                    "mg": 250,
+                    "percent": 19.61
+                },
+                {
+                    "name": "Compritol_ATO_888",
+                    "mg": 100,
+                    "percent": 7.84
+                },
+                {
+                    "name": "Sodium_bicarbonate",
+                    "mg": 150,
+                    "percent": 11.76
+                },
+                {
+                    "name": "PVP_K_30",
+                    "mg": 15,
+                    "percent": 1.18
+                },
+                {
+                    "name": "Magnesium_stearate",
+                    "mg": 10,
+                    "percent": 0.78
+                }
+            ],
+            "total_mg": 1275
+        },
+        {
+            "batch": "116_F4",
+            "api": "Metformin HCl",
+            "api_mg": 750,
+            "excipients": [
+                {
+                    "name": "HPMC",
+                    "mg": 250,
+                    "percent": 18.87
+                },
+                {
+                    "name": "Compritol_ATO_888",
+                    "mg": 200,
+                    "percent": 15.09
+                },
+                {
+                    "name": "Sodium_bicarbonate",
+                    "mg": 100,
+                    "percent": 7.55
+                },
+                {
+                    "name": "PVP_K_30",
+                    "mg": 15,
+                    "percent": 1.13
+                },
+                {
+                    "name": "Magnesium_stearate",
+                    "mg": 10,
+                    "percent": 0.75
+                }
+            ],
+            "total_mg": 1325
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "116_F1",
+            "bulk_density_g_ml": "0.486 ± 0.009",
+            "tapped_density_g_ml": "0.541 ± 0.008",
+            "carr_index": "10.110 ± 1.280",
+            "hausner_ratio": "1.110 ± 0.017",
+            "angle_of_repose_deg": "16.847 ± 2.111"
+        },
+        {
+            "batch": "116_F2",
+            "bulk_density_g_ml": "0.513 ± 0.007",
+            "tapped_density_g_ml": "0.588 ± 0.000",
+            "carr_index": "12.807 ± 1.120",
+            "hausner_ratio": "1.147 ± 0.015",
+            "angle_of_repose_deg": "16.447 ± 0.272"
+        },
+        {
+            "batch": "116_F3",
+            "bulk_density_g_ml": "0.532 ± 0.022",
+            "tapped_density_g_ml": "0.660 ± 0.028",
+            "carr_index": "19.470 ± 0.256",
+            "hausner_ratio": "1.243 ± 0.006",
+            "angle_of_repose_deg": "19.610 ± 0.572"
+        },
+        {
+            "batch": "116_F4",
+            "bulk_density_g_ml": "0.498 ± 0.009",
+            "tapped_density_g_ml": "0.639 ± 0.016",
+            "carr_index": "21.993 ± 0.766",
+            "hausner_ratio": "1.280 ± 0.010",
+            "angle_of_repose_deg": "19.030 ± 1.750"
+        }
+    ],
+    "independent_variables_levels": {
+        "HPMC_mg": {
+            "low": 200,
+            "high": 250
+        },
+        "Compritol_ATO_888_mg": {
+            "low": 100,
+            "high": 200
+        },
+        "Sodium_bicarbonate_mg": {
+            "low": 100,
+            "high": 150
+        }
+    },
+    "ftir_spectral_measurements": "Not reported",
+    "tablet_fabrications": [
+        {
+            "batch": "116_F1",
+            "hardness_Kp": "9.156 ± 0.614",
+            "friability_percent": 0.7,
+            "weight_variation_CV_percent": 0.357,
+            "thickness_mm": null,
+            "diameter_mm": 13,
+            "density_g_ml": null,
+            "drug_content_percent": "103.474 ± 1.252",
+            "consolidation_index": null
+        },
+        {
+            "batch": "116_F2",
+            "hardness_Kp": "10.767 ± 0.758",
+            "friability_percent": 0.47,
+            "weight_variation_CV_percent": 0.235,
+            "thickness_mm": null,
+            "diameter_mm": 13,
+            "density_g_ml": null,
+            "drug_content_percent": "100.231 ± 0.462",
+            "consolidation_index": null
+        },
+        {
+            "batch": "116_F3",
+            "hardness_Kp": "10.055 ± 0.489",
+            "friability_percent": 0.59,
+            "weight_variation_CV_percent": 0.329,
+            "thickness_mm": null,
+            "diameter_mm": 13,
+            "density_g_ml": null,
+            "drug_content_percent": "103.468 ± 1.726",
+            "consolidation_index": null
+        },
+        {
+            "batch": "116_F4",
+            "hardness_Kp": "11.903 ± 0.562",
+            "friability_percent": 0.88,
+            "weight_variation_CV_percent": 1.343,
+            "thickness_mm": null,
+            "diameter_mm": 13,
+            "density_g_ml": null,
+            "drug_content_percent": "100.925 ± 3.876",
+            "consolidation_index": null
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "Enerpac P392 hydraulic press",
+        "compression_pressure_psi": 6500,
+        "compression_time_sec": 30,
+        "punch_diameter_mm": 13,
+        "drying_temperature_C": 50,
+        "drying_humidity_target_percent": "1-3",
+        "equipment": "BG drying oven, ROCA thermobalance, sieve #40 and #14, mixer at 30 rpm",
+        "coating": "none"
+    },
+    "release_properties": [
+        {
+            "batch": "116_F1",
+            "release_mechanism": "Combination of diffusion and erosion, Peppas-Sahlin model, Fickian diffusion predominates (k1>k2)",
+            "release_profile": "Burst effect ~40-60% at 3h, prolonged to 24h; meets USP extended-release criteria",
+            "factors_influencing": "pH 0.1N HCl, CO2 effervescence, HPMC swelling, Compritol hydrophobicity",
+            "release_at_time_hours": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 18
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 32
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 45
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 58
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 68
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 76
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 83
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 88
+                },
+                {
+                    "time_h": 24,
+                    "release_percent": 96
+                }
+            ],
+            "kinetics": {
+                "zero_order_R2": -0.438,
+                "first_order_R2": 0.936,
+                "higuchi_R2": 0.825,
+                "korsmeyer_peppas_R2": 0.986,
+                "n": 0.522,
+                "KKp": 31.233,
+                "peppas_sahlin_R2": 0.994,
+                "k1": 26.789,
+                "k2": 4.493,
+                "m": 0.547
+            }
+        },
+        {
+            "batch": "116_F2",
+            "release_mechanism": "Diffusion predominates, relaxation negligible (k2 negative)",
+            "release_profile": "Slower than 116_F1, prolonged >24h",
+            "factors_influencing": "Same as above",
+            "release_at_time_hours": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 15
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 27
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 38
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 44
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 49
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 57
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 64
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 74
+                },
+                {
+                    "time_h": 24,
+                    "release_percent": 82
+                }
+            ],
+            "kinetics": {
+                "zero_order_R2": -0.224,
+                "first_order_R2": 0.876,
+                "higuchi_R2": 0.857,
+                "korsmeyer_peppas_R2": 0.961,
+                "n": 0.483,
+                "KKp": 24.101,
+                "peppas_sahlin_R2": 0.996,
+                "k1": 24.551,
+                "k2": -2.455,
+                "m": 0.778
+            }
+        },
+        {
+            "batch": "116_F3",
+            "release_mechanism": "Polymer chain relaxation (erosion) predominates (k2 >> k1)",
+            "release_profile": "Slower, prolonged >24h",
+            "factors_influencing": "Same as above",
+            "release_at_time_hours": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 13
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 24
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 33
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 39
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 44
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 59
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 65
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 69
+                },
+                {
+                    "time_h": 24,
+                    "release_percent": 77
+                }
+            ],
+            "kinetics": {
+                "zero_order_R2": 0.049,
+                "first_order_R2": 0.948,
+                "higuchi_R2": 0.907,
+                "korsmeyer_peppas_R2": 0.987,
+                "n": 0.613,
+                "KKp": 20.13,
+                "peppas_sahlin_R2": 0.996,
+                "k1": -28.883,
+                "k2": 48.838,
+                "m": 0.371
+            }
+        },
+        {
+            "batch": "116_F4",
+            "release_mechanism": "Combination of diffusion and erosion, Fickian diffusion predominates (k1>k2)",
+            "release_profile": "Slowest release, prolonged >24h",
+            "factors_influencing": "Same as above",
+            "release_at_time_hours": [
+                {
+                    "time_h": 0.5,
+                    "release_percent": 10
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 18
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 25
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 34
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 41
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 47
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 56
+                },
+                {
+                    "time_h": 24,
+                    "release_percent": 64
+                }
+            ],
+            "kinetics": {
+                "zero_order_R2": 0.172,
+                "first_order_R2": 0.9,
+                "higuchi_R2": 0.944,
+                "korsmeyer_peppas_R2": 0.995,
+                "n": 0.506,
+                "KKp": 19.241,
+                "peppas_sahlin_R2": 0.996,
+                "k1": 17.438,
+                "k2": 1.875,
+                "m": 0.455
+            }
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "116_F1",
+            "hardness_Kp": "9.156 ± 0.614",
+            "friability_percent": 0.7,
+            "disintegration_time": null,
+            "dissolution_profile": "See release_at_time_hours",
+            "stability": null,
+            "thickness_mm": null,
+            "weight_variation_percent": 0.357,
+            "swelling_index_percent_12h": 154.47,
+            "swelling_index_percent_24h": null,
+            "erosion_index_percent_12h": 64.78,
+            "erosion_index_percent_24h": 78.8,
+            "floating_lag_time_min": "1.750 ± 0.270",
+            "total_floating_time_h": 24
+        },
+        {
+            "batch": "116_F2",
+            "hardness_Kp": "10.767 ± 0.758",
+            "friability_percent": 0.47,
+            "disintegration_time": null,
+            "dissolution_profile": "See release_at_time_hours",
+            "stability": null,
+            "thickness_mm": null,
+            "weight_variation_percent": 0.235,
+            "swelling_index_percent_12h": null,
+            "swelling_index_percent_24h": 123.57,
+            "erosion_index_percent_12h": null,
+            "erosion_index_percent_24h": null,
+            "floating_lag_time_min": "1.420 ± 0.070",
+            "total_floating_time_h": 24
+        },
+        {
+            "batch": "116_F3",
+            "hardness_Kp": "10.055 ± 0.489",
+            "friability_percent": 0.59,
+            "disintegration_time": null,
+            "dissolution_profile": "See release_at_time_hours",
+            "stability": null,
+            "thickness_mm": null,
+            "weight_variation_percent": 0.329,
+            "swelling_index_percent_12h": null,
+            "swelling_index_percent_24h": null,
+            "erosion_index_percent_12h": null,
+            "erosion_index_percent_24h": null,
+            "floating_lag_time_min": "1.070 ± 0.740",
+            "total_floating_time_h": 24
+        },
+        {
+            "batch": "116_F4",
+            "hardness_Kp": "11.903 ± 0.562",
+            "friability_percent": 0.88,
+            "disintegration_time": null,
+            "dissolution_profile": "See release_at_time_hours",
+            "stability": null,
+            "thickness_mm": null,
+            "weight_variation_percent": 1.343,
+            "swelling_index_percent_12h": 120.0,
+            "swelling_index_percent_24h": 194.97,
+            "erosion_index_percent_12h": 35.9,
+            "erosion_index_percent_24h": 54.61,
+            "floating_lag_time_min": "1.970 ± 0.390",
+            "total_floating_time_h": 24
+        }
+    ],
+    "experimental_data": {
+        "statistical_analysis": "ANOVA using Statgraphics Centurion XVII; principal effects and 3-D contour plots generated for drug dissolved at 24h, swelling, erosion",
+        "performance_metrics": "Formulation 116_F1 meets USP extended-release acceptance criteria. All formulations show prolonged release up to 24h.",
+        "zero_first_order_release": "See release_properties kinetics section for R² values and parameters.",
+        "in_vitro_studies": {
+            "dissolution": "Apparatus II (Dissolutor LABINDIA DS 8000), 100 rpm, 900 mL 0.1N HCl, 37±0.5°C, sampling at 0.5,1,2,3,4,6,8,10,12,24h",
+            "floating_behavior": "Measured in 100 mL simulated gastric fluid at 37°C",
+            "swelling_erosion": "Gravimetric method in 0.1N HCl at 37°C, sampling at 0.5,1,2,4,8,12,24h"
+        },
+        "swelling_erosion_data": {
+            "at_12_hours": {
+                "swelling_percent": {
+                    "116_F1": 154.47,
+                    "116_F4": 120.0,
+                    "order": "116_F1 > 116_F3 > 116_F2 > 116_F4"
+                },
+                "erosion_percent": {
+                    "116_F1": 64.78,
+                    "116_F4": 35.9,
+                    "order": "116_F1 > 116_F3 > 116_F2 > 116_F4"
+                }
+            },
+            "at_24_hours": {
+                "swelling_percent": {
+                    "116_F2": 123.57,
+                    "116_F4": 194.97,
+                    "order": "116_F4 > 116_F3 > 116_F2 > 116_F1"
+                },
+                "erosion_percent": {
+                    "116_F1": 78.8,
+                    "116_F4": 54.61,
+                    "order": "116_F1 > 116_F3 > 116_F2 > 116_F4"
+                }
+            }
+        },
+        "floating_data": {
+            "lag_time_min": {
+                "116_F1": "1.750±0.270",
+                "116_F2": "1.420±0.070",
+                "116_F3": "1.070±0.740",
+                "116_F4": "1.970±0.390"
+            },
+            "total_flotation_h": {
+                "all": 24
+            }
+        }
+    }
+}

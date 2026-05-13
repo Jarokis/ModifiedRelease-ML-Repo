@@ -1,0 +1,561 @@
+{
+    "sections_mapping": {
+        "abstract": [
+            "Study aim, formulation sets (009_F1–009_F4 polymer ratios; 009_F5–009_F9 SLS levels), dissolution overview, release models, and key conclusion (009_F6 best) [attached_file:1]"
+        ],
+        "introduction": [
+            "Clinical rationale for sustained release carvedilol, solubility context, and objective of using HPMC matrices with SLS [attached_file:1]"
+        ],
+        "materials_and_methods": [
+            "Materials origin (vendors), tablet preparation (direct compression), compression device/force/time/punch, blend and tablet tests, UV-Vis calibration (241 nm, absorbance table), dissolution setup (USP II, 0.1 N HCl pH 1.2, 37±0.05°C, 100 rpm, 24 h), release models and equations, MDT equation [attached_file:1]"
+        ],
+        "results_and_discussion": [
+            "Pre-compression (reported as ranges), tablet properties (reported as ranges), 009_F1–009_F4 and 009_F5–009_F9 dissolution tables and figures, kinetic parameters (009_F5–009_F9), MDT and fractional dissolution times, mechanism interpretation (diffusion + erosion) and selection of 009_F6 [attached_file:1]"
+        ],
+        "conclusion": [
+            "Summary of successful once-daily sustained-release matrix development and best formulation note [attached_file:1]"
+        ]
+    },
+    "materials_origin": {
+        "api": "Carvedilol phosphate (gift sample), Beximco Pharmaceuticals Limited, Bangladesh [attached_file:1]",
+        "excipients": [
+            "Methocel K4M CR, Methocel K15M CR, Avicel PH101 (Dow Chemical’s Asia Pvt., India) [attached_file:1]",
+            "Starch 1500 (Colorcon, USA) [attached_file:1]",
+            "Sodium lauryl sulfate (Sigma-Aldrich Chemie GmbH, Germany) [attached_file:1]",
+            "Talc (S.D. Fine-Chem Limited, Mumbai, India) [attached_file:1]",
+            "Magnesium stearate (Novochem GmbH, Germany) [attached_file:1]"
+        ],
+        "solvents_and_grade": "Reagent-grade chemicals; distilled water used throughout [attached_file:1]"
+    },
+    "experimental_design_for_optimization": {
+        "overview": "Two-stage optimization: 009_F1–009_F4 varied HPMC K4M/K15M ratio to sustain 24 h; 009_F5–009_F9 fixed polymer ratio and varied SLS (1.0–2.0%) to enhance dissolution of poorly soluble carvedilol [attached_file:1]",
+        "sets": [
+            {
+                "name": "009_F1–009_F4",
+                "factor": "HPMC K15M level while K4M fixed (matrix polymer ratio) [attached_file:1]",
+                "levels_mg": [
+                    {
+                        "K4M": 45,
+                        "K15M": 45
+                    },
+                    {
+                        "K4M": 45,
+                        "K15M": 39
+                    },
+                    {
+                        "K4M": 45,
+                        "K15M": 33
+                    },
+                    {
+                        "K4M": 45,
+                        "K15M": 27
+                    }
+                ],
+                "objective": "Optimize polymer composition to avoid burst and sustain release up to 24 h [attached_file:1]"
+            },
+            {
+                "name": "009_F5–009_F9",
+                "factor": "SLS percentage with fixed polymers (K4M 45 mg, K15M 33 mg) [attached_file:1]",
+                "levels_percent": [
+                    1.0,
+                    1.25,
+                    1.5,
+                    1.75,
+                    2.0
+                ],
+                "objective": "Increase dissolution rate due to poor aqueous solubility while matching theoretical once-daily profile [attached_file:1]"
+            }
+        ],
+        "theoretical_once_daily_release_target": {
+            "t1h": "NMT 25% [attached_file:1]",
+            "t4h": "30–45% [attached_file:1]",
+            "t8h": "45–60% [attached_file:1]",
+            "t12h": "60–70% [attached_file:1]",
+            "t24h": "NLT 90% [attached_file:1]"
+        }
+    },
+    "ingredients_identification_uv_vis": {
+        "how_prepared": "10 mg carvedilol in 50 mL flask; add 1 mL methanol, sonicate 5 min; cool; make to volume with distilled water; filter (Whatman 42 then 0.45 μm); prepare 1–8 μg/mL standards [attached_file:1]",
+        "instrument_and_wavelength": "Double-beam UV-Vis spectrophotometer (Shimadzu, Japan) at 241 nm [attached_file:1]",
+        "absorbance_table": [
+            {
+                "conc_ug_per_mL": 1.0,
+                "absorbance": 0.112
+            },
+            {
+                "conc_ug_per_mL": 2.0,
+                "absorbance": 0.216
+            },
+            {
+                "conc_ug_per_mL": 3.0,
+                "absorbance": 0.327
+            },
+            {
+                "conc_ug_per_mL": 4.0,
+                "absorbance": 0.438
+            },
+            {
+                "conc_ug_per_mL": 5.0,
+                "absorbance": 0.547
+            },
+            {
+                "conc_ug_per_mL": 6.0,
+                "absorbance": 0.652
+            },
+            {
+                "conc_ug_per_mL": 7.0,
+                "absorbance": 0.756
+            },
+            {
+                "conc_ug_per_mL": 8.0,
+                "absorbance": 0.863
+            }
+        ],
+        "equations_used_in_methods": [
+            "Angle of repose: \\( \\theta = \\tan^{-1}(h/r) \\) [attached_file:1]",
+            "Loose bulk density: \\( \\mathrm{LBD} = \\frac{\\text{mass}}{\\text{bulk volume}} \\) [attached_file:1]",
+            "Tapped bulk density: \\( \\mathrm{TBD} = \\frac{\\text{mass}}{\\text{tapped volume}} \\) [attached_file:1]",
+            "Carr’s index: \\( \\%CI = \\frac{(\\mathrm{TBD}-\\mathrm{LBD})\\times 100}{\\mathrm{TBD}} \\) [attached_file:1]",
+            "Hausner ratio: \\( H = \\frac{\\mathrm{TBD}}{\\mathrm{LBD}} \\) [attached_file:1]",
+            "Porosity: \\( \\%\\,\\varepsilon = \\frac{V_{\\text{bulk}} - V}{V_{\\text{bulk}}}\\times 100 \\) [attached_file:1]",
+            "Korsmeyer–Peppas: \\( \\frac{M_t}{M_\\alpha} = k t^{n} \\) with mechanism by n [attached_file:1]",
+            "Mean dissolution time: \\( \\mathrm{MDT} = \\left(\\frac{n}{n+1}\\right)k^{-1/n} \\) [attached_file:1]"
+        ]
+    },
+    "formulation_details_per_batch": {
+        "009_F1": {
+            "carvedilol_mg": 80,
+            "methocel_K4M_CR_mg": 45,
+            "methocel_K15M_CR_mg": 45,
+            "starch_1500_mg": 63,
+            "avicel_PH101_mg": 62,
+            "sls_mg": 0,
+            "magnesium_stearate_mg": 2,
+            "talc_mg": 3,
+            "total_mg": 300
+        },
+        "009_F2": {
+            "carvedilol_mg": 80,
+            "methocel_K4M_CR_mg": 45,
+            "methocel_K15M_CR_mg": 39,
+            "starch_1500_mg": 63,
+            "avicel_PH101_mg": 68,
+            "sls_mg": 0,
+            "magnesium_stearate_mg": 2,
+            "talc_mg": 3,
+            "total_mg": 300
+        },
+        "009_F3": {
+            "carvedilol_mg": 80,
+            "methocel_K4M_CR_mg": 45,
+            "methocel_K15M_CR_mg": 33,
+            "starch_1500_mg": 63,
+            "avicel_PH101_mg": 74,
+            "sls_mg": 0,
+            "magnesium_stearate_mg": 2,
+            "talc_mg": 3,
+            "total_mg": 300
+        },
+        "009_F4": {
+            "carvedilol_mg": 80,
+            "methocel_K4M_CR_mg": 45,
+            "methocel_K15M_CR_mg": 27,
+            "starch_1500_mg": 63,
+            "avicel_PH101_mg": 80,
+            "sls_mg": 0,
+            "magnesium_stearate_mg": 2,
+            "talc_mg": 3,
+            "total_mg": 300
+        },
+        "009_F5": {
+            "carvedilol_mg": 80,
+            "methocel_K4M_CR_mg": 45,
+            "methocel_K15M_CR_mg": 33,
+            "starch_1500_mg": 63,
+            "avicel_PH101_mg": 71,
+            "sls_mg": 3.0,
+            "magnesium_stearate_mg": 2,
+            "talc_mg": 3,
+            "total_mg": 300
+        },
+        "009_F6": {
+            "carvedilol_mg": 80,
+            "methocel_K4M_CR_mg": 45,
+            "methocel_K15M_CR_mg": 33,
+            "starch_1500_mg": 63,
+            "avicel_PH101_mg": 70.25,
+            "sls_mg": 3.75,
+            "magnesium_stearate_mg": 2,
+            "talc_mg": 3,
+            "total_mg": 300
+        },
+        "009_F7": {
+            "carvedilol_mg": 80,
+            "methocel_K4M_CR_mg": 45,
+            "methocel_K15M_CR_mg": 33,
+            "starch_1500_mg": 63,
+            "avicel_PH101_mg": 69.5,
+            "sls_mg": 4.5,
+            "magnesium_stearate_mg": 2,
+            "talc_mg": 3,
+            "total_mg": 300
+        },
+        "009_F8": {
+            "carvedilol_mg": 80,
+            "methocel_K4M_CR_mg": 45,
+            "methocel_K15M_CR_mg": 33,
+            "starch_1500_mg": 63,
+            "avicel_PH101_mg": 68.75,
+            "sls_mg": 5.25,
+            "magnesium_stearate_mg": 2,
+            "talc_mg": 3,
+            "total_mg": 300
+        },
+        "009_F9": {
+            "carvedilol_mg": 80,
+            "methocel_K4M_CR_mg": 45,
+            "methocel_K15M_CR_mg": 33,
+            "starch_1500_mg": 63,
+            "avicel_PH101_mg": 68,
+            "sls_mg": 6.0,
+            "magnesium_stearate_mg": 2,
+            "talc_mg": 3,
+            "total_mg": 300
+        }
+    },
+    "pre_compression_parameters": {
+        "reported_as": "ranges across blends (not itemized per batch)",
+        "angle_of_repose_deg": "26.74 ± 0.03 to 29.25 ± 0.03 [attached_file:1]",
+        "loose_bulk_density_g_per_mL": "0.43 ± 0.02 to 0.45 ± 0.01 [attached_file:1]",
+        "tapped_bulk_density_g_per_mL": "0.52 ± 0.04 to 0.54 ± 0.04 [attached_file:1]",
+        "carr_index_percent": "14.20 ± 0.03 to 20.86 ± 0.04 [attached_file:1]",
+        "hausner_ratio": "1.17 ± 0.01 to 1.26 ± 0.03 [attached_file:1]",
+        "total_porosity_percent": "13.58 ± 0.01 to 17.65 ± 0.06 [attached_file:1]",
+        "moisture_content_percent": "2.89 to 3.45 [attached_file:1]"
+    },
+    "independent_variables_and_levels": {
+        "polymers_HPMC_ratio_set_F1_to_F4": [
+            {
+                "K4M_mg": 45,
+                "K15M_mg": 45
+            },
+            {
+                "K4M_mg": 45,
+                "K15M_mg": 39
+            },
+            {
+                "K4M_mg": 45,
+                "K15M_mg": 33
+            },
+            {
+                "K4M_mg": 45,
+                "K15M_mg": 27
+            }
+        ],
+        "sls_percent_set_F5_to_F9": [
+            1.0,
+            1.25,
+            1.5,
+            1.75,
+            2.0
+        ]
+    },
+    "ftir_information": "Not reported in this article [attached_file:1]",
+    "tablet_fabrication_quality_testing": {
+        "fabrication_method": "Direct compression after dry blending; blend sieved #24; lubricant and glidant added last; compressed with 10 mm flat-faced punch [attached_file:1]",
+        "qc_tests_and_equipment": [
+            "Weight variation (20 tablets) using Sartorius electronic balance [attached_file:1]",
+            "Hardness and thickness via Dr. Schleuniger Pharmatron Tablet Tester (Model 6D) [attached_file:1]",
+            "Friability via Erweka Friability Tester [attached_file:1]"
+        ],
+        "per_batch_metrics": "Not itemized per batch (009_F1–009_F9) for hardness, friability, thickness, diameter, density, drug content, or consolidation index in the paper [attached_file:1]",
+        "overall_tablet_properties": {
+            "average_weight_mg": "297.5 ± 0.10 to 303.2 ± 0.13 [attached_file:1]",
+            "hardness_kg_per_cm2": "8.9 ± 0.03 to 10.8 ± 0.02 [attached_file:1]",
+            "friability_percent": "0.15 to 0.34 [attached_file:1]",
+            "diameter_mm": "10 [attached_file:1]",
+            "thickness_mm": "3.53 ± 0.01 to 3.85 ± 0.01 [attached_file:1]"
+        }
+    },
+    "process_parameters": {
+        "compression_process": {
+            "device": "Perkin-Elmer laboratory hydraulic press [attached_file:1]",
+            "punch_die": "10 mm flat-faced [attached_file:1]",
+            "compression_force": "5 tons [attached_file:1]",
+            "compression_time": "30 seconds [attached_file:1]",
+            "die_punch_lubrication": "Magnesium stearate [attached_file:1]",
+            "coating": "None reported (uncoated tablets) [attached_file:1]"
+        },
+        "post_compression_storage": "Airtight polyethylene bags at room temperature [attached_file:1]",
+        "dissolution_conditions": {
+            "apparatus": "USP Type II (paddle), Electrolab, India [attached_file:1]",
+            "medium": "900 mL simulated gastric fluid (0.1 N HCl, pH 1.2) [attached_file:1]",
+            "temperature_C": "37 ± 0.05 [attached_file:1]",
+            "rotation_rpm": 100,
+            "duration_h": 24,
+            "sampling_times_h": [
+                1,
+                2,
+                4,
+                8,
+                12,
+                24
+            ],
+            "assay": "UV-Vis at 241 nm using calibration curve [attached_file:1]"
+        }
+    },
+    "release_properties": {
+        "zero_order_release_profiles_percent": {
+            "009_F1": {
+                "0h": 0,
+                "1h": 2.63,
+                "2h": 4.39,
+                "4h": 7.63,
+                "8h": 22.83,
+                "12h": 33.71,
+                "24h": 51.01
+            },
+            "009_F2": {
+                "0h": 0,
+                "1h": 7.01,
+                "2h": 10.26,
+                "4h": 14.07,
+                "8h": 29.58,
+                "12h": 40.49,
+                "24h": 56.59
+            },
+            "009_F3": {
+                "0h": 0,
+                "1h": 8.18,
+                "2h": 11.43,
+                "4h": 15.85,
+                "8h": 35.42,
+                "12h": 44.88,
+                "24h": 59.54
+            },
+            "009_F4": {
+                "0h": 0,
+                "1h": 27.74,
+                "2h": 41.63,
+                "4h": 49.31,
+                "8h": 57.82,
+                "12h": 62.53,
+                "24h": 63.72
+            },
+            "009_F5": {
+                "0h": 0,
+                "1h": 11.1,
+                "2h": 17.82,
+                "4h": 29.5,
+                "8h": 47.02,
+                "12h": 57.83,
+                "24h": 81.4
+            },
+            "009_F6": {
+                "0h": 0,
+                "1h": 14.01,
+                "2h": 19.86,
+                "4h": 34.17,
+                "8h": 53.15,
+                "12h": 67.76,
+                "24h": 98.42
+            },
+            "009_F7": {
+                "0h": 0,
+                "1h": 12.27,
+                "2h": 18.98,
+                "4h": 32.12,
+                "8h": 51.11,
+                "12h": 63.96,
+                "24h": 96.38
+            },
+            "009_F8": {
+                "0h": 0,
+                "1h": 13.47,
+                "2h": 18.92,
+                "4h": 34.22,
+                "8h": 53.15,
+                "12h": 64.57,
+                "24h": 98.14
+            },
+            "009_F9": {
+                "0h": 0,
+                "1h": 13.81,
+                "2h": 17.85,
+                "4h": 35.54,
+                "8h": 55.46,
+                "12h": 62.02,
+                "24h": 98.25
+            }
+        },
+        "kinetic_parameters_F5_to_F9": {
+            "009_F5": {
+                "zero_order": {
+                    "K0": 3.243,
+                    "R2": 0.923
+                },
+                "first_order": {
+                    "K1": -0.029,
+                    "R2": 0.997
+                },
+                "higuchi": {
+                    "Kh": 17.35,
+                    "R2": 0.992
+                },
+                "korsmeyer_peppas": {
+                    "n": 0.638,
+                    "R2": 0.994
+                },
+                "hixson_crowell": {
+                    "KHC": 0.08,
+                    "R2": 0.984
+                }
+            },
+            "009_F6": {
+                "zero_order": {
+                    "K0": 3.915,
+                    "R2": 0.94
+                },
+                "first_order": {
+                    "K1": -0.071,
+                    "R2": 0.937
+                },
+                "higuchi": {
+                    "Kh": 20.74,
+                    "R2": 0.992
+                },
+                "korsmeyer_peppas": {
+                    "n": 0.628,
+                    "R2": 0.996
+                },
+                "hixson_crowell": {
+                    "KHC": 0.139,
+                    "R2": 0.99
+                }
+            },
+            "009_F7": {
+                "zero_order": {
+                    "K0": 3.843,
+                    "R2": 0.949
+                },
+                "first_order": {
+                    "K1": -0.057,
+                    "R2": 0.955
+                },
+                "higuchi": {
+                    "Kh": 20.24,
+                    "R2": 0.99
+                },
+                "korsmeyer_peppas": {
+                    "n": 0.655,
+                    "R2": 0.997
+                },
+                "hixson_crowell": {
+                    "KHC": 0.125,
+                    "R2": 0.993
+                }
+            },
+            "009_F8": {
+                "zero_order": {
+                    "K0": 3.889,
+                    "R2": 0.944
+                },
+                "first_order": {
+                    "K1": -0.069,
+                    "R2": 0.934
+                },
+                "higuchi": {
+                    "Kh": 20.59,
+                    "R2": 0.99
+                },
+                "korsmeyer_peppas": {
+                    "n": 0.641,
+                    "R2": 0.994
+                },
+                "hixson_crowell": {
+                    "KHC": 0.137,
+                    "R2": 0.986
+                }
+            },
+            "009_F9": {
+                "zero_order": {
+                    "K0": 3.867,
+                    "R2": 0.937
+                },
+                "first_order": {
+                    "K1": -0.069,
+                    "R2": 0.926
+                },
+                "higuchi": {
+                    "Kh": 20.44,
+                    "R2": 0.985
+                },
+                "korsmeyer_peppas": {
+                    "n": 0.638,
+                    "R2": 0.983
+                },
+                "hixson_crowell": {
+                    "KHC": 0.136,
+                    "R2": 0.979
+                }
+            }
+        },
+        "mechanism_interpretation": {
+            "F5_to_F9": "Anomalous transport (coupled diffusion and erosion) based on n = 0.628–0.655 and good linearity in Korsmeyer–Peppas and Higuchi models [attached_file:1]",
+            "F1_to_F4": "Not optimized for target profile; mechanism not reported [attached_file:1]"
+        },
+        "mdt_and_fractional_times": {
+            "009_F5": {
+                "T25_h": 3.31,
+                "T50_h": 9.88,
+                "T80_h": 20.74,
+                "MDT_h": 11.32
+            },
+            "009_F6": {
+                "T25_h": 2.55,
+                "T50_h": 7.68,
+                "T80_h": 16.23,
+                "MDT_h": 8.94
+            },
+            "009_F7": {
+                "T25_h": 2.88,
+                "T50_h": 8.3,
+                "T80_h": 17.01,
+                "MDT_h": 9.46
+            },
+            "009_F8": {
+                "T25_h": 2.69,
+                "T50_h": 7.95,
+                "T80_h": 16.54,
+                "MDT_h": 9.14
+            },
+            "009_F9": {
+                "T25_h": 2.69,
+                "T50_h": 7.97,
+                "T80_h": 16.65,
+                "MDT_h": 9.2
+            }
+        },
+        "best_formulation": "009_F6 (meets theoretical profile with lower SLS compared to 009_F7–009_F9) [attached_file:1]"
+    },
+    "tablet_properties": {
+        "per_batch_F1_to_F9": {
+            "note": "Hardness, friability, weight variation, thickness, diameter, density, drug content, consolidation index not itemized per batch in the paper; overall ranges reported under QC [attached_file:1]"
+        },
+        "stability": "Not reported [attached_file:1]",
+        "disintegration_time": "Not reported (sustained-release matrices; dissolution used) [attached_file:1]",
+        "swelling_or_water_uptake": {
+            "performed": false,
+            "lag_time_min": null,
+            "total_floating_time_h": null,
+            "swelling_index_percent": null,
+            "note": "No swelling or floating studies reported [attached_file:1]"
+        }
+    },
+    "experimental_data_summary": {
+        "in_vitro": "Dissolution in 0.1 N HCl pH 1.2, 24 h, USP II, with zero- and first-order, Higuchi, Korsmeyer–Peppas, and Hixson–Crowell analyses; 009_F6–009_F9 satisfied theoretical profile; 009_F6 selected [attached_file:1]",
+        "in_vivo": "Not reported [attached_file:1]",
+        "statistics": "Model fits reported via R²; MDT computed per Mockel and Lippold; no inferential statistics beyond regression fits [attached_file:1]"
+    },
+    "source": "attached_file:1"
+}

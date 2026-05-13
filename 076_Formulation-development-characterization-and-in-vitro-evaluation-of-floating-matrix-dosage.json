@@ -1,0 +1,916 @@
+{
+    "article_info": {
+        "title": "Formulation development, characterization, and in vitro evaluation of floating matrix dosage form of tramadol hydrochloride using various polymers",
+        "authors": "Sarada Anepu, Lohithasu Duppala, Soma Sundari M",
+        "journal": "Asian Journal of Pharmaceutical and Clinical Research",
+        "volume": 10,
+        "issue": 2,
+        "pages": "281-290",
+        "year": 2017
+    },
+    "materials_origin": {
+        "tramadol_hydrochloride": "Matrix Laboratories, Bangalore",
+        "hpmc_k15m_k4m_k100m": "Merck chemicals limited, Germany",
+        "peo_303_wsr_and_peo_n60": "Dow chemical company (USA)",
+        "sodium_bicarbonate_citric_acid_magnesium_stearate": "S.D. Fine chemicals, Mumbai",
+        "avicel": "Source not specified"
+    },
+    "experimental_design": {
+        "objective": "Formulate gastro-retentive floating tablets of tramadol HCl using various polymers (HPMC K4M, K15M, K100M, PEO 303 WSR, PEO 076_N60) at concentrations 40, 60, 80 mg with Avicel as filler. Direct compression method. Optimized based on release profile.",
+        "optimized_formulations": [
+            "076_F3 (HPMC K4M 80 mg)",
+            "076_F5 (HPMC K15M 60 mg)",
+            "076_F11 (PEO 076_N60 60 mg)"
+        ]
+    },
+    "standard_curve": {
+        "solvent": "0.1 N HCl",
+        "wavelength_nm": 271,
+        "concentration_range_μg_ml": "20-140",
+        "linearity": "R² = 0.99 (exact value not provided)",
+        "preparation": "Stock 1000 μg/ml, diluted to 100 μg/ml, then serial dilutions."
+    },
+    "formulation_details": [
+        {
+            "batch": "076_F1",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "HPMC_K4M_mg": 40,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 110
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F2",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "HPMC_K4M_mg": 60,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 90
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F3",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "HPMC_K4M_mg": 80,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 70
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F4",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "HPMC_K15M_mg": 40,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 110
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F5",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "HPMC_K15M_mg": 60,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 90
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F6",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "HPMC_K15M_mg": 80,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 70
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F7",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "HPMC_K100M_mg": 40,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 110
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F8",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "HPMC_K100M_mg": 60,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 90
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F9",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "HPMC_K100M_mg": 80,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 70
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F10",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "PEO_N60_mg": 40,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 110
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F11",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "PEO_N60_mg": 60,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 90
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F12",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "PEO_N60_mg": 80,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 70
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F13",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "PEO_303_WSR_mg": 40,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 110
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F14",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "PEO_303_WSR_mg": 60,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 90
+            },
+            "total_mass_mg": 300
+        },
+        {
+            "batch": "076_F15",
+            "ingredients": {
+                "tramadol_HCl_mg": 100,
+                "PEO_303_WSR_mg": 80,
+                "citric_acid_mg": 5,
+                "sodium_bicarbonate_mg": 40,
+                "magnesium_stearate_mg": 5,
+                "avicel_mg": 70
+            },
+            "total_mass_mg": 300
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "076_F1",
+            "bulk_density_g_cm3": "0.312 ± 0.12",
+            "tapped_density_g_cm3": "0.354 ± 0.01",
+            "compressibility_index_percent": "11.86 ± 0.04",
+            "hausner_ratio": "1.134 ± 0.13",
+            "angle_of_repose_degrees": "30.45 ± 0.43"
+        },
+        {
+            "batch": "076_F2",
+            "bulk_density_g_cm3": "0.314 ± 0.21",
+            "tapped_density_g_cm3": "0.358 ± 0.12",
+            "compressibility_index_percent": "12.29 ± 0.16",
+            "hausner_ratio": "1.140 ± 0.07",
+            "angle_of_repose_degrees": "29.89 ± 0.23"
+        },
+        {
+            "batch": "076_F3",
+            "bulk_density_g_cm3": "0.315 ± 0.13",
+            "tapped_density_g_cm3": "0.362 ± 0.12",
+            "compressibility_index_percent": "12.98 ± 0.09",
+            "hausner_ratio": "1.149 ± 0.02",
+            "angle_of_repose_degrees": "30.25 ± 0.26"
+        },
+        {
+            "batch": "076_F4",
+            "bulk_density_g_cm3": "0.314 ± 0.11",
+            "tapped_density_g_cm3": "0.360 ± 0.14",
+            "compressibility_index_percent": "12.77 ± 0.07",
+            "hausner_ratio": "1.146 ± 0.15",
+            "angle_of_repose_degrees": "28.6 ± 0.24"
+        },
+        {
+            "batch": "076_F5",
+            "bulk_density_g_cm3": "0.318 ± 0.12",
+            "tapped_density_g_cm3": "0.366 ± 0.13",
+            "compressibility_index_percent": "13.11 ± 0.11",
+            "hausner_ratio": "1.150 ± 0.06",
+            "angle_of_repose_degrees": "29.45 ± 0.34"
+        },
+        {
+            "batch": "076_F6",
+            "bulk_density_g_cm3": "0.326 ± 0.11",
+            "tapped_density_g_cm3": "0.365 ± 0.14",
+            "compressibility_index_percent": "13.42 ± 0.05",
+            "hausner_ratio": "1.155 ± 0.12",
+            "angle_of_repose_degrees": "30.23 ± 0.24"
+        },
+        {
+            "batch": "076_F7",
+            "bulk_density_g_cm3": "0.449 ± 0.13",
+            "tapped_density_g_cm3": "0.530 ± 0.11",
+            "compressibility_index_percent": "15.28 ± 0.14",
+            "hausner_ratio": "1.180 ± 0.04",
+            "angle_of_repose_degrees": "26.82 ± 0.34"
+        },
+        {
+            "batch": "076_F8",
+            "bulk_density_g_cm3": "0.452 ± 0.14",
+            "tapped_density_g_cm3": "0.536 ± 0.14",
+            "compressibility_index_percent": "15.67 ± 0.06",
+            "hausner_ratio": "1.185 ± 0.11",
+            "angle_of_repose_degrees": "29.81 ± 0.32"
+        },
+        {
+            "batch": "076_F9",
+            "bulk_density_g_cm3": "0.453 ± 0.11",
+            "tapped_density_g_cm3": "0.538 ± 0.11",
+            "compressibility_index_percent": "15.79 ± 0.17",
+            "hausner_ratio": "1.187 ± 0.03",
+            "angle_of_repose_degrees": "30.42 ± 0.36"
+        },
+        {
+            "batch": "076_F10",
+            "bulk_density_g_cm3": "0.455 ± 0.15",
+            "tapped_density_g_cm3": "0.536 ± 0.12",
+            "compressibility_index_percent": "15.11 ± 0.06",
+            "hausner_ratio": "1.178 ± 0.08",
+            "angle_of_repose_degrees": "28.90 ± 0.37"
+        },
+        {
+            "batch": "076_F11",
+            "bulk_density_g_cm3": "0.455 ± 0.10",
+            "tapped_density_g_cm3": "0.538 ± 0.13",
+            "compressibility_index_percent": "15.42 ± 0.05",
+            "hausner_ratio": "1.182 ± 0.05",
+            "angle_of_repose_degrees": "29.65 ± 0.31"
+        },
+        {
+            "batch": "076_F12",
+            "bulk_density_g_cm3": "0.458 ± 0.12",
+            "tapped_density_g_cm3": "0.542 ± 0.14",
+            "compressibility_index_percent": "15.49 ± 0.15",
+            "hausner_ratio": "1.183 ± 0.12",
+            "angle_of_repose_degrees": "30.65 ± 0.31"
+        },
+        {
+            "batch": "076_F13",
+            "bulk_density_g_cm3": "0.455 ± 0.11",
+            "tapped_density_g_cm3": "0.536 ± 0.16",
+            "compressibility_index_percent": "15.11 ± 0.06",
+            "hausner_ratio": "1.178 ± 0.08",
+            "angle_of_repose_degrees": "28.90 ± 0.24"
+        },
+        {
+            "batch": "076_F14",
+            "bulk_density_g_cm3": "0.455 ± 0.12",
+            "tapped_density_g_cm3": "0.538 ± 0.17",
+            "compressibility_index_percent": "15.42 ± 0.12",
+            "hausner_ratio": "1.182 ± 0.05",
+            "angle_of_repose_degrees": "29.65 ± 0.25"
+        },
+        {
+            "batch": "076_F15",
+            "bulk_density_g_cm3": "0.458 ± 0.01",
+            "tapped_density_g_cm3": "0.542 ± 0.21",
+            "compressibility_index_percent": "15.49 ± 0.13",
+            "hausner_ratio": "1.183 ± 0.12",
+            "angle_of_repose_degrees": "30.65 ± 0.27"
+        }
+    ],
+    "post_compression_parameters": [
+        {
+            "batch": "076_F1",
+            "average_weight_mg": "300.9 ± 0.5",
+            "average_thickness_mm": "4.65 ± 0.5",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.390 ± 0.06",
+            "drug_content_percent": "100.54 ± 0.34"
+        },
+        {
+            "batch": "076_F2",
+            "average_weight_mg": "300.89 ± 0.2",
+            "average_thickness_mm": "4.61 ± 0.2",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.415 ± 0.11",
+            "drug_content_percent": "98.44 ± 0.13"
+        },
+        {
+            "batch": "076_F3",
+            "average_weight_mg": "300.9 ± 0.5",
+            "average_thickness_mm": "4.59 ± 0.3",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.426 ± 0.03",
+            "drug_content_percent": "99.68 ± 0.09"
+        },
+        {
+            "batch": "076_F4",
+            "average_weight_mg": "300.2 ± 0.3",
+            "average_thickness_mm": "4.62 ± 0.4",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.524 ± 0.04",
+            "drug_content_percent": "99.77 ± 0.05"
+        },
+        {
+            "batch": "076_F5",
+            "average_weight_mg": "300.3 ± 0.8",
+            "average_thickness_mm": "4.56 ± 0.5",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.541 ± 0.01",
+            "drug_content_percent": "100.9 ± 0.12"
+        },
+        {
+            "batch": "076_F6",
+            "average_weight_mg": "300.2 ± 0.1",
+            "average_thickness_mm": "4.62 ± 0.4",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.390 ± 0.11",
+            "drug_content_percent": "99.95 ± 0.02"
+        },
+        {
+            "batch": "076_F7",
+            "average_weight_mg": "300.7 ± 1.2",
+            "average_thickness_mm": "4.52 ± 0.8",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.344 ± 0.05",
+            "drug_content_percent": "99.98 ± 0.05"
+        },
+        {
+            "batch": "076_F8",
+            "average_weight_mg": "300.2 ± 0.3",
+            "average_thickness_mm": "4.65 ± 0.2",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.314 ± 0.06",
+            "drug_content_percent": "100.09 ± 0.15"
+        },
+        {
+            "batch": "076_F9",
+            "average_weight_mg": "300.6 ± 0.3",
+            "average_thickness_mm": "4.61 ± 0.6",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.325 ± 0.12",
+            "drug_content_percent": "100.5 ± 0.08"
+        },
+        {
+            "batch": "076_F10",
+            "average_weight_mg": "300.4 ± 0.2",
+            "average_thickness_mm": "4.58 ± 0.4",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.076 ± 0.02",
+            "drug_content_percent": "101.5 ± 0.12"
+        },
+        {
+            "batch": "076_F11",
+            "average_weight_mg": "298.9 ± 1.5",
+            "average_thickness_mm": "4.59 ± 0.2",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.072 ± 0.04",
+            "drug_content_percent": "100.9 ± 0.04"
+        },
+        {
+            "batch": "076_F12",
+            "average_weight_mg": "299.3 ± 0.5",
+            "average_thickness_mm": "4.57 ± 0.5",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.066 ± 0.03",
+            "drug_content_percent": "99.54 ± 0.11"
+        },
+        {
+            "batch": "076_F13",
+            "average_weight_mg": "300.6 ± 0.3",
+            "average_thickness_mm": "5.54 ± 0.5",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.050 ± 0.02",
+            "drug_content_percent": "100.67 ± 0.13"
+        },
+        {
+            "batch": "076_F14",
+            "average_weight_mg": "300.4 ± 0.3",
+            "average_thickness_mm": "5.53 ± 0.2",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.040",
+            "drug_content_percent": "100.56 ± 0.14"
+        },
+        {
+            "batch": "076_F15",
+            "average_weight_mg": "299.6 ± 0.2",
+            "average_thickness_mm": "5.56 ± 0.5",
+            "hardness_kp": "5-6",
+            "friability_percent": "0.060",
+            "drug_content_percent": "99.64 ± 0.13"
+        }
+    ],
+    "floating_properties": [
+        {
+            "batch": "076_F1",
+            "floating_lag_time_seconds": "15 ± 2.26",
+            "total_floating_time_hours": ">6",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F2",
+            "floating_lag_time_seconds": "100 ± 2.78",
+            "total_floating_time_hours": ">6",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F3",
+            "floating_lag_time_seconds": "120 ± 3.11",
+            "total_floating_time_hours": "12",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F4",
+            "floating_lag_time_seconds": "69 ± 2.58",
+            "total_floating_time_hours": ">6",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F5",
+            "floating_lag_time_seconds": "72 ± 2.41",
+            "total_floating_time_hours": "12",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F6",
+            "floating_lag_time_seconds": "180 ± 2.61",
+            "total_floating_time_hours": "12",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F7",
+            "floating_lag_time_seconds": "68 ± 2.71",
+            "total_floating_time_hours": ">6",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F8",
+            "floating_lag_time_seconds": "90 ± 3.21",
+            "total_floating_time_hours": ">6",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F9",
+            "floating_lag_time_seconds": "200 ± 3.41",
+            "total_floating_time_hours": ">6",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F10",
+            "floating_lag_time_seconds": null,
+            "total_floating_time_hours": null,
+            "note": "Data not provided in Table 4"
+        },
+        {
+            "batch": "076_F11",
+            "floating_lag_time_seconds": null,
+            "total_floating_time_hours": null,
+            "note": "Data not provided in Table 4"
+        },
+        {
+            "batch": "076_F12",
+            "floating_lag_time_seconds": null,
+            "total_floating_time_hours": null,
+            "note": "Data not provided in Table 4"
+        },
+        {
+            "batch": "076_F13",
+            "floating_lag_time_seconds": "42 ± 3.21",
+            "total_floating_time_hours": ">6",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F14",
+            "floating_lag_time_seconds": "101 ± 3.11",
+            "total_floating_time_hours": ">6",
+            "matrix_integrity": "+"
+        },
+        {
+            "batch": "076_F15",
+            "floating_lag_time_seconds": "164 ± 3.41",
+            "total_floating_time_hours": ">6",
+            "matrix_integrity": "+"
+        }
+    ],
+    "swelling_studies": [
+        {
+            "batch": "076_F1",
+            "note": "Tablets showed maximum amount of erosion, no swelling data"
+        },
+        {
+            "batch": "076_F2",
+            "swelling_percent": {
+                "1h": "0.75 ± 0.34",
+                "2h": "0.98 ± 0.23",
+                "3h": "1.08 ± 0.22",
+                "4h": "1.87 ± 0.08",
+                "5h": "1.98 ± 0.34",
+                "6h": "2.08 ± 0.02",
+                "7h": "2.29 ± 0.27",
+                "8h": "2.46 ± 0.09"
+            }
+        },
+        {
+            "batch": "076_F3",
+            "swelling_percent": {
+                "1h": "0.88 ± 0.26",
+                "2h": "1.06 ± 0.32",
+                "3h": "1.04 ± 0.23",
+                "4h": "1.96 ± 0.32",
+                "5h": "2.11 ± 0.27",
+                "6h": "2.35 ± 0.03",
+                "7h": "2.38 ± 0.23",
+                "8h": "2.54 ± 0.23"
+            }
+        },
+        {
+            "batch": "076_F4",
+            "note": "Tablets showed maximum amount of erosion, no swelling data"
+        },
+        {
+            "batch": "076_F5",
+            "swelling_percent": {
+                "1h": "1.33 ± 0.36",
+                "2h": "1.47 ± 0.37",
+                "3h": "1.73 ± 0.32",
+                "4h": "1.68 ± 0.47",
+                "5h": "1.81 ± 0.32",
+                "6h": "2.06 ± 0.02",
+                "7h": "2.32 ± 0.22",
+                "8h": "2.56 ± 0.02"
+            }
+        },
+        {
+            "batch": "076_F6",
+            "swelling_percent": {
+                "1h": "1.38 ± 0.39",
+                "2h": "1.49 ± 0.23",
+                "3h": "1.84 ± 0.42",
+                "4h": "1.95 ± 0.49",
+                "5h": "2.00 ± 0.40",
+                "6h": "2.10 ± 0.32",
+                "7h": "2.44 ± 0.23",
+                "8h": "2.75 ± 0.43"
+            }
+        },
+        {
+            "batch": "076_F7",
+            "swelling_percent": {
+                "1h": "1.36 ± 0.25",
+                "2h": "1.56 ± 0.22",
+                "3h": "1.74 ± 0.38",
+                "4h": "2.03 ± 0.32",
+                "5h": "2.31 ± 0.25",
+                "6h": "2.43 ± 0.36",
+                "7h": "2.55 ± 0.24",
+                "8h": "2.77 ± 0.43"
+            }
+        },
+        {
+            "batch": "076_F8",
+            "swelling_percent": {
+                "1h": "1.34 ± 0.43",
+                "2h": "1.67 ± 0.25",
+                "3h": "1.85 ± 0.36",
+                "4h": "2.17 ± 0.33",
+                "5h": "2.41 ± 0.42",
+                "6h": "2.54 ± 0.34",
+                "7h": "2.69 ± 0.23",
+                "8h": "2.78 ± 0.45"
+            }
+        },
+        {
+            "batch": "076_F9",
+            "swelling_percent": {
+                "1h": "1.84 ± 0.23",
+                "2h": "2.00 ± 0.37",
+                "3h": "2.39 ± 0.34",
+                "4h": "2.40 ± 0.34",
+                "5h": "2.43 ± 0.28",
+                "6h": "3.07 ± 0.30",
+                "7h": "3.23 ± 0.24",
+                "8h": "3.33 ± 0.49"
+            }
+        },
+        {
+            "batch": "076_F10",
+            "note": "No swelling data provided in Table 5"
+        },
+        {
+            "batch": "076_F11",
+            "note": "No swelling data provided in Table 5"
+        },
+        {
+            "batch": "076_F12",
+            "note": "No swelling data provided in Table 5"
+        },
+        {
+            "batch": "076_F13",
+            "swelling_percent": {
+                "1h": "2.10 ± 0.43",
+                "2h": "2.15 ± 0.32",
+                "3h": "2.20 ± 0.31",
+                "4h": "2.45 ± 0.34",
+                "5h": "2.67 ± 0.29",
+                "6h": "2.89 ± 0.32",
+                "7h": "3.12 ± 0.24",
+                "8h": "3.45 ± 0.28"
+            }
+        },
+        {
+            "batch": "076_F14",
+            "swelling_percent": {
+                "1h": "2.15 ± 0.28",
+                "2h": "2.24 ± 0.42",
+                "3h": "2.67 ± 0.23",
+                "4h": "2.89 ± 0.43",
+                "5h": "2.98 ± 0.27",
+                "6h": "3.05 ± 0.28",
+                "7h": "3.58 ± 0.25",
+                "8h": "3.74 ± 0.27"
+            }
+        },
+        {
+            "batch": "076_F15",
+            "swelling_percent": {
+                "1h": "2.19 ± 0.32",
+                "2h": "2.45 ± 0.22",
+                "3h": "2.75 ± 0.45",
+                "4h": "2.99 ± 0.43",
+                "5h": "3.14 ± 0.24",
+                "6h": "3.66 ± 0.27",
+                "7h": "3.91 ± 0.25",
+                "8h": "3.96 ± 0.34"
+            }
+        }
+    ],
+    "dissolution_profiles": [
+        {
+            "batch": "076_F1",
+            "cumulative_release_percent": {
+                "0.5h": "46.8 ± 1.12",
+                "1h": "87.22 ± 0.34",
+                "2h": "98.05 ± 0.54",
+                "4h": "98.35 ± 0.04",
+                "6h": "99.35 ± 0.35",
+                "8h": "100 ± 0.02"
+            }
+        },
+        {
+            "batch": "076_F2",
+            "cumulative_release_percent": {
+                "0.5h": "21.16 ± 0.16",
+                "1h": "30.32 ± 0.35",
+                "2h": "44.05 ± 0.54",
+                "4h": "71.05 ± 0.06",
+                "6h": "90.57 ± 0.32",
+                "8h": "100.34 ± 0.01"
+            }
+        },
+        {
+            "batch": "076_F3",
+            "cumulative_release_percent": {
+                "0.5h": "15.07 ± 0.14",
+                "1h": "21.93 ± 0.27",
+                "2h": "33.83 ± 0.43",
+                "4h": "52.29 ± 0.08",
+                "6h": "69.07 ± 0.56",
+                "8h": "82.34 ± 0.03",
+                "10h": "95.3 ± 0.45",
+                "12h": "101.02 ± 0.54"
+            }
+        },
+        {
+            "batch": "076_F4",
+            "cumulative_release_percent": {
+                "0.5h": "38.56 ± 0.43",
+                "1h": "52.45 ± 0.29",
+                "2h": "74.65 ± 0.54",
+                "4h": "81.32 ± 0.09",
+                "6h": "96.78 ± 0.55",
+                "8h": "99.98 ± 0.32",
+                "10h": "100 ± 0.44"
+            }
+        },
+        {
+            "batch": "076_F5",
+            "cumulative_release_percent": {
+                "0.5h": "13.54 ± 0.32",
+                "1h": "21.47 ± 0.34",
+                "2h": "33.83 ± 0.58",
+                "4h": "52.83 ± 0.11",
+                "6h": "71.2 ± 0.66",
+                "8h": "86.15 ± 0.35",
+                "10h": "96.52 ± 0.55",
+                "12h": "101.56 ± 0.54"
+            }
+        },
+        {
+            "batch": "076_F6",
+            "cumulative_release_percent": {
+                "0.5h": "11.86 ± 0.54",
+                "1h": "20.86 ± 0.35",
+                "2h": "34.59 ± 0.12",
+                "4h": "54.27 ± 0.14",
+                "6h": "72.42 ± 0.76",
+                "8h": "81.42 ± 0.37",
+                "10h": "90.88 ± 0.54",
+                "12h": "97.13 ± 0.57"
+            }
+        },
+        {
+            "batch": "076_F7",
+            "cumulative_release_percent": {
+                "0.5h": "25.74 ± 0.54",
+                "1h": "33.37 ± 0.38",
+                "2h": "48.02 ± 0.36",
+                "4h": "66.78 ± 0.16",
+                "6h": "79.29 ± 0.82",
+                "8h": "88.74 ± 0.38",
+                "10h": "96.52 ± 0.55",
+                "12h": "100.03 ± 0.53"
+            }
+        },
+        {
+            "batch": "076_F8",
+            "cumulative_release_percent": {
+                "0.5h": "23 ± 0.56",
+                "1h": "27.12 ± 0.37",
+                "2h": "40.39 ± 0.54",
+                "4h": "59.61 ± 0.18",
+                "6h": "71.51 ± 0.34",
+                "8h": "80.2 ± 0.37",
+                "10h": "88.74 ± 0.56",
+                "12h": "95 ± 0.52"
+            }
+        },
+        {
+            "batch": "076_F9",
+            "cumulative_release_percent": {
+                "0.5h": "19.74 ± 0.32",
+                "1h": "24.62 ± 0.36",
+                "2h": "36.45 ± 0.57",
+                "4h": "51.23 ± 0.19",
+                "6h": "65.43 ± 0.35",
+                "8h": "72.56 ± 0.35",
+                "10h": "79.46 ± 0.57",
+                "12h": "89.61 ± 0.38"
+            }
+        },
+        {
+            "batch": "076_F10",
+            "cumulative_release_percent": {
+                "0.5h": "22.25 ± 0.76",
+                "1h": "29.27 ± 0.37",
+                "2h": "42.17 ± 0.63",
+                "4h": "50.1 ± 0.21",
+                "6h": "75.8 ± 0.45",
+                "8h": "92.35 ± 0.33",
+                "10h": "99 ± 0.63",
+                "12h": "101.89 ± 0.43"
+            }
+        },
+        {
+            "batch": "076_F11",
+            "cumulative_release_percent": {
+                "0.5h": "10.37 ± 0.56",
+                "1h": "18.85 ± 0.34",
+                "2h": "30.98 ± 0.92",
+                "4h": "47.22 ± 0.27",
+                "6h": "59.12 ± 0.43",
+                "8h": "67.95 ± 0.35",
+                "10h": "80.71 ± 0.66",
+                "12h": "89.81 ± 0.43"
+            }
+        },
+        {
+            "batch": "076_F12",
+            "cumulative_release_percent": {
+                "0.5h": "14.24 ± 0.49",
+                "1h": "18.1 ± 0.33",
+                "2h": "29.03 ± 0.97",
+                "4h": "42.41 ± 0.53",
+                "6h": "52.32 ± 0.44",
+                "8h": "60.29 ± 0.37",
+                "10h": "72.25 ± 0.62",
+                "12h": "87.1 ± 0.43"
+            }
+        },
+        {
+            "batch": "076_F13",
+            "cumulative_release_percent": {
+                "0.5h": "20.25 ± 0.34",
+                "1h": "27.27 ± 0.35",
+                "2h": "39.17 ± 0.58",
+                "4h": "56.1 ± 0.18",
+                "6h": "73.8 ± 0.33",
+                "8h": "89.35 ± 0.36",
+                "10h": "100.8 ± 0.58",
+                "12h": "101.89 ± 0.45"
+            }
+        },
+        {
+            "batch": "076_F14",
+            "cumulative_release_percent": {
+                "0.5h": "15.37 ± 0.35",
+                "1h": "22.85 ± 0.34",
+                "2h": "33.98 ± 0.45",
+                "4h": "51.22 ± 0.17",
+                "6h": "63.12 ± 0.32",
+                "8h": "73.95 ± 0.33",
+                "10h": "83.71 ± 0.59",
+                "12h": "89.81 ± 0.43"
+            }
+        },
+        {
+            "batch": "076_F15",
+            "cumulative_release_percent": {
+                "0.5h": "12.24 ± 0.34",
+                "1h": "20.1 ± 0.35",
+                "2h": "28.03 ± 0.47",
+                "4h": "38.41 ± 0.18",
+                "6h": "48.32 ± 0.54",
+                "8h": "61.29 ± 0.34",
+                "10h": "74.25 ± 0.67",
+                "12h": "83.1 ± 0.45"
+            }
+        }
+    ],
+    "release_kinetics": {
+        "optimized_formulations": [
+            "076_F3",
+            "076_F5",
+            "076_F11"
+        ],
+        "kinetic_models": "Zero order, First order, Higuchi, Korsmeyer-Peppas",
+        "mechanism": "Anomalous (non-Fickian) transport",
+        "best_fit": "Higuchi kinetics"
+    },
+    "ftir_info": {
+        "analysis": "FTIR spectra of pure drug and physical mixtures showed characteristic peaks at similar ranges, indicating no interaction. Pure drug peaks at 3346.2 cm⁻¹ and 702.77 cm⁻¹ were retained in mixtures.",
+        "spectra_figures": "Figures 8, 9, 10"
+    },
+    "process_parameters": {
+        "compression_method": "Direct compression",
+        "equipment": "Single stroke punching machine",
+        "punch_size": "9 mm concave punch",
+        "compression_force": "Not specified",
+        "blending": "All ingredients except magnesium stearate sieved through #140, blended in polybag for 15 min, then magnesium stearate added and mixed for 2-3 min"
+    }
+}

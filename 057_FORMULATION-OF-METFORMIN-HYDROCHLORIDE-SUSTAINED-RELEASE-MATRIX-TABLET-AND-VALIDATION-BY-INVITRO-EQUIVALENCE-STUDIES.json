@@ -1,0 +1,329 @@
+{
+  "article_title": "FORMULATION OF METFORMIN HYDROCHLORIDE SUSTAINED RELEASE MATRIX TABLET AND VALIDATION BY IN-VITRO EQUIVALENCE STUDIES",
+  "sections": {
+    "abstract": "The study developed a Metformin HCl sustained-release matrix tablet using wet granulation with Eudragit RSPO, HPMC, and Xantural 75. Physical parameters complied with BP/USP. In vitro equivalence (biowaiver) showed similarity to innovator (Glucophage) with f2 > 62 in pH 1.2, 4.5, 6.8. Release kinetics fitted quadratic model. Stable under accelerated conditions.",
+    "introduction": "Background on type 2 diabetes, metformin pharmacology, need for SR formulation, polymers (HPMC, Xantural 75, Eudragit RSPO) and release mechanisms.",
+    "materials_and_methods": "Described in Experimental section.",
+    "results_and_discussion": "Detailed in Results and Discussion.",
+    "conclusion": "Formulation H was equivalent to innovator with better drug release; stable for 6 months."
+  },
+  "materials_origin": {
+    "metformin_hcl": "Obtained from Astron Limited, Ratmalana, Sri Lanka",
+    "eudragit_rspo": "Obtained from Astron Limited, Ratmalana, Sri Lanka",
+    "hpmc": "Obtained from Astron Limited, Ratmalana, Sri Lanka",
+    "xantural_75": "Obtained from Astron Limited, Ratmalana, Sri Lanka",
+    "maize_starch": "Obtained from Astron Limited, Ratmalana, Sri Lanka",
+    "magnesium_stearate": "Obtained from Astron Limited, Ratmalana, Sri Lanka",
+    "innovator_product": "Glucophage MH tablet (Merck Sante, France)",
+    "analytical_chemicals": "Dibasic sodium phosphate, monobasic sodium phosphate, phosphoric acid, sodium acetate, acetic acid, sodium hydrochloride, hydrochloric acid (analytical grade); sodium 1-heptanesulfonate, sodium chloride, phosphoric acid (HPLC grade)",
+    "packaging_materials": "130 μm cold forming base foil, aluminum foil with 20 μm film thickness (Alu/Alu); high-density polyethylene (HDPE) containers"
+  },
+  "experimental_design": {
+    "optimization_approach": "Sequential development of formulations A to H by varying polymer composition to achieve USP dissolution criteria and similarity to innovator.",
+    "preparation_method": "Wet granulation technique; granules dried, milled, mixed with lubricant, compressed.",
+    "dissolution_media": "pH 6.8, 4.5, 1.2 at 37°C, USP apparatus 2 (paddle), 100 rpm, sampling at 1,2,4,6,8,10 h.",
+    "evaluation_criteria": "Weight variation, friability (<1%), hardness, thickness, diameter, assay (HPLC), dissolution (USP limits), f1/f2 factors, stability (ICH)."
+  },
+  "ingredients_identification": {
+    "absorbance_maxima": "At pH 1.2: 205 nm; pH 4.5: 232 nm; pH 6.8: 198 and 232 nm (198 predominating).",
+    "standard_curves": "R² = 0.999 for all three pH media; concentration in pH 1.2 was ≈3.5 times higher than pH 4.5/6.8 for same absorbance at 232 nm.",
+    "stability_in_media": "No significant variation in absorbance over 19 h in pH 6.8, 4.5, 1.2 for standard and sample solutions (Table 2).",
+    "equation_for_absorbance": "Not explicitly given; linear correlation concentration vs absorbance."
+  },
+  "formulation_details": [
+    {
+      "batch": "A",
+      "ingredients_mg": {
+        "Metformin HCl": 510.1,
+        "Eudragit RSPO": 60.0,
+        "HPMC": 100.0,
+        "Xantural 75": 40.0,
+        "Maize starch": 55.0,
+        "Magnesium stearate": 5.0
+      },
+      "total_weight_mg": 770.1
+    },
+    {
+      "batch": "B",
+      "ingredients_mg": {
+        "Metformin HCl": 510.1,
+        "Eudragit RSPO": 100.0,
+        "HPMC": 60.0,
+        "Xantural 75": 40.0,
+        "Maize starch": 55.0,
+        "Magnesium stearate": 5.0
+      },
+      "total_weight_mg": 770.1
+    },
+    {
+      "batch": "C",
+      "ingredients_mg": {
+        "Metformin HCl": 510.1,
+        "Eudragit RSPO": 40.0,
+        "HPMC": 60.0,
+        "Xantural 75": 100.0,
+        "Maize starch": 55.0,
+        "Magnesium stearate": 5.0
+      },
+      "total_weight_mg": 770.1
+    },
+    {
+      "batch": "D",
+      "ingredients_mg": {
+        "Metformin HCl": 510.1,
+        "Eudragit RSPO": 102.0,
+        "HPMC": 170.0,
+        "Xantural 75": 68.0,
+        "Maize starch": 61.1,
+        "Magnesium stearate": 6.0
+      },
+      "total_weight_mg": 917.2
+    },
+    {
+      "batch": "E",
+      "ingredients_mg": {
+        "Metformin HCl": 510.0,
+        "Eudragit RSPO": 0.0,
+        "HPMC": 230.0,
+        "Xantural 75": 100.0,
+        "Maize starch": 60.4,
+        "Magnesium stearate": 6.0
+      },
+      "total_weight_mg": 906.4
+    },
+    {
+      "batch": "F",
+      "ingredients_mg": {
+        "Metformin HCl": 510.1,
+        "Eudragit RSPO": 0.0,
+        "HPMC": 271.0,
+        "Xantural 75": 94.0,
+        "Maize starch": 53.8,
+        "Magnesium stearate": 6.0
+      },
+      "total_weight_mg": 934.9
+    },
+    {
+      "batch": "G",
+      "ingredients_mg": {
+        "Metformin HCl": 510.1,
+        "Eudragit RSPO": 0.0,
+        "HPMC": 257.5,
+        "Xantural 75": 100.0,
+        "Maize starch": 62.3,
+        "Magnesium stearate": 6.0
+      },
+      "total_weight_mg": 935.9
+    },
+    {
+      "batch": "H",
+      "ingredients_mg": {
+        "Metformin HCl": 510.1,
+        "Eudragit RSPO": 0.0,
+        "HPMC": 250.0,
+        "Xantural 75": 110.0,
+        "Maize starch": 62.6,
+        "Magnesium stearate": 6.0
+      },
+      "total_weight_mg": 938.7
+    }
+  ],
+  "tablet_properties": [
+    {
+      "batch": "A",
+      "weight_mg": "775.9 ± 11.95",
+      "friability_percent": "0.235",
+      "thickness_mm": "6.87 ± 0.08",
+      "diameter_mm": "16.97 ± 0.01",
+      "hardness_kp": "6.92 ± 0.67",
+      "assay_mg_tablet": "506.83 ± 2.06"
+    },
+    {
+      "batch": "B",
+      "weight_mg": "780.5 ± 8.81",
+      "friability_percent": "0.248",
+      "thickness_mm": "6.85 ± 0.07",
+      "diameter_mm": "16.89 ± 0.02",
+      "hardness_kp": "5.70 ± 0.73",
+      "assay_mg_tablet": "504.78 ± 1.62"
+    },
+    {
+      "batch": "C",
+      "weight_mg": "761.5 ± 6.05",
+      "friability_percent": "0.152",
+      "thickness_mm": "6.60 ± 0.04",
+      "diameter_mm": "16.95 ± 0.01",
+      "hardness_kp": "6.97 ± 0.50",
+      "assay_mg_tablet": "504.10 ± 2.19"
+    },
+    {
+      "batch": "D",
+      "weight_mg": "906.7 ± 9.9",
+      "friability_percent": "0.279",
+      "thickness_mm": "7.99 ± 0.06",
+      "diameter_mm": "17.00 ± 0.02",
+      "hardness_kp": "27.88 ± 1.56",
+      "assay_mg_tablet": "497.46 ± 3.38"
+    },
+    {
+      "batch": "E",
+      "weight_mg": "901.7 ± 8.1",
+      "friability_percent": "0.281",
+      "thickness_mm": "6.77 ± 0.05",
+      "diameter_mm": "17.00 ± 0.03",
+      "hardness_kp": "17.25 ± 0.90",
+      "assay_mg_tablet": "491.05 ± 3.14"
+    },
+    {
+      "batch": "F",
+      "weight_mg": "958.1 ± 9.7",
+      "friability_percent": "0.230",
+      "thickness_mm": "7.31 ± 0.06",
+      "diameter_mm": "17.03 ± 0.03",
+      "hardness_kp": "14.01 ± 0.51",
+      "assay_mg_tablet": "502.46 ± 1.81"
+    },
+    {
+      "batch": "G",
+      "weight_mg": "963.3 ± 12.0",
+      "friability_percent": "0.326",
+      "thickness_mm": "7.37 ± 0.07",
+      "diameter_mm": "16.96 ± 0.05",
+      "hardness_kp": "20.03 ± 1.19",
+      "assay_mg_tablet": "502.19 ± 4.11"
+    },
+    {
+      "batch": "H",
+      "weight_mg": "950.5 ± 6.5",
+      "friability_percent": "0.254",
+      "thickness_mm": "7.10 ± 0.04",
+      "diameter_mm": "17.00 ± 0.02",
+      "hardness_kp": "20.18 ± 0.80",
+      "assay_mg_tablet": "495.16 ± 1.67"
+    },
+    {
+      "batch": "Innovator",
+      "weight_mg": "1036.9 ± 11.0",
+      "friability_percent": "0.006",
+      "thickness_mm": "6.76 ± 0.02",
+      "diameter_mm": "19.13 ± 0.05",
+      "hardness_kp": "24.56 ± 0.68",
+      "assay_mg_tablet": "494.72 ± 3.10"
+    }
+  ],
+  "dissolution_data_figure1": [
+    {
+      "batch": "A",
+      "medium": "pH 6.8",
+      "time_points_h": [1, 2, 4, 6, 8, 10],
+      "cumulative_release_percent": [52, 71, 86, 92, 96, 98]
+    },
+    {
+      "batch": "B",
+      "medium": "pH 6.8",
+      "time_points_h": [1, 2, 4, 6, 8, 10],
+      "cumulative_release_percent": [49, 68, 84, 91, 95, 97]
+    },
+    {
+      "batch": "C",
+      "medium": "pH 6.8",
+      "time_points_h": [1, 2, 4, 6, 8, 10],
+      "cumulative_release_percent": [48, 66, 82, 90, 94, 96]
+    },
+    {
+      "batch": "D",
+      "medium": "pH 6.8",
+      "time_points_h": [1, 2, 4, 6, 8, 10],
+      "cumulative_release_percent": [35, 51, 71, 81, 89, 93]
+    },
+    {
+      "batch": "E",
+      "medium": "pH 6.8",
+      "time_points_h": [1, 2, 4, 6, 8, 10],
+      "cumulative_release_percent": [30, 46, 69, 80, 88, 92]
+    },
+    {
+      "batch": "F",
+      "medium": "pH 6.8",
+      "time_points_h": [1, 2, 4, 6, 8, 10],
+      "cumulative_release_percent": [29, 44, 68, 79, 88, 92]
+    },
+    {
+      "batch": "G",
+      "medium": "pH 6.8",
+      "time_points_h": [1, 2, 4, 6, 8, 10],
+      "cumulative_release_percent": [26, 41, 65, 78, 88, 94]
+    }
+  ],
+  "release_properties": {
+    "release_mechanism": "Diffusion, swelling, erosion; hydrogel formation controlled by hydrophilic polymers (HPMC, Xantural 75, Eudragit RSPO).",
+    "factors_influencing": "pH, polymer composition, viscosity, concentration.",
+    "kinetics": {
+      "best_fit_model": "Quadratic model (highest adjusted R², lowest AIC/BIC) for all batches and innovator.",
+      "zero_order": "R² values ranged 0.8828–0.9568",
+      "higuchi": "R² values ranged 0.9578–0.9955",
+      "quadratic": "R² values ranged 0.9945–0.9986"
+    },
+    "dissolution_comparison": {
+      "f1_f2_vs_innovator_pH6.8": [
+        {"batch": "A", "f1": 24.73, "f2": 39.90},
+        {"batch": "B", "f1": 25.92, "f2": 38.74},
+        {"batch": "C", "f1": 27.05, "f2": 37.98},
+        {"batch": "D", "f1": 13.23, "f2": 53.65},
+        {"batch": "E", "f1": 7.77, "f2": 64.53},
+        {"batch": "F", "f1": 7.59, "f2": 64.84},
+        {"batch": "G", "f1": 6.22, "f2": 68.93},
+        {"batch": "H", "f1": 7.05, "f2": 66.75}
+      ],
+      "f1_f2_H_vs_innovator": [
+        {"medium": "pH 6.8", "f1": 7.05, "f2": 66.75},
+        {"medium": "pH 4.5", "f1": 7.24, "f2": 66.55},
+        {"medium": "pH 1.2", "f1": 8.76, "f2": 62.41}
+      ]
+    },
+    "mean_dissolution_time_mdt": {
+      "H": "3.02 ± 0.05 h",
+      "innovator": "3.23 ± 0.07 h"
+    },
+    "cumulative_release_H": "94.2–96.5% at 10 h in three media; innovator: 89.9–92.0%"
+  },
+  "process_parameters": {
+    "method": "Wet granulation",
+    "equipment": {
+      "granulation": "Not specified",
+      "drying": "Not specified",
+      "milling": "Not specified",
+      "compression": "Tablet compression machine",
+      "dissolution": "USP dissolution tester (apparatus 2, paddle)",
+      "analysis": "UV-Visible spectrophotometer (232 nm), HPLC"
+    },
+    "conditions": {
+      "compression_temperature": "23°C ± 2",
+      "compression_humidity": "50% ± 5 RH",
+      "dissolution_temperature": "37°C",
+      "dissolution_rpm": "100",
+      "packaging": "Alu/Alu blister and HDPE containers"
+    }
+  },
+  "stability_data": {
+    "batch": "H",
+    "conditions": "40°C ± 2 / 75% ± 5 RH for 6 months",
+    "time_points": ["3 months", "6 months"],
+    "alu_alu_pack": [
+      {"duration": "3 months", "weight_mg": "953.1 ± 4.6", "friability": "0.08", "thickness_mm": "7.19 ± 0.03", "diameter_mm": "17.04 ± 0.01", "hardness_kp": "25.83 ± 0.94", "assay_mg": "501.80 ± 4.86"},
+      {"duration": "6 months", "weight_mg": "952.3 ± 6.9", "friability": "0.09", "thickness_mm": "7.18 ± 0.04", "diameter_mm": "17.06 ± 0.03", "hardness_kp": "27.95 ± 1.32", "assay_mg": "497.39 ± 3.06"}
+    ],
+    "bulk_pack": [
+      {"duration": "3 months", "weight_mg": "955.0 ± 6.1", "friability": "0.11", "thickness_mm": "7.18 ± 0.03", "diameter_mm": "17.07 ± 0.02", "hardness_kp": "26.74 ± 0.84", "assay_mg": "495.16 ± 1.67"},
+      {"duration": "6 months", "weight_mg": "959.4 ± 5.7", "friability": "0.12", "thickness_mm": "7.20 ± 0.04", "diameter_mm": "17.10 ± 0.02", "hardness_kp": "27.53 ± 1.13", "assay_mg": "492.57 ± 2.25"}
+    ],
+    "conclusion": "Stable for 6 months under accelerated conditions per ICH and USP."
+  },
+  "additional_notes": {
+    "ftir_data": "Not reported",
+    "pre_compression_parameters": "Not reported (e.g., angle of repose, bulk density)",
+    "density_consolidation_index": "Not reported",
+    "disintegration_time": "Not reported",
+    "swelling_study": "Not reported"
+  }
+}

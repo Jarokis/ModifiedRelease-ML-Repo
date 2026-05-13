@@ -1,0 +1,1089 @@
+{
+    "article_title": "Investigation of Dissolution Behavior HPMC/Eudragit/Magnesium Aluminometasilicate Oral Matrices Based on NMR Solid-State Spectroscopy and Dynamic Characteristics of Gel Layer",
+    "materials_origin": {
+        "Levetiracetam": "Zentiva k.s., Prague, Czech Republic",
+        "Neusilin_US2": "Fuji Chemical Industries Co., Ltd., Toyoma, Japan",
+        "HPMC_K4M": "Methocel® K4M, Dow Chemicals, Midland, USA",
+        "MCC_PH102": "Avicel® PH 102, FMC Biopolymers, Rockland, USA",
+        "Eudragit_NE30D": "Evonik Röhm GmbH, Darmstadt, Germany",
+        "Magnesium_stearate": "Peter Greven, Bad Münstereifel, Germany",
+        "Colloidal_silicon_dioxide": "Degussa, Vicenza, Italy"
+    },
+    "experimental_design": "The study investigated the effect of Eudragit NE concentration (5%, 7.5%, 10% solid) and Neusilin US2 amount (50 mg, 100 mg) on dissolution behavior of levetiracetam from HPMC matrices. Thermal treatment (70°C for 24h) was applied to granules or tablets. Multivariate analysis (PCA, ANOVA) was used to assess significance.",
+    "ingredients_identification": {
+        "preparation": "Granules were prepared by high-shear wet granulation using Eudragit NE30D dispersion as granulation liquid applied to API/Neusilin mixture. HPMC and other excipients were added extragranularly. Tablets were compressed.",
+        "analytical_method": "HPLC with Venusil XBP C18 column (150×4.6 mm, 3 μm), mobile phase: 68% phosphoric acid (0.2%) and 32% methanol, detection at 220 nm, flow rate 1.0 mL/min, column temperature 27°C, injection volume 20 μL.",
+        "results": "Drug content was determined and stability confirmed after 12 months.",
+        "equation": "Not applicable",
+        "absorbance": "220 nm"
+    },
+    "formulations": [
+        {
+            "batch_name": "090_R1 090_NEU50",
+            "treatment": "Direct compression",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 50.0,
+                "Eudragit_NE_solid": 0.0,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 116.7,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.29,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.21,
+                "hardness_N": "154.7 ± 3.70",
+                "average_drug_content_percent": "95.84 ± 2.75",
+                "drug_content_change_12m_percent": "+2.54",
+                "average_weight_mg": "350.2 ± 0.0024"
+            },
+            "tablet_fabrication": {
+                "hardness_N": "154.7 ± 3.70",
+                "friability_percent": 0.21,
+                "weight_variation": "350.2 ± 0.0024 mg",
+                "thickness_mm": null,
+                "diameter_mm": 10,
+                "density": null,
+                "drug_content_percent": "95.84 ± 2.75",
+                "consolidation_index": null
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 27.6,
+                    "60min": 39.4,
+                    "120min": 56.1,
+                    "180min": 67.0,
+                    "240min": 74.3,
+                    "300min": 80.0,
+                    "360min": 84.5,
+                    "420min": 88.0,
+                    "480min": 90.8,
+                    "540min": 93.4,
+                    "600min": 95.3,
+                    "660min": 96.9,
+                    "720min": 98.1
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8155,
+                    "first_order_R2": 0.7462,
+                    "higuchi_R2": 0.9618,
+                    "korsmeyer_peppas_R2": 0.9999,
+                    "korsmeyer_peppas_n": 0.5079,
+                    "hixson_crowell_R2": 0.9312,
+                    "baker_lonsdale_R2": 0.9905
+                },
+                "burst_effect_percent": 27.6,
+                "release_mechanism": "Anomalous transport (n ~0.51) – diffusion and erosion",
+                "factors_influencing": "pH independent (HPMC), insoluble Eudragit reduces burst"
+            },
+            "tablet_properties": {
+                "hardness_N": "154.7 ± 3.70",
+                "friability_percent": 0.21,
+                "disintegration_time": "Not applicable (controlled release)",
+                "dissolution_profile": "see release_profile",
+                "stability_12m": "+2.54%",
+                "thickness_mm": null,
+                "weight_variation_percent": null,
+                "swelling_study": {
+                    "lag_time_min": null,
+                    "total_floating_time_h": null,
+                    "swelling_index_percent": null,
+                    "gel_layer_thickness_mm": "Figure 4a (090_NE50 group) – reference 090_R1 090_NEU50 shows thickest gel layer at 30 min"
+                }
+            },
+            "experimental_data": {
+                "burst_effect": 27.6,
+                "t50_percent": "~180 min (estimated)",
+                "zero_order_fit": 0.8155,
+                "first_order_fit": 0.7462,
+                "similarity_factor_f2": "73.70 vs R2 090_NEU100"
+            }
+        },
+        {
+            "batch_name": "R2 090_NEU100",
+            "treatment": "Direct compression",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 0.0,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 66.7,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.25,
+                "flow_evaluation": "Fair",
+                "friability_percent": 0.2,
+                "hardness_N": "170.7 ± 9.50",
+                "average_drug_content_percent": "93.96 ± 1.25",
+                "drug_content_change_12m_percent": "+0.86",
+                "average_weight_mg": "351.6 ± 0.0035"
+            },
+            "tablet_fabrication": {
+                "hardness_N": "170.7 ± 9.50",
+                "friability_percent": 0.2,
+                "weight_variation": "351.6 ± 0.0035 mg",
+                "thickness_mm": null,
+                "diameter_mm": 10,
+                "density": null,
+                "drug_content_percent": "93.96 ± 1.25",
+                "consolidation_index": null
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 28.9,
+                    "60min": 41.0,
+                    "120min": 58.6,
+                    "180min": 69.8,
+                    "240min": 77.2,
+                    "300min": 82.9,
+                    "360min": 87.2,
+                    "420min": 90.6,
+                    "480min": 93.1,
+                    "540min": 95.1,
+                    "600min": 96.6,
+                    "660min": 97.8,
+                    "720min": 98.7
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.7861,
+                    "first_order_R2": 0.7184,
+                    "higuchi_R2": 0.9449,
+                    "korsmeyer_peppas_R2": 0.9993,
+                    "korsmeyer_peppas_n": 0.5156,
+                    "hixson_crowell_R2": 0.9466,
+                    "baker_lonsdale_R2": 0.9794
+                },
+                "burst_effect_percent": 28.9,
+                "release_mechanism": "Anomalous transport (n ~0.52)",
+                "factors_influencing": "pH independent"
+            },
+            "tablet_properties": {
+                "hardness_N": "170.7 ± 9.50",
+                "friability_percent": 0.2,
+                "disintegration_time": "Not applicable",
+                "dissolution_profile": "see release_profile",
+                "stability_12m": "+0.86%",
+                "thickness_mm": null,
+                "weight_variation_percent": null,
+                "swelling_study": {
+                    "gel_layer_thickness_mm": "Figure 4b – reference R2 090_NEU100 shows thickest gel layer at 30 min"
+                }
+            },
+            "experimental_data": {
+                "burst_effect": 28.9,
+                "t50_percent": "~180 min",
+                "zero_order_fit": 0.7861,
+                "first_order_fit": 0.7184
+            }
+        },
+        {
+            "batch_name": "090_NE5 090_NEU50",
+            "treatment": "NTT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 50.0,
+                "Eudragit_NE_solid": 16.7,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 100.0,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.32,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.09,
+                "hardness_N": "124.4 ± 9.00",
+                "average_drug_content_percent": "92.80 ± 1.91",
+                "drug_content_change_12m_percent": "+2.12",
+                "average_weight_mg": "344.5 ± 0.0033"
+            },
+            "tablet_fabrication": {
+                "hardness_N": "124.4 ± 9.00",
+                "friability_percent": 0.09,
+                "weight_variation": "344.5 ± 0.0033 mg",
+                "thickness_mm": null,
+                "diameter_mm": 10,
+                "density": null,
+                "drug_content_percent": "92.80 ± 1.91",
+                "consolidation_index": null
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 26.9,
+                    "60min": 39.8,
+                    "120min": 56.5,
+                    "180min": 67.7,
+                    "240min": 75.2,
+                    "300min": 81.0,
+                    "360min": 85.4,
+                    "420min": 88.8,
+                    "480min": 91.5,
+                    "540min": 93.8,
+                    "600min": 95.6,
+                    "660min": 96.9,
+                    "720min": 98.1
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8076,
+                    "first_order_R2": 0.7378,
+                    "higuchi_R2": 0.9547,
+                    "korsmeyer_peppas_R2": 1.0,
+                    "korsmeyer_peppas_n": 0.5082,
+                    "hixson_crowell_R2": 0.9864,
+                    "baker_lonsdale_R2": 0.9927
+                },
+                "burst_effect_percent": 26.9,
+                "release_mechanism": "Anomalous transport (n ~0.51)",
+                "factors_influencing": "Eudragit reduces burst slightly"
+            },
+            "tablet_properties": {
+                "hardness_N": "124.4 ± 9.00",
+                "friability_percent": 0.09,
+                "disintegration_time": "Not applicable",
+                "dissolution_profile": "see release_profile",
+                "stability_12m": "+2.12%",
+                "thickness_mm": null,
+                "weight_variation_percent": null,
+                "swelling_study": {
+                    "gel_layer_thickness_mm": "Figure 4a – thinner than reference"
+                }
+            },
+            "experimental_data": {
+                "burst_effect": 26.9,
+                "t50_percent": "~180 min",
+                "zero_order_fit": 0.8076,
+                "first_order_fit": 0.7378,
+                "similarity_factor_f2": "83.39 vs 090_R1 090_NEU50"
+            }
+        },
+        {
+            "batch_name": "090_NE5 090_NEU50",
+            "treatment": "TTG",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 50.0,
+                "Eudragit_NE_solid": 16.7,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 100.0,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.29,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.1,
+                "hardness_N": "217.5 ± 5.40",
+                "average_drug_content_percent": "98.43 ± 7.21",
+                "drug_content_change_12m_percent": "+1.31",
+                "average_weight_mg": "349.4 ± 0.0017"
+            },
+            "tablet_fabrication": {
+                "hardness_N": "217.5 ± 5.40",
+                "friability_percent": 0.1,
+                "weight_variation": "349.4 ± 0.0017 mg",
+                "thickness_mm": null,
+                "diameter_mm": 10,
+                "density": null,
+                "drug_content_percent": "98.43 ± 7.21",
+                "consolidation_index": null
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 26.6,
+                    "60min": 39.4,
+                    "120min": 55.8,
+                    "180min": 67.2,
+                    "240min": 74.9,
+                    "300min": 80.8,
+                    "360min": 85.5,
+                    "420min": 89.0,
+                    "480min": 91.7,
+                    "540min": 94.0,
+                    "600min": 95.8,
+                    "660min": 97.1,
+                    "720min": 98.3
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8132,
+                    "first_order_R2": 0.739,
+                    "higuchi_R2": 0.9557,
+                    "korsmeyer_peppas_R2": 0.9999,
+                    "korsmeyer_peppas_n": 0.5175,
+                    "hixson_crowell_R2": 0.9854,
+                    "baker_lonsdale_R2": 0.9909
+                },
+                "burst_effect_percent": 26.6,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment of granules increased hardness but no significant effect on release"
+            },
+            "experimental_data": {
+                "burst_effect": 26.6,
+                "zero_order_fit": 0.8132,
+                "similarity_factor_f2": "78.86 vs 090_R1 090_NEU50"
+            }
+        },
+        {
+            "batch_name": "090_NE5 090_NEU50",
+            "treatment": "TT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 50.0,
+                "Eudragit_NE_solid": 16.7,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 100.0,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.32,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.12,
+                "hardness_N": "129.3 ± 9.60",
+                "average_drug_content_percent": "96.51 ± 0.94",
+                "drug_content_change_12m_percent": "-0.79",
+                "average_weight_mg": "343.9 ± 0.0045"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 25.8,
+                    "60min": 38.1,
+                    "120min": 55.4,
+                    "180min": 67.2,
+                    "240min": 75.0,
+                    "300min": 81.0,
+                    "360min": 85.5,
+                    "420min": 89.1,
+                    "480min": 91.8,
+                    "540min": 94.0,
+                    "600min": 95.8,
+                    "660min": 97.1,
+                    "720min": 98.2
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.7906,
+                    "first_order_R2": 0.7114,
+                    "higuchi_R2": 0.9346,
+                    "korsmeyer_peppas_R2": 0.9999,
+                    "korsmeyer_peppas_n": 0.5266,
+                    "hixson_crowell_R2": 0.9848,
+                    "baker_lonsdale_R2": 0.9848
+                },
+                "burst_effect_percent": 25.8,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment of tablets had minimal effect"
+            },
+            "experimental_data": {
+                "burst_effect": 25.8,
+                "zero_order_fit": 0.7906,
+                "similarity_factor_f2": "79.35 vs 090_R1 090_NEU50"
+            }
+        },
+        {
+            "batch_name": "NE7.5 090_NEU50",
+            "treatment": "NTT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 50.0,
+                "Eudragit_NE_solid": 25.1,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 91.6,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.28,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.03,
+                "hardness_N": "150.0 ± 5.20",
+                "average_drug_content_percent": "102.04 ± 2.93",
+                "drug_content_change_12m_percent": "+2.09",
+                "average_weight_mg": "348.0 ± 0.0022"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 25.4,
+                    "60min": 38.4,
+                    "120min": 55.3,
+                    "180min": 67.4,
+                    "240min": 75.5,
+                    "300min": 81.8,
+                    "360min": 86.6,
+                    "420min": 90.2,
+                    "480min": 93.0,
+                    "540min": 95.1,
+                    "600min": 96.8,
+                    "660min": 98.0,
+                    "720min": 98.9
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8684,
+                    "first_order_R2": 0.713,
+                    "higuchi_R2": 0.9367,
+                    "korsmeyer_peppas_R2": 0.9999,
+                    "korsmeyer_peppas_n": 0.5399,
+                    "hixson_crowell_R2": 0.9383,
+                    "baker_lonsdale_R2": 0.9596
+                },
+                "burst_effect_percent": 25.4,
+                "release_mechanism": "Anomalous transport (n ~0.54)",
+                "factors_influencing": "Higher Eudragit reduces burst further"
+            },
+            "experimental_data": {
+                "burst_effect": 25.4,
+                "zero_order_fit": 0.8684
+            }
+        },
+        {
+            "batch_name": "NE7.5 090_NEU50",
+            "treatment": "TTG",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 50.0,
+                "Eudragit_NE_solid": 25.1,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 91.6,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.29,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.16,
+                "hardness_N": "199.9 ± 4.80",
+                "average_drug_content_percent": "104.32 ± 1.19",
+                "drug_content_change_12m_percent": "-1.44",
+                "average_weight_mg": "349.5 ± 0.0014"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 23.5,
+                    "60min": 36.5,
+                    "120min": 54.0,
+                    "180min": 66.4,
+                    "240min": 74.9,
+                    "300min": 81.5,
+                    "360min": 86.6,
+                    "420min": 90.5,
+                    "480min": 93.4,
+                    "540min": 95.6,
+                    "600min": 97.3,
+                    "660min": 98.4,
+                    "720min": 99.1
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8547,
+                    "first_order_R2": 0.7631,
+                    "higuchi_R2": 0.9739,
+                    "korsmeyer_peppas_R2": 0.9999,
+                    "korsmeyer_peppas_n": 0.5392,
+                    "hixson_crowell_R2": 0.9919,
+                    "baker_lonsdale_R2": 0.9983
+                },
+                "burst_effect_percent": 23.5,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment of granules increased hardness and reduced burst"
+            },
+            "experimental_data": {
+                "burst_effect": 23.5,
+                "zero_order_fit": 0.8547
+            }
+        },
+        {
+            "batch_name": "NE7.5 090_NEU50",
+            "treatment": "TT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 50.0,
+                "Eudragit_NE_solid": 25.1,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 91.6,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.28,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.08,
+                "hardness_N": "159.4 ± 5.30",
+                "average_drug_content_percent": "97.06 ± 0.19",
+                "drug_content_change_12m_percent": "+2.19",
+                "average_weight_mg": "349.2 ± 0.0015"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 23.2,
+                    "60min": 35.9,
+                    "120min": 54.0,
+                    "180min": 66.4,
+                    "240min": 75.2,
+                    "300min": 81.9,
+                    "360min": 87.2,
+                    "420min": 91.1,
+                    "480min": 94.1,
+                    "540min": 96.3,
+                    "600min": 98.0,
+                    "660min": 99.2,
+                    "720min": 100.0
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8648,
+                    "first_order_R2": 0.7681,
+                    "higuchi_R2": 0.9767,
+                    "korsmeyer_peppas_R2": 0.9999,
+                    "korsmeyer_peppas_n": 0.551,
+                    "hixson_crowell_R2": 0.998,
+                    "baker_lonsdale_R2": 0.9963
+                },
+                "burst_effect_percent": 23.2,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment of tablets had minor effect"
+            },
+            "experimental_data": {
+                "burst_effect": 23.2,
+                "zero_order_fit": 0.8648
+            }
+        },
+        {
+            "batch_name": "090_NE5 090_NEU100",
+            "treatment": "NTT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 16.7,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 50.0,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.26,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.05,
+                "hardness_N": "179.8 ± 4.20",
+                "average_drug_content_percent": "98.24 ± 2.51",
+                "drug_content_change_12m_percent": "+2.36",
+                "average_weight_mg": "351.1 ± 0.0030"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 28.7,
+                    "60min": 40.9,
+                    "120min": 57.3,
+                    "180min": 68.5,
+                    "240min": 76.1,
+                    "300min": 81.9,
+                    "360min": 86.3,
+                    "420min": 89.9,
+                    "480min": 92.6,
+                    "540min": 94.9,
+                    "600min": 96.6,
+                    "660min": 97.9,
+                    "720min": 98.8
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8246,
+                    "first_order_R2": 0.7665,
+                    "higuchi_R2": 0.975,
+                    "korsmeyer_peppas_R2": 0.9983,
+                    "korsmeyer_peppas_n": 0.4988,
+                    "hixson_crowell_R2": 0.9798,
+                    "baker_lonsdale_R2": 0.9884
+                },
+                "burst_effect_percent": 28.7,
+                "release_mechanism": "Anomalous transport (n ~0.50)",
+                "factors_influencing": "Higher Neusilin content but similar burst"
+            },
+            "experimental_data": {
+                "burst_effect": 28.7,
+                "zero_order_fit": 0.8246,
+                "similarity_factor_f2": "72.99 vs R2 090_NEU100"
+            }
+        },
+        {
+            "batch_name": "090_NE5 090_NEU100",
+            "treatment": "TTG",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 16.7,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 50.0,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.26,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.1,
+                "hardness_N": "245.6 ± 7.70",
+                "average_drug_content_percent": "106.11 ± 7.50",
+                "drug_content_change_12m_percent": "-0.69",
+                "average_weight_mg": "348.4 ± 0.0022"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 28.1,
+                    "60min": 40.5,
+                    "120min": 57.3,
+                    "180min": 68.5,
+                    "240min": 76.2,
+                    "300min": 82.0,
+                    "360min": 86.5,
+                    "420min": 90.0,
+                    "480min": 92.8,
+                    "540min": 95.1,
+                    "600min": 96.7,
+                    "660min": 98.0,
+                    "720min": 98.9
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8534,
+                    "first_order_R2": 0.7835,
+                    "higuchi_R2": 0.9808,
+                    "korsmeyer_peppas_R2": 0.9992,
+                    "korsmeyer_peppas_n": 0.4892,
+                    "hixson_crowell_R2": 0.9824,
+                    "baker_lonsdale_R2": 0.9967
+                },
+                "burst_effect_percent": 28.1,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment increased hardness but did not significantly alter release"
+            },
+            "experimental_data": {
+                "burst_effect": 28.1,
+                "zero_order_fit": 0.8534,
+                "similarity_factor_f2": "54.28 vs R2 090_NEU100"
+            }
+        },
+        {
+            "batch_name": "090_NE5 090_NEU100",
+            "treatment": "TT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 16.7,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 50.0,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.26,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.06,
+                "hardness_N": "195.5 ± 3.80",
+                "average_drug_content_percent": "100.13 ± 1.54",
+                "drug_content_change_12m_percent": "+2.51",
+                "average_weight_mg": "349.4 ± 0.0016"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 28.3,
+                    "60min": 40.6,
+                    "120min": 57.3,
+                    "180min": 68.4,
+                    "240min": 76.0,
+                    "300min": 81.8,
+                    "360min": 86.2,
+                    "420min": 89.8,
+                    "480min": 92.6,
+                    "540min": 94.8,
+                    "600min": 96.5,
+                    "660min": 97.8,
+                    "720min": 98.7
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8432,
+                    "first_order_R2": 0.7811,
+                    "higuchi_R2": 0.9815,
+                    "korsmeyer_peppas_R2": 0.9999,
+                    "korsmeyer_peppas_n": 0.4964,
+                    "hixson_crowell_R2": 0.973,
+                    "baker_lonsdale_R2": 0.9859
+                },
+                "burst_effect_percent": 28.3,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment of tablets had minimal effect"
+            },
+            "experimental_data": {
+                "burst_effect": 28.3,
+                "zero_order_fit": 0.8432,
+                "similarity_factor_f2": "56.52 vs R2 090_NEU100"
+            }
+        },
+        {
+            "batch_name": "NE7.5 090_NEU100",
+            "treatment": "NTT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 25.1,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 41.6,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.26,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.09,
+                "hardness_N": "305.3 ± 7.30",
+                "average_drug_content_percent": "108.52 ± 1.29",
+                "drug_content_change_12m_percent": "-0.58",
+                "average_weight_mg": "350.1 ± 0.0021"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 22.4,
+                    "60min": 34.5,
+                    "120min": 52.8,
+                    "180min": 66.4,
+                    "240min": 75.6,
+                    "300min": 82.3,
+                    "360min": 87.1,
+                    "420min": 90.7,
+                    "480min": 93.5,
+                    "540min": 95.5,
+                    "600min": 97.2,
+                    "660min": 98.2,
+                    "720min": 99.0
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8835,
+                    "first_order_R2": 0.8063,
+                    "higuchi_R2": 0.9904,
+                    "korsmeyer_peppas_R2": 0.9996,
+                    "korsmeyer_peppas_n": 0.4998,
+                    "hixson_crowell_R2": 0.999,
+                    "baker_lonsdale_R2": 0.9937
+                },
+                "burst_effect_percent": 22.4,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Significant burst reduction"
+            },
+            "experimental_data": {
+                "burst_effect": 22.4,
+                "zero_order_fit": 0.8835,
+                "similarity_factor_f2": "43.96 vs R2 090_NEU100"
+            }
+        },
+        {
+            "batch_name": "NE7.5 090_NEU100",
+            "treatment": "TTG",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 25.1,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 41.6,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.26,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.11,
+                "hardness_N": "332.0 ± 4.40",
+                "average_drug_content_percent": "108.80 ± 4.15",
+                "drug_content_change_12m_percent": "-1.15",
+                "average_weight_mg": "350.7 ± 0.0026"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 22.2,
+                    "60min": 34.6,
+                    "120min": 52.9,
+                    "180min": 66.5,
+                    "240min": 75.6,
+                    "300min": 82.3,
+                    "360min": 87.0,
+                    "420min": 90.6,
+                    "480min": 93.4,
+                    "540min": 95.5,
+                    "600min": 97.2,
+                    "660min": 98.2,
+                    "720min": 98.9
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8808,
+                    "first_order_R2": 0.805,
+                    "higuchi_R2": 0.9908,
+                    "korsmeyer_peppas_R2": 0.9998,
+                    "korsmeyer_peppas_n": 0.4967,
+                    "hixson_crowell_R2": 0.9968,
+                    "baker_lonsdale_R2": 0.9956
+                },
+                "burst_effect_percent": 22.2,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment increased hardness but no significant effect on release"
+            },
+            "experimental_data": {
+                "burst_effect": 22.2,
+                "zero_order_fit": 0.8808,
+                "similarity_factor_f2": "42.78 vs R2 090_NEU100"
+            }
+        },
+        {
+            "batch_name": "NE7.5 090_NEU100",
+            "treatment": "TT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 25.1,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 41.6,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.26,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.04,
+                "hardness_N": "305.3 ± 6.60",
+                "average_drug_content_percent": "108.13 ± 3.01",
+                "drug_content_change_12m_percent": "-0.78",
+                "average_weight_mg": "349.6 ± 0.0013"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 21.8,
+                    "60min": 33.7,
+                    "120min": 51.9,
+                    "180min": 65.5,
+                    "240min": 74.9,
+                    "300min": 81.7,
+                    "360min": 86.7,
+                    "420min": 90.4,
+                    "480min": 93.3,
+                    "540min": 95.5,
+                    "600min": 97.1,
+                    "660min": 98.2,
+                    "720min": 99.0
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8865,
+                    "first_order_R2": 0.8007,
+                    "higuchi_R2": 0.9914,
+                    "korsmeyer_peppas_R2": 0.9986,
+                    "korsmeyer_peppas_n": 0.5119,
+                    "hixson_crowell_R2": 0.9914,
+                    "baker_lonsdale_R2": 0.9984
+                },
+                "burst_effect_percent": 21.8,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment of tablets had minimal effect"
+            },
+            "experimental_data": {
+                "burst_effect": 21.8,
+                "zero_order_fit": 0.8865,
+                "similarity_factor_f2": "38.01 vs R2 090_NEU100"
+            }
+        },
+        {
+            "batch_name": "090_NE10 090_NEU100",
+            "treatment": "NTT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 33.4,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 33.3,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.29,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.1,
+                "hardness_N": "228.5 ± 6.10",
+                "average_drug_content_percent": "105.38 ± 2.19",
+                "drug_content_change_12m_percent": "-0.89",
+                "average_weight_mg": "349.8 ± 0.0015"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 20.7,
+                    "60min": 33.8,
+                    "120min": 52.0,
+                    "180min": 65.8,
+                    "240min": 75.2,
+                    "300min": 82.0,
+                    "360min": 86.8,
+                    "420min": 90.6,
+                    "480min": 93.5,
+                    "540min": 95.7,
+                    "600min": 97.3,
+                    "660min": 98.5,
+                    "720min": 99.1
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8909,
+                    "first_order_R2": 0.796,
+                    "higuchi_R2": 0.9907,
+                    "korsmeyer_peppas_R2": 0.9998,
+                    "korsmeyer_peppas_n": 0.538,
+                    "hixson_crowell_R2": 0.9913,
+                    "baker_lonsdale_R2": 0.9983
+                },
+                "burst_effect_percent": 20.7,
+                "release_mechanism": "Anomalous transport (n ~0.54)",
+                "factors_influencing": "Highest Eudragit concentration gave greatest burst reduction and best zero-order fit"
+            },
+            "experimental_data": {
+                "burst_effect": 20.7,
+                "zero_order_fit": 0.8909,
+                "similarity_factor_f2": "37.46 vs R2 090_NEU100"
+            }
+        },
+        {
+            "batch_name": "090_NE10 090_NEU100",
+            "treatment": "TTG",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 33.4,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 33.3,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.29,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.02,
+                "hardness_N": "317.8 ± 4.30",
+                "average_drug_content_percent": "102.33 ± 2.10",
+                "drug_content_change_12m_percent": "-1.52",
+                "average_weight_mg": "347.3 ± 0.0021"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 19.5,
+                    "60min": 31.7,
+                    "120min": 50.1,
+                    "180min": 64.4,
+                    "240min": 74.2,
+                    "300min": 81.1,
+                    "360min": 86.1,
+                    "420min": 89.9,
+                    "480min": 92.9,
+                    "540min": 95.3,
+                    "600min": 97.0,
+                    "660min": 98.2,
+                    "720min": 99.0
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8818,
+                    "first_order_R2": 0.7791,
+                    "higuchi_R2": 0.9837,
+                    "korsmeyer_peppas_R2": 0.9997,
+                    "korsmeyer_peppas_n": 0.5249,
+                    "hixson_crowell_R2": 0.9859,
+                    "baker_lonsdale_R2": 0.9988
+                },
+                "burst_effect_percent": 19.5,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment of granules increased hardness but no significant effect on release"
+            },
+            "experimental_data": {
+                "burst_effect": 19.5,
+                "zero_order_fit": 0.8818,
+                "similarity_factor_f2": "42.54 vs R2 090_NEU100"
+            }
+        },
+        {
+            "batch_name": "090_NE10 090_NEU100",
+            "treatment": "TT",
+            "ingredients": {
+                "Levetiracetam": 100.0,
+                "Neusilin_US2": 100.0,
+                "Eudragit_NE_solid": 33.4,
+                "HPMC_K4M": 66.7,
+                "MCC_PH102": 33.3,
+                "Aerosil_200": 1.715,
+                "Magnesium_stearate": 8.575
+            },
+            "pre_compression_parameters": {
+                "Hausner_ratio": 1.29,
+                "flow_evaluation": "Passable",
+                "friability_percent": 0.03,
+                "hardness_N": "221.7 ± 7.20",
+                "average_drug_content_percent": "106.36 ± 2.68",
+                "drug_content_change_12m_percent": "-1.11",
+                "average_weight_mg": "348.2 ± 0.0020"
+            },
+            "release_properties": {
+                "release_profile": {
+                    "30min": 19.2,
+                    "60min": 31.6,
+                    "120min": 49.7,
+                    "180min": 64.1,
+                    "240min": 73.8,
+                    "300min": 80.7,
+                    "360min": 85.8,
+                    "420min": 89.8,
+                    "480min": 92.8,
+                    "540min": 95.2,
+                    "600min": 97.0,
+                    "660min": 98.2,
+                    "720min": 99.0
+                },
+                "kinetics": {
+                    "zero_order_R2": 0.8764,
+                    "first_order_R2": 0.7938,
+                    "higuchi_R2": 0.9879,
+                    "korsmeyer_peppas_R2": 0.9996,
+                    "korsmeyer_peppas_n": 0.508,
+                    "hixson_crowell_R2": 0.9827,
+                    "baker_lonsdale_R2": 0.999
+                },
+                "burst_effect_percent": 19.2,
+                "release_mechanism": "Anomalous transport",
+                "factors_influencing": "Thermal treatment of tablets had minimal effect"
+            },
+            "experimental_data": {
+                "burst_effect": 19.2,
+                "zero_order_fit": 0.8764,
+                "similarity_factor_f2": "37.32 vs R2 090_NEU100"
+            }
+        }
+    ],
+    "independent_variables": {
+        "Eudragit_NE_solid_mg": [
+            0,
+            16.7,
+            25.1,
+            33.4
+        ],
+        "Neusilin_US2_mg": [
+            50,
+            100
+        ],
+        "thermal_treatment": [
+            "None (NTT)",
+            "Granules treated (TTG)",
+            "Tablets treated (TT)"
+        ]
+    },
+    "process_parameters": {
+        "granulation": {
+            "device": "ROTOLAB high-shear mixer",
+            "impeller_speed": "1200 rpm",
+            "mixing_time": "30 s",
+            "addition_time": "60 s",
+            "granulation_time": "210 s",
+            "drying": "24 h at 25°C",
+            "thermal_treatment": "70°C for 24 h (for TTG and TT)"
+        },
+        "tablet_compression": {
+            "device": "Korsch EK 0 excentric tablet press",
+            "punch_diameter": "10 mm convex",
+            "tablet_weight": "343 mg",
+            "compression_force": "Not specified (maximum hardness)"
+        }
+    }
+}

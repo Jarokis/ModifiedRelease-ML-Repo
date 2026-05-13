@@ -1,0 +1,1212 @@
+{
+    "materials_origin": {
+        "stavudine": "Emcure Pharmaceutical Ltd. (Pune, India)",
+        "hpmc_k15m_and_bees_wax": "Yarrow chemicals (Mumbai, India)",
+        "ethyl_cellulose": "SD Fine Chem. Ltd. (Mumbai, India)",
+        "lactose_and_talc": "Chemdyes Corporation (Ahmedabad, India)",
+        "magnesium_stearate_and_sodium_bicarbonate": "Shakti Chemicals (Mehsana, India)"
+    },
+    "experimental_design": {
+        "type": "2^3 full factorial design",
+        "independent_variables": {
+            "X1": "bees wax",
+            "X2": "HPMC K4M",
+            "X3": "ethyl cellulose"
+        },
+        "levels": {
+            "low": -1,
+            "high": 1
+        },
+        "dependent_variables": [
+            "Q1 (drug release at 1 h)",
+            "Q6 (drug release at 6 h)",
+            "Q12 (drug release at 12 h)"
+        ],
+        "formulations": [
+            "082_F1",
+            "082_F2",
+            "082_F3",
+            "082_F4",
+            "082_F5",
+            "082_F6",
+            "082_F7",
+            "082_F8"
+        ]
+    },
+    "formulation_details": [
+        {
+            "batch": "082_F1",
+            "total_nominal_mg": 200,
+            "ingredients": [
+                {
+                    "name": "Stavudine",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Bees wax",
+                    "mg": 30,
+                    "percent": 15
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Ethyl cellulose",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mg": 2,
+                    "percent": 1
+                },
+                {
+                    "name": "Talc",
+                    "mg": 4,
+                    "percent": 2
+                },
+                {
+                    "name": "Lactose",
+                    "mg": 64,
+                    "percent": 32
+                }
+            ]
+        },
+        {
+            "batch": "082_F2",
+            "total_nominal_mg": 200,
+            "ingredients": [
+                {
+                    "name": "Stavudine",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Bees wax",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Ethyl cellulose",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mg": 2,
+                    "percent": 1
+                },
+                {
+                    "name": "Talc",
+                    "mg": 4,
+                    "percent": 2
+                },
+                {
+                    "name": "Lactose",
+                    "mg": 54,
+                    "percent": 27
+                }
+            ]
+        },
+        {
+            "batch": "082_F3",
+            "total_nominal_mg": 190,
+            "ingredients": [
+                {
+                    "name": "Stavudine",
+                    "mg": 40,
+                    "percent": 21.05
+                },
+                {
+                    "name": "Bees wax",
+                    "mg": 30,
+                    "percent": 15.79
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mg": 50,
+                    "percent": 26.32
+                },
+                {
+                    "name": "Ethyl cellulose",
+                    "mg": 10,
+                    "percent": 5.26
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mg": 10,
+                    "percent": 5.26
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mg": 2,
+                    "percent": 1.05
+                },
+                {
+                    "name": "Talc",
+                    "mg": 4,
+                    "percent": 2.11
+                },
+                {
+                    "name": "Lactose",
+                    "mg": 44,
+                    "percent": 23.16
+                }
+            ]
+        },
+        {
+            "batch": "082_F4",
+            "total_nominal_mg": 200,
+            "ingredients": [
+                {
+                    "name": "Stavudine",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Bees wax",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mg": 50,
+                    "percent": 25
+                },
+                {
+                    "name": "Ethyl cellulose",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mg": 2,
+                    "percent": 1
+                },
+                {
+                    "name": "Talc",
+                    "mg": 4,
+                    "percent": 2
+                },
+                {
+                    "name": "Lactose",
+                    "mg": 44,
+                    "percent": 22
+                }
+            ]
+        },
+        {
+            "batch": "082_F5",
+            "total_nominal_mg": 200,
+            "ingredients": [
+                {
+                    "name": "Stavudine",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Bees wax",
+                    "mg": 30,
+                    "percent": 15
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Ethyl cellulose",
+                    "mg": 20,
+                    "percent": 10
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mg": 2,
+                    "percent": 1
+                },
+                {
+                    "name": "Talc",
+                    "mg": 4,
+                    "percent": 2
+                },
+                {
+                    "name": "Lactose",
+                    "mg": 54,
+                    "percent": 27
+                }
+            ]
+        },
+        {
+            "batch": "082_F6",
+            "total_nominal_mg": 200,
+            "ingredients": [
+                {
+                    "name": "Stavudine",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Bees wax",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Ethyl cellulose",
+                    "mg": 20,
+                    "percent": 10
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mg": 2,
+                    "percent": 1
+                },
+                {
+                    "name": "Talc",
+                    "mg": 4,
+                    "percent": 2
+                },
+                {
+                    "name": "Lactose",
+                    "mg": 44,
+                    "percent": 22
+                }
+            ]
+        },
+        {
+            "batch": "082_F7",
+            "total_nominal_mg": 200,
+            "ingredients": [
+                {
+                    "name": "Stavudine",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Bees wax",
+                    "mg": 30,
+                    "percent": 15
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mg": 50,
+                    "percent": 25
+                },
+                {
+                    "name": "Ethyl cellulose",
+                    "mg": 20,
+                    "percent": 10
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mg": 2,
+                    "percent": 1
+                },
+                {
+                    "name": "Talc",
+                    "mg": 4,
+                    "percent": 2
+                },
+                {
+                    "name": "Lactose",
+                    "mg": 44,
+                    "percent": 22
+                }
+            ]
+        },
+        {
+            "batch": "082_F8",
+            "total_nominal_mg": 200,
+            "ingredients": [
+                {
+                    "name": "Stavudine",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "Bees wax",
+                    "mg": 40,
+                    "percent": 20
+                },
+                {
+                    "name": "HPMC K4M",
+                    "mg": 50,
+                    "percent": 25
+                },
+                {
+                    "name": "Ethyl cellulose",
+                    "mg": 20,
+                    "percent": 10
+                },
+                {
+                    "name": "Sodium bicarbonate",
+                    "mg": 10,
+                    "percent": 5
+                },
+                {
+                    "name": "Magnesium stearate",
+                    "mg": 2,
+                    "percent": 1
+                },
+                {
+                    "name": "Talc",
+                    "mg": 4,
+                    "percent": 2
+                },
+                {
+                    "name": "Lactose",
+                    "mg": 34,
+                    "percent": 17
+                }
+            ]
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch": "082_F1",
+            "weight_variation_mg": "192.39 ± 2.38",
+            "hardness_kg_cm2": "2.00 ± 0.15",
+            "thickness_mm": "2.10 ± 0.025",
+            "drug_content_percent": "100.20 ± 0.59",
+            "friability_percent": 0.148,
+            "buoyancy_lag_time_sec": 129
+        },
+        {
+            "batch": "082_F2",
+            "weight_variation_mg": "196.71 ± 2.98",
+            "hardness_kg_cm2": "2.75 ± 0.26",
+            "thickness_mm": "1.92 ± 0.032",
+            "drug_content_percent": "99.00 ± 1.04",
+            "friability_percent": 0.02,
+            "buoyancy_lag_time_sec": 93
+        },
+        {
+            "batch": "082_F3",
+            "weight_variation_mg": "192.6 ± 2.86",
+            "hardness_kg_cm2": "2.00 ± 0.12",
+            "thickness_mm": "2.26 ± 0.031",
+            "drug_content_percent": "97.00 ± 1.27",
+            "friability_percent": 0.289,
+            "buoyancy_lag_time_sec": 66
+        },
+        {
+            "batch": "082_F4",
+            "weight_variation_mg": "197.37 ± 2.07",
+            "hardness_kg_cm2": "2.75 ± 0.17",
+            "thickness_mm": "2.05 ± 0.070",
+            "drug_content_percent": "98.55 ± 0.93",
+            "friability_percent": 0.905,
+            "buoyancy_lag_time_sec": 58
+        },
+        {
+            "batch": "082_F5",
+            "weight_variation_mg": "196.41 ± 3.89",
+            "hardness_kg_cm2": "2.00 ± 0.25",
+            "thickness_mm": "2.30 ± 0.045",
+            "drug_content_percent": "99.50 ± 0.63",
+            "friability_percent": 0.574,
+            "buoyancy_lag_time_sec": 41
+        },
+        {
+            "batch": "082_F6",
+            "weight_variation_mg": "193.21 ± 1.97",
+            "hardness_kg_cm2": "1.50 ± 0.15",
+            "thickness_mm": "1.90 ± 0.036",
+            "drug_content_percent": "100.10 ± 0.73",
+            "friability_percent": 0.573,
+            "buoyancy_lag_time_sec": 182
+        },
+        {
+            "batch": "082_F7",
+            "weight_variation_mg": "198.81 ± 3.02",
+            "hardness_kg_cm2": "2.75 ± 0.21",
+            "thickness_mm": "1.80 ± 0.062",
+            "drug_content_percent": "100.80 ± 0.67",
+            "friability_percent": 0.439,
+            "buoyancy_lag_time_sec": 94
+        },
+        {
+            "batch": "082_F8",
+            "weight_variation_mg": "193.62 ± 2.42",
+            "hardness_kg_cm2": "3.00 ± 0.10",
+            "thickness_mm": "1.90 ± 0.035",
+            "drug_content_percent": "101.10 ± 0.95",
+            "friability_percent": 0.91,
+            "buoyancy_lag_time_sec": 102
+        }
+    ],
+    "independent_variables_levels": {
+        "bees_wax_X1": {
+            "low": 30,
+            "high": 40,
+            "unit": "mg"
+        },
+        "HPMC_K4M_X2": {
+            "low": 40,
+            "high": 50,
+            "unit": "mg"
+        },
+        "ethyl_cellulose_X3": {
+            "low": 10,
+            "high": 20,
+            "unit": "mg"
+        }
+    },
+    "ftir_spectral_measurements": {
+        "instrument": "FT-IR 1700 (Shimadzu)",
+        "method": "KBr mixing method",
+        "stavudine_peaks": {
+            "carbonyl_C=O": "1647.10 cm⁻¹",
+            "alkyl_C=C-H": "3024.18 cm⁻¹",
+            "carbonyl_amide_N-H": "3417.63 cm⁻¹"
+        },
+        "conclusion": "No changes in main peaks in mixture of drug and excipients, indicating compatibility."
+    },
+    "tablet_fabrications": {
+        "hardness_range": "2-3 kg/cm²",
+        "friability_acceptance": "< 0.5-1%",
+        "weight_variation": "all within ±7.5%",
+        "diameter": "not reported",
+        "density": "not reported",
+        "drug_content": "97.00-101.10%",
+        "consolidation_index": "not reported"
+    },
+    "process_parameters": {
+        "granulation_method": "Melt granulation",
+        "melting_temperature": "60°C",
+        "compression_device": "Rimek-I rotary tablet machine (Karnavati Engineering, Kadi, India)",
+        "compression_adjustment": "hardness 2-3 kg/cm²",
+        "coating": "none",
+        "tooling": "round tooling"
+    },
+    "release_properties": [
+        {
+            "batch": "082_F1",
+            "kinetic_model": "Zero order (R²=0.9859), Korsmeyer-Peppas n=0.457 (Fickian)",
+            "release_profile": "Table 8 (cumulative % release)",
+            "factors": "pH 1.2 SGF, 37°C, paddle 50 rpm",
+            "dissolution_data": [
+                {
+                    "time_h": 0,
+                    "cpr": 0
+                },
+                {
+                    "time_h": 0.25,
+                    "cpr": 15.89
+                },
+                {
+                    "time_h": 0.5,
+                    "cpr": 23.64
+                },
+                {
+                    "time_h": 1,
+                    "cpr": 35.82
+                },
+                {
+                    "time_h": 2,
+                    "cpr": 38.35
+                },
+                {
+                    "time_h": 3,
+                    "cpr": 52.83
+                },
+                {
+                    "time_h": 4,
+                    "cpr": 58.52
+                },
+                {
+                    "time_h": 5,
+                    "cpr": 66.82
+                },
+                {
+                    "time_h": 6,
+                    "cpr": 70.44
+                },
+                {
+                    "time_h": 7,
+                    "cpr": 79.14
+                },
+                {
+                    "time_h": 8,
+                    "cpr": 87.36
+                },
+                {
+                    "time_h": 9,
+                    "cpr": 90.84
+                },
+                {
+                    "time_h": 10,
+                    "cpr": 92.04
+                },
+                {
+                    "time_h": 11,
+                    "cpr": 95.01
+                },
+                {
+                    "time_h": 12,
+                    "cpr": 98.02
+                }
+            ]
+        },
+        {
+            "batch": "082_F2",
+            "kinetic_model": "Higuchi (R²=0.9927), Korsmeyer-Peppas n=0.505 (non-Fickian)",
+            "release_profile": "Table 8",
+            "factors": "pH 1.2 SGF, 37°C, paddle 50 rpm",
+            "dissolution_data": [
+                {
+                    "time_h": 0,
+                    "cpr": 0
+                },
+                {
+                    "time_h": 0.25,
+                    "cpr": 10.45
+                },
+                {
+                    "time_h": 0.5,
+                    "cpr": 14.04
+                },
+                {
+                    "time_h": 1,
+                    "cpr": 19.16
+                },
+                {
+                    "time_h": 2,
+                    "cpr": 34.67
+                },
+                {
+                    "time_h": 3,
+                    "cpr": 48.54
+                },
+                {
+                    "time_h": 4,
+                    "cpr": 51.05
+                },
+                {
+                    "time_h": 5,
+                    "cpr": 55.26
+                },
+                {
+                    "time_h": 6,
+                    "cpr": 58.38
+                },
+                {
+                    "time_h": 7,
+                    "cpr": 74.67
+                },
+                {
+                    "time_h": 8,
+                    "cpr": 83.38
+                },
+                {
+                    "time_h": 9,
+                    "cpr": 86.31
+                },
+                {
+                    "time_h": 10,
+                    "cpr": 88.74
+                },
+                {
+                    "time_h": 11,
+                    "cpr": 90.68
+                },
+                {
+                    "time_h": 12,
+                    "cpr": 91.44
+                }
+            ]
+        },
+        {
+            "batch": "082_F3",
+            "kinetic_model": "Higuchi (R²=0.9927), Korsmeyer-Peppas n=0.506 (non-Fickian)",
+            "release_profile": "Table 8",
+            "factors": "pH 1.2 SGF, 37°C, paddle 50 rpm",
+            "dissolution_data": [
+                {
+                    "time_h": 0,
+                    "cpr": 0
+                },
+                {
+                    "time_h": 0.25,
+                    "cpr": 14.29
+                },
+                {
+                    "time_h": 0.5,
+                    "cpr": 24.09
+                },
+                {
+                    "time_h": 1,
+                    "cpr": 29.73
+                },
+                {
+                    "time_h": 2,
+                    "cpr": 45.65
+                },
+                {
+                    "time_h": 3,
+                    "cpr": 52.28
+                },
+                {
+                    "time_h": 4,
+                    "cpr": 58.47
+                },
+                {
+                    "time_h": 5,
+                    "cpr": 68.82
+                },
+                {
+                    "time_h": 6,
+                    "cpr": 75.27
+                },
+                {
+                    "time_h": 7,
+                    "cpr": 83.7
+                },
+                {
+                    "time_h": 8,
+                    "cpr": 87.65
+                },
+                {
+                    "time_h": 9,
+                    "cpr": 90.36
+                },
+                {
+                    "time_h": 10,
+                    "cpr": 93.64
+                },
+                {
+                    "time_h": 11,
+                    "cpr": 96.36
+                },
+                {
+                    "time_h": 12,
+                    "cpr": 98.11
+                }
+            ]
+        },
+        {
+            "batch": "082_F4",
+            "kinetic_model": "Korsmeyer-Peppas (R²=0.9930), n=0.5091 (non-Fickian)",
+            "release_profile": "Table 8",
+            "factors": "pH 1.2 SGF, 37°C, paddle 50 rpm",
+            "dissolution_data": [
+                {
+                    "time_h": 0,
+                    "cpr": 0
+                },
+                {
+                    "time_h": 0.25,
+                    "cpr": 4.52
+                },
+                {
+                    "time_h": 0.5,
+                    "cpr": 10.48
+                },
+                {
+                    "time_h": 1,
+                    "cpr": 14.18
+                },
+                {
+                    "time_h": 2,
+                    "cpr": 19.14
+                },
+                {
+                    "time_h": 3,
+                    "cpr": 24.05
+                },
+                {
+                    "time_h": 4,
+                    "cpr": 28.63
+                },
+                {
+                    "time_h": 5,
+                    "cpr": 30.54
+                },
+                {
+                    "time_h": 6,
+                    "cpr": 35.15
+                },
+                {
+                    "time_h": 7,
+                    "cpr": 35.33
+                },
+                {
+                    "time_h": 8,
+                    "cpr": 41.32
+                },
+                {
+                    "time_h": 9,
+                    "cpr": 43.2
+                },
+                {
+                    "time_h": 10,
+                    "cpr": 48.13
+                },
+                {
+                    "time_h": 11,
+                    "cpr": 52.43
+                },
+                {
+                    "time_h": 12,
+                    "cpr": 56.72
+                }
+            ]
+        },
+        {
+            "batch": "082_F5",
+            "kinetic_model": "First order (R²=0.9791), Korsmeyer-Peppas n=0.269 (Fickian)",
+            "release_profile": "Table 8",
+            "factors": "pH 1.2 SGF, 37°C, paddle 50 rpm",
+            "dissolution_data": [
+                {
+                    "time_h": 0,
+                    "cpr": 0
+                },
+                {
+                    "time_h": 0.25,
+                    "cpr": 20.35
+                },
+                {
+                    "time_h": 0.5,
+                    "cpr": 37.71
+                },
+                {
+                    "time_h": 1,
+                    "cpr": 52.44
+                },
+                {
+                    "time_h": 2,
+                    "cpr": 69.89
+                },
+                {
+                    "time_h": 3,
+                    "cpr": 78.33
+                },
+                {
+                    "time_h": 4,
+                    "cpr": 82.45
+                },
+                {
+                    "time_h": 5,
+                    "cpr": 85.86
+                },
+                {
+                    "time_h": 6,
+                    "cpr": 90.51
+                },
+                {
+                    "time_h": 7,
+                    "cpr": 93.25
+                },
+                {
+                    "time_h": 8,
+                    "cpr": 96.69
+                },
+                {
+                    "time_h": 9,
+                    "cpr": 100.7
+                },
+                {
+                    "time_h": 10,
+                    "cpr": 97.64
+                },
+                {
+                    "time_h": 11,
+                    "cpr": 96.86
+                },
+                {
+                    "time_h": 12,
+                    "cpr": 96.3
+                }
+            ]
+        },
+        {
+            "batch": "082_F6",
+            "kinetic_model": "Zero order (R²=0.9841), Korsmeyer-Peppas n=0.5199 (non-Fickian)",
+            "release_profile": "Table 8",
+            "factors": "pH 1.2 SGF, 37°C, paddle 50 rpm",
+            "dissolution_data": [
+                {
+                    "time_h": 0,
+                    "cpr": 0
+                },
+                {
+                    "time_h": 0.25,
+                    "cpr": 15.49
+                },
+                {
+                    "time_h": 0.5,
+                    "cpr": 27.94
+                },
+                {
+                    "time_h": 1,
+                    "cpr": 32.08
+                },
+                {
+                    "time_h": 2,
+                    "cpr": 44.2
+                },
+                {
+                    "time_h": 3,
+                    "cpr": 55.67
+                },
+                {
+                    "time_h": 4,
+                    "cpr": 58.07
+                },
+                {
+                    "time_h": 5,
+                    "cpr": 68.66
+                },
+                {
+                    "time_h": 6,
+                    "cpr": 82.18
+                },
+                {
+                    "time_h": 7,
+                    "cpr": 86.38
+                },
+                {
+                    "time_h": 8,
+                    "cpr": 93.94
+                },
+                {
+                    "time_h": 9,
+                    "cpr": 98.76
+                },
+                {
+                    "time_h": 10,
+                    "cpr": 100.82
+                },
+                {
+                    "time_h": 11,
+                    "cpr": 98.28
+                },
+                {
+                    "time_h": 12,
+                    "cpr": 96.47
+                }
+            ]
+        },
+        {
+            "batch": "082_F7",
+            "kinetic_model": "Zero order (R²=0.9936), Korsmeyer-Peppas n=0.545 (non-Fickian)",
+            "release_profile": "Table 8",
+            "factors": "pH 1.2 SGF, 37°C, paddle 50 rpm",
+            "dissolution_data": [
+                {
+                    "time_h": 0,
+                    "cpr": 0
+                },
+                {
+                    "time_h": 0.25,
+                    "cpr": 15.49
+                },
+                {
+                    "time_h": 0.5,
+                    "cpr": 18.92
+                },
+                {
+                    "time_h": 1,
+                    "cpr": 26.93
+                },
+                {
+                    "time_h": 2,
+                    "cpr": 32.24
+                },
+                {
+                    "time_h": 3,
+                    "cpr": 40.34
+                },
+                {
+                    "time_h": 4,
+                    "cpr": 48.54
+                },
+                {
+                    "time_h": 5,
+                    "cpr": 56.86
+                },
+                {
+                    "time_h": 6,
+                    "cpr": 60.24
+                },
+                {
+                    "time_h": 7,
+                    "cpr": 72.44
+                },
+                {
+                    "time_h": 8,
+                    "cpr": 79.19
+                },
+                {
+                    "time_h": 9,
+                    "cpr": 83.45
+                },
+                {
+                    "time_h": 10,
+                    "cpr": 89.98
+                },
+                {
+                    "time_h": 11,
+                    "cpr": 98.75
+                },
+                {
+                    "time_h": 12,
+                    "cpr": 99.98
+                }
+            ]
+        },
+        {
+            "batch": "082_F8",
+            "kinetic_model": "Zero order (R²=0.995), Korsmeyer-Peppas n=0.487 (Fickian)",
+            "release_profile": "Table 8",
+            "factors": "pH 1.2 SGF, 37°C, paddle 50 rpm",
+            "dissolution_data": [
+                {
+                    "time_h": 0,
+                    "cpr": 0
+                },
+                {
+                    "time_h": 0.25,
+                    "cpr": 3.91
+                },
+                {
+                    "time_h": 0.5,
+                    "cpr": 10.74
+                },
+                {
+                    "time_h": 1,
+                    "cpr": 12.69
+                },
+                {
+                    "time_h": 2,
+                    "cpr": 15.79
+                },
+                {
+                    "time_h": 3,
+                    "cpr": 17.62
+                },
+                {
+                    "time_h": 4,
+                    "cpr": 21.47
+                },
+                {
+                    "time_h": 5,
+                    "cpr": 25.16
+                },
+                {
+                    "time_h": 6,
+                    "cpr": 27.75
+                },
+                {
+                    "time_h": 7,
+                    "cpr": 30.73
+                },
+                {
+                    "time_h": 8,
+                    "cpr": 33.15
+                },
+                {
+                    "time_h": 9,
+                    "cpr": 35.27
+                },
+                {
+                    "time_h": 10,
+                    "cpr": 41.81
+                },
+                {
+                    "time_h": 11,
+                    "cpr": 43.43
+                },
+                {
+                    "time_h": 12,
+                    "cpr": 46.43
+                }
+            ]
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch": "082_F1",
+            "hardness_kg_cm2": "2.00 ± 0.15",
+            "friability_percent": 0.148,
+            "disintegration_time": "not applicable (floating)",
+            "dissolution_profile": "see release_properties",
+            "stability": "not tested",
+            "thickness_mm": "2.10 ± 0.025",
+            "weight_variation_mg": "192.39 ± 2.38",
+            "total_floating_time": ">12 h",
+            "lag_time_sec": 129
+        },
+        {
+            "batch": "082_F2",
+            "hardness_kg_cm2": "2.75 ± 0.26",
+            "friability_percent": 0.02,
+            "disintegration_time": "not applicable",
+            "dissolution_profile": "see release_properties",
+            "stability": "not tested",
+            "thickness_mm": "1.92 ± 0.032",
+            "weight_variation_mg": "196.71 ± 2.98",
+            "total_floating_time": ">12 h",
+            "lag_time_sec": 93
+        },
+        {
+            "batch": "082_F3",
+            "hardness_kg_cm2": "2.00 ± 0.12",
+            "friability_percent": 0.289,
+            "disintegration_time": "not applicable",
+            "dissolution_profile": "see release_properties",
+            "stability": "not tested",
+            "thickness_mm": "2.26 ± 0.031",
+            "weight_variation_mg": "192.6 ± 2.86",
+            "total_floating_time": ">12 h",
+            "lag_time_sec": 66
+        },
+        {
+            "batch": "082_F4",
+            "hardness_kg_cm2": "2.75 ± 0.17",
+            "friability_percent": 0.905,
+            "disintegration_time": "not applicable",
+            "dissolution_profile": "see release_properties",
+            "stability": "not tested",
+            "thickness_mm": "2.05 ± 0.070",
+            "weight_variation_mg": "197.37 ± 2.07",
+            "total_floating_time": ">12 h",
+            "lag_time_sec": 58
+        },
+        {
+            "batch": "082_F5",
+            "hardness_kg_cm2": "2.00 ± 0.25",
+            "friability_percent": 0.574,
+            "disintegration_time": "not applicable",
+            "dissolution_profile": "see release_properties",
+            "stability": "not tested",
+            "thickness_mm": "2.30 ± 0.045",
+            "weight_variation_mg": "196.41 ± 3.89",
+            "total_floating_time": ">12 h",
+            "lag_time_sec": 41
+        },
+        {
+            "batch": "082_F6",
+            "hardness_kg_cm2": "1.50 ± 0.15",
+            "friability_percent": 0.573,
+            "disintegration_time": "not applicable",
+            "dissolution_profile": "see release_properties",
+            "stability": "not tested",
+            "thickness_mm": "1.90 ± 0.036",
+            "weight_variation_mg": "193.21 ± 1.97",
+            "total_floating_time": ">12 h",
+            "lag_time_sec": 182
+        },
+        {
+            "batch": "082_F7",
+            "hardness_kg_cm2": "2.75 ± 0.21",
+            "friability_percent": 0.439,
+            "disintegration_time": "not applicable",
+            "dissolution_profile": "see release_properties",
+            "stability": "stable at 40°C/75% RH for 1 month (similarity factor 77.09)",
+            "thickness_mm": "1.80 ± 0.062",
+            "weight_variation_mg": "198.81 ± 3.02",
+            "total_floating_time": ">12 h",
+            "lag_time_sec": 94
+        },
+        {
+            "batch": "082_F8",
+            "hardness_kg_cm2": "3.00 ± 0.10",
+            "friability_percent": 0.91,
+            "disintegration_time": "not applicable",
+            "dissolution_profile": "see release_properties",
+            "stability": "not tested",
+            "thickness_mm": "1.90 ± 0.035",
+            "weight_variation_mg": "193.62 ± 2.42",
+            "total_floating_time": ">12 h",
+            "lag_time_sec": 102
+        }
+    ],
+    "experimental_data": {
+        "key_results": "Formulation 082_F7 showed zero-order release (R²=0.9936) with anomalous (non-Fickian) diffusion (n=0.545). Similarity factor f2 = 70.91 compared to theoretical profile.",
+        "performance_metrics": {
+            "optimum_batch": "082_F7",
+            "similarity_factor_f2": 70.91,
+            "zero_order_slope_b": 7.38,
+            "first_order_rate_constant_b": -0.081,
+            "lag_time_sec": 94,
+            "total_floating_time": ">12 h"
+        },
+        "statistical_analysis": "2^3 full factorial design; dependent variables Q1, Q6, Q12; independent variables bees wax (X1), HPMC K4M (X2), ethyl cellulose (X3).",
+        "zero_order_release_rates": {
+            "082_F1": 7.194,
+            "082_F2": 7.469,
+            "082_F3": 7.463,
+            "082_F4": 3.528,
+            "082_F5": 4.922,
+            "082_F6": 8.357,
+            "082_F7": 7.38,
+            "082_F8": 2.915
+        },
+        "first_order_rate_constants": {
+            "082_F1": -0.105,
+            "082_F2": -0.109,
+            "082_F3": -0.109,
+            "082_F4": -0.022,
+            "082_F5": -0.146,
+            "082_F6": -0.187,
+            "082_F7": -0.081,
+            "082_F8": 0.055
+        },
+        "lag_time_seconds": {
+            "082_F1": 129,
+            "082_F2": 93,
+            "082_F3": 66,
+            "082_F4": 58,
+            "082_F5": 41,
+            "082_F6": 182,
+            "082_F7": 94,
+            "082_F8": 102
+        },
+        "total_floating_time": ">12 h for all formulations",
+        "swelling_index": "not reported"
+    }
+}

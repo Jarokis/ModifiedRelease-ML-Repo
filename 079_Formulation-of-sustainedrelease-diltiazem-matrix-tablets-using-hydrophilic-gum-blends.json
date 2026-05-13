@@ -1,0 +1,847 @@
+{
+    "Materials_origin": {
+        "Diltiazem_hydrochloride_DTZ": "Micro Lab Ltd, Bangalore, India",
+        "Microcrystalline_cellulose_MCC": "Micro Lab Ltd, Bangalore, India",
+        "Hydroxypropyl_methylcellulose_HPMC_K4M": "Micro Lab Ltd, Bangalore, India",
+        "Locust_bean_gum_LB": "Sigma Aldrich, Steinheim, Germany",
+        "Karaya_gum_K": "Sigma Aldrich, Steinheim, Germany",
+        "Magnesium_stearate": "Merck, Mumbai, India",
+        "Hydrochloric_acid": "Merck, Mumbai, India",
+        "Sodium_hydroxide": "Merck, Mumbai, India",
+        "Potassium_phosphate_monobasic": "Merck, Mumbai, India",
+        "Reference_product_Dilzem_SR": "Torrent Pharma Ltd, India"
+    },
+    "Experimental_Design_for_Optimization": {
+        "Preparation_method": "Direct compression",
+        "Sieve_size": "200 μm aperture",
+        "Mixing_time_except_magnesium_stearate": "10 minutes",
+        "Mixing_time_with_magnesium_stearate": "2 minutes",
+        "Batch_size": "50 tablets",
+        "Tablet_machine": "Rimek Mini Press I",
+        "Punch_type": "12 mm flat-faced punches",
+        "Characterization_tests": [
+            "Hardness (digital hardness tester, Inwika, Ahmedabad, India)",
+            "Friability (Roche friability testing apparatus)",
+            "Weight variation (Indian Pharmacopoeia)",
+            "Content uniformity (Indian Pharmacopoeia)",
+            "In vitro drug release (USP type I apparatus, TDT-08l, Electrolab, Mumbai, India)",
+            "Scanning electron microscopy (JEOL-JSM-840A, Japan)",
+            "Water uptake and erosion studies",
+            "FT-IR spectroscopy (Shimadzu FTIR 8400S)",
+            "Thermal analysis (DSC, Perkin-Elmer, Pyris-1)"
+        ],
+        "Dissolution_conditions": {
+            "First_2_hours": {
+                "Medium": "Simulated gastric fluid (SGF, 0.1 M HCl, pH 1.2)",
+                "Volume": "900 mL",
+                "Apparatus": "USP type I (basket)",
+                "Speed": "100 rpm",
+                "Temperature": "37°C"
+            },
+            "Next_10_hours": {
+                "Medium": "Phosphate buffer pH 7.4",
+                "Volume": "900 mL",
+                "Speed": "100 rpm",
+                "Temperature": "37°C"
+            },
+            "Analysis_wavelength": "237 nm",
+            "Equipment": "UVPC 1601, Shimadzu, Kyoto, Japan"
+        },
+        "Equations": {
+            "Swelling_percentage": "Swelling(%) = (Ts - T) / T × 100",
+            "Erosion_percentage": "Erosion(%) = (T - Tf) / Tf × 100",
+            "Korsmeyer_Peppas": "Log(Mt/M∞) = Log k + n Log t",
+            "Dissolution_efficiency_DE12": "DE12% = (∫₀ᵗ y dt / (y100 × t)) × 100",
+            "Mean_dissolution_time_MDT": "MDT = Σ (t_mid × ΔM) / Σ ΔM",
+            "Similarity_factor_f2": "f2 = 50 Log [1 + (1/n) Σ (R_i - T_i)²]⁻⁰·⁵ × 100"
+        }
+    },
+    "Formulation_Details": [
+        {
+            "Batch": "079_F1",
+            "Code": "K (1:1)",
+            "Drug_polymer_ratio": "1:1",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 100,
+            "Locust_bean_gum_LB_mg": 0,
+            "HPMC_H_mg": 0,
+            "MCC_mg": 390,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F2",
+            "Code": "K (1:2)",
+            "Drug_polymer_ratio": "1:2",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 200,
+            "Locust_bean_gum_LB_mg": 0,
+            "HPMC_H_mg": 0,
+            "MCC_mg": 290,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F3",
+            "Code": "K (1:4)",
+            "Drug_polymer_ratio": "1:4",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 400,
+            "Locust_bean_gum_LB_mg": 0,
+            "HPMC_H_mg": 0,
+            "MCC_mg": 90,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F4",
+            "Code": "KLB (1:1)",
+            "Drug_polymer_ratio": "1:1",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 50,
+            "Locust_bean_gum_LB_mg": 50,
+            "HPMC_H_mg": 0,
+            "MCC_mg": 390,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F5",
+            "Code": "KLB (1:2)",
+            "Drug_polymer_ratio": "1:2",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 100,
+            "Locust_bean_gum_LB_mg": 100,
+            "HPMC_H_mg": 0,
+            "MCC_mg": 290,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F6",
+            "Code": "KLB (1:4)",
+            "Drug_polymer_ratio": "1:4",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 200,
+            "Locust_bean_gum_LB_mg": 200,
+            "HPMC_H_mg": 0,
+            "MCC_mg": 90,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F7",
+            "Code": "KH (1:1)",
+            "Drug_polymer_ratio": "1:1",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 50,
+            "Locust_bean_gum_LB_mg": 0,
+            "HPMC_H_mg": 50,
+            "MCC_mg": 390,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F8",
+            "Code": "KH (1:2)",
+            "Drug_polymer_ratio": "1:2",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 100,
+            "Locust_bean_gum_LB_mg": 0,
+            "HPMC_H_mg": 100,
+            "MCC_mg": 290,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F9",
+            "Code": "KH (1:4)",
+            "Drug_polymer_ratio": "1:4",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 200,
+            "Locust_bean_gum_LB_mg": 0,
+            "HPMC_H_mg": 200,
+            "MCC_mg": 90,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F10",
+            "Code": "KLBH (1:1)",
+            "Drug_polymer_ratio": "1:1",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 25,
+            "Locust_bean_gum_LB_mg": 25,
+            "HPMC_H_mg": 50,
+            "MCC_mg": 390,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F11",
+            "Code": "KLBH (1:2)",
+            "Drug_polymer_ratio": "1:2",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 50,
+            "Locust_bean_gum_LB_mg": 50,
+            "HPMC_H_mg": 100,
+            "MCC_mg": 290,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        },
+        {
+            "Batch": "079_F12",
+            "Code": "KLBH (1:4)",
+            "Drug_polymer_ratio": "1:4",
+            "DTZ_mg": 100,
+            "Karaya_gum_K_mg": 100,
+            "Locust_bean_gum_LB_mg": 100,
+            "HPMC_H_mg": 200,
+            "MCC_mg": 90,
+            "Magnesium_stearate_mg": 10,
+            "Total_weight_mg": 600
+        }
+    ],
+    "Pre_compression_parameters": [
+        {
+            "Batch": "079_F1",
+            "Hardness_kg_cm2": 5.7,
+            "Hardness_SD": 0.6,
+            "Friability_percent": 0.35,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F2",
+            "Hardness_kg_cm2": 5.6,
+            "Hardness_SD": 0.5,
+            "Friability_percent": 0.31,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F3",
+            "Hardness_kg_cm2": 5.3,
+            "Hardness_SD": 0.6,
+            "Friability_percent": 0.46,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F4",
+            "Hardness_kg_cm2": 5.3,
+            "Hardness_SD": 0.4,
+            "Friability_percent": 0.49,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F5",
+            "Hardness_kg_cm2": 5.1,
+            "Hardness_SD": 0.6,
+            "Friability_percent": 0.59,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F6",
+            "Hardness_kg_cm2": 4.8,
+            "Hardness_SD": 0.7,
+            "Friability_percent": 0.65,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F7",
+            "Hardness_kg_cm2": 5.7,
+            "Hardness_SD": 0.4,
+            "Friability_percent": 0.3,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F8",
+            "Hardness_kg_cm2": 5.7,
+            "Hardness_SD": 0.4,
+            "Friability_percent": 0.36,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F9",
+            "Hardness_kg_cm2": 5.8,
+            "Hardness_SD": 0.3,
+            "Friability_percent": 0.42,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F10",
+            "Hardness_kg_cm2": 5.5,
+            "Hardness_SD": 0.4,
+            "Friability_percent": 0.45,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F11",
+            "Hardness_kg_cm2": 5.7,
+            "Hardness_SD": 0.5,
+            "Friability_percent": 0.5,
+            "Assay_percent": null,
+            "Assay_SD": null
+        },
+        {
+            "Batch": "079_F12",
+            "Hardness_kg_cm2": 5.6,
+            "Hardness_SD": 0.4,
+            "Friability_percent": 0.58,
+            "Assay_percent": null,
+            "Assay_SD": null
+        }
+    ],
+    "Fourier_Transform_Infrared_Spectral_Measurements": {
+        "Instrument": "Shimadzu FTIR 8400S",
+        "Method": "KBr pellet",
+        "Key_peaks_pure_drug_and_formulation": [
+            "3433.13 cm⁻¹ (aliphatic C-H stretching)",
+            "2931.90 cm⁻¹ (O-CH₃, C-H stretching)",
+            "2387.93 cm⁻¹ (amine HCl, N-H stretching)",
+            "1741.78 cm⁻¹ (acetate C=O stretch)",
+            "1678.13 cm⁻¹ (lactam C=O stretch)",
+            "831.33 cm⁻¹ (O-substituted aromatic C-H out-of-plane deformation)",
+            "773.48 cm⁻¹ (p-substituted aromatic C-H out-of-plane deformation)"
+        ],
+        "Conclusion": "No drug-polymer interaction observed"
+    },
+    "Tablet_Fabrications": {
+        "Compression_device": "Rimek Mini Press I",
+        "Punch_size": "12 mm flat-faced",
+        "Process_conditions": "Direct compression at room temperature",
+        "All_formulations": {
+            "Hardness_range_kg_cm2": "4.8 - 5.8",
+            "Friability_percent": "< 1%",
+            "Drug_content_percent": "> 96% (assay values not individually specified, but uniformity good)",
+            "Weight_variation": "Compliant with IP (not more than two tablets deviate by ±5%)"
+        }
+    },
+    "Process_Parameters": {
+        "Compression_process": "Direct compression",
+        "Equipment": "Rimek Mini Press I tablet machine",
+        "Process_conditions": {
+            "Temperature": "Room temperature",
+            "Pressure": "Not specified"
+        }
+    },
+    "Release_Properties": [
+        {
+            "Batch": "079_F1",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.4784,
+            "Korsmeyer_r2": 0.998,
+            "Higuchi_r2": 0.965,
+            "MDT_h": 3.56,
+            "MDT_SD": 0.2,
+            "DE12_percent": 55.69,
+            "DE12_SD": 3.02,
+            "Initial_release_1h_percent": "13-26",
+            "Cumulative_release_12h_percent": "50-81"
+        },
+        {
+            "Batch": "079_F2",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.4967,
+            "Korsmeyer_r2": 0.9929,
+            "Higuchi_r2": 0.989,
+            "MDT_h": 3.69,
+            "MDT_SD": 0.1,
+            "DE12_percent": 45.17,
+            "DE12_SD": 1.47,
+            "Initial_release_1h_percent": "Not specified",
+            "Cumulative_release_12h_percent": "Not specified"
+        },
+        {
+            "Batch": "079_F3",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.6214,
+            "Korsmeyer_r2": 0.9916,
+            "Higuchi_r2": 0.9898,
+            "MDT_h": 4.03,
+            "MDT_SD": 0.2,
+            "DE12_percent": 37.67,
+            "DE12_SD": 5.1,
+            "Initial_release_1h_percent": "13-26",
+            "Cumulative_release_12h_percent": "50-81"
+        },
+        {
+            "Batch": "079_F4",
+            "Release_mechanism": "Not specified (rapid release)",
+            "n_value": 0.0679,
+            "Korsmeyer_r2": null,
+            "Higuchi_r2": null,
+            "MDT_h": 0.87,
+            "MDT_SD": 0.3,
+            "DE12_percent": 90.98,
+            "DE12_SD": 6.12,
+            "Initial_release_1h_percent": "18-83",
+            "Cumulative_release_12h_percent": "75-98"
+        },
+        {
+            "Batch": "079_F5",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.5248,
+            "Korsmeyer_r2": 0.9808,
+            "Higuchi_r2": 0.9768,
+            "MDT_h": 3.52,
+            "MDT_SD": 0.1,
+            "DE12_percent": 58.02,
+            "DE12_SD": 4.15,
+            "Initial_release_1h_percent": "18-83",
+            "Cumulative_release_12h_percent": "75-98",
+            "Similarity_to_reference_f2": 77.86
+        },
+        {
+            "Batch": "079_F6",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.5861,
+            "Korsmeyer_r2": 0.981,
+            "Higuchi_r2": 0.9743,
+            "MDT_h": 3.82,
+            "MDT_SD": 0.2,
+            "DE12_percent": 49.22,
+            "DE12_SD": 3.17,
+            "Initial_release_1h_percent": "18-83",
+            "Cumulative_release_12h_percent": "75-98"
+        },
+        {
+            "Batch": "079_F7",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.4956,
+            "Korsmeyer_r2": 0.9932,
+            "Higuchi_r2": 0.879,
+            "MDT_h": 3.07,
+            "MDT_SD": 0.3,
+            "DE12_percent": 52.63,
+            "DE12_SD": 6.14,
+            "Initial_release_1h_percent": "15-24",
+            "Cumulative_release_12h_percent": "48-71"
+        },
+        {
+            "Batch": "079_F8",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.5896,
+            "Korsmeyer_r2": 0.9808,
+            "Higuchi_r2": 0.9856,
+            "MDT_h": 3.89,
+            "MDT_SD": 0.2,
+            "DE12_percent": 44.03,
+            "DE12_SD": 1.29,
+            "Initial_release_1h_percent": "15-24",
+            "Cumulative_release_12h_percent": "48-71"
+        },
+        {
+            "Batch": "079_F9",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.6321,
+            "Korsmeyer_r2": 0.988,
+            "Higuchi_r2": 0.9874,
+            "MDT_h": 4.54,
+            "MDT_SD": 0.2,
+            "DE12_percent": 34.37,
+            "DE12_SD": 2.61,
+            "Initial_release_1h_percent": "15-24",
+            "Cumulative_release_12h_percent": "48-71"
+        },
+        {
+            "Batch": "079_F10",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.5335,
+            "Korsmeyer_r2": 0.9962,
+            "Higuchi_r2": 0.9281,
+            "MDT_h": 3.38,
+            "MDT_SD": 0.2,
+            "DE12_percent": 64.5,
+            "DE12_SD": 9.15,
+            "Initial_release_1h_percent": "Not specified",
+            "Cumulative_release_12h_percent": "53-92"
+        },
+        {
+            "Batch": "079_F11",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.583,
+            "Korsmeyer_r2": 0.997,
+            "Higuchi_r2": 0.9361,
+            "MDT_h": 3.42,
+            "MDT_SD": 0.2,
+            "DE12_percent": 48.79,
+            "DE12_SD": 2.88,
+            "Initial_release_1h_percent": "Not specified",
+            "Cumulative_release_12h_percent": "53-92"
+        },
+        {
+            "Batch": "079_F12",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.6889,
+            "Korsmeyer_r2": 0.7755,
+            "Higuchi_r2": 0.9844,
+            "MDT_h": 3.8,
+            "MDT_SD": 0.2,
+            "DE12_percent": 39.46,
+            "DE12_SD": 4.51,
+            "Initial_release_1h_percent": "Not specified",
+            "Cumulative_release_12h_percent": "53-92"
+        },
+        {
+            "Batch": "Reference",
+            "Release_mechanism": "Anomalous (non-Fickian)",
+            "n_value": 0.5531,
+            "Korsmeyer_r2": 0.9919,
+            "Higuchi_r2": 0.9862,
+            "MDT_h": 3.54,
+            "MDT_SD": 0.1,
+            "DE12_percent": 59.82,
+            "DE12_SD": 3.12,
+            "Initial_release_1h_percent": "Not specified",
+            "Cumulative_release_12h_percent": "Not specified"
+        }
+    ],
+    "Tablet_Properties": {
+        "All_formulations": {
+            "Hardness_range_kg_cm2": "4.8 - 5.8",
+            "Friability_percent": "< 1%",
+            "Drug_content_percent": "> 96%",
+            "Weight_variation": "Compliant with IP",
+            "Thickness": "Not specified",
+            "Diameter": "12 mm"
+        }
+    },
+    "Experimental_Data": {
+        "Best_formulation": "079_F5 (KLB 1:2)",
+        "Similarity_to_reference_f2": 77.86,
+        "Statistically_similar_to_reference_p_0.05": [
+            "079_F1",
+            "079_F5",
+            "079_F10"
+        ],
+        "Release_kinetics_model": "Korsmeyer-Peppas (best fit)",
+        "n_value_range": "0.4700 - 0.6889",
+        "Overall_release_mechanism": "Anomalous transport (non-Fickian) - combination of diffusion and erosion",
+        "Swelling_study_F5": {
+            "Swelling_at_12h_percent": 172,
+            "Erosion_at_12h_percent": 250
+        },
+        "Reference_swelling_erosion": {
+            "Swelling_at_12h_percent": 33.4,
+            "Erosion_at_12h_percent": 33
+        },
+        "Zero_order_r2_range": "Not specified",
+        "First_order_r2_range": "Not specified",
+        "Thermal_analysis": {
+            "Pure_DTZ_endotherm": "217.4°C",
+            "Formulation_DTZ_endotherm": "218.9°C",
+            "Conclusion": "No significant interaction"
+        },
+        "SEM_observations": "Highly porous tablet surface before and after dissolution, indicating diffusion and erosion mechanisms"
+    },
+    "Dissolution_Profile_Approximated": [
+        {
+            "Batch": "079_F1",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                15,
+                27,
+                41,
+                53,
+                63,
+                72,
+                79
+            ]
+        },
+        {
+            "Batch": "079_F2",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                19,
+                32,
+                46,
+                58,
+                68,
+                76,
+                83
+            ]
+        },
+        {
+            "Batch": "079_F3",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                23,
+                36,
+                49,
+                60,
+                69,
+                76,
+                81
+            ]
+        },
+        {
+            "Batch": "079_F4",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                83,
+                90,
+                95,
+                97,
+                98,
+                99,
+                99
+            ]
+        },
+        {
+            "Batch": "079_F5",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                28,
+                42,
+                58,
+                70,
+                79,
+                86,
+                91
+            ]
+        },
+        {
+            "Batch": "079_F6",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                35,
+                50,
+                65,
+                76,
+                84,
+                90,
+                94
+            ]
+        },
+        {
+            "Batch": "079_F7",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                18,
+                30,
+                45,
+                57,
+                67,
+                75,
+                81
+            ]
+        },
+        {
+            "Batch": "079_F8",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                22,
+                35,
+                49,
+                60,
+                70,
+                77,
+                83
+            ]
+        },
+        {
+            "Batch": "079_F9",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                24,
+                37,
+                51,
+                62,
+                71,
+                78,
+                84
+            ]
+        },
+        {
+            "Batch": "079_F10",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                38,
+                52,
+                68,
+                79,
+                87,
+                92,
+                95
+            ]
+        },
+        {
+            "Batch": "079_F11",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                32,
+                46,
+                62,
+                74,
+                83,
+                89,
+                93
+            ]
+        },
+        {
+            "Batch": "079_F12",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                26,
+                40,
+                55,
+                67,
+                77,
+                84,
+                89
+            ]
+        },
+        {
+            "Batch": "Reference",
+            "Time_h": [
+                0,
+                1,
+                2,
+                4,
+                6,
+                8,
+                10,
+                12
+            ],
+            "Percent_released": [
+                0,
+                27,
+                41,
+                57,
+                69,
+                78,
+                85,
+                90
+            ]
+        }
+    ]
+}

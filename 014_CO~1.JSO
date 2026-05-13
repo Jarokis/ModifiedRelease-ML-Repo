@@ -1,0 +1,287 @@
+{
+  "source": "attached_file:1",
+  "article_sections": {
+    "abstract": "Summary of aims, design, buoyancy, dissolution, and in vivo findings.",
+    "introduction": "Rationale for MT-1207 GRDDS and polymer choices.",
+    "materials_and_methods": [
+      "Materials",
+      "HPLC-UV analytical method",
+      "Blend flowability (bulk/tapped density, Carr index, Hausner ratio)",
+      "Tablet preparation and compression setup",
+      "Factorial design for gastro layer",
+      "In vitro buoyancy",
+      "Tablet specification, wet strength, density/porosity",
+      "SEM, viscosity",
+      "Dissolution and release kinetics",
+      "In vivo Beagle PK and bioanalytical method",
+      "Data analysis"
+    ],
+    "results_and_discussion": "Flowability, factorial outcomes, optimization, mechanical properties, buoyancy vs pH, in vitro release, kinetics, PK.",
+    "conclusion": "Viable once-daily gastroretentive bilayer tablets with immediate and prolonged buoyancy."
+  },
+  "materials_origin": [
+    {"material": "MT-1207 HCl reference standard and 5:1 micronized MT-1207:colloidal silicon dioxide", "supplier": "Shenyang Haiwang Biotechnology Co., Ltd.", "location": "Shenyang, China"},
+    {"material": "Polyethylene oxide 8,000,000 (PEO 8M), Kollidon SR, spray-dried lactose, PVP K30, HPMC K15M, HPMC K100M, colloidal silicon dioxide, magnesium stearate, sodium phosphate monobasic dihydrate, sodium acetate anhydrous", "supplier": "Sigma-Aldrich", "location": "Gillingham, UK"},
+    {"material": "Alpha-D-lactose monohydrate, ethylcellulose 10 cps, iron(III) oxide, HCl 37%, acetic acid, NaOH pellets, orthophosphoric acid, methanol (HPLC), propan-2-ol (HPLC)", "supplier": "Fisher Scientific", "location": "Loughborough, UK"}
+  ],
+  "experimental_design_for_optimization": {
+    "design": "Face-centered central composite design for gastroretentive layer (27 runs).",
+    "factors": [
+      {"name": "X1: PEO 8M amount", "levels_mg": [160, 320, 480]},
+      {"name": "X2: % spray-dried lactose (SDL)", "levels_percent": [0, 3.5, 7]},
+      {"name": "X3: compression force", "levels_kN": [5, 7.5, 10]}
+    ],
+    "responses": [
+      "Floating lag time (FLT, seconds)",
+      "Total floating time (TFT, minutes)"
+    ],
+    "modeling": {
+      "polynomial_equation_form": "Y = b0 + b1*X1 + b2*X2 + b3*X3 + b12*X1*X2 + b13*X1*X3 + b23*X2*X3 + b11*X1^2 + b22*X2^2 + b33*X3^2",
+      "FLT_model_equation": "Provided as Eq. 7 with quadratic terms; R^2 = 0.829; adjusted R^2 = 0.738",
+      "TFT_model_equation": "Provided as Eq. 8 (and reduced Eq. 9 without non-significant linear X3); R^2 ≈ 0.923; adjusted R^2 ≈ 0.883–0.887",
+      "software": "SigmaPlot 13"
+    },
+    "key_effects_summary": [
+      "FLT increased with compression force; interaction PEO×force negative at 7.5 kN; choose ~7–7.5 kN to balance FLT, hardness, wet strength.",
+      "TFT increased with PEO (linear and quadratic), non-linear effect of compression force; interaction PEO×force negative at higher PEO.",
+      "Kollidon SR level (fixed at ~34% w/w in gastro layer) boosted wet strength more than buoyancy."
+    ]
+  },
+  "ingredients_identification": {
+    "analytical_method_HPLC_UV": {
+      "system": "Dionex Ultimate 3000",
+      "column": "ACE Generix 3 C18, 150×4.6 mm, 3 µm",
+      "mobile_phase": "0.1 M sodium acetate buffer pH 4.0 : methanol = 40:60 v/v",
+      "flow_rate_mL_min": 0.7,
+      "detection_wavelength_nm": 230,
+      "injection_volume_uL": 20,
+      "retention_time_min": "≈5",
+      "calibration_range_ug_mL": "1–100",
+      "LOD_ug_mL": 0.1,
+      "LOQ_ug_mL": 0.3,
+      "validation": "ICH/FDA for linearity, LOD/LOQ; specificity, accuracy, precision aligned with dissolution validation"
+    },
+    "equations_used": [
+      "General polynomial (Eq. 1) linking Y to X1, X2, X3 and interactions/quadratics for factorial design.",
+      "First-order release: Log(Q1) = Log(Q0) − k1 t / 2.303 (Eq. 2).",
+      "Zero-order release: C = k0 t (Eq. 3).",
+      "Higuchi: Q = kH t^(1/2) (Eq. 4).",
+      "Hixson–Crowell: (Q0)^(1/3) − (Qt)^(1/3) = kHC t (Eq. 5).",
+      "Korsmeyer–Peppas: Mt/M1 = k t^n (Eq. 6)."
+    ],
+    "absorbance_context": "Quantification at 230 nm via HPLC-UV"
+  },
+  "formulation_details": {
+    "drug_layer_batches_ethylcellulose_containing_mg": {
+      "FHE7035": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 45, "PVP K30": 0, "HPMC K15M": 70, "Ethylcellulose 10 cps": 35, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5},
+      "FHE7030": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 45, "PVP K30": 5, "HPMC K15M": 70, "Ethylcellulose 10 cps": 30, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5},
+      "FHE6030": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 55, "PVP K30": 5, "HPMC K15M": 60, "Ethylcellulose 10 cps": 30, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5},
+      "FHE6020": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 60, "PVP K30": 10, "HPMC K15M": 60, "Ethylcellulose 10 cps": 20, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5},
+      "FHE5020": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 70, "PVP K30": 10, "HPMC K15M": 50, "Ethylcellulose 10 cps": 20, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5},
+      "FHE6015": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 65, "PVP K30": 10, "HPMC K15M": 60, "Ethylcellulose 10 cps": 15, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5},
+      "FHE6010": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 70, "PVP K30": 10, "HPMC K15M": 60, "Ethylcellulose 10 cps": 10, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5},
+      "FHE6005": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 65, "PVP K30": 20, "HPMC K15M": 60, "Ethylcellulose 10 cps": 5, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5},
+      "FHE6003": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 67, "PVP K30": 20, "HPMC K15M": 60, "Ethylcellulose 10 cps": 3, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5},
+      "FHE6001": {"MT-1207 HCl": 30, "Alpha-D-lactose monohydrate": 69, "PVP K30": 20, "HPMC K15M": 60, "Ethylcellulose 10 cps": 1, "Iron(III) oxide": 1, "Colloidal silicon dioxide": 6, "Magnesium stearate": 0.5, "total_layer_weight": 187.5}
+    },
+    "gastroretentive_layer_factorial_runs": [
+      {"run": 1, "PEO_mg": 480, "SDL_percent": 7, "force_kN": 7.5, "Kollidon_SR_mg": 290, "HPMC_K100M_mg": 20.5, "drug_layer_mg": 187.5, "gastro_layer_mg": 850.5, "total_tablet_mg": 1038.0},
+      {"run": 2, "PEO_mg": 480, "SDL_percent": 0, "force_kN": 7.5, "Kollidon_SR_mg": 256, "HPMC_K100M_mg": 18.2, "drug_layer_mg": 187.5, "gastro_layer_mg": 757.8, "total_tablet_mg": 945.3},
+      {"run": 3, "PEO_mg": 480, "SDL_percent": 7, "force_kN": 5, "Kollidon_SR_mg": 290, "HPMC_K100M_mg": 20.5, "drug_layer_mg": 187.5, "gastro_layer_mg": 850.5, "total_tablet_mg": 1038.0},
+      {"run": 4, "PEO_mg": 480, "SDL_percent": 0, "force_kN": 5, "Kollidon_SR_mg": 256, "HPMC_K100M_mg": 18.2, "drug_layer_mg": 187.5, "gastro_layer_mg": 757.8, "total_tablet_mg": 945.3},
+      {"run": 5, "PEO_mg": 480, "SDL_percent": 7, "force_kN": 10, "Kollidon_SR_mg": 290, "HPMC_K100M_mg": 20.5, "drug_layer_mg": 187.5, "gastro_layer_mg": 850.5, "total_tablet_mg": 1038.0},
+      {"run": 6, "PEO_mg": 480, "SDL_percent": 0, "force_kN": 10, "Kollidon_SR_mg": 256, "HPMC_K100M_mg": 18.2, "drug_layer_mg": 187.5, "gastro_layer_mg": 757.8, "total_tablet_mg": 945.3},
+      {"run": 7, "PEO_mg": 320, "SDL_percent": 7, "force_kN": 7.5, "Kollidon_SR_mg": 193.8, "HPMC_K100M_mg": 13.7, "drug_layer_mg": 187.5, "gastro_layer_mg": 570.0, "total_tablet_mg": 757.5},
+      {"run": 8, "PEO_mg": 320, "SDL_percent": 0, "force_kN": 7.5, "Kollidon_SR_mg": 173.4, "HPMC_K100M_mg": 12.2, "drug_layer_mg": 187.5, "gastro_layer_mg": 507.8, "total_tablet_mg": 695.3},
+      {"run": 9, "PEO_mg": 320, "SDL_percent": 7, "force_kN": 5, "Kollidon_SR_mg": 193.8, "HPMC_K100M_mg": 13.7, "drug_layer_mg": 187.5, "gastro_layer_mg": 570.0, "total_tablet_mg": 757.5},
+      {"run": 10, "PEO_mg": 320, "SDL_percent": 0, "force_kN": 5, "Kollidon_SR_mg": 173.4, "HPMC_K100M_mg": 12.2, "drug_layer_mg": 187.5, "gastro_layer_mg": 507.8, "total_tablet_mg": 695.3},
+      {"run": 11, "PEO_mg": 320, "SDL_percent": 7, "force_kN": 10, "Kollidon_SR_mg": 193.8, "HPMC_K100M_mg": 13.7, "drug_layer_mg": 187.5, "gastro_layer_mg": 570.0, "total_tablet_mg": 757.5},
+      {"run": 12, "PEO_mg": 320, "SDL_percent": 0, "force_kN": 10, "Kollidon_SR_mg": 173.4, "HPMC_K100M_mg": 12.2, "drug_layer_mg": 187.5, "gastro_layer_mg": 507.8, "total_tablet_mg": 695.3},
+      {"run": 13, "PEO_mg": 160, "SDL_percent": 7, "force_kN": 7.5, "Kollidon_SR_mg": 95.2, "HPMC_K100M_mg": 6.7, "drug_layer_mg": 187.5, "gastro_layer_mg": 282.7, "total_tablet_mg": 470.2},
+      {"run": 14, "PEO_mg": 160, "SDL_percent": 0, "force_kN": 7.5, "Kollidon_SR_mg": 85.7, "HPMC_K100M_mg": 6.0, "drug_layer_mg": 187.5, "gastro_layer_mg": 252.9, "total_tablet_mg": 440.4},
+      {"run": 15, "PEO_mg": 160, "SDL_percent": 7, "force_kN": 5, "Kollidon_SR_mg": 95.2, "HPMC_K100M_mg": 6.7, "drug_layer_mg": 187.5, "gastro_layer_mg": 282.7, "total_tablet_mg": 470.2},
+      {"run": 16, "PEO_mg": 160, "SDL_percent": 0, "force_kN": 5, "Kollidon_SR_mg": 85.7, "HPMC_K100M_mg": 6.0, "drug_layer_mg": 187.5, "gastro_layer_mg": 252.9, "total_tablet_mg": 440.4},
+      {"run": 17, "PEO_mg": 160, "SDL_percent": 7, "force_kN": 10, "Kollidon_SR_mg": 95.2, "HPMC_K100M_mg": 6.7, "drug_layer_mg": 187.5, "gastro_layer_mg": 282.7, "total_tablet_mg": 470.2},
+      {"run": 18, "PEO_mg": 160, "SDL_percent": 0, "force_kN": 10, "Kollidon_SR_mg": 85.7, "HPMC_K100M_mg": 6.0, "drug_layer_mg": 187.5, "gastro_layer_mg": 252.9, "total_tablet_mg": 440.4},
+      {"run": 19, "PEO_mg": 480, "SDL_percent": 3.5, "force_kN": 7.5, "Kollidon_SR_mg": 272.0, "HPMC_K100M_mg": 19.2, "drug_layer_mg": 187.5, "gastro_layer_mg": 802.8, "total_tablet_mg": 990.3},
+      {"run": 20, "PEO_mg": 320, "SDL_percent": 3.5, "force_kN": 7.5, "Kollidon_SR_mg": 181.3, "HPMC_K100M_mg": 12.8, "drug_layer_mg": 187.5, "gastro_layer_mg": 535.2, "total_tablet_mg": 722.7},
+      {"run": 21, "PEO_mg": 160, "SDL_percent": 3.5, "force_kN": 5, "Kollidon_SR_mg": 90.7, "HPMC_K100M_mg": 6.4, "drug_layer_mg": 187.5, "gastro_layer_mg": 267.7, "total_tablet_mg": 455.2},
+      {"run": 22, "PEO_mg": 480, "SDL_percent": 3.5, "force_kN": 5, "Kollidon_SR_mg": 272.0, "HPMC_K100M_mg": 19.2, "drug_layer_mg": 187.5, "gastro_layer_mg": 802.8, "total_tablet_mg": 990.3},
+      {"run": 23, "PEO_mg": 320, "SDL_percent": 3.5, "force_kN": 5, "Kollidon_SR_mg": 181.3, "HPMC_K100M_mg": 12.8, "drug_layer_mg": 187.5, "gastro_layer_mg": 535.2, "total_tablet_mg": 722.7},
+      {"run": 24, "PEO_mg": 480, "SDL_percent": 3.5, "force_kN": 10, "Kollidon_SR_mg": 272.0, "HPMC_K100M_mg": 19.2, "drug_layer_mg": 187.5, "gastro_layer_mg": 802.8, "total_tablet_mg": 990.3},
+      {"run": 25, "PEO_mg": 320, "SDL_percent": 3.5, "force_kN": 10, "Kollidon_SR_mg": 181.3, "HPMC_K100M_mg": 12.8, "drug_layer_mg": 187.5, "gastro_layer_mg": 535.2, "total_tablet_mg": 722.7},
+      {"run": 26, "PEO_mg": 160, "SDL_percent": 3.5, "force_kN": 7.5, "Kollidon_SR_mg": 90.7, "HPMC_K100M_mg": 6.4, "drug_layer_mg": 187.5, "gastro_layer_mg": 267.7, "total_tablet_mg": 455.2},
+      {"run": 27, "PEO_mg": 160, "SDL_percent": 3.5, "force_kN": 10, "Kollidon_SR_mg": 90.7, "HPMC_K100M_mg": 6.4, "drug_layer_mg": 187.5, "gastro_layer_mg": 267.7, "total_tablet_mg": 455.2}
+    ],
+    "optimised_layout": {
+      "gastroretentive_layer": {"PEO_8M_mg": 380, "SDL_mg": 47, "Kollidon_SR_mg": 228, "HPMC_K100M_mg": 16.2, "Colloidal_silicon_dioxide_mg": 1.5, "Magnesium_stearate_mg": 1.5, "total_layer_weight_mg": 674.2, "selected_force_kN": 7.0},
+      "drug_layer_FHE6005": {"MT-1207_HCl_mg": 30, "Alpha-D-lactose_mg": 65, "PVP_K30_mg": 20, "HPMC_K15M_mg": 60, "Ethylcellulose_10cps_mg": 5, "Iron_oxide_mg": 1, "Colloidal_silicon_dioxide_mg": 6, "Magnesium_stearate_mg": 0.5, "total_layer_weight_mg": 187.5, "total_tablet_weight_mg": 861.7},
+      "drug_layer_A1": {"MT-1207_HCl_mg": 30, "Alpha-D-lactose_mg": 99, "PVP_K30_mg": 20, "HPMC_K15M_mg": 70, "Ethylcellulose_10cps_mg": 0, "Iron_oxide_mg": 1, "Colloidal_silicon_dioxide_mg": 6, "Magnesium_stearate_mg": 0.5, "total_layer_weight_mg": 226.5, "total_tablet_weight_mg": 900.7}
+    }
+  },
+  "pre_compression_parameters": {
+    "blend_flowability": "Carr index and Hausner ratio indicated passable to good flowability for both gastro and drug-layer blends (see Supplementary Tables S1–S2).",
+    "per_batch_values": "Not numerically reported in main text; refer to Supplementary data.",
+    "mass_distribution_weight_variation": "All bilayer batches had acceptable mean weight and USP <905> acceptance value < 15 (see Supplementary Table S5).",
+    "hardness_friability": "Friability < 1.0% for all bilayer tablets; hardness/tensile strength sufficient for mechanical integrity (see Supplementary Table S4).",
+    "dimensions": "Optimised and A1 swollen dimensions after buoyancy: long axis ≈ 25.8–26.1 mm, short axis ≈ 13.5–13.7 mm, thickness ≈ 12.9–13.2 mm (n=3)."
+  },
+  "independent_variables_and_levels": {
+    "X1_PEO_mg": [160, 320, 480],
+    "X2_SDL_percent": [0, 3.5, 7],
+    "X3_compression_force_kN": [5, 7.5, 10],
+    "responses": ["FLT (s)", "TFT (min)"]
+  },
+  "ftir": {
+    "reported": false,
+    "details": null
+  },
+  "tablet_fabrication_and_testing": {
+    "fabrication": {
+      "gastro_layer": "Direct blending: PEO, Kollidon SR, SDL, HPMC K100M, colloidal silica mixed 15 min; add Mg stearate and mix 5 min.",
+      "drug_layer": "Wet granulation per prior A1 procedure; composition varies by batch.",
+      "compression": "Piccola rotary press (Riva), two-step: pre-compress gastro layer, add drug layer and compress; forces: 5, 7, 7.5, or 10 kN; tooling: 13 mm flat round and 17×9 mm concave oblong, depending on tablet weight."
+    },
+    "quality_tests": {
+      "hardness": "USP <1217> on C50 tester; tensile strength calculated.",
+      "friability": "USP <1216>, < 1% for all bilayer tablets.",
+      "weight_variation": "USP <905>, acceptance value < 15 for all.",
+      "density_porosity": "Helium pycnometry and mercury intrusion porosimetry used on optimized tablets."
+    },
+    "drug_content_assay": "Quantified via validated HPLC-UV method in dissolution samples; tablet drug content not separately reported.",
+    "consolidation_index": "Not reported; compressibility summarized by Carr index/Hausner ratio in Supplementary."
+  },
+  "process_parameters": {
+    "compression_process": {
+      "equipment": "Piccola rotary tablet press (Riva)",
+      "forces_kN": [5, 7, 7.5, 10],
+      "pre_compression": "Applied to gastro layer before adding drug layer",
+      "tooling": ["13 mm flat-faced round", "17×9 mm concave oblong"],
+      "notes": "Lower force favored FLT but higher force improved hardness and wet strength; ~7–7.5 kN selected."
+    },
+    "testing_equipment_conditions": [
+      {"test": "HPLC-UV", "conditions": "230 nm, 0.7 mL/min, 40:60 acetate pH 4.0:methanol"},
+      {"test": "Dissolution", "apparatus": "USP II, 75 rpm (also 200 rpm), 500 mL 0.1 M acetate pH 4.0, 37±0.5 °C"},
+      {"test": "Buoyancy", "media": "FaSSGF pH 1.6 for screening; HCl pH 1.0, pH 3.0, pH 6.0 for pH effect, 75 rpm, 37±0.5 °C"},
+      {"test": "Hardness", "device": "C50 tester, USP <1217>"},
+      {"test": "Friability", "device": "Erweka friabilator, USP <1216>"},
+      {"test": "Density", "pycnometry": "AccuPyc II 1340; chamber temperature 21.95 °C"},
+      {"test": "Porosity", "mercury_intrusion": "Autopore IV 9500; 0–70 psi"},
+      {"test": "SEM", "instrument": "Philips XL30; 10 kV; samples dried at 40 °C, gold-sputtered"},
+      {"test": "Viscosity", "instrument": "Anton Paar MCR 302; 2 s^-1; 37 °C"}
+    ]
+  },
+  "release_properties": {
+    "dissolution_method": {
+      "apparatus": "USP II, 75 rpm; 500 mL 0.1 M acetate buffer pH 4.0; 37±0.5 °C; sampling at 1, 2, 4, 6, 8, 12, 16, 24 h; centrifuge then HPLC-UV",
+      "sinkers": "Stainless-steel sinkers used to negate buoyancy effect",
+      "high_shear_assessment": "200 rpm study for FHE6005 and A1; profiles similar to 75 rpm (f2 > 50)"
+    },
+    "per_batch_summary_drug_layer": [
+      {"batch": "FHE7035", "note": "In vitro release similar to bilayer A1 (f1=13, f2=59)"},
+      {"batch": "FHE7030", "note": "No distinct numerical profile reported in main text"},
+      {"batch": "FHE6030", "note": "No distinct numerical profile reported in main text"},
+      {"batch": "FHE6020", "note": "No distinct numerical profile reported in main text"},
+      {"batch": "FHE5020", "note": "No distinct numerical profile reported in main text"},
+      {"batch": "FHE6015", "note": "Only one of two batches (with FHE6005) achieving ≥80% mean release by 24 h"},
+      {"batch": "FHE6010", "note": "No distinct numerical profile reported in main text"},
+      {"batch": "FHE6005", "note": "All three tablets ≥80% released by 24 h; selected as optimized ethylcellulose-containing drug layer"},
+      {"batch": "FHE6003", "note": "No distinct numerical profile reported in main text"},
+      {"batch": "FHE6001", "note": "No distinct numerical profile reported in main text"}
+    ],
+    "optimized_batch_kinetics": {
+      "FHE6005": {
+        "best_fit": ["first-order (R^2=0.9989)", "Higuchi (R^2=0.9963)"],
+        "zero_order_R2": 0.9729,
+        "hixson_crowell_R2": 0.9593,
+        "korsmeyer_peppas": {"n": 0.66, "R2": 0.9992, "mechanism": "anomalous (non-Fickian) diffusion; diffusion + matrix erosion"}
+      },
+      "A1_bilayer": {
+        "best_fit": ["first-order (R^2=0.9997)", "Higuchi (R^2=0.9971)"],
+        "zero_order_R2": 0.9825,
+        "hixson_crowell_R2": 0.9569,
+        "korsmeyer_peppas": {"n": 0.72, "R2": 0.9999, "mechanism": "more erosion contribution than FHE6005"}
+      }
+    },
+    "profile_comparisons": [
+      "Single-layer A1 vs bilayer A1: f1=40, f2=36; bilayer slows release vs single-layer.",
+      "Bilayer A1 vs bilayer FHE7035: f1=13, f2=59; similar profiles.",
+      "FHE6005 A1 at 200 rpm vs 75 rpm: f2 = 89 and 76 respectively (similar)."
+    ],
+    "factors_influencing_release": [
+      "Ethylcellulose level had minor effect in vitro; gastro layer presence dominated by reducing exposed surface area of drug layer.",
+      "At pH 1.0, 3.0, 6.0 buoyancy duration varied, potentially via acid-induced PEO degradation affecting floatation and tablet integrity; release testing itself used pH 4.0 acetate."
+    ]
+  },
+  "tablet_properties": {
+    "buoyancy_factorial_FLT_TFT": [
+      {"run": 1, "FLT_s_mean_SD": "0.9 ± 0.0", "TFT_min_mean_SD": "1783.7 ± 45.0"},
+      {"run": 2, "FLT_s_mean_SD": "1.1 ± 0.2", "TFT_min_mean_SD": "1286.3 ± 41.7"},
+      {"run": 3, "FLT_s_mean_SD": "0.0 ± 0.0", "TFT_min_mean_SD": "2050.0 ± 7.5"},
+      {"run": 4, "FLT_s_mean_SD": "0.0 ± 0.0", "TFT_min_mean_SD": "1617.3 ± 84.2"},
+      {"run": 5, "FLT_s_mean_SD": "9096.4 ± 67.6", "TFT_min_mean_SD": "603.0 ± 1.4"},
+      {"run": 6, "FLT_s_mean_SD": "9069.5 ± 50.3", "TFT_min_mean_SD": "594.3 ± 41.5"},
+      {"run": 7, "FLT_s_mean_SD": "12.8 ± 2.0", "TFT_min_mean_SD": "1508.3 ± 100.4"},
+      {"run": 8, "FLT_s_mean_SD": "1.9 ± 0.2", "TFT_min_mean_SD": "1300.0 ± 11.5"},
+      {"run": 9, "FLT_s_mean_SD": "0.7 ± 0.0", "TFT_min_mean_SD": "1719.7 ± 6.4"},
+      {"run": 10, "FLT_s_mean_SD": "0.1 ± 0.1", "TFT_min_mean_SD": "1379.0 ± 27.5"},
+      {"run": 11, "FLT_s_mean_SD": "3682.5 ± 90.7", "TFT_min_mean_SD": "867.0 ± 34.4"},
+      {"run": 12, "FLT_s_mean_SD": "12579.4 ± 207.8", "TFT_min_mean_SD": "686.7 ± 49.4"},
+      {"run": 13, "FLT_s_mean_SD": "216.7 ± 206.7", "TFT_min_mean_SD": "850.0 ± 130.1"},
+      {"run": 14, "FLT_s_mean_SD": "267.6 ± 34.0", "TFT_min_mean_SD": "588.3 ± 29.9"},
+      {"run": 15, "FLT_s_mean_SD": "0.0 ± 0.0", "TFT_min_mean_SD": "1120.3 ± 113.9"},
+      {"run": 16, "FLT_s_mean_SD": "231.5 ± 1.7", "TFT_min_mean_SD": "922.7 ± 165.4"},
+      {"run": 17, "FLT_s_mean_SD": "11950.9 ± 740.4", "TFT_min_mean_SD": "684.0 ± 177.4"},
+      {"run": 18, "FLT_s_mean_SD": "22981.0 ± 10356.2", "TFT_min_mean_SD": "556.0 ± 110.9"},
+      {"run": 19, "FLT_s_mean_SD": "1.8 ± 0.3", "TFT_min_mean_SD": "1479.5 ± 62.9"},
+      {"run": 20, "FLT_s_mean_SD": "254.0 ± 64.1", "TFT_min_mean_SD": "1341.3 ± 187.9"},
+      {"run": 21, "FLT_s_mean_SD": "0.0 ± 0.0", "TFT_min_mean_SD": "1207.0 ± 8.5"},
+      {"run": 22, "FLT_s_mean_SD": "0.0 ± 0.0", "TFT_min_mean_SD": "1624.7 ± 28.6"},
+      {"run": 23, "FLT_s_mean_SD": "0.0 ± 0.0", "TFT_min_mean_SD": "1613.0 ± 188.4"},
+      {"run": 24, "FLT_s_mean_SD": "1585.8 ± 183.2", "TFT_min_mean_SD": "848.7 ± 55.4"},
+      {"run": 25, "FLT_s_mean_SD": "1717.8 ± 190.4", "TFT_min_mean_SD": "988.0 ± 19.0"},
+      {"run": 26, "FLT_s_mean_SD": "244.5 ± 3.3", "TFT_min_mean_SD": "892.0 ± 215.2"},
+      {"run": 27, "FLT_s_mean_SD": "10676.0 ± 408.2", "TFT_min_mean_SD": "653.3 ± 37.1"},
+      {"optimized": true, "FLT_s_mean_SD": "1.5 ± 0.8", "TFT_min_mean_SD": "1498.0 ± 75.4"}
+    ],
+    "buoyancy_pH_effect_optimized_FHE6005": [
+      {"medium": "HCl pH 1.0", "FLT_s_mean_SD": "1.00 ± 0.88", "TFT_min_mean_SD": "1335.7 ± 149.3"},
+      {"medium": "phosphate buffer pH 3.0", "FLT_s_mean_SD": "1.70 ± 0.44", "TFT_min_mean_SD": "1854.0 ± 152.0"},
+      {"medium": "phosphate buffer pH 6.0", "FLT_s_mean_SD": "1.72 ± 0.15", "TFT_min_mean_SD": "2232.3 ± 88.2"}
+    ],
+    "mechanical_properties_summary": [
+      "Hardness/tensile strength sufficient for integrity across batches; no clear trend with ethylcellulose level (values in Supplementary).",
+      "Friability < 1.0% for all bilayer tablets.",
+      "Weight variation within USP limits; acceptance value < 15 for all."
+    ],
+    "dimensions_swollen": {
+      "FHE6005": {"long_axis_mm": "25.8 ± 0.8", "short_axis_mm": "13.7 ± 0.6", "thickness_mm": "13.2 ± 1.1"},
+      "A1_bilayer": {"long_axis_mm": "26.1 ± 0.7", "short_axis_mm": "13.5 ± 0.5", "thickness_mm": "12.9 ± 0.5"}
+    },
+    "density_porosity_optimized": {
+      "tablet_volume_cm3": "2.0119 ± 0.0033",
+      "total_mercury_intrusion_mL_g": "0.2381 ± 0.0050",
+      "volume_pore_diameter_um": "1.40 ± 0.14",
+      "porosity_percent": "23.7 ± 0.5",
+      "skeletal_density_g_cm3_he": "1.2875 ± 0.0015",
+      "skeletal_density_g_cm3_mercury": "1.3051 ± 0.0497",
+      "bulk_density_g_cm3": "0.9957 ± 0.0326",
+      "interpretation": "Bulk density < 1.004 g/cm3 consistent with near-immediate floatation."
+    }
+  },
+  "experimental_data_additional": {
+    "SEM_summary": "Dry gastro layer: porous surface with irregular PEO and spherical Kollidon SR particles; at 12 h fibers indicative of swollen/dried PEO; fibers decrease at 22 h in pH 1.0; persistent to 31–43.5 h in pH 6.0.",
+    "viscosity_summary": "No inter-media differences up to 12 h; significant divergence by 22 h consistent with PEO degradation at low pH; stable between 31 and 43.5 h at pH 6.0.",
+    "in_vivo_PKuctions": {
+      "design": "4 male Beagle dogs (10 ± 2 kg), fed state; dosing: 30 mg bilayer FHE6005 o.d., 30 mg bilayer A1 o.d., and three 10 mg IR tablets; serial sampling up to 32 h; 1-week washout; UPLC-MS/MS quantitation.",
+      "outcome_summary": "24 h sustained plasma levels above ~1 ng/mL threshold; both bilayer formulations demonstrated 24 h release in vivo; Beagle half-life shorter than human, supporting feasibility for once-daily in humans."
+    }
+  },
+  "notes_missing_or_not_applicable": [
+    "FTIR measurements: not reported.",
+    "Disintegration time and swelling index (%): not reported.",
+    "Per-batch hardness, friability, and weight variation values: referenced to Supplementary Tables S4–S5, not numerically listed in main text.",
+    "Pre-compression Carr index/Hausner ratio per blend: referenced to Supplementary Tables S1–S2, not numerically listed in main text.",
+    "Percent of pellets: not applicable to this tablet system."
+  ]
+}

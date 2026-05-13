@@ -1,0 +1,299 @@
+{
+  "article_info": {
+    "title": "Formulation and In vitro Evaluation of Sustained Release Dosage Form with Taste Masking of Metformin Hydrochloride",
+    "authors": "P.K. Bhoyar and D.M. Biyani",
+    "affiliation": "S.K.B. College of Pharmacy, New Kamptee, Nagpur-441 002, India",
+    "journal": "IJPhS (unverified), Volume 72, Issue 1, pages 184-? (from file name)"
+  },
+  "materials_origin": {
+    "metformin_hydrochloride": "Gift sample from Zim Pharmaceuticals Pvt. Ltd (Kalmeshwar), Nagpur, India",
+    "ion_exchange_resins": "Indion 244 and Indion 264, gift samples from Ion-Exchange India Ltd., Mumbai, India",
+    "other_excipients": "Hydroxypropylmethylcellulose (HPMC K100M), microcrystalline cellulose (MCC PH 102), magnesium stearate, talc – sources not specified"
+  },
+  "experimental_design_optimization": {
+    "parameters_optimized": [
+      "mixing time",
+      "activation (acid/alkali)",
+      "pH",
+      "mode of mixing",
+      "drug:resin ratio",
+      "temperature"
+    ],
+    "optimized_conditions": {
+      "mixing_time": "5 h",
+      "activation": "1N HCl",
+      "pH": "3.5",
+      "mode_of_mixing": "magnetic stirrer",
+      "drug_resin_ratio": "1:1",
+      "temperature": "60°C"
+    },
+    "drug_loading_results": {
+      "indion_244": "35.57 ± 0.64 mg per 100 mg resinate (optimum)",
+      "indion_264": "29.75 ± 0.35 mg per 100 mg resinate (optimum)"
+    }
+  },
+  "ingredients_identification": {
+    "preparation_method": "Batch process: drug (0.1 g) dissolved in 100 ml distilled water, resin (0.1 g) added, stirred 5 h, filtered, washed, dried at 50°C.",
+    "drug_content_determination": {
+      "method": "Spectrophotometric",
+      "wavelength": "233.5 nm",
+      "blank": "0.1N HCl",
+      "sample_preparation": "Resinate equivalent to 0.1 g drug dissolved in 100 ml 0.1N HCl, stirred 5 h, filtered, diluted, measured."
+    },
+    "absorbance": "Measured at 233.5 nm; no specific equation provided.",
+    "resinate_properties": "Table 2: Micromeritic properties of resinates (Indion 244 and 264) – shape irregular, angle of repose 32.65° and 33°, bulk density 0.7142 and 0.6944 g/cm³, tap density 0.7575 and 0.7352 g/cm³, Carr’s index 5.716 and 5.5549, Hausner ratio 1.06 and 1.058."
+  },
+  "formulation_details": [
+    {
+      "batch": "B-1",
+      "resin_type": "Indion 244",
+      "total_weight_mg": 650,
+      "ingredients": [
+        {"name": "Indion 244 Resinate", "mass_mg": 494, "drug_contained_mg": 300, "percent": 76.0},
+        {"name": "MCC (PH 102)", "mass_mg": 84, "percent": 12.9},
+        {"name": "HPMC K100M", "mass_mg": 48, "percent": 7.4},
+        {"name": "Mg. Stearate", "mass_mg": 12, "percent": 1.85},
+        {"name": "Talc", "mass_mg": 12, "percent": 1.85}
+      ]
+    },
+    {
+      "batch": "B-2",
+      "resin_type": "Indion 244",
+      "total_weight_mg": 650,
+      "ingredients": [
+        {"name": "Indion 244 Resinate", "mass_mg": 494, "drug_contained_mg": 300, "percent": 76.0},
+        {"name": "MCC (PH 102)", "mass_mg": 72, "percent": 11.1},
+        {"name": "HPMC K100M", "mass_mg": 60, "percent": 9.2},
+        {"name": "Mg. Stearate", "mass_mg": 12, "percent": 1.85},
+        {"name": "Talc", "mass_mg": 12, "percent": 1.85}
+      ]
+    },
+    {
+      "batch": "B-3",
+      "resin_type": "Indion 244",
+      "total_weight_mg": 650,
+      "ingredients": [
+        {"name": "Indion 244 Resinate", "mass_mg": 494, "drug_contained_mg": 300, "percent": 76.0},
+        {"name": "MCC (PH 102)", "mass_mg": 60, "percent": 9.2},
+        {"name": "HPMC K100M", "mass_mg": 72, "percent": 11.1},
+        {"name": "Mg. Stearate", "mass_mg": 12, "percent": 1.85},
+        {"name": "Talc", "mass_mg": 12, "percent": 1.85}
+      ]
+    },
+    {
+      "batch": "B-4",
+      "resin_type": "Indion 264",
+      "total_weight_mg": 650,
+      "ingredients": [
+        {"name": "Indion 264 Resinate", "mass_mg": 542, "drug_contained_mg": 300, "percent": 83.4},
+        {"name": "MCC (PH 102)", "mass_mg": 36, "percent": 5.5},
+        {"name": "HPMC K100M", "mass_mg": 48, "percent": 7.4},
+        {"name": "Mg. Stearate", "mass_mg": 12, "percent": 1.85},
+        {"name": "Talc", "mass_mg": 12, "percent": 1.85}
+      ]
+    },
+    {
+      "batch": "B-5",
+      "resin_type": "Indion 264",
+      "total_weight_mg": 650,
+      "ingredients": [
+        {"name": "Indion 264 Resinate", "mass_mg": 542, "drug_contained_mg": 300, "percent": 83.4},
+        {"name": "MCC (PH 102)", "mass_mg": 24, "percent": 3.7},
+        {"name": "HPMC K100M", "mass_mg": 60, "percent": 9.2},
+        {"name": "Mg. Stearate", "mass_mg": 12, "percent": 1.85},
+        {"name": "Talc", "mass_mg": 12, "percent": 1.85}
+      ]
+    },
+    {
+      "batch": "B-6",
+      "resin_type": "Indion 264",
+      "total_weight_mg": 650,
+      "ingredients": [
+        {"name": "Indion 264 Resinate", "mass_mg": 542, "drug_contained_mg": 300, "percent": 83.4},
+        {"name": "MCC (PH 102)", "mass_mg": 12, "percent": 1.85},
+        {"name": "HPMC K100M", "mass_mg": 72, "percent": 11.1},
+        {"name": "Mg. Stearate", "mass_mg": 12, "percent": 1.85},
+        {"name": "Talc", "mass_mg": 12, "percent": 1.85}
+      ]
+    }
+  ],
+  "pre_compression_parameters": {
+    "note": "No batch-specific pre-compression data. Micromeritic properties of resinates (Table 2) are given for the two resinate types used.",
+    "indion_244_resinate": {
+      "shape": "Irregular",
+      "angle_of_repose": "32.65°",
+      "bulk_density_g_cm3": 0.7142,
+      "tap_density_g_cm3": 0.7575,
+      "carrs_index_percent": 5.716,
+      "hausner_ratio": 1.06
+    },
+    "indion_264_resinate": {
+      "shape": "Irregular",
+      "angle_of_repose": "33°",
+      "bulk_density_g_cm3": 0.6944,
+      "tap_density_g_cm3": 0.7352,
+      "carrs_index_percent": 5.5549,
+      "hausner_ratio": 1.058
+    }
+  },
+  "independent_variables_levels": {
+    "variables": [
+      {
+        "name": "Resin type",
+        "levels": ["Indion 244", "Indion 264"]
+      },
+      {
+        "name": "HPMC K100M amount (mg)",
+        "levels": [48, 60, 72],
+        "corresponding_percent_of_total": [7.38, 9.23, 11.08]
+      },
+      {
+        "name": "MCC PH102 amount (mg)",
+        "levels": [84, 72, 60] for Indion 244 series and [36, 24, 12] for Indion 264 series
+      }
+    ]
+  },
+  "ftir_spectral_measurements": {
+    "instrument": "Jasco Dispersive type FT-IR spectrophotometer",
+    "technique": "KBr disc",
+    "wavenumber_range": "4000–400 cm⁻¹",
+    "key_peaks": {
+      "metformin_hcl": "1028 cm⁻¹ (NH stretching, secondary amine)",
+      "indion_244": "1674 cm⁻¹ (C=O stretching of aryl acids)",
+      "indion_264": "1722 cm⁻¹ (C=O stretching of aryl acids) and aromatic C=C stretching",
+      "resinate": "Absence of peak at 1028 cm⁻¹ confirms complexation"
+    }
+  },
+  "tablet_fabrications": {
+    "method": "Wet granulation",
+    "steps": "Resinate, HPMC K100M, MCC blended geometrically; deionised water added to form wet mass; sieved through No.22; granules lubricated with Mg. stearate and talc; compressed into tablets.",
+    "compression_equipment": "Tablet machine (model not specified)",
+    "target_hardness": "4–5 kg/cm²"
+  },
+  "process_parameters": {
+    "granulation": "Wet granulation, water as binder, no temperature control specified",
+    "compression": "Tablet press (unspecified), pressure not reported, no coating applied",
+    "dissolution_testing": "USP Type II (paddle) apparatus, 100 rpm, 37±0.5°C, 900 ml simulated gastric fluid (pH 1.2) for 2 h then simulated intestinal fluid (pH 6.8) for remaining time"
+  },
+  "release_properties": [
+    {
+      "batch": "B-1",
+      "release_profile": {
+        "time_h": [1,2,3,4,5,6,7],
+        "cumulative_percent_release": [26.23,44.87,56.6,66.62,76.23,85.56,92.63],
+        "sd": [0.74,1.63,1.43,0.57,0.73,1.72,1.16]
+      },
+      "release_kinetics": "Not specified",
+      "mechanism": "Diffusion and ion exchange"
+    },
+    {
+      "batch": "B-2",
+      "release_profile": {
+        "time_h": [1,2,3,4,5,6,7],
+        "cumulative_percent_release": [25.87,39.30,54.2,65.90,75.87,85.68,91.98],
+        "sd": [0.73,0.78,0.52,0.95,0.59,0.59,1.48]
+      },
+      "release_kinetics": "Not specified",
+      "mechanism": "Diffusion and ion exchange"
+    },
+    {
+      "batch": "B-3",
+      "release_profile": {
+        "time_h": [1,2,3,4,5,6,7],
+        "cumulative_percent_release": [23.96,38.53,53.55,63.89,73.61,83.00,91.52],
+        "sd": [0.50,1.48,1.59,0.48,0.58,0.90,1.49]
+      },
+      "release_kinetics": "Not specified",
+      "mechanism": "Diffusion and ion exchange"
+    },
+    {
+      "batch": "B-4",
+      "release_profile": {
+        "time_h": [1,2,3,4,5,6,7,8],
+        "cumulative_percent_release": [24.55,42.95,54.82,64.99,74.63,81.12,86.12,91.96],
+        "sd": [0.59,2.48,0.48,1.39,0.49,0.49,0.37,1.40]
+      },
+      "release_kinetics": "Not specified",
+      "mechanism": "Slow erosion and ion exchange"
+    },
+    {
+      "batch": "B-5",
+      "release_profile": {
+        "time_h": [1,2,3,4,5,6,7,8,9],
+        "cumulative_percent_release": [23.32,40.88,53.52,63.88,73.73,80.92,84.91,89.74,93.86],
+        "sd": [2.48,1.48,0.48,0.49,0.95,0.83,1.49,2.54,1.48]
+      },
+      "release_kinetics": "Not specified",
+      "mechanism": "Slow erosion and ion exchange"
+    },
+    {
+      "batch": "B-6",
+      "release_profile": {
+        "time_h": [1,2,3,4,5,6,7,8,9,10],
+        "cumulative_percent_release": [22.73,39.56,53.3,63.79,71.97,79.16,83.18,85.96,89.75,92.37],
+        "sd": [0.47,0.48,0.48,1.49,1.49,0.49,0.49,0.58,1.46,1.47]
+      },
+      "release_kinetics": "First order (correlation coefficient 0.999)",
+      "mechanism": "Diffusion through polymeric material and ion exchange"
+    }
+  ],
+  "tablet_properties": [
+    {
+      "batch": "B-1",
+      "hardness_kg": "4.14 ± 0.46",
+      "thickness_mm": "7.66 ± 0.13",
+      "friability_percent": 0.66,
+      "drug_content_percent": 97.33,
+      "weight_variation_percent": "2.45 ± 0.4"
+    },
+    {
+      "batch": "B-2",
+      "hardness_kg": "4.25 ± 0.85",
+      "thickness_mm": "7.55 ± 0.63",
+      "friability_percent": 0.63,
+      "drug_content_percent": 98.0,
+      "weight_variation_percent": "1.85 ± 0.4"
+    },
+    {
+      "batch": "B-3",
+      "hardness_kg": "4.38 ± 1.32",
+      "thickness_mm": "7.40 ± 0.85",
+      "friability_percent": 0.58,
+      "drug_content_percent": 98.33,
+      "weight_variation_percent": "1.45 ± 0.3"
+    },
+    {
+      "batch": "B-4",
+      "hardness_kg": "4.21 ± 0.68",
+      "thickness_mm": "7.53 ± 0.93",
+      "friability_percent": 0.54,
+      "drug_content_percent": 98.1,
+      "weight_variation_percent": "2.08 ± 1.6"
+    },
+    {
+      "batch": "B-5",
+      "hardness_kg": "4.41 ± 0.32",
+      "thickness_mm": "7.26 ± 0.35",
+      "friability_percent": 0.49,
+      "drug_content_percent": 97.22,
+      "weight_variation_percent": "2.78 ± 0.5"
+    },
+    {
+      "batch": "B-6",
+      "hardness_kg": "4.53 ± 0.35",
+      "thickness_mm": "7.21 ± 0.46",
+      "friability_percent": 0.44,
+      "drug_content_percent": 99.0,
+      "weight_variation_percent": "1.23 ± 0.2"
+    }
+  ],
+  "experimental_data": {
+    "taste_masking_evaluation": {
+      "method": "Time intensity by 9-member panel",
+      "result": "Drug-resin complex (1:1) effectively masked bitterness; mean scores reduced from 4.0±0.00 to ≤0.3 after masking (p<0.0001)."
+    },
+    "in_vitro_release": "Cumulative percent drug release data (Table 5) obtained in simulated gastric fluid (pH 1.2, 2 h) and intestinal fluid (pH 6.8, 8–10 h).",
+    "release_kinetics": "Batch B-6 followed first order kinetics (r=0.999).",
+    "statistical_analysis": "Data presented as mean ± SD (n=3 for release; n=20 for content uniformity). Paired t-test used for taste evaluation (p<0.05 significant)."
+  }
+}

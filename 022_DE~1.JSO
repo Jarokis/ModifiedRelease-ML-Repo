@@ -1,0 +1,579 @@
+{
+    "article_info": {
+        "title": "Design and development of gastroretentive drug delivery system of ciprofloxacin hydrochloride",
+        "authors": "Vibin Bose R, Jeganath S, Ramya Sree K, Sherni Prithiba Jhansi Rani S",
+        "journal": "Asian Journal of Pharmaceutics and Clinical Research",
+        "year": 2018,
+        "volume": 11,
+        "special_issue": 4,
+        "pages": "1-6",
+        "doi": "http://dx.doi.org/10.22159/ajprc.2018.v11s4.31722"
+    },
+    "materials_origin": {
+        "ciprofloxacin_hcl": "Gift sample from Micro Labs, Hosur, India",
+        "hpmc_k4m": "Loba Chemicals, Mumbai, India",
+        "eudragit_100s": "Loba Chemicals, Mumbai, India",
+        "guar_gum": "Loba Chemicals, Mumbai, India",
+        "sodium_bicarbonate_(saleratus)": "S.D. Fine Chemicals, Mumbai, India",
+        "citric_acid": "S.D. Fine Chemicals, Mumbai, India",
+        "starch": "S.D. Fine Chemicals, Mumbai, India",
+        "magnesium_stearate": "S.D. Fine Chemicals, Mumbai, India"
+    },
+    "experimental_design": {
+        "preparation_method": "Wet granulation technique",
+        "gas_generating_agents": "Sodium bicarbonate and citric acid",
+        "binder": "Starch mucilage",
+        "independent_variables": {
+            "polymers": [
+                "HPMC K4M",
+                "Eudragit 100S",
+                "Guar gum"
+            ],
+            "levels": "Different combinations as per Table 1 (see batch compositions)"
+        },
+        "dependent_variables": [
+            "Buoyancy lag time",
+            "Total floating time",
+            "Drug release profile",
+            "Release kinetics"
+        ]
+    },
+    "process_parameters": {
+        "sieving": {
+            "api": "Sieve No. 20",
+            "excipients": "Sieve No. 40",
+            "magnesium_stearate": "Sieve No. 60",
+            "wet_granulation": "Sieve No. 16",
+            "dried_granules": "Sieve No. 20"
+        },
+        "mixing": "Geometric mixing followed by blending for 10 min",
+        "drying": "Hot air oven at 40°C for 2 hours",
+        "compression_device": "Tablet punching machine (specific model not stated)",
+        "compression_pressure": "Not specified",
+        "hardness_tester": "Monsanto hardness tester (referred as 'monastano')",
+        "friability_tester": "Roche Friabilator",
+        "dissolution_apparatus": "USP Type II (paddle), 50 rpm, 900 mL 0.1N HCl, 37±0.5°C",
+        "uv_absorbance_wavelength": "277 nm"
+    },
+    "ftir_info": {
+        "instrument": "Fourier-transform infrared spectrophotometer",
+        "compatibility": "Drug and excipients (HPMC K4M, Eudragit 100S, Guar gum, sodium bicarbonate, citric acid) showed similar fundamental peaks and patterns, indicating no significant interactions",
+        "figures": "Figs. 1-8 in the article"
+    },
+    "batches": [
+        {
+            "batch_id": "022_F1",
+            "api_mass_mg": 250,
+            "composition_mg": {
+                "ciprofloxacin_hcl": 250,
+                "hpmc_k4m": 150,
+                "eudragit_100s": 0,
+                "guar_gum": 0,
+                "sodium_bicarbonate": 50,
+                "citric_acid": 15,
+                "starch": 25,
+                "magnesium_stearate": 10
+            },
+            "pre_compression_parameters": {
+                "angle_of_repose": "22°71' (approx 23.18°)",
+                "bulk_density_g_per_ml": 0.32,
+                "tapped_density_g_per_ml": 0.49,
+                "compressibility_index_percent": 11.22,
+                "hausner_ratio": 1.16
+            },
+            "tablet_properties": {
+                "hardness_kg_per_cm2": 4.85,
+                "friability_percent": 0.631,
+                "thickness_mm": 4.17,
+                "diameter_mm": 10.19,
+                "weight_variation_mean_mg": 498,
+                "weight_variation_sd_mg": 2.5,
+                "drug_content_percent": 98.12
+            },
+            "floating_properties": {
+                "buoyancy_lag_time_sec": 150,
+                "total_floating_time_h": 10.0
+            },
+            "dissolution_profile": {
+                "time_points_h": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    11.22,
+                    14.31,
+                    19.82,
+                    27.01,
+                    33.73,
+                    39.84,
+                    47.3,
+                    53.04,
+                    63.92,
+                    71.98,
+                    79.81,
+                    88.12
+                ]
+            },
+            "release_kinetics": {
+                "zero_order_r2": 0.993,
+                "first_order_r2": 0.886,
+                "higuchi_r2": 0.896,
+                "korsmeyer_peppas_r2": 0.97,
+                "korsmeyer_n": 0.887,
+                "release_mechanism": "Non-Fickian diffusion (n > 0.45)"
+            }
+        },
+        {
+            "batch_id": "022_F2",
+            "api_mass_mg": 250,
+            "composition_mg": {
+                "ciprofloxacin_hcl": 250,
+                "hpmc_k4m": 0,
+                "eudragit_100s": 150,
+                "guar_gum": 0,
+                "sodium_bicarbonate": 50,
+                "citric_acid": 15,
+                "starch": 25,
+                "magnesium_stearate": 10
+            },
+            "pre_compression_parameters": {
+                "angle_of_repose": "22°9' (22.15°)",
+                "bulk_density_g_per_ml": 0.386,
+                "tapped_density_g_per_ml": 0.435,
+                "compressibility_index_percent": 11.34,
+                "hausner_ratio": 1.12
+            },
+            "tablet_properties": {
+                "hardness_kg_per_cm2": 4.8,
+                "friability_percent": 0.413,
+                "thickness_mm": 5.14,
+                "diameter_mm": 10.8,
+                "weight_variation_mean_mg": 496,
+                "weight_variation_sd_mg": 3.2,
+                "drug_content_percent": 97.23
+            },
+            "floating_properties": {
+                "buoyancy_lag_time_sec": 144,
+                "total_floating_time_h": 10.5
+            },
+            "dissolution_profile": {
+                "time_points_h": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    9.43,
+                    16.13,
+                    21.51,
+                    29.94,
+                    35.93,
+                    41.83,
+                    50.23,
+                    58.17,
+                    68.68,
+                    75.28,
+                    82.13,
+                    90.68
+                ]
+            },
+            "release_kinetics": {
+                "zero_order_r2": 0.997,
+                "first_order_r2": 0.889,
+                "higuchi_r2": 0.91,
+                "korsmeyer_peppas_r2": 0.993,
+                "korsmeyer_n": 0.929,
+                "release_mechanism": "Non-Fickian diffusion"
+            }
+        },
+        {
+            "batch_id": "022_F3",
+            "api_mass_mg": 250,
+            "composition_mg": {
+                "ciprofloxacin_hcl": 250,
+                "hpmc_k4m": 0,
+                "eudragit_100s": 0,
+                "guar_gum": 150,
+                "sodium_bicarbonate": 50,
+                "citric_acid": 15,
+                "starch": 25,
+                "magnesium_stearate": 10
+            },
+            "pre_compression_parameters": {
+                "angle_of_repose": "24°5' (24.08°)",
+                "bulk_density_g_per_ml": 0.393,
+                "tapped_density_g_per_ml": 0.436,
+                "compressibility_index_percent": 9.86,
+                "hausner_ratio": 1.12
+            },
+            "tablet_properties": {
+                "hardness_kg_per_cm2": 5.1,
+                "friability_percent": 0.462,
+                "thickness_mm": 5.16,
+                "diameter_mm": 11.0,
+                "weight_variation_mean_mg": 497,
+                "weight_variation_sd_mg": 2.7,
+                "drug_content_percent": 98.63
+            },
+            "floating_properties": {
+                "buoyancy_lag_time_sec": 151,
+                "total_floating_time_h": 8.0
+            },
+            "dissolution_profile": {
+                "time_points_h": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    8.24,
+                    10.38,
+                    13.68,
+                    18.73,
+                    25.66,
+                    30.18,
+                    36.3,
+                    42.04,
+                    51.45,
+                    57.81,
+                    69.91,
+                    73.45
+                ]
+            },
+            "release_kinetics": {
+                "zero_order_r2": 0.988,
+                "first_order_r2": 0.88,
+                "higuchi_r2": 0.878,
+                "korsmeyer_peppas_r2": 0.997,
+                "korsmeyer_n": 0.868,
+                "release_mechanism": "Non-Fickian diffusion"
+            }
+        },
+        {
+            "batch_id": "022_F4",
+            "api_mass_mg": 250,
+            "composition_mg": {
+                "ciprofloxacin_hcl": 250,
+                "hpmc_k4m": 75,
+                "eudragit_100s": 75,
+                "guar_gum": 0,
+                "sodium_bicarbonate": 50,
+                "citric_acid": 15,
+                "starch": 25,
+                "magnesium_stearate": 10
+            },
+            "pre_compression_parameters": {
+                "angle_of_repose": "24°01' (24.017°)",
+                "bulk_density_g_per_ml": 0.375,
+                "tapped_density_g_per_ml": 0.429,
+                "compressibility_index_percent": 12.59,
+                "hausner_ratio": 1.14
+            },
+            "tablet_properties": {
+                "hardness_kg_per_cm2": 4.75,
+                "friability_percent": 0.381,
+                "thickness_mm": 4.4,
+                "diameter_mm": 10.7,
+                "weight_variation_mean_mg": 499,
+                "weight_variation_sd_mg": 1.1,
+                "drug_content_percent": 99.54
+            },
+            "floating_properties": {
+                "buoyancy_lag_time_sec": 134,
+                "total_floating_time_h": 12.5
+            },
+            "dissolution_profile": {
+                "time_points_h": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    12.18,
+                    20.91,
+                    27.13,
+                    36.78,
+                    44.0,
+                    52.43,
+                    60.74,
+                    69.05,
+                    77.24,
+                    85.43,
+                    91.91,
+                    98.87
+                ]
+            },
+            "release_kinetics": {
+                "zero_order_r2": 0.998,
+                "first_order_r2": 0.763,
+                "higuchi_r2": 0.938,
+                "korsmeyer_peppas_r2": 0.996,
+                "korsmeyer_n": 0.861,
+                "release_mechanism": "Non-Fickian diffusion"
+            }
+        },
+        {
+            "batch_id": "022_F5",
+            "api_mass_mg": 250,
+            "composition_mg": {
+                "ciprofloxacin_hcl": 250,
+                "hpmc_k4m": 0,
+                "eudragit_100s": 75,
+                "guar_gum": 75,
+                "sodium_bicarbonate": 50,
+                "citric_acid": 15,
+                "starch": 25,
+                "magnesium_stearate": 10
+            },
+            "pre_compression_parameters": {
+                "angle_of_repose": "25°1' (25.017°)",
+                "bulk_density_g_per_ml": 0.371,
+                "tapped_density_g_per_ml": 0.417,
+                "compressibility_index_percent": 11.16,
+                "hausner_ratio": 1.13
+            },
+            "tablet_properties": {
+                "hardness_kg_per_cm2": 4.5,
+                "friability_percent": 0.54,
+                "thickness_mm": 4.16,
+                "diameter_mm": 10.9,
+                "weight_variation_mean_mg": 498,
+                "weight_variation_sd_mg": 3.5,
+                "drug_content_percent": 97.83
+            },
+            "floating_properties": {
+                "buoyancy_lag_time_sec": 154,
+                "total_floating_time_h": 9.0
+            },
+            "dissolution_profile": {
+                "time_points_h": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    9.91,
+                    12.83,
+                    16.86,
+                    24.2,
+                    31.16,
+                    37.4,
+                    41.8,
+                    50.23,
+                    58.91,
+                    68.07,
+                    76.14,
+                    85.67
+                ]
+            },
+            "release_kinetics": {
+                "zero_order_r2": 0.988,
+                "first_order_r2": 0.88,
+                "higuchi_r2": 0.878,
+                "korsmeyer_peppas_r2": 0.998,
+                "korsmeyer_n": 0.806,
+                "release_mechanism": "Non-Fickian diffusion"
+            }
+        },
+        {
+            "batch_id": "022_F6",
+            "api_mass_mg": 250,
+            "composition_mg": {
+                "ciprofloxacin_hcl": 250,
+                "hpmc_k4m": 75,
+                "eudragit_100s": 0,
+                "guar_gum": 75,
+                "sodium_bicarbonate": 50,
+                "citric_acid": 15,
+                "starch": 25,
+                "magnesium_stearate": 10
+            },
+            "pre_compression_parameters": {
+                "angle_of_repose": "26°1' (26.017°)",
+                "bulk_density_g_per_ml": 0.38,
+                "tapped_density_g_per_ml": 0.448,
+                "compressibility_index_percent": 10.714,
+                "hausner_ratio": 1.107
+            },
+            "tablet_properties": {
+                "hardness_kg_per_cm2": 5.0,
+                "friability_percent": 0.761,
+                "thickness_mm": 4.51,
+                "diameter_mm": 11.0,
+                "weight_variation_mean_mg": 495,
+                "weight_variation_sd_mg": 4.3,
+                "drug_content_percent": 97.38
+            },
+            "floating_properties": {
+                "buoyancy_lag_time_sec": 166,
+                "total_floating_time_h": 9.5
+            },
+            "dissolution_profile": {
+                "time_points_h": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    10.51,
+                    12.22,
+                    15.27,
+                    21.38,
+                    29.82,
+                    36.17,
+                    40.94,
+                    48.15,
+                    54.02,
+                    62.57,
+                    72.47,
+                    79.93
+                ]
+            },
+            "release_kinetics": {
+                "zero_order_r2": 0.988,
+                "first_order_r2": 0.88,
+                "higuchi_r2": 0.878,
+                "korsmeyer_peppas_r2": 0.998,
+                "korsmeyer_n": 0.825,
+                "release_mechanism": "Non-Fickian diffusion"
+            }
+        },
+        {
+            "batch_id": "022_F7",
+            "api_mass_mg": 250,
+            "composition_mg": {
+                "ciprofloxacin_hcl": 250,
+                "hpmc_k4m": 50,
+                "eudragit_100s": 50,
+                "guar_gum": 50,
+                "sodium_bicarbonate": 50,
+                "citric_acid": 15,
+                "starch": 25,
+                "magnesium_stearate": 10
+            },
+            "pre_compression_parameters": {
+                "angle_of_repose": "24°9' (24.15°)",
+                "bulk_density_g_per_ml": 0.391,
+                "tapped_density_g_per_ml": 0.455,
+                "compressibility_index_percent": 15.39,
+                "hausner_ratio": 1.18
+            },
+            "tablet_properties": {
+                "hardness_kg_per_cm2": 4.8,
+                "friability_percent": 0.62,
+                "thickness_mm": 4.2,
+                "diameter_mm": 10.8,
+                "weight_variation_mean_mg": 497,
+                "weight_variation_sd_mg": 4.2,
+                "drug_content_percent": 99.17
+            },
+            "floating_properties": {
+                "buoyancy_lag_time_sec": 140,
+                "total_floating_time_h": 11.0
+            },
+            "dissolution_profile": {
+                "time_points_h": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12
+                ],
+                "cumulative_release_percent": [
+                    10.98,
+                    19.06,
+                    24.81,
+                    31.04,
+                    39.23,
+                    45.58,
+                    51.08,
+                    61.47,
+                    70.52,
+                    81.64,
+                    87.02,
+                    95.45
+                ]
+            },
+            "release_kinetics": {
+                "zero_order_r2": 0.995,
+                "first_order_r2": 0.832,
+                "higuchi_r2": 0.912,
+                "korsmeyer_peppas_r2": 0.99,
+                "korsmeyer_n": 0.877,
+                "release_mechanism": "Non-Fickian diffusion"
+            }
+        }
+    ],
+    "optimized_formulation": "022_F4",
+    "optimization_parameters": {
+        "drug_release_12h": "98.87%",
+        "buoyancy_lag_time_sec": 134,
+        "total_floating_time_h": 12.5,
+        "release_kinetics_model": "Korsmeyer-Peppas",
+        "n_value": 0.861,
+        "mechanism": "Non-Fickian diffusion",
+        "conclusion": "Floating tablets of ciprofloxacin HCl can increase gastric residence time, bioavailability, and half-life."
+    }
+}

@@ -1,0 +1,1033 @@
+{
+    "Materials_origin": {
+        "Polyethylene_oxide": {
+            "PEO_750": "Polyox WSR 750, MW = 3x10^5, manufactured by Dow Chemical (Philadelphia, USA), distributed by Colorcon (Kent, UK)",
+            "PEO_303": "Polyox WSR 303, MW = 7x10^6, manufactured by Dow Chemical (Philadelphia, USA), distributed by Colorcon (Kent, UK)"
+        },
+        "Theophylline": "Purchased from Sigma (Gillingham, UK)",
+        "Magnesium_stearate": "Purchased from Sigma (Gillingham, UK)",
+        "Lactose": "α-lactose monohydrate, donated by DMV International, Netherlands"
+    },
+    "Experimental_Design": {
+        "ingredients_identification": {
+            "preparation_method": "Materials were individually weighed and mixed for 10 minutes (except magnesium stearate) using a TURBULA blender at 100 rpm. Magnesium stearate was then mixed with the final mixture for an additional 2 minutes.",
+            "results": "The study identified that smaller PEO particle sizes and higher molecular weight (PEO 303) resulted in harder tablets and slower drug release. Larger particle sizes and lower molecular weight (PEO 750) led to faster release and higher porosity.",
+            "absorbance": "UV spectrophotometer (Shimadzu, Japan) at 271 nm for theophylline."
+        }
+    },
+    "Formulation_Details": [
+        {
+            "Batch_ID": "006_A1",
+            "Description": "THF-006_PEO750 20%, 20-45 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 750",
+                        "Mass_mg": 70.0,
+                        "Percentage": 20.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 101.5,
+                        "Percentage": 29.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_A2",
+            "Description": "THF-006_PEO750 20%, 45-90 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 750",
+                        "Mass_mg": 70.0,
+                        "Percentage": 20.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 101.5,
+                        "Percentage": 29.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_A3",
+            "Description": "THF-006_PEO750 20%, 90-180 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 750",
+                        "Mass_mg": 70.0,
+                        "Percentage": 20.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 101.5,
+                        "Percentage": 29.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_A4",
+            "Description": "THF-006_PEO750 20%, 180-425 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 750",
+                        "Mass_mg": 70.0,
+                        "Percentage": 20.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 101.5,
+                        "Percentage": 29.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_B1",
+            "Description": "THF-006_PEO303 20%, 20-45 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 303",
+                        "Mass_mg": 70.0,
+                        "Percentage": 20.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 101.5,
+                        "Percentage": 29.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_B2",
+            "Description": "THF-006_PEO303 20%, 45-90 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 303",
+                        "Mass_mg": 70.0,
+                        "Percentage": 20.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 101.5,
+                        "Percentage": 29.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_B3",
+            "Description": "THF-006_PEO303 20%, 90-180 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 303",
+                        "Mass_mg": 70.0,
+                        "Percentage": 20.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 101.5,
+                        "Percentage": 29.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_B4",
+            "Description": "THF-006_PEO303 20%, 180-425 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 303",
+                        "Mass_mg": 70.0,
+                        "Percentage": 20.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 101.5,
+                        "Percentage": 29.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_C1",
+            "Description": "THF-006_PEO750 40%, 20-45 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 750",
+                        "Mass_mg": 140.0,
+                        "Percentage": 40.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 31.5,
+                        "Percentage": 9.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_C4",
+            "Description": "THF-006_PEO750 40%, 180-425 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 750",
+                        "Mass_mg": 140.0,
+                        "Percentage": 40.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 31.5,
+                        "Percentage": 9.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_D1",
+            "Description": "THF-006_PEO303 40%, 20-45 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 303",
+                        "Mass_mg": 140.0,
+                        "Percentage": 40.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 31.5,
+                        "Percentage": 9.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        },
+        {
+            "Batch_ID": "006_D4",
+            "Description": "THF-006_PEO303 40%, 180-425 μm",
+            "Ingredients": {
+                "Active_Pharmaceutical_Ingredient": {
+                    "Name": "Theophylline",
+                    "Mass_mg": 175.0,
+                    "Percentage": 50.0
+                },
+                "Excipients": [
+                    {
+                        "Name": "PEO 303",
+                        "Mass_mg": 140.0,
+                        "Percentage": 40.0
+                    },
+                    {
+                        "Name": "Lactose",
+                        "Mass_mg": 31.5,
+                        "Percentage": 9.0
+                    },
+                    {
+                        "Name": "Magnesium Stearate",
+                        "Mass_mg": 3.5,
+                        "Percentage": 1.0
+                    }
+                ],
+                "Total_Weight_mg": 350.0
+            }
+        }
+    ],
+    "Pre-compression_Parameters": [
+        {
+            "Batch_ID": "006_A1",
+            "Mean_Diameter_μm": "31.8 ± 1.0",
+            "Hardness_N": "61.0 ± 0.2",
+            "Tablet_Porosity_%": "4.98 ± 1.63"
+        },
+        {
+            "Batch_ID": "006_A2",
+            "Mean_Diameter_μm": "54.8 ± 0.2",
+            "Hardness_N": "59.0 ± 0.2",
+            "Tablet_Porosity_%": "5.11 ± 1.56"
+        },
+        {
+            "Batch_ID": "006_A3",
+            "Mean_Diameter_μm": "128.4 ± 0.3",
+            "Hardness_N": "56.0 ± 1.0",
+            "Tablet_Porosity_%": "6.25 ± 1.25"
+        },
+        {
+            "Batch_ID": "006_A4",
+            "Mean_Diameter_μm": "276.9 ± 0.1",
+            "Hardness_N": "54.0 ± 0.5",
+            "Tablet_Porosity_%": "7.34 ± 0.80"
+        },
+        {
+            "Batch_ID": "006_B1",
+            "Mean_Diameter_μm": "30.8 ± 0.4",
+            "Hardness_N": "52.0 ± 0.4",
+            "Tablet_Porosity_%": "4.85 ± 0.76"
+        },
+        {
+            "Batch_ID": "006_B2",
+            "Mean_Diameter_μm": "110.6 ± 0.2",
+            "Hardness_N": "50.0 ± 1.0",
+            "Tablet_Porosity_%": "5.91 ± 1.23"
+        },
+        {
+            "Batch_ID": "006_B3",
+            "Mean_Diameter_μm": "131.0 ± 0.3",
+            "Hardness_N": "47.0 ± 0.5",
+            "Tablet_Porosity_%": "7.29 ± 1.11"
+        },
+        {
+            "Batch_ID": "006_B4",
+            "Mean_Diameter_μm": "292.0 ± 0.5",
+            "Hardness_N": "45.0 ± 0.2",
+            "Tablet_Porosity_%": "8.92 ± 0.25"
+        },
+        {
+            "Batch_ID": "006_C1",
+            "Mean_Diameter_μm": "69.0 ± 0.9",
+            "Hardness_N": "66.0 ± 0.8",
+            "Tablet_Porosity_%": "4.20 ± 1.63"
+        },
+        {
+            "Batch_ID": "006_C4",
+            "Mean_Diameter_μm": "261.5 ± 0.2",
+            "Hardness_N": "60.0 ± 1.0",
+            "Tablet_Porosity_%": "7.01 ± 1.05"
+        },
+        {
+            "Batch_ID": "006_D1",
+            "Mean_Diameter_μm": "33.4 ± 0.6",
+            "Hardness_N": "56.0 ± 0.5",
+            "Tablet_Porosity_%": "6.96 ± 1.40"
+        },
+        {
+            "Batch_ID": "006_D4",
+            "Mean_Diameter_μm": "240.8 ± 0.5",
+            "Hardness_N": "53.0 ± 0.1",
+            "Tablet_Porosity_%": "3.99 ± 1.26"
+        }
+    ],
+    "Composition_of_Independent_Variables": {
+        "Factors": [
+            {
+                "Variable": "PEO Particle Size",
+                "Levels": [
+                    "20-45 μm",
+                    "45-90 μm",
+                    "90-180 μm",
+                    "180-425 μm"
+                ]
+            },
+            {
+                "Variable": "PEO Concentration",
+                "Levels": [
+                    "20% w/w",
+                    "40% w/w"
+                ]
+            },
+            {
+                "Variable": "PEO Molecular Weight",
+                "Levels": [
+                    "Low (PEO 750, 3x10^5 Da)",
+                    "High (PEO 303, 7x10^6 Da)"
+                ]
+            }
+        ]
+    },
+    "Fourier_Transform_Infrared_Spectral_Measurements": "Not available in the provided text.",
+    "Tablet_Fabrications": {
+        "Process": "A specific amount (350 mg) of the blended powder containing 1% magnesium stearate was compressed using an ENERPA C Hydraulic Press RC-53 (USA), fitted with 10-mm round and flat-faced punches.",
+        "Pressure_Applied": "1000 psi",
+        "Equipment": "ENERPAC Hydraulic Press RC-53",
+        "Process_Conditions": "Ambient temperature, no coating applied."
+    },
+    "Release_Properties": [
+        {
+            "Batch_ID": "006_A1",
+            "Release_Profile": "Slowest release among A series; 88.0% DE, 1.42 h MDT.",
+            "Release_Mechanism": "Primarily erosion (n=1.11 > 1, indicating super case-II transport).",
+            "Factors_Influencing_Release": "Small particle size facilitates rapid gel formation, slowing release.",
+            "release_profile_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 40
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 60
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 80
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 95
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 98
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 100
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 100
+                }
+            ]
+        },
+        {
+            "Batch_ID": "006_A2",
+            "Release_Profile": "Intermediate release; 91.0% DE, 1.08 h MDT.",
+            "Release_Mechanism": "Not calculated.",
+            "Factors_Influencing_Release": "Medium particle size provides moderate gel formation.",
+            "release_profile_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 85
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 95
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 98
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 100
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 100
+                }
+            ]
+        },
+        {
+            "Batch_ID": "006_A3",
+            "Release_Profile": "Faster release; 93.0% DE, 0.88 h MDT.",
+            "Release_Mechanism": "Not calculated.",
+            "Factors_Influencing_Release": "Larger particle size delays gel formation, increasing release rate.",
+            "release_profile_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 60
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 80
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 92
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 98
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 100
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 100
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 100
+                }
+            ]
+        },
+        {
+            "Batch_ID": "006_A4",
+            "Release_Profile": "Fastest release among A series; 96.4% DE, 0.44 h MDT.",
+            "Release_Mechanism": "Primarily diffusion (data too quick to calculate n, indicating burst release).",
+            "Factors_Influencing_Release": "Large particle size leads to slow hydration and high porosity, causing burst release.",
+            "release_profile_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 75
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 92
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 98
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 100
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 100
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 100
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 100
+                }
+            ]
+        },
+        {
+            "Batch_ID": "006_B1",
+            "Release_Profile": "Slowest release among B series; 56.0% DE, 5.20 h MDT.",
+            "Release_Mechanism": "Anomalous transport (n=0.82, mixed diffusion and erosion).",
+            "Factors_Influencing_Release": "High MW and small particle size create strong, thick gel layer.",
+            "release_profile_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 10
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 18
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 30
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 65
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 75
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 90
+                }
+            ]
+        },
+        {
+            "Batch_ID": "006_B2",
+            "Release_Profile": "Intermediate release; 63.0% DE, 4.44 h MDT.",
+            "Release_Mechanism": "Not calculated.",
+            "Factors_Influencing_Release": "Medium particle size with high MW still provides good control.",
+            "release_profile_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 15
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 25
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 38
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 58
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 72
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 82
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 95
+                }
+            ]
+        },
+        {
+            "Batch_ID": "006_B3",
+            "Release_Profile": "Faster release; 74.0% DE, 3.09 h MDT.",
+            "Release_Mechanism": "Not calculated.",
+            "Factors_Influencing_Release": "Larger particles hydrate slower, increasing release rate.",
+            "release_profile_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 20
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 33
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 48
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 68
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 80
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 88
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 98
+                }
+            ]
+        },
+        {
+            "Batch_ID": "006_B4",
+            "Release_Profile": "Fastest release among B series; 79.0% DE, 2.49 h MDT.",
+            "Release_Mechanism": "Diffusion (n=0.66, approaching Fickian).",
+            "Factors_Influencing_Release": "Large particles hydrate slowly, but high MW still provides some control.",
+            "release_profile_data": [
+                {
+                    "time_h": 0.0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 0.5,
+                    "release_percent": 28
+                },
+                {
+                    "time_h": 1.0,
+                    "release_percent": 42
+                },
+                {
+                    "time_h": 2.0,
+                    "release_percent": 58
+                },
+                {
+                    "time_h": 4.0,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 6.0,
+                    "release_percent": 88
+                },
+                {
+                    "time_h": 8.0,
+                    "release_percent": 94
+                },
+                {
+                    "time_h": 12.0,
+                    "release_percent": 100
+                }
+            ]
+        },
+        {
+            "Batch_ID": "006_C1",
+            "Release_Profile": "Slower release than 006_C4; 80.0% DE, 1.47 h MDT.",
+            "Release_Mechanism": "Primarily erosion (n=1.51 > 1).",
+            "Factors_Influencing_Release": "High polymer concentration reduces impact of particle size on release rate.",
+            "release_profile_data": []
+        },
+        {
+            "Batch_ID": "006_C4",
+            "Release_Profile": "Faster release than 006_C1; 88.0% DE, 1.39 h MDT.",
+            "Release_Mechanism": "Anomalous transport (n=0.90).",
+            "Factors_Influencing_Release": "Release profile similar to 006_C1 (f2 > 50) at this high concentration.",
+            "release_profile_data": []
+        },
+        {
+            "Batch_ID": "006_D1",
+            "Release_Profile": "Slowest release overall; 41.0% DE, 6.20 h MDT.",
+            "Release_Mechanism": "Anomalous transport (n=0.96, close to erosion).",
+            "Factors_Influencing_Release": "High MW and concentration, and small particle size yield best control.",
+            "release_profile_data": []
+        },
+        {
+            "Batch_ID": "006_D4",
+            "Release_Profile": "Faster release than 006_D1; 58.0% DE, 5.00 h MDT.",
+            "Release_Mechanism": "Diffusion (n=0.59).",
+            "Factors_Influencing_Release": "Particle size effect is significant even at high concentration for high MW PEO (f2 < 50 vs 006_D1).",
+            "release_profile_data": []
+        }
+    ],
+    "Tablet_Properties": [
+        {
+            "Batch_ID": "006_A1",
+            "Hardness_N": "61.0 ± 0.2",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "4.98 ± 1.63",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_A2",
+            "Hardness_N": "59.0 ± 0.2",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "5.11 ± 1.56",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_A3",
+            "Hardness_N": "56.0 ± 1.0",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "6.25 ± 1.25",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_A4",
+            "Hardness_N": "54.0 ± 0.5",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "7.34 ± 0.80",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_B1",
+            "Hardness_N": "52.0 ± 0.4",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "4.85 ± 0.76",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_B2",
+            "Hardness_N": "50.0 ± 1.0",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "5.91 ± 1.23",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_B3",
+            "Hardness_N": "47.0 ± 0.5",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "7.29 ± 1.11",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_B4",
+            "Hardness_N": "45.0 ± 0.2",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "8.92 ± 0.25",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_C1",
+            "Hardness_N": "66.0 ± 0.8",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "4.20 ± 1.63",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_C4",
+            "Hardness_N": "60.0 ± 1.0",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "7.01 ± 1.05",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_D1",
+            "Hardness_N": "56.0 ± 0.5",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "6.96 ± 1.40",
+            "Stability": "Not available"
+        },
+        {
+            "Batch_ID": "006_D4",
+            "Hardness_N": "53.0 ± 0.1",
+            "Thickness_mm": "Not available",
+            "Diameter_mm": "10",
+            "Weight_Variation_%": "Not available",
+            "Disintegration_Time": "Not available",
+            "Friability": "Not available",
+            "Tablet_Porosity_%": "3.99 ± 1.26",
+            "Stability": "Not available"
+        }
+    ],
+    "Experimental_Data": {
+        "key_results": "Smaller PEO particle sizes produce harder tablets with slower drug release. The effect of particle size is more pronounced at lower polymer concentrations (20%) and with higher molecular weight PEO (303).",
+        "performance_metrics": {
+            "similarity_factor_f2": {
+                "PEO_750_20%": {
+                    "45-90": 25.7,
+                    "90-180": 21.1,
+                    "180-425": 15.4
+                },
+                "PEO_750_40%": {
+                    "180-425": 76.7
+                },
+                "PEO_303_20%": {
+                    "45-90": 34.7,
+                    "90-180": 24.6,
+                    "180-425": 21.0
+                },
+                "PEO_303_40%": {
+                    "180-425": 44.4
+                }
+            },
+            "dissolution_efficiency_DE_%": {
+                "006_A1": 88.0,
+                "006_A2": 91.0,
+                "006_A3": 93.0,
+                "006_A4": 96.4,
+                "006_B1": 56.0,
+                "006_B2": 63.0,
+                "006_B3": 74.0,
+                "006_B4": 79.0,
+                "006_C1": 80.0,
+                "006_C4": 88.0,
+                "006_D1": 41.0,
+                "006_D4": 58.0
+            },
+            "mean_dissolution_time_MDT_h": {
+                "006_A1": 1.42,
+                "006_A2": 1.08,
+                "006_A3": 0.88,
+                "006_A4": 0.44,
+                "006_B1": 5.2,
+                "006_B2": 4.44,
+                "006_B3": 3.09,
+                "006_B4": 2.49,
+                "006_C1": 1.47,
+                "006_C4": 1.39,
+                "006_D1": 6.2,
+                "006_D4": 5.0
+            },
+            "release_kinetics_n_value": {
+                "006_A1": 1.11,
+                "006_A4": null,
+                "006_B1": 0.82,
+                "006_B4": 0.66,
+                "006_C1": 1.51,
+                "006_C4": 0.9,
+                "006_D1": 0.96,
+                "006_D4": 0.59
+            }
+        },
+        "tablet_swelling_water_uptake_study": {
+            "PEO_750_20-45μm_30min": "265 ± 48%",
+            "PEO_750_180-425μm_30min": "152 ± 35%",
+            "PEO_303_20-45μm_30min": "336 ± 50%",
+            "PEO_303_180-425μm_30min": "275 ± 49%"
+        },
+        "viscosity_data_cP": {
+            "PEO_750_1%_small": "20.0 ± 1.9",
+            "PEO_750_1%_large": "23.4 ± 4.4",
+            "PEO_303_1%_small": "392.0 ± 7.8",
+            "PEO_303_1%_large": "417.3 ± 16.8"
+        }
+    }
+}

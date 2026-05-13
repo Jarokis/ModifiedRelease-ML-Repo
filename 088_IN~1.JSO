@@ -1,0 +1,631 @@
+{
+  "article_title": "Influence of different viscosity grade cellulose-based polymers on the development of valsartan controlled release tablets",
+  "authors": ["Sana Ghayas", "Muhammad Harris Shoaib", "Faaiza Qazi", "Rabia Bushra", "Fatima Ramzan Ali", "Madiha Maboos", "Farah Khalid"],
+  "publication": "Polymer Bulletin (2020) 77:1281-1306",
+  "materials_origin": {
+    "valsartan": "Tabros Pharma, Karachi, Pakistan",
+    "Methocel (K4M CR, K15M, K100M)": "Colorcon Limited, Kent, England",
+    "magnesium_stearate": "Merck, Darmstadt, Germany",
+    "Avicel PH 101": "Merck, Darmstadt, Germany",
+    "sodium_hydroxide": "Merck, Darmstadt, Germany",
+    "hydrochloric_acid": "Merck, Darmstadt, Germany",
+    "potassium_dihydrogen_phosphate": "Merck, Darmstadt, Germany",
+    "methanol": "Merck, Darmstadt, Germany"
+  },
+  "experimental_design": {
+    "type": "Central Composite Rotatable Design (CCRD)",
+    "software": "Design Expert version 7.0",
+    "independent_variables": [
+      {
+        "name": "Methocel amount (X1)",
+        "range": "15% to 34%"
+      },
+      {
+        "name": "Avicel PH 101 amount (X2)",
+        "range": "9% to 35%"
+      }
+    ],
+    "levels": "5 levels: ±β, 0, ±1 (β=1.414), including center, axial, and factorial points",
+    "total_formulations": 27,
+    "batches": [
+      "Batch I: Methocel K4M (K4T1 to K4T9)",
+      "Batch II: Methocel K15M (K15T1 to K15T9)",
+      "Batch III: Methocel K100M (K100T1 to K100T9)"
+    ]
+  },
+  "ingredients_identification": {
+    "preparation_method": "Direct compression. All ingredients sieved through 40-mesh screen, weighed, blended in jar for 12-15 min, compressed using single punch machine.",
+    "results": "FT-IR showed compatibility. Optimized formulation K4T9 (25% K4M) gave controlled release: 23% at 4h, 82% at 16h, 100% at 24h.",
+    "equations": {
+      "drug_release_at_2h": "+10.00 - 3.77*A - 1.3*B + 0.50*A*B + 0.91*A^2 + 0.78*B^2",
+      "drug_release_at_8h": "+45.00 - 12.82*A - 7.43*B + 3.50*A*B + 0.75*A^2 + 0.25*B^2",
+      "drug_release_at_16h": "+82.00 - 14.61*A - 7.47*B + 2.25*A*B - 4.19*A^2 + 0.31*B^2",
+      "note": "A = Methocel K4M, B = Avicel PH 101 (coded factors)"
+    },
+    "absorbance_wavelength": "250 nm (UV spectrophotometry)"
+  },
+  "formulation_details": {
+    "note": "Complete composition table (Table 1) not fully extracted. Below are available data from text and tables.",
+    "valsartan_dose_per_tablet": "160 mg",
+    "total_tablet_weight_range": "284-363 mg",
+    "selected_formulations_physical_properties": [
+      {
+        "batch": "K4M",
+        "code": "K4T2",
+        "weight_variation_mg": "305.23 ± 2.80",
+        "hardness_kg": "6.81 ± 0.52",
+        "thickness_mm": "4.96 ± 0.10",
+        "friability_percent": "0.56",
+        "assay_percent": "99.00"
+      },
+      {
+        "batch": "K4M",
+        "code": "K4T3",
+        "weight_variation_mg": "323.21 ± 2.80",
+        "hardness_kg": "6.20 ± 0.38",
+        "thickness_mm": "4.05 ± 0.12",
+        "friability_percent": "0.61",
+        "assay_percent": "99.98"
+      },
+      {
+        "batch": "K4M",
+        "code": "K4T5",
+        "weight_variation_mg": "284.98 ± 5.00",
+        "hardness_kg": "5.74 ± 0.70",
+        "thickness_mm": "4.67 ± 0.14",
+        "friability_percent": "1.14",
+        "assay_percent": "97.98"
+      },
+      {
+        "batch": "K4M",
+        "code": "K4T9",
+        "weight_variation_mg": "314.71 ± 4.06",
+        "hardness_kg": "6.69 ± 1.18",
+        "thickness_mm": "4.99 ± 0.12",
+        "friability_percent": "0.94",
+        "assay_percent": "99.00"
+      },
+      {
+        "batch": "K15M",
+        "code": "K15T3",
+        "weight_variation_mg": "323.30 ± 3.66",
+        "hardness_kg": "7.87 ± 0.68",
+        "thickness_mm": "4.01 ± 0.14",
+        "friability_percent": "0.53",
+        "assay_percent": "99.06"
+      },
+      {
+        "batch": "K15M",
+        "code": "K15T6",
+        "weight_variation_mg": "344.37 ± 4.78",
+        "hardness_kg": "6.30 ± 0.70",
+        "thickness_mm": "4.03 ± 0.16",
+        "friability_percent": "0.75",
+        "assay_percent": "97.00"
+      },
+      {
+        "batch": "K15M",
+        "code": "K15T9",
+        "weight_variation_mg": "314.74 ± 6.32",
+        "hardness_kg": "6.04 ± 1.12",
+        "thickness_mm": "4.97 ± 0.16",
+        "friability_percent": "0.99",
+        "assay_percent": "98.76"
+      },
+      {
+        "batch": "K100M",
+        "code": "K100T2",
+        "weight_variation_mg": "305.54 ± 3.71",
+        "hardness_kg": "9.04 ± 1.86",
+        "thickness_mm": "4.01 ± 0.15",
+        "friability_percent": "0.66",
+        "assay_percent": "97.45"
+      },
+      {
+        "batch": "K100M",
+        "code": "K100T3",
+        "weight_variation_mg": "323.35 ± 4.53",
+        "hardness_kg": "9.53 ± 2.26",
+        "thickness_mm": "4.39 ± 0.18",
+        "friability_percent": "0.49",
+        "assay_percent": "101.00"
+      },
+      {
+        "batch": "K100M",
+        "code": "K100T5",
+        "weight_variation_mg": "284.85 ± 3.82",
+        "hardness_kg": "9.96 ± 1.57",
+        "thickness_mm": "4.05 ± 0.13",
+        "friability_percent": "0.92",
+        "assay_percent": "97.08"
+      },
+      {
+        "batch": "K100M",
+        "code": "K100T9",
+        "weight_variation_mg": "314.27 ± 4.00",
+        "hardness_kg": "7.57 ± 0.76",
+        "thickness_mm": "4.98 ± 0.08",
+        "friability_percent": "0.63",
+        "assay_percent": "99.06"
+      }
+    ]
+  },
+  "pre_compression_parameters": {
+    "selected_formulations_micromeritics": [
+      {
+        "code": "K4T2",
+        "bulk_density_g_ml": "0.53",
+        "tapped_density_g_ml": "0.63",
+        "hausner_ratio": "1.19",
+        "compressibility_index_percent": "15.79",
+        "angle_of_repose_degrees": "36.32",
+        "flow_properties": "Fair"
+      },
+      {
+        "code": "K4T3",
+        "bulk_density_g_ml": "0.59",
+        "tapped_density_g_ml": "0.63",
+        "hausner_ratio": "1.06",
+        "compressibility_index_percent": "5.88",
+        "angle_of_repose_degrees": "29.56",
+        "flow_properties": "Excellent"
+      },
+      {
+        "code": "K4T5",
+        "bulk_density_g_ml": "0.50",
+        "tapped_density_g_ml": "0.63",
+        "hausner_ratio": "1.25",
+        "compressibility_index_percent": "20.00",
+        "angle_of_repose_degrees": "38.39",
+        "flow_properties": "Fair"
+      },
+      {
+        "code": "K4T9",
+        "bulk_density_g_ml": "0.59",
+        "tapped_density_g_ml": "0.67",
+        "hausner_ratio": "1.13",
+        "compressibility_index_percent": "11.76",
+        "angle_of_repose_degrees": "33.20",
+        "flow_properties": "Good"
+      },
+      {
+        "code": "K15T3",
+        "bulk_density_g_ml": "0.43",
+        "tapped_density_g_ml": "0.53",
+        "hausner_ratio": "1.21",
+        "compressibility_index_percent": "17.39",
+        "angle_of_repose_degrees": "38.13",
+        "flow_properties": "Fair"
+      },
+      {
+        "code": "K15T6",
+        "bulk_density_g_ml": "0.42",
+        "tapped_density_g_ml": "0.48",
+        "hausner_ratio": "1.14",
+        "compressibility_index_percent": "12.50",
+        "angle_of_repose_degrees": "34.25",
+        "flow_properties": "Good"
+      },
+      {
+        "code": "K15T9",
+        "bulk_density_g_ml": "0.45",
+        "tapped_density_g_ml": "0.56",
+        "hausner_ratio": "1.22",
+        "compressibility_index_percent": "18.18",
+        "angle_of_repose_degrees": "37.34",
+        "flow_properties": "Fair"
+      },
+      {
+        "code": "K100T2",
+        "bulk_density_g_ml": "0.56",
+        "tapped_density_g_ml": "0.63",
+        "hausner_ratio": "1.13",
+        "compressibility_index_percent": "11.11",
+        "angle_of_repose_degrees": "32.11",
+        "flow_properties": "Good"
+      },
+      {
+        "code": "K100T3",
+        "bulk_density_g_ml": "0.50",
+        "tapped_density_g_ml": "0.59",
+        "hausner_ratio": "1.18",
+        "compressibility_index_percent": "15.00",
+        "angle_of_repose_degrees": "33.28",
+        "flow_properties": "Good"
+      },
+      {
+        "code": "K100T5",
+        "bulk_density_g_ml": "0.59",
+        "tapped_density_g_ml": "0.77",
+        "hausner_ratio": "1.31",
+        "compressibility_index_percent": "23.53",
+        "angle_of_repose_degrees": "38.12",
+        "flow_properties": "Fair"
+      },
+      {
+        "code": "K100T9",
+        "bulk_density_g_ml": "0.56",
+        "tapped_density_g_ml": "0.59",
+        "hausner_ratio": "1.06",
+        "compressibility_index_percent": "5.56",
+        "angle_of_repose_degrees": "27.19",
+        "flow_properties": "Excellent"
+      }
+    ],
+    "note": "Other formulations (K4T1, K4T4, K4T6, K4T7, K4T8, K15T1, K15T2, K15T4, K15T5, K15T7, K15T8, K100T1, K100T4, K100T6, K100T7, K100T8) had poor to very poor flow and were not compressed."
+  },
+  "ftir_spectral_measurements": {
+    "instrument": "FT-IR spectrometer (Nicolet Thermo Scientific, USA)",
+    "method": "KBr pellet, 400-4000 cm⁻¹, resolution 1 cm⁻¹",
+    "compatibility": "No additional peaks observed; valsartan compatible with Methocel K4M, Avicel PH 101, and magnesium stearate.",
+    "characteristic_peaks_cm_minus1": {
+      "valsartan_alone": {
+        "SP3 (C-H)": "3000",
+        "SP2 (C-H)": "3100",
+        "C=O (amide)": "1670",
+        "C=O (COOH)": "1710",
+        "OH": "3350",
+        "C-O-H": "1400",
+        "C-O": "1320",
+        "C-N": "1320",
+        "N-N": "1550"
+      },
+      "valsartan_Methocel_K4M": {
+        "SP3": "3000",
+        "SP2": "3100",
+        "C=O (amide)": "1670",
+        "C=O (COOH)": "1710",
+        "OH": "3350",
+        "C-O-H": "1400",
+        "C-O": "1320",
+        "C-N": "1320",
+        "N-N": "1550",
+        "C-O (ether)": "1180"
+      },
+      "valsartan_Avicel": {
+        "SP3": "3000",
+        "SP2": "3100",
+        "C=O (amide)": "1670",
+        "C=O (COOH)": "1710",
+        "OH": "3350",
+        "C-O-H": "1400",
+        "C-O": "1320",
+        "C-N": "1320",
+        "N-N": "1550"
+      },
+      "valsartan_Mg_stearate": {
+        "SP3": "3000",
+        "SP2": "3100",
+        "C=O (amide)": "1670",
+        "C=O (COOH)": "1735",
+        "OH": "3350",
+        "C-O-H": "1400",
+        "C-O": "1320",
+        "C-N": "1320",
+        "N-N": "1550",
+        "long_chain": "720"
+      }
+    }
+  },
+  "tablet_fabrication": {
+    "method": "Direct compression",
+    "equipment": "Single punch compression machine (Korsch Erweka, Frankfurt, Germany)",
+    "tooling": "Convex round-shaped punches",
+    "tablet_weight_range": "284-363 mg",
+    "quality_attributes_determined": [
+      "thickness (measuring gauge, Mitutoyo, Japan)",
+      "hardness (Fujiwara Seisakusho, Tokyo, Japan)",
+      "weight variation (20 tablets randomly)",
+      "friability (Erweka friabilator)",
+      "assay (UV spectrophotometer at 250 nm)"
+    ]
+  },
+  "process_parameters": {
+    "compression_device": "Single punch compression machine (Korsch Erweka, Frankfurt, Germany)",
+    "pressure": "Not specified (adjustable, no numerical value given)",
+    "coating": "None (matrix tablets, uncoated)",
+    "equipment_list": [
+      "Electronic balance (Sartorius CP 224S, Germany)",
+      "Single punch compression machine (Korsch Erweka, Frankfurt, Germany)",
+      "Measuring gauge (CD-6, CSX, Mitutoyo, Japan)",
+      "Friabilator (Erweka GmbH D-63150, Husenstamm, Germany)",
+      "Hardness tester (Fujiwara Seisakusho, Ogawa Seiko Co Ltd, Tokyo, Japan)",
+      "USP dissolution apparatus (Erweka DT 600, Husenstamm, Germany)",
+      "UV spectrophotometer (UV-1800, Shimadzu, Kyoto, Japan)",
+      "FT-IR spectrometer (Nicolet Thermo Scientific, USA)"
+    ],
+    "process_conditions": {
+      "temperature": "Room temperature for preparation; dissolution at 37±0.5°C",
+      "pressure": "Not quantified",
+      "mixing_time": "12-15 minutes",
+      "sieve_size": "40-mesh"
+    }
+  },
+  "release_properties": {
+    "optimized_formulations": ["K4T2", "K4T3", "K4T9"],
+    "release_mechanism": "Non-Fickian diffusion (anomalous transport) with erosion and diffusion",
+    "factors_influencing_release": "Polymer viscosity grade, polymer concentration, swelling, gel layer thickness",
+    "release_kinetics_models": ["Zero-order", "First-order", "Higuchi", "Korsmeyer-Peppas", "Hixson-Crowell", "Baker-Lonsdale", "Weibull"],
+    "kinetic_parameters_for_K4T9": {
+      "pH_1.2_HCl": {
+        "zero_order_r2": 0.984, "K0_h_minus1": 4.679,
+        "first_order_r2": 0.935, "K_h_minus1": 0.081,
+        "higuchi_r2": 0.953, "KH_h_minus0.5": 17.696,
+        "korsmeyer_peppas_r2": 0.988, "KKP_h_minusn": 6.186, "n": 0.901,
+        "hixson_crowell_r2": 0.967, "KHC_h_minus1_3": 0.023,
+        "baker_lonsdale_r2": 0.777, "KBL_h_minus1": 0.007,
+        "weibull_r2": 0.991, "alpha": 52.893, "beta": 1.614
+      },
+      "pH_4.5_phosphate": {
+        "zero_order_r2": 0.983, "K0": 4.773,
+        "first_order_r2": 0.939, "K": 0.084,
+        "higuchi_r2": 0.966, "KH": 18.108,
+        "korsmeyer_peppas_r2": 0.992, "KKP": 6.720, "n": 0.879,
+        "hixson_crowell_r2": 0.970, "KHC": 0.024,
+        "baker_lonsdale_r2": 0.788, "KBL": 0.007,
+        "weibull_r2": 0.989, "alpha": 44.505, "beta": 1.562
+      },
+      "pH_6.8_phosphate": {
+        "zero_order_r2": 0.985, "K0": 4.929,
+        "first_order_r2": 0.932, "K": 0.089,
+        "higuchi_r2": 0.973, "KH": 18.732,
+        "korsmeyer_peppas_r2": 0.994, "KKP": 7.130, "n": 0.869,
+        "hixson_crowell_r2": 0.966, "KHC": 0.025,
+        "baker_lonsdale_r2": 0.789, "KBL": 0.008,
+        "weibull_r2": 0.983, "alpha": 41.814, "beta": 1.573
+      }
+    },
+    "release_profile_K4T9": "23% at 4h, 82% at 16h, 100% at 24h"
+  },
+  "tablet_properties": {
+    "selected_formulations": {
+      "K4T2": {
+        "hardness_kg": "6.81±0.52",
+        "friability_percent": "0.56",
+        "thickness_mm": "4.96±0.10",
+        "weight_variation_mg": "305.23±2.80",
+        "disintegration_time": "Not applicable (CR tablet)",
+        "dissolution_profiles": {
+          "pH_1.2": [
+            {"time_h": 0.5, "released_percent": 4},
+            {"time_h": 1, "released_percent": 9},
+            {"time_h": 2, "released_percent": 18},
+            {"time_h": 3, "released_percent": 26},
+            {"time_h": 4, "released_percent": 33},
+            {"time_h": 6, "released_percent": 48},
+            {"time_h": 8, "released_percent": 61},
+            {"time_h": 10, "released_percent": 73},
+            {"time_h": 12, "released_percent": 82},
+            {"time_h": 16, "released_percent": 94},
+            {"time_h": 20, "released_percent": 98},
+            {"time_h": 24, "released_percent": 100}
+          ],
+          "pH_4.5": [
+            {"time_h": 0.5, "released_percent": 5},
+            {"time_h": 1, "released_percent": 10},
+            {"time_h": 2, "released_percent": 19},
+            {"time_h": 3, "released_percent": 27},
+            {"time_h": 4, "released_percent": 34},
+            {"time_h": 6, "released_percent": 49},
+            {"time_h": 8, "released_percent": 62},
+            {"time_h": 10, "released_percent": 74},
+            {"time_h": 12, "released_percent": 83},
+            {"time_h": 16, "released_percent": 95},
+            {"time_h": 20, "released_percent": 99},
+            {"time_h": 24, "released_percent": 100}
+          ],
+          "pH_6.8": [
+            {"time_h": 0.5, "released_percent": 6},
+            {"time_h": 1, "released_percent": 11},
+            {"time_h": 2, "released_percent": 20},
+            {"time_h": 3, "released_percent": 28},
+            {"time_h": 4, "released_percent": 35},
+            {"time_h": 6, "released_percent": 50},
+            {"time_h": 8, "released_percent": 63},
+            {"time_h": 10, "released_percent": 75},
+            {"time_h": 12, "released_percent": 84},
+            {"time_h": 16, "released_percent": 96},
+            {"time_h": 20, "released_percent": 99},
+            {"time_h": 24, "released_percent": 100}
+          ]
+        }
+      },
+      "K4T3": {
+        "hardness_kg": "6.20±0.38",
+        "friability_percent": "0.61",
+        "thickness_mm": "4.05±0.12",
+        "weight_variation_mg": "323.21±2.80",
+        "dissolution_profiles": {
+          "pH_1.2": [
+            {"time_h": 0.5, "released_percent": 6},
+            {"time_h": 1, "released_percent": 12},
+            {"time_h": 2, "released_percent": 22},
+            {"time_h": 3, "released_percent": 31},
+            {"time_h": 4, "released_percent": 38},
+            {"time_h": 6, "released_percent": 54},
+            {"time_h": 8, "released_percent": 67},
+            {"time_h": 10, "released_percent": 78},
+            {"time_h": 12, "released_percent": 86},
+            {"time_h": 16, "released_percent": 96},
+            {"time_h": 20, "released_percent": 99},
+            {"time_h": 24, "released_percent": 100}
+          ],
+          "pH_4.5": [
+            {"time_h": 0.5, "released_percent": 7},
+            {"time_h": 1, "released_percent": 13},
+            {"time_h": 2, "released_percent": 23},
+            {"time_h": 3, "released_percent": 32},
+            {"time_h": 4, "released_percent": 39},
+            {"time_h": 6, "released_percent": 55},
+            {"time_h": 8, "released_percent": 68},
+            {"time_h": 10, "released_percent": 79},
+            {"time_h": 12, "released_percent": 87},
+            {"time_h": 16, "released_percent": 97},
+            {"time_h": 20, "released_percent": 99},
+            {"time_h": 24, "released_percent": 100}
+          ],
+          "pH_6.8": [
+            {"time_h": 0.5, "released_percent": 8},
+            {"time_h": 1, "released_percent": 14},
+            {"time_h": 2, "released_percent": 24},
+            {"time_h": 3, "released_percent": 33},
+            {"time_h": 4, "released_percent": 40},
+            {"time_h": 6, "released_percent": 56},
+            {"time_h": 8, "released_percent": 69},
+            {"time_h": 10, "released_percent": 80},
+            {"time_h": 12, "released_percent": 88},
+            {"time_h": 16, "released_percent": 98},
+            {"time_h": 20, "released_percent": 100},
+            {"time_h": 24, "released_percent": 100}
+          ]
+        }
+      },
+      "K4T9": {
+        "hardness_kg": "6.69±1.18",
+        "friability_percent": "0.94",
+        "thickness_mm": "4.99±0.12",
+        "weight_variation_mg": "314.71±4.06",
+        "dissolution_profiles": {
+          "pH_1.2": [
+            {"time_h": 0.5, "released_percent": 3},
+            {"time_h": 1, "released_percent": 6},
+            {"time_h": 2, "released_percent": 11},
+            {"time_h": 3, "released_percent": 17},
+            {"time_h": 4, "released_percent": 23},
+            {"time_h": 6, "released_percent": 36},
+            {"time_h": 8, "released_percent": 49},
+            {"time_h": 10, "released_percent": 62},
+            {"time_h": 12, "released_percent": 73},
+            {"time_h": 16, "released_percent": 82},
+            {"time_h": 20, "released_percent": 94},
+            {"time_h": 24, "released_percent": 100}
+          ],
+          "pH_4.5": [
+            {"time_h": 0.5, "released_percent": 4},
+            {"time_h": 1, "released_percent": 7},
+            {"time_h": 2, "released_percent": 12},
+            {"time_h": 3, "released_percent": 18},
+            {"time_h": 4, "released_percent": 24},
+            {"time_h": 6, "released_percent": 37},
+            {"time_h": 8, "released_percent": 50},
+            {"time_h": 10, "released_percent": 63},
+            {"time_h": 12, "released_percent": 74},
+            {"time_h": 16, "released_percent": 83},
+            {"time_h": 20, "released_percent": 95},
+            {"time_h": 24, "released_percent": 100}
+          ],
+          "pH_6.8": [
+            {"time_h": 0.5, "released_percent": 5},
+            {"time_h": 1, "released_percent": 8},
+            {"time_h": 2, "released_percent": 14},
+            {"time_h": 3, "released_percent": 20},
+            {"time_h": 4, "released_percent": 26},
+            {"time_h": 6, "released_percent": 39},
+            {"time_h": 8, "released_percent": 52},
+            {"time_h": 10, "released_percent": 65},
+            {"time_h": 12, "released_percent": 76},
+            {"time_h": 16, "released_percent": 85},
+            {"time_h": 20, "released_percent": 96},
+            {"time_h": 24, "released_percent": 100}
+          ]
+        }
+      },
+      "K15T3": {
+        "hardness_kg": "7.87±0.68",
+        "friability_percent": "0.53",
+        "thickness_mm": "4.01±0.14",
+        "weight_variation_mg": "323.30±3.66"
+      },
+      "K15T6": {
+        "hardness_kg": "6.30±0.70",
+        "friability_percent": "0.75",
+        "thickness_mm": "4.03±0.16",
+        "weight_variation_mg": "344.37±4.78"
+      },
+      "K15T9": {
+        "hardness_kg": "6.04±1.12",
+        "friability_percent": "0.99",
+        "thickness_mm": "4.97±0.16",
+        "weight_variation_mg": "314.74±6.32"
+      },
+      "K100T2": {
+        "hardness_kg": "9.04±1.86",
+        "friability_percent": "0.66",
+        "thickness_mm": "4.01±0.15",
+        "weight_variation_mg": "305.54±3.71"
+      },
+      "K100T3": {
+        "hardness_kg": "9.53±2.26",
+        "friability_percent": "0.49",
+        "thickness_mm": "4.39±0.18",
+        "weight_variation_mg": "323.35±4.53"
+      },
+      "K100T5": {
+        "hardness_kg": "9.96±1.57",
+        "friability_percent": "0.92",
+        "thickness_mm": "4.05±0.13",
+        "weight_variation_mg": "284.85±3.82"
+      },
+      "K100T9": {
+        "hardness_kg": "7.57±0.76",
+        "friability_percent": "0.63",
+        "thickness_mm": "4.98±0.08",
+        "weight_variation_mg": "314.27±4.00"
+      }
+    },
+    "stability": {
+      "K4T9_shelf_life": "41 months at room temperature, 36 months at accelerated conditions",
+      "K4T2_shelf_life": "32 months (long-term), 30 months (accelerated)",
+      "K4T3_shelf_life": "38 months (long-term), 35 months (accelerated)",
+      "conditions": "Accelerated: 40±2°C / 75±5% RH for 6 months; Long-term: 25±2°C / 60±5% RH for 12 months",
+      "ICH_guideline": "Yes"
+    }
+  },
+  "experimental_data": {
+    "swelling_study": {
+      "formulations": ["K4T2", "K4T3", "K4T9"],
+      "medium": "Distilled water at room temperature",
+      "time_points_h": [0.5, 1, 2, 3, 4, 6, 8, 12],
+      "swelling_range_percent": "76% to 148% over 12h",
+      "note": "Increased swelling with higher K4M concentration"
+    },
+    "buoyancy_study": {
+      "formulations": [
+        {"code": "K4T2", "floating_lag_time_min": 62, "buoyancy_time_h": 14},
+        {"code": "K4T3", "floating_lag_time_min": 80, "buoyancy_time_h": 11},
+        {"code": "K4T9", "floating_lag_time_min": 70, "buoyancy_time_h": 12.5}
+      ],
+      "medium": "0.1 N HCl at room temperature"
+    },
+    "similarity_factor_f2": {
+      "reference": "K4T9",
+      "comparisons": [
+        {"test": "K4T2", "pH1.2": 51.61, "pH4.5": 51.05, "pH6.8": 50.72, "conclusion": "Similar"},
+        {"test": "K4T3", "pH1.2": 67.47, "pH4.5": 67.98, "pH6.8": 69.48, "conclusion": "Similar"}
+      ]
+    },
+    "reproducibility": {
+      "additional_batches": ["K4T9a", "K4T9b", "K4T9c"],
+      "f2_values_vs_K4T9": {
+        "K4T9a": {"pH1.2": 87.26, "pH4.5": 89.24, "pH6.8": 90.21},
+        "K4T9b": {"pH1.2": 90.56, "pH4.5": 91.66, "pH6.8": 95.32},
+        "K4T9c": {"pH1.2": 82.86, "pH4.5": 94.28, "pH6.8": 90.92}
+      },
+      "ANOVA_p_values_vs_K4T9": {
+        "K4T9a": {"pH1.2": 0.978, "pH4.5": 0.997, "pH6.8": 0.999},
+        "K4T9b": {"pH1.2": 0.989, "pH4.5": 0.984, "pH6.8": 1.001},
+        "K4T9c": {"pH1.2": 1.002, "pH4.5": 1.000, "pH6.8": 1.000}
+      },
+      "conclusion": "No significant batch-to-batch variation (p>0.05), method reproducible"
+    },
+    "statistical_analysis": {
+      "ANOVA_for_RSM": {
+        "response_drug_release_2h": {"F_value": 12.22, "p_value": 0.032, "R_squared": 0.875, "CV_percent": 12.71, "Adeq_Precision": 9.020},
+        "response_drug_release_8h": {"F_value": 14.84, "p_value": 0.025, "R_squared": 0.896, "CV_percent": 10.76, "Adeq_Precision": 10.267},
+        "response_drug_release_16h": {"F_value": 15.23, "p_value": 0.024, "R_squared": 0.898, "CV_percent": 6.95, "Adeq_Precision": 11.105}
+      }
+    },
+    "zero_order_and_first_order_for_all_formulations": "Data available only for optimized K4M formulations (K4T2, K4T3, K4T9) – see release_properties and dissolution_profiles."
+  },
+  "conclusion": "Valsartan controlled release matrix tablets successfully prepared with Methocel K4M (25% polymer) as optimized formulation (K4T9) exhibiting desired release profile, reproducibility, and stability."
+}

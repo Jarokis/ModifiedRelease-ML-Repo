@@ -1,0 +1,419 @@
+{
+    "materials_origin": {
+        "sertraline_hydrochloride": "Matrix Laboratories Ltd, India",
+        "sodium_alginate (Keltone LVCR)": "ISP Corporation India",
+        "Eudragit L 30D 55, Eudragit NM 30 D": "Evonik India Ltd, Mumbai",
+        "Aquacoat ECD 30 ww": "FMC Biopolymer",
+        "excipients": "Matrix Laboratories Ltd, Hyderabad, India",
+        "others": "see formulation tables"
+    },
+    "experimental_design_for_optimization": {
+        "aim": "Prepare extended-release matrix pellets by extrusion-spheronization using different polymers, compress into tablets, optimize for release and uniformity",
+        "methods": [
+            "Dry blend mixed in Rapid mixer granulator Allen Bradley 5L, USA",
+            "Granulation using polymer dispersions/water",
+            "Extrusion (Multi gran MG 55, Fugi Paudal Co Ltd Japan) with 0.8 mm screen",
+            "Spheronization (QJ 230T-1, Fugi Paudal Co Ltd Japan, crosshatch plate 1mm, 850 rpm, 4-15 min)",
+            "Fluid bed drying (Retsch, Germany, inlet air 50°C, 20-30 min)",
+            "Pellet fraction: ASTM 20 mesh (841 µm), fines below 40 mesh (420 µm) discarded",
+            "Calcium ion complexation for alginate batches: Wet pellets poured into CaCl₂ solutions (10%, 20%, saturated), stirred 10 min, filtered"
+        ]
+    },
+    "ingredients_identification": {
+        "sertraline_equiv_100mg_base": true,
+        "microcrystalline_cellulose": "Avicel PH102/PH101; sometimes milled",
+        "hydroxypropyl_cellulose": "10mg only in 013_F1-013_F9",
+        "polymers": "Aquacoat ECD, Eudragit L 30D 55, Eudragit NM 30D, Sodium Alginate; different batches use different types and concentrations",
+        "preparation_summary": "Tablet batches 013_TAB1-013_TAB5 use calcium chloride-treated pellets, microcrystalline cellulose, polyethylene glycol, crospovidone, magnesium stearate"
+    },
+    "formulation_details": {
+        "pellets": [
+            {
+                "batch": "013_F1",
+                "sertraline": 112,
+                "avicel_PH102": 166,
+                "hydroxypropyl_cellulose": 10,
+                "aquacoat_ECD": 32,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F2",
+                "sertraline": 112,
+                "avicel_PH102": 134,
+                "hydroxypropyl_cellulose": 10,
+                "aquacoat_ECD": 64,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F3",
+                "sertraline": 112,
+                "avicel_PH102": 102,
+                "hydroxypropyl_cellulose": 10,
+                "aquacoat_ECD": 96,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F4",
+                "sertraline": 112,
+                "avicel_PH102": 166,
+                "hydroxypropyl_cellulose": 10,
+                "Eudragit_L_30D_55": 32,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F5",
+                "sertraline": 112,
+                "avicel_PH102": 134,
+                "hydroxypropyl_cellulose": 10,
+                "Eudragit_L_30D_55": 64,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F6",
+                "sertraline": 112,
+                "avicel_PH102": 102,
+                "hydroxypropyl_cellulose": 10,
+                "Eudragit_L_30D_55": 96,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F7",
+                "sertraline": 112,
+                "avicel_PH102": 166,
+                "hydroxypropyl_cellulose": 10,
+                "Eudragit_NM_30D": 32,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F8",
+                "sertraline": 112,
+                "avicel_PH102": 134,
+                "hydroxypropyl_cellulose": 10,
+                "Eudragit_NM_30D": 64,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F9",
+                "sertraline": 112,
+                "avicel_PH102": 102,
+                "hydroxypropyl_cellulose": 10,
+                "Eudragit_NM_30D": 96,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F10",
+                "sertraline": 112,
+                "avicel_PH102": 176,
+                "sodium_alginate": 32,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F11",
+                "sertraline": 112,
+                "avicel_PH102": 144,
+                "sodium_alginate": 64,
+                "total_weight": 320
+            },
+            {
+                "batch": "013_F12",
+                "sertraline": 112,
+                "avicel_PH102": 112,
+                "sodium_alginate": 96,
+                "total_weight": 320
+            }
+        ],
+        "tablets": [
+            {
+                "batch": "013_TAB1",
+                "sertraline_pellets": 320,
+                "avicel_PH102": 646,
+                "PEG_6000": 64,
+                "crospovidone": 31,
+                "magnesium_stearate": 5,
+                "total_weight": 1066,
+                "percent_pellets": 30
+            },
+            {
+                "batch": "013_TAB2",
+                "sertraline_pellets": 320,
+                "avicel_PH102": 446,
+                "avicel_PH101": 200,
+                "PEG_6000": 64,
+                "crospovidone": 31,
+                "magnesium_stearate": 5,
+                "total_weight": 1066,
+                "percent_pellets": 30
+            },
+            {
+                "batch": "013_TAB3",
+                "sertraline_pellets": 320,
+                "avicel_PH102": 446,
+                "milled_avicel_PH102": 200,
+                "PEG_6000": 64,
+                "crospovidone": 31,
+                "magnesium_stearate": 5,
+                "total_weight": 1066,
+                "percent_pellets": 30
+            },
+            {
+                "batch": "013_TAB4",
+                "sertraline_pellets": 320,
+                "avicel_PH102": 263,
+                "avicel_PH101": 117,
+                "PEG_6000": 64,
+                "crospovidone": 31,
+                "magnesium_stearate": 5,
+                "total_weight": 800,
+                "percent_pellets": 40
+            },
+            {
+                "batch": "013_TAB5",
+                "sertraline_pellets": 320,
+                "avicel_PH102": 78,
+                "avicel_PH101": 35,
+                "PEG_6000": 64,
+                "crospovidone": 31,
+                "magnesium_stearate": 5,
+                "total_weight": 533,
+                "percent_pellets": 60
+            }
+        ]
+    },
+    "pre_compression_parameters": {
+        "pellet_batches": [
+            {
+                "batch": "013_F1",
+                "process_yield": 78.6,
+                "drug_content": 93.3,
+                "friability": 0.38,
+                "bulk_density": 1.125,
+                "sphericity": 76
+            },
+            {
+                "batch": "013_F2",
+                "process_yield": 86.4,
+                "drug_content": 92.1,
+                "friability": 0.24,
+                "bulk_density": 1.095,
+                "sphericity": 84
+            },
+            {
+                "batch": "013_F3",
+                "process_yield": 82.0,
+                "drug_content": 90.6,
+                "friability": 0.236,
+                "bulk_density": 1.115,
+                "sphericity": 80
+            },
+            {
+                "batch": "013_F4",
+                "process_yield": 72.2,
+                "drug_content": 89.4,
+                "friability": 0.38,
+                "bulk_density": 1.186,
+                "sphericity": 76
+            },
+            {
+                "batch": "013_F5",
+                "process_yield": 84.5,
+                "drug_content": 90.6,
+                "friability": 0.24,
+                "bulk_density": 1.182,
+                "sphericity": 81
+            },
+            {
+                "batch": "013_F6",
+                "process_yield": 86.8,
+                "drug_content": 93.4,
+                "friability": 0.288,
+                "bulk_density": 1.195,
+                "sphericity": 65
+            },
+            {
+                "batch": "013_F7",
+                "process_yield": 80.2,
+                "drug_content": 90.0,
+                "friability": 0.4,
+                "bulk_density": 1.213,
+                "sphericity": 78
+            },
+            {
+                "batch": "013_F8",
+                "process_yield": 82.1,
+                "drug_content": 92.3,
+                "friability": 0.38,
+                "bulk_density": 1.236,
+                "sphericity": 82
+            },
+            {
+                "batch": "013_F9",
+                "process_yield": 72.8,
+                "drug_content": 91.1,
+                "friability": 0.385,
+                "bulk_density": 1.328,
+                "sphericity": 65
+            },
+            {
+                "batch": "013_F10",
+                "process_yield": 78.4,
+                "drug_content": 93.2,
+                "friability": 0.245,
+                "bulk_density": 0.876,
+                "sphericity": 78
+            },
+            {
+                "batch": "013_F11",
+                "process_yield": 88.9,
+                "drug_content": 92.8,
+                "friability": 0.21,
+                "bulk_density": 0.888,
+                "sphericity": 86
+            },
+            {
+                "batch": "013_F12",
+                "process_yield": 76.3,
+                "drug_content": 91.2,
+                "friability": 0.22,
+                "bulk_density": 0.877,
+                "sphericity": 72
+            }
+        ],
+        "calcium_chloride_treated_pellets": {
+            "batch": "013_F11",
+            "drug_content": 91.9,
+            "friability": 0.18,
+            "bulk_density": 0.886,
+            "sphericity": 88
+        }
+    },
+    "independent_variables_and_levels": {
+        "polymers": [
+            "Aquacoat ECD",
+            "Eudragit L 30D 55",
+            "Eudragit NM 30D",
+            "Sodium Alginate"
+        ],
+        "polymer_levels": [
+            "10%",
+            "20%",
+            "30% (w/w)"
+        ],
+        "extrusion_screen_aperture": [
+            "0.8 mm",
+            "1.0 mm",
+            "1.2 mm",
+            "1.5 mm"
+        ],
+        "pellet_percent_in_tablets": [
+            "30%",
+            "40%",
+            "60%"
+        ]
+    },
+    "Fourier_Transform_Infrared_Measurements_information": "Not explicitly reported; SEM used for surface characterization instead.",
+    "tablet_fabrications": {
+        "device": "12-station automated single rotary compression machine (Smart Press, SRC 10i, Pacific Industries, India), 19.5 x 9.5 mm capsule shaped biconvex tooling, speed 10 rpm",
+        "compression_force_range_kN": "2-6",
+        "hardness_N": {
+            "013_TAB2": [
+                "80-120",
+                "120-180",
+                "180-240"
+            ]
+        },
+        "thickness_mm": {
+            "013_TAB2": [
+                "6.4",
+                "6.6",
+                "6.8"
+            ]
+        },
+        "friability_ww": {
+            "013_TAB2": [
+                "0.86",
+                "0.32",
+                "0.11"
+            ]
+        },
+        "disintegration_s": {
+            "013_TAB2": [
+                "45",
+                "75",
+                "150"
+            ]
+        },
+        "other_batches": "not explicitly detailed, but similar"
+    },
+    "process_parameters": {
+        "compression_force_kN": "2-6",
+        "tablet_machine_speed": "10 rpm",
+        "extrusion_screen_aperture": "0.8 mm default",
+        "drying": "Fluid bed dryer inlet air 50°C, 20-30 min",
+        "spheronization_time": "4-15 min (varies by polymer amount)",
+        "pellet_calcium_complexation": "CaCl₂ solution, 10min, slow stirring"
+    },
+    "release_properties": {
+        "pellets": {
+            "release_mechanism": "diffusion and erosion from matrix",
+            "plain_sodium_alginate": "complete release in 4h",
+            "CaCl₂-treated": "~12h extended release",
+            "profile_target": "12h for extended release",
+            "release_kinetics": "Not specified as zero/first order for all, but extended release evident. Saturated CaCl₂ gives slowest release."
+        },
+        "tablets": {
+            "release_profile_vs_pellets": "Similar",
+            "compression force": "No significant effect on release profile, tablets rapidly disintegrate into pellets",
+            "pellet percent": "Above 40-60% non-rapid disintegration, reduces release"
+        }
+    },
+    "tablet_properties": {
+        "hardness": {
+            "013_TAB2": [
+                "80-120",
+                "120-180",
+                "180-240"
+            ]
+        },
+        "friability": {
+            "013_TAB2": [
+                "0.86",
+                "0.32",
+                "0.11"
+            ]
+        },
+        "disintegration_time": {
+            "013_TAB2": [
+                "45",
+                "75",
+                "150"
+            ]
+        },
+        "dissolution_profile": "Similar for both pellets and tablets (see figures)",
+        "stability": "No significant change after 3 month (99.2% drug retained)",
+        "thickness": {
+            "013_TAB2": [
+                "6.4",
+                "6.6",
+                "6.8"
+            ]
+        },
+        "weight_variation_percent": "Not explicitly stated, but Acceptance Value (AV) used for content uniformity (013_TAB1: 18.7, 013_TAB2: 12.2, 013_TAB3: 14)",
+        "experimental_data": {
+            "release_profiles": "See figures: Zero/first order release not separately detailed",
+            "swelling_index": "Not reported",
+            "floating time": "Not reported",
+            "tablet swelling/uptake": "Not reported"
+        }
+    },
+    "experimental_data": {
+        "in_vitro_release_profiles": "Provided for all batches, see Figures 1A, 1B, 1C, 1D, 2, 4, 7, 8, 9, 10",
+        "acceptance_value": {
+            "013_TAB1": 18.7,
+            "013_TAB2": 12.2,
+            "013_TAB3": 14,
+            "013_TAB4": "NP",
+            "013_TAB5": "NP"
+        },
+        "statistical_analysis": "SD used for AV calculation, values for each batch not detailed"
+    }
+}

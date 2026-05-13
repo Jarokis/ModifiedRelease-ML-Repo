@@ -1,0 +1,522 @@
+{
+    "article_info": {
+        "title": "Tableting Process of Pellets Containing Bioactive Fraction DLBS1033F Isolated from Lumbricus rubellus: Challenge and Strategy",
+        "authors": "Gabriela Christy, Raymond Rubianto Tjandrawinata, Heni Rachmawati",
+        "journal": "Chemical and Pharmaceutical Bulletin",
+        "year": 2015,
+        "doi": "not provided"
+    },
+    "materials_origin": {
+        "DLBS1033F": "Dexa Laboratories of Biomolecular Sciences, Cikarang, Indonesia (GMP facility)",
+        "Avicel PH 101": "PT Bratachem, Indonesia",
+        "PVP K-30": "PT Bratachem, Indonesia",
+        "guar_gum": "PT Bratachem, Indonesia",
+        "calcium_acetate": "PT Bratachem, Indonesia",
+        "talcum": "PT Bratachem, Indonesia",
+        "magnesium_stearate": "PT Bratachem, Indonesia",
+        "sodium_alginate": "Wako Pure Chemical Industries, Ltd., Japan",
+        "Bradford_reagent": "Bio-Rad Laboratories, Inc.",
+        "bovine_serum_albumin": "Bio-Rad Laboratories, Inc."
+    },
+    "experimental_design": {
+        "pellet_preparation_method": "Extrusion-spheronization",
+        "tablet_preparation_method": "Compression of pellets with cushioning granules",
+        "optimization_factors": [
+            "Release modifier matrices (guar gum vs. sodium alginate + calcium acetate)",
+            "Xanthan gum concentration in tablets (10%, 20%, 30%)",
+            "Compression force (hardness 8, 10, 12 kg/cm²)"
+        ]
+    },
+    "ingredients_identification": {
+        "protein_assay": "Bradford method, absorbance at 595 nm, standard BSA curve",
+        "protease_assay": "Casein substrate, Folin's reagent, absorbance at 660 nm, L-tyrosine standard",
+        "protein_profile": "SDS-PAGE (12% polyacrylamide, Coomassie Brilliant Blue R-250)"
+    },
+    "formulation_details": {
+        "pellets_F1_to_F6": {
+            "total_mass_per_batch_not_specified": "Compositions given as weight percent",
+            "115_F1": {
+                "DLBS1033F": "60%",
+                "Avicel PH 101": "25%",
+                "PVP K-30": "5%",
+                "guar_gum": "10%",
+                "sodium_alginate": "0%",
+                "calcium_acetate": "0%"
+            },
+            "115_F2": {
+                "DLBS1033F": "60%",
+                "Avicel PH 101": "20%",
+                "PVP K-30": "5%",
+                "guar_gum": "15%",
+                "sodium_alginate": "0%",
+                "calcium_acetate": "0%"
+            },
+            "115_F3": {
+                "DLBS1033F": "60%",
+                "Avicel PH 101": "15%",
+                "PVP K-30": "5%",
+                "guar_gum": "20%",
+                "sodium_alginate": "0%",
+                "calcium_acetate": "0%"
+            },
+            "115_F4": {
+                "DLBS1033F": "60%",
+                "Avicel PH 101": "30%",
+                "PVP K-30": "5%",
+                "sodium_alginate": "2.5%",
+                "calcium_acetate": "2.5%",
+                "guar_gum": "0%"
+            },
+            "115_F5": {
+                "DLBS1033F": "60%",
+                "Avicel PH 101": "25%",
+                "PVP K-30": "5%",
+                "sodium_alginate": "5%",
+                "calcium_acetate": "5%",
+                "guar_gum": "0%"
+            },
+            "115_F6": {
+                "DLBS1033F": "60%",
+                "Avicel PH 101": "15%",
+                "PVP K-30": "5%",
+                "sodium_alginate": "10%",
+                "calcium_acetate": "6%",
+                "guar_gum": "0%"
+            }
+        },
+        "tablets_F7_to_F9": {
+            "total_tablet_weight_approx_mg": 750,
+            "115_F7": {
+                "DLBS1033F_pellet": "33.33% (250 mg per tablet)",
+                "Avicel_granule": "49.67% (372.5 mg)",
+                "PVP_K30": "5% (37.5 mg)",
+                "xanthan_gum": "10% (75 mg)",
+                "talcum": "1% (7.5 mg)",
+                "magnesium_stearate": "1% (7.5 mg)"
+            },
+            "115_F8": {
+                "DLBS1033F_pellet": "33.33% (250 mg per tablet)",
+                "Avicel_granule": "39.67% (297.5 mg)",
+                "PVP_K30": "5% (37.5 mg)",
+                "xanthan_gum": "20% (150 mg)",
+                "talcum": "1% (7.5 mg)",
+                "magnesium_stearate": "1% (7.5 mg)"
+            },
+            "115_F9": {
+                "DLBS1033F_pellet": "33.33% (250 mg per tablet)",
+                "Avicel_granule": "29.67% (222.5 mg)",
+                "PVP_K30": "5% (37.5 mg)",
+                "xanthan_gum": "30% (225 mg)",
+                "talcum": "1% (7.5 mg)",
+                "magnesium_stearate": "1% (7.5 mg)"
+            }
+        }
+    },
+    "pre_compression_parameters": {
+        "pellets_F1_to_F6": {
+            "115_F1": {
+                "size_distribution_500_841um_percent": 80.27,
+                "flowability_g_per_s": "9.34 ± 0.73",
+                "bulk_density_g_per_cm3": "0.699 ± 0.016",
+                "tapped_density_g_per_cm3": "0.740 ± 0.054",
+                "compressibility_index_percent": "9.59 ± 0.10",
+                "protein_content_ug_per_mg_pellet": "7.16 ± 0.27"
+            },
+            "115_F2": {
+                "size_distribution_percent": 81.23,
+                "flowability_g_per_s": "8.99 ± 0.21",
+                "bulk_density": "0.649 ± 0.023",
+                "tapped_density": "0.720 ± 0.037",
+                "compressibility_index": "9.88 ± 0.58",
+                "protein_content": "7.23 ± 0.64"
+            },
+            "115_F3": {
+                "size_distribution_percent": 78.3,
+                "flowability": "9.42 ± 0.68",
+                "bulk_density": "0.643 ± 0.040",
+                "tapped_density": "0.731 ± 0.018",
+                "compressibility_index": "10.02 ± 0.31",
+                "protein_content": "7.18 ± 0.41"
+            },
+            "115_F4": {
+                "size_distribution_percent": 82.94,
+                "flowability": "11.10 ± 0.35",
+                "bulk_density": "0.715 ± 0.014",
+                "tapped_density": "0.772 ± 0.007",
+                "compressibility_index": "7.41 ± 0.49",
+                "protein_content": "7.25 ± 0.94"
+            },
+            "115_F5": {
+                "size_distribution_percent": 86.32,
+                "flowability": "10.38 ± 0.15",
+                "bulk_density": "0.724 ± 0.025",
+                "tapped_density": "0.755 ± 0.013",
+                "compressibility_index": "6.42 ± 0.64",
+                "protein_content": "7.24 ± 0.33"
+            },
+            "115_F6": {
+                "size_distribution_percent": 75.43,
+                "flowability": "9.66 ± 0.27",
+                "bulk_density": "0.736 ± 0.011",
+                "tapped_density": "0.786 ± 0.023",
+                "compressibility_index": "6.15 ± 0.22",
+                "protein_content": "7.14 ± 0.78"
+            }
+        },
+        "tablets_F7_to_F9": {
+            "115_F7": {
+                "width_cm": "0.505 ± 0.009",
+                "diameter_cm": "1.01 ± 0.005",
+                "hardness_kg_per_cm2": "9.9 ± 0.2",
+                "weight_mg": "750.6 ± 4.4",
+                "friability_percent": 1.37,
+                "protein_content_ug_per_mg_pellet": "2.27 ± 0.29"
+            },
+            "115_F8": {
+                "width_cm": "0.505 ± 0.005",
+                "diameter_cm": "1.01 ± 0.005",
+                "hardness_kg_per_cm2": "9.8 ± 0.2",
+                "weight_mg": "750.2 ± 3.0",
+                "friability_percent": 0.91,
+                "protein_content_ug_per_mg_pellet": "2.31 ± 0.18"
+            },
+            "115_F9": {
+                "width_cm": "0.500 ± 0.005",
+                "diameter_cm": "1.02 ± 0.008",
+                "hardness_kg_per_cm2": "9.8 ± 0.3",
+                "weight_mg": "750.5 ± 2.5",
+                "friability_percent": 1.31,
+                "protein_content_ug_per_mg_pellet": "2.36 ± 0.53"
+            }
+        }
+    },
+    "independent_variables_and_levels": {
+        "guar_gum_concentration_in_pellets": {
+            "115_F1": "10%",
+            "115_F2": "15%",
+            "115_F3": "20%"
+        },
+        "sodium_alginate_and_calcium_acetate_in_pellets": {
+            "115_F4": "2.5% each",
+            "115_F5": "5% each",
+            "115_F6": "10% and 6% respectively"
+        },
+        "xanthan_gum_concentration_in_tablets": {
+            "115_F7": "10%",
+            "115_F8": "20%",
+            "115_F9": "30%"
+        },
+        "compression_force": "8, 10, 12 kg/cm² (optimized at 10 kg/cm²)"
+    },
+    "ftir_info": "Not performed / not reported in the article",
+    "tablet_fabrications": {
+        "method": "Pellets mixed with Avicel granules, PVP K-30, xanthan gum, talcum, magnesium stearate; compressed using single punch tablet machine",
+        "equipment": "Single punch tablet machine Erweka AR401, round flat punch",
+        "compression_force_selected": "10 kg/cm² (hardness ~9.8-9.9 kg/cm²)",
+        "determination_methods": {
+            "hardness": "Hardness tester PharmaTest PTB 111",
+            "friability": "Friability tester PharmaTest PTF, 100 rotations",
+            "weight_variation": "Individual weighing (n=20)",
+            "thickness_diameter": "Vernier caliper",
+            "drug_content": "Bradford protein assay after crushing tablet"
+        }
+    },
+    "process_parameters": {
+        "pelletization": {
+            "equipment": "Turbula mixer Tipe 2C, extruder Erweka AR401 (1 mm pore size, 100 rpm), spheronizer IKA RW20 Digital (850 rpm, 2 min)",
+            "drying": "Room temperature, 5 hours"
+        },
+        "tableting": {
+            "equipment": "Single punch tablet machine Erweka AR401",
+            "compression_force": "Produced hardness of 8, 10, 12 kg/cm²; selected 10 kg/cm²",
+            "coating": "None (enteric and sustained release achieved via formulation)"
+        },
+        "dissolution_conditions": {
+            "apparatus": "USP Type I (basket), Hanson Research",
+            "temperature": "37 ± 0.5°C",
+            "rpm": 100,
+            "media": "pH 1.2 HCl (2h for pellets, 2h for tablets) then pH 6.8 phosphate buffer (6h for pellets, 22h for tablets)"
+        }
+    },
+    "release_properties": {
+        "pellets_F1_F2_F3": {
+            "release_modifier": "Guar gum",
+            "release_profile": ">20% released in first 2h (pH 1.2), 115_F2 showed 88.24% at 8h",
+            "statistics": "One-way ANOVA p=0.0336 (significant difference among 115_F1,115_F2,115_F3)",
+            "mechanism_not_modeled": "Not reported",
+            "release_profile_approximated": {
+                "time_hours": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    8
+                ],
+                "F1_cumulative_percent": [
+                    0,
+                    28,
+                    42,
+                    60,
+                    75,
+                    86
+                ],
+                "F2_cumulative_percent": [
+                    0,
+                    18,
+                    25,
+                    50,
+                    70,
+                    88.24
+                ],
+                "F3_cumulative_percent": [
+                    0,
+                    22,
+                    35,
+                    55,
+                    72,
+                    82
+                ]
+            }
+        },
+        "pellets_F4_F5_F6": {
+            "release_modifier": "Sodium alginate + calcium acetate",
+            "release_profile": "Lower initial release than guar gum; 115_F5 best: <20% at 2h (pH 1.2), ~90% at 8h (pH 6.8)",
+            "statistics": "One-way ANOVA p=0.0421",
+            "mechanism_not_modeled": "Not reported",
+            "release_profile_approximated": {
+                "time_hours": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    8
+                ],
+                "F4_cumulative_percent": [
+                    0,
+                    8,
+                    15,
+                    35,
+                    58,
+                    78
+                ],
+                "F5_cumulative_percent": [
+                    0,
+                    6,
+                    12,
+                    32,
+                    55,
+                    90
+                ],
+                "F6_cumulative_percent": [
+                    0,
+                    10,
+                    18,
+                    40,
+                    62,
+                    85
+                ]
+            }
+        },
+        "tablet_F7": {
+            "xanthan_gum": "10%",
+            "release_2h_pH1.2_percent": "Not explicitly given, but <5% for all tablets (enteric requirement)",
+            "release_24h_pH6.8_percent": "Not fully reported, but 115_F8 and 115_F9 >80% at 24h; 115_F7 likely lower",
+            "kinetics_R2": {
+                "zero_order": 0.789,
+                "first_order": 0.804,
+                "Higuchi": 0.923,
+                "Korsmeyer_Peppas": 0.893
+            },
+            "Korsmeyer_Peppas_n": 0.65,
+            "release_mechanism": "Anomalous transport",
+            "release_profile_approximated": {
+                "time_hours": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    12,
+                    24
+                ],
+                "media": [
+                    "pH1.2",
+                    "pH1.2",
+                    "pH1.2",
+                    "pH6.8",
+                    "pH6.8",
+                    "pH6.8",
+                    "pH6.8",
+                    "pH6.8"
+                ],
+                "cumulative_percent": [
+                    0,
+                    3,
+                    4.5,
+                    15,
+                    28,
+                    42,
+                    60,
+                    78
+                ]
+            }
+        },
+        "tablet_F8": {
+            "xanthan_gum": "20%",
+            "release_2h_pH1.2_percent": "5.11%",
+            "release_24h_pH6.8_percent": ">80%",
+            "kinetics_R2": {
+                "zero_order": 0.931,
+                "first_order": 0.971,
+                "Higuchi": 0.976,
+                "Korsmeyer_Peppas": 0.98
+            },
+            "Korsmeyer_Peppas_n": 1.21,
+            "release_mechanism": "Super case-II transport (diffusion + polymer chain relaxation)",
+            "release_profile_approximated": {
+                "time_hours": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    12,
+                    24
+                ],
+                "media": [
+                    "pH1.2",
+                    "pH1.2",
+                    "pH1.2",
+                    "pH6.8",
+                    "pH6.8",
+                    "pH6.8",
+                    "pH6.8",
+                    "pH6.8"
+                ],
+                "cumulative_percent": [
+                    0,
+                    3.5,
+                    5.11,
+                    12,
+                    22,
+                    35,
+                    55,
+                    85
+                ]
+            }
+        },
+        "tablet_F9": {
+            "xanthan_gum": "30%",
+            "release_2h_pH1.2_percent": "<5%",
+            "release_24h_pH6.8_percent": ">80%",
+            "kinetics_R2": {
+                "zero_order": 0.962,
+                "first_order": 0.952,
+                "Higuchi": 0.95,
+                "Korsmeyer_Peppas": 0.954
+            },
+            "Korsmeyer_Peppas_n": 1.07,
+            "release_mechanism": "Super case-II transport",
+            "release_profile_approximated": {
+                "time_hours": [
+                    0,
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    12,
+                    24
+                ],
+                "media": [
+                    "pH1.2",
+                    "pH1.2",
+                    "pH1.2",
+                    "pH6.8",
+                    "pH6.8",
+                    "pH6.8",
+                    "pH6.8",
+                    "pH6.8"
+                ],
+                "cumulative_percent": [
+                    0,
+                    2.5,
+                    4.2,
+                    10,
+                    18,
+                    30,
+                    50,
+                    82
+                ]
+            }
+        },
+        "factors_influencing_release": "pH (alginate insoluble at low pH), crosslinking (Ca²⁺ with alginate), xanthan gum hydration and swelling, compression force preserving pellet integrity"
+    },
+    "tablet_properties": {
+        "115_F7": {
+            "hardness_kg_per_cm2": 9.9,
+            "friability_percent": 1.37,
+            "disintegration_time": "Not measured (sustained release)",
+            "dissolution_profile": "See release_properties.tablet_F7.release_profile_approximated",
+            "stability": "Protein stable per SDS-PAGE and protease activity",
+            "thickness_cm": "0.505",
+            "diameter_cm": 1.01,
+            "weight_variation_percent": "(750.6±4.4) mg → ~0.59% RSD"
+        },
+        "115_F8": {
+            "hardness": 9.8,
+            "friability": 0.91,
+            "thickness_cm": 0.505,
+            "diameter_cm": 1.01,
+            "weight_variation": "(750.2±3.0) mg → ~0.40% RSD"
+        },
+        "115_F9": {
+            "hardness": 9.8,
+            "friability": 1.31,
+            "thickness_cm": 0.5,
+            "diameter_cm": 1.02,
+            "weight_variation": "(750.5±2.5) mg → ~0.33% RSD"
+        },
+        "swelling_water_uptake": "Not studied",
+        "lag_time": "Not applicable (not floating)",
+        "total_floating_time": "Not applicable"
+    },
+    "experimental_data": {
+        "in_vitro_release_statistics": {
+            "pellets_F1_F2_F3_ANOVA": "p=0.0336 (significant)",
+            "pellets_F4_F5_F6_ANOVA": "p=0.0421 (significant)",
+            "tablets_F7_F8_F9_ANOVA": "p=0.0154 (significant)"
+        },
+        "protein_stability": {
+            "SDS_PAGE": "Pellet 115_F5 and tablet 115_F8 showed same protein bands as pure DLBS1033F powder (no degradation)",
+            "protease_activity": {
+                "DLBS1033F_powder": "66.44 ± 1.78 unit/mg (100% content)",
+                "pellet_F5": "38.19 ± 2.05 unit/mg (59.1% DLBS1033 content)",
+                "tablet_F8": "11.77 ± 0.65 unit/mg (18.8% DLBS1033 content)"
+            }
+        },
+        "performance_metrics": {
+            "best_pellet_formulation": "115_F5 (low initial release, ~90% at 8h)",
+            "best_tablet_formulation": "115_F8 (5.11% release at 2h pH1.2, >80% at 24h, super case-II transport, low friability 0.91%)",
+            "compression_force_optimization": "10 kg/cm² preserved pellet integrity (SEM confirmed)"
+        },
+        "zero_and_first_order_release_for_tablets": {
+            "115_F7": {
+                "zero_order_R2": 0.789,
+                "first_order_R2": 0.804
+            },
+            "115_F8": {
+                "zero_order_R2": 0.931,
+                "first_order_R2": 0.971
+            },
+            "115_F9": {
+                "zero_order_R2": 0.962,
+                "first_order_R2": 0.952
+            }
+        }
+    }
+}

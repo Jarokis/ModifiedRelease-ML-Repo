@@ -1,0 +1,708 @@
+{
+    "article_sections": {
+        "abstract": "Page 1",
+        "introduction": "Pages 1-2",
+        "materials": "Page 2",
+        "methods": "Pages 2-4",
+        "results_and_discussion": "Pages 4-10",
+        "conclusion": "Implied in abstract and discussion"
+    },
+    "extracted_data": {
+        "materials_origin": {
+            "atenolol": "Yarrow Chem Products (Mumbai, India)",
+            "simvastatin": "National Chemicals (Vadodara, India) - gift sample",
+            "hydroxypropyl_methylcellulose": "Piramal Health Care (Bengaluru, India)",
+            "poloxamer_188": "Piramal Health Care (Bengaluru, India)",
+            "PEG_6000": "Molybdenum (Mumbai, India)",
+            "HP_β_cyclodextrin": "Molybdenum (Mumbai, India)",
+            "sodium_bicarbonate": "Thermo Fischer Scientific Pvt. Ltd (Ahmedabad, India)",
+            "sodium_starch_glycolate": "Thermo Fischer Scientific Pvt. Ltd (Ahmedabad, India)",
+            "lactose": "Thermo Fischer Scientific Pvt. Ltd (Ahmedabad, India)",
+            "microcrystalline_cellulose": "HiMedia (Gurgaon, India)",
+            "ethanol": "analytical grade",
+            "HCl": "analytical grade"
+        },
+        "experimental_design_for_optimization": {
+            "simvastatin_solubility_enhancement": {
+                "preparation": "Cogrinding technique with drug:polymer ratio of 1:5",
+                "carriers_evaluated": [
+                    "PEG 6000",
+                    "HP-β-CD",
+                    "poloxamer 188"
+                ],
+                "formulations": [
+                    "065_CM1 (PEG 6000)",
+                    "065_CM2 (HP-β-CD)",
+                    "065_CM3 (poloxamer 188)"
+                ],
+                "results": "065_CM3 (poloxamer 188) showed highest dissolution rate (80% in 1 hour), 3-fold increase in solubility compared to pure drug",
+                "characterization_methods": [
+                    "FTIR",
+                    "DSC",
+                    "XRD",
+                    "in vitro dissolution"
+                ],
+                "absorbance_wavelengths": {
+                    "simvastatin": "240 nm",
+                    "atenolol": "225 nm"
+                }
+            },
+            "immediate_release_optimization": {
+                "based_on": "065_CM3 cogrinding mixture",
+                "superdisintegrant": "sodium starch glycolate",
+                "concentrations_evaluated": "5%, 10%, 15% w/w",
+                "optimized_formulation": "065_IF3 (15% w/w sodium starch glycolate) with 98.8% drug release in 15 min"
+            },
+            "sustained_release_optimization": {
+                "polymers_evaluated": [
+                    "HPMC K4",
+                    "HPMC K15",
+                    "HPMC K100"
+                ],
+                "concentrations_evaluated": [
+                    "12.5%",
+                    "25%",
+                    "37.5% w/w"
+                ],
+                "optimized_formulation": "065_SF9 (HPMC K100 37.5% w/w) with 99.9% drug release over 12 h"
+            }
+        },
+        "formulation_details": {
+            "cogrinding_mixtures": [
+                {
+                    "batch_code": "065_CM3",
+                    "type": "Cogrinding mixture with poloxamer 188",
+                    "api": "Simvastatin",
+                    "drug_polymer_ratio": "1:5",
+                    "release_data": {
+                        "time_min": [
+                            5,
+                            10,
+                            15,
+                            30,
+                            45,
+                            60
+                        ],
+                        "release_percent": [
+                            20,
+                            35,
+                            50,
+                            65,
+                            75,
+                            80
+                        ]
+                    }
+                }
+            ],
+            "immediate_release_layer_batches": [
+                {
+                    "batch_code": "065_IF1",
+                    "api": "Simvastatin (via cogrinding mixture)",
+                    "api_mass_mg": 10,
+                    "cogrinding_mixture_mg": 60,
+                    "sodium_starch_glycolate_mg": 5,
+                    "lactose_mg": 34,
+                    "magnesium_stearate_mg": 1,
+                    "total_mg": 100,
+                    "percent_composition": "Cogrinding mixture 60%, SSG 5%, Lactose 34%, Mg stearate 1%",
+                    "release_data": {
+                        "time_min": [
+                            5,
+                            10,
+                            15,
+                            30,
+                            45,
+                            60
+                        ],
+                        "release_percent": [
+                            25,
+                            45,
+                            60,
+                            80,
+                            90,
+                            95
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_IF2",
+                    "api": "Simvastatin (via cogrinding mixture)",
+                    "api_mass_mg": 10,
+                    "cogrinding_mixture_mg": 60,
+                    "sodium_starch_glycolate_mg": 10,
+                    "lactose_mg": 29,
+                    "magnesium_stearate_mg": 1,
+                    "total_mg": 100,
+                    "percent_composition": "Cogrinding mixture 60%, SSG 10%, Lactose 29%, Mg stearate 1%",
+                    "release_data": {
+                        "time_min": [
+                            5,
+                            10,
+                            15,
+                            30,
+                            45,
+                            60
+                        ],
+                        "release_percent": [
+                            35,
+                            60,
+                            80,
+                            95,
+                            98,
+                            99
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_IF3",
+                    "api": "Simvastatin (via cogrinding mixture)",
+                    "api_mass_mg": 10,
+                    "cogrinding_mixture_mg": 60,
+                    "sodium_starch_glycolate_mg": 15,
+                    "lactose_mg": 24,
+                    "magnesium_stearate_mg": 1,
+                    "total_mg": 100,
+                    "percent_composition": "Cogrinding mixture 60%, SSG 15%, Lactose 24%, Mg stearate 1%",
+                    "release_data": {
+                        "time_min": [
+                            5,
+                            10,
+                            15,
+                            30,
+                            45,
+                            60
+                        ],
+                        "release_percent": [
+                            50,
+                            80,
+                            98.8,
+                            100,
+                            100,
+                            100
+                        ]
+                    }
+                }
+            ],
+            "sustained_release_layer_batches": [
+                {
+                    "batch_code": "065_SF1",
+                    "api": "Atenolol",
+                    "api_mass_mg": 50,
+                    "HPMC_K4_mg": 50,
+                    "HPMC_K15_mg": 0,
+                    "HPMC_K100_mg": 0,
+                    "MCC_mg": 292,
+                    "magnesium_stearate_mg": 8,
+                    "total_mg": 400,
+                    "percent_composition": "Atenolol 12.5%, HPMC K4 12.5%, MCC 73%, Mg stearate 2%",
+                    "release_data": {
+                        "time_h": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            6,
+                            8,
+                            10,
+                            12
+                        ],
+                        "release_percent": [
+                            70,
+                            90,
+                            98,
+                            99,
+                            99,
+                            99,
+                            99,
+                            99
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_SF2",
+                    "api": "Atenolol",
+                    "api_mass_mg": 50,
+                    "HPMC_K4_mg": 100,
+                    "HPMC_K15_mg": 0,
+                    "HPMC_K100_mg": 0,
+                    "MCC_mg": 242,
+                    "magnesium_stearate_mg": 8,
+                    "total_mg": 400,
+                    "percent_composition": "Atenolol 12.5%, HPMC K4 25%, MCC 60.5%, Mg stearate 2%",
+                    "release_data": {
+                        "time_h": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            6,
+                            8,
+                            10,
+                            12
+                        ],
+                        "release_percent": [
+                            60,
+                            80,
+                            95,
+                            99,
+                            99,
+                            99,
+                            99,
+                            99
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_SF3",
+                    "api": "Atenolol",
+                    "api_mass_mg": 50,
+                    "HPMC_K4_mg": 150,
+                    "HPMC_K15_mg": 0,
+                    "HPMC_K100_mg": 0,
+                    "MCC_mg": 192,
+                    "magnesium_stearate_mg": 8,
+                    "total_mg": 400,
+                    "percent_composition": "Atenolol 12.5%, HPMC K4 37.5%, MCC 48%, Mg stearate 2%",
+                    "release_data": {
+                        "time_h": [
+                            1,
+                            2,
+                            4,
+                            5,
+                            6,
+                            8,
+                            10,
+                            12
+                        ],
+                        "release_percent": [
+                            50,
+                            70,
+                            90,
+                            99,
+                            99,
+                            99,
+                            99,
+                            99
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_SF4",
+                    "api": "Atenolol",
+                    "api_mass_mg": 50,
+                    "HPMC_K4_mg": 0,
+                    "HPMC_K15_mg": 50,
+                    "HPMC_K100_mg": 0,
+                    "MCC_mg": 292,
+                    "magnesium_stearate_mg": 8,
+                    "total_mg": 400,
+                    "percent_composition": "Atenolol 12.5%, HPMC K15 12.5%, MCC 73%, Mg stearate 2%",
+                    "release_data": {
+                        "time_h": [
+                            1,
+                            2,
+                            4,
+                            6,
+                            7,
+                            8,
+                            10,
+                            12
+                        ],
+                        "release_percent": [
+                            50,
+                            70,
+                            85,
+                            95,
+                            99,
+                            99,
+                            99,
+                            99
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_SF5",
+                    "api": "Atenolol",
+                    "api_mass_mg": 50,
+                    "HPMC_K4_mg": 0,
+                    "HPMC_K15_mg": 100,
+                    "HPMC_K100_mg": 0,
+                    "MCC_mg": 242,
+                    "magnesium_stearate_mg": 8,
+                    "total_mg": 400,
+                    "percent_composition": "Atenolol 12.5%, HPMC K15 25%, MCC 60.5%, Mg stearate 2%",
+                    "release_data": {
+                        "time_h": [
+                            1,
+                            2,
+                            4,
+                            6,
+                            7,
+                            8,
+                            10,
+                            12
+                        ],
+                        "release_percent": [
+                            40,
+                            60,
+                            75,
+                            90,
+                            99,
+                            99,
+                            99,
+                            99
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_SF6",
+                    "api": "Atenolol",
+                    "api_mass_mg": 50,
+                    "HPMC_K4_mg": 0,
+                    "HPMC_K15_mg": 150,
+                    "HPMC_K100_mg": 0,
+                    "MCC_mg": 192,
+                    "magnesium_stearate_mg": 8,
+                    "total_mg": 400,
+                    "percent_composition": "Atenolol 12.5%, HPMC K15 37.5%, MCC 48%, Mg stearate 2%",
+                    "release_data": {
+                        "time_h": [
+                            1,
+                            2,
+                            4,
+                            6,
+                            7,
+                            8,
+                            10,
+                            12
+                        ],
+                        "release_percent": [
+                            30,
+                            50,
+                            65,
+                            85,
+                            99,
+                            99,
+                            99,
+                            99
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_SF7",
+                    "api": "Atenolol",
+                    "api_mass_mg": 50,
+                    "HPMC_K4_mg": 0,
+                    "HPMC_K15_mg": 0,
+                    "HPMC_K100_mg": 50,
+                    "MCC_mg": 292,
+                    "magnesium_stearate_mg": 8,
+                    "total_mg": 400,
+                    "percent_composition": "Atenolol 12.5%, HPMC K100 12.5%, MCC 73%, Mg stearate 2%",
+                    "release_data": {
+                        "time_h": [
+                            1,
+                            2,
+                            4,
+                            6,
+                            8,
+                            10,
+                            12
+                        ],
+                        "release_percent": [
+                            50,
+                            65,
+                            80,
+                            90,
+                            95,
+                            98,
+                            99
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_SF8",
+                    "api": "Atenolol",
+                    "api_mass_mg": 50,
+                    "HPMC_K4_mg": 0,
+                    "HPMC_K15_mg": 0,
+                    "HPMC_K100_mg": 100,
+                    "MCC_mg": 242,
+                    "magnesium_stearate_mg": 8,
+                    "total_mg": 400,
+                    "percent_composition": "Atenolol 12.5%, HPMC K100 25%, MCC 60.5%, Mg stearate 2%",
+                    "release_data": {
+                        "time_h": [
+                            1,
+                            2,
+                            4,
+                            6,
+                            8,
+                            10,
+                            12
+                        ],
+                        "release_percent": [
+                            40,
+                            55,
+                            70,
+                            80,
+                            90,
+                            95,
+                            99
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "065_SF9",
+                    "api": "Atenolol",
+                    "api_mass_mg": 50,
+                    "HPMC_K4_mg": 0,
+                    "HPMC_K15_mg": 0,
+                    "HPMC_K100_mg": 150,
+                    "MCC_mg": 192,
+                    "magnesium_stearate_mg": 8,
+                    "total_mg": 400,
+                    "percent_composition": "Atenolol 12.5%, HPMC K100 37.5%, MCC 48%, Mg stearate 2%",
+                    "release_data": {
+                        "time_h": [
+                            1,
+                            2,
+                            4,
+                            6,
+                            8,
+                            10,
+                            12
+                        ],
+                        "release_percent": [
+                            32,
+                            45,
+                            55,
+                            63,
+                            75,
+                            85,
+                            99
+                        ]
+                    }
+                }
+            ],
+            "bilayer_floating_tablet_batches": [
+                {
+                    "batch_code": "065_ISF1",
+                    "immediate_release_layer": {
+                        "cogrinding_mixture_mg": 60,
+                        "SSG_mg": 15,
+                        "lactose_mg": 24,
+                        "magnesium_stearate_mg": 1
+                    },
+                    "sustained_release_layer": {
+                        "atenolol_mg": 50,
+                        "sodium_bicarbonate_mg": 15,
+                        "MCC_mg": 177,
+                        "magnesium_stearate_mg": 8
+                    },
+                    "total_mg": 500,
+                    "sodium_bicarbonate_percent": "3.75% w/w"
+                },
+                {
+                    "batch_code": "065_ISF2",
+                    "immediate_release_layer": {
+                        "cogrinding_mixture_mg": 60,
+                        "SSG_mg": 15,
+                        "lactose_mg": 24,
+                        "magnesium_stearate_mg": 1
+                    },
+                    "sustained_release_layer": {
+                        "atenolol_mg": 50,
+                        "sodium_bicarbonate_mg": 20,
+                        "MCC_mg": 172,
+                        "magnesium_stearate_mg": 8
+                    },
+                    "total_mg": 500,
+                    "sodium_bicarbonate_percent": "5% w/w"
+                },
+                {
+                    "batch_code": "065_ISF3",
+                    "immediate_release_layer": {
+                        "cogrinding_mixture_mg": 60,
+                        "SSG_mg": 15,
+                        "lactose_mg": 24,
+                        "magnesium_stearate_mg": 1
+                    },
+                    "sustained_release_layer": {
+                        "atenolol_mg": 50,
+                        "sodium_bicarbonate_mg": 25,
+                        "MCC_mg": 167,
+                        "magnesium_stearate_mg": 8
+                    },
+                    "total_mg": 500,
+                    "sodium_bicarbonate_percent": "6.25% w/w"
+                }
+            ]
+        },
+        "pre_compression_parameters": {
+            "note": "Pre-compression parameters for individual IF and SF batches not provided in article. Only post-compression parameters for bilayer tablets 065_ISF1-065_ISF3 are available."
+        },
+        "composition_of_independent_variables": {
+            "independent_variables": {
+                "for_immediate_release": "Sodium starch glycolate concentration (5%, 10%, 15% w/w)",
+                "for_sustained_release": "HPMC grade (K4, K15, K100) and concentration (12.5%, 25%, 37.5% w/w)",
+                "for_bilayer_floating": "Sodium bicarbonate concentration in SR layer (3.75%, 5%, 6.25% w/w)"
+            }
+        },
+        "ftir_information": {
+            "instrument_parameters": "Compressed with KBr at 20 psi for 10 min, scanned in wave number range 4000-600 cm⁻¹",
+            "key_findings": "Simvastatin peaks: OH stretching at 3550.20 cm⁻¹, methyl C-H asymmetric at 3011.38 cm⁻¹, ester C=O at 1699.66 cm⁻¹, lactone C-O-C at 1268.27 cm⁻¹. Cogrinding mixture showed reduced intensities and slight peak shifts, indicating no chemical interactions."
+        },
+        "tablet_fabrications": {
+            "method": "Direct compression method",
+            "equipment": "Multi station rotary tablet punching machine",
+            "compression_type": "Single compaction method",
+            "process": "SR layer powder fed first, then IR layer powder added and compressed together",
+            "punch_size": "12 mm flat punches",
+            "target_hardness": "5.5-6.5 kg/cm²",
+            "coating": "None (uncoated tablets)"
+        },
+        "process_parameters": {
+            "compression_device": "Multi station rotary tablet punching machine",
+            "pressure": "Not specified (adjusted to achieve hardness 5.5-6.5 kg/cm²)",
+            "temperature": "Room temperature (implied)",
+            "coating": "No coating applied"
+        },
+        "release_properties": {
+            "immediate_release_batches": [
+                {
+                    "batch": "065_IF1",
+                    "release_profile": "See release_data above",
+                    "release_mechanism": "Superdisintegrant-mediated swelling and dispersion"
+                },
+                {
+                    "batch": "065_IF2",
+                    "release_profile": "See release_data above",
+                    "release_mechanism": "Superdisintegrant-mediated swelling and dispersion"
+                },
+                {
+                    "batch": "065_IF3",
+                    "release_profile": "98.8% drug release in 15 min (see release_data)",
+                    "release_mechanism": "Superdisintegrant-mediated swelling and dispersion"
+                }
+            ],
+            "sustained_release_batches": [
+                {
+                    "batch": "065_SF1-065_SF3 (HPMC K4)",
+                    "release_profile": "99% drug release in less than 5 h (see individual data)",
+                    "release_mechanism": "Polymer hydration and gel layer formation"
+                },
+                {
+                    "batch": "065_SF4-065_SF6 (HPMC K15)",
+                    "release_profile": "99% drug release in less than 7 h (see individual data)",
+                    "release_mechanism": "Polymer hydration and gel layer formation"
+                },
+                {
+                    "batch": "065_SF7-065_SF9 (HPMC K100)",
+                    "release_profile": "99.9% drug release within 12 h (065_SF9 optimal, see individual data)",
+                    "release_mechanism": "Polymer hydration and gel layer formation, diffusion-controlled"
+                }
+            ],
+            "bilayer_batches_kinetics": [
+                {
+                    "batch": "065_ISF1",
+                    "zero_order_r2": 0.901,
+                    "zero_order_K": 5.548,
+                    "first_order_r2": 0.007,
+                    "first_order_K": 0.025,
+                    "higuchi_r2": 0.987,
+                    "higuchi_K": 21.5,
+                    "korsmeyer_r2": 0.985,
+                    "korsmeyer_n": 0.375,
+                    "hixson_crowell_r2": 0.996,
+                    "hixson_crowell_K": -0.012,
+                    "release_mechanism": "Diffusion-mediated (n=0.375 indicates Fickian diffusion)"
+                },
+                {
+                    "batch": "065_ISF2",
+                    "zero_order_r2": 0.892,
+                    "zero_order_K": 6.707,
+                    "first_order_r2": 0.138,
+                    "first_order_K": 0.14,
+                    "higuchi_r2": 0.981,
+                    "higuchi_K": 26.06,
+                    "korsmeyer_r2": 0.985,
+                    "korsmeyer_n": 0.363,
+                    "hixson_crowell_r2": 0.787,
+                    "hixson_crowell_K": -0.302,
+                    "release_mechanism": "Diffusion-mediated (n=0.363 indicates Fickian diffusion), zero-order model fits well"
+                },
+                {
+                    "batch": "065_ISF3",
+                    "zero_order_r2": 0.762,
+                    "zero_order_K": 7.028,
+                    "first_order_r2": 0.446,
+                    "first_order_K": 0.283,
+                    "higuchi_r2": 0.936,
+                    "higuchi_K": 28.85,
+                    "korsmeyer_r2": 0.982,
+                    "korsmeyer_n": 0.32,
+                    "hixson_crowell_r2": 0.922,
+                    "hixson_crowell_K": -0.514,
+                    "release_mechanism": "Fickian diffusion (n=0.320)"
+                }
+            ]
+        },
+        "tablet_properties": {
+            "bilayer_batches_isf1_isf3": [
+                {
+                    "batch": "065_ISF1",
+                    "weight_variation_mg": "490±2%",
+                    "hardness_kg_per_cm2": "6.1±0.16",
+                    "thickness_mm": "2.83±0.54",
+                    "friability_percent": 0.604,
+                    "drug_content_percent_atenolol": "99.15±1.2",
+                    "drug_content_percent_simvastatin": "99.55±0.71",
+                    "floating_lag_time_min": 5,
+                    "total_floating_time_h": 12
+                },
+                {
+                    "batch": "065_ISF2",
+                    "weight_variation_mg": "494±1.2%",
+                    "hardness_kg_per_cm2": "5.5±0.18",
+                    "thickness_mm": "2.75±0.89",
+                    "friability_percent": 0.421,
+                    "drug_content_percent_atenolol": "100.51±0.4",
+                    "drug_content_percent_simvastatin": "100.29±0.69",
+                    "floating_lag_time_min": 7,
+                    "total_floating_time_h": 12
+                },
+                {
+                    "batch": "065_ISF3",
+                    "weight_variation_mg": "496±0.8%",
+                    "hardness_kg_per_cm2": "6.5±0.08",
+                    "thickness_mm": "2.48±0.14",
+                    "friability_percent": 0.616,
+                    "drug_content_percent_atenolol": "101.8±0.6",
+                    "drug_content_percent_simvastatin": "99.75±0.97",
+                    "floating_lag_time_min": 9,
+                    "total_floating_time_h": 8
+                }
+            ],
+            "disintegration_time": "Not specified (immediate release layer disintegrates rapidly)",
+            "stability": "Not specified"
+        },
+        "experimental_data": {
+            "key_results": {
+                "optimized_formulation": "065_ISF2",
+                "floating_properties": "Lag time 7 min, total float time 12 h",
+                "simvastatin_release": ">95% within 15 min",
+                "atenolol_release": "Complete release over 12 h without losing integrity",
+                "release_kinetics": "Zero-order with Fickian diffusion (n=0.363)"
+            },
+            "floating_study": {
+                "method": "Visual observation in 250 ml 0.1M HCl",
+                "floating_lag_time_range": "5-9 min",
+                "total_floating_time_range": "8-12 h",
+                "optimized_float_time": "12 h (065_ISF2)"
+            },
+            "swelling_index": "Not specified",
+            "statistical_analysis": "Mean ± SD reported for hardness, thickness, drug content (n values provided in Table 4)"
+        }
+    }
+}
