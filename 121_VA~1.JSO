@@ -1,0 +1,478 @@
+{
+    "article_summary": {
+        "title": "Vaginal Chitosan Tablets with Clotrimazole—Design and Evaluation of Mucoadhesive Properties Using Porcine Vaginal Mucosa, Mucin and Gelatine",
+        "authors": "Emilia Szymańska, Katarzyna Winnicka, Aleksandra Amelian, Urszula Cwalina",
+        "journal": "Chem. Pharm. Bull. 62(2) 160-167 (2014)",
+        "objective": "Develop mucoadhesive vaginal tablets with clotrimazole using chitosan to prolong drug residence time."
+    },
+    "sections": {
+        "abstract": "Pages 1-2",
+        "introduction": "Page 1",
+        "experimental": "Pages 2-3",
+        "results_and_discussion": "Pages 3-7",
+        "conclusion": "Page 7"
+    },
+    "materials_origin": {
+        "chitosan": {
+            "type": "Medium molecular weight (MMW)",
+            "deacetylation_degree": "75-85%",
+            "viscosity": "200 cP (1% solution in 1% acetic acid)",
+            "supplier": "Sigma-Aldrich, Steinheim, Germany"
+        },
+        "clotrimazole": {
+            "source": "Gift from Ziaja Ltd. (Gdansk, Poland)"
+        },
+        "excipients": {
+            "Prosolv_SMCC_50": "silicified microcrystalline cellulose, JRS Pharma, Rosenberg, Germany",
+            "Pruv": "sodium stearyl fumarate, JRS Pharma, Rosenberg, Germany",
+            "Tablettose_80": "spray-dried lactose, Cardinal Pharma Ltd., Lodz, Poland",
+            "potato_starch": "Galfarm, Krakow, Poland"
+        },
+        "porcine_vaginal_mucosa": {
+            "source": "Large White Pigs (~200 kg) from Bost slaughterhouse (Turosn Koscielna, Poland)",
+            "preparation": "Frozen at -20°C immediately after sacrifice, thawed at ambient temperature, cut into 2 cm long, 2 mm thick pieces"
+        },
+        "other_chemicals": {
+            "acetic_acid_80%": "Chempur, Piekary Slaskie, Poland",
+            "buffers": "sodium acetate, potassium dihydrogen phosphate, sodium hydroxide, disodium hydrogen phosphate from Chempur",
+            "methanol": "HPLC grade, Merck, Darmstadt, Germany",
+            "water": "distilled, passed through Milli-Q Reagent Water System"
+        }
+    },
+    "experimental_design_for_optimization": {
+        "method": "Preliminary experiments with constant drug and chitosan amounts, varying excipient blends to determine suitable weight ratio. Direct compression used.",
+        "optimization_criteria": "Mechanical stability, mucoadhesive properties, prolonged release.",
+        "selected_formulations": "121_F1, 121_F2, 121_F3 (121_F4 mechanically unstable)"
+    },
+    "ingredients_identification": {
+        "preparation_of_tablets": "Direct compression using single punch eccentric tablet press EP-1 with 12 mm flat-faced punches at 20 rpm. Blended powder mixed in mortar, sieved through 300 μm sieve.",
+        "characterization_methods": {
+            "HPLC": {
+                "conditions": "Isocratic, Zorbax Eclipse XDB-C18 column (4.6×150 mm, 5 μm), mobile phase methanol-phosphate buffer pH 7.4 (4:1 v/v), flow rate 1.0 mL/min, UV detection 210 nm, column temp 25°C, injection 20 μL, retention time 5.2 min, calibration 1-100 μg/mL"
+            },
+            "SEM": "Hirox SH-3000 mini-SEM, 15 kV, back-scattered electrons, low vacuum",
+            "DSC": "Q2000 (TA Instruments), 30-280°C at 30°C/min under nitrogen"
+        },
+        "equations_used": {
+            "swelling_index": "SI = (W2 - W1)/W1",
+            "release_kinetics": {
+                "zero_order": "f_t = k0 × t",
+                "first_order": "f_t = f_max × (1 - exp(-k1 t))",
+                "higuchi": "f_t = K √t",
+                "korsmeyer_peppas": "f_t = k_k × t^n"
+            }
+        }
+    },
+    "formulation_details": {
+        "batch_F1": {
+            "chitosan_percent": "10%",
+            "components_mg": {
+                "Clotrimazole": 100,
+                "Chitosan": 50,
+                "Prosolv SMCC-50": 89.35,
+                "Potato starch": 63.85,
+                "Tablettose 80": 191.8,
+                "Pruv": 5
+            },
+            "total_weight_mg": 500
+        },
+        "batch_F2": {
+            "chitosan_percent": "25%",
+            "components_mg": {
+                "Clotrimazole": 100,
+                "Chitosan": 125,
+                "Prosolv SMCC-50": 70,
+                "Potato starch": 50,
+                "Tablettose 80": 150,
+                "Pruv": 5
+            },
+            "total_weight_mg": 500
+        },
+        "batch_F3": {
+            "chitosan_percent": "40%",
+            "components_mg": {
+                "Clotrimazole": 100,
+                "Chitosan": 200,
+                "Prosolv SMCC-50": 50.5,
+                "Potato starch": 36,
+                "Tablettose 80": 108.5,
+                "Pruv": 5
+            },
+            "total_weight_mg": 500
+        },
+        "batch_F4": {
+            "chitosan_percent": "50%",
+            "components_mg": {
+                "Clotrimazole": 100,
+                "Chitosan": 250,
+                "Prosolv SMCC-50": 37.5,
+                "Potato starch": 27,
+                "Tablettose 80": 80.5,
+                "Pruv": 5
+            },
+            "total_weight_mg": 500,
+            "note": "Mechanically unstable"
+        }
+    },
+    "pre_compression_parameters": {
+        "note": "Data not explicitly reported for powder blends; only post-compression tablet properties available.",
+        "mixing": "Mortar mixing, sieved through 300 μm",
+        "flow_properties": "Not reported"
+    },
+    "independent_variables_and_levels": {
+        "variable": "Chitosan percentage",
+        "levels": [
+            "10% (121_F1)",
+            "25% (121_F2)",
+            "40% (121_F3)",
+            "50% (121_F4)"
+        ],
+        "fixed_parameters": {
+            "CLO_amount": "100 mg",
+            "total_weight": "~500 mg",
+            "excipient_ratio": "kept unalterable relative to drug and chitosan"
+        }
+    },
+    "ftir_info": {
+        "performed": false,
+        "alternative_technique": "DSC used to assess interactions"
+    },
+    "tablet_fabrications": {
+        "method": "Direct compression",
+        "equipment": "Single punch eccentric tablet press EP-1 (Erweka, Heusenstamm, Germany)",
+        "tooling": "Round, flat-faced 12 mm punches",
+        "speed": "20 rpm",
+        "coating": "None",
+        "hardness_determination": "Dr. Schleuninger Pharmatron hardness tester",
+        "friability": "Electrolab EF-1W friabilator, 25 rpm for 100 revolutions (4 min)",
+        "weight_variation": "Electronic balance Radwag WPS 110C/10",
+        "thickness_diameter": "Electronic calliper Beta 1651DGT",
+        "density": "Not reported",
+        "drug_content": "HPLC after extraction in methanol for 24h at 25±0.5°C, 250 rpm",
+        "consolidation_index": "Not reported"
+    },
+    "process_parameters": {
+        "compression_device": "Single punch eccentric tablet press EP-1",
+        "compression_pressure": "Not specified (adjusted to achieve target hardness)",
+        "temperature": "Room temperature (not explicitly stated)",
+        "humidity": "Not specified",
+        "speed": "20 rpm",
+        "coating_process": "No coating"
+    },
+    "release_properties": {
+        "batch_F1": {
+            "release_profile": "Almost 100% CLO released within first hour, similar to commercial control",
+            "release_mechanism": "Not kinetically evaluated (out of targeted profile limits)",
+            "factors_influencing": "Low chitosan (10%) leads to rapid erosion and drug dissolution",
+            "kinetics_parameters": null,
+            "release_profile_approximated": [
+                {
+                    "time_h": 0.25,
+                    "cumulative_release_percent": 85
+                },
+                {
+                    "time_h": 0.5,
+                    "cumulative_release_percent": 95
+                },
+                {
+                    "time_h": 0.75,
+                    "cumulative_release_percent": 98
+                },
+                {
+                    "time_h": 1,
+                    "cumulative_release_percent": 100
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_release_percent": 100
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_release_percent": 100
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_release_percent": 100
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_release_percent": 100
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_release_percent": 100
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_release_percent": 100
+                }
+            ]
+        },
+        "batch_F2": {
+            "release_profile": "Retarded up to 6 h, ~80% released at 4 h",
+            "release_mechanism": "Anomalous diffusion (non-Fickian), combination of diffusion and swelling control",
+            "factors_influencing": "Chitosan hydration and gel formation in acidic pH (4.5), slower disintegration",
+            "kinetics_parameters": {
+                "zero_order": {
+                    "k0": 0.702,
+                    "R2": 0.702
+                },
+                "first_order": {
+                    "k1": 0.004,
+                    "R2": 0.872
+                },
+                "higuchi": {
+                    "K": 3.095,
+                    "R2": 0.824
+                },
+                "korsmeyer_peppas": {
+                    "kk": 0.693,
+                    "n": 0.987,
+                    "R2": 0.987
+                }
+            },
+            "release_profile_approximated": [
+                {
+                    "time_h": 0.25,
+                    "cumulative_release_percent": 25
+                },
+                {
+                    "time_h": 0.5,
+                    "cumulative_release_percent": 35
+                },
+                {
+                    "time_h": 0.75,
+                    "cumulative_release_percent": 45
+                },
+                {
+                    "time_h": 1,
+                    "cumulative_release_percent": 55
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_release_percent": 70
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_release_percent": 77
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_release_percent": 82
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_release_percent": 85
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_release_percent": 87
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_release_percent": 88
+                }
+            ]
+        },
+        "batch_F3": {
+            "release_profile": "Retarded up to 6 h, ~80% released at 5 h",
+            "release_mechanism": "Anomalous diffusion, more pronounced swelling-controlled",
+            "factors_influencing": "Higher chitosan (40%) forms compact gel layer, further retards release",
+            "kinetics_parameters": {
+                "zero_order": {
+                    "k0": 0.209,
+                    "R2": 0.955
+                },
+                "first_order": {
+                    "k1": 0.005,
+                    "R2": 0.979
+                },
+                "higuchi": {
+                    "K": 4.919,
+                    "R2": 0.987
+                },
+                "korsmeyer_peppas": {
+                    "kk": 0.216,
+                    "n": 0.984,
+                    "R2": 0.984
+                }
+            },
+            "release_profile_approximated": [
+                {
+                    "time_h": 0.25,
+                    "cumulative_release_percent": 18
+                },
+                {
+                    "time_h": 0.5,
+                    "cumulative_release_percent": 25
+                },
+                {
+                    "time_h": 0.75,
+                    "cumulative_release_percent": 32
+                },
+                {
+                    "time_h": 1,
+                    "cumulative_release_percent": 38
+                },
+                {
+                    "time_h": 2,
+                    "cumulative_release_percent": 55
+                },
+                {
+                    "time_h": 3,
+                    "cumulative_release_percent": 68
+                },
+                {
+                    "time_h": 4,
+                    "cumulative_release_percent": 76
+                },
+                {
+                    "time_h": 5,
+                    "cumulative_release_percent": 81
+                },
+                {
+                    "time_h": 6,
+                    "cumulative_release_percent": 84
+                },
+                {
+                    "time_h": 7,
+                    "cumulative_release_percent": 86
+                }
+            ]
+        },
+        "batch_F4": {
+            "release_profile": "Not tested (mechanically unstable)",
+            "release_profile_approximated": null
+        }
+    },
+    "tablet_properties": {
+        "batch_F1": {
+            "weight_mg": "508 ± 5",
+            "deviation_from_avg_%": "0.94",
+            "diameter_mm": "12.07 ± 0.01",
+            "height_mm": "3.75 ± 0.05",
+            "friability_%": "0.42 ± 0.06",
+            "hardness_N": "72 ± 15",
+            "moisture_content_%": "0.25 ± 0.11",
+            "drug_content_uniformity_%": "104.6 ± 5.2",
+            "disintegration_time": "Not directly measured; swelling study showed 50% weight loss after 2h",
+            "dissolution_profile": "Rapid release, 100% at 1h",
+            "stability": "Not reported"
+        },
+        "batch_F2": {
+            "weight_mg": "494 ± 9",
+            "deviation_from_avg_%": "1.85",
+            "diameter_mm": "12.04 ± 0.01",
+            "height_mm": "3.70 ± 0.03",
+            "friability_%": "0.30 ± 0.08",
+            "hardness_N": "66 ± 6",
+            "moisture_content_%": "1.17 ± 0.41",
+            "drug_content_uniformity_%": "97.6 ± 6.1",
+            "disintegration_time": "Not directly; swelling index max 5.45 at 30 min, compact during study",
+            "dissolution_profile": "Sustained, 80% at 4h",
+            "stability": "Not reported"
+        },
+        "batch_F3": {
+            "weight_mg": "497 ± 10",
+            "deviation_from_avg_%": "2.01",
+            "diameter_mm": "12.07 ± 0.01",
+            "height_mm": "3.71 ± 0.07",
+            "friability_%": "0.53 ± 0.09",
+            "hardness_N": "67 ± 8",
+            "moisture_content_%": "0.64 ± 0.35",
+            "drug_content_uniformity_%": "103.6 ± 4.5",
+            "disintegration_time": "Not directly; swelling index max 3.81 at 30 min, compact",
+            "dissolution_profile": "Sustained, 80% at 5h",
+            "stability": "Not reported"
+        },
+        "batch_F4": {
+            "weight_mg": "474 ± 14",
+            "deviation_from_avg_%": "2.92",
+            "diameter_mm": "12.10 ± 0.02",
+            "height_mm": "4.08 ± 0.03",
+            "friability_%": "3.45 ± 0.62",
+            "hardness_N": "35 ± 8",
+            "moisture_content_%": "1.58 ± 0.48",
+            "drug_content_uniformity_%": "nt (not tested)",
+            "note": "Mechanically unstable"
+        }
+    },
+    "experimental_data": {
+        "control_release_profile": [
+            {
+                "time_h": 0.25,
+                "cumulative_release_percent": 88
+            },
+            {
+                "time_h": 0.5,
+                "cumulative_release_percent": 96
+            },
+            {
+                "time_h": 0.75,
+                "cumulative_release_percent": 99
+            },
+            {
+                "time_h": 1,
+                "cumulative_release_percent": 100
+            },
+            {
+                "time_h": 2,
+                "cumulative_release_percent": 100
+            },
+            {
+                "time_h": 3,
+                "cumulative_release_percent": 100
+            },
+            {
+                "time_h": 4,
+                "cumulative_release_percent": 100
+            },
+            {
+                "time_h": 5,
+                "cumulative_release_percent": 100
+            },
+            {
+                "time_h": 6,
+                "cumulative_release_percent": 100
+            },
+            {
+                "time_h": 7,
+                "cumulative_release_percent": 100
+            }
+        ],
+        "swelling_study": {
+            "method": "Tablets placed in 5 mL 0.08 M acetic buffer pH 4.5 at 37±0.5°C, weighed at intervals",
+            "results": {
+                "121_F1": "Rapid initial swelling, 50% weight loss after 2h due to erosion",
+                "121_F2": "Highest swelling index (SI) 5.45 at 30 min; compact, slight drop at end",
+                "121_F3": "SI 3.81 at 30 min; compact",
+                "121_F4": "Not tested"
+            },
+            "order": "121_F2 > 121_F1 > 121_F3 at 30 min"
+        },
+        "residence_time": {
+            "method": "Modified USP disintegration tester, porcine vaginal mucosa, pH 4.5 buffer, 37°C",
+            "results": "121_F2 and 121_F3 significantly longer than control and 121_F1; correlated with chitosan concentration (Fig. 5A)"
+        },
+        "mucoadhesive_properties": {
+            "method": "Texture analyser TA.XT.Plus, 5 kg load cell, contact force 1 N for 100 s, separation rate 0.1 mm/s",
+            "substrates": "Porcine vaginal mucosa, 30% gelatin discs, 10% mucin gel on cellulose",
+            "results": {
+                "121_F1": "Lower F_max and W_ad",
+                "121_F2": "Intermediate; plateau in mucoadhesion (not significantly different from 121_F3)",
+                "121_F3": "Highest values: F_max = 0.747 ± 0.188 N (median 0.671), W_ad = 1021.7 ± 365 μJ (median 961.3) on porcine mucosa",
+                "control": "Significantly lower than 121_F2/121_F3"
+            },
+            "note": "Gelatine discs showed better correlation to porcine mucosa and higher reproducibility than mucin gel."
+        },
+        "statistical_analysis": {
+            "tests": "Kruskal-Wallis and Mann-Whitney U-test, Statistica 10.0",
+            "significance_level": "p < 0.05",
+            "key_findings": "No significant difference in mucoadhesion between 121_F2 and 121_F3 (p > 0.05); 121_F2 and 121_F3 significantly better than control and 121_F1"
+        },
+        "performance_metrics": {
+            "best_formulation": "121_F2 (25% chitosan) – best balance of mucoadhesion, sustained release, and mechanical properties.",
+            "commercial_comparison": "121_F2 and 121_F3 provide prolonged residence time and retarded release vs. commercial vaginal tablets."
+        }
+    }
+}

@@ -1,0 +1,481 @@
+{
+    "article_metadata": {
+        "title": "Design and evaluation of effervescent floating tablets based on hydroxyethyl cellulose and sodium alginate using pentoxifylline as a model drug",
+        "journal": "Drug Design, Development and Therapy",
+        "year": 2015,
+        "model_drug": "Pentoxifylline",
+        "formulation_codes": [
+            "123_F1",
+            "123_F2"
+        ],
+        "overall_conclusion": "Effervescent floating matrix tablets containing pentoxifylline with HEC and sodium alginate were successfully prepared; formulations with 20% w/w sodium bicarbonate at 50–54 N hardness showed acceptable floating, swelling, and sustained release over 24 h in 0.1 N HCl (pH 1.2). [file:1]"
+    },
+    "sections_location": {
+        "abstract": "First page, before Introduction. [file:1]",
+        "introduction": "After abstract, describes gastroretentive systems and rationale for pentoxifylline and floating tablets. [file:1]",
+        "materials_and_methods": {
+            "materials": "Subsection 'Materials' lists origin of pentoxifylline, sodium alginate, sodium bicarbonate, Prosolv 90, hydroxyethyl cellulose (Natrosol 250-HHX), magnesium stearate. [file:1]",
+            "granulation_and_tablet_preparation": "Subsections 'Granulation', 'Powder mixtures and granules evaluation', 'Tablets preparation', and 'Evaluation of tablets'. [file:1]",
+            "FTIR_DSC": "Subsections 'Differential scanning calorimetry study' and 'Fourier-transform infrared spectroscopy'. [file:1]",
+            "in_vitro_tests": "Subsections on 'Tablet floating capacity', 'Swelling and erosion studies', 'In vitro drug release studies', 'Release data modeling and analysis', and 'Statistical analysis'. [file:1]"
+        },
+        "results_and_discussion": "From 'Results and discussion' onward: moisture content, Carr’s index, DSC, FTIR, physical properties, floating, swelling, erosion, dissolution, and modeling. [file:1]",
+        "conclusion": "Final 'Conclusion' section summarizing optimal formulation and behavior. [file:1]"
+    },
+    "materials_origin": {
+        "pentoxifylline": {
+            "type": "API",
+            "supplier": "Sigma-Aldrich, UK",
+            "properties_mentioned": {
+                "solubility": "191 mg/mL in water at 37 °C",
+                "half_life": "Approximately 1–2 h (short half-life) used as model highly water-soluble, high-density drug",
+                "dose_per_tablet": "60 mg per tablet for both 123_F1 and 123_F2"
+            },
+            "reference": "[file:1]"
+        },
+        "sodium_alginate": {
+            "viscosity_grade": "15–20 cP",
+            "supplier": "Sigma-Aldrich, UK",
+            "particle_size_used": "350 µm cut to improve compression compared with 180 µm cut",
+            "role": "Gel-forming polymer for floating matrix",
+            "reference": "[file:1]"
+        },
+        "hydroxyethyl_cellulose": {
+            "grade": "Natrosol 250-HHX",
+            "supplier": "Ashland, USA",
+            "role": "Hydrophilic gel-forming matrix polymer",
+            "reference": "[file:1]"
+        },
+        "prosolv_90": {
+            "description": "Silicified microcrystalline cellulose",
+            "supplier": "JRS Pharma, Germany",
+            "role": "Filler to enhance compression properties",
+            "reference": "[file:1]"
+        },
+        "sodium_bicarbonate": {
+            "supplier": "Sigma-Aldrich, UK",
+            "role": "Effervescent gas-forming agent to generate CO2 for floating",
+            "true_density": "Approximately 2.17 g/cm³ mentioned in discussion",
+            "levels_used": [
+                "10% w/w in 123_F1",
+                "20% w/w in 123_F2"
+            ],
+            "reference": "[file:1]"
+        },
+        "magnesium_stearate": {
+            "supplier": "MEDEX, UK",
+            "role": "Lubricant",
+            "reference": "[file:1]"
+        }
+    },
+    "experimental_design_for_optimization": {
+        "objective": "To design and evaluate effervescent floating gastro-retentive matrix tablets with sustained release using mixtures of hydroxyethyl cellulose and sodium alginate, and to study the effects of granulation, sodium bicarbonate level, and tablet hardness. [file:1]",
+        "independent_variables": [
+            {
+                "name": "sodium_bicarbonate_content",
+                "levels": [
+                    "0% w/w (nonfloating control)",
+                    "10% w/w (123_F1)",
+                    "20% w/w (123_F2)"
+                ],
+                "type": "formulation factor",
+                "reference": "[file:1]"
+            },
+            {
+                "name": "tablet_hardness",
+                "levels_N": [
+                    "50–54 (Level A)",
+                    "54–59 (Level B)",
+                    "59–64 (Level C; attainable only from powder, not from granules for 123_F1/123_F2)"
+                ],
+                "device": "Schleuniger hardness tester Model 2E205",
+                "reference": "[file:1]"
+            },
+            {
+                "name": "production_route",
+                "levels": [
+                    "direct compression from powder mixture",
+                    "wet granulation then compression"
+                ],
+                "purpose": "To compare flow, density, floating capacity, and release behavior before and after granulation.",
+                "reference": "[file:1]"
+            }
+        ],
+        "responses_measured": [
+            "Moisture content and Carr’s index (flow properties)",
+            "Tablet hardness, friability, weight uniformity, content uniformity",
+            "Apparent density, porosity",
+            "Floating lag time and total floating duration",
+            "Swelling and erosion (% medium uptake, % mass loss)",
+            "Dissolution profile (% drug released vs time in 0.1 N HCl, pH 1.2, 24 h)",
+            "Release kinetics (Korsmeyer–Peppas model parameters n and Kp)",
+            "Statistical significance via paired t-test and ANOVA"
+        ],
+        "statistical_methods": {
+            "software": "SPSS 21",
+            "tests": [
+                "paired-sample t-test",
+                "one-way ANOVA",
+                "post hoc multiple comparisons when needed"
+            ],
+            "significance_level": "P ≤ 0.05 considered statistically significant",
+            "reference": "[file:1]"
+        }
+    },
+    "ingredients_identification_preparation": {
+        "powder_preparation": {
+            "sieving": "All powders passed through 180 µm sieve; sodium alginate used at 350 µm cut to mitigate compression problems. [file:1]",
+            "mixing": "Turbula mixer at 60 rpm for 10 min for powder blends. [file:1]"
+        },
+        "wet_granulation": {
+            "binder": "0.5% w/w water added to powder mixture",
+            "equipment": "Kenwood Chef/Kneader mixer, 10 min mixing, mass passed through 1000 µm sieve",
+            "drying": "Drying oven at 60 °C overnight; then granules collected at 853 µm size fraction",
+            "reference": "[file:1]"
+        },
+        "granule_evaluation": {
+            "moisture_content": "Measured using Mettler Toledo HG53 halogen moisture analyzer; values reported as mean ± SD for 123_F1 and 123_F2 pre- and post-granulation. [file:1]",
+            "flow_properties": "Carr’s index calculated from bulk and tapped densities using tapping apparatus (Copley JV1000). [file:1]"
+        },
+        "UV_calibration": {
+            "method": "UV–Vis spectrophotometry at 274 nm in 0.1 N HCl for pentoxifylline; calibration curve prepared with triplicate measurements. [file:1]"
+        }
+    },
+    "formulation_details": {
+        "123_F1": {
+            "description": "Floating matrix tablet with 10% w/w sodium bicarbonate.",
+            "tablet_target_weight_mg": 278.89,
+            "composition_per_tablet_mg": {
+                "pentoxifylline": 60.0,
+                "hydroxyethyl_cellulose": 70.0,
+                "sodium_alginate": 70.0,
+                "prosolv_90": 50.0,
+                "sodium_bicarbonate": 27.5,
+                "magnesium_stearate": "small amount to reach total tablet weight; difference due to lubricant content",
+                "reference": "[file:1]"
+            },
+            "approximate_fraction_of_tablet_mass": {
+                "API_percent": "≈21.5% w/w pentoxifylline",
+                "sodium_bicarbonate_percent": "10% w/w relative to matrix composition as stated by authors",
+                "reference": "[file:1]"
+            }
+        },
+        "123_F2": {
+            "description": "Floating matrix tablet with 20% w/w sodium bicarbonate.",
+            "tablet_target_weight_mg": 314.06,
+            "composition_per_tablet_mg": {
+                "pentoxifylline": 60.0,
+                "hydroxyethyl_cellulose": 70.0,
+                "sodium_alginate": 70.0,
+                "prosolv_90": 50.0,
+                "sodium_bicarbonate": 62.5,
+                "magnesium_stearate": "small amount to reach total tablet weight; difference due to lubricant content",
+                "reference": "[file:1]"
+            },
+            "approximate_fraction_of_tablet_mass": {
+                "API_percent": "≈19% w/w pentoxifylline",
+                "sodium_bicarbonate_percent": "20% w/w relative to matrix composition as stated by authors",
+                "reference": "[file:1]"
+            }
+        },
+        "nonfloating_control": {
+            "description": "Similar HEC–sodium alginate matrix tablets without sodium bicarbonate (0% w/w) used as control in swelling, erosion, and release modeling.",
+            "detailed_composition": "Not fully tabulated in text; assumed to contain same polymer–filler–drug ratios as 123_F1/123_F2 without gas-former.",
+            "reference": "[file:1]"
+        }
+    },
+    "precompression_parameters": {
+        "granules_and_powder": {
+            "moisture_content_F1": {
+                "powder_mixture_percent": "Approximately 5–6% (higher before granulation)",
+                "granules_percent": "Approximately 4% (significant reduction after granulation)",
+                "effect": "Granulation significantly reduced moisture for 123_F1 (P < 0.05).",
+                "reference": "[file:1]"
+            },
+            "moisture_content_F2": {
+                "powder_mixture_percent": "Approximately 4–5%",
+                "granules_percent": "Approximately 3–4% (significant reduction after granulation)",
+                "reference": "[file:1]"
+            },
+            "carr_index_F1": {
+                "powder_mixture": "Poor flow (high Carr’s index, ~28%)",
+                "granules": "Improved to fair flow (~17%; significant improvement, P < 0.05)",
+                "reference": "[file:1]"
+            },
+            "carr_index_F2": {
+                "powder_mixture": "Poor flow (~29%)",
+                "granules": "Improved (~18%; significant improvement, P < 0.05)",
+                "reference": "[file:1]"
+            }
+        }
+    },
+    "independent_variables_levels": {
+        "design_matrix": [
+            {
+                "formulation": "123_F1",
+                "sodium_bicarbonate_percent": 10,
+                "hardness_levels_N": [
+                    "50–54 (A)",
+                    "54–59 (B)"
+                ],
+                "production_routes": [
+                    "powder_direct_compression",
+                    "wet_granulation_then_compression"
+                ],
+                "floating": "Floating formulations when NaHCO3 used; 123_F1 tablets floated for 8–12 h depending on route and hardness.",
+                "reference": "[file:1]"
+            },
+            {
+                "formulation": "123_F2",
+                "sodium_bicarbonate_percent": 20,
+                "hardness_levels_N": [
+                    "50–54 (A)",
+                    "54–59 (B)"
+                ],
+                "production_routes": [
+                    "powder_direct_compression",
+                    "wet_granulation_then_compression"
+                ],
+                "floating": "123_F2 tablets floated for 24 h at both hardness levels for granule-based and powder-based tablets.",
+                "reference": "[file:1]"
+            },
+            {
+                "formulation": "control_nonfloating",
+                "sodium_bicarbonate_percent": 0,
+                "hardness_levels_N": [
+                    "Level A (around 50–54 N)"
+                ],
+                "production_routes": [
+                    "granules only"
+                ],
+                "floating": "Nonfloating, used for comparison of swelling and erosion.",
+                "reference": "[file:1]"
+            }
+        ]
+    },
+    "ftir_measurements": {
+        "instrument": "Perkin Elmer FT-IR system, Spectrum BX series",
+        "wavenumber_range_cm_minus1": "4000–620",
+        "resolution_cm_minus1": 4,
+        "sample_presentation": "Small quantity placed on sample stage and compressed by twisting arm; spectra acquired via Spectrum BX software. [file:1]",
+        "pentoxifylline_characteristic_bands_cm_minus1": {
+            "C_H_stretch": "≈2945",
+            "C_O_stretch": "≈1701",
+            "amide_C_O_stretch": "≈1658",
+            "CH3_deformation": "≈1433",
+            "CH2n_skeletal_vibration": "≈752",
+            "reference": "[file:1]"
+        },
+        "compatibility_results": {
+            "F1_F2_powder_and_granules": "Pentoxifylline characteristic peaks appeared at similar wavenumbers in mixtures and granules, indicating no chemical incompatibility with excipients.",
+            "conclusion": "No new peaks or major shifts indicative of strong interactions; formulation components are compatible.",
+            "reference": "[file:1]"
+        }
+    },
+    "tablet_fabrication": {
+        "equipment": {
+            "tablet_press": "Single-punch tableting machine Type 3, Manesty Machines Ltd, UK, with flat-faced 9.60 mm punches.",
+            "hardness_tester": "Schleuniger Model 2E205, Switzerland.",
+            "friability_tester": "Copley FRV 1000, UK.",
+            "dissolution_apparatus": "USP Apparatus II, Erweka GmbH, Germany.",
+            "moisture_analyzer": "Mettler Toledo HG53.",
+            "tapping_apparatus": "Copley JV1000.",
+            "true_density_measurement": "Multipycnometer MVP-D160-E, Quantachrome Instruments, USA.",
+            "reference": "[file:1]"
+        },
+        "hardness_targets": {
+            "level_A": "50–54 N",
+            "level_B": "54–59 N",
+            "level_C": "59–64 N (not achievable post-granulation for 123_F1 and 123_F2)",
+            "reference": "[file:1]"
+        },
+        "F1_properties_granules": {
+            "hardness_level_A": {
+                "hardness_mean_kg": 5.2,
+                "friability_percent": "≈0.8 (within pharmacopeial limit <1%)",
+                "tablet_weight_g_mean": "≈0.29",
+                "drug_content_mg_mean": "≈57–58 (within 85–115% of label claim per tablet)",
+                "density_g_per_cm3": "≈1.26 at A",
+                "thickness_cm": "≈0.30",
+                "content_uniformity": "Meets BP requirements.",
+                "reference": "[file:1]"
+            },
+            "hardness_level_B": {
+                "hardness_mean_kg": 5.7,
+                "friability_percent": "≈0.6",
+                "tablet_weight_g_mean": "≈0.29",
+                "drug_content_mg_mean": "≈57",
+                "density_g_per_cm3": "≈1.29",
+                "thickness_cm": "≈0.30",
+                "reference": "[file:1]"
+            }
+        },
+        "F2_properties_granules": {
+            "hardness_level_A": {
+                "hardness_mean_kg": 5.0,
+                "friability_percent": "≈0.88",
+                "tablet_weight_g_mean": "≈0.32",
+                "drug_content_mg_mean": "≈56–57",
+                "density_g_per_cm3": "≈1.32",
+                "thickness_cm": "≈0.33",
+                "reference": "[file:1]"
+            },
+            "hardness_level_B": {
+                "hardness_mean_kg": 5.9,
+                "friability_percent": "≈0.66",
+                "tablet_weight_g_mean": "≈0.31",
+                "drug_content_mg_mean": "≈53–54",
+                "density_g_per_cm3": "≈1.36",
+                "thickness_cm": "≈0.32",
+                "reference": "[file:1]"
+            }
+        },
+        "consolidation_index_porosity": {
+            "apparent_density": "Increased with hardness and decreased after granulation, depending on formulation and NaHCO3 level. [file:1]",
+            "porosity_percent": "Decreased with higher hardness and with granulation; higher NaHCO3 reduced porosity further.",
+            "reference": "[file:1]"
+        }
+    },
+    "process_parameters": {
+        "compression_process": {
+            "machine": "Single-punch Manesty Type 3, flat-faced 9.60 mm tools.",
+            "process": "Automatic compression from granules and manual compression from powder blends to achieve desired hardness levels.",
+            "hardness_control": "Adjusted via compression force to reach levels A–C; level C not achievable post-granulation for 123_F1/123_F2 due to elastic recovery of sodium alginate.",
+            "reference": "[file:1]"
+        },
+        "coating": {
+            "status": "No tablet coating reported; tablets are uncoated matrices.",
+            "reference": "[file:1]"
+        },
+        "environment_conditions": {
+            "granule_drying_temperature": "60 °C (overnight in drying oven).",
+            "FTIR_conditions": "Room temperature; spectra collected from 4000–620 cm−1.",
+            "DSC_conditions": "Scan from 0–300 °C at 10 °C/min.",
+            "dissolution_temperature": "37 ± 0.5 °C in 0.1 N HCl (pH 1.2), paddle speed 50 rpm.",
+            "reference": "[file:1]"
+        }
+    },
+    "release_properties": {
+        "medium_and_conditions": {
+            "medium": "0.1 N HCl, pH 1.2",
+            "volume_mL": 900,
+            "apparatus": "USP II, paddle, 50 rpm",
+            "temperature_C": "37 ± 0.5",
+            "sampling_times_h": [
+                0.5,
+                1,
+                2,
+                4,
+                6,
+                8,
+                12,
+                24
+            ],
+            "sink_conditions": "Maintained; solubility of pentoxifylline is high relative to dose.",
+            "reference": "[file:1]"
+        },
+        "floating_and_release_mechanism": {
+            "F1_granule_tablets": {
+                "floating_lag_time_min": {
+                    "level_A": "≈6.5 (longer than powder-based 123_F1 at same hardness)",
+                    "level_B": "≈9.8",
+                    "reference": "[file:1]"
+                },
+                "total_floating_duration_h": "≈8 h (123_F1 granule tablets sank before 24 h).",
+                "release_mechanism_Korsmeyer_Peppas": {
+                    "level_A": {
+                        "n": "≈0.58",
+                        "Kp": "≈0.19",
+                        "R2": "≈0.999",
+                        "mechanism": "Anomalous (non-Fickian) transport with contributions from diffusion and polymer relaxation."
+                    },
+                    "level_B": {
+                        "n": "≈0.67",
+                        "Kp": "≈0.20",
+                        "R2": "≈0.999",
+                        "mechanism": "Anomalous (non-Fickian)."
+                    },
+                    "reference": "[file:1]"
+                }
+            },
+            "F2_granule_tablets": {
+                "floating_lag_time_min": {
+                    "level_A": "≈4.1",
+                    "level_B": "≈4.5",
+                    "reference": "[file:1]"
+                },
+                "total_floating_duration_h": "≈24 h for both hardness levels.",
+                "release_mechanism_Korsmeyer_Peppas": {
+                    "level_A": {
+                        "n": "≈0.68",
+                        "Kp": "≈0.14",
+                        "R2": "≈0.99",
+                        "mechanism": "Anomalous (non-Fickian) with more pronounced polymer relaxation."
+                    },
+                    "level_B": {
+                        "n": "≈0.61",
+                        "Kp": "≈0.16",
+                        "R2": "≈0.99",
+                        "mechanism": "Anomalous (non-Fickian)."
+                    },
+                    "reference": "[file:1]"
+                }
+            },
+            "nonfloating_control_granules": {
+                "floating": "Did not float (0% NaHCO3).",
+                "release_mechanism": {
+                    "n": "≈0.59",
+                    "Kp": "≈0.22",
+                    "R2": "≈0.997",
+                    "mechanism": "Anomalous (non-Fickian)."
+                },
+                "reference": "[file:1]"
+            }
+        },
+        "release_kinetics_summary": {
+            "overall": "Most granule-based formulations (floating and nonfloating) exhibit non-Fickian (anomalous) release as per the Korsmeyer–Peppas model, indicating combined diffusion and polymer relaxation/erosion. Increasing hardness tends to reduce Kp for powder-based tablets; granulation generally lowers Kp and increases n. [file:1]",
+            "zero_first_order": "The article focuses on Korsmeyer–Peppas modeling rather than fitting detailed zero-order/first-order parameters; numeric zero/first-order constants are not tabulated.",
+            "reference": "[file:1]"
+        }
+    },
+    "tablet_properties_and_experimental_data": {
+        "swelling_water_uptake": {
+            "method": "Determined by medium uptake (DMU) at time intervals up to 24 h; tablets withdrawn, blotted, weighed wet, then dried at 60 °C to constant weight.",
+            "formulas": {
+                "DMU_percent": "DMU = (Ww - Wi) / Wi × 100",
+                "mass_loss_percent": "ML = (Wi - Wd) / Wi × 100"
+            },
+            "results_summary": {
+                "trend_F2": "Higher NaHCO3 (20% w/w) produced lower net swelling but higher mass loss due to more effervescence and longer floating, compared with nonfloating tablets and F1.",
+                "trend_F1": "123_F1 granule tablets showed higher medium uptake near 24 h than 123_F2 when they had sunk and all surfaces were exposed.",
+                "nonfloating": "Nonfloating tablets showed highest swelling but lowest mass loss, as they remained fully submerged without effervescence.",
+                "reference": "[file:1]"
+            }
+        },
+        "tablet_mechanical_properties": {
+            "hardness": "All 123_F1/123_F2 granule tablets at levels A and B showed hardness around 5–6 kg with low variability (SD < 0.5 kg). [file:1]",
+            "friability": "All <1% weight loss, meeting BP requirements; 123_F2 slightly higher friability at level A due to higher NaHCO3 content.",
+            "weight_variation": "Twenty tablets tested for each formulation; deviations within BP limits.",
+            "thickness_and_diameter": "Diameter fixed at 9.60 mm; thickness decreased slightly with increased hardness.",
+            "reference": "[file:1]"
+        },
+        "dissolution_profile": {
+            "qualitative_F1": "Granule-based 123_F1 tablets at level A released drug more slowly than powder-based 123_F1 at same hardness; increasing hardness reduced release rate. 123_F1 provided sustained release up to 24 h but with incomplete floating duration.",
+            "qualitative_F2": "Granule-based 123_F2 at level A showed slower release than 123_F1 and nonfloating tablets due to longer floating and lower swelling. Increasing NaHCO3 from 10 to 20% decreased release rate for granule-based tablets but increased it for powder-based tablets (due to pore formation from gas).",
+            "reference": "[file:1]"
+        },
+        "stability": {
+            "formal_stability_study": "Not reported; study focuses on immediate post-manufacture performance, not long-term stability.",
+            "reference": "[file:1]"
+        },
+        "statistical_analysis_results": {
+            "examples": [
+                "Granulation significantly reduced moisture content and Carr’s index (P < 0.05) for both 123_F1 and F2.",
+                "Granulation significantly affected apparent density, porosity, floating lag time, and release profile in many cases (P < 0.05).",
+                "Raising NaHCO3 from 10 to 20% significantly changed floating lag time and drug release profiles for powder-based tablets; effect was attenuated after granulation.",
+                "Korsmeyer–Peppas fits showed R² values mostly >0.98, supporting the chosen model."
+            ],
+            "reference": "[file:1]"
+        }
+    }
+}

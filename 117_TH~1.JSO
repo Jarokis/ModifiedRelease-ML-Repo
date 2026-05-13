@@ -1,0 +1,663 @@
+{
+    "article_info": {
+        "title": "The application of povidone in the preparation of modified release tablets",
+        "authors": "Regina Kasperek, Lukasz Zimmer, Maria Zun, Dorota Dwornicka, Katarzyna Wojciechowska, Ewa Poleszak",
+        "journal": "Medical University of Lublin, 2016",
+        "abstract": "Tablets containing different types of povidone (Kollidon CL, Kollidon 30, Kollidon SR) and other excipients were prepared by direct compression. Fast-disintegrating tablets contained Kollidon CL, lactose, and Avicel; substitution with β-CD prolonged disintegration. Prolonged-release tablets (117_T5 and 117_T8) best fitted the Higuchi model, with release mechanism following Korsmeyer-Peppas anomalous (non-Fickian) transport."
+    },
+    "materials_origin": {
+        "papaverine_hydrochloride": "Farm-Impex Sp. J., Poland",
+        "microcrystalline_cellulose_Avicel_PH_102": "FMC BioPolymer, Belgium",
+        "β_lactose": "Sigma Aldrich",
+        "Kollidon_CL_Kollidon_SR_Kollidon_30": "BASF, Germany (gift)",
+        "Methocel_K15M_HPMC": "Colorcon, England (gift)",
+        "Kleptose_DC_beta_cyclodextrin": "Roquette, Lestrem (gift)",
+        "magnesium_stearate": "POCH Gliwice, Poland",
+        "other_reagents": "analytical grade, distilled water freshly distilled"
+    },
+    "experimental_design": {
+        "method": "Direct compression",
+        "model_drug": "Papaverine hydrochloride (PAP)",
+        "tablet_weight": "200 mg",
+        "compression_force": "4 kN",
+        "punch_diameter": "9 mm round",
+        "equipment": "Single Punch Tablet Press EP1 (Erweka, Germany)",
+        "mixing": "Cube mixer (Erweka, Germany) for 15 min, passed through mesh No. 40, then lubricated with Mg stearate for 5 min",
+        "dissolution_apparatus": "Ph Eur. Apparatus 2 (paddle), Erweka, Germany, 75 rpm, 900 mL medium at 37±0.5°C",
+        "uv_spectrophotometry": "PAP at 251 nm (0.1M HCl) and 238 nm (phosphate buffer pH 6.8); Beer's law 2.5-20 μg/mL"
+    },
+    "formulations": [
+        {
+            "batch": "117_T1",
+            "composition_mg": {
+                "PAP": 50,
+                "Kollidon_SR": 0,
+                "HPMC_K15M": 0,
+                "Kollidon_30": 0,
+                "Kollidon_CL": 2,
+                "Lactose": 76,
+                "Avicel_PH_102": 70,
+                "beta_CD": 0,
+                "Magnesium_stearate": 2
+            },
+            "pre_compression": {
+                "angle_of_repose": "39.2±1.12",
+                "Carr_index_percent": "20.0±0.92",
+                "flow_character": "Fair"
+            },
+            "tablet_properties": {
+                "weight_mg_mean_SD": "201±0.84",
+                "thickness_mm_SD": "2.58±0.05",
+                "disintegration_time_s_SD": "25±5",
+                "hardness_kN_SD": "7.6±0.1",
+                "friability_percent": 0.17,
+                "wetting_time_s_SD": "13.4±3",
+                "de_aggregation_time_s_SD": "24±6",
+                "drug_content_percent_PAP_SD": "97.48±1.53"
+            },
+            "release_profiles": {
+                "0.1M_HCl": {
+                    "time_min": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        5,
+                        10,
+                        15,
+                        20
+                    ],
+                    "release_percent": [
+                        75,
+                        92.5,
+                        94,
+                        94.5,
+                        95,
+                        95.5,
+                        96,
+                        96
+                    ]
+                },
+                "phosphate_buffer_pH6.8": {
+                    "time_min": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        5,
+                        10,
+                        15,
+                        20
+                    ],
+                    "release_percent": [
+                        45,
+                        62,
+                        68,
+                        70,
+                        72,
+                        73,
+                        73.5,
+                        74
+                    ]
+                }
+            },
+            "release_properties": {
+                "medium_0.1M_HCl": "92.5% PAP released within 1 min, >80% within 3 min",
+                "medium_phosphate_buffer_pH6.8": "~70% within 3 min",
+                "classification": "Orally disintegrating tablet (ODT)"
+            }
+        },
+        {
+            "batch": "117_T2",
+            "composition_mg": {
+                "PAP": 50,
+                "Kollidon_SR": 0,
+                "HPMC_K15M": 0,
+                "Kollidon_30": 0,
+                "Kollidon_CL": 2,
+                "Lactose": 70,
+                "Avicel_PH_102": 70,
+                "beta_CD": 76,
+                "Magnesium_stearate": 2
+            },
+            "pre_compression": {
+                "angle_of_repose": "39.0±0.64",
+                "Carr_index_percent": "20.0±1.59",
+                "flow_character": "Fair"
+            },
+            "tablet_properties": {
+                "weight_mg_mean_SD": "202±0.55",
+                "thickness_mm_SD": "2.67±0.02",
+                "disintegration_time_s_SD": "45±3",
+                "hardness_kN_SD": "8.4±0.08",
+                "friability_percent": 0.2,
+                "wetting_time_s_SD": "52.2±8",
+                "de_aggregation_time_s_SD": "77±8",
+                "drug_content_percent_PAP_SD": "97.51±2.71"
+            },
+            "release_profiles": {
+                "0.1M_HCl": {
+                    "time_min": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        5,
+                        10,
+                        15,
+                        20
+                    ],
+                    "release_percent": [
+                        65,
+                        82,
+                        92,
+                        95.6,
+                        96,
+                        96.5,
+                        97,
+                        97
+                    ]
+                },
+                "phosphate_buffer_pH6.8": {
+                    "time_min": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        5,
+                        10,
+                        15,
+                        20
+                    ],
+                    "release_percent": [
+                        40,
+                        55,
+                        64,
+                        68.6,
+                        70,
+                        71,
+                        71.5,
+                        72
+                    ]
+                }
+            },
+            "release_properties": {
+                "medium_0.1M_HCl": "95.6% PAP released within 3 min",
+                "medium_phosphate_buffer_pH6.8": "68.6% within 3 min",
+                "classification": "Fast-disintegrating"
+            }
+        },
+        {
+            "batch": "117_T3",
+            "composition_mg": {
+                "PAP": 50,
+                "Kollidon_SR": 0,
+                "HPMC_K15M": 0,
+                "Kollidon_30": 0,
+                "Kollidon_CL": 2,
+                "Lactose": 68,
+                "Avicel_PH_102": 0,
+                "beta_CD": 76,
+                "Magnesium_stearate": 2
+            },
+            "pre_compression": {
+                "angle_of_repose": "34.9±1.62",
+                "Carr_index_percent": "17.1±1.16",
+                "flow_character": "Good and fair"
+            },
+            "tablet_properties": {
+                "weight_mg_mean_SD": "201±0.90",
+                "thickness_mm_SD": "2.56±0.04",
+                "disintegration_time_s_SD": "150±5",
+                "hardness_kN_SD": "7.6±0.09",
+                "friability_percent": 0.35,
+                "wetting_time_s_SD": "91.6±10",
+                "de_aggregation_time_s_SD": "245±12",
+                "drug_content_percent_PAP_SD": "94.90±3.24"
+            },
+            "release_profiles": {
+                "0.1M_HCl": {
+                    "time_min": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        5,
+                        10,
+                        15,
+                        20
+                    ],
+                    "release_percent": [
+                        50,
+                        68,
+                        78,
+                        84,
+                        89,
+                        93,
+                        95,
+                        96
+                    ]
+                },
+                "phosphate_buffer_pH6.8": {
+                    "time_min": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        5,
+                        10,
+                        15,
+                        20
+                    ],
+                    "release_percent": [
+                        35,
+                        50,
+                        63,
+                        71.9,
+                        75,
+                        78,
+                        79,
+                        80
+                    ]
+                }
+            },
+            "release_properties": {
+                "medium_0.1M_HCl": ">80% within 5 min",
+                "medium_phosphate_buffer_pH6.8": "71.9% within 3 min",
+                "classification": "Fast-disintegrating but prolonged relative to 117_T1/117_T2"
+            }
+        },
+        {
+            "batch": "117_T4",
+            "composition_mg": {
+                "PAP": 50,
+                "Kollidon_SR": 80,
+                "HPMC_K15M": 0,
+                "Kollidon_30": 0,
+                "Kollidon_CL": 0,
+                "Lactose": 0,
+                "Avicel_PH_102": 0,
+                "beta_CD": 0,
+                "Magnesium_stearate": 2,
+                "note": "Total sum from table is 132 mg; missing filler (likely 68 mg) not specified in OCR."
+            },
+            "pre_compression": {
+                "angle_of_repose": "32.6±0.74",
+                "Carr_index_percent": "12.0±1.43",
+                "flow_character": "Good"
+            },
+            "tablet_properties": {
+                "weight_mg_mean_SD": "197±0.59",
+                "thickness_mm_SD": "2.75±0.06",
+                "disintegration_time_s": ">900",
+                "hardness_kN_SD": "8.1±0.1",
+                "friability_percent": 0.23,
+                "wetting_time": "Not reported",
+                "de_aggregation_time": "Not reported",
+                "drug_content_percent_PAP_SD": "99.41±0.67"
+            },
+            "release_profiles": {
+                "sequential_0.1M_HCl_then_pH6.8": {
+                    "time_h": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12,
+                        24
+                    ],
+                    "release_percent": [
+                        12,
+                        22,
+                        36,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        44,
+                        50
+                    ],
+                    "medium_change_at_h": 2
+                }
+            },
+            "release_properties": {
+                "medium_0.1M_HCl_2h": "35-37% PAP released",
+                "phosphate_buffer_pH6.8_10h": "40-42%",
+                "phosphate_buffer_pH6.8_24h": "~50%",
+                "best_fit_kinetic_model": "Korsmeyer-Peppas (R² not given)",
+                "release_mechanism": "Not specified for 117_T4 individually"
+            }
+        },
+        {
+            "batch": "117_T5",
+            "composition_mg": {
+                "PAP": 50,
+                "Kollidon_SR": 80,
+                "HPMC_K15M": 0,
+                "Kollidon_30": 68,
+                "Kollidon_CL": 0,
+                "Lactose": 0,
+                "Avicel_PH_102": 0,
+                "beta_CD": 0,
+                "Magnesium_stearate": 2,
+                "note": "Sum = 200 mg (50+80+68+2)"
+            },
+            "pre_compression": {
+                "angle_of_repose": "33.5±0.83",
+                "Carr_index_percent": "17.1±0.50",
+                "flow_character": "Good and fair"
+            },
+            "tablet_properties": {
+                "weight_mg_mean_SD": "202±0.57",
+                "thickness_mm_SD": "3.09±0.05",
+                "disintegration_time_s": ">900",
+                "hardness_kN_SD": "8.2±0.1",
+                "friability_percent": 0.25,
+                "wetting_time": "Not reported",
+                "de_aggregation_time": "Not reported",
+                "drug_content_percent_PAP_SD": "96.89±2.98"
+            },
+            "release_profiles": {
+                "sequential_0.1M_HCl_then_pH6.8": {
+                    "time_h": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12,
+                        24
+                    ],
+                    "release_percent": [
+                        10,
+                        20,
+                        36,
+                        42,
+                        46,
+                        48,
+                        52,
+                        55,
+                        62,
+                        80
+                    ],
+                    "medium_change_at_h": 2
+                }
+            },
+            "release_properties": {
+                "medium_0.1M_HCl_2h": "35-37% PAP released",
+                "phosphate_buffer_pH6.8_6h": "~48%",
+                "phosphate_buffer_pH6.8_10h": "~55%",
+                "phosphate_buffer_pH6.8_24h": "~80%",
+                "best_fit_kinetic_model": "Higuchi (R² highest), then Korsmeyer-Peppas, then First order",
+                "korsmeyer_peppas_exponent_n": 0.48,
+                "release_mechanism": "Anomalous transport (non-Fickian) – coupling of diffusion and polymer relaxation"
+            }
+        },
+        {
+            "batch": "117_T6",
+            "composition_mg": {
+                "PAP": 50,
+                "Kollidon_SR": 80,
+                "HPMC_K15M": 0,
+                "Kollidon_30": 0,
+                "Kollidon_CL": 0,
+                "Lactose": 28,
+                "Avicel_PH_102": 0,
+                "beta_CD": 0,
+                "Magnesium_stearate": 2,
+                "note": "Sum = 160 mg; missing 40 mg filler not specified in OCR."
+            },
+            "pre_compression": {
+                "angle_of_repose": "34.8±2.13",
+                "Carr_index_percent": "16.1±0.96",
+                "flow_character": "Good and fair"
+            },
+            "tablet_properties": {
+                "weight_mg_mean_SD": "200±0.88",
+                "thickness_mm_SD": "2.77±0.05",
+                "disintegration_time_s": ">900",
+                "hardness_kN_SD": "8.7±0.07",
+                "friability_percent": 0.2,
+                "wetting_time": "Not reported",
+                "de_aggregation_time": "Not reported",
+                "drug_content_percent_PAP_SD": "95.99±3.07"
+            },
+            "release_profiles": {
+                "sequential_0.1M_HCl_then_pH6.8": {
+                    "time_h": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12,
+                        24
+                    ],
+                    "release_percent": [
+                        11,
+                        21,
+                        35,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        42
+                    ],
+                    "medium_change_at_h": 2
+                }
+            },
+            "release_properties": {
+                "medium_0.1M_HCl_2h": "35-37% PAP released",
+                "phosphate_buffer_pH6.8_10h": "40-42%",
+                "phosphate_buffer_pH6.8_24h": "~42%",
+                "best_fit_kinetic_model": "Korsmeyer-Peppas (R² not given)",
+                "release_mechanism": "Not specified"
+            }
+        },
+        {
+            "batch": "117_T7",
+            "composition_mg": {
+                "PAP": 50,
+                "Kollidon_SR": 50,
+                "HPMC_K15M": 0,
+                "Kollidon_30": 68,
+                "Kollidon_CL": 2,
+                "Lactose": 28,
+                "Avicel_PH_102": 0,
+                "beta_CD": 0,
+                "Magnesium_stearate": 2,
+                "note": "Sum = 200 mg (50+50+68+2+28+2)"
+            },
+            "pre_compression": {
+                "angle_of_repose": "33.3±1.05",
+                "Carr_index_percent": "16.1±2.25",
+                "flow_character": "Good and fair"
+            },
+            "tablet_properties": {
+                "weight_mg_mean_SD": "205±0.53",
+                "thickness_mm_SD": "2.94±0.04",
+                "disintegration_time_s": ">900",
+                "hardness_kN_SD": "7.8±0.09",
+                "friability_percent": 0.24,
+                "wetting_time": "Not reported",
+                "de_aggregation_time": "Not reported",
+                "drug_content_percent_PAP_SD": "94.55±1.04"
+            },
+            "release_profiles": {
+                "sequential_0.1M_HCl_then_pH6.8": {
+                    "time_h": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12,
+                        24
+                    ],
+                    "release_percent": [
+                        20,
+                        38,
+                        54,
+                        62,
+                        68,
+                        72,
+                        73,
+                        74,
+                        75,
+                        77
+                    ],
+                    "medium_change_at_h": 2
+                }
+            },
+            "release_properties": {
+                "medium_0.1M_HCl_2h": "54% PAP released",
+                "phosphate_buffer_pH6.8_6h": ">70%",
+                "phosphate_buffer_pH6.8_10h": "74%",
+                "phosphate_buffer_pH6.8_24h": "77%",
+                "best_fit_kinetic_model": "Korsmeyer-Peppas (R²=0.9743)",
+                "korsmeyer_peppas_exponent_n": 0.6251,
+                "release_mechanism": "Anomalous transport"
+            }
+        },
+        {
+            "batch": "117_T8",
+            "composition_mg": {
+                "PAP": 50,
+                "Kollidon_SR": 0,
+                "HPMC_K15M": 50,
+                "Kollidon_30": 68,
+                "Kollidon_CL": 2,
+                "Lactose": 28,
+                "Avicel_PH_102": 0,
+                "beta_CD": 0,
+                "Magnesium_stearate": 2,
+                "note": "Sum = 200 mg (50+50+68+2+28+2)"
+            },
+            "pre_compression": {
+                "angle_of_repose": "40.0±0.16",
+                "Carr_index_percent": "20.0±1.51",
+                "flow_character": "Fair"
+            },
+            "tablet_properties": {
+                "weight_mg_mean_SD": "203±0.61",
+                "thickness_mm_SD": "2.86±0.02",
+                "disintegration_time_s": ">900",
+                "hardness_kN_SD": "6.8±0.1",
+                "friability_percent": 0.27,
+                "wetting_time": "Not reported",
+                "de_aggregation_time": "Not reported",
+                "drug_content_percent_PAP_SD": "94.74±1.83"
+            },
+            "release_profiles": {
+                "sequential_0.1M_HCl_then_pH6.8": {
+                    "time_h": [
+                        0.5,
+                        1,
+                        2,
+                        3,
+                        4,
+                        6,
+                        8,
+                        10,
+                        12,
+                        24
+                    ],
+                    "release_percent": [
+                        8,
+                        16,
+                        24,
+                        30,
+                        35,
+                        39,
+                        48,
+                        57,
+                        68,
+                        80
+                    ],
+                    "medium_change_at_h": 2
+                }
+            },
+            "release_properties": {
+                "medium_0.1M_HCl_2h": "24% PAP released",
+                "phosphate_buffer_pH6.8_6h": "39%",
+                "phosphate_buffer_pH6.8_10h": "57%",
+                "phosphate_buffer_pH6.8_24h": "80%",
+                "best_fit_kinetic_model": "Higuchi (R² highest), then Korsmeyer-Peppas, then First order, then Zero order",
+                "korsmeyer_peppas_exponent_n": 0.7588,
+                "release_mechanism": "Anomalous transport (non-Fickian)"
+            }
+        }
+    ],
+    "process_parameters": {
+        "compression_device": "Single Punch Tablet Press EP1 (Erweka, Germany)",
+        "punch_shape": "9 mm round",
+        "compression_force": "4 kN",
+        "coating": "None",
+        "mixing_time": "15 min in cube mixer",
+        "sieving": "Mesh No. 40",
+        "lubrication": "Magnesium stearate 1% for 5 min",
+        "tablet_weight": "200 mg per tablet"
+    },
+    "release_kinetics_summary": {
+        "models_tested": [
+            "Zero-order",
+            "First-order",
+            "Higuchi",
+            "Hixson-Crowell",
+            "Korsmeyer-Peppas"
+        ],
+        "best_fit_for_T5_and_T8": "Higuchi model",
+        "best_fit_for_T4_T6_T7": "Korsmeyer-Peppas",
+        "korsmeyer_peppas_results": {
+            "117_T5": {
+                "n": 0.48,
+                "mechanism": "Anomalous transport (non-Fickian)"
+            },
+            "117_T7": {
+                "n": 0.6251,
+                "mechanism": "Anomalous transport"
+            },
+            "117_T8": {
+                "n": 0.7588,
+                "mechanism": "Anomalous transport"
+            }
+        },
+        "note": "Table 4 with R² values for all models is missing from OCR; only qualitative ranking provided."
+    },
+    "swelling_erosion_study": {
+        "batches_studied": [
+            "117_T5",
+            "117_T8"
+        ],
+        "time_hours": 6,
+        "observations": {
+            "117_T5": "Higher erosion percentage compared to 117_T8; lower swelling percentage",
+            "117_T8": "Higher swelling percentage due to HPMC K15M; lower erosion"
+        },
+        "numerical_values": "Not reported in text (see Figures 4 and 5 in original article)"
+    },
+    "missing_data": {
+        "FTIR_spectral_measurements": "Not performed or not reported",
+        "tablet_density": "Not reported",
+        "consolidation_index": "Not reported",
+        "lag_time_floating_time": "Not applicable (non-floating tablets)",
+        "zero_order_first_order_individual_R2": "Not available (Table 4 missing)",
+        "exact_composition_for_T4_T6": "Incomplete due to OCR errors; see composition_notes"
+    }
+}

@@ -1,0 +1,1471 @@
+{
+    "materials_origin": {
+        "mitiglinide_calcium": "Cadila Pharmaceuticals Ltd. Ahmedabad, India",
+        "hpmc_k15m": "Astron Chemicals, Ahmedabad",
+        "sodium_alginate": "Astron Chemicals, Ahmedabad",
+        "other_excipients": "Suvidhinath Laboratories, Gujarat, India"
+    },
+    "experimental_design": {
+        "type": "3^2 full factorial design",
+        "independent_variables": {
+            "X1": "HPMC K15M (mg)",
+            "X2": "Sodium alginate (mg)"
+        },
+        "dependent_variables": {
+            "Y1": "floating lag time (sec)",
+            "Y2": "time for 50% drug release (t50, h)",
+            "Y3": "time for 90% drug release (t90, h)"
+        },
+        "software": "Design-Expert 9.0.6"
+    },
+    "ingredients_identification": {
+        "method": "FTIR spectroscopy",
+        "preparation": "Samples of MTG, optimized floating tablet, polymers, and pure drug were analyzed using FTIR with KBr pellets, scanned over 4000-400 cm^-1.",
+        "results": "Compatibility confirmed; peaks of MTG maintained in formulation.",
+        "equations": {
+            "Y1 (floating lag time)": "F_lag = +14.89 - 7.00X1 - 4.50X2 - 7.00X1X2 + 22.67X1^2 - 6.83X2^2",
+            "Y2 (t50)": "t50 = +3.98 + 0.15X1 + 0.52X2",
+            "Y3 (t90)": "t90 = +9.22 + 0.42X1 + 0.75X2 + 0.59X1X2 - 0.53X1^2 - 0.50X2^2"
+        },
+        "absorbance": {
+            "pure_MTG_peaks": [
+                "3537.48 cm^-1 (O-H stretch)",
+                "3416.55 cm^-1 (N-H stretch, amide)",
+                "3082.21, 2924.24, 2869.21, 2850.93 cm^-1 (C-H stretch)",
+                "1649.83 cm^-1 (C=O stretch, amide merged)",
+                "1622.60 cm^-1 (N-H bend)",
+                "1544.75 cm^-1 (C=C stretch, aromatic)"
+            ],
+            "M3_formulation_peaks": "Similar peaks with slight change in intensity, no shifting"
+        }
+    },
+    "formulation_details": {
+        "batches": [
+            {
+                "batch": "125_M1",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 60,
+                    "Sodium alginate (mg)": 25,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.5,
+                    "Microcrystalline cellulose (mg)": 28.5
+                },
+                "total_weight_mg": 150
+            },
+            {
+                "batch": "125_M2",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 50,
+                    "Sodium alginate (mg)": 25,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.5,
+                    "Microcrystalline cellulose (mg)": 38.5
+                },
+                "total_weight_mg": 150
+            },
+            {
+                "batch": "125_M3",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 60,
+                    "Sodium alginate (mg)": 30,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.5,
+                    "Microcrystalline cellulose (mg)": 23.5
+                },
+                "total_weight_mg": 150
+            },
+            {
+                "batch": "125_M4",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 50,
+                    "Sodium alginate (mg)": 20,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.5,
+                    "Microcrystalline cellulose (mg)": 43.5
+                },
+                "total_weight_mg": 150
+            },
+            {
+                "batch": "125_M5",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 50,
+                    "Sodium alginate (mg)": 30,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.3,
+                    "Microcrystalline cellulose (mg)": 33.7
+                },
+                "total_weight_mg": 150
+            },
+            {
+                "batch": "125_M6",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 55,
+                    "Sodium alginate (mg)": 25,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.5,
+                    "Microcrystalline cellulose (mg)": 33.5
+                },
+                "total_weight_mg": 150
+            },
+            {
+                "batch": "125_M7",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 60,
+                    "Sodium alginate (mg)": 20,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.5,
+                    "Microcrystalline cellulose (mg)": 33.5
+                },
+                "total_weight_mg": 150
+            },
+            {
+                "batch": "125_M8",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 55,
+                    "Sodium alginate (mg)": 30,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.5,
+                    "Microcrystalline cellulose (mg)": 28.5
+                },
+                "total_weight_mg": 150
+            },
+            {
+                "batch": "125_M9",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 55,
+                    "Sodium alginate (mg)": 25,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.5,
+                    "Microcrystalline cellulose (mg)": 33.5
+                },
+                "total_weight_mg": 150
+            },
+            {
+                "batch": "125_M10",
+                "ingredients": {
+                    "MTG (mg)": 10,
+                    "PVP K30 (mg)": 10,
+                    "HPMC K15M (mg)": 55,
+                    "Sodium alginate (mg)": 20,
+                    "Sodium bicarbonate (mg)": 15,
+                    "Magnesium stearate (mg)": 1.5,
+                    "Microcrystalline cellulose (mg)": 38.5
+                },
+                "total_weight_mg": 150
+            }
+        ]
+    },
+    "pre_compression_parameters": "Not reported per batch; powder blends were assessed but data not provided.",
+    "independent_variables_levels": {
+        "X1_HPMC_K15M": {
+            "low": 50,
+            "medium": 55,
+            "high": 60,
+            "unit": "mg"
+        },
+        "X2_sodium_alginate": {
+            "low": 20,
+            "medium": 25,
+            "high": 30,
+            "unit": "mg"
+        }
+    },
+    "ftir_measurements": {
+        "instrument": "FTIR spectrometer",
+        "method": "KBr pellet method, scan range 4000-400 cm^-1",
+        "results": "Compatibility confirmed; no new peaks or shifting observed."
+    },
+    "tablet_fabrications": {
+        "for_each_batch": [
+            {
+                "batch": "125_M1",
+                "hardness_kg_cm2": {
+                    "value": 5.1,
+                    "sd": 0.28
+                },
+                "friability_percent": {
+                    "value": 0.13,
+                    "sd": 0.16
+                },
+                "drug_content_percent": {
+                    "value": 101.92,
+                    "sd": 0.98
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 98.27,
+                    "sd": 2.43
+                }
+            },
+            {
+                "batch": "125_M2",
+                "hardness_kg_cm2": {
+                    "value": 4.7,
+                    "sd": 0.95
+                },
+                "friability_percent": {
+                    "value": 0.22,
+                    "sd": 0.17
+                },
+                "drug_content_percent": {
+                    "value": 100.67,
+                    "sd": 0.44
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 45.23,
+                    "sd": 3.98
+                }
+            },
+            {
+                "batch": "125_M3",
+                "hardness_kg_cm2": {
+                    "value": 4.7,
+                    "sd": 0.03
+                },
+                "friability_percent": {
+                    "value": 0.21,
+                    "sd": 0.08
+                },
+                "drug_content_percent": {
+                    "value": 101.32,
+                    "sd": 0.53
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 115.22,
+                    "sd": 2.54
+                }
+            },
+            {
+                "batch": "125_M4",
+                "hardness_kg_cm2": {
+                    "value": 5.2,
+                    "sd": 0.55
+                },
+                "friability_percent": {
+                    "value": 0.21,
+                    "sd": 0.54
+                },
+                "drug_content_percent": {
+                    "value": 100.75,
+                    "sd": 0.31
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 24.32,
+                    "sd": 3.34
+                }
+            },
+            {
+                "batch": "125_M5",
+                "hardness_kg_cm2": {
+                    "value": 5.2,
+                    "sd": 0.15
+                },
+                "friability_percent": {
+                    "value": 0.13,
+                    "sd": 0.14
+                },
+                "drug_content_percent": {
+                    "value": 101.97,
+                    "sd": 0.65
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 53.41,
+                    "sd": 4.92
+                }
+            },
+            {
+                "batch": "125_M6",
+                "hardness_kg_cm2": {
+                    "value": 5.7,
+                    "sd": 0.54
+                },
+                "friability_percent": {
+                    "value": 0.19,
+                    "sd": 0.11
+                },
+                "drug_content_percent": {
+                    "value": 100.47,
+                    "sd": 1.01
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 85.38,
+                    "sd": 4.75
+                }
+            },
+            {
+                "batch": "125_M7",
+                "hardness_kg_cm2": {
+                    "value": 4.7,
+                    "sd": 0.38
+                },
+                "friability_percent": {
+                    "value": 0.17,
+                    "sd": 0.1
+                },
+                "drug_content_percent": {
+                    "value": 99.83,
+                    "sd": 0.27
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 60.43,
+                    "sd": 6.21
+                }
+            },
+            {
+                "batch": "125_M8",
+                "hardness_kg_cm2": {
+                    "value": 4.8,
+                    "sd": 0.75
+                },
+                "friability_percent": {
+                    "value": 0.22,
+                    "sd": 0.08
+                },
+                "drug_content_percent": {
+                    "value": 99.43,
+                    "sd": 1.16
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 104.63,
+                    "sd": 4.76
+                }
+            },
+            {
+                "batch": "125_M9",
+                "hardness_kg_cm2": {
+                    "value": 5.6,
+                    "sd": 0.85
+                },
+                "friability_percent": {
+                    "value": 0.21,
+                    "sd": 0.07
+                },
+                "drug_content_percent": {
+                    "value": 100.18,
+                    "sd": 1.04
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 85.38,
+                    "sd": 4.75
+                }
+            },
+            {
+                "batch": "125_M10",
+                "hardness_kg_cm2": {
+                    "value": 4.2,
+                    "sd": 0.62
+                },
+                "friability_percent": {
+                    "value": 0.23,
+                    "sd": 0.12
+                },
+                "drug_content_percent": {
+                    "value": 100.21,
+                    "sd": 1.14
+                },
+                "weight_uniformity": "Complies",
+                "floating_time_hours": ">12",
+                "adhesion_retention_min": {
+                    "value": 48.53,
+                    "sd": 5.71
+                }
+            }
+        ]
+    },
+    "process_parameters": {
+        "method": "Direct compression",
+        "equipment": "Rotary tablet compression machine",
+        "tooling": "7 mm round and flat punches",
+        "target_hardness": "5 kg/cm^2",
+        "compression_pressure": "Not specified",
+        "coating": "None"
+    },
+    "release_properties": {
+        "for_each_batch": [
+            {
+                "batch": "125_M1",
+                "floating_lag_time_sec": {
+                    "value": 35.46,
+                    "sd": 2.43
+                },
+                "t50_hours": {
+                    "value": 4.14,
+                    "sd": 0.26
+                },
+                "t90_hours": {
+                    "value": 9.42,
+                    "sd": 1.01
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.9809,
+                    "First_order_R2": 0.7634,
+                    "Higuchi_R2": 0.9469,
+                    "Korsmeyer_Peppas_R2": 0.9606,
+                    "Hixson_Crowell_R2": 0.9766
+                },
+                "favored_mechanism": "Zero order"
+            },
+            {
+                "batch": "125_M2",
+                "floating_lag_time_sec": {
+                    "value": 45.41,
+                    "sd": 3.21
+                },
+                "t50_hours": {
+                    "value": 4.23,
+                    "sd": 0.31
+                },
+                "t90_hours": {
+                    "value": 7.99,
+                    "sd": 0.81
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.9776,
+                    "First_order_R2": 0.8491,
+                    "Higuchi_R2": 0.9627,
+                    "Korsmeyer_Peppas_R2": 0.9693,
+                    "Hixson_Crowell_R2": 0.9621
+                },
+                "favored_mechanism": "Zero order"
+            },
+            {
+                "batch": "125_M3",
+                "floating_lag_time_sec": {
+                    "value": 10.33,
+                    "sd": 1.91
+                },
+                "t50_hours": {
+                    "value": 4.63,
+                    "sd": 0.42
+                },
+                "t90_hours": {
+                    "value": 9.69,
+                    "sd": 0.91
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.9845,
+                    "First_order_R2": 0.7765,
+                    "Higuchi_R2": 0.9466,
+                    "Korsmeyer_Peppas_R2": 0.9576,
+                    "Hixson_Crowell_R2": 0.9726
+                },
+                "favored_mechanism": "Zero order"
+            },
+            {
+                "batch": "125_M4",
+                "floating_lag_time_sec": {
+                    "value": 35.12,
+                    "sd": 2.19
+                },
+                "t50_hours": {
+                    "value": 3.01,
+                    "sd": 0.18
+                },
+                "t90_hours": {
+                    "value": 7.87,
+                    "sd": 0.43
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.9637,
+                    "First_order_R2": 0.8618,
+                    "Higuchi_R2": 0.9774,
+                    "Korsmeyer_Peppas_R2": 0.9929,
+                    "Hixson_Crowell_R2": 0.9951
+                },
+                "favored_mechanism": "Hixson-Crowell"
+            },
+            {
+                "batch": "125_M5",
+                "floating_lag_time_sec": {
+                    "value": 40.18,
+                    "sd": 3.28
+                },
+                "t50_hours": {
+                    "value": 4.25,
+                    "sd": 0.29
+                },
+                "t90_hours": {
+                    "value": 7.96,
+                    "sd": 0.66
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.996,
+                    "First_order_R2": 0.8619,
+                    "Higuchi_R2": 0.9505,
+                    "Korsmeyer_Peppas_R2": 0.9943,
+                    "Hixson_Crowell_R2": 0.9851
+                },
+                "favored_mechanism": "Zero order"
+            },
+            {
+                "batch": "125_M6",
+                "floating_lag_time_sec": {
+                    "value": 10.23,
+                    "sd": 0.93
+                },
+                "t50_hours": {
+                    "value": 3.95,
+                    "sd": 0.37
+                },
+                "t90_hours": {
+                    "value": 9.1,
+                    "sd": 0.37
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.9666,
+                    "First_order_R2": 0.8034,
+                    "Higuchi_R2": 0.9776,
+                    "Korsmeyer_Peppas_R2": 0.9892,
+                    "Hixson_Crowell_R2": 0.9899
+                },
+                "favored_mechanism": "Hixson-Crowell"
+            },
+            {
+                "batch": "125_M7",
+                "floating_lag_time_sec": {
+                    "value": 33.54,
+                    "sd": 2.43
+                },
+                "t50_hours": {
+                    "value": 3.6,
+                    "sd": 0.15
+                },
+                "t90_hours": {
+                    "value": 7.24,
+                    "sd": 0.52
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.9807,
+                    "First_order_R2": 0.8224,
+                    "Higuchi_R2": 0.9593,
+                    "Korsmeyer_Peppas_R2": 0.9766,
+                    "Hixson_Crowell_R2": 0.9823
+                },
+                "favored_mechanism": "Hixson-Crowell"
+            },
+            {
+                "batch": "125_M8",
+                "floating_lag_time_sec": {
+                    "value": 6.83,
+                    "sd": 0.79
+                },
+                "t50_hours": {
+                    "value": 4.47,
+                    "sd": 0.25
+                },
+                "t90_hours": {
+                    "value": 9.71,
+                    "sd": 1.01
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.9952,
+                    "First_order_R2": 0.871,
+                    "Higuchi_R2": 0.9518,
+                    "Korsmeyer_Peppas_R2": 0.9912,
+                    "Hixson_Crowell_R2": 0.9729
+                },
+                "favored_mechanism": "Zero order"
+            },
+            {
+                "batch": "125_M9",
+                "floating_lag_time_sec": {
+                    "value": 11.28,
+                    "sd": 1.02
+                },
+                "t50_hours": {
+                    "value": 3.82,
+                    "sd": 0.27
+                },
+                "t90_hours": {
+                    "value": 9.2,
+                    "sd": 0.45
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.966,
+                    "First_order_R2": 0.8051,
+                    "Higuchi_R2": 0.9796,
+                    "Korsmeyer_Peppas_R2": 0.9892,
+                    "Hixson_Crowell_R2": 0.9905
+                },
+                "favored_mechanism": "Hixson-Crowell"
+            },
+            {
+                "batch": "125_M10",
+                "floating_lag_time_sec": {
+                    "value": 15.41,
+                    "sd": 1.73
+                },
+                "t50_hours": {
+                    "value": 3.65,
+                    "sd": 0.19
+                },
+                "t90_hours": {
+                    "value": 7.77,
+                    "sd": 0.42
+                },
+                "kinetic_models": {
+                    "Zero_order_R2": 0.9679,
+                    "First_order_R2": 0.8736,
+                    "Higuchi_R2": 0.9815,
+                    "Korsmeyer_Peppas_R2": 0.9753,
+                    "Hixson_Crowell_R2": 0.9859
+                },
+                "favored_mechanism": "Hixson-Crowell"
+            }
+        ]
+    },
+    "tablet_properties": {
+        "for_each_batch": [
+            {
+                "batch": "125_M1",
+                "hardness_kg_cm2": {
+                    "value": 5.1,
+                    "sd": 0.28
+                },
+                "friability_percent": {
+                    "value": 0.13,
+                    "sd": 0.16
+                },
+                "drug_content_percent": {
+                    "value": 101.92,
+                    "sd": 0.98
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Not tested for 125_M1"
+            },
+            {
+                "batch": "125_M2",
+                "hardness_kg_cm2": {
+                    "value": 4.7,
+                    "sd": 0.95
+                },
+                "friability_percent": {
+                    "value": 0.22,
+                    "sd": 0.17
+                },
+                "drug_content_percent": {
+                    "value": 100.67,
+                    "sd": 0.44
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Not tested for 125_M2"
+            },
+            {
+                "batch": "125_M3",
+                "hardness_kg_cm2": {
+                    "value": 4.7,
+                    "sd": 0.03
+                },
+                "friability_percent": {
+                    "value": 0.21,
+                    "sd": 0.08
+                },
+                "drug_content_percent": {
+                    "value": 101.32,
+                    "sd": 0.53
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Stable for 6 months (accelerated)"
+            },
+            {
+                "batch": "125_M4",
+                "hardness_kg_cm2": {
+                    "value": 5.2,
+                    "sd": 0.55
+                },
+                "friability_percent": {
+                    "value": 0.21,
+                    "sd": 0.54
+                },
+                "drug_content_percent": {
+                    "value": 100.75,
+                    "sd": 0.31
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Not tested for 125_M4"
+            },
+            {
+                "batch": "125_M5",
+                "hardness_kg_cm2": {
+                    "value": 5.2,
+                    "sd": 0.15
+                },
+                "friability_percent": {
+                    "value": 0.13,
+                    "sd": 0.14
+                },
+                "drug_content_percent": {
+                    "value": 101.97,
+                    "sd": 0.65
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Not tested for 125_M5"
+            },
+            {
+                "batch": "125_M6",
+                "hardness_kg_cm2": {
+                    "value": 5.7,
+                    "sd": 0.54
+                },
+                "friability_percent": {
+                    "value": 0.19,
+                    "sd": 0.11
+                },
+                "drug_content_percent": {
+                    "value": 100.47,
+                    "sd": 1.01
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Not tested for 125_M6"
+            },
+            {
+                "batch": "125_M7",
+                "hardness_kg_cm2": {
+                    "value": 4.7,
+                    "sd": 0.38
+                },
+                "friability_percent": {
+                    "value": 0.17,
+                    "sd": 0.1
+                },
+                "drug_content_percent": {
+                    "value": 99.83,
+                    "sd": 0.27
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Not tested for 125_M7"
+            },
+            {
+                "batch": "125_M8",
+                "hardness_kg_cm2": {
+                    "value": 4.8,
+                    "sd": 0.75
+                },
+                "friability_percent": {
+                    "value": 0.22,
+                    "sd": 0.08
+                },
+                "drug_content_percent": {
+                    "value": 99.43,
+                    "sd": 1.16
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Not tested for 125_M8"
+            },
+            {
+                "batch": "125_M9",
+                "hardness_kg_cm2": {
+                    "value": 5.6,
+                    "sd": 0.85
+                },
+                "friability_percent": {
+                    "value": 0.21,
+                    "sd": 0.07
+                },
+                "drug_content_percent": {
+                    "value": 100.18,
+                    "sd": 1.04
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Not tested for 125_M9"
+            },
+            {
+                "batch": "125_M10",
+                "hardness_kg_cm2": {
+                    "value": 4.2,
+                    "sd": 0.62
+                },
+                "friability_percent": {
+                    "value": 0.23,
+                    "sd": 0.12
+                },
+                "drug_content_percent": {
+                    "value": 100.21,
+                    "sd": 1.14
+                },
+                "weight_variation_percent": "Complies",
+                "floating_time_hours": ">12",
+                "disintegration_time": "Not applicable (floating)",
+                "stability": "Not tested for 125_M10"
+            }
+        ]
+    },
+    "experimental_data": {
+        "statistical_analysis": {
+            "p_values": {
+                "floating_lag_time": 0.023,
+                "t50": 0.0039,
+                "t90": 0.043
+            },
+            "model_fit_R2": {
+                "floating_lag_time": 0.9634,
+                "t50": 0.842,
+                "t90": 0.9437
+            },
+            "anova": "Significant model terms (p<0.05)"
+        },
+        "zero_and_first_order_release": {
+            "for_each_batch": [
+                {
+                    "batch": "125_M1",
+                    "zero_order_R2": 0.9809,
+                    "first_order_R2": 0.7634
+                },
+                {
+                    "batch": "125_M2",
+                    "zero_order_R2": 0.9776,
+                    "first_order_R2": 0.8491
+                },
+                {
+                    "batch": "125_M3",
+                    "zero_order_R2": 0.9845,
+                    "first_order_R2": 0.7765
+                },
+                {
+                    "batch": "125_M4",
+                    "zero_order_R2": 0.9637,
+                    "first_order_R2": 0.8618
+                },
+                {
+                    "batch": "125_M5",
+                    "zero_order_R2": 0.996,
+                    "first_order_R2": 0.8619
+                },
+                {
+                    "batch": "125_M6",
+                    "zero_order_R2": 0.9666,
+                    "first_order_R2": 0.8034
+                },
+                {
+                    "batch": "125_M7",
+                    "zero_order_R2": 0.9807,
+                    "first_order_R2": 0.8224
+                },
+                {
+                    "batch": "125_M8",
+                    "zero_order_R2": 0.9952,
+                    "first_order_R2": 0.871
+                },
+                {
+                    "batch": "125_M9",
+                    "zero_order_R2": 0.966,
+                    "first_order_R2": 0.8051
+                },
+                {
+                    "batch": "125_M10",
+                    "zero_order_R2": 0.9679,
+                    "first_order_R2": 0.8736
+                }
+            ]
+        },
+        "tablet_swelling_uptake": "Not reported",
+        "floating_behavior": {
+            "lag_time_range_sec": "6.83 to 45.41",
+            "total_floating_time": ">12 hours for all batches"
+        },
+        "in_vivo_radiographic_study": {
+            "species": "Albino rabbits",
+            "findings": "Tablets remained afloat in gastric fluid for up to 12 hours"
+        },
+        "stability_study": {
+            "optimized_batch": "125_M3",
+            "conditions": "40°C ± 2°C, 75% RH for 6 months",
+            "result": "No significant changes in physical properties, buoyancy, and drug release pattern; similarity >90%"
+        },
+        "dissolution_profile_approximated": {
+            "125_M1": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 16
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 31
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 43
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 61
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 69
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 76
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 83
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 89
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 94
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 98
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 100
+                }
+            ],
+            "125_M2": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 14
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 27
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 39
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 60
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 69
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 77
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 85
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 92
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 96
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 99
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 100
+                }
+            ],
+            "125_M3": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 13
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 25
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 36
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 46
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 55
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 64
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 72
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 79
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 86
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 92
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 97
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 100
+                }
+            ],
+            "125_M4": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 20
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 38
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 64
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 73
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 81
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 87
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 92
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 96
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 98
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 99
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 100
+                }
+            ],
+            "125_M5": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 15
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 29
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 41
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 52
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 62
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 71
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 79
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 86
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 92
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 96
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 99
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 100
+                }
+            ],
+            "125_M6": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 18
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 34
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 47
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 58
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 68
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 76
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 83
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 88
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 93
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 96
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 98
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 100
+                }
+            ],
+            "125_M7": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 22
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 41
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 55
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 67
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 76
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 83
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 89
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 94
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 97
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 99
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 100
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 100
+                }
+            ],
+            "125_M8": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 12
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 23
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 34
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 44
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 53
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 62
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 70
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 78
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 85
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 91
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 96
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 98
+                }
+            ],
+            "125_M9": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 17
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 32
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 45
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 56
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 66
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 74
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 81
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 87
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 92
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 95
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 98
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 100
+                }
+            ],
+            "125_M10": [
+                {
+                    "time_h": 0,
+                    "release_percent": 0
+                },
+                {
+                    "time_h": 1,
+                    "release_percent": 19
+                },
+                {
+                    "time_h": 2,
+                    "release_percent": 36
+                },
+                {
+                    "time_h": 3,
+                    "release_percent": 50
+                },
+                {
+                    "time_h": 4,
+                    "release_percent": 61
+                },
+                {
+                    "time_h": 5,
+                    "release_percent": 71
+                },
+                {
+                    "time_h": 6,
+                    "release_percent": 79
+                },
+                {
+                    "time_h": 7,
+                    "release_percent": 86
+                },
+                {
+                    "time_h": 8,
+                    "release_percent": 91
+                },
+                {
+                    "time_h": 9,
+                    "release_percent": 95
+                },
+                {
+                    "time_h": 10,
+                    "release_percent": 98
+                },
+                {
+                    "time_h": 11,
+                    "release_percent": 99
+                },
+                {
+                    "time_h": 12,
+                    "release_percent": 100
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,2936 @@
+{
+    "article_title": "Use of hydrophilic and hydrophobic polymers for the development of controlled release tizanidine matrix tablets",
+    "authors": [
+        "Tariq Ali",
+        "Muhammad Harris Shoaib",
+        "Rabia Ismail Yousuf",
+        "Sabahat Jabeen",
+        "Iyad Naeem Muhammad",
+        "Asfia Tariq"
+    ],
+    "sections": {
+        "abstract": "Pages 1-2",
+        "introduction": "Pages 2-3",
+        "materials_and_methods": "Pages 3-5",
+        "results_and_discussion": "Pages 6-15",
+        "conclusion": "Page 17"
+    },
+    "materials_origin": {
+        "tizanidine_hydrochloride": "Novartis Pharma, Karachi",
+        "HPMC_K4M_and_K100M": "Colorcon, England",
+        "Ethocel_10_Standard_Premium_and_Ethocel_10_FP": "Colorcon, England",
+        "Kollidon_SR": "BASF, Germany",
+        "Avicel_PH_101": "FMC Corporation, USA",
+        "magnesium_stearate": "Dow Chemical, USA"
+    },
+    "experimental_design": {
+        "method": "Central composite rotatable design (CCRD)",
+        "software": "Design Expert version 7.0",
+        "factors": [
+            {
+                "name": "X1",
+                "description": "Polymer amount (%)",
+                "levels": [
+                    "-α",
+                    "-1",
+                    "0",
+                    "1",
+                    "+α"
+                ],
+                "alpha_value": 1.414
+            },
+            {
+                "name": "X2",
+                "description": "Avicel PH 101 amount (%)",
+                "levels": [
+                    "-α",
+                    "-1",
+                    "0",
+                    "1",
+                    "+α"
+                ],
+                "alpha_value": 1.414
+            }
+        ],
+        "responses": [
+            "Disintegration time",
+            "Drug release at 2 h",
+            "Drug release at 8 h"
+        ],
+        "experiments_per_polymer": 9,
+        "total_formulations": 45
+    },
+    "dose_calculation": {
+        "equation": "D_t = D_n * (1 + 0.693 * T_d / t_{1/2})",
+        "parameters": {
+            "D_n": "4 mg (immediate release dose)",
+            "t_half": "2.5 hours",
+            "T_d": "24 hours (controlled release duration)",
+            "calculated_D_t": "30 mg tizanidine base, equivalent to 34 mg tizanidine hydrochloride per tablet"
+        }
+    },
+    "formulations": [
+        {
+            "batch_code": "K4M 1",
+            "polymer_type": "HPMC K4M",
+            "coded_X1": -1,
+            "coded_X2": -1,
+            "polymer_percent": 30.0,
+            "avicel_percent": 20.0,
+            "polymer_mg": 30.84,
+            "avicel_mg": 20.56,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 87.4,
+            "adjusted_weight_mg": 88
+        },
+        {
+            "batch_code": "K4M 2",
+            "polymer_type": "HPMC K4M",
+            "coded_X1": 1,
+            "coded_X2": -1,
+            "polymer_percent": 50.0,
+            "avicel_percent": 20.0,
+            "polymer_mg": 51.4,
+            "avicel_mg": 20.56,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 107.96,
+            "adjusted_weight_mg": 108
+        },
+        {
+            "batch_code": "K4M 3",
+            "polymer_type": "HPMC K4M",
+            "coded_X1": -1,
+            "coded_X2": 1,
+            "polymer_percent": 30.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 30.84,
+            "avicel_mg": 46.26,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 113.1,
+            "adjusted_weight_mg": 113
+        },
+        {
+            "batch_code": "K4M 4",
+            "polymer_type": "HPMC K4M",
+            "coded_X1": 1,
+            "coded_X2": 1,
+            "polymer_percent": 50.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 51.4,
+            "avicel_mg": 46.26,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 133.66,
+            "adjusted_weight_mg": 134
+        },
+        {
+            "batch_code": "K4M 5",
+            "polymer_type": "HPMC K4M",
+            "coded_X1": -1.414,
+            "coded_X2": 0,
+            "polymer_percent": 25.86,
+            "avicel_percent": 32.5,
+            "polymer_mg": 26.58,
+            "avicel_mg": 33.41,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 95.99,
+            "adjusted_weight_mg": 96
+        },
+        {
+            "batch_code": "K4M 6",
+            "polymer_type": "HPMC K4M",
+            "coded_X1": 1.414,
+            "coded_X2": 0,
+            "polymer_percent": 54.14,
+            "avicel_percent": 32.5,
+            "polymer_mg": 55.66,
+            "avicel_mg": 33.41,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 125.07,
+            "adjusted_weight_mg": 125
+        },
+        {
+            "batch_code": "K4M 7",
+            "polymer_type": "HPMC K4M",
+            "coded_X1": 0,
+            "coded_X2": -1.414,
+            "polymer_percent": 40.0,
+            "avicel_percent": 14.82,
+            "polymer_mg": 41.12,
+            "avicel_mg": 15.23,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 92.35,
+            "adjusted_weight_mg": 93
+        },
+        {
+            "batch_code": "K4M 8",
+            "polymer_type": "HPMC K4M",
+            "coded_X1": 0,
+            "coded_X2": 1.414,
+            "polymer_percent": 40.0,
+            "avicel_percent": 50.18,
+            "polymer_mg": 41.12,
+            "avicel_mg": 51.58,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 128.7,
+            "adjusted_weight_mg": 128
+        },
+        {
+            "batch_code": "K4M 9",
+            "polymer_type": "HPMC K4M",
+            "coded_X1": 0,
+            "coded_X2": 0,
+            "polymer_percent": 40.0,
+            "avicel_percent": 32.5,
+            "polymer_mg": 41.12,
+            "avicel_mg": 33.41,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 110.53,
+            "adjusted_weight_mg": 110
+        },
+        {
+            "batch_code": "K100M 1",
+            "polymer_type": "HPMC K100M",
+            "coded_X1": -1,
+            "coded_X2": -1,
+            "polymer_percent": 30.0,
+            "avicel_percent": 20.0,
+            "polymer_mg": 30.84,
+            "avicel_mg": 20.56,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 87.4,
+            "adjusted_weight_mg": 88
+        },
+        {
+            "batch_code": "K100M 2",
+            "polymer_type": "HPMC K100M",
+            "coded_X1": 1,
+            "coded_X2": -1,
+            "polymer_percent": 50.0,
+            "avicel_percent": 20.0,
+            "polymer_mg": 51.4,
+            "avicel_mg": 20.56,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 107.96,
+            "adjusted_weight_mg": 108
+        },
+        {
+            "batch_code": "K100M 3",
+            "polymer_type": "HPMC K100M",
+            "coded_X1": -1,
+            "coded_X2": 1,
+            "polymer_percent": 30.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 30.84,
+            "avicel_mg": 46.26,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 113.1,
+            "adjusted_weight_mg": 113
+        },
+        {
+            "batch_code": "K100M 4",
+            "polymer_type": "HPMC K100M",
+            "coded_X1": 1,
+            "coded_X2": 1,
+            "polymer_percent": 50.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 51.4,
+            "avicel_mg": 46.26,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 133.66,
+            "adjusted_weight_mg": 134
+        },
+        {
+            "batch_code": "K100M 5",
+            "polymer_type": "HPMC K100M",
+            "coded_X1": -1.414,
+            "coded_X2": 0,
+            "polymer_percent": 25.86,
+            "avicel_percent": 32.5,
+            "polymer_mg": 26.58,
+            "avicel_mg": 33.41,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 95.99,
+            "adjusted_weight_mg": 96
+        },
+        {
+            "batch_code": "K100M 6",
+            "polymer_type": "HPMC K100M",
+            "coded_X1": 1.414,
+            "coded_X2": 0,
+            "polymer_percent": 54.14,
+            "avicel_percent": 32.5,
+            "polymer_mg": 55.66,
+            "avicel_mg": 33.41,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 125.07,
+            "adjusted_weight_mg": 125
+        },
+        {
+            "batch_code": "K100M 7",
+            "polymer_type": "HPMC K100M",
+            "coded_X1": 0,
+            "coded_X2": -1.414,
+            "polymer_percent": 40.0,
+            "avicel_percent": 14.82,
+            "polymer_mg": 41.12,
+            "avicel_mg": 15.23,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 92.35,
+            "adjusted_weight_mg": 93
+        },
+        {
+            "batch_code": "K100M 8",
+            "polymer_type": "HPMC K100M",
+            "coded_X1": 0,
+            "coded_X2": 1.414,
+            "polymer_percent": 40.0,
+            "avicel_percent": 50.18,
+            "polymer_mg": 41.12,
+            "avicel_mg": 51.58,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 128.7,
+            "adjusted_weight_mg": 128
+        },
+        {
+            "batch_code": "K100M 9",
+            "polymer_type": "HPMC K100M",
+            "coded_X1": 0,
+            "coded_X2": 0,
+            "polymer_percent": 40.0,
+            "avicel_percent": 32.5,
+            "polymer_mg": 41.12,
+            "avicel_mg": 33.41,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 110.53,
+            "adjusted_weight_mg": 110
+        },
+        {
+            "batch_code": "E10ST 1",
+            "polymer_type": "Ethocel 10 Standard",
+            "coded_X1": -1,
+            "coded_X2": -1,
+            "polymer_percent": 20.0,
+            "avicel_percent": 30.0,
+            "polymer_mg": 22.0,
+            "avicel_mg": 33.0,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 91.0,
+            "adjusted_weight_mg": 91
+        },
+        {
+            "batch_code": "E10ST 2",
+            "polymer_type": "Ethocel 10 Standard",
+            "coded_X1": 1,
+            "coded_X2": -1,
+            "polymer_percent": 40.0,
+            "avicel_percent": 30.0,
+            "polymer_mg": 44.0,
+            "avicel_mg": 33.0,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 113.0,
+            "adjusted_weight_mg": 113
+        },
+        {
+            "batch_code": "E10ST 3",
+            "polymer_type": "Ethocel 10 Standard",
+            "coded_X1": -1,
+            "coded_X2": 1,
+            "polymer_percent": 20.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 22.0,
+            "avicel_mg": 49.5,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 107.5,
+            "adjusted_weight_mg": 108
+        },
+        {
+            "batch_code": "E10ST 4",
+            "polymer_type": "Ethocel 10 Standard",
+            "coded_X1": 1,
+            "coded_X2": 1,
+            "polymer_percent": 40.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 44.0,
+            "avicel_mg": 49.5,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 129.5,
+            "adjusted_weight_mg": 130
+        },
+        {
+            "batch_code": "E10ST 5",
+            "polymer_type": "Ethocel 10 Standard",
+            "coded_X1": -1.414,
+            "coded_X2": 0,
+            "polymer_percent": 15.86,
+            "avicel_percent": 37.5,
+            "polymer_mg": 17.45,
+            "avicel_mg": 41.25,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 94.7,
+            "adjusted_weight_mg": 95
+        },
+        {
+            "batch_code": "E10ST 6",
+            "polymer_type": "Ethocel 10 Standard",
+            "coded_X1": 1.414,
+            "coded_X2": 0,
+            "polymer_percent": 44.14,
+            "avicel_percent": 30.0,
+            "polymer_mg": 26.89,
+            "avicel_mg": 33.0,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 95.89,
+            "adjusted_weight_mg": 98.58
+        },
+        {
+            "batch_code": "E10ST 7",
+            "polymer_type": "Ethocel 10 Standard",
+            "coded_X1": 0,
+            "coded_X2": -1.414,
+            "polymer_percent": 30.0,
+            "avicel_percent": 48.11,
+            "polymer_mg": 33.0,
+            "avicel_mg": 52.92,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 121.92,
+            "adjusted_weight_mg": 122
+        },
+        {
+            "batch_code": "E10ST 8",
+            "polymer_type": "Ethocel 10 Standard",
+            "coded_X1": 0,
+            "coded_X2": 1.414,
+            "polymer_percent": 30.0,
+            "avicel_percent": 37.5,
+            "polymer_mg": 33.0,
+            "avicel_mg": 41.25,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 110.25,
+            "adjusted_weight_mg": 110
+        },
+        {
+            "batch_code": "E10ST 9",
+            "polymer_type": "Ethocel 10 Standard",
+            "coded_X1": 0,
+            "coded_X2": 0,
+            "polymer_percent": 30.0,
+            "avicel_percent": 37.5,
+            "polymer_mg": 33.0,
+            "avicel_mg": 41.25,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 110.25,
+            "adjusted_weight_mg": 110
+        },
+        {
+            "batch_code": "E10FP 1",
+            "polymer_type": "Ethocel 10 FP",
+            "coded_X1": -1,
+            "coded_X2": -1,
+            "polymer_percent": 20.0,
+            "avicel_percent": 30.0,
+            "polymer_mg": 22.0,
+            "avicel_mg": 33.0,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 91.0,
+            "adjusted_weight_mg": 91
+        },
+        {
+            "batch_code": "E10FP 2",
+            "polymer_type": "Ethocel 10 FP",
+            "coded_X1": 1,
+            "coded_X2": -1,
+            "polymer_percent": 40.0,
+            "avicel_percent": 30.0,
+            "polymer_mg": 44.0,
+            "avicel_mg": 33.0,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 113.0,
+            "adjusted_weight_mg": 113
+        },
+        {
+            "batch_code": "E10FP 3",
+            "polymer_type": "Ethocel 10 FP",
+            "coded_X1": -1,
+            "coded_X2": 1,
+            "polymer_percent": 20.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 22.0,
+            "avicel_mg": 49.5,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 107.5,
+            "adjusted_weight_mg": 108
+        },
+        {
+            "batch_code": "E10FP 4",
+            "polymer_type": "Ethocel 10 FP",
+            "coded_X1": 1,
+            "coded_X2": 1,
+            "polymer_percent": 40.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 44.0,
+            "avicel_mg": 49.5,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 129.5,
+            "adjusted_weight_mg": 130
+        },
+        {
+            "batch_code": "E10FP 5",
+            "polymer_type": "Ethocel 10 FP",
+            "coded_X1": -1.414,
+            "coded_X2": 0,
+            "polymer_percent": 15.86,
+            "avicel_percent": 37.5,
+            "polymer_mg": 17.45,
+            "avicel_mg": 41.25,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 94.7,
+            "adjusted_weight_mg": 95
+        },
+        {
+            "batch_code": "E10FP 6",
+            "polymer_type": "Ethocel 10 FP",
+            "coded_X1": 1.414,
+            "coded_X2": 0,
+            "polymer_percent": 44.14,
+            "avicel_percent": 37.5,
+            "polymer_mg": 48.56,
+            "avicel_mg": 41.25,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 125.81,
+            "adjusted_weight_mg": 126
+        },
+        {
+            "batch_code": "E10FP 7",
+            "polymer_type": "Ethocel 10 FP",
+            "coded_X1": 0,
+            "coded_X2": -1.414,
+            "polymer_percent": 30.0,
+            "avicel_percent": 26.89,
+            "polymer_mg": 33.0,
+            "avicel_mg": 29.58,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 98.58,
+            "adjusted_weight_mg": 99
+        },
+        {
+            "batch_code": "E10FP 8",
+            "polymer_type": "Ethocel 10 FP",
+            "coded_X1": 0,
+            "coded_X2": 1.414,
+            "polymer_percent": 30.0,
+            "avicel_percent": 48.11,
+            "polymer_mg": 33.0,
+            "avicel_mg": 52.92,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 121.92,
+            "adjusted_weight_mg": 122
+        },
+        {
+            "batch_code": "E10FP 9",
+            "polymer_type": "Ethocel 10 FP",
+            "coded_X1": 0,
+            "coded_X2": 0,
+            "polymer_percent": 30.0,
+            "avicel_percent": 37.5,
+            "polymer_mg": 33.0,
+            "avicel_mg": 41.25,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 110.25,
+            "adjusted_weight_mg": 110
+        },
+        {
+            "batch_code": "KSR 1",
+            "polymer_type": "Kollidon SR",
+            "coded_X1": -1,
+            "coded_X2": -1,
+            "polymer_percent": 30.0,
+            "avicel_percent": 15.0,
+            "polymer_mg": 33.0,
+            "avicel_mg": 16.5,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 85.5,
+            "adjusted_weight_mg": 86
+        },
+        {
+            "batch_code": "KSR 2",
+            "polymer_type": "Kollidon SR",
+            "coded_X1": 1,
+            "coded_X2": -1,
+            "polymer_percent": 55.0,
+            "avicel_percent": 15.0,
+            "polymer_mg": 60.5,
+            "avicel_mg": 16.5,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 113.0,
+            "adjusted_weight_mg": 113
+        },
+        {
+            "batch_code": "KSR 3",
+            "polymer_type": "Kollidon SR",
+            "coded_X1": -1,
+            "coded_X2": 1,
+            "polymer_percent": 30.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 33.0,
+            "avicel_mg": 49.5,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 118.5,
+            "adjusted_weight_mg": 118
+        },
+        {
+            "batch_code": "KSR 4",
+            "polymer_type": "Kollidon SR",
+            "coded_X1": 1,
+            "coded_X2": 1,
+            "polymer_percent": 55.0,
+            "avicel_percent": 45.0,
+            "polymer_mg": 60.5,
+            "avicel_mg": 49.5,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 146.0,
+            "adjusted_weight_mg": 146
+        },
+        {
+            "batch_code": "KSR 5",
+            "polymer_type": "Kollidon SR",
+            "coded_X1": -1.414,
+            "coded_X2": 0,
+            "polymer_percent": 24.82,
+            "avicel_percent": 30.0,
+            "polymer_mg": 27.3,
+            "avicel_mg": 33.0,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 96.3,
+            "adjusted_weight_mg": 96
+        },
+        {
+            "batch_code": "KSR 6",
+            "polymer_type": "Kollidon SR",
+            "coded_X1": 1.414,
+            "coded_X2": 0,
+            "polymer_percent": 60.18,
+            "avicel_percent": 30.0,
+            "polymer_mg": 66.2,
+            "avicel_mg": 33.0,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 135.2,
+            "adjusted_weight_mg": 135
+        },
+        {
+            "batch_code": "KSR 7",
+            "polymer_type": "Kollidon SR",
+            "coded_X1": 0,
+            "coded_X2": -1.414,
+            "polymer_percent": 42.5,
+            "avicel_percent": 8.79,
+            "polymer_mg": 46.75,
+            "avicel_mg": 9.67,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 92.42,
+            "adjusted_weight_mg": 92
+        },
+        {
+            "batch_code": "KSR 8",
+            "polymer_type": "Kollidon SR",
+            "coded_X1": 0,
+            "coded_X2": 1.414,
+            "polymer_percent": 42.5,
+            "avicel_percent": 51.21,
+            "polymer_mg": 46.75,
+            "avicel_mg": 56.33,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 139.08,
+            "adjusted_weight_mg": 139
+        },
+        {
+            "batch_code": "KSR 9",
+            "polymer_type": "Kollidon SR",
+            "coded_X1": 0,
+            "coded_X2": 0,
+            "polymer_percent": 42.5,
+            "avicel_percent": 30.0,
+            "polymer_mg": 46.75,
+            "avicel_mg": 33.0,
+            "api_mg": 34,
+            "mg_stearate_mg": 2,
+            "total_weight_mg": 115.75,
+            "adjusted_weight_mg": 116
+        }
+    ],
+    "pre_compression_parameters": [
+        {
+            "batch_code": "K4M 1",
+            "mass_g": 10,
+            "bulk_volume_mL": 17.0,
+            "tapped_volume_mL": 12.0,
+            "bulk_density_gmL": 0.59,
+            "tapped_density_gmL": 0.83,
+            "hausner_ratio": 1.42,
+            "compressibility_index_percent": 29.41,
+            "angle_of_repose_deg": 53.28,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "K4M 2",
+            "mass_g": 10,
+            "bulk_volume_mL": 17.0,
+            "tapped_volume_mL": 16.0,
+            "bulk_density_gmL": 0.59,
+            "tapped_density_gmL": 0.63,
+            "hausner_ratio": 1.06,
+            "compressibility_index_percent": 5.88,
+            "angle_of_repose_deg": 29.56,
+            "flow_properties": "Excellent"
+        },
+        {
+            "batch_code": "K4M 3",
+            "mass_g": 10,
+            "bulk_volume_mL": 19.0,
+            "tapped_volume_mL": 16.0,
+            "bulk_density_gmL": 0.53,
+            "tapped_density_gmL": 0.63,
+            "hausner_ratio": 1.19,
+            "compressibility_index_percent": 15.79,
+            "angle_of_repose_deg": 36.32,
+            "flow_properties": "Fair"
+        },
+        {
+            "batch_code": "K4M 4",
+            "mass_g": 10,
+            "bulk_volume_mL": 20.0,
+            "tapped_volume_mL": 14.0,
+            "bulk_density_gmL": 0.5,
+            "tapped_density_gmL": 0.71,
+            "hausner_ratio": 1.43,
+            "compressibility_index_percent": 30.0,
+            "angle_of_repose_deg": 49.83,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "K4M 5",
+            "mass_g": 10,
+            "bulk_volume_mL": 20.0,
+            "tapped_volume_mL": 16.0,
+            "bulk_density_gmL": 0.5,
+            "tapped_density_gmL": 0.63,
+            "hausner_ratio": 1.25,
+            "compressibility_index_percent": 20.0,
+            "angle_of_repose_deg": 38.39,
+            "flow_properties": "Fair"
+        },
+        {
+            "batch_code": "K4M 6",
+            "mass_g": 10,
+            "bulk_volume_mL": 20.0,
+            "tapped_volume_mL": 14.0,
+            "bulk_density_gmL": 0.5,
+            "tapped_density_gmL": 0.71,
+            "hausner_ratio": 1.43,
+            "compressibility_index_percent": 30.0,
+            "angle_of_repose_deg": 53.99,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "K4M 7",
+            "mass_g": 10,
+            "bulk_volume_mL": 17.0,
+            "tapped_volume_mL": 12.0,
+            "bulk_density_gmL": 0.59,
+            "tapped_density_gmL": 0.83,
+            "hausner_ratio": 1.42,
+            "compressibility_index_percent": 29.41,
+            "angle_of_repose_deg": 54.21,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "K4M 8",
+            "mass_g": 10,
+            "bulk_volume_mL": 18.0,
+            "tapped_volume_mL": 12.0,
+            "bulk_density_gmL": 0.56,
+            "tapped_density_gmL": 0.83,
+            "hausner_ratio": 1.5,
+            "compressibility_index_percent": 33.33,
+            "angle_of_repose_deg": 58.18,
+            "flow_properties": "Very Poor"
+        },
+        {
+            "batch_code": "K4M 9",
+            "mass_g": 10,
+            "bulk_volume_mL": 17.0,
+            "tapped_volume_mL": 15.0,
+            "bulk_density_gmL": 0.59,
+            "tapped_density_gmL": 0.67,
+            "hausner_ratio": 1.13,
+            "compressibility_index_percent": 11.76,
+            "angle_of_repose_deg": 33.2,
+            "flow_properties": "Good"
+        },
+        {
+            "batch_code": "K100M 1",
+            "mass_g": 10,
+            "bulk_volume_mL": 17.0,
+            "tapped_volume_mL": 11.0,
+            "bulk_density_gmL": 0.59,
+            "tapped_density_gmL": 0.91,
+            "hausner_ratio": 1.55,
+            "compressibility_index_percent": 35.29,
+            "angle_of_repose_deg": 60.79,
+            "flow_properties": "Very Poor"
+        },
+        {
+            "batch_code": "K100M 2",
+            "mass_g": 10,
+            "bulk_volume_mL": 18.0,
+            "tapped_volume_mL": 16.0,
+            "bulk_density_gmL": 0.56,
+            "tapped_density_gmL": 0.63,
+            "hausner_ratio": 1.13,
+            "compressibility_index_percent": 11.11,
+            "angle_of_repose_deg": 32.11,
+            "flow_properties": "Good"
+        },
+        {
+            "batch_code": "K100M 3",
+            "mass_g": 10,
+            "bulk_volume_mL": 20.0,
+            "tapped_volume_mL": 17.0,
+            "bulk_density_gmL": 0.5,
+            "tapped_density_gmL": 0.59,
+            "hausner_ratio": 1.18,
+            "compressibility_index_percent": 15.0,
+            "angle_of_repose_deg": 33.28,
+            "flow_properties": "Good"
+        },
+        {
+            "batch_code": "K100M 4",
+            "mass_g": 10,
+            "bulk_volume_mL": 19.0,
+            "tapped_volume_mL": 11.0,
+            "bulk_density_gmL": 0.53,
+            "tapped_density_gmL": 0.91,
+            "hausner_ratio": 1.73,
+            "compressibility_index_percent": 42.11,
+            "angle_of_repose_deg": 70.45,
+            "flow_properties": "Very Very Poor"
+        },
+        {
+            "batch_code": "K100M 5",
+            "mass_g": 10,
+            "bulk_volume_mL": 17.0,
+            "tapped_volume_mL": 13.0,
+            "bulk_density_gmL": 0.59,
+            "tapped_density_gmL": 0.77,
+            "hausner_ratio": 1.31,
+            "compressibility_index_percent": 23.53,
+            "angle_of_repose_deg": 38.12,
+            "flow_properties": "Fair"
+        },
+        {
+            "batch_code": "K100M 6",
+            "mass_g": 10,
+            "bulk_volume_mL": 20.0,
+            "tapped_volume_mL": 15.0,
+            "bulk_density_gmL": 0.5,
+            "tapped_density_gmL": 0.67,
+            "hausner_ratio": 1.33,
+            "compressibility_index_percent": 25.0,
+            "angle_of_repose_deg": 42.66,
+            "flow_properties": "Passable"
+        },
+        {
+            "batch_code": "K100M 7",
+            "mass_g": 10,
+            "bulk_volume_mL": 17.0,
+            "tapped_volume_mL": 12.0,
+            "bulk_density_gmL": 0.59,
+            "tapped_density_gmL": 0.83,
+            "hausner_ratio": 1.42,
+            "compressibility_index_percent": 29.41,
+            "angle_of_repose_deg": 46.32,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "K100M 8",
+            "mass_g": 10,
+            "bulk_volume_mL": 17.0,
+            "tapped_volume_mL": 11.0,
+            "bulk_density_gmL": 0.59,
+            "tapped_density_gmL": 0.91,
+            "hausner_ratio": 1.55,
+            "compressibility_index_percent": 35.29,
+            "angle_of_repose_deg": 60.28,
+            "flow_properties": "Very Poor"
+        },
+        {
+            "batch_code": "K100M 9",
+            "mass_g": 10,
+            "bulk_volume_mL": 18.0,
+            "tapped_volume_mL": 17.0,
+            "bulk_density_gmL": 0.56,
+            "tapped_density_gmL": 0.59,
+            "hausner_ratio": 1.06,
+            "compressibility_index_percent": 5.56,
+            "angle_of_repose_deg": 27.19,
+            "flow_properties": "Excellent"
+        },
+        {
+            "batch_code": "E10ST 1",
+            "mass_g": 10,
+            "bulk_volume_mL": 24.0,
+            "tapped_volume_mL": 16.0,
+            "bulk_density_gmL": 0.42,
+            "tapped_density_gmL": 0.63,
+            "hausner_ratio": 1.5,
+            "compressibility_index_percent": 33.33,
+            "angle_of_repose_deg": 61.24,
+            "flow_properties": "Very Poor"
+        },
+        {
+            "batch_code": "E10ST 2",
+            "mass_g": 10,
+            "bulk_volume_mL": 23.0,
+            "tapped_volume_mL": 19.0,
+            "bulk_density_gmL": 0.43,
+            "tapped_density_gmL": 0.53,
+            "hausner_ratio": 1.21,
+            "compressibility_index_percent": 17.39,
+            "angle_of_repose_deg": 38.13,
+            "flow_properties": "Fair"
+        },
+        {
+            "batch_code": "E10ST 3",
+            "mass_g": 10,
+            "bulk_volume_mL": 23.0,
+            "tapped_volume_mL": 17.0,
+            "bulk_density_gmL": 0.43,
+            "tapped_density_gmL": 0.59,
+            "hausner_ratio": 1.35,
+            "compressibility_index_percent": 26.09,
+            "angle_of_repose_deg": 51.22,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "E10ST 4",
+            "mass_g": 10,
+            "bulk_volume_mL": 22.0,
+            "tapped_volume_mL": 15.0,
+            "bulk_density_gmL": 0.45,
+            "tapped_density_gmL": 0.67,
+            "hausner_ratio": 1.47,
+            "compressibility_index_percent": 31.82,
+            "angle_of_repose_deg": 58.54,
+            "flow_properties": "Very Poor"
+        },
+        {
+            "batch_code": "E10ST 5",
+            "mass_g": 10,
+            "bulk_volume_mL": 23.0,
+            "tapped_volume_mL": 15.0,
+            "bulk_density_gmL": 0.43,
+            "tapped_density_gmL": 0.67,
+            "hausner_ratio": 1.53,
+            "compressibility_index_percent": 34.78,
+            "angle_of_repose_deg": 64.87,
+            "flow_properties": "Very Poor"
+        },
+        {
+            "batch_code": "E10ST 6",
+            "mass_g": 10,
+            "bulk_volume_mL": 24.0,
+            "tapped_volume_mL": 21.0,
+            "bulk_density_gmL": 0.42,
+            "tapped_density_gmL": 0.48,
+            "hausner_ratio": 1.14,
+            "compressibility_index_percent": 12.5,
+            "angle_of_repose_deg": 34.25,
+            "flow_properties": "Good"
+        },
+        {
+            "batch_code": "E10ST 7",
+            "mass_g": 10,
+            "bulk_volume_mL": 24.0,
+            "tapped_volume_mL": 18.0,
+            "bulk_density_gmL": 0.42,
+            "tapped_density_gmL": 0.56,
+            "hausner_ratio": 1.33,
+            "compressibility_index_percent": 25.0,
+            "angle_of_repose_deg": 43.3,
+            "flow_properties": "Passable"
+        },
+        {
+            "batch_code": "E10ST 8",
+            "mass_g": 10,
+            "bulk_volume_mL": 21.0,
+            "tapped_volume_mL": 15.0,
+            "bulk_density_gmL": 0.48,
+            "tapped_density_gmL": 0.67,
+            "hausner_ratio": 1.4,
+            "compressibility_index_percent": 28.57,
+            "angle_of_repose_deg": 48.74,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "E10ST 9",
+            "mass_g": 10,
+            "bulk_volume_mL": 22.0,
+            "tapped_volume_mL": 18.0,
+            "bulk_density_gmL": 0.45,
+            "tapped_density_gmL": 0.56,
+            "hausner_ratio": 1.22,
+            "compressibility_index_percent": 18.18,
+            "angle_of_repose_deg": 37.34,
+            "flow_properties": "Fair"
+        },
+        {
+            "batch_code": "E10FP 1",
+            "mass_g": 10,
+            "bulk_volume_mL": 27.0,
+            "tapped_volume_mL": 21.0,
+            "bulk_density_gmL": 0.37,
+            "tapped_density_gmL": 0.48,
+            "hausner_ratio": 1.29,
+            "compressibility_index_percent": 22.22,
+            "angle_of_repose_deg": 43.23,
+            "flow_properties": "Passable"
+        },
+        {
+            "batch_code": "E10FP 2",
+            "mass_g": 10,
+            "bulk_volume_mL": 28.0,
+            "tapped_volume_mL": 24.0,
+            "bulk_density_gmL": 0.36,
+            "tapped_density_gmL": 0.42,
+            "hausner_ratio": 1.17,
+            "compressibility_index_percent": 14.29,
+            "angle_of_repose_deg": 32.12,
+            "flow_properties": "Good"
+        },
+        {
+            "batch_code": "E10FP 3",
+            "mass_g": 10,
+            "bulk_volume_mL": 29.0,
+            "tapped_volume_mL": 24.0,
+            "bulk_density_gmL": 0.34,
+            "tapped_density_gmL": 0.42,
+            "hausner_ratio": 1.21,
+            "compressibility_index_percent": 17.24,
+            "angle_of_repose_deg": 37.75,
+            "flow_properties": "Fair"
+        },
+        {
+            "batch_code": "E10FP 4",
+            "mass_g": 10,
+            "bulk_volume_mL": 31.0,
+            "tapped_volume_mL": 24.0,
+            "bulk_density_gmL": 0.32,
+            "tapped_density_gmL": 0.42,
+            "hausner_ratio": 1.29,
+            "compressibility_index_percent": 22.58,
+            "angle_of_repose_deg": 44.09,
+            "flow_properties": "Passable"
+        },
+        {
+            "batch_code": "E10FP 5",
+            "mass_g": 10,
+            "bulk_volume_mL": 31.0,
+            "tapped_volume_mL": 22.0,
+            "bulk_density_gmL": 0.32,
+            "tapped_density_gmL": 0.45,
+            "hausner_ratio": 1.41,
+            "compressibility_index_percent": 29.03,
+            "angle_of_repose_deg": 53.37,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "E10FP 6",
+            "mass_g": 10,
+            "bulk_volume_mL": 30.0,
+            "tapped_volume_mL": 20.0,
+            "bulk_density_gmL": 0.33,
+            "tapped_density_gmL": 0.5,
+            "hausner_ratio": 1.5,
+            "compressibility_index_percent": 33.33,
+            "angle_of_repose_deg": 58.16,
+            "flow_properties": "Very Poor"
+        },
+        {
+            "batch_code": "E10FP 7",
+            "mass_g": 10,
+            "bulk_volume_mL": 28.0,
+            "tapped_volume_mL": 18.0,
+            "bulk_density_gmL": 0.36,
+            "tapped_density_gmL": 0.56,
+            "hausner_ratio": 1.56,
+            "compressibility_index_percent": 35.71,
+            "angle_of_repose_deg": 62.97,
+            "flow_properties": "Very Poor"
+        },
+        {
+            "batch_code": "E10FP 8",
+            "mass_g": 10,
+            "bulk_volume_mL": 29.0,
+            "tapped_volume_mL": 22.0,
+            "bulk_density_gmL": 0.34,
+            "tapped_density_gmL": 0.45,
+            "hausner_ratio": 1.32,
+            "compressibility_index_percent": 24.14,
+            "angle_of_repose_deg": 44.23,
+            "flow_properties": "Passable"
+        },
+        {
+            "batch_code": "E10FP 9",
+            "mass_g": 10,
+            "bulk_volume_mL": 31.0,
+            "tapped_volume_mL": 26.0,
+            "bulk_density_gmL": 0.32,
+            "tapped_density_gmL": 0.38,
+            "hausner_ratio": 1.19,
+            "compressibility_index_percent": 16.13,
+            "angle_of_repose_deg": 37.32,
+            "flow_properties": "Fair"
+        },
+        {
+            "batch_code": "KSR 1",
+            "mass_g": 10,
+            "bulk_volume_mL": 19.0,
+            "tapped_volume_mL": 14.0,
+            "bulk_density_gmL": 0.53,
+            "tapped_density_gmL": 0.71,
+            "hausner_ratio": 1.36,
+            "compressibility_index_percent": 26.32,
+            "angle_of_repose_deg": 51.55,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "KSR 2",
+            "mass_g": 10,
+            "bulk_volume_mL": 19.0,
+            "tapped_volume_mL": 18.0,
+            "bulk_density_gmL": 0.53,
+            "tapped_density_gmL": 0.56,
+            "hausner_ratio": 1.06,
+            "compressibility_index_percent": 5.26,
+            "angle_of_repose_deg": 27.19,
+            "flow_properties": "Excellent"
+        },
+        {
+            "batch_code": "KSR 3",
+            "mass_g": 10,
+            "bulk_volume_mL": 21.0,
+            "tapped_volume_mL": 18.0,
+            "bulk_density_gmL": 0.48,
+            "tapped_density_gmL": 0.56,
+            "hausner_ratio": 1.17,
+            "compressibility_index_percent": 14.29,
+            "angle_of_repose_deg": 34.31,
+            "flow_properties": "Good"
+        },
+        {
+            "batch_code": "KSR 4",
+            "mass_g": 10,
+            "bulk_volume_mL": 22.0,
+            "tapped_volume_mL": 16.0,
+            "bulk_density_gmL": 0.45,
+            "tapped_density_gmL": 0.63,
+            "hausner_ratio": 1.38,
+            "compressibility_index_percent": 27.27,
+            "angle_of_repose_deg": 47.5,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "KSR 5",
+            "mass_g": 10,
+            "bulk_volume_mL": 18.0,
+            "tapped_volume_mL": 15.0,
+            "bulk_density_gmL": 0.56,
+            "tapped_density_gmL": 0.67,
+            "hausner_ratio": 1.2,
+            "compressibility_index_percent": 16.67,
+            "angle_of_repose_deg": 39.25,
+            "flow_properties": "Fair"
+        },
+        {
+            "batch_code": "KSR 6",
+            "mass_g": 10,
+            "bulk_volume_mL": 22.0,
+            "tapped_volume_mL": 15.0,
+            "bulk_density_gmL": 0.45,
+            "tapped_density_gmL": 0.67,
+            "hausner_ratio": 1.47,
+            "compressibility_index_percent": 31.82,
+            "angle_of_repose_deg": 57.86,
+            "flow_properties": "Very Poor"
+        },
+        {
+            "batch_code": "KSR 7",
+            "mass_g": 10,
+            "bulk_volume_mL": 20.0,
+            "tapped_volume_mL": 14.0,
+            "bulk_density_gmL": 0.5,
+            "tapped_density_gmL": 0.71,
+            "hausner_ratio": 1.43,
+            "compressibility_index_percent": 30.0,
+            "angle_of_repose_deg": 46.82,
+            "flow_properties": "Poor"
+        },
+        {
+            "batch_code": "KSR 8",
+            "mass_g": 10,
+            "bulk_volume_mL": 22.0,
+            "tapped_volume_mL": 17.0,
+            "bulk_density_gmL": 0.45,
+            "tapped_density_gmL": 0.59,
+            "hausner_ratio": 1.29,
+            "compressibility_index_percent": 22.73,
+            "angle_of_repose_deg": 42.51,
+            "flow_properties": "Passable"
+        },
+        {
+            "batch_code": "KSR 9",
+            "mass_g": 10,
+            "bulk_volume_mL": 20.0,
+            "tapped_volume_mL": 17.0,
+            "bulk_density_gmL": 0.5,
+            "tapped_density_gmL": 0.59,
+            "hausner_ratio": 1.18,
+            "compressibility_index_percent": 15.0,
+            "angle_of_repose_deg": 33.62,
+            "flow_properties": "Good"
+        }
+    ],
+    "tablet_properties": [
+        {
+            "batch_code": "K4M 2",
+            "thickness_mm": 3.96,
+            "thickness_sd": 0.1,
+            "hardness_kg": 4.81,
+            "hardness_sd": 0.52,
+            "weight_variation_mg": 108.23,
+            "weight_sd": 2.8,
+            "friability_percent": 0.76,
+            "disintegration_time_hrs": 4.82,
+            "assay_percent": 98.76
+        },
+        {
+            "batch_code": "K4M 3",
+            "thickness_mm": 4.05,
+            "thickness_sd": 0.12,
+            "hardness_kg": 4.2,
+            "hardness_sd": 0.38,
+            "weight_variation_mg": 113.21,
+            "weight_sd": 2.8,
+            "friability_percent": 0.91,
+            "disintegration_time_hrs": 4.18,
+            "assay_percent": 97.25
+        },
+        {
+            "batch_code": "K4M 5",
+            "thickness_mm": 3.67,
+            "thickness_sd": 0.14,
+            "hardness_kg": 3.74,
+            "hardness_sd": 0.7,
+            "weight_variation_mg": 96.98,
+            "weight_sd": 5.0,
+            "friability_percent": 1.14,
+            "disintegration_time_hrs": 3.55,
+            "assay_percent": 96.38
+        },
+        {
+            "batch_code": "K4M 9",
+            "thickness_mm": 3.99,
+            "thickness_sd": 0.12,
+            "hardness_kg": 4.69,
+            "hardness_sd": 1.18,
+            "weight_variation_mg": 110.71,
+            "weight_sd": 4.06,
+            "friability_percent": 0.94,
+            "disintegration_time_hrs": 4.3,
+            "assay_percent": 98.05
+        },
+        {
+            "batch_code": "K100M 2",
+            "thickness_mm": 4.01,
+            "thickness_sd": 0.14,
+            "hardness_kg": 5.87,
+            "hardness_sd": 0.68,
+            "weight_variation_mg": 109.3,
+            "weight_sd": 3.66,
+            "friability_percent": 0.57,
+            "disintegration_time_hrs": 6.87,
+            "assay_percent": 98.37
+        },
+        {
+            "batch_code": "K100M 3",
+            "thickness_mm": 4.03,
+            "thickness_sd": 0.16,
+            "hardness_kg": 4.3,
+            "hardness_sd": 0.7,
+            "weight_variation_mg": 113.37,
+            "weight_sd": 4.78,
+            "friability_percent": 0.85,
+            "disintegration_time_hrs": 4.95,
+            "assay_percent": 97.82
+        },
+        {
+            "batch_code": "K100M 5",
+            "thickness_mm": 3.97,
+            "thickness_sd": 0.16,
+            "hardness_kg": 4.04,
+            "hardness_sd": 1.12,
+            "weight_variation_mg": 95.74,
+            "weight_sd": 6.32,
+            "friability_percent": 0.99,
+            "disintegration_time_hrs": 3.73,
+            "assay_percent": 98.61
+        },
+        {
+            "batch_code": "K100M 9",
+            "thickness_mm": 3.98,
+            "thickness_sd": 0.08,
+            "hardness_kg": 5.57,
+            "hardness_sd": 0.76,
+            "weight_variation_mg": 110.27,
+            "weight_sd": 4.0,
+            "friability_percent": 0.63,
+            "disintegration_time_hrs": 6.58,
+            "assay_percent": 98.87
+        },
+        {
+            "batch_code": "E10ST 2",
+            "thickness_mm": 4.01,
+            "thickness_sd": 0.15,
+            "hardness_kg": 8.04,
+            "hardness_sd": 1.86,
+            "weight_variation_mg": 113.54,
+            "weight_sd": 3.71,
+            "friability_percent": 0.76,
+            "disintegration_time_hrs": 1.42,
+            "assay_percent": 96.81
+        },
+        {
+            "batch_code": "E10ST 6",
+            "thickness_mm": 4.39,
+            "thickness_sd": 0.18,
+            "hardness_kg": 8.53,
+            "hardness_sd": 2.26,
+            "weight_variation_mg": 125.35,
+            "weight_sd": 4.53,
+            "friability_percent": 0.69,
+            "disintegration_time_hrs": 2.1,
+            "assay_percent": 97.32
+        },
+        {
+            "batch_code": "E10ST 9",
+            "thickness_mm": 4.05,
+            "thickness_sd": 0.13,
+            "hardness_kg": 7.96,
+            "hardness_sd": 1.57,
+            "weight_variation_mg": 109.85,
+            "weight_sd": 3.82,
+            "friability_percent": 0.97,
+            "disintegration_time_hrs": 1.38,
+            "assay_percent": 96.18
+        },
+        {
+            "batch_code": "E10FP 2",
+            "thickness_mm": 3.99,
+            "thickness_sd": 0.08,
+            "hardness_kg": 12.92,
+            "hardness_sd": 1.8,
+            "weight_variation_mg": 113.77,
+            "weight_sd": 3.74,
+            "friability_percent": 0.3,
+            "disintegration_time_hrs": 5.72,
+            "assay_percent": 98.79
+        },
+        {
+            "batch_code": "E10FP 3",
+            "thickness_mm": 4.0,
+            "thickness_sd": 0.1,
+            "hardness_kg": 11.75,
+            "hardness_sd": 2.14,
+            "weight_variation_mg": 109.46,
+            "weight_sd": 4.5,
+            "friability_percent": 0.95,
+            "disintegration_time_hrs": 3.68,
+            "assay_percent": 96.32
+        },
+        {
+            "batch_code": "E10FP 9",
+            "thickness_mm": 3.98,
+            "thickness_sd": 0.14,
+            "hardness_kg": 12.57,
+            "hardness_sd": 2.3,
+            "weight_variation_mg": 110.82,
+            "weight_sd": 5.38,
+            "friability_percent": 0.47,
+            "disintegration_time_hrs": 5.13,
+            "assay_percent": 98.24
+        },
+        {
+            "batch_code": "KSR 2",
+            "thickness_mm": 4.24,
+            "thickness_sd": 0.1,
+            "hardness_kg": 5.01,
+            "hardness_sd": 0.74,
+            "weight_variation_mg": 113.3,
+            "weight_sd": 3.04,
+            "friability_percent": 0.29,
+            "disintegration_time_hrs": 7.52,
+            "assay_percent": 98.39
+        },
+        {
+            "batch_code": "KSR 3",
+            "thickness_mm": 4.07,
+            "thickness_sd": 0.14,
+            "hardness_kg": 4.24,
+            "hardness_sd": 0.88,
+            "weight_variation_mg": 118.97,
+            "weight_sd": 3.98,
+            "friability_percent": 0.84,
+            "disintegration_time_hrs": 4.25,
+            "assay_percent": 96.51
+        },
+        {
+            "batch_code": "KSR 5",
+            "thickness_mm": 4.04,
+            "thickness_sd": 0.12,
+            "hardness_kg": 3.4,
+            "hardness_sd": 0.78,
+            "weight_variation_mg": 96.82,
+            "weight_sd": 5.28,
+            "friability_percent": 1.53,
+            "disintegration_time_hrs": 3.15,
+            "assay_percent": 95.23
+        },
+        {
+            "batch_code": "KSR 9",
+            "thickness_mm": 4.2,
+            "thickness_sd": 0.12,
+            "hardness_kg": 4.2,
+            "hardness_sd": 0.58,
+            "weight_variation_mg": 116.05,
+            "weight_sd": 4.04,
+            "friability_percent": 0.63,
+            "disintegration_time_hrs": 6.27,
+            "assay_percent": 97.27
+        }
+    ],
+    "figure_1_hydration_data": {
+        "description": "Hydration behavior (swelling %) over time for tizanidine matrix formulations. Swelling (%) = (Wt - Wo)/Wo * 100. Data extracted from Figure 1.",
+        "time_points_hours": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            8
+        ],
+        "batches": {
+            "HPMC_K4M": {
+                "K4M_2_high_polymer": {
+                    "1h": 28,
+                    "2h": 42,
+                    "3h": 55,
+                    "4h": 65,
+                    "6h": 78,
+                    "8h": 85
+                },
+                "K4M_3_mid_polymer": {
+                    "1h": 20,
+                    "2h": 32,
+                    "3h": 42,
+                    "4h": 50,
+                    "6h": 60,
+                    "8h": 66
+                },
+                "K4M_5_low_polymer": {
+                    "1h": 12,
+                    "2h": 20,
+                    "3h": 28,
+                    "4h": 34,
+                    "6h": 40,
+                    "8h": 44
+                }
+            },
+            "HPMC_K100M": {
+                "K100M_9_high_viscosity": {
+                    "1h": 32,
+                    "2h": 48,
+                    "3h": 62,
+                    "4h": 72,
+                    "6h": 85,
+                    "8h": 92
+                },
+                "K100M_3_mid_polymer": {
+                    "1h": 22,
+                    "2h": 35,
+                    "3h": 46,
+                    "4h": 55,
+                    "6h": 65,
+                    "8h": 72
+                },
+                "K100M_5_low_polymer": {
+                    "1h": 14,
+                    "2h": 22,
+                    "3h": 30,
+                    "4h": 38,
+                    "6h": 45,
+                    "8h": 50
+                }
+            },
+            "Ethocel_10ST": {
+                "E10ST_2": {
+                    "1h": 3,
+                    "2h": 5,
+                    "3h": 7,
+                    "4h": 9,
+                    "6h": 12,
+                    "8h": 14
+                },
+                "E10ST_9": {
+                    "1h": 2,
+                    "2h": 4,
+                    "3h": 5,
+                    "4h": 7,
+                    "6h": 9,
+                    "8h": 11
+                }
+            },
+            "Ethocel_10FP": {
+                "E10FP_2": {
+                    "1h": 5,
+                    "2h": 8,
+                    "3h": 11,
+                    "4h": 14,
+                    "6h": 18,
+                    "8h": 22
+                },
+                "E10FP_9": {
+                    "1h": 3,
+                    "2h": 5,
+                    "3h": 7,
+                    "4h": 10,
+                    "6h": 13,
+                    "8h": 16
+                }
+            },
+            "Kollidon_SR": {
+                "KSR_2": {
+                    "1h": 8,
+                    "2h": 14,
+                    "3h": 20,
+                    "4h": 26,
+                    "6h": 34,
+                    "8h": 40
+                },
+                "KSR_3": {
+                    "1h": 5,
+                    "2h": 9,
+                    "3h": 13,
+                    "4h": 17,
+                    "6h": 23,
+                    "8h": 28
+                },
+                "KSR_5": {
+                    "1h": 3,
+                    "2h": 5,
+                    "3h": 8,
+                    "4h": 11,
+                    "6h": 15,
+                    "8h": 18
+                }
+            }
+        }
+    },
+    "figure_2_release_0.1N_HCl": {
+        "description": "Drug release profiles in 0.1 N HCl, USP apparatus II, 100 rpm, 37°C. Cumulative percent release over time.",
+        "time_points_hours": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            12,
+            16,
+            20,
+            24
+        ],
+        "batches": {
+            "HPMC_K4M": {
+                "K4M_1": {
+                    "2h": 45,
+                    "4h": 68,
+                    "6h": 82,
+                    "8h": 90,
+                    "12h": 96,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "K4M_2": {
+                    "2h": 22,
+                    "4h": 45,
+                    "6h": 62,
+                    "8h": 82,
+                    "12h": 92,
+                    "16h": 96,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "K4M_3": {
+                    "2h": 35,
+                    "4h": 58,
+                    "6h": 72,
+                    "8h": 85,
+                    "12h": 94,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "K4M_4": {
+                    "2h": 18,
+                    "4h": 38,
+                    "6h": 55,
+                    "8h": 70,
+                    "12h": 85,
+                    "16h": 92,
+                    "20h": 96,
+                    "24h": 98
+                },
+                "K4M_5": {
+                    "2h": 55,
+                    "4h": 80,
+                    "6h": 92,
+                    "8h": 96,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "K4M_6": {
+                    "2h": 15,
+                    "4h": 32,
+                    "6h": 48,
+                    "8h": 62,
+                    "12h": 78,
+                    "16h": 88,
+                    "20h": 94,
+                    "24h": 97
+                },
+                "K4M_7": {
+                    "2h": 30,
+                    "4h": 52,
+                    "6h": 68,
+                    "8h": 80,
+                    "12h": 90,
+                    "16h": 95,
+                    "20h": 97,
+                    "24h": 98
+                },
+                "K4M_8": {
+                    "2h": 28,
+                    "4h": 50,
+                    "6h": 66,
+                    "8h": 78,
+                    "12h": 89,
+                    "16h": 94,
+                    "20h": 96,
+                    "24h": 98
+                },
+                "K4M_9": {
+                    "2h": 25,
+                    "4h": 48,
+                    "6h": 65,
+                    "8h": 80,
+                    "12h": 91,
+                    "16h": 95,
+                    "20h": 97,
+                    "24h": 98
+                }
+            },
+            "HPMC_K100M": {
+                "K100M_1": {
+                    "2h": 40,
+                    "4h": 62,
+                    "6h": 76,
+                    "8h": 88,
+                    "12h": 95,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "K100M_2": {
+                    "2h": 12,
+                    "4h": 28,
+                    "6h": 42,
+                    "8h": 58,
+                    "12h": 72,
+                    "16h": 80,
+                    "20h": 84,
+                    "24h": 86
+                },
+                "K100M_3": {
+                    "2h": 32,
+                    "4h": 54,
+                    "6h": 68,
+                    "8h": 80,
+                    "12h": 90,
+                    "16h": 95,
+                    "20h": 97,
+                    "24h": 98
+                },
+                "K100M_4": {
+                    "2h": 10,
+                    "4h": 24,
+                    "6h": 38,
+                    "8h": 52,
+                    "12h": 66,
+                    "16h": 75,
+                    "20h": 82,
+                    "24h": 86
+                },
+                "K100M_5": {
+                    "2h": 50,
+                    "4h": 75,
+                    "6h": 88,
+                    "8h": 94,
+                    "12h": 97,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "K100M_6": {
+                    "2h": 8,
+                    "4h": 20,
+                    "6h": 32,
+                    "8h": 45,
+                    "12h": 60,
+                    "16h": 70,
+                    "20h": 78,
+                    "24h": 84
+                },
+                "K100M_7": {
+                    "2h": 28,
+                    "4h": 48,
+                    "6h": 64,
+                    "8h": 76,
+                    "12h": 88,
+                    "16h": 93,
+                    "20h": 96,
+                    "24h": 98
+                },
+                "K100M_8": {
+                    "2h": 26,
+                    "4h": 46,
+                    "6h": 62,
+                    "8h": 74,
+                    "12h": 86,
+                    "16h": 92,
+                    "20h": 95,
+                    "24h": 97
+                },
+                "K100M_9": {
+                    "2h": 18,
+                    "4h": 40,
+                    "6h": 58,
+                    "8h": 80,
+                    "12h": 92,
+                    "16h": 96,
+                    "20h": 97,
+                    "24h": 98
+                }
+            },
+            "Ethocel_10ST": {
+                "E10ST_1": {
+                    "2h": 70,
+                    "4h": 92,
+                    "6h": 98,
+                    "8h": 100,
+                    "12h": 100,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_2": {
+                    "2h": 55,
+                    "4h": 82,
+                    "6h": 94,
+                    "8h": 98,
+                    "12h": 99,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_3": {
+                    "2h": 65,
+                    "4h": 88,
+                    "6h": 96,
+                    "8h": 99,
+                    "12h": 100,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_4": {
+                    "2h": 48,
+                    "4h": 75,
+                    "6h": 88,
+                    "8h": 95,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_5": {
+                    "2h": 80,
+                    "4h": 96,
+                    "6h": 99,
+                    "8h": 100,
+                    "12h": 100,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_6": {
+                    "2h": 50,
+                    "4h": 78,
+                    "6h": 90,
+                    "8h": 96,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_7": {
+                    "2h": 60,
+                    "4h": 85,
+                    "6h": 94,
+                    "8h": 97,
+                    "12h": 99,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_8": {
+                    "2h": 58,
+                    "4h": 83,
+                    "6h": 92,
+                    "8h": 96,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_9": {
+                    "2h": 62,
+                    "4h": 86,
+                    "6h": 95,
+                    "8h": 98,
+                    "12h": 99,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                }
+            },
+            "Ethocel_10FP": {
+                "E10FP_1": {
+                    "2h": 48,
+                    "4h": 72,
+                    "6h": 86,
+                    "8h": 94,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10FP_2": {
+                    "2h": 20,
+                    "4h": 45,
+                    "6h": 62,
+                    "8h": 84,
+                    "12h": 94,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "E10FP_3": {
+                    "2h": 40,
+                    "4h": 65,
+                    "6h": 80,
+                    "8h": 90,
+                    "12h": 96,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "E10FP_4": {
+                    "2h": 18,
+                    "4h": 40,
+                    "6h": 56,
+                    "8h": 72,
+                    "12h": 86,
+                    "16h": 93,
+                    "20h": 96,
+                    "24h": 98
+                },
+                "E10FP_5": {
+                    "2h": 60,
+                    "4h": 85,
+                    "6h": 94,
+                    "8h": 97,
+                    "12h": 99,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10FP_6": {
+                    "2h": 15,
+                    "4h": 35,
+                    "6h": 52,
+                    "8h": 68,
+                    "12h": 82,
+                    "16h": 90,
+                    "20h": 95,
+                    "24h": 97
+                },
+                "E10FP_7": {
+                    "2h": 30,
+                    "4h": 55,
+                    "6h": 72,
+                    "8h": 84,
+                    "12h": 92,
+                    "16h": 96,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "E10FP_8": {
+                    "2h": 28,
+                    "4h": 52,
+                    "6h": 68,
+                    "8h": 80,
+                    "12h": 90,
+                    "16h": 95,
+                    "20h": 97,
+                    "24h": 98
+                },
+                "E10FP_9": {
+                    "2h": 35,
+                    "4h": 58,
+                    "6h": 74,
+                    "8h": 86,
+                    "12h": 94,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                }
+            },
+            "Kollidon_SR": {
+                "KSR_1": {
+                    "2h": 42,
+                    "4h": 66,
+                    "6h": 80,
+                    "8h": 90,
+                    "12h": 96,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "KSR_2": {
+                    "2h": 25,
+                    "4h": 48,
+                    "6h": 65,
+                    "8h": 85,
+                    "12h": 94,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "KSR_3": {
+                    "2h": 38,
+                    "4h": 60,
+                    "6h": 75,
+                    "8h": 86,
+                    "12h": 94,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "KSR_4": {
+                    "2h": 20,
+                    "4h": 42,
+                    "6h": 58,
+                    "8h": 72,
+                    "12h": 86,
+                    "16h": 92,
+                    "20h": 96,
+                    "24h": 98
+                },
+                "KSR_5": {
+                    "2h": 55,
+                    "4h": 78,
+                    "6h": 90,
+                    "8h": 95,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "KSR_6": {
+                    "2h": 15,
+                    "4h": 32,
+                    "6h": 48,
+                    "8h": 62,
+                    "12h": 78,
+                    "16h": 86,
+                    "20h": 92,
+                    "24h": 95
+                },
+                "KSR_7": {
+                    "2h": 30,
+                    "4h": 54,
+                    "6h": 70,
+                    "8h": 82,
+                    "12h": 92,
+                    "16h": 96,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "KSR_8": {
+                    "2h": 28,
+                    "4h": 50,
+                    "6h": 66,
+                    "8h": 78,
+                    "12h": 90,
+                    "16h": 94,
+                    "20h": 97,
+                    "24h": 98
+                },
+                "KSR_9": {
+                    "2h": 32,
+                    "4h": 55,
+                    "6h": 70,
+                    "8h": 82,
+                    "12h": 92,
+                    "16h": 96,
+                    "20h": 97,
+                    "24h": 98
+                }
+            }
+        }
+    },
+    "figure_3_release_pH4.5": {
+        "description": "Drug release profiles in phosphate buffer pH 4.5, USP apparatus II, 100 rpm, 37°C. Cumulative percent release over time.",
+        "time_points_hours": [
+            0,
+            2,
+            4,
+            6,
+            8,
+            12,
+            16,
+            20,
+            24
+        ],
+        "batches": {
+            "HPMC_K4M": {
+                "K4M_1": {
+                    "2h": 43,
+                    "4h": 66,
+                    "6h": 80,
+                    "8h": 88,
+                    "12h": 95,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "K4M_2": {
+                    "2h": 20,
+                    "4h": 43,
+                    "6h": 60,
+                    "8h": 80,
+                    "12h": 91,
+                    "16h": 95,
+                    "20h": 97,
+                    "24h": 98
+                },
+                "K4M_3": {
+                    "2h": 33,
+                    "4h": 56,
+                    "6h": 70,
+                    "8h": 83,
+                    "12h": 93,
+                    "16h": 96,
+                    "20h": 97,
+                    "24h": 98
+                },
+                "K4M_4": {
+                    "2h": 16,
+                    "4h": 36,
+                    "6h": 53,
+                    "8h": 68,
+                    "12h": 83,
+                    "16h": 90,
+                    "20h": 94,
+                    "24h": 97
+                },
+                "K4M_5": {
+                    "2h": 53,
+                    "4h": 78,
+                    "6h": 90,
+                    "8h": 95,
+                    "12h": 97,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "K4M_6": {
+                    "2h": 14,
+                    "4h": 30,
+                    "6h": 46,
+                    "8h": 60,
+                    "12h": 76,
+                    "16h": 86,
+                    "20h": 92,
+                    "24h": 96
+                },
+                "K4M_7": {
+                    "2h": 28,
+                    "4h": 50,
+                    "6h": 66,
+                    "8h": 78,
+                    "12h": 88,
+                    "16h": 93,
+                    "20h": 95,
+                    "24h": 97
+                },
+                "K4M_8": {
+                    "2h": 26,
+                    "4h": 48,
+                    "6h": 64,
+                    "8h": 76,
+                    "12h": 87,
+                    "16h": 92,
+                    "20h": 94,
+                    "24h": 96
+                },
+                "K4M_9": {
+                    "2h": 24,
+                    "4h": 46,
+                    "6h": 63,
+                    "8h": 78,
+                    "12h": 89,
+                    "16h": 93,
+                    "20h": 95,
+                    "24h": 97
+                }
+            },
+            "HPMC_K100M": {
+                "K100M_1": {
+                    "2h": 38,
+                    "4h": 60,
+                    "6h": 74,
+                    "8h": 86,
+                    "12h": 94,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "K100M_2": {
+                    "2h": 11,
+                    "4h": 26,
+                    "6h": 40,
+                    "8h": 56,
+                    "12h": 70,
+                    "16h": 78,
+                    "20h": 82,
+                    "24h": 84
+                },
+                "K100M_3": {
+                    "2h": 30,
+                    "4h": 52,
+                    "6h": 66,
+                    "8h": 78,
+                    "12h": 88,
+                    "16h": 93,
+                    "20h": 95,
+                    "24h": 97
+                },
+                "K100M_4": {
+                    "2h": 9,
+                    "4h": 22,
+                    "6h": 36,
+                    "8h": 50,
+                    "12h": 64,
+                    "16h": 73,
+                    "20h": 80,
+                    "24h": 84
+                },
+                "K100M_5": {
+                    "2h": 48,
+                    "4h": 73,
+                    "6h": 86,
+                    "8h": 92,
+                    "12h": 96,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "K100M_6": {
+                    "2h": 7,
+                    "4h": 18,
+                    "6h": 30,
+                    "8h": 43,
+                    "12h": 58,
+                    "16h": 68,
+                    "20h": 76,
+                    "24h": 82
+                },
+                "K100M_7": {
+                    "2h": 26,
+                    "4h": 46,
+                    "6h": 62,
+                    "8h": 74,
+                    "12h": 86,
+                    "16h": 91,
+                    "20h": 94,
+                    "24h": 96
+                },
+                "K100M_8": {
+                    "2h": 24,
+                    "4h": 44,
+                    "6h": 60,
+                    "8h": 72,
+                    "12h": 84,
+                    "16h": 90,
+                    "20h": 93,
+                    "24h": 95
+                },
+                "K100M_9": {
+                    "2h": 17,
+                    "4h": 38,
+                    "6h": 56,
+                    "8h": 78,
+                    "12h": 90,
+                    "16h": 94,
+                    "20h": 96,
+                    "24h": 97
+                }
+            },
+            "Ethocel_10ST": {
+                "E10ST_1": {
+                    "2h": 68,
+                    "4h": 90,
+                    "6h": 97,
+                    "8h": 99,
+                    "12h": 100,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_2": {
+                    "2h": 53,
+                    "4h": 80,
+                    "6h": 92,
+                    "8h": 97,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_3": {
+                    "2h": 63,
+                    "4h": 86,
+                    "6h": 95,
+                    "8h": 98,
+                    "12h": 99,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_4": {
+                    "2h": 46,
+                    "4h": 73,
+                    "6h": 86,
+                    "8h": 93,
+                    "12h": 97,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "E10ST_5": {
+                    "2h": 78,
+                    "4h": 94,
+                    "6h": 98,
+                    "8h": 99,
+                    "12h": 100,
+                    "16h": 100,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_6": {
+                    "2h": 48,
+                    "4h": 76,
+                    "6h": 88,
+                    "8h": 94,
+                    "12h": 97,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "E10ST_7": {
+                    "2h": 58,
+                    "4h": 83,
+                    "6h": 92,
+                    "8h": 96,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10ST_8": {
+                    "2h": 56,
+                    "4h": 81,
+                    "6h": 90,
+                    "8h": 95,
+                    "12h": 97,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "E10ST_9": {
+                    "2h": 60,
+                    "4h": 84,
+                    "6h": 93,
+                    "8h": 97,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                }
+            },
+            "Ethocel_10FP": {
+                "E10FP_1": {
+                    "2h": 46,
+                    "4h": 70,
+                    "6h": 84,
+                    "8h": 92,
+                    "12h": 97,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "E10FP_2": {
+                    "2h": 18,
+                    "4h": 43,
+                    "6h": 60,
+                    "8h": 82,
+                    "12h": 92,
+                    "16h": 95,
+                    "20h": 97,
+                    "24h": 98
+                },
+                "E10FP_3": {
+                    "2h": 38,
+                    "4h": 63,
+                    "6h": 78,
+                    "8h": 88,
+                    "12h": 95,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "E10FP_4": {
+                    "2h": 16,
+                    "4h": 38,
+                    "6h": 54,
+                    "8h": 70,
+                    "12h": 84,
+                    "16h": 91,
+                    "20h": 94,
+                    "24h": 97
+                },
+                "E10FP_5": {
+                    "2h": 58,
+                    "4h": 83,
+                    "6h": 92,
+                    "8h": 96,
+                    "12h": 98,
+                    "16h": 99,
+                    "20h": 100,
+                    "24h": 100
+                },
+                "E10FP_6": {
+                    "2h": 13,
+                    "4h": 33,
+                    "6h": 50,
+                    "8h": 66,
+                    "12h": 80,
+                    "16h": 88,
+                    "20h": 93,
+                    "24h": 96
+                },
+                "E10FP_7": {
+                    "2h": 28,
+                    "4h": 53,
+                    "6h": 70,
+                    "8h": 82,
+                    "12h": 90,
+                    "16h": 94,
+                    "20h": 96,
+                    "24h": 98
+                },
+                "E10FP_8": {
+                    "2h": 26,
+                    "4h": 50,
+                    "6h": 66,
+                    "8h": 78,
+                    "12h": 88,
+                    "16h": 93,
+                    "20h": 95,
+                    "24h": 97
+                },
+                "E10FP_9": {
+                    "2h": 33,
+                    "4h": 56,
+                    "6h": 72,
+                    "8h": 84,
+                    "12h": 92,
+                    "16h": 95,
+                    "20h": 97,
+                    "24h": 98
+                }
+            },
+            "Kollidon_SR": {
+                "KSR_1": {
+                    "2h": 40,
+                    "4h": 64,
+                    "6h": 78,
+                    "8h": 88,
+                    "12h": 94,
+                    "16h": 97,
+                    "20h": 98,
+                    "24h": 99
+                },
+                "KSR_2": {
+                    "2h": 23,
+                    "4h": 46,
+                    "6h": 63,
+                    "8h": 83,
+                    "12h": 92,
+                    "16h": 95,
+                    "20h": 97,
+                    "24h": 98
+                },
+                "KSR_3": {
+                    "2h": 36,
+                    "4h": 58,
+                    "6h": 73,
+                    "8h": 84,
+                    "12h": 92,
+                    "16h": 95,
+                    "20h": 96,
+                    "24h": 98
+                },
+                "KSR_4": {
+                    "2h": 18,
+                    "4h": 40,
+                    "6h": 56,
+                    "8h": 70,
+                    "12h": 84,
+                    "16h": 90,
+                    "20h": 94,
+                    "24h": 97
+                },
+                "KSR_5": {
+                    "2h": 53,
+                    "4h": 76,
+                    "6h": 88,
+                    "8h": 93,
+                    "12h": 97,
+                    "16h": 98,
+                    "20h": 99,
+                    "24h": 100
+                },
+                "KSR_6": {
+                    "2h": 13,
+                    "4h": 30,
+                    "6h": 46,
+                    "8h": 60,
+                    "12h": 76,
+                    "16h": 84,
+                    "20h": 90,
+                    "24h": 94
+                },
+                "KSR_7": {
+                    "2h": 28,
+                    "4h": 52,
+                    "6h": 68,
+                    "8h": 80,
+                    "12h": 90,
+                    "16h": 94,
+                    "20h": 96,
+                    "24h": 98
+                },
+                "KSR_8": {
+                    "2h": 26,
+                    "4h": 48,
+                    "6h": 64,
+                    "8h": 76,
+                    "12h": 88,
+                    "16h": 92,
+                    "20h": 95,
+                    "24h": 97
+                },
+                "KSR_9": {
+                    "2h": 30,
+                    "4h": 53,
+                    "6h": 68,
+                    "8h": 80,
+                    "12h": 90,
+                    "16h": 94,
+                    "20h": 95,
+                    "24h": 97
+                }
+            }
+        }
+    },
+    "release_kinetics": [
+        {
+            "batch_code": "K4M 2",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.9961,
+            "zero_order_Kd_h1": 1.586,
+            "first_order_r2": 0.964,
+            "first_order_Kf_h1": 0.192,
+            "higuchi_r2": 0.972,
+            "higuchi_Kh_h12": 26.792,
+            "korsmeyer_r2": 0.982,
+            "korsmeyer_n": 0.641,
+            "korsmeyer_Ksp_h1": 21.498,
+            "hixon_crowell_r2": 0.976,
+            "hixon_crowell_KHC_h13": 0.055,
+            "release_mechanism": "Anomalous (non-Fickian)"
+        },
+        {
+            "batch_code": "K4M 2",
+            "medium": "pH 4.5",
+            "zero_order_r2": 0.997,
+            "zero_order_Kd_h1": 11.257,
+            "first_order_r2": 0.971,
+            "first_order_Kf_h1": 0.182,
+            "higuchi_r2": 0.975,
+            "higuchi_Kh_h12": 25.919,
+            "korsmeyer_r2": 0.988,
+            "korsmeyer_n": 0.686,
+            "korsmeyer_Ksp_h1": 19.373,
+            "hixon_crowell_r2": 0.982,
+            "hixon_crowell_KHC_h13": 0.052,
+            "release_mechanism": "Anomalous"
+        },
+        {
+            "batch_code": "K4M 2",
+            "medium": "pH 6.8",
+            "zero_order_r2": 0.997,
+            "zero_order_Kd_h1": 10.986,
+            "first_order_r2": 0.972,
+            "first_order_Kf_h1": 0.173,
+            "higuchi_r2": 0.975,
+            "higuchi_Kh_h12": 25.181,
+            "korsmeyer_r2": 0.989,
+            "korsmeyer_n": 0.733,
+            "korsmeyer_Ksp_h1": 17.455,
+            "hixon_crowell_r2": 0.982,
+            "hixon_crowell_KHC_h13": 0.05,
+            "release_mechanism": "Anomalous"
+        },
+        {
+            "batch_code": "K4M 3",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.93,
+            "zero_order_Kd_h1": 17.217,
+            "first_order_r2": 0.951,
+            "first_order_Kf_h1": 0.923,
+            "higuchi_r2": 0.978,
+            "higuchi_Kh_h12": 42.347,
+            "korsmeyer_r2": 0.991,
+            "korsmeyer_n": 0.226,
+            "korsmeyer_Ksp_h1": 63.683,
+            "hixon_crowell_r2": 0.974,
+            "hixon_crowell_KHC_h13": 0.18
+        },
+        {
+            "batch_code": "K4M 9",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.992,
+            "zero_order_Kd_h1": 13.355,
+            "first_order_r2": 0.984,
+            "first_order_Kf_h1": 0.259,
+            "higuchi_r2": 0.994,
+            "higuchi_Kh_h12": 31.333,
+            "korsmeyer_r2": 0.994,
+            "korsmeyer_n": 0.526,
+            "korsmeyer_Ksp_h1": 30.089,
+            "hixon_crowell_r2": 0.992,
+            "hixon_crowell_KHC_h13": 0.072
+        },
+        {
+            "batch_code": "K100M 2",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.994,
+            "zero_order_Kd_h1": 8.31,
+            "first_order_r2": 0.977,
+            "first_order_Kf_h1": 0.115,
+            "higuchi_r2": 0.971,
+            "higuchi_Kh_h12": 19.058,
+            "korsmeyer_r2": 0.985,
+            "korsmeyer_n": 0.726,
+            "korsmeyer_Ksp_h1": 13.342,
+            "hixon_crowell_r2": 0.983,
+            "hixon_crowell_KHC_h13": 0.034
+        },
+        {
+            "batch_code": "K100M 3",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.927,
+            "zero_order_Kd_h1": 16.894,
+            "first_order_r2": 0.972,
+            "first_order_Kf_h1": 0.566,
+            "higuchi_r2": 0.97,
+            "higuchi_Kh_h12": 40.719,
+            "korsmeyer_r2": 0.976,
+            "korsmeyer_n": 0.358,
+            "korsmeyer_Ksp_h1": 50.441,
+            "hixon_crowell_r2": 0.98,
+            "hixon_crowell_KHC_h13": 0.146
+        },
+        {
+            "batch_code": "K100M 9",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.997,
+            "zero_order_Kd_h1": 10.83,
+            "first_order_r2": 0.969,
+            "first_order_Kf_h1": 0.17,
+            "higuchi_r2": 0.971,
+            "higuchi_Kh_h12": 24.87,
+            "korsmeyer_r2": 0.986,
+            "korsmeyer_n": 0.713,
+            "korsmeyer_Ksp_h1": 17.794,
+            "hixon_crowell_r2": 0.979,
+            "hixon_crowell_KHC_h13": 0.049,
+            "release_mechanism": "Anomalous"
+        },
+        {
+            "batch_code": "E10FP 2",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.996,
+            "zero_order_Kd_h1": 11.653,
+            "first_order_r2": 0.978,
+            "first_order_Kf_h1": 0.195,
+            "higuchi_r2": 0.983,
+            "higuchi_Kh_h12": 26.959,
+            "korsmeyer_r2": 0.99,
+            "korsmeyer_n": 0.642,
+            "korsmeyer_Ksp_h1": 21.589,
+            "hixon_crowell_r2": 0.987,
+            "hixon_crowell_KHC_h13": 0.056,
+            "release_mechanism": "Anomalous"
+        },
+        {
+            "batch_code": "E10FP 9",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.927,
+            "zero_order_Kd_h1": 15.951,
+            "first_order_r2": 0.995,
+            "first_order_Kf_h1": 0.526,
+            "higuchi_r2": 0.978,
+            "higuchi_Kh_h12": 38.66,
+            "korsmeyer_r2": 0.989,
+            "korsmeyer_n": 0.325,
+            "korsmeyer_Ksp_h1": 50.353,
+            "hixon_crowell_r2": 0.991,
+            "hixon_crowell_KHC_h13": 0.139
+        },
+        {
+            "batch_code": "KSR 2",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.991,
+            "zero_order_Kd_h1": 12.287,
+            "first_order_r2": 0.975,
+            "first_order_Kf_h1": 0.215,
+            "higuchi_r2": 0.981,
+            "higuchi_Kh_h12": 28.472,
+            "korsmeyer_r2": 0.987,
+            "korsmeyer_n": 0.629,
+            "korsmeyer_Ksp_h1": 23.277,
+            "hixon_crowell_r2": 0.985,
+            "hixon_crowell_KHC_h13": 0.061,
+            "release_mechanism": "Anomalous"
+        },
+        {
+            "batch_code": "KSR 3",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.778,
+            "zero_order_Kd_h1": 17.573,
+            "first_order_r2": 0.979,
+            "first_order_Kf_h1": 1.821,
+            "higuchi_r2": 0.862,
+            "higuchi_Kh_h12": 44.177,
+            "korsmeyer_r2": 0.919,
+            "korsmeyer_n": 0.117,
+            "korsmeyer_Ksp_h1": 77.467,
+            "hixon_crowell_r2": 0.936,
+            "hixon_crowell_KHC_h13": 0.191
+        },
+        {
+            "batch_code": "KSR 9",
+            "medium": "0.1 N HCl",
+            "zero_order_r2": 0.938,
+            "zero_order_Kd_h1": 15.559,
+            "first_order_r2": 0.991,
+            "first_order_Kf_h1": 0.449,
+            "higuchi_r2": 0.981,
+            "higuchi_Kh_h12": 37.471,
+            "korsmeyer_r2": 0.987,
+            "korsmeyer_n": 0.363,
+            "korsmeyer_Ksp_h1": 46.104,
+            "hixon_crowell_r2": 0.996,
+            "hixon_crowell_KHC_h13": 0.119
+        }
+    ],
+    "similarity_factor_f2": [
+        {
+            "comparison": "K100M9 vs K4M2",
+            "f2_0.1N_HCl": 69.28,
+            "f2_pH4.5": 65.69,
+            "f2_pH6.8": 65.8,
+            "profile_similarity": "Similar"
+        },
+        {
+            "comparison": "K100M9 vs E10FP2",
+            "f2_0.1N_HCl": 66.04,
+            "f2_pH4.5": 60.97,
+            "f2_pH6.8": 59.94,
+            "profile_similarity": "Similar"
+        },
+        {
+            "comparison": "K100M9 vs 120_KSR2",
+            "f2_0.1N_HCl": 55.27,
+            "f2_pH4.5": 53.27,
+            "f2_pH6.8": 54.19,
+            "profile_similarity": "Similar"
+        },
+        {
+            "comparison": "K100M9 vs K4M3",
+            "f2_0.1N_HCl": 20.42,
+            "profile_similarity": "Dissimilar"
+        },
+        {
+            "comparison": "K100M9 vs K4M9",
+            "f2_0.1N_HCl": 43.66,
+            "profile_similarity": "Dissimilar"
+        },
+        {
+            "comparison": "K100M9 vs K100M2",
+            "f2_0.1N_HCl": 47.22,
+            "profile_similarity": "Dissimilar"
+        },
+        {
+            "comparison": "K100M9 vs K100M3",
+            "f2_0.1N_HCl": 23.73,
+            "profile_similarity": "Dissimilar"
+        },
+        {
+            "comparison": "K100M9 vs E10FP9",
+            "f2_0.1N_HCl": 26.0,
+            "profile_similarity": "Dissimilar"
+        },
+        {
+            "comparison": "K100M9 vs KSR3",
+            "f2_0.1N_HCl": 16.57,
+            "profile_similarity": "Dissimilar"
+        },
+        {
+            "comparison": "K100M9 vs KSR9",
+            "f2_0.1N_HCl": 28.13,
+            "profile_similarity": "Dissimilar"
+        }
+    ],
+    "stability_study": [
+        {
+            "batch_code": "K4M 2",
+            "shelf_life_months": 26.68,
+            "stability_conditions": "40±2°C, 75±5% RH",
+            "time_points_months": [
+                0,
+                1,
+                3,
+                6
+            ],
+            "hardness_kg_0": 4.81,
+            "friability_percent_0": 0.76,
+            "disintegration_hrs_0": 4.82,
+            "dissolution_percent_0": 98.32,
+            "assay_percent_0": 98.76,
+            "hardness_kg_6": 4.68,
+            "friability_percent_6": 0.87,
+            "disintegration_hrs_6": 4.58,
+            "dissolution_percent_6": 96.84,
+            "assay_percent_6": 97.84,
+            "conclusion": "Stable"
+        },
+        {
+            "batch_code": "K4M 3",
+            "shelf_life_months": 18.896,
+            "stability_conditions": "40±2°C, 75±5% RH",
+            "conclusion": "Failed disintegration and friability"
+        },
+        {
+            "batch_code": "K4M 9",
+            "shelf_life_months": 21.712,
+            "conclusion": "Stable"
+        },
+        {
+            "batch_code": "K100M 2",
+            "shelf_life_months": 29.45,
+            "conclusion": "Stable"
+        },
+        {
+            "batch_code": "K100M 3",
+            "shelf_life_months": 19.775,
+            "conclusion": "Stable"
+        },
+        {
+            "batch_code": "K100M 9",
+            "shelf_life_months": 30.347,
+            "conclusion": "Stable, highest shelf life"
+        },
+        {
+            "batch_code": "E10FP 2",
+            "shelf_life_months": 24.172,
+            "conclusion": "Stable"
+        },
+        {
+            "batch_code": "E10FP 9",
+            "shelf_life_months": 17.053,
+            "conclusion": "Stable"
+        },
+        {
+            "batch_code": "KSR 2",
+            "shelf_life_months": 21.9,
+            "conclusion": "Stable"
+        },
+        {
+            "batch_code": "KSR 3",
+            "shelf_life_months": 13.551,
+            "conclusion": "Failed disintegration and friability"
+        },
+        {
+            "batch_code": "KSR 9",
+            "shelf_life_months": 16.209,
+            "conclusion": "Stable"
+        }
+    ],
+    "swelling_study": {
+        "description": "Swelling studies performed in distilled water at room temperature. Results shown in Figure 1. HPMC formulations showed highest hydration ability, followed by Kollidon SR, then Ethocel. Swelling increased with polymer concentration and with higher viscosity grade (K100M > K4M).",
+        "data_table": "See figure_1_hydration_data"
+    },
+    "dissolution_profiles_summary": {
+        "media": [
+            "0.1 N HCl",
+            "Phosphate buffer pH 4.5",
+            "Phosphate buffer pH 6.8"
+        ],
+        "apparatus": "USP Apparatus II (paddle)",
+        "volume_mL": 900,
+        "temperature_C": "37±0.5",
+        "rpm": 100,
+        "sampling_times_hrs": [
+            0.5,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            8,
+            10,
+            12,
+            16,
+            20,
+            24
+        ],
+        "key_findings": {
+            "E10ST_formulations": "Unable to control release; nearly 100% released within 4 hours.",
+            "low_polymer_formulations": "Polymer ≤25% (K4M5, K100M5, E10FP3, 120_KSR5): >90% released in 4 hours.",
+            "polymer_30%": "K4M3, K100M3, KSR3: ~80% released; E10FP9: 76% released.",
+            "controlled_release_formulations": "K4M2 (50% polymer), K100M9 (40% polymer), E10FP2 (40% polymer), 120_KSR2 (55% polymer) showed: 45-53% in 4h, 82-85% in 8h, 94-99% in 24h.",
+            "K100M2": "50% polymer, ~80% released in 24h (incomplete)."
+        }
+    },
+    "process_parameters": {
+        "compression_device": "Manually operated single punch tablet press (Korsch Erweka, Frankfurt, Germany)",
+        "punch_shape": "Convex round shaped",
+        "compression_pressure_range": "Not specified, but tablet weights ranged 96-126 mg",
+        "blending_method": "Tumbling method in a polybag for 8-10 minutes",
+        "sieve_size": "40-mesh"
+    },
+    "quantification_method": {
+        "technique": "HPLC",
+        "mobile_phase": "Acetonitrile : buffer solution of sodium 1-pentanesulfonate (4:1)",
+        "buffer_pH": "3.0 ± 0.05",
+        "column": "Intersil ODS-3, 4.6×250 mm",
+        "temperature_C": 50,
+        "flow_rate_mL_min": 1,
+        "injection_volume_uL": 10,
+        "detection_wavelength_nm": 230,
+        "retention_time": "Not specified",
+        "linearity_range": "Not specified"
+    },
+    "conclusion": "Controlled release tizanidine HCl tablets successfully prepared with HPMC K4M (50%), HPMC K100M (40%), Ethocel 10FP (40%), and Kollidon SR (55%). Formulation K100M9 (HPMC K100M 40%) was best with highest shelf life (30.35 months) and zero-order release kinetics via anomalous transport."
+}

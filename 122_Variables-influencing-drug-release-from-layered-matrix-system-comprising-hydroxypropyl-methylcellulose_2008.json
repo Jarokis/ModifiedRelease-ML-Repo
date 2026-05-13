@@ -1,0 +1,1490 @@
+{
+    "article_title": "Variables Influencing Drug Release from Layered Matrix System Comprising Hydroxypropyl Methylcellulose",
+    "authors": [
+        "Thawatchai Phaechamud"
+    ],
+    "publication_year": 2008,
+    "abstract": "The purpose of this study was to prepare and evaluate layered matrix tablets of propranolol HCl containing HPMC and phytowax as matrix component using direct compression technique. Layering with this polymeric matrix could prolong the release of drug and shift the release pattern approach to zero order as described from the least square curve fitting. Increasing the amount of coating layer could apparently prolong the drug release. The longer lag time of drug release from one planar apparently when the amount of coating layer was increased. HPMC concentration and compression force did not affect the drug release from this three-layer tablet. The drug release from this three-layer tablet was influenced by hydrodynamic force. An increase in stirring rate was a corresponding increasing in the release rate. From photomage and SEM, gel mass of HPMC was increased with time during dissolution and covered the core surface, therefore dissolved drug molecules were allowed to diffuse out from the core through the polymer network of gel layer containing the porous structure. This suggested that HPMC and phytowax could be fabricated into the layered matrix tablet exhibiting sustained drug release.",
+    "introduction": "Geometric modulation of matrix systems has been employed to achieve zero order drug release. Three-layer matrix tablets with hydrophilic barrier layers can provide linear release profiles. HPMC barriers are efficient in reducing drug delivery. Variables such as diluents, compression force, agitation intensity, hydrodynamic force, and pH influence drug release. This study evaluates the effect of coating barrier amount, polymer concentration, compression force, and pH on propranolol HCl release from three-layer tablets comprising HPMC K15M and phytowax.",
+    "materials_and_methods": {
+        "materials_origin": {
+            "Hydroxypropyl methylcellulose (HPMC) type K15M": "Dow Chemical, USA (lot no. PH26012N31)",
+            "Propranolol hydrochloride": "China National Chemical Imp. & Exp., Shanghai, China (batch no. 941002)",
+            "Lactose": "Wyndale, Hawera, New Zealand",
+            "Magnesium stearate": "P.C. Drug Center Co. (lot no. MAF 07), passed through sieve no. 80 mesh",
+            "Phytowax (Phytowax Olive 14L 48, hydrogenated myristyl esters of olive oil)": "Sophim, Parc de la Cassine, France, passed through sieve No. 60",
+            "Other reagents": "Analytical grade"
+        },
+        "experimental_design": {
+            "independent_variables": [
+                "Amount of coating barrier (100, 150, 200 mg per side)",
+                "HPMC concentration in barrier (0%, 15%, 25%, 35% w/w)",
+                "Compression force (1, 1.5, 1.75, 2 tons)",
+                "Dissolution rotational speed (50, 100, 150 rpm)",
+                "pH of dissolution media (distilled water, HCl buffer pH 1.2, phosphate buffer pH 6.8, pH change from 1.2 to 6.8)"
+            ],
+            "dependent_variables": [
+                "Drug release profile",
+                "Lag time",
+                "Release kinetics (zero order, power law)",
+                "Tablet hardness, thickness, friability"
+            ]
+        },
+        "ingredients_identification": {
+            "preparation_method": "Direct compression using hydraulic press. Single layer tablets (200 mg) with drug. Two-layer and three-layer tablets by adding barrier layers (without drug) on one or both sides of core.",
+            "results": "Three-layer tablets exhibited prolonged release approaching zero order. Increased barrier amount increased lag time and decreased release rate. HPMC concentration and compression force had no significant effect. Higher stirring rate increased release rate. pH dependence observed (fastest in distilled water).",
+            "equation": "Power law: M_t/M_inf = k * t^n; Zero order: M_t/M_inf = k0 * t",
+            "absorbance_wavelength": "320 nm (UV-Vis spectrophotometer)"
+        },
+        "formulation_details": {
+            "core_composition_constant": {
+                "total_weight": "200 mg",
+                "propranolol HCl": "80 mg (40% w/w)",
+                "phytowax": "46 mg (23% w/w)",
+                "HPMC K15M": "70 mg (35% w/w)",
+                "magnesium_stearate": "4 mg (2% w/w)"
+            },
+            "barrier_composition_base": "Powder mixture without drug containing 2% magnesium stearate and variable HPMC/phytowax ratios. Total barrier weight per side varies (100, 150, 200 mg). For a given HPMC percentage, the remaining mass (98% minus HPMC%) is phytowax.",
+            "batches": [
+                {
+                    "batch_code": "H35% 1L",
+                    "description": "Single layer tablet with 35% HPMC",
+                    "ingredients": {
+                        "core": {
+                            "propranolol HCl": "80 mg (40%)",
+                            "phytowax": "46 mg (23%)",
+                            "HPMC": "70 mg (35%)",
+                            "magnesium_stearate": "4 mg (2%)",
+                            "total": "200 mg"
+                        }
+                    },
+                    "pre_compression_parameters": {
+                        "weight_mg": "200.6 ± 6.2",
+                        "thickness_mm": "1.45 ± 0.02",
+                        "friability_percent": "1.9",
+                        "hardness_Kp": "12.54 ± 0.70"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "12.54 ± 0.70",
+                        "friability_percent": "1.9",
+                        "weight_variation": "200.6 ± 6.2 mg",
+                        "thickness_mm": "1.45 ± 0.02",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press (Carver Press, WI, USA)",
+                        "compression_force_tons": "1.5",
+                        "dwell_time_s": "10",
+                        "coating": "none (single layer)",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Fickian diffusion (n=0.5377 from power law)",
+                        "release_profile": "100% released within 4 hours",
+                        "factors_influencing": "Not applicable",
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9995,
+                                "MSC": 6.655,
+                                "k_x10^-3": "5.43 ± 6.14",
+                                "n": "0.5377 ± 0.0212"
+                            },
+                            "zero_order": {
+                                "r2": 0.9698,
+                                "MSC": 3.0,
+                                "rate_per_hour": "44.13 ± 0.32"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0.5,
+                                "percent_released": 48
+                            },
+                            {
+                                "time_h": 1,
+                                "percent_released": 78
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 96
+                            },
+                            {
+                                "time_h": 3,
+                                "percent_released": 99
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 100
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "12.54 ± 0.70",
+                        "friability_percent": "1.9",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Immediate release, complete by 4h",
+                        "stability": null,
+                        "thickness_mm": "1.45 ± 0.02",
+                        "weight_variation_percent": "3.1"
+                    },
+                    "experimental_data": {
+                        "key_results": "Fast release, not zero order",
+                        "performance_metrics": "High k value",
+                        "statistical_analysis": "Curve fitting to power law (r2=0.9995)",
+                        "swelling_study": null,
+                        "lag_time_min": null,
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H35% 2L",
+                    "description": "Two-layer tablet (core + one barrier layer)",
+                    "ingredients": {
+                        "core": "Same as H35% 1L (200 mg, 80 mg drug)",
+                        "barrier_layer": "One side, composition: 35% HPMC, 63% phytowax, 2% Mg stearate. Weight ~201 mg"
+                    },
+                    "pre_compression_parameters": {
+                        "weight_mg": "401.0 ± 6.5",
+                        "thickness_mm": "3.19 ± 0.04",
+                        "friability_percent": "0.74",
+                        "hardness_Kp": "3.70 ± 0.21"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "3.70 ± 0.21",
+                        "friability_percent": "0.74",
+                        "weight_variation": "401.0 ± 6.5 mg",
+                        "thickness_mm": "3.19 ± 0.04",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "1.5",
+                        "dwell_time_s": "10",
+                        "coating": "One barrier layer",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Anomalous (n=0.5275)",
+                        "release_profile": "Slower than single layer, ~100% by 10h",
+                        "factors_influencing": null,
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.999,
+                                "MSC": 6.55,
+                                "k_x10^-3": "30.93 ± 1.75",
+                                "n": "0.5275 ± 0.0096"
+                            },
+                            "zero_order": {
+                                "r2": 0.999,
+                                "MSC": 6.55,
+                                "rate_per_hour": "30.93 ± 1.75"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0.5,
+                                "percent_released": 18
+                            },
+                            {
+                                "time_h": 1,
+                                "percent_released": 32
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 52
+                            },
+                            {
+                                "time_h": 3,
+                                "percent_released": 68
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 80
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 94
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 99
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 100
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "3.70 ± 0.21",
+                        "friability_percent": "0.74",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Sustained over 10h",
+                        "stability": null,
+                        "thickness_mm": "3.19 ± 0.04",
+                        "weight_variation_percent": "1.6"
+                    },
+                    "experimental_data": {
+                        "key_results": "Slower release than single layer",
+                        "performance_metrics": "k=30.93e-3",
+                        "statistical_analysis": "r2=0.9990",
+                        "swelling_study": null,
+                        "lag_time_min": null,
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H35% 3L 1/2/1",
+                    "description": "Three-layer tablet with barriers 100 mg each side, core 200 mg, HPMC 35% in barriers",
+                    "ingredients": {
+                        "core": "Same as H35% 1L (200 mg, 80 mg drug)",
+                        "barrier_upper": "100 mg, composition: 35% HPMC (35 mg), 63% phytowax (63 mg), 2% Mg stearate (2 mg)",
+                        "barrier_lower": "100 mg, same composition",
+                        "total": "400 mg"
+                    },
+                    "pre_compression_parameters": {
+                        "weight_mg": "403.3 ± 8.5",
+                        "thickness_mm": "3.18 ± 0.20",
+                        "friability_percent": "0.62",
+                        "hardness_Kp": "3.21 ± 0.31"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "3.21 ± 0.31",
+                        "friability_percent": "0.62",
+                        "weight_variation": "403.3 ± 8.5 mg",
+                        "thickness_mm": "3.18 ± 0.20",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "1.5",
+                        "dwell_time_s": "10",
+                        "coating": "Two barrier layers (100 mg each)",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Case II / near zero order (n=0.9293)",
+                        "release_profile": "Sustained over 26h, nearly zero order",
+                        "factors_influencing": "pH dependent, hydrodynamic force",
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9997,
+                                "MSC": 7.85,
+                                "k_x10^-3": "2.16 ± 0.22",
+                                "n": "0.9293 ± 0.0156"
+                            },
+                            "zero_order": {
+                                "r2": 0.9994,
+                                "MSC": 7.09,
+                                "rate_per_hour": "1.36 ± 0.10"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 3
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 7
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 11
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 15
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 19
+                            },
+                            {
+                                "time_h": 12,
+                                "percent_released": 23
+                            },
+                            {
+                                "time_h": 14,
+                                "percent_released": 27
+                            },
+                            {
+                                "time_h": 16,
+                                "percent_released": 31
+                            },
+                            {
+                                "time_h": 18,
+                                "percent_released": 35
+                            },
+                            {
+                                "time_h": 20,
+                                "percent_released": 39
+                            },
+                            {
+                                "time_h": 22,
+                                "percent_released": 43
+                            },
+                            {
+                                "time_h": 24,
+                                "percent_released": 47
+                            },
+                            {
+                                "time_h": 26,
+                                "percent_released": 51
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "3.21 ± 0.31",
+                        "friability_percent": "0.62",
+                        "disintegration_time": "Not applicable (swelling/erosion)",
+                        "dissolution_profile": "Zero order over 26h",
+                        "stability": null,
+                        "thickness_mm": "3.18 ± 0.20",
+                        "weight_variation_percent": "2.1"
+                    },
+                    "experimental_data": {
+                        "key_results": "Zero-order release, lag time observed in one-planar study",
+                        "performance_metrics": "Low release rate (1.36 %/h)",
+                        "statistical_analysis": "High r2 for zero order (0.9994)",
+                        "swelling_study": "Gel formation increased with time, erosion after 26h",
+                        "lag_time_min": "120-180",
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H35% 3L 1.5/2/1.5",
+                    "description": "Three-layer tablet with barriers 150 mg each side, core 200 mg, HPMC 35%",
+                    "ingredients": {
+                        "core": "200 mg, 80 mg drug",
+                        "barrier_upper": "150 mg (35% HPMC = 52.5 mg, 63% phytowax = 94.5 mg, 2% Mg stearate = 3 mg)",
+                        "barrier_lower": "150 mg same",
+                        "total": "500 mg"
+                    },
+                    "pre_compression_parameters": {
+                        "weight_mg": "495.1 ± 5.9",
+                        "thickness_mm": "3.60 ± 0.23",
+                        "friability_percent": "1.01",
+                        "hardness_Kp": "4.19 ± 0.27"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "4.19 ± 0.27",
+                        "friability_percent": "1.01",
+                        "weight_variation": "495.1 ± 5.9 mg",
+                        "thickness_mm": "3.60 ± 0.23",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "1.5",
+                        "dwell_time_s": "10",
+                        "coating": "Two barriers 150 mg each",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Super Case II (n=1.0621)",
+                        "release_profile": "Slower than 1/2/1",
+                        "factors_influencing": null,
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9989,
+                                "MSC": 6.46,
+                                "k_x10^-3": "0.66 ± 0.18",
+                                "n": "1.0621 ± 0.0382"
+                            },
+                            "zero_order": {
+                                "r2": 0.9987,
+                                "MSC": 6.38,
+                                "rate_per_hour": "1.01 ± 0.09"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 1
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 4
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 7
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 10
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 13
+                            },
+                            {
+                                "time_h": 12,
+                                "percent_released": 16
+                            },
+                            {
+                                "time_h": 14,
+                                "percent_released": 19
+                            },
+                            {
+                                "time_h": 16,
+                                "percent_released": 22
+                            },
+                            {
+                                "time_h": 18,
+                                "percent_released": 25
+                            },
+                            {
+                                "time_h": 20,
+                                "percent_released": 28
+                            },
+                            {
+                                "time_h": 22,
+                                "percent_released": 31
+                            },
+                            {
+                                "time_h": 24,
+                                "percent_released": 34
+                            },
+                            {
+                                "time_h": 26,
+                                "percent_released": 37
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "4.19 ± 0.27",
+                        "friability_percent": "1.01",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Sustained, lower release rate",
+                        "stability": null,
+                        "thickness_mm": "3.60 ± 0.23",
+                        "weight_variation_percent": "1.2"
+                    },
+                    "experimental_data": {
+                        "key_results": "Increased barrier thickness further prolongs release",
+                        "performance_metrics": "k=0.66e-3, zero order rate 1.01 %/h",
+                        "statistical_analysis": "r2=0.9989",
+                        "swelling_study": null,
+                        "lag_time_min": "300-360",
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H35% 3L 2/2/2",
+                    "description": "Three-layer tablet with barriers 200 mg each side, core 200 mg, HPMC 35%, compression force 1.5 tons",
+                    "ingredients": {
+                        "core": "200 mg, 80 mg drug",
+                        "barrier_upper": "200 mg (70 mg HPMC, 126 mg phytowax, 4 mg Mg stearate)",
+                        "barrier_lower": "200 mg same",
+                        "total": "600 mg"
+                    },
+                    "pre_compression_parameters": {
+                        "weight_mg": "602.7 ± 10.1",
+                        "thickness_mm": "4.38 ± 0.09",
+                        "friability_percent": "0.58",
+                        "hardness_Kp": "4.43 ± 0.19"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "4.43 ± 0.19",
+                        "friability_percent": "0.58",
+                        "weight_variation": "602.7 ± 10.1 mg",
+                        "thickness_mm": "4.38 ± 0.09",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "1.5",
+                        "dwell_time_s": "10",
+                        "coating": "Two barriers 200 mg each",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Near zero order (n=0.7818)",
+                        "release_profile": "Slowest among 35% HPMC barriers",
+                        "factors_influencing": "Hydrodynamic force",
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9955,
+                                "MSC": 5.0,
+                                "k_x10^-3": "3.84 ± 0.42",
+                                "n": "0.7818 ± 0.0154"
+                            },
+                            "zero_order": {
+                                "r2": 0.9939,
+                                "MSC": 4.83,
+                                "rate_per_hour": "0.80 ± 0.01"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 0.5
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 2
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 4
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 6
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 8
+                            },
+                            {
+                                "time_h": 12,
+                                "percent_released": 10
+                            },
+                            {
+                                "time_h": 14,
+                                "percent_released": 12
+                            },
+                            {
+                                "time_h": 16,
+                                "percent_released": 14
+                            },
+                            {
+                                "time_h": 18,
+                                "percent_released": 16
+                            },
+                            {
+                                "time_h": 20,
+                                "percent_released": 18
+                            },
+                            {
+                                "time_h": 22,
+                                "percent_released": 20
+                            },
+                            {
+                                "time_h": 24,
+                                "percent_released": 22
+                            },
+                            {
+                                "time_h": 26,
+                                "percent_released": 24
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "4.43 ± 0.19",
+                        "friability_percent": "0.58",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Very slow release over 26h",
+                        "stability": null,
+                        "thickness_mm": "4.38 ± 0.09",
+                        "weight_variation_percent": "1.7"
+                    },
+                    "experimental_data": {
+                        "key_results": "Most prolonged release, influenced by stirring rate",
+                        "performance_metrics": "Zero order rate 0.80 %/h",
+                        "statistical_analysis": "r2=0.9955 (power law)",
+                        "swelling_study": "Gel formation, wax particles visible after erosion",
+                        "lag_time_min": "480-540",
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H0% 3L 1/2/1",
+                    "description": "Three-layer tablet with barriers containing 0% HPMC (only phytowax and Mg stearate), core same (35% HPMC)",
+                    "ingredients": {
+                        "core": "200 mg, 80 mg drug, 35% HPMC",
+                        "barrier_upper": "100 mg (0% HPMC, 98% phytowax = 98 mg, 2% Mg stearate = 2 mg)",
+                        "barrier_lower": "100 mg same",
+                        "total": "400 mg"
+                    },
+                    "pre_compression_parameters": {
+                        "weight_mg": "402.3 ± 6.0",
+                        "thickness_mm": "3.44 ± 0.27",
+                        "friability_percent": "0.22",
+                        "hardness_Kp": "4.11 ± 0.23"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "4.11 ± 0.23",
+                        "friability_percent": "0.22",
+                        "weight_variation": "402.3 ± 6.0 mg",
+                        "thickness_mm": "3.44 ± 0.27",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "1.5",
+                        "dwell_time_s": "10",
+                        "coating": "Two barriers 100 mg each (0% HPMC)",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Fickian diffusion (n=0.4545)",
+                        "release_profile": "Faster than HPMC-containing barriers",
+                        "factors_influencing": null,
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9983,
+                                "MSC": 5.96,
+                                "k_x10^-3": "38.97 ± 3.02",
+                                "n": "0.4545 ± 0.0133"
+                            },
+                            "zero_order": {
+                                "r2": 0.962,
+                                "MSC": 3.0,
+                                "rate_per_hour": "1.22 ± 0.07"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 1,
+                                "percent_released": 10
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 22
+                            },
+                            {
+                                "time_h": 3,
+                                "percent_released": 34
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 46
+                            },
+                            {
+                                "time_h": 5,
+                                "percent_released": 57
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 68
+                            },
+                            {
+                                "time_h": 7,
+                                "percent_released": 78
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 87
+                            },
+                            {
+                                "time_h": 9,
+                                "percent_released": 95
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 100
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "4.11 ± 0.23",
+                        "friability_percent": "0.22",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Faster release, not zero order",
+                        "stability": null,
+                        "thickness_mm": "3.44 ± 0.27",
+                        "weight_variation_percent": "1.5"
+                    },
+                    "experimental_data": {
+                        "key_results": "Lowest friability (0.22%), faster release due to no HPMC in barriers",
+                        "performance_metrics": "High k=38.97e-3",
+                        "statistical_analysis": "r2=0.9983 power law",
+                        "swelling_study": null,
+                        "lag_time_min": "Shorter than HPMC barriers",
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H15% 3L 1/2/1",
+                    "description": "Three-layer tablet with barriers containing 15% HPMC",
+                    "ingredients": {
+                        "core": "200 mg, 80 mg drug",
+                        "barrier_upper": "100 mg (15% HPMC = 15 mg, 83% phytowax = 83 mg, 2% Mg stearate = 2 mg)",
+                        "barrier_lower": "100 mg same",
+                        "total": "400 mg"
+                    },
+                    "pre_compression_parameters": {
+                        "weight_mg": "396.9 ± 6.0",
+                        "thickness_mm": "3.12 ± 0.11",
+                        "friability_percent": "0.71",
+                        "hardness_Kp": "4.55 ± 0.45"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "4.55 ± 0.45",
+                        "friability_percent": "0.71",
+                        "weight_variation": "396.9 ± 6.0 mg",
+                        "thickness_mm": "3.12 ± 0.11",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "1.5",
+                        "dwell_time_s": "10",
+                        "coating": "Two barriers 100 mg each (15% HPMC)",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Anomalous (n=0.7378)",
+                        "release_profile": "Intermediate between H0% and H35%",
+                        "factors_influencing": null,
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9982,
+                                "MSC": 5.84,
+                                "k_x10^-3": "8.59 ± 1.49",
+                                "n": "0.7378 ± 0.0279"
+                            },
+                            "zero_order": {
+                                "r2": 0.9895,
+                                "MSC": 4.24,
+                                "rate_per_hour": "1.58 ± 0.04"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 4
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 10
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 17
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 24
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 31
+                            },
+                            {
+                                "time_h": 12,
+                                "percent_released": 38
+                            },
+                            {
+                                "time_h": 14,
+                                "percent_released": 45
+                            },
+                            {
+                                "time_h": 16,
+                                "percent_released": 52
+                            },
+                            {
+                                "time_h": 18,
+                                "percent_released": 59
+                            },
+                            {
+                                "time_h": 20,
+                                "percent_released": 66
+                            },
+                            {
+                                "time_h": 22,
+                                "percent_released": 73
+                            },
+                            {
+                                "time_h": 24,
+                                "percent_released": 80
+                            },
+                            {
+                                "time_h": 26,
+                                "percent_released": 87
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "4.55 ± 0.45",
+                        "friability_percent": "0.71",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Sustained",
+                        "stability": null,
+                        "thickness_mm": "3.12 ± 0.11",
+                        "weight_variation_percent": "1.5"
+                    },
+                    "experimental_data": {
+                        "key_results": "Higher HPMC in barrier slows release",
+                        "performance_metrics": "k=8.59e-3",
+                        "statistical_analysis": "r2=0.9982",
+                        "swelling_study": null,
+                        "lag_time_min": null,
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H25% 3L 1/2/1",
+                    "description": "Three-layer tablet with barriers containing 25% HPMC",
+                    "ingredients": {
+                        "core": "200 mg, 80 mg drug",
+                        "barrier_upper": "100 mg (25% HPMC = 25 mg, 73% phytowax = 73 mg, 2% Mg stearate = 2 mg)",
+                        "barrier_lower": "100 mg same",
+                        "total": "400 mg"
+                    },
+                    "pre_compression_parameters": {
+                        "weight_mg": "404.6 ± 6.1",
+                        "thickness_mm": "3.23 ± 0.09",
+                        "friability_percent": "1.61",
+                        "hardness_Kp": "3.81 ± 0.38"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "3.81 ± 0.38",
+                        "friability_percent": "1.61",
+                        "weight_variation": "404.6 ± 6.1 mg",
+                        "thickness_mm": "3.23 ± 0.09",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "1.5",
+                        "dwell_time_s": "10",
+                        "coating": "Two barriers 100 mg each (25% HPMC)",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Anomalous (n=0.7249)",
+                        "release_profile": "Slower than H15%, faster than H35%",
+                        "factors_influencing": null,
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9992,
+                                "MSC": 6.73,
+                                "k_x10^-3": "7.47 ± 0.81",
+                                "n": "0.7249 ± 0.0169"
+                            },
+                            "zero_order": {
+                                "r2": 0.9901,
+                                "MSC": 4.33,
+                                "rate_per_hour": "1.18 ± 0.03"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 3
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 8
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 13
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 18
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 23
+                            },
+                            {
+                                "time_h": 12,
+                                "percent_released": 28
+                            },
+                            {
+                                "time_h": 14,
+                                "percent_released": 33
+                            },
+                            {
+                                "time_h": 16,
+                                "percent_released": 38
+                            },
+                            {
+                                "time_h": 18,
+                                "percent_released": 43
+                            },
+                            {
+                                "time_h": 20,
+                                "percent_released": 48
+                            },
+                            {
+                                "time_h": 22,
+                                "percent_released": 53
+                            },
+                            {
+                                "time_h": 24,
+                                "percent_released": 58
+                            },
+                            {
+                                "time_h": 26,
+                                "percent_released": 63
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "3.81 ± 0.38",
+                        "friability_percent": "1.61",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Sustained",
+                        "stability": null,
+                        "thickness_mm": "3.23 ± 0.09",
+                        "weight_variation_percent": "1.5"
+                    },
+                    "experimental_data": {
+                        "key_results": "Increased HPMC decreases release rate",
+                        "performance_metrics": "k=7.47e-3",
+                        "statistical_analysis": "r2=0.9992",
+                        "swelling_study": null,
+                        "lag_time_min": null,
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H35% 3L 2/2/2 1 ton",
+                    "description": "Three-layer tablet with barriers 200 mg each, compression force 1 ton",
+                    "ingredients": "Same as H35% 3L 2/2/2 (core 200 mg, barriers 200 mg each, 35% HPMC in barriers)",
+                    "pre_compression_parameters": {
+                        "weight_mg": "601.8 ± 4.6",
+                        "thickness_mm": "4.49 ± 0.05",
+                        "friability_percent": "1.32",
+                        "hardness_Kp": "3.85 ± 0.11"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "3.85 ± 0.11",
+                        "friability_percent": "1.32",
+                        "weight_variation": "601.8 ± 4.6 mg",
+                        "thickness_mm": "4.49 ± 0.05",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "1.0",
+                        "dwell_time_s": "10",
+                        "coating": "Two barriers 200 mg each",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Near zero order (n=0.9924)",
+                        "release_profile": "Similar to 1.5 tons",
+                        "factors_influencing": "Compression force no significant effect",
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9994,
+                                "MSC": 6.84,
+                                "k_x10^-3": "1.47 ± 0.32",
+                                "n": "0.9924 ± 0.0364"
+                            },
+                            "zero_order": {
+                                "r2": 0.9993,
+                                "MSC": 7.0,
+                                "rate_per_hour": "1.39 ± 0.11"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 2
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 6
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 10
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 14
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 18
+                            },
+                            {
+                                "time_h": 12,
+                                "percent_released": 22
+                            },
+                            {
+                                "time_h": 14,
+                                "percent_released": 26
+                            },
+                            {
+                                "time_h": 16,
+                                "percent_released": 30
+                            },
+                            {
+                                "time_h": 18,
+                                "percent_released": 34
+                            },
+                            {
+                                "time_h": 20,
+                                "percent_released": 38
+                            },
+                            {
+                                "time_h": 22,
+                                "percent_released": 42
+                            },
+                            {
+                                "time_h": 24,
+                                "percent_released": 46
+                            },
+                            {
+                                "time_h": 26,
+                                "percent_released": 50
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "3.85 ± 0.11",
+                        "friability_percent": "1.32",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Zero order, slightly higher rate than 1.5 tons",
+                        "stability": null,
+                        "thickness_mm": "4.49 ± 0.05",
+                        "weight_variation_percent": "0.76"
+                    },
+                    "experimental_data": {
+                        "key_results": "No significant difference from 1.5 tons",
+                        "performance_metrics": "Zero order rate 1.39 %/h",
+                        "statistical_analysis": "r2=0.9994",
+                        "swelling_study": null,
+                        "lag_time_min": null,
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H35% 3L 2/2/2 1.5 tons",
+                    "description": "Three-layer tablet with barriers 200 mg each, compression force 1.5 tons (duplicate of H35% 3L 2/2/2)",
+                    "ingredients": "Same as H35% 3L 2/2/2",
+                    "pre_compression_parameters": {
+                        "weight_mg": "602.7 ± 10.1",
+                        "thickness_mm": "4.38 ± 0.09",
+                        "friability_percent": "0.58",
+                        "hardness_Kp": "4.43 ± 0.19"
+                    },
+                    "release_properties": {
+                        "kinetics": {
+                            "power_law": {
+                                "k_x10^-3": "3.84 ± 0.42",
+                                "n": "0.7818 ± 0.0154"
+                            },
+                            "zero_order": {
+                                "rate_per_hour": "0.80 ± 0.01"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 0.5
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 2
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 4
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 6
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 8
+                            },
+                            {
+                                "time_h": 12,
+                                "percent_released": 10
+                            },
+                            {
+                                "time_h": 14,
+                                "percent_released": 12
+                            },
+                            {
+                                "time_h": 16,
+                                "percent_released": 14
+                            },
+                            {
+                                "time_h": 18,
+                                "percent_released": 16
+                            },
+                            {
+                                "time_h": 20,
+                                "percent_released": 18
+                            },
+                            {
+                                "time_h": 22,
+                                "percent_released": 20
+                            },
+                            {
+                                "time_h": 24,
+                                "percent_released": 22
+                            },
+                            {
+                                "time_h": 26,
+                                "percent_released": 24
+                            }
+                        ]
+                    }
+                },
+                {
+                    "batch_code": "H35% 3L 2/2/2 1.75 tons",
+                    "description": "Three-layer tablet with barriers 200 mg each, compression force 1.75 tons",
+                    "ingredients": "Same core and barrier composition",
+                    "pre_compression_parameters": {
+                        "weight_mg": "608.6 ± 6.3",
+                        "thickness_mm": "4.26 ± 0.11",
+                        "friability_percent": "0.49",
+                        "hardness_Kp": "4.87 ± 0.10"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "4.87 ± 0.10",
+                        "friability_percent": "0.49",
+                        "weight_variation": "608.6 ± 6.3 mg",
+                        "thickness_mm": "4.26 ± 0.11",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "1.75",
+                        "dwell_time_s": "10",
+                        "coating": "Two barriers 200 mg each",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Anomalous (n=0.8465)",
+                        "release_profile": "No significant difference from 1.5 tons",
+                        "factors_influencing": null,
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9944,
+                                "MSC": 4.75,
+                                "k_x10^-3": "3.52 ± 1.30",
+                                "n": "0.8465 ± 0.0109"
+                            },
+                            "zero_order": {
+                                "r2": 0.9915,
+                                "MSC": 4.49,
+                                "rate_per_hour": "1.27 ± 0.03"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 2
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 5
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 8
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 11
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 14
+                            },
+                            {
+                                "time_h": 12,
+                                "percent_released": 17
+                            },
+                            {
+                                "time_h": 14,
+                                "percent_released": 20
+                            },
+                            {
+                                "time_h": 16,
+                                "percent_released": 23
+                            },
+                            {
+                                "time_h": 18,
+                                "percent_released": 26
+                            },
+                            {
+                                "time_h": 20,
+                                "percent_released": 29
+                            },
+                            {
+                                "time_h": 22,
+                                "percent_released": 32
+                            },
+                            {
+                                "time_h": 24,
+                                "percent_released": 35
+                            },
+                            {
+                                "time_h": 26,
+                                "percent_released": 38
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "4.87 ± 0.10",
+                        "friability_percent": "0.49",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Similar to lower forces",
+                        "stability": null,
+                        "thickness_mm": "4.26 ± 0.11",
+                        "weight_variation_percent": "1.0"
+                    },
+                    "experimental_data": {
+                        "key_results": "Increased hardness but no change in release",
+                        "performance_metrics": "Zero order rate 1.27 %/h",
+                        "statistical_analysis": "r2=0.9944",
+                        "swelling_study": null,
+                        "lag_time_min": null,
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                },
+                {
+                    "batch_code": "H35% 3L 2/2/2 2 tons",
+                    "description": "Three-layer tablet with barriers 200 mg each, compression force 2 tons",
+                    "ingredients": "Same",
+                    "pre_compression_parameters": {
+                        "weight_mg": "603.6 ± 5.3",
+                        "thickness_mm": "4.02 ± 0.06",
+                        "friability_percent": "0.33",
+                        "hardness_Kp": "5.01 ± 0.12"
+                    },
+                    "tablet_fabrication": {
+                        "hardness_Kp": "5.01 ± 0.12",
+                        "friability_percent": "0.33",
+                        "weight_variation": "603.6 ± 5.3 mg",
+                        "thickness_mm": "4.02 ± 0.06",
+                        "diameter_mm": "12",
+                        "density": null,
+                        "drug_content_mg": "80",
+                        "consolidation_index": null
+                    },
+                    "process_parameters": {
+                        "device": "Hydraulic press",
+                        "compression_force_tons": "2.0",
+                        "dwell_time_s": "10",
+                        "coating": "Two barriers 200 mg each",
+                        "temperature": "room temperature"
+                    },
+                    "release_properties": {
+                        "release_mechanism": "Near zero order (n=0.9358)",
+                        "release_profile": "No significant difference",
+                        "factors_influencing": null,
+                        "kinetics": {
+                            "power_law": {
+                                "r2": 0.9991,
+                                "MSC": 6.53,
+                                "k_x10^-3": "1.93 ± 0.48",
+                                "n": "0.9358 ± 0.0346"
+                            },
+                            "zero_order": {
+                                "r2": 0.9883,
+                                "MSC": 4.16,
+                                "rate_per_hour": "1.17 ± 0.04"
+                            }
+                        },
+                        "release_data_points": [
+                            {
+                                "time_h": 0,
+                                "percent_released": 0
+                            },
+                            {
+                                "time_h": 2,
+                                "percent_released": 1.5
+                            },
+                            {
+                                "time_h": 4,
+                                "percent_released": 4
+                            },
+                            {
+                                "time_h": 6,
+                                "percent_released": 7
+                            },
+                            {
+                                "time_h": 8,
+                                "percent_released": 10
+                            },
+                            {
+                                "time_h": 10,
+                                "percent_released": 13
+                            },
+                            {
+                                "time_h": 12,
+                                "percent_released": 16
+                            },
+                            {
+                                "time_h": 14,
+                                "percent_released": 19
+                            },
+                            {
+                                "time_h": 16,
+                                "percent_released": 22
+                            },
+                            {
+                                "time_h": 18,
+                                "percent_released": 25
+                            },
+                            {
+                                "time_h": 20,
+                                "percent_released": 28
+                            },
+                            {
+                                "time_h": 22,
+                                "percent_released": 31
+                            },
+                            {
+                                "time_h": 24,
+                                "percent_released": 34
+                            },
+                            {
+                                "time_h": 26,
+                                "percent_released": 37
+                            }
+                        ]
+                    },
+                    "tablet_properties": {
+                        "hardness_Kp": "5.01 ± 0.12",
+                        "friability_percent": "0.33",
+                        "disintegration_time": null,
+                        "dissolution_profile": "Slightly lower rate but not significant",
+                        "stability": null,
+                        "thickness_mm": "4.02 ± 0.06",
+                        "weight_variation_percent": "0.88"
+                    },
+                    "experimental_data": {
+                        "key_results": "Highest hardness, lowest friability, no effect on release",
+                        "performance_metrics": "Zero order rate 1.17 %/h",
+                        "statistical_analysis": "r2=0.9991",
+                        "swelling_study": null,
+                        "lag_time_min": null,
+                        "total_floating_time_h": null,
+                        "swelling_index_percent": null
+                    }
+                }
+            ]
+        },
+        "fourier_transform_infrared_spectral_measurements": "Not performed / not mentioned in the article.",
+        "tablet_fabrication_general": {
+            "determination_of_hardness": "Hardness tester (Pharmatest, USA)",
+            "friability": "Friabilitor (Yieheng Engineering, Bangkok, Thailand), 20 tablets, 100 revolutions in 4 min",
+            "weight_variation": "Weighing balance (SD reported)",
+            "thickness_and_diameter": "Thickness tester (Teclock, Japan), diameter 12 mm round flat punches",
+            "density": "Not calculated",
+            "drug_content": "Not directly measured; theoretical 80 mg per tablet based on core weight",
+            "consolidation_index": "Not determined"
+        },
+        "process_parameters_general": {
+            "compression_device": "Hydraulic press (Carver Press, WI, USA)",
+            "pressure_range_tons": "1.0, 1.5, 1.75, 2.0",
+            "coating_method": "Layering of barrier powder mixture without drug, compressed sequentially",
+            "equipment": "12 mm round flat punches, dwell time 10 s after target pressure",
+            "temperature": "Room temperature",
+            "dissolution_apparatus": "Basket method (type 1; Prolabo, France), rotational speeds 50, 100, 150 rpm",
+            "dissolution_medium": "Distilled water (mainly), also HCl buffer pH 1.2, phosphate buffer pH 6.8, pH change",
+            "uv_vis_spectrophotometer": "Perkin-Elmer, Germany, wavelength 320 nm"
+        },
+        "release_properties_general": {
+            "release_mechanism": "Case II transport or zero-order for three-layer tablets with HPMC; Fickian for single/double layer or H0% barriers",
+            "release_profile": "Sustained over 26 h for three-layer tablets, zero-order approach",
+            "factors_influencing": "Hydrodynamic force (increased rpm increases release), pH (fastest in distilled water due to common ion effect in HCl), barrier amount (increased barrier prolongs release and lag time). HPMC concentration and compression force have no significant effect."
+        },
+        "tablet_properties_general": {
+            "hardness_range_Kp": "3.21 to 12.54 depending on layers and compression force",
+            "friability_percent": "0.22 to 1.9",
+            "disintegration_time": "Not applicable (swelling/erosion controlled release)",
+            "dissolution_profile": "Zero order for three-layer with HPMC barriers",
+            "stability": "Not explicitly studied",
+            "thickness_range_mm": "1.45 to 4.49",
+            "weight_variation_percent": "Generally <2% for most batches"
+        },
+        "experimental_data_general": {
+            "key_results": "Three-layer HPMC/phytowax tablets provide near zero-order release of propranolol HCl. Increasing barrier thickness increases lag time and decreases release rate. HPMC concentration in barrier (0-35%) affects release rate but not zero-order linearity. Compression force (1-2 tons) has no effect. Release is pH-dependent and influenced by agitation speed.",
+            "performance_metrics": "Best zero-order fit for H35% 3L 1/2/1 (r2=0.9994, rate 1.36%/h).",
+            "statistical_analysis": "Power law and zero order fitting with Scientist for Windows, using r2 and MSC criteria.",
+            "zero_order_rates": "See Table II and batch-specific data.",
+            "first_order": "Not reported; zero order and power law used.",
+            "swelling_study": "Photoimages and SEM show gel formation over time, erosion after 26 h, wax particles exposed. No quantitative swelling index.",
+            "lag_time_min": "From one-planar study: For 100 mg barrier ~120-180 min, 150 mg ~300-360 min, 200 mg ~480-540 min.",
+            "total_floating_time_h": "Not applicable (tablets sink? Not mentioned floating).",
+            "swelling_index_percent": "Not quantified."
+        }
+    },
+    "results_and_discussion": "The physical properties of tablets showed increased hardness with more coating layers and higher compression force. Friability decreased with compression force. Drug release from single layer without HPMC was immediate; addition of HPMC slowed release. Two- and three-layer tablets further prolonged release. Increasing barrier amount increased lag time and decreased release rate. HPMC concentration and compression force did not significantly affect release. Higher stirring rate increased release due to hydrodynamic effects. Release was pH-dependent: fastest in distilled water, slower in HCl buffer (common ion effect) and phosphate buffer. SEM and photoimages showed gel layer formation and erosion over time. Curve fitting indicated zero-order or Case II release for three-layer tablets with HPMC barriers.",
+    "conclusion": "Layering with HPMC and phytowax prolongs propranolol HCl release and shifts release to zero order. Increasing barrier amount prolongs release. Drug release is influenced by hydrodynamic force and pH. HPMC concentration and compression force do not affect release from three-layer tablets."
+}

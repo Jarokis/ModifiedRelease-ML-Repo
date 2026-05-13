@@ -1,0 +1,985 @@
+{
+    "article_citation": {
+        "title": "Preparation, Characterization and Evaluation of Flavonolignan Silymarin Effervescent Floating Matrix Tablets for Enhanced Oral Bioavailability",
+        "authors": "Ahmad S., Khan J.A., Kausar T.N., Mahnashi M.H., Alasiri A., Alqahtani A.A., Alqahtani T.S., Walbi I.A., Alshehri O.M., Elnoubi O.A., et al.",
+        "journal": "Molecules",
+        "year": 2023,
+        "volume": 28,
+        "issue": 2606,
+        "doi": "10.3390/molecules28062606"
+    },
+    "materials_origin": {
+        "HPMC_K4": "Sigma Aldrich, Germany",
+        "HPMC_K15": "Sigma Aldrich, Germany",
+        "Carbopol_934P": "Sigma Aldrich, Germany",
+        "NaHCO3": "Sigma Aldrich, Germany",
+        "Mg_stearate": "Sigma Aldrich, Germany",
+        "citric_acid": "Sigma Aldrich, Germany",
+        "silymarin_standard": "Nutrabiotics, Peshawar (gift)",
+        "methanol_HPLC": "Fisher, UK",
+        "acetonitrile_HPLC": "Fisher, UK"
+    },
+    "experimental_design_optimization": {
+        "independent_variables": [
+            "HPMC K4 concentration",
+            "HPMC K15 concentration",
+            "Carbopol 934p concentration"
+        ],
+        "levels": "Varying amounts as per Table 7 (see formulations)",
+        "response_variables": [
+            "floating lag time",
+            "total floating time",
+            "drug release",
+            "swelling index"
+        ],
+        "optimized_batch": "126_SF10"
+    },
+    "formulations": [
+        {
+            "batch": "126_SF1",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 100,
+                "HPMC_K15": 0,
+                "Carbopol_934p": 0,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 145
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 18.87,
+                "HPMC_K15": 0,
+                "Carbopol_934p": 0,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 27.36
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 25,
+                "bulk_density_g_per_mL": 0.48,
+                "tapped_density_g_per_mL": 0.53,
+                "carrs_index_percent": 10,
+                "hausner_ratio": 1.11
+            },
+            "post_compression": {
+                "thickness_mm": 3.14,
+                "diameter_mm": 12,
+                "hardness_N": 48,
+                "friability_percent": 0.32,
+                "weight_variation_mg": 530,
+                "content_uniformity_percent": 99.1
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 34,
+                "total_floating_time_h": 6
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 28
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 45
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 68
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 86
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 94
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 98
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 99
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 100
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 100
+                    }
+                ]
+            }
+        },
+        {
+            "batch": "126_SF2",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 150,
+                "HPMC_K15": 0,
+                "Carbopol_934p": 0,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 95
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 28.3,
+                "HPMC_K15": 0,
+                "Carbopol_934p": 0,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 17.92
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 27,
+                "bulk_density_g_per_mL": 0.5,
+                "tapped_density_g_per_mL": 0.52,
+                "carrs_index_percent": 11,
+                "hausner_ratio": 1.12
+            },
+            "post_compression": {
+                "thickness_mm": 3.2,
+                "diameter_mm": 12,
+                "hardness_N": 49,
+                "friability_percent": 0.34,
+                "weight_variation_mg": 531,
+                "content_uniformity_percent": 98.8
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 42,
+                "total_floating_time_h": 6
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 24
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 40
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 60
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 78
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 88
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 94
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 97
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 99
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 100
+                    }
+                ]
+            }
+        },
+        {
+            "batch": "126_SF3",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 200,
+                "HPMC_K15": 0,
+                "Carbopol_934p": 0,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 45
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 37.74,
+                "HPMC_K15": 0,
+                "Carbopol_934p": 0,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 8.49
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 26,
+                "bulk_density_g_per_mL": 0.47,
+                "tapped_density_g_per_mL": 0.51,
+                "carrs_index_percent": 9,
+                "hausner_ratio": 1.11
+            },
+            "post_compression": {
+                "thickness_mm": 3.19,
+                "diameter_mm": 12,
+                "hardness_N": 50,
+                "friability_percent": 0.33,
+                "weight_variation_mg": 529,
+                "content_uniformity_percent": 100.0
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 58,
+                "total_floating_time_h": 6
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 20
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 35
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 55
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 72
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 84
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 91
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 95
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 98
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 99
+                    }
+                ]
+            }
+        },
+        {
+            "batch": "126_SF4",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 0,
+                "HPMC_K15": 80,
+                "Carbopol_934p": 0,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 165
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 0,
+                "HPMC_K15": 15.09,
+                "Carbopol_934p": 0,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 31.13
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 26,
+                "bulk_density_g_per_mL": 0.49,
+                "tapped_density_g_per_mL": 0.53,
+                "carrs_index_percent": 9,
+                "hausner_ratio": 1.1
+            },
+            "post_compression": {
+                "thickness_mm": 3.21,
+                "diameter_mm": 12,
+                "hardness_N": 47,
+                "friability_percent": 0.31,
+                "weight_variation_mg": 530,
+                "content_uniformity_percent": 98.4
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 70,
+                "total_floating_time_h": 12
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 12
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 22
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 38
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 56
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 68
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 78
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 86
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 92
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 97
+                    }
+                ]
+            }
+        },
+        {
+            "batch": "126_SF5",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 0,
+                "HPMC_K15": 100,
+                "Carbopol_934p": 0,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 145
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 0,
+                "HPMC_K15": 18.87,
+                "Carbopol_934p": 0,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 27.36
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 25,
+                "bulk_density_g_per_mL": 0.5,
+                "tapped_density_g_per_mL": 0.59,
+                "carrs_index_percent": 10,
+                "hausner_ratio": 1.1
+            },
+            "post_compression": {
+                "thickness_mm": 3.26,
+                "diameter_mm": 12,
+                "hardness_N": 49,
+                "friability_percent": 0.34,
+                "weight_variation_mg": 532,
+                "content_uniformity_percent": 99.2
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 95,
+                "total_floating_time_h": 12
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 10
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 18
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 32
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 50
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 62
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 72
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 80
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 86
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 93
+                    }
+                ]
+            }
+        },
+        {
+            "batch": "126_SF6",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 100,
+                "HPMC_K15": 120,
+                "Carbopol_934p": 0,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 25
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 18.87,
+                "HPMC_K15": 22.64,
+                "Carbopol_934p": 0,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 4.72
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 25,
+                "bulk_density_g_per_mL": 0.5,
+                "tapped_density_g_per_mL": 0.52,
+                "carrs_index_percent": 10,
+                "hausner_ratio": 1.1
+            },
+            "post_compression": {
+                "thickness_mm": 3.25,
+                "diameter_mm": 12,
+                "hardness_N": 45,
+                "friability_percent": 0.3,
+                "weight_variation_mg": 531,
+                "content_uniformity_percent": 98.5
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 120,
+                "total_floating_time_h": 12
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 8
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 15
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 28
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 45
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 58
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 68
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 76
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 83
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 91
+                    }
+                ]
+            }
+        },
+        {
+            "batch": "126_SF7",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 100,
+                "HPMC_K15": 80,
+                "Carbopol_934p": 0,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 65
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 18.87,
+                "HPMC_K15": 15.09,
+                "Carbopol_934p": 0,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 12.26
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 24,
+                "bulk_density_g_per_mL": 0.49,
+                "tapped_density_g_per_mL": 0.55,
+                "carrs_index_percent": 10,
+                "hausner_ratio": 1.1
+            },
+            "post_compression": {
+                "thickness_mm": 3.24,
+                "diameter_mm": 12,
+                "hardness_N": 46,
+                "friability_percent": 0.35,
+                "weight_variation_mg": 530,
+                "content_uniformity_percent": 99.2
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 50,
+                "total_floating_time_h": 12
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 14
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 25
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 42
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 60
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 72
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 81
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 88
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 93
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 97
+                    }
+                ]
+            }
+        },
+        {
+            "batch": "126_SF8",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 100,
+                "HPMC_K15": 100,
+                "Carbopol_934p": 0,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 45
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 18.87,
+                "HPMC_K15": 18.87,
+                "Carbopol_934p": 0,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 8.49
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 26,
+                "bulk_density_g_per_mL": 0.48,
+                "tapped_density_g_per_mL": 0.58,
+                "carrs_index_percent": 10,
+                "hausner_ratio": 1.11
+            },
+            "post_compression": {
+                "thickness_mm": 3.22,
+                "diameter_mm": 12,
+                "hardness_N": 44,
+                "friability_percent": 0.38,
+                "weight_variation_mg": 528,
+                "content_uniformity_percent": 98.7
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 67,
+                "total_floating_time_h": 12
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 11
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 20
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 35
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 52
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 65
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 75
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 83
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 89
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 95
+                    }
+                ]
+            }
+        },
+        {
+            "batch": "126_SF9",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 100,
+                "HPMC_K15": 120,
+                "Carbopol_934p": 0,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 25
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 18.87,
+                "HPMC_K15": 22.64,
+                "Carbopol_934p": 0,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 4.72
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 25,
+                "bulk_density_g_per_mL": 0.48,
+                "tapped_density_g_per_mL": 0.54,
+                "carrs_index_percent": 11,
+                "hausner_ratio": 1.11
+            },
+            "post_compression": {
+                "thickness_mm": 3.31,
+                "diameter_mm": 12,
+                "hardness_N": 45,
+                "friability_percent": 0.37,
+                "weight_variation_mg": 527,
+                "content_uniformity_percent": 99.0
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 80,
+                "total_floating_time_h": 12
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 9
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 17
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 30
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 48
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 60
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 70
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 78
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 85
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 92
+                    }
+                ]
+            }
+        },
+        {
+            "batch": "126_SF10",
+            "total_weight_mg": 530,
+            "composition_mg": {
+                "silymarin": 200,
+                "HPMC_K4": 100,
+                "HPMC_K15": 120,
+                "Carbopol_934p": 25,
+                "NaHCO3": 70,
+                "Mg_stearate": 5,
+                "citric_acid": 10,
+                "lactose": 0
+            },
+            "composition_percent": {
+                "silymarin": 37.74,
+                "HPMC_K4": 18.87,
+                "HPMC_K15": 22.64,
+                "Carbopol_934p": 4.72,
+                "NaHCO3": 13.21,
+                "Mg_stearate": 0.94,
+                "citric_acid": 1.89,
+                "lactose": 0
+            },
+            "pre_compression": {
+                "angle_of_repose_deg": 26,
+                "bulk_density_g_per_mL": 0.45,
+                "tapped_density_g_per_mL": 0.55,
+                "carrs_index_percent": 12,
+                "hausner_ratio": 1.14
+            },
+            "post_compression": {
+                "thickness_mm": 3.78,
+                "diameter_mm": 12,
+                "hardness_N": 52,
+                "friability_percent": 0.27,
+                "weight_variation_mg": 530,
+                "content_uniformity_percent": 99.0
+            },
+            "buoyancy": {
+                "floating_lag_time_s": 60,
+                "total_floating_time_h": ">12"
+            },
+            "release_properties": {
+                "in_vitro_release_profile": [
+                    {
+                        "time_h": 0,
+                        "cumulative_percent": 0
+                    },
+                    {
+                        "time_h": 0.5,
+                        "cumulative_percent": 10
+                    },
+                    {
+                        "time_h": 1,
+                        "cumulative_percent": 20
+                    },
+                    {
+                        "time_h": 2,
+                        "cumulative_percent": 35
+                    },
+                    {
+                        "time_h": 4,
+                        "cumulative_percent": 50
+                    },
+                    {
+                        "time_h": 6,
+                        "cumulative_percent": 65
+                    },
+                    {
+                        "time_h": 8,
+                        "cumulative_percent": 75
+                    },
+                    {
+                        "time_h": 10,
+                        "cumulative_percent": 85
+                    },
+                    {
+                        "time_h": 12,
+                        "cumulative_percent": 90
+                    },
+                    {
+                        "time_h": 16,
+                        "cumulative_percent": 95
+                    }
+                ],
+                "release_kinetics": {
+                    "zero_order_r2": 0.979,
+                    "first_order_r2": 0.587,
+                    "higuchi_r2": 0.977,
+                    "korsmeyer_peppas_r2": 0.986,
+                    "korsmeyer_peppas_n": 0.65,
+                    "mechanism": "anomalous diffusion"
+                }
+            }
+        }
+    ],
+    "ftir_info": {
+        "instrument": "Thermo Fisher FTIR, Waltham, MA, USA",
+        "wavenumber_range": "400-4000 cm⁻¹",
+        "key_peaks_drug_silymarin": "OH at 3300, C-H at 2900, C=O at 1635, aromatic C=C at 1500 and 1456 cm⁻¹",
+        "key_peaks_carbopol": "OH at 3300, alkyl at 3000, OH at 2372, COOH at 1697, carbonyl at 1234 cm⁻¹",
+        "key_peaks_HPMC_K4": "OH at 3400, C-H at 2850, C=C at 1600, -CO and -CH at 1053 and 947 cm⁻¹",
+        "key_peaks_HPMC_K15": "OH at 3400, C-H at 2900, C=C at 1600, -CO and -CH at 1053 and 947 cm⁻¹",
+        "compatibility_conclusion": "No significant spectral shift in physical mixture and optimized formulation, indicating no chemical interaction"
+    },
+    "tablet_fabrication_process": {
+        "method": "Direct compression",
+        "mixing": "Ingredients sieved, mixed thoroughly for 15 min, then Mg stearate added and mixed for 2-3 min",
+        "compression_machine": "Single punch machine (Emmy Enterprise)",
+        "tooling": "12 mm round flat punches",
+        "target_tablet_weight": "530 mg (adjusted with lactose)",
+        "process_conditions": {
+            "temperature": "<25 °C",
+            "relative_humidity": "<25%"
+        }
+    },
+    "process_parameters": {
+        "compression_pressure": "Not specified",
+        "coating": "No coating applied",
+        "equipment": "Single punch tablet press (Emmy Enterprise), USP Type II dissolution apparatus, UV spectrophotometer (Lambda 21, PerkinElmer), DSC (Perkin Elmer), HPLC (Sykam, Germany)"
+    },
+    "in_vivo_pharmacokinetics": {
+        "animal_model": "Albino rabbits (n=6 per group)",
+        "dose": "200 mg silymarin",
+        "conventional_formulation": "Hepavitum capsule",
+        "optimized_formulation_SF10": "Floating tablet",
+        "parameters": {
+            "conventional": {
+                "Tmax_h": "1.0 ± 0.08",
+                "Cmax_μg_per_mL": "0.6 ± 0.11",
+                "AUC_0_t_μg_h_per_mL": "2.4 ± 0.70",
+                "MRT_h": "5.3 ± 0.91"
+            },
+            "126_SF10": {
+                "Tmax_h": "4.0 ± 0.12",
+                "Cmax_μg_per_mL": "1.1 ± 0.42",
+                "AUC_0_t_μg_h_per_mL": "7.5 ± 1.26",
+                "MRT_h": "8.6 ± 1.15"
+            }
+        },
+        "statistical_significance": "p < 0.05 (t-test)"
+    },
+    "stability_study": {
+        "duration_months": 12,
+        "conditions": [
+            "25±2 °C / 60±5% RH",
+            "30±2 °C / 65±5% RH",
+            "40±2 °C / 75±5% RH"
+        ],
+        "drug_content_range_percent": {
+            "25°C": "99.21 - 100.20",
+            "30°C": "99.36 - 100.04",
+            "40°C": "98.86 - 100.06"
+        },
+        "physical_appearance": "Good throughout"
+    },
+    "release_kinetics_model_for_optimized_batch": {
+        "best_fit_model": "Zero-order (r²=0.979) and Higuchi (r²=0.977)",
+        "release_mechanism": "Anomalous diffusion (n=0.65, between 0.45 and 0.89)",
+        "cumulative_release": "~95% at 16 hours"
+    },
+    "swelling_index": {
+        "note": "Figure 3 shows swelling index for formulations; optimized formulation (126_SF10) exhibited excellent swelling pattern. No numerical values per batch provided in text."
+    }
+}

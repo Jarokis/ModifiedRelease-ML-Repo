@@ -1,0 +1,305 @@
+{
+  "article_title": "The Effect of Acid pH Modifiers on the Release Characteristics of Weakly Basic Drug from Hydrophilic-Lipophilic Matrices",
+  "authors": ["Kateřina Dvořáčková", "Petr Doležel", "Eliška Mašková", "Jan Muselík", "Martina Kejdusová", "David Vetchý"],
+  "publication_year": 2013,
+  "sections": {
+    "abstract": "The solubility of weakly basic drugs within GI tract leads to pH-dependent release. The study aimed to prepare hydrophilic-lipophilic (hypromellose-montanyloyl wax) matrix tablets ensuring pH-independent delivery of verapamil-HCl by incorporating citric, fumaric, or itaconic acids. Dissolution studies used changing pH (2 h pH 1.2, then 10 h pH 6.8). Microenvironment pH was measured. Full factorial design and PLS-2 regression were used. Acidifiers increased drug release rate. Concentration and strength of acidifier were crucial (p<0.01); solubility did not influence effects except surface pH at 480 min.",
+    "introduction": "Discusses pH-dependent solubility of weakly basic drugs and strategies to achieve pH-independent release, including incorporation of organic acids. Focus on verapamil-HCl, HPMC-montanylcol wax matrices.",
+    "materials_and_methods": "Describes materials, granulation, tablet compression, dissolution testing, pH measurement, and statistical analysis.",
+    "results_and_discussion": "Presents dissolution profiles, similarity factors, release kinetics, gel layer pH, and statistical evaluation.",
+    "conclusion": "Incorporation of 100 mg citric or fumaric acid improved pH-independent release. Concentration and pKa were crucial; solubility not significant."
+  },
+  "materials_origin": {
+    "verapamil_hydrochloride": "Chemos, Regenstauf, Germany",
+    "HPMC_K4M": "Colorcon Limited, Dartford, Great Britain",
+    "microcrystalline_cellulose_Avicel_PH101": "FMC Biopolymers, Rockland, USA",
+    "montanylcol_wax": "Zentiva, Prague, Czech Republic",
+    "citric_acid": "Sigma-Aldrich, GmbH, Steinheim am Albuch, Germany",
+    "fumaric_acid": "Sigma-Aldrich, GmbH, Steinheim am Albuch, Germany",
+    "itaconic_acid": "Sigma-Aldrich, GmbH, Steinheim am Albuch, Germany",
+    "magnesium_stearate": "Peter Greven, Bad Munstereifel, Germany",
+    "colloid_silica": "Degussa, Vicenza, Italy"
+  },
+  "experimental_design_for_optimization": {
+    "method": "Full factorial design and partial least squares PLS-2 regression",
+    "independent_variables": ["acid type (citric, fumaric, itaconic)", "acid concentration (50 mg vs 100 mg)", "pKa", "solubility"],
+    "dependent_variables": ["drug release at 360 min", "drug release at 480 min", "surface pH of gel layer at 360 min", "surface pH of gel layer at 480 min"],
+    "software": "Unscrambler X v.10.2 (Camo software)"
+  },
+  "ingredients_identification": {
+    "particle_size_measurement": "Optical microscope (DN 45, Lambda, Prague) with CCD camera (Alphaphot, Nikon), Ia32 software. Mean diameters: citric 200.1 μm, fumaric 179.3 μm, itaconic 190.6 μm.",
+    "drug_content_analysis": "Spectrophotometric method at 278 nm (Lambda 25, Perkin Elmer, Wellesley, USA).",
+    "dissolution_analysis": "UV spectrophotometer at 278 nm for VH."
+  },
+  "formulation_details": {
+    "note": "All tablets also contain 0.5% colloid silica and 2.5% magnesium stearate. Total weight per tablet approximately 350 mg. Constant components per tablet: Verapamil-HCl 100 mg, HPMC K4M 60 mg, montanylcol wax 82.1 mg. Filler (acid + MCC) totals 100 mg.",
+    "batches": [
+      {
+        "batch": "R",
+        "verapamil_HCl_mg": 100,
+        "HPMC_K4M_mg": 60,
+        "montanylcol_wax_mg": 82.1,
+        "citric_acid_mg": 0,
+        "fumaric_acid_mg": 0,
+        "itaconic_acid_mg": 0,
+        "MCC_mg": 100
+      },
+      {
+        "batch": "1A",
+        "verapamil_HCl_mg": 100,
+        "HPMC_K4M_mg": 60,
+        "montanylcol_wax_mg": 82.1,
+        "citric_acid_mg": 50,
+        "fumaric_acid_mg": 0,
+        "itaconic_acid_mg": 0,
+        "MCC_mg": 50
+      },
+      {
+        "batch": "1B",
+        "verapamil_HCl_mg": 100,
+        "HPMC_K4M_mg": 60,
+        "montanylcol_wax_mg": 82.1,
+        "citric_acid_mg": 100,
+        "fumaric_acid_mg": 0,
+        "itaconic_acid_mg": 0,
+        "MCC_mg": 0
+      },
+      {
+        "batch": "2A",
+        "verapamil_HCl_mg": 100,
+        "HPMC_K4M_mg": 60,
+        "montanylcol_wax_mg": 82.1,
+        "citric_acid_mg": 0,
+        "fumaric_acid_mg": 50,
+        "itaconic_acid_mg": 0,
+        "MCC_mg": 50
+      },
+      {
+        "batch": "2B",
+        "verapamil_HCl_mg": 100,
+        "HPMC_K4M_mg": 60,
+        "montanylcol_wax_mg": 82.1,
+        "citric_acid_mg": 0,
+        "fumaric_acid_mg": 100,
+        "itaconic_acid_mg": 0,
+        "MCC_mg": 0
+      },
+      {
+        "batch": "3A",
+        "verapamil_HCl_mg": 100,
+        "HPMC_K4M_mg": 60,
+        "montanylcol_wax_mg": 82.1,
+        "citric_acid_mg": 0,
+        "fumaric_acid_mg": 0,
+        "itaconic_acid_mg": 50,
+        "MCC_mg": 50
+      },
+      {
+        "batch": "3B",
+        "verapamil_HCl_mg": 100,
+        "HPMC_K4M_mg": 60,
+        "montanylcol_wax_mg": 82.1,
+        "citric_acid_mg": 0,
+        "fumaric_acid_mg": 0,
+        "itaconic_acid_mg": 100,
+        "MCC_mg": 0
+      }
+    ]
+  },
+  "pre_compression_parameters": {
+    "weight_variation_overall": "Average weight 345.7-354.9 mg, max SD 2.6 mg (n=20 per batch, not reported individually)",
+    "hardness_and_friability_per_batch": [
+      {"batch": "R", "drug_content_percent": 98.2, "drug_content_SD": 0.6, "friability_percent": 0.18, "hardness_N": 115.7, "hardness_SD": 4.9},
+      {"batch": "1A", "drug_content_percent": 98.4, "drug_content_SD": 1.4, "friability_percent": 0.23, "hardness_N": 123.7, "hardness_SD": 3.1},
+      {"batch": "1B", "drug_content_percent": 98.4, "drug_content_SD": 3.2, "friability_percent": 0.22, "hardness_N": 126.9, "hardness_SD": 2.8},
+      {"batch": "2A", "drug_content_percent": 100.6, "drug_content_SD": 1.2, "friability_percent": 0.22, "hardness_N": 118.1, "hardness_SD": 2.8},
+      {"batch": "2B", "drug_content_percent": 104.7, "drug_content_SD": 0.6, "friability_percent": 0.26, "hardness_N": 111.2, "hardness_SD": 1.7},
+      {"batch": "3A", "drug_content_percent": 98.5, "drug_content_SD": 1.5, "friability_percent": 0.17, "hardness_N": 119.7, "hardness_SD": 13.1},
+      {"batch": "3B", "drug_content_percent": 100.6, "drug_content_SD": 1.6, "friability_percent": 0.23, "hardness_N": 113.7, "hardness_SD": 3.9}
+    ],
+    "tablet_diameter_mm": 10,
+    "tablet_thickness": "not reported"
+  },
+  "independent_variables_levels": {
+    "acid_type": ["citric", "fumaric", "itaconic"],
+    "acid_concentration_mg": [50, 100],
+    "pKa_values": {"citric": 3.1, "fumaric": 3.0, "itaconic": 3.85},
+    "solubility_mg_per_ml_at_20C_pH6.8": {"citric": 651.9, "fumaric": 10, "itaconic": 93}
+  },
+  "ftir_information": null,
+  "tablet_fabrication": {
+    "granulation_method": "Thermoplastic (melt) granulation using montanylcol wax as binder",
+    "granulation_temperature": "80°C for 5 min (oven RS 401A/1, Chirana, Prague)",
+    "mixing": "Turbula mixer TC2, Basel, Switzerland for 10 min before and after adding lubricants",
+    "compression_device": "Korsch EK 0 press, Korsch Pressen, Berlin, Germany",
+    "punch_diameter": "10 mm flat-faced",
+    "compression_pressure": "not specified, target similar hardness (111-127 N)",
+    "coating": "none"
+  },
+  "process_parameters": {
+    "heating_temperature_C": 80,
+    "heating_time_min": 5,
+    "mixing_time_min": 10,
+    "lubricants": "magnesium stearate 2.5%, colloid silica 0.5%",
+    "tablet_hardness_range_N": "111.2 - 126.9"
+  },
+  "release_properties": {
+    "dissolution_method": "Paddle method, 100 rpm, 37°C, change of pH: 2 h in pH 1.2 (artificial gastric juice) then 10 h in pH 6.8 (adjusted with sodium triphosphate 18.7 g)",
+    "similarity_factor_f2_vs_R": {
+      "1A": 48.0,
+      "1B": 37.5,
+      "2A": 43.8,
+      "2B": 40.0,
+      "3A": 47.1,
+      "3B": 45.1
+    },
+    "similarity_factor_f2_between_A_and_B": {
+      "citric_1A_vs_1B": 56.8,
+      "fumaric_2A_vs_2B": 77.9,
+      "itaconic_3A_vs_3B": 90.6
+    },
+    "release_kinetics_models_R_squared": {
+      "R": {"zero_order": 0.9551, "first_order": 0.8129, "higuchi": 0.9807, "korsmeyer_peppas": 0.9498, "baker_lonsdale": null},
+      "1A": {"zero_order": 0.9658, "first_order": 0.7696, "higuchi": 0.9931, "korsmeyer_peppas": 0.9880, "baker_lonsdale": 0.5864},
+      "1B": {"zero_order": 0.9676, "first_order": 0.7697, "higuchi": 0.9900, "korsmeyer_peppas": 0.9847, "baker_lonsdale": 0.5370},
+      "2A": {"zero_order": 0.9622, "first_order": 0.7844, "higuchi": 0.9943, "korsmeyer_peppas": 0.9910, "baker_lonsdale": 0.5888},
+      "2B": {"zero_order": 0.9634, "first_order": 0.7923, "higuchi": 0.9924, "korsmeyer_peppas": 0.9929, "baker_lonsdale": 0.5201},
+      "3A": {"zero_order": 0.9689, "first_order": 0.7899, "higuchi": 0.9956, "korsmeyer_peppas": 0.9929, "baker_lonsdale": 0.5694},
+      "3B": {"zero_order": 0.9644, "first_order": 0.8001, "higuchi": 0.9968, "korsmeyer_peppas": 0.9948, "baker_lonsdale": 0.5407}
+    },
+    "korsmeyer_peppas_exponent_n": "Ranged from 0.520 to 0.589 for samples containing acidifiers (anomalous transport, non-Fickian)",
+    "release_mechanism": "Fickian diffusion (Higuchi and Baker-Lonsdale best fit) with minor erosion contribution (anomalous transport)",
+    "factors_influencing_release": "pH, acidifier concentration and pKa (significant), acid solubility (not significant except surface pH at 480 min)"
+  },
+  "tablet_properties": {
+    "hardness_N": "see pre_compression_parameters",
+    "friability_percent": "see pre_compression_parameters",
+    "disintegration_time": "not applicable (extended release)",
+    "dissolution_profile_summary": {
+      "R": "37% released at 2h (pH1.2), total 52% at 12h",
+      "1A": "slower release at pH1.2, >70% total",
+      "1B": "~80% total, near pH-independent",
+      "2A": ">70% total",
+      "2B": "~80% total, near pH-independent",
+      "3A": ">70% total",
+      "3B": ">70% total"
+    },
+    "stability": "not reported",
+    "thickness": "not reported",
+    "weight_variation_percent": "max SD 2.6 mg, average weight range 345.7-354.9 mg (approx 0.75% variability)"
+  },
+  "experimental_data": {
+    "gel_layer_pH": "Measured hourly for 8h using contact pH electrode. At pH1.2, all samples pH 1.23-1.65. After change to pH6.8, sample R pH 6.54-6.76; acid-containing samples maintained lower pH. Citric acid samples showed sharp pH increase after 360 min due to complete leaching.",
+    "statistical_analysis": {
+      "full_factorial": "Concentration of pH modifier (p<0.01) and type (p<0.05) significantly affected drug release and surface pH at 360 and 480 min.",
+      "PLS_2_regression": "First two PLS components explained 75% (X-data) and 73% (Y-data) variation. Concentration (p<0.01) positively correlated with drug release, negatively with pH at 360 min. pKa (p<0.01) crucial for drug release and pH at 360 min. Solubility only affected pH at 480 min (p<0.05)."
+    },
+    "dissolution_data_approximated": {
+      "R": [
+        {"time_h": 0, "release_percent": 0},
+        {"time_h": 1, "release_percent": 20},
+        {"time_h": 2, "release_percent": 37},
+        {"time_h": 3, "release_percent": 40},
+        {"time_h": 4, "release_percent": 43},
+        {"time_h": 5, "release_percent": 45},
+        {"time_h": 6, "release_percent": 47},
+        {"time_h": 7, "release_percent": 48},
+        {"time_h": 8, "release_percent": 49},
+        {"time_h": 9, "release_percent": 50},
+        {"time_h": 10, "release_percent": 51},
+        {"time_h": 11, "release_percent": 51.5},
+        {"time_h": 12, "release_percent": 52}
+      ],
+      "1A": [
+        {"time_h": 0, "release_percent": 0},
+        {"time_h": 1, "release_percent": 18},
+        {"time_h": 2, "release_percent": 32},
+        {"time_h": 3, "release_percent": 42},
+        {"time_h": 4, "release_percent": 51},
+        {"time_h": 5, "release_percent": 58},
+        {"time_h": 6, "release_percent": 64},
+        {"time_h": 7, "release_percent": 69},
+        {"time_h": 8, "release_percent": 73},
+        {"time_h": 9, "release_percent": 76},
+        {"time_h": 10, "release_percent": 78},
+        {"time_h": 11, "release_percent": 79},
+        {"time_h": 12, "release_percent": 80}
+      ],
+      "1B": [
+        {"time_h": 0, "release_percent": 0},
+        {"time_h": 1, "release_percent": 15},
+        {"time_h": 2, "release_percent": 28},
+        {"time_h": 3, "release_percent": 38},
+        {"time_h": 4, "release_percent": 48},
+        {"time_h": 5, "release_percent": 56},
+        {"time_h": 6, "release_percent": 63},
+        {"time_h": 7, "release_percent": 69},
+        {"time_h": 8, "release_percent": 74},
+        {"time_h": 9, "release_percent": 78},
+        {"time_h": 10, "release_percent": 81},
+        {"time_h": 11, "release_percent": 83},
+        {"time_h": 12, "release_percent": 84}
+      ],
+      "2A": [
+        {"time_h": 0, "release_percent": 0},
+        {"time_h": 1, "release_percent": 19},
+        {"time_h": 2, "release_percent": 33},
+        {"time_h": 3, "release_percent": 43},
+        {"time_h": 4, "release_percent": 52},
+        {"time_h": 5, "release_percent": 60},
+        {"time_h": 6, "release_percent": 66},
+        {"time_h": 7, "release_percent": 71},
+        {"time_h": 8, "release_percent": 75},
+        {"time_h": 9, "release_percent": 78},
+        {"time_h": 10, "release_percent": 80},
+        {"time_h": 11, "release_percent": 81},
+        {"time_h": 12, "release_percent": 82}
+      ],
+      "2B": [
+        {"time_h": 0, "release_percent": 0},
+        {"time_h": 1, "release_percent": 16},
+        {"time_h": 2, "release_percent": 29},
+        {"time_h": 3, "release_percent": 39},
+        {"time_h": 4, "release_percent": 49},
+        {"time_h": 5, "release_percent": 58},
+        {"time_h": 6, "release_percent": 66},
+        {"time_h": 7, "release_percent": 72},
+        {"time_h": 8, "release_percent": 77},
+        {"time_h": 9, "release_percent": 80},
+        {"time_h": 10, "release_percent": 82},
+        {"time_h": 11, "release_percent": 83},
+        {"time_h": 12, "release_percent": 84}
+      ],
+      "3A": [
+        {"time_h": 0, "release_percent": 0},
+        {"time_h": 1, "release_percent": 20},
+        {"time_h": 2, "release_percent": 34},
+        {"time_h": 3, "release_percent": 44},
+        {"time_h": 4, "release_percent": 53},
+        {"time_h": 5, "release_percent": 61},
+        {"time_h": 6, "release_percent": 68},
+        {"time_h": 7, "release_percent": 73},
+        {"time_h": 8, "release_percent": 77},
+        {"time_h": 9, "release_percent": 80},
+        {"time_h": 10, "release_percent": 82},
+        {"time_h": 11, "release_percent": 83},
+        {"time_h": 12, "release_percent": 84}
+      ],
+      "3B": [
+        {"time_h": 0, "release_percent": 0},
+        {"time_h": 1, "release_percent": 17},
+        {"time_h": 2, "release_percent": 30},
+        {"time_h": 3, "release_percent": 40},
+        {"time_h": 4, "release_percent": 50},
+        {"time_h": 5, "release_percent": 59},
+        {"time_h": 6, "release_percent": 67},
+        {"time_h": 7, "release_percent": 73},
+        {"time_h": 8, "release_percent": 78},
+        {"time_h": 9, "release_percent": 82},
+        {"time_h": 10, "release_percent": 85},
+        {"time_h": 11, "release_percent": 87},
+        {"time_h": 12, "release_percent": 88}
+      ]
+    }
+  }
+}

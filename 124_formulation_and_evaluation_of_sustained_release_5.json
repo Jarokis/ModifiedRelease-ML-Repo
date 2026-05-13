@@ -1,0 +1,825 @@
+{
+    "article_metadata": {
+        "title": "Formulation and evaluation of sustained release matrix tablet of rabeprazole using wet granulation technique",
+        "authors": [
+            "Ruqaiyah Khan",
+            "Md Shamim Ashraf",
+            "Muhammad Afzal",
+            "Imran Kazmi",
+            "Mohammed Asadullah Jahangir",
+            "Rajbala Singh",
+            "Ramesh Chandra",
+            "Firoz Anwar"
+        ],
+        "journal": "Journal of Pharmacy and Bioallied Sciences",
+        "year": 2014,
+        "pages": "180-184",
+        "dosage_form": "Sustained-release matrix tablet",
+        "api": "Rabeprazole (rabeprazole sodium)"
+    },
+    "materials_origin": {
+        "api": {
+            "name": "Rabeprazole",
+            "supplier": "Elder Pharmaceuticals Pvt Ltd, Dehradun, India",
+            "grade": "Not explicitly stated; gift sample; assumed pharmaceutical grade"
+        },
+        "polymers": [
+            {
+                "name": "Hydroxypropyl methylcellulose (HPMC E-15)",
+                "supplier": "Elder Pharmaceuticals Pvt Ltd, Dehradun, India",
+                "grade": "Not specified (polymer for sustained release)"
+            },
+            {
+                "name": "Carbopol 934",
+                "supplier": "Elder Pharmaceuticals Pvt Ltd, Dehradun, India",
+                "grade": "Not specified"
+            },
+            {
+                "name": "Sodium carboxymethyl cellulose (Sodium CMC)",
+                "supplier": "Elder Pharmaceuticals Pvt Ltd, Dehradun, India",
+                "grade": "Not specified"
+            }
+        ],
+        "excipients": [
+            {
+                "name": "Talc",
+                "supplier": "S.D. Fine Chem. Ltd., Mumbai, India",
+                "grade": "Analytical grade"
+            },
+            {
+                "name": "Magnesium stearate",
+                "supplier": "S.D. Fine Chem. Ltd., Mumbai, India",
+                "grade": "Analytical grade"
+            },
+            {
+                "name": "Lactose",
+                "supplier": "Not specified",
+                "grade": "Analytical grade (implied: 'All the chemicals were of analytical grade')"
+            }
+        ],
+        "general_note": "All chemicals used were of analytical grade."
+    },
+    "experimental_design_for_optimization": {
+        "description": "Six sustained-release matrix tablet formulations (124_F1–124_F6) were prepared using wet granulation, varying type and concentration of hydrophilic polymers (HPMC E-15, Carbopol 934, Sodium CMC) and lactose filler to study their effect on rabeprazole release over 10 h.",
+        "design_type": "Simple comparative formulation study (no formal factorial/RSM optimization reported).",
+        "batches": [
+            "124_F1",
+            "124_F2",
+            "124_F3",
+            "124_F4",
+            "124_F5",
+            "124_F6"
+        ],
+        "independent_variables": [
+            "Polymer type: HPMC E-15, Carbopol 934, Sodium CMC",
+            "Polymer concentration per tablet (mg)",
+            "Presence/amount of lactose diluent"
+        ],
+        "dependent_variables": [
+            "Cumulative drug release over 10 h",
+            "Tablet hardness",
+            "Flow properties (angle of repose, densities, Carr's index)",
+            "Drug content uniformity"
+        ],
+        "optimization_note": "No statistical optimization (e.g., design of experiments, regression models) is described; conclusions are based on comparative release profiles and qualitative assessment."
+    },
+    "ingredients_identification": {
+        "ftir_identification": {
+            "purpose": "Identification of pure rabeprazole and compatibility with polymers.",
+            "method_summary": "FT-IR spectrum of rabeprazole was recorded and compared with reference spectrum; mixture spectra (drug + polymers) were examined for interaction.",
+            "results_summary": "Wave numbers of pure drug and drug–excipient mixtures were reported as almost similar, indicating no significant interaction and compatibility.",
+            "spectral_data": null,
+            "instrument_details": null,
+            "section_sources": [
+                "Methods – Identification of pure drugs",
+                "Results and Discussion – FT-IR compatibility paragraph"
+            ]
+        },
+        "uv_vis_assay_and_calibration": {
+            "lambda_max_nm": 287,
+            "assay_medium": "Phosphate buffer pH 7.2 (for estimation of rabeprazole sodium)",
+            "assay_description": "Rabeprazole sodium dissolved in phosphate buffer pH 7.2 to obtain 10 µg/mL solution, further diluted and scanned between 200–400 nm on a double-beam UV–VIS spectrophotometer using buffer as blank to determine λmax.",
+            "calibration_curve_water": {
+                "stock_solution": "25 mg rabeprazole in 100 mL volumetric flask, volume made up with distilled water.",
+                "dilutions_ug_per_mL": [
+                    1,
+                    2,
+                    4,
+                    6,
+                    8,
+                    10
+                ],
+                "absorbances_at_287_nm": {
+                    "1": 0.091,
+                    "2": 0.15,
+                    "4": 0.289,
+                    "6": 0.417,
+                    "8": 0.535,
+                    "10": 0.674
+                },
+                "regression_equation": "A = 0.066*C + 0.0159",
+                "regression_equation_units": "A: absorbance at 287 nm; C: concentration in µg/mL",
+                "correlation_coefficient_r2": 0.9985
+            },
+            "drug_content_assay_in_tablets": {
+                "procedure_summary": "Three tablets from each batch were placed in 100 mL volumetric flask, volume made up with 0.1 N HCl, kept for 48 h, 1 mL withdrawn, filtered, suitably diluted and analyzed spectrophotometrically (wavelength not re-stated, implied use of same assay).",
+                "calculation_details": "Not fully specified; assumes use of calibration curve/standard absorbance at 287 nm."
+            }
+        }
+    },
+    "formulation_details_per_batch": {
+        "note": "Values are per tablet in mg as given in Table 2; '-' entries in the article are treated as 0 mg.",
+        "formulations": {
+            "124_F1": {
+                "rabeprazole_mg": 50,
+                "HPMC_E15_mg": 50,
+                "Carbopol_934_mg": 0,
+                "Sodium_CMC_mg": 0,
+                "lactose_mg": 150,
+                "talc_mg": 3,
+                "magnesium_stearate_mg": 2,
+                "total_tablet_weight_mg": 255,
+                "percent_pellets": null
+            },
+            "124_F2": {
+                "rabeprazole_mg": 50,
+                "HPMC_E15_mg": 100,
+                "Carbopol_934_mg": 0,
+                "Sodium_CMC_mg": 0,
+                "lactose_mg": 100,
+                "talc_mg": 3,
+                "magnesium_stearate_mg": 2,
+                "total_tablet_weight_mg": 255,
+                "percent_pellets": null
+            },
+            "124_F3": {
+                "rabeprazole_mg": 50,
+                "HPMC_E15_mg": 0,
+                "Carbopol_934_mg": 50,
+                "Sodium_CMC_mg": 0,
+                "lactose_mg": 0,
+                "talc_mg": 3,
+                "magnesium_stearate_mg": 2,
+                "total_tablet_weight_mg": 105,
+                "percent_pellets": null
+            },
+            "124_F4": {
+                "rabeprazole_mg": 50,
+                "HPMC_E15_mg": 0,
+                "Carbopol_934_mg": 100,
+                "Sodium_CMC_mg": 0,
+                "lactose_mg": 0,
+                "talc_mg": 3,
+                "magnesium_stearate_mg": 2,
+                "total_tablet_weight_mg": 155,
+                "percent_pellets": null
+            },
+            "124_F5": {
+                "rabeprazole_mg": 50,
+                "HPMC_E15_mg": 50,
+                "Carbopol_934_mg": 0,
+                "Sodium_CMC_mg": 50,
+                "lactose_mg": 100,
+                "talc_mg": 3,
+                "magnesium_stearate_mg": 2,
+                "total_tablet_weight_mg": 255,
+                "percent_pellets": null
+            },
+            "124_F6": {
+                "rabeprazole_mg": 50,
+                "HPMC_E15_mg": 0,
+                "Carbopol_934_mg": 50,
+                "Sodium_CMC_mg": 50,
+                "lactose_mg": 100,
+                "talc_mg": 3,
+                "magnesium_stearate_mg": 2,
+                "total_tablet_weight_mg": 255,
+                "percent_pellets": null
+            }
+        }
+    },
+    "pre_compression_parameters": {
+        "note": "The article reports angle of repose, bulk density, tapped density, and Carr’s index for granules/tablets by batch; no standard deviations are provided.",
+        "parameters_per_batch": {
+            "124_F1": {
+                "angle_of_repose_deg": 14.93,
+                "bulk_density_g_per_cm3": 0.45,
+                "tapped_density_g_per_cm3": 0.55,
+                "carrs_index_percent": 18.18,
+                "mass_distribution_measure": "weight_variation_percent",
+                "weight_variation_percent": 2.4,
+                "hardness_kg_per_cm2": 3.0,
+                "friability_percent": null,
+                "size_thickness_cm": 0.3,
+                "size_diameter_cm": null,
+                "standard_deviation_note": "Not reported"
+            },
+            "124_F2": {
+                "angle_of_repose_deg": 22.26,
+                "bulk_density_g_per_cm3": 0.63,
+                "tapped_density_g_per_cm3": 0.79,
+                "carrs_index_percent": 20.25,
+                "mass_distribution_measure": "weight_variation_percent",
+                "weight_variation_percent": 3.1,
+                "hardness_kg_per_cm2": 3.5,
+                "friability_percent": null,
+                "size_thickness_cm": 0.35,
+                "size_diameter_cm": null,
+                "standard_deviation_note": "Not reported"
+            },
+            "124_F3": {
+                "angle_of_repose_deg": 30.43,
+                "bulk_density_g_per_cm3": 0.57,
+                "tapped_density_g_per_cm3": 0.62,
+                "carrs_index_percent": 8.06,
+                "mass_distribution_measure": "weight_variation_percent",
+                "weight_variation_percent": 2.8,
+                "hardness_kg_per_cm2": 4.0,
+                "friability_percent": null,
+                "size_thickness_cm": 0.4,
+                "size_diameter_cm": null,
+                "standard_deviation_note": "Not reported"
+            },
+            "124_F4": {
+                "angle_of_repose_deg": 28.21,
+                "bulk_density_g_per_cm3": 0.48,
+                "tapped_density_g_per_cm3": 0.57,
+                "carrs_index_percent": 15.78,
+                "mass_distribution_measure": "weight_variation_percent",
+                "weight_variation_percent": 2.7,
+                "hardness_kg_per_cm2": 3.0,
+                "friability_percent": null,
+                "size_thickness_cm": 0.3,
+                "size_diameter_cm": null,
+                "standard_deviation_note": "Not reported"
+            },
+            "124_F5": {
+                "angle_of_repose_deg": 26.43,
+                "bulk_density_g_per_cm3": 0.59,
+                "tapped_density_g_per_cm3": 0.68,
+                "carrs_index_percent": 13.23,
+                "mass_distribution_measure": "weight_variation_percent",
+                "weight_variation_percent": 1.3,
+                "hardness_kg_per_cm2": 3.0,
+                "friability_percent": null,
+                "size_thickness_cm": 0.4,
+                "size_diameter_cm": null,
+                "standard_deviation_note": "Not reported"
+            },
+            "124_F6": {
+                "angle_of_repose_deg": 25.21,
+                "bulk_density_g_per_cm3": 0.49,
+                "tapped_density_g_per_cm3": 0.53,
+                "carrs_index_percent": 7.54,
+                "mass_distribution_measure": "weight_variation_percent",
+                "weight_variation_percent": 2.6,
+                "hardness_kg_per_cm2": 4.0,
+                "friability_percent": null,
+                "size_thickness_cm": 0.35,
+                "size_diameter_cm": null,
+                "standard_deviation_note": "Not reported"
+            }
+        }
+    },
+    "independent_variables_and_levels": {
+        "description": "Independent formulation variables are primarily polymer type and polymer amount per tablet; lactose serves as diluent.",
+        "variables": [
+            {
+                "name": "HPMC E-15 amount (mg/tablet)",
+                "levels_mg": [
+                    0,
+                    50,
+                    100
+                ],
+                "level_assignment": {
+                    "124_F1": 50,
+                    "124_F2": 100,
+                    "124_F3": 0,
+                    "124_F4": 0,
+                    "124_F5": 50,
+                    "124_F6": 0
+                }
+            },
+            {
+                "name": "Carbopol 934 amount (mg/tablet)",
+                "levels_mg": [
+                    0,
+                    50,
+                    100
+                ],
+                "level_assignment": {
+                    "124_F1": 0,
+                    "124_F2": 0,
+                    "124_F3": 50,
+                    "124_F4": 100,
+                    "124_F5": 0,
+                    "124_F6": 50
+                }
+            },
+            {
+                "name": "Sodium CMC amount (mg/tablet)",
+                "levels_mg": [
+                    0,
+                    50
+                ],
+                "level_assignment": {
+                    "124_F1": 0,
+                    "124_F2": 0,
+                    "124_F3": 0,
+                    "124_F4": 0,
+                    "124_F5": 50,
+                    "124_F6": 50
+                }
+            },
+            {
+                "name": "Lactose amount (mg/tablet)",
+                "levels_mg": [
+                    0,
+                    100,
+                    150
+                ],
+                "level_assignment": {
+                    "124_F1": 150,
+                    "124_F2": 100,
+                    "124_F3": 0,
+                    "124_F4": 0,
+                    "124_F5": 100,
+                    "124_F6": 100
+                }
+            }
+        ]
+    },
+    "ftir_spectral_measurements": {
+        "measurement_type": "Compatibility and identification by FT-IR.",
+        "sample_types": [
+            "Pure rabeprazole sodium",
+            "Physical mixtures of rabeprazole with HPMC E-15, Carbopol 934, Sodium CMC (exact ratios not specified)"
+        ],
+        "key_observations": [
+            "Characteristic peaks of rabeprazole were retained in mixtures.",
+            "No significant shifts or disappearance of major peaks, indicating absence of strong drug–polymer interaction."
+        ],
+        "quantitative_peak_data": null,
+        "instrument_model": null,
+        "scan_range_cm_minus1": null,
+        "resolution_cm_minus1": null
+    },
+    "tablet_fabrication_and_tablet_properties": {
+        "fabrication_process": {
+            "granulation_method": "Wet granulation",
+            "particle_sizing": "All polymers and active ingredients passed through sieve no. 80; wet granules passed through sieve no. 20.",
+            "drying_conditions": "Granules dried in hot air oven at 45 °C.",
+            "lubrication": "Dried granules mixed with magnesium stearate and talc.",
+            "compression": {
+                "equipment": "Automatic punching machine (type/model not specified).",
+                "tablet_shape_and_size": "Not specified; described only as 'desired hardness, shape, and size'.",
+                "compression_pressure": null,
+                "compression_speed": null,
+                "coating": "No tablet coating described; matrix tablets appear to be uncoated."
+            }
+        },
+        "evaluation_methods": {
+            "hardness": {
+                "method": "Monsanto type hardness tester.",
+                "sample_size": "5 tablets per batch.",
+                "unit": "kg/cm2"
+            },
+            "friability": {
+                "method": "Roche friabilator, approximately 6 g dedusted tablets, 100 free falls of 6 inches at 25 rpm.",
+                "reported_values": "Not reported numerically."
+            },
+            "weight_variation": {
+                "method": "20 tablets weighed individually, average weight calculated; deviation expressed as % weight variation.",
+                "reported_values": "See per-batch data; no SD."
+            },
+            "thickness": {
+                "method": "Crown-to-crown thickness of ten tablets measured using slide calipers.",
+                "unit": "cm",
+                "reported_values": "See per-batch data."
+            },
+            "density_of_formulation": {
+                "description": "Apparent density of cylindrical tablets computed from mass and geometric volume (V = π r^2 h).",
+                "reported_as": "Bulk density and tapped density (g/cm3) in Table 3."
+            },
+            "drug_content": {
+                "method": "Three tablets per batch dissolved in 0.1 N HCl, kept for 48 h; aliquot filtered, diluted, and analyzed by UV spectrophotometry.",
+                "reported_as": "Drug content % in Table 3."
+            },
+            "consolidation_index": {
+                "definition": "Carr's index % = (tapped density - bulk density) / tapped density × 100.",
+                "reported_as": "Carr’s index % per batch in Table 3."
+            }
+        },
+        "tablet_properties_per_batch": {
+            "124_F1": {
+                "hardness_kg_per_cm2": 3.0,
+                "thickness_cm": 0.3,
+                "weight_variation_percent": 2.4,
+                "friability_percent": null,
+                "bulk_density_g_per_cm3": 0.45,
+                "tapped_density_g_per_cm3": 0.55,
+                "consolidation_index_percent": 18.18,
+                "drug_content_percent": 95.3,
+                "disintegration_time_min": null,
+                "stability_study": null
+            },
+            "124_F2": {
+                "hardness_kg_per_cm2": 3.5,
+                "thickness_cm": 0.35,
+                "weight_variation_percent": 3.1,
+                "friability_percent": null,
+                "bulk_density_g_per_cm3": 0.63,
+                "tapped_density_g_per_cm3": 0.79,
+                "consolidation_index_percent": 20.25,
+                "drug_content_percent": 98.9,
+                "disintegration_time_min": null,
+                "stability_study": null
+            },
+            "124_F3": {
+                "hardness_kg_per_cm2": 4.0,
+                "thickness_cm": 0.4,
+                "weight_variation_percent": 2.8,
+                "friability_percent": null,
+                "bulk_density_g_per_cm3": 0.57,
+                "tapped_density_g_per_cm3": 0.62,
+                "consolidation_index_percent": 8.06,
+                "drug_content_percent": 90.2,
+                "disintegration_time_min": null,
+                "stability_study": null
+            },
+            "124_F4": {
+                "hardness_kg_per_cm2": 3.0,
+                "thickness_cm": 0.3,
+                "weight_variation_percent": 2.7,
+                "friability_percent": null,
+                "bulk_density_g_per_cm3": 0.48,
+                "tapped_density_g_per_cm3": 0.57,
+                "consolidation_index_percent": 15.78,
+                "drug_content_percent": 91.2,
+                "disintegration_time_min": null,
+                "stability_study": null
+            },
+            "124_F5": {
+                "hardness_kg_per_cm2": 3.0,
+                "thickness_cm": 0.4,
+                "weight_variation_percent": 1.3,
+                "friability_percent": null,
+                "bulk_density_g_per_cm3": 0.59,
+                "tapped_density_g_per_cm3": 0.68,
+                "consolidation_index_percent": 13.23,
+                "drug_content_percent": 94.6,
+                "disintegration_time_min": null,
+                "stability_study": null
+            },
+            "124_F6": {
+                "hardness_kg_per_cm2": 4.0,
+                "thickness_cm": 0.35,
+                "weight_variation_percent": 2.6,
+                "friability_percent": null,
+                "bulk_density_g_per_cm3": 0.49,
+                "tapped_density_g_per_cm3": 0.53,
+                "consolidation_index_percent": 7.54,
+                "drug_content_percent": 97.2,
+                "disintegration_time_min": null,
+                "stability_study": null
+            }
+        }
+    },
+    "process_parameters": {
+        "compression_process": {
+            "equipment": "Automatic tablet punching machine (model not specified).",
+            "compression_pressure_MPa": null,
+            "compression_force_kN": null,
+            "tooling": "Not specified (shape/size only described qualitatively).",
+            "coating": "No coating mentioned; tablets treated as uncoated matrices."
+        },
+        "granulation": {
+            "type": "Wet granulation",
+            "sieving_before_granulation": "All ingredients passed through sieve no. 80.",
+            "sieving_after_granulation": "Wet granules passed through sieve no. 20.",
+            "drying_temperature_C": 45,
+            "drying_time_h": null,
+            "binder": "Not explicitly specified; water or polymer dispersion assumed but not described."
+        },
+        "dissolution_testing": {
+            "apparatus": "USP-II paddle apparatus",
+            "medium_stage_1": {
+                "description": "Acidic medium (0.1 N HCl implied).",
+                "pH": "Acidic (exact pH not numerically stated; typical 1.2).",
+                "duration_h": 2
+            },
+            "medium_stage_2": {
+                "description": "Phosphate buffer",
+                "pH": "Not explicitly stated for dissolution; phosphate buffer pH 7.2 used elsewhere for UV assay.",
+                "duration_h": 10
+            },
+            "temperature_C": 37,
+            "rotation_speed_rpm": null,
+            "sample_volume_and_replacement": null
+        }
+    },
+    "release_properties": {
+        "overview": {
+            "study_duration_h": 10,
+            "sampling_interval_h": 1,
+            "main_observation": "Most formulations released more than 80–90% of rabeprazole over 10 h, with higher Carbopol 934 concentration (124_F4) showing stronger sustaining effect; combinations with HPMC and NaCMC also produced sustained release.",
+            "release_mechanism_conclusion": "The article presents zero-order and first-order plots but does not provide explicit model-fitting parameters (e.g., R² values) or a definitive mechanistic classification (Higuchi, Korsmeyer–Peppas)."
+        },
+        "zero_order_cumulative_percent_release": {
+            "description": "Cumulative percent of drug released over time as reported in Table 4.",
+            "data": [
+                {
+                    "time_h": 1,
+                    "sqrt_time_h0_5": 1.0,
+                    "F1_percent": 20.66,
+                    "F2_percent": 17.6,
+                    "F3_percent": 19.5,
+                    "F4_percent": 13.19,
+                    "F5_percent": 20.95,
+                    "F6_percent": 15.8
+                },
+                {
+                    "time_h": 2,
+                    "sqrt_time_h0_5": 1.414,
+                    "F1_percent": 35.8,
+                    "F2_percent": 21.32,
+                    "F3_percent": 31.92,
+                    "F4_percent": 20.21,
+                    "F5_percent": 32.93,
+                    "F6_percent": 31.15
+                },
+                {
+                    "time_h": 3,
+                    "sqrt_time_h0_5": 1.732,
+                    "F1_percent": 45.11,
+                    "F2_percent": 37.9,
+                    "F3_percent": 39.55,
+                    "F4_percent": 27.1,
+                    "F5_percent": 43.4,
+                    "F6_percent": 44.4
+                },
+                {
+                    "time_h": 4,
+                    "sqrt_time_h0_5": 2.0,
+                    "F1_percent": 51.23,
+                    "F2_percent": 46.2,
+                    "F3_percent": 47.42,
+                    "F4_percent": 36.37,
+                    "F5_percent": 56.35,
+                    "F6_percent": 47.5
+                },
+                {
+                    "time_h": 5,
+                    "sqrt_time_h0_5": 2.236,
+                    "F1_percent": 65.5,
+                    "F2_percent": 52.4,
+                    "F3_percent": 55.45,
+                    "F4_percent": 43.5,
+                    "F5_percent": 67.66,
+                    "F6_percent": 62.0
+                },
+                {
+                    "time_h": 6,
+                    "sqrt_time_h0_5": 2.449,
+                    "F1_percent": 70.4,
+                    "F2_percent": 63.3,
+                    "F3_percent": 62.35,
+                    "F4_percent": 54.6,
+                    "F5_percent": 73.835,
+                    "F6_percent": 65.55
+                },
+                {
+                    "time_h": 7,
+                    "sqrt_time_h0_5": 2.645,
+                    "F1_percent": 80.51,
+                    "F2_percent": 69.8,
+                    "F3_percent": 69.87,
+                    "F4_percent": 61.4,
+                    "F5_percent": 82.321,
+                    "F6_percent": 74.5
+                },
+                {
+                    "time_h": 8,
+                    "sqrt_time_h0_5": 2.828,
+                    "F1_percent": 85.36,
+                    "F2_percent": 80.3,
+                    "F3_percent": 74.35,
+                    "F4_percent": 69.65,
+                    "F5_percent": 83.651,
+                    "F6_percent": 80.8
+                },
+                {
+                    "time_h": 9,
+                    "sqrt_time_h0_5": 3.0,
+                    "F1_percent": 89.4,
+                    "F2_percent": 88.15,
+                    "F3_percent": 81.65,
+                    "F4_percent": 77.4,
+                    "F5_percent": 88.162,
+                    "F6_percent": 85.4
+                },
+                {
+                    "time_h": 10,
+                    "sqrt_time_h0_5": 3.162,
+                    "F1_percent": 93.62,
+                    "F2_percent": 92.35,
+                    "F3_percent": 88.38,
+                    "F4_percent": 84.6,
+                    "F5_percent": 91.425,
+                    "F6_percent": 87.85
+                }
+            ]
+        },
+        "first_order_release_%ARA": {
+            "description": "Values labelled '% ARA' in Table 5; these likely correspond to log-transformed or residual amounts but exact definition is not given.",
+            "data": [
+                {
+                    "time_h": 1,
+                    "124_F1": 1.89,
+                    "124_F2": 1.91,
+                    "124_F3": 1.9,
+                    "124_F4": 1.93,
+                    "124_F5": 1.89,
+                    "124_F6": 1.92
+                },
+                {
+                    "time_h": 2,
+                    "124_F1": 1.8,
+                    "124_F2": 1.89,
+                    "124_F3": 1.83,
+                    "124_F4": 1.9,
+                    "124_F5": 1.82,
+                    "124_F6": 1.83
+                },
+                {
+                    "time_h": 3,
+                    "124_F1": 1.73,
+                    "124_F2": 1.79,
+                    "124_F3": 1.78,
+                    "124_F4": 1.86,
+                    "124_F5": 1.75,
+                    "124_F6": 1.74
+                },
+                {
+                    "time_h": 4,
+                    "124_F1": 1.68,
+                    "124_F2": 1.73,
+                    "124_F3": 1.72,
+                    "124_F4": 1.8,
+                    "124_F5": 1.63,
+                    "124_F6": 1.72
+                },
+                {
+                    "time_h": 5,
+                    "124_F1": 1.54,
+                    "124_F2": 1.67,
+                    "124_F3": 1.64,
+                    "124_F4": 1.77,
+                    "124_F5": 1.5,
+                    "124_F6": 1.57
+                },
+                {
+                    "time_h": 6,
+                    "124_F1": 1.47,
+                    "124_F2": 1.56,
+                    "124_F3": 1.57,
+                    "124_F4": 1.65,
+                    "124_F5": 1.41,
+                    "124_F6": 1.53
+                },
+                {
+                    "time_h": 7,
+                    "124_F1": 1.46,
+                    "124_F2": 1.48,
+                    "124_F3": 1.47,
+                    "124_F4": 1.58,
+                    "124_F5": 1.24,
+                    "124_F6": 1.4
+                },
+                {
+                    "time_h": 8,
+                    "124_F1": 1.16,
+                    "124_F2": 1.29,
+                    "124_F3": 1.4,
+                    "124_F4": 1.48,
+                    "124_F5": 1.21,
+                    "124_F6": 1.28
+                },
+                {
+                    "time_h": 9,
+                    "124_F1": 1.02,
+                    "124_F2": 1.07,
+                    "124_F3": 1.26,
+                    "124_F4": 1.35,
+                    "124_F5": 1.07,
+                    "124_F6": 1.16
+                },
+                {
+                    "time_h": 10,
+                    "124_F1": 0.8,
+                    "124_F2": 0.88,
+                    "124_F3": 1.06,
+                    "124_F4": 1.18,
+                    "124_F5": 0.93,
+                    "124_F6": 1.08
+                }
+            ]
+        },
+        "release_kinetics_summary": {
+            "zero_order_model_evaluated": true,
+            "first_order_model_evaluated": true,
+            "higuchi_model_evaluated": "Mentioned in table heading ('Zero order and Higuchi'); detailed Higuchi-specific parameters not listed.",
+            "korsmeyer_peppas_evaluated": false,
+            "best_fit_model_per_batch": null,
+            "mechanism_of_drug_release": "Not explicitly analysed; generally consistent with diffusion-controlled release from hydrophilic polymer matrices but not quantified."
+        },
+        "environmental_factors": {
+            "pH_effect": "Tablets were exposed to acidic medium first, then to phosphate buffer, mimicking gastric then intestinal pH; no enzyme presence described.",
+            "enzyme_effect": null,
+            "agitation": "Paddle stirring in USP-II apparatus (speed not specified).",
+            "temperature_C": 37
+        }
+    },
+    "tablet_properties_extended": {
+        "hardness_and_friability": {
+            "hardness_per_batch": {
+                "124_F1": 3.0,
+                "124_F2": 3.5,
+                "124_F3": 4.0,
+                "124_F4": 3.0,
+                "124_F5": 3.0,
+                "124_F6": 4.0
+            },
+            "friability_percent_per_batch": {
+                "124_F1": null,
+                "124_F2": null,
+                "124_F3": null,
+                "124_F4": null,
+                "124_F5": null,
+                "124_F6": null
+            }
+        },
+        "disintegration": {
+            "method": null,
+            "results_per_batch": null
+        },
+        "dissolution_profile_reference": "See release_properties.zero_order_cumulative_percent_release and release_properties.first_order_release_%ARA.",
+        "stability": {
+            "study_performed": false,
+            "conditions": null,
+            "duration": null,
+            "results": null
+        },
+        "dimensions_and_weight_variation": {
+            "thickness_cm_per_batch": {
+                "124_F1": 0.3,
+                "124_F2": 0.35,
+                "124_F3": 0.4,
+                "124_F4": 0.3,
+                "124_F5": 0.4,
+                "124_F6": 0.35
+            },
+            "weight_variation_percent_per_batch": {
+                "124_F1": 2.4,
+                "124_F2": 3.1,
+                "124_F3": 2.8,
+                "124_F4": 2.7,
+                "124_F5": 1.3,
+                "124_F6": 2.6
+            },
+            "diameter_cm": null
+        },
+        "swelling_and_floating": {
+            "swelling_index_percent": null,
+            "lag_time_min": null,
+            "total_floating_time_h": null,
+            "study_performed": false
+        }
+    },
+    "experimental_data_summary": {
+        "in_vitro": {
+            "studies": [
+                "Dissolution testing in acidic medium for 2 h followed by phosphate buffer for 10 h using USP-II apparatus.",
+                "Flow property measurements (angle of repose, densities, Carr’s index).",
+                "Physical evaluations (hardness, thickness, weight variation, drug content)."
+            ],
+            "statistical_analysis": "No formal statistical comparisons or ANOVA reported; results presented as mean values without SD or p-values.",
+            "key_performance_findings": [
+                "All physicochemical tablet parameters were within acceptable limits for hardness, weight variation, and drug content.",
+                "Formulations generally achieved 80–90% drug release within 10 h, indicating sustained-release behaviour.",
+                "Higher Carbopol 934 concentration (124_F4) produced more prolonged release compared to HPMC-only formulation (124_F1).",
+                "Combinations of HPMC and Sodium CMC (e.g., 124_F5) also showed sustained release comparable to Carbopol-containing formulations."
+            ]
+        },
+        "in_vivo": {
+            "studies_performed": false,
+            "details": null
+        }
+    },
+    "notes_on_missing_or_non_applicable_items": [
+        "Percent of pellets is not applicable because dosage form is a matrix tablet, not pellets.",
+        "Exact compression pressure/force, punch size, and machine settings are not reported.",
+        "Numerical friability values, standard deviations for any measurement, disintegration times, swelling index, floating/lag time, and stability study details are not provided in the article.",
+        "FT-IR data are summarized qualitatively (compatibility) without specific peak positions or spectra."
+    ]
+}
