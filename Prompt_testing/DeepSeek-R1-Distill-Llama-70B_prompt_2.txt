@@ -1,0 +1,78 @@
+Prompt: Design a formulation of extended-release tablets and estimate the percentage of active substance release at time points 0.00, 0.25, 0.50, 1.00, 2.00, 4.00, 6.00, 8.00, 10.00, 12.00, 20.00, 24.00 [h] using the following substances: Calcium-disodium ethylenediamine tetraacetic acid (CaNa2EDTA), Hydroxy Propyl Methyl Cellulose-K4M (HPMCK4M), Carbopol-940, avicel, citric acid, NaHCO3, NaCl, Carbopol.
+Base model answer:
+Here is a more descriptive yet concise version, expanding on the *why* behind each component and the release behavior without adding extra length.
+
+---
+
+### Extended-Release Tablet Formulation (per 500 mg tablet)
+
+| Component | Function | Quantity (mg) |
+| :--- | :--- | :--- |
+| CaNa₂EDTA | Active ingredient (chelating agent) | 200.0 |
+| HPMC K4M | Primary hydrophilic matrix former; hydrates to form a viscous gel barrier | 100.0 |
+| Carbopol-940 | Secondary polymer; reinforces gel strength at intestinal pH where HPMC weakens | 75.0 |
+| Avicel (MCC) | Filler and dry binder; improves powder flow and tablet hardness | 50.0 |
+| Citric acid | Acidifier; maintains low pH within the gel layer to protonate EDTA carboxylates, reducing solubility and burst release | 40.0 |
+| NaHCO₃ | Effervescent agent; generates CO₂ to create micropores for controlled water ingress, preventing rapid gel erosion | 15.0 |
+| NaCl | Ionic strength modifier; reduces osmotic pressure differential and competes with physiological cations to stabilize the matrix | 10.0 |
+| Mg stearate | Lubricant; prevents sticking during compression | 10.0 |
+| **Total** | | **500 mg** |
+
+**Why this works:** CaNa₂EDTA is highly water-soluble and ionizes rapidly in GI fluids. The combination of citric acid (acidic microclimate) and NaCl (ionic control) delays the initial dissolution front, while the HPMC/Carbopol dual-polymer system ensures that as one polymer's viscosity declines with pH, the other compensates—providing a consistent erosion front over 24 hours. The NaHCO₃ adds a subtle effervescent effect that prevents the gel layer from becoming too dense and impermeable, allowing steady drug diffusion without premature matrix collapse.
+
+---
+
+### Estimated Release Profile (% cumulative)
+
+| Time (h) | 0.00 | 0.25 | 0.50 | 1.00 | 2.00 | 4.00 | 6.00 | 8.00 | 10.00 | 12.00 | 20.00 | 24.00 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **% Release** | 0 | 6.5 | 12.0 | 22.0 | 34.5 | 48.0 | 59.0 | 68.5 | 76.0 | 82.0 | 93.5 | 98.0 |
+
+**Interpretation:** The initial 6.5% at 15 minutes represents only surface-associated drug, successfully suppressed by the acidic and ionic modifiers. From 2 to 12 hours, release progresses at a steady 3.5–4.0% per hour, characteristic of erosion-controlled zero-order kinetics. After 12 hours, as the polymer matrix thins and the gel layer weakens, release accelerates slightly, reaching complete dissolution by 24 hours. This profile ensures predictable once-daily dosing with minimal peak-trough fluctuations.
+
+---
+
+**Critical quality consideration:** Omitting either citric acid or NaCl would raise the 1-hour release above 35% due to rapid ion-exchange dissolution. This formulation maintains the 1-hour value at 22%, well within acceptable limits for extended-release products.
+
+Fine-tuned model answer:
+Based on the provided experimental data, I have identified a relevant formulation and its release profile that can be used to design an extended-release tablet and estimate the release of the active substance.
+
+**1. Proposed Formulation Design**
+
+The following formulation is adapted from batch **034_F8** in the document, which uses the active ingredient **Ca-Na2EDTA** and a combination of polymers and excipients that align with your request. The composition per tablet is as follows:
+
+| Ingredient | Mass (mg) |
+| :--- | :--- |
+| **CaNa2EDTA (API)** | 200 |
+| **HPMC-K4M** | 95 |
+| **Carbopol** | 100 |
+| **Avicel** | 55 |
+| **Citric Acid** | 30 |
+| **NaHCO3** | 70 |
+| **NaCl** | 100 |
+| **Total Tablet Weight** | **650** |
+
+**2. Estimated Release Profile**
+
+The following release profile is approximated from the dissolution data of a controlled-release formulation (batch **034_F4**) in the document, which shares a similar excipient system and API.
+
+| Time Point (h) | Estimated Cumulative Release (%) |
+| :--- | :--- |
+| 0.00 | 0.0 |
+| 0.25 | 7.2 |
+| 0.50 | 9.3 |
+| 1.00 | 16.3 |
+| 2.00 | 32.3 |
+| 4.00 | 48.7 |
+| 6.00 | 68.2 |
+| 8.00 | 87.3 |
+| 10.00 | 98.3 |
+| 12.00 | 99.9 |
+| 20.00 | 99.9 |
+| 24.00 | 99.9 |
+
+**Key Design Features:**
+
+*   **Controlled Release:** The combination of HPMC-K4M and Carbopol, along with NaHCO3 and citric acid (for potential floating behavior), is intended to sustain the drug release over 12-24 hours.
+*   **Release Profile:** The estimated profile shows an initial release of approximately 32% in the first 2 hours, followed by a gradual release, reaching near-complete release by 12 hours. This is typical of a matrix-based extended-release system.
+*   **Note:** This is an estimated profile based on a similar formulation. The actual release can be further tuned by adjusting the ratio of polymers (e.g., increasing HPMC-K4M to slow release, or adding more Carbopol).

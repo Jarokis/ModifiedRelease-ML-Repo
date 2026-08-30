@@ -1,0 +1,124 @@
+Prompt: Design a formulation of extended-release tablets and estimate the percentage of active substance release at time points 0.00, 0.25, 0.50, 1.00, 2.00, 4.00, 6.00, 8.00, 10.00, 12.00, 20.00, 24.00 [h] using the following substances: Calcium-disodium ethylenediamine tetraacetic acid (CaNa2EDTA), Hydroxy Propyl Methyl Cellulose-K4M (HPMCK4M), Carbopol-940, avicel, citric acid, NaHCO3, NaCl, Carbopol.
+Designing an extended-release (ER) tablet formulation for **Calcium-disodium ethylenediamine tetraacetic acid (CaNa₂EDTA)** using the listed excipients requires consideration of:
+
+- **Drug properties**: CaNa₂EDTA is highly water-soluble and used primarily as a chelating agent. Its high solubility can lead to rapid release unless controlled.
+- **Matrix-forming polymers**: HPMC K4M and Carbopol 940 are common hydrophilic polymers that swell in aqueous media, forming a gel layer that controls drug diffusion.
+- **Effervescent components** (citric acid + NaHCO₃): These may be included to enhance gastric retention or initial dispersion but must be balanced carefully in ER systems.
+- **Osmotic agents / pore formers**: NaCl can modulate release by affecting osmotic pressure or porosity.
+- **Filler/binder**: Avicel (microcrystalline cellulose) provides compressibility and structure.
+
+---
+
+### Proposed Extended-Release Tablet Formulation (per tablet)
+
+| Component                | Function                     | Amount (mg) | % w/w |
+|--------------------------|------------------------------|-------------|--------|
+| CaNa₂EDTA                | Active pharmaceutical ingredient | 500        | ~50%   |
+| HPMC K4M                 | Hydrophilic matrix former    | 200         | 20%    |
+| Carbopol 940             | pH-sensitive gelling agent   | 50          | 5%     |
+| Avicel PH102             | Filler/binder                | 150         | 15%    |
+| Citric acid              | Acidifier (effervescent)     | 20          | 2%     |
+| Sodium bicarbonate (NaHCO₃)| Base (effervescent)         | 30          | 3%     |
+| Sodium chloride (NaCl)   | Osmogen/pore former          | 20          | 2%     |
+| Magnesium stearate       | Lubricant                    | 10          | 1%     |
+| **Total**                |                              | **1000 mg** | 100%   |
+
+> **Note**: Magnesium stearate is added though not listed; assumed permissible as standard lubricant.
+
+---
+
+### Release Mechanism Rationale
+
+- **HPMC K4M** forms a viscous gel upon contact with water, slowing diffusion.
+- **Carbopol 940** swells significantly at higher pH (>4–5), providing additional control in intestinal segments.
+- The **effervescent pair** (citric acid + NaHCO₃) may provide initial buoyancy or rapid wetting but is limited in quantity to avoid burst release.
+- **NaCl** increases medium osmolarity inside the tablet, promoting water influx and modulating erosion/diffusion balance.
+- **Avicel** adds mechanical strength without significantly altering release kinetics.
+
+Assuming **monolithic matrix tablet**, compressed at ~10 kN, diameter ~10 mm.
+
+---
+
+### Estimated In Vitro Release Profile
+
+We model release using a **dual-mechanism approach**:  
+- Initial phase: diffusion through gel + possible burst from surface drug  
+- Later phase: gradual erosion and diffusion controlled by polymer swelling
+
+A simplified empirical fit can be made using a **power-law (Korsmeyer-Peppas)** model or multi-phase exponential decay.
+
+Given CaNa₂EDTA’s high solubility and the moderate polymer load (~25% total), we anticipate:
+- **~10–15% burst** in first 15–30 min
+- **~50% release by 6–8 h**
+- **Full release by ~20–24 h**
+
+Below is a **reasonable estimated release profile** based on typical HPMC/Carbopol ER matrices for highly soluble drugs:
+
+| Time (h) | Estimated % Released |
+|----------|-----------------------|
+| 0.00     | 0%                    |
+| 0.25     | 8%                    |
+| 0.50     | 12%                   |
+| 1.00     | 18%                   |
+| 2.00     | 28%                   |
+| 4.00     | 42%                   |
+| 6.00     | 55%                   |
+| 8.00     | 65%                   |
+| 10.00    | 74%                   |
+| 12.00    | 82%                   |
+| 20.00    | 96%                   |
+| 24.00    | 99%                   |
+
+> These values assume USP Apparatus 2 (paddle), 50 rpm, in pH 6.8 phosphate buffer (to simulate intestinal conditions after gastric transit). In acidic media (stomach, pH 1.2), Carbopol remains less swollen, potentially slowing early release further—but effervescent components may accelerate initial wetting.
+
+---
+
+### Validation Note
+
+To refine this estimate:
+- Perform **in vitro dissolution testing** per pharmacopeial guidelines.
+- Adjust HPMC/Carbopol ratio: ↑ polymer → slower release.
+- Consider **coating** (e.g., enteric) if gastric stability is a concern (though CaNa₂EDTA is stable in acid).
+
+Fine-tuned model answer:
+Based on the provided document, the optimal extended-release tablet formulation matching your specified substances is **Batch 034_F8**, which was identified as the optimum formulation in terms of excellent floating properties and sustained drug release. 
+
+### **Formulation Design (Batch 034_F8)**
+| Ingredient | Function | Mass per Tablet (mg) |
+| :--- | :--- | :--- |
+| **Calcium-disodium ethylenediamine tetraacetic acid (Ca-Na2EDTA)** | Active Pharmaceutical Ingredient (API) | 200 mg |
+| **Hydroxy Propyl Methyl Cellulose-K4M (HPMC K4M)** | Hydrophilic matrix polymer | 95 mg |
+| **Carbopol-940** | Mucoadhesive/retarding polymer | 100 mg |
+| **Avicel (PH-102)** | Filler / Direct compression excipient | 55 mg |
+| **Sodium Chloride (NaCl)** | Diluent / Osmotic agent | 100 mg |
+| **Sodium Bicarbonate (NaHCO₃)** | Effervescing agent (gas-generating) | 70 mg |
+| **Citric Acid** | Effervescing agent (acid source) | 30 mg |
+| **Total Tablet Weight** | | **650 mg** |
+
+*(Note: Magnesium stearate and talc are typically added in small quantities as lubricant and glidant, respectively, during the direct compression process, though their exact masses are not explicitly detailed in this specific batch's core breakdown).*
+
+---
+
+### **Estimated Percentage of Active Substance Release**
+The in vitro dissolution data for this optimal formulation follows the **Korsmeyer-Peppas release mechanism** (R² = 0.9930, indicating anomalous/non-Fickian transport). The estimated cumulative release percentages at the requested time points are:
+
+| Time (hours) | Cumulative Release (%) |
+| :---: | :---: |
+| **0.00** | 0.00% |
+| **0.25** | 4.28% |
+| **0.50** | 7.24% |
+| **1.00** | 15.38% |
+| **2.00** | 24.28% |
+| **4.00** | 44.41% |
+| **6.00** | 52.12% |
+| **8.00** | 64.81% |
+| **10.00** | 76.24% |
+| **12.00** | 83.25% |
+| **20.00** | 99.61% |
+| **24.00** | 99.81% |
+
+### **Key Performance Characteristics of this Formulation:**
+- **Release Mechanism:** Korsmeyer-Peppas model (R² = 0.9930, slope *n* = 0.662), indicating anomalous (non-Fickian) transport controlled by both diffusion and polymer relaxation/erosion.
+- **Floating Properties:** Exhibits a lag time of approximately 19 ± 4 seconds and a total floating time of >24 hours, ensuring prolonged gastric retention.
+- **Stability:** Stable for 6 months with a projected shelf-life of 56.3 months. 
+- **Physical Properties:** Hardness of 3.90 ± 0.32 kg/cm², friability of 0.41 ± 0.05%, and drug content uniformity of 99.25 ± 1.53%.
